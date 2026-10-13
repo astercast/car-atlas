@@ -1,73 +1,39 @@
 {
- "note": "Price Watch stage 1 tracks completed auction results, not live listings. Every record below was certified at ingest (2026-10-13) against a published source naming the car, the price, the house, and the date; the source is linked on each record. Prices are historical facts about one specific car on one specific day — not asking prices, not estimates, and not a valuation of any other example. Results that could not be certified to that standard were skipped, not estimated (see skippedSources).",
+ "note": "Price Watch stage 1 tracks completed auction results, not live listings. Every record below was certified at ingest against a published source naming the car, the price, the house, and the date; the source is linked on each record. Wave 4 certified 7 results (2026-10-13); wave 5 added 4 more to the same standard. Prices are historical facts about one specific car on one specific day — not asking prices, not estimates, and not a valuation of any other example. Results that could not be certified to that standard were skipped, not estimated (see skippedSources).",
  "results": [
   {
    "currency": "EUR",
-   "event": "RM Sotheby's — Mercedes-Benz Museum, Stuttgart",
+   "event": "RM Sotheby's — Mercedes-Benz Museum, Stuttgart (single-car sale)",
    "make": "mercedes-benz",
    "makeName": "Mercedes-Benz",
-   "model": "300 SLR Uhlenhaut Coupé",
+   "model": "W 196 R Stromlinienwagen (chassis 00009/54)",
    "modelSlug": null,
-   "price": 135000000,
-   "priceBasis": "As announced by Mercedes-Benz (RM Sotheby's sale)",
-   "saleDate": "2022-05-05",
+   "price": 51155000,
+   "priceBasis": "Including buyer's premium (hammer €46,500,000)",
+   "saleDate": "2025-02-01",
    "source": {
-    "name": "Mercedes-Benz Group (official announcement)",
-    "url": "https://group.mercedes-benz.com/company/news/uhlenhaut-coupe.html"
+    "name": "Motor Sports NewsWire — RM Sotheby's sale report (2 Feb 2025)",
+    "url": "https://motorsportsnewswire.com/2025/02/02/most-valuable-grand-prix-car-ever-sold-the-1954-mercedes-benz-w-196-r-stromlinienwagen-sells-for-e51155000/"
    },
    "status": "sold",
-   "year": 1955
+   "year": 1954
   },
   {
    "currency": "USD",
-   "event": "RM Sotheby's Monterey",
+   "event": "RM Sotheby's New York",
    "make": "ferrari",
    "makeName": "Ferrari",
-   "model": "250 GTO (chassis 3413 GT)",
+   "model": "330 LM / 250 GTO (chassis 3765)",
    "modelSlug": null,
-   "price": 48405000,
-   "priceBasis": "Including buyer's premium (hammer $44,000,000)",
-   "saleDate": "2018-08-25",
+   "price": 51705000,
+   "priceBasis": "Including buyer's premium (hammer $47,000,000)",
+   "saleDate": "2023-11-13",
    "source": {
-    "name": "RM Sotheby's press release",
-    "url": "https://rmsothebys.com/media-center/press-releases/the-most-valuable-car-ever-sold-at-auction-rm-sotheby-s-sells-1962-ferrari-250-gto-for-484-million/"
+    "name": "Classic Car Auctions — record of the RM Sotheby's New York 2023 result",
+    "url": "https://www.classic-car-auctions.info/records/most-expensive-ferrari-ever-2023-1962-ferrari-250-gto-330-lm/"
    },
    "status": "sold",
    "year": 1962
-  },
-  {
-   "currency": "USD",
-   "event": "Gooding & Company, Pebble Beach",
-   "make": "mclaren",
-   "makeName": "McLaren",
-   "model": "F1 (chassis 029)",
-   "modelSlug": "f1",
-   "price": 20465000,
-   "priceBasis": "As reported from the sale",
-   "saleDate": "2021-08-14",
-   "source": {
-    "name": "Classic Car Auctions — Gooding Pebble Beach 2021 results record",
-    "url": "https://www.classic-car-auctions.info/usa/california/pebble-beach/1995-mclaren-f1-the-most-expensive-mclaren-ever-sold-at-public-auction/"
-   },
-   "status": "sold",
-   "year": 1995
-  },
-  {
-   "currency": "USD",
-   "event": "RM Sotheby's Monterey",
-   "make": "porsche",
-   "makeName": "Porsche",
-   "model": "911 Sally Special (992, one-off)",
-   "modelSlug": "911",
-   "price": 3600000,
-   "priceBasis": "Hammer price (charity sale; proceeds donated)",
-   "saleDate": "2022-08-20",
-   "source": {
-    "name": "Porsche Newsroom",
-    "url": "https://newsroom.porsche.com/pdf/18958510-f06a-4a7b-be80-80e82db32e1b?print"
-   },
-   "status": "sold",
-   "year": 2022
   },
   {
    "currency": "USD",
@@ -89,6 +55,40 @@
   {
    "currency": "USD",
    "event": "Bring a Trailer",
+   "make": "toyota",
+   "makeName": "Toyota",
+   "model": "Land Cruiser FJ40 (lot 94386)",
+   "modelSlug": "land-cruiser",
+   "price": 26750,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2022-12-26",
+   "source": {
+    "name": "CLASSIC.COM record of the Bring a Trailer result",
+    "url": "https://www.classic.com/a/bring-a-trailer-auctions-JknXEWB/lots/1980-toyota-land-cruiser-fj40-Wq8e1Xn/?page=2"
+   },
+   "status": "sold",
+   "year": 1980
+  },
+  {
+   "currency": "USD",
+   "event": "RM Sotheby's Monterey",
+   "make": "porsche",
+   "makeName": "Porsche",
+   "model": "911 Sally Special (992, one-off)",
+   "modelSlug": "911",
+   "price": 3600000,
+   "priceBasis": "Hammer price (charity sale; proceeds donated)",
+   "saleDate": "2022-08-20",
+   "source": {
+    "name": "Porsche Newsroom",
+    "url": "https://newsroom.porsche.com/pdf/18958510-f06a-4a7b-be80-80e82db32e1b?print"
+   },
+   "status": "sold",
+   "year": 2022
+  },
+  {
+   "currency": "USD",
+   "event": "Bring a Trailer",
    "make": "ford",
    "makeName": "Ford",
    "model": "Shelby Mustang GT500 Fastback 4-Speed (lot 80632)",
@@ -104,28 +104,97 @@
    "year": 1967
   },
   {
-   "currency": "USD",
-   "event": "Bring a Trailer",
-   "make": "toyota",
-   "makeName": "Toyota",
-   "model": "Land Cruiser FJ40 (lot 94386)",
-   "modelSlug": "land-cruiser",
-   "price": 26750,
-   "priceBasis": "As recorded for the lot",
-   "saleDate": "2022-12-26",
+   "currency": "EUR",
+   "event": "RM Sotheby's — Mercedes-Benz Museum, Stuttgart",
+   "make": "mercedes-benz",
+   "makeName": "Mercedes-Benz",
+   "model": "300 SLR Uhlenhaut Coupé",
+   "modelSlug": null,
+   "price": 135000000,
+   "priceBasis": "As announced by Mercedes-Benz (RM Sotheby's sale)",
+   "saleDate": "2022-05-05",
    "source": {
-    "name": "CLASSIC.COM record of the Bring a Trailer result",
-    "url": "https://www.classic.com/a/bring-a-trailer-auctions-JknXEWB/lots/1980-toyota-land-cruiser-fj40-Wq8e1Xn/?page=2"
+    "name": "Mercedes-Benz Group (official announcement)",
+    "url": "https://group.mercedes-benz.com/company/news/uhlenhaut-coupe.html"
    },
    "status": "sold",
-   "year": 1980
+   "year": 1955
+  },
+  {
+   "currency": "USD",
+   "event": "Gooding & Company, Pebble Beach",
+   "make": "mclaren",
+   "makeName": "McLaren",
+   "model": "F1 (chassis 029)",
+   "modelSlug": "f1",
+   "price": 20465000,
+   "priceBasis": "As reported from the sale",
+   "saleDate": "2021-08-14",
+   "source": {
+    "name": "Classic Car Auctions — Gooding Pebble Beach 2021 results record",
+    "url": "https://www.classic-car-auctions.info/usa/california/pebble-beach/1995-mclaren-f1-the-most-expensive-mclaren-ever-sold-at-public-auction/"
+   },
+   "status": "sold",
+   "year": 1995
+  },
+  {
+   "currency": "USD",
+   "event": "RM Sotheby's Monterey",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "model": "250 GTO (chassis 3413 GT)",
+   "modelSlug": null,
+   "price": 48405000,
+   "priceBasis": "Including buyer's premium (hammer $44,000,000)",
+   "saleDate": "2018-08-25",
+   "source": {
+    "name": "RM Sotheby's press release",
+    "url": "https://rmsothebys.com/media-center/press-releases/the-most-valuable-car-ever-sold-at-auction-rm-sotheby-s-sells-1962-ferrari-250-gto-for-484-million/"
+   },
+   "status": "sold",
+   "year": 1962
+  },
+  {
+   "currency": "USD",
+   "event": "RM Sotheby's Monterey",
+   "make": "aston-martin",
+   "makeName": "Aston Martin",
+   "model": "DBR1 (chassis DBR1/1)",
+   "modelSlug": null,
+   "price": 22550000,
+   "priceBasis": "Including buyer's premium",
+   "saleDate": "2017-08-18",
+   "source": {
+    "name": "RM Sotheby's — Monterey 2017 sale report",
+    "url": "https://rmsothebys.com/auctions/MO17"
+   },
+   "status": "sold",
+   "year": 1956
+  },
+  {
+   "currency": "EUR",
+   "event": "Artcurial — Rétromobile, Paris",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "model": "335 Sport Scaglietti (chassis 0674)",
+   "modelSlug": null,
+   "price": 32075200,
+   "priceBasis": "Including buyer's premium",
+   "saleDate": "2016-02-05",
+   "source": {
+    "name": "Classic Car Auctions — Artcurial Paris Rétromobile 2016 results",
+    "url": "https://www.classic-car-auctions.info/european/2016-artcurial-paris-retromobile-sale-results/"
+   },
+   "status": "sold",
+   "year": 1957
   }
  ],
  "skippedSources": [
   "Private transactions (e.g. reported private 250 GTO sales) — not auction results; excluded by design.",
   "Pre-sale estimates and unsold / bid-to lots — not results; excluded.",
   "Cars & Bids and Hemmings results — no individual lot was certified to the car + price + house + date standard at ingest; skipped, not estimated.",
-  "Aggregator summary statistics (medians, averages) — stage 1 publishes individual certified results only; cohort statistics arrive only when they can be computed from certified records."
+  "Aggregator summary statistics (medians, averages) — stage 1 publishes individual certified results only; cohort statistics arrive only when they can be computed from certified records.",
+  "Wave 5 pass: the 1935 Duesenberg SSJ ($22,000,000 incl. premium, Gooding & Company, Pebble Beach) — car, price and house are published, but the sources consulted date the sale only to the two-day event (24–25 August 2018), not to the day; skipped rather than dated by inference."
  ],
  "stage": "Stage 1 — auction results",
  "updatedAt": "2026-10-13",

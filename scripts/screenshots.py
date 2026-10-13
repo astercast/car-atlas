@@ -26,6 +26,10 @@ PAGES = [
     ("model-corvette.png", "model.html?make=chevrolet&model=corvette", None),
     ("model-land-cruiser.png", "model.html?make=toyota&model=land-cruiser", None),
     ("make-ferrari.png", "make.html?make=ferrari", None),
+    ("make-cord.png", "make.html?make=cord", None),
+    ("model-810.png", "model.html?make=cord&model=810-812", None),
+    ("model-tr6.png", "model.html?make=triumph&model=tr6", None),
+    ("model-interceptor.png", "model.html?make=jensen&model=interceptor", None),
 ]
 
 MOBILE_PAGES = [
@@ -34,6 +38,7 @@ MOBILE_PAGES = [
     ("model-dmc-12-mobile.png", "model.html?make=delorean&model=dmc-12", None),
     ("model-mustang-mobile.png", "model.html?make=ford&model=mustang", None),
     ("buy-mobile.png", "buy.html", None),
+    ("model-hornet-mobile.png", "model.html?make=hudson&model=hornet", None),
 ]
 
 

@@ -5,9 +5,9 @@ and tens of thousands of models, so coverage ships in waves and this
 file is the honest ledger. If a car isn't listed here as seeded, it
 isn't in the atlas — no silent gaps dressed up as completeness.
 
-## Seeded (waves 1–4, 2026-10-12/13)
+## Seeded (waves 1–5, 2026-10-12/13)
 
-**40 makes, 180 models, 373 generations** (exact counts are printed
+**49 makes, 216 models, 421 generations** (exact counts are printed
 by `scripts/build.py` and shown in the homepage stats strip).
 
 Wave 1 makes: Toyota, Honda, Nissan, Mazda, Subaru, Hyundai, Ford,
@@ -29,10 +29,15 @@ Wave 4 depth upgrade: the four icons — Porsche 911 (8 generations),
 Chevrolet Corvette (8), Ford Mustang (7), Toyota Land Cruiser (8) —
 now carry their full generation lists, 19 generations added.
 
-Also seeded: 35 clubs/networks — national level for most marques,
+Wave 5 makes (historic batch 2, all defunct): Cord, Hudson, Nash,
+Kaiser, Stutz, Triumph, Austin-Healey, Jensen, TVR (36 models,
+48 generations — the 810/812 and the Hornet, the TR line and the
+Big Healeys, the Interceptor and the Bearcat).
+
+Also seeded: 43 clubs/networks — national level for most marques,
 with chapter-level entries (regional chapters with their own
-calendars) beginning in wave 2, and marque clubs for seven of the
-wave-3 historic makes — plus 13 buying channels and 4 buying classes.
+calendars) beginning in wave 2, and marque clubs for the wave-3 and
+wave-5 historic makes — plus 13 buying channels and 4 buying classes.
 
 Photography (wave 4): 49 real, CC-licensed photographs from Wikimedia
 Commons are wired to 40 model records and all 40 make records, each
@@ -48,12 +53,13 @@ Mitsubishi, Pagani, Peugeot, Polestar, Ram, Renault, Rimac, Rivian,
 Rolls-Royce, SEAT, Škoda, Smart, Spyker, Suzuki.
 
 **Makes (historic/defunct — the "ever made" promise demands them):**
-Austin, Austin-Healey, Borgward, Cord, De Tomaso, Facel Vega,
-Hudson, Iso, Jensen, Kaiser, Marlin, MG (pre-SAIC lineage), Morgan
-(living, listed in spirit), Nash, NSU, Opel, Panhard, Saturn, Simca,
-Stutz, Talbot-Lago, Triumph, TVR, Vauxhall, Willys. (Batch 1 —
-AMC, DeLorean, Duesenberg, Oldsmobile, Packard, Plymouth, Pontiac,
-Saab, Studebaker, Tucker — seeded in wave 3.)
+Austin, Borgward, De Tomaso, Facel Vega, Iso, Marlin, MG (pre-SAIC
+lineage), Morgan (living, listed in spirit), NSU, Opel, Panhard,
+Saturn, Simca, Talbot-Lago, Vauxhall, Willys. (Batch 1 — AMC,
+DeLorean, Duesenberg, Oldsmobile, Packard, Plymouth, Pontiac, Saab,
+Studebaker, Tucker — seeded in wave 3. Batch 2 — Austin-Healey,
+Cord, Hudson, Jensen, Kaiser, Nash, Stutz, Triumph, TVR — seeded
+in wave 5.)
 
 **Depth upgrades planned per seeded make:** full generation lists
 for the remaining models (the four icons were completed in wave 4),
@@ -65,9 +71,9 @@ more regions (South America, Middle East, South & Southeast Asia,
 Africa), model-specific registries (air-cooled Porsche, early Bronco,
 rotary, and hundreds more).
 
-**Buying layer:** Price Watch stage 1 shipped in wave 4 — 7
-certified auction results in `data/v1/price-watch.json`, each with
-its published source. Still planned: listings ingest adapters for
+**Buying layer:** Price Watch stage 1 shipped in wave 4 and grew
+in wave 5 — 11 certified auction results in
+`data/v1/price-watch.json`, each with its published source. Still planned: listings ingest adapters for
 the channels in `buying.json` and cohort medians computed from
 certified records only.
 

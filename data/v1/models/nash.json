@@ -1,0 +1,145 @@
+{
+ "make": "nash",
+ "models": [
+  {
+   "bodyStyles": [
+    "Sedan",
+    "Coupe",
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Airflyte cars are the design icons; the 1957 V8 cars are the rarest. Nash's overhead-valve engineering is durable — neglect, not design, kills them.",
+   "generations": [
+    {
+     "code": "Ambassador 1",
+     "name": "Ambassador Eight",
+     "note": "The twin-ignition overhead-valve eight was Nash's pride: two spark plugs per cylinder in the 1930s. War stopped production in 1942; the six-cylinder Ambassador returned for 1946–48.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.3L straight-8",
+      "power": "115–125 hp"
+     },
+     "years": "1932–1948"
+    },
+    {
+     "code": "Ambassador 2",
+     "name": "Ambassador Airflyte / V8",
+     "note": "The 1949 Airflyte brought the enclosed-wheel 'bathtub' body and seats that folded into a bed. A V8 arrived in 1956; the 1957 cars, restyled with stacked quad headlamps, were the last Nash-badged Ambassadors.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "3.8L–4.1L inline-6 / 5.8L V8",
+      "power": "112–255 hp"
+     },
+     "years": "1949–1957"
+    }
+   ],
+   "intro": "Nash's flagship for a quarter century: overhead-valve engines when rivals ran flatheads, unit construction, reclining seats, and the bathtub Airflyte styling that defined post-war Nash. The nameplate outlived the company — AMC kept building Ambassadors after Nash itself was gone.",
+   "name": "Ambassador",
+   "segment": "Full-size luxury car",
+   "slug": "ambassador",
+   "status": "Discontinued",
+   "trims": [
+    "Ambassador Eight",
+    "Ambassador Super",
+    "Ambassador Custom",
+    "Ambassador Airflyte"
+   ],
+   "years": "1932–1957"
+  },
+  {
+   "bodyStyles": [
+    "Sedan",
+    "Convertible",
+    "Wagon"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Convertibles and Country Club hardtops lead; these were the best-selling Ramblers and the survivors are plentiful enough that condition decides price.",
+   "generations": [
+    {
+     "code": "Rambler",
+     "name": "Rambler (Nash)",
+     "note": "Launched as a convertible — the body engineering shortcut that let the unit body stay rigid — then a wagon and hardtop. The L-head six was modest; the idea was not.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.8L inline-6",
+      "power": "82–90 hp"
+     },
+     "years": "1950–1955"
+    }
+   ],
+   "intro": "The car that started the American compact era: George Romney's bet that a smaller, cheaper, well-equipped Nash could beat the Big Three's bulk. It could. The Rambler name went on to anchor AMC, and this little Airflyte convertible is where it began.",
+   "name": "Rambler",
+   "segment": "Compact car",
+   "slug": "rambler",
+   "status": "Discontinued",
+   "trims": [
+    "Rambler Convertible",
+    "Rambler Country Club",
+    "Rambler Cross Country wagon"
+   ],
+   "years": "1950–1955"
+  },
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Cheerful, simple and fully supported by the Metropolitan clubs and parts network; rust in the sills and A-posts is the whole inspection.",
+   "generations": [
+    {
+     "code": "Metropolitan",
+     "name": "Metropolitan 1200 / 1500",
+     "note": "Series I cars used Austin's 1.2-litre A40 engine at 42 hp; the 1.5-litre B-series from 1956 gave 52–55 hp. About 95,000 were built, most for North America.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "1.2L–1.5L inline-4 (Austin)",
+      "power": "42–55 hp"
+     },
+     "years": "1954–1962"
+    }
+   ],
+   "intro": "An American idea built in England: Nash commissioned Austin to build its tiny Metropolitan in Birmingham, sold it as a Nash and then a Hudson, and proved a market for small cars existed a decade before Detroit admitted it. Two-tone paint and a continental spare were standard charm.",
+   "name": "Metropolitan",
+   "segment": "Subcompact car",
+   "slug": "metropolitan",
+   "status": "Discontinued",
+   "trims": [
+    "Metropolitan coupe",
+    "Metropolitan convertible"
+   ],
+   "years": "1954–1962"
+  },
+  {
+   "bodyStyles": [
+    "Convertible",
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Genuinely rare and historically first; Pininfarina cars carry the premium. Panelcraft and Farina body provenance should be documented car by car.",
+   "generations": [
+    {
+     "code": "Nash-Healey",
+     "name": "Nash-Healey roadster / Le Mans coupé",
+     "note": "Just 506 cars were built. The 1952 redesign by Pinin Farina added the coupé and the larger 4.1-litre 'Le Mans' dual-carburettor engine.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "3.8L–4.1L inline-6",
+      "power": "125–140 hp"
+     },
+     "years": "1951–1954"
+    }
+   ],
+   "intro": "America's first post-war sports car beat the Corvette to market: Donald Healey's chassis, Nash's overhead-valve six, and from 1952 a Pininfarina body built in Turin. A Nash-Healey finished third overall at Le Mans in 1952 — the marque's finest hour, in a car almost nobody bought.",
+   "name": "Nash-Healey",
+   "segment": "Sports car",
+   "slug": "nash-healey",
+   "status": "Discontinued",
+   "trims": [
+    "Nash-Healey roadster",
+    "Nash-Healey coupé"
+   ],
+   "years": "1951–1954"
+  }
+ ]
+}

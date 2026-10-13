@@ -3399,5 +3399,697 @@
   "intro": "With the Dodge Caravan, the 1984 Voyager invented the modern minivan: front-wheel drive, a car floor height, and a sliding door, selling families out of station wagons by the millions. Lee Iacocca's second act saved Chrysler.",
   "buyingClass": "vintage",
   "generationCount": 1
+ },
+ {
+  "type": "make",
+  "make": "cord",
+  "slug": "cord",
+  "name": "Cord",
+  "country": "United States",
+  "founded": 1929,
+  "blurb": "E.L. Cord's own nameplate, built by Auburn: America's first front-wheel-drive production cars, and in the 810 a design so advanced the Museum of Modern Art put it on a pedestal. The empire fell in 1937. The cars never fell at all.",
+  "modelCount": 2
+ },
+ {
+  "type": "model",
+  "make": "cord",
+  "makeName": "Cord",
+  "slug": "l-29",
+  "name": "L-29",
+  "years": "1929–1932",
+  "status": "Discontinued",
+  "segment": "Luxury touring car",
+  "bodyStyles": [
+   "Sedan",
+   "Convertible",
+   "Coupe"
+  ],
+  "intro": "The first American production car with front-wheel drive: E.L. Cord's answer to a market that thought drive belonged at the back. Low, long and handsome, it sold refinement and novelty in equal measure — until the Depression sold neither.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "cord",
+  "makeName": "Cord",
+  "slug": "810-812",
+  "name": "810 / 812",
+  "years": "1936–1937",
+  "status": "Discontinued",
+  "segment": "Luxury car",
+  "bodyStyles": [
+   "Sedan",
+   "Convertible",
+   "Coupe"
+  ],
+  "intro": "Gordon Buehrig's masterpiece and the most advanced American car of its decade: front-wheel drive, hidden headlamps, a supercharger option, and not one exposed hinge or running board. It arrived too late and too expensive to save the company — and became immortal anyway.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "make",
+  "make": "hudson",
+  "slug": "hudson",
+  "name": "Hudson",
+  "country": "United States",
+  "founded": 1909,
+  "blurb": "Detroit's cleverest independent: the step-down body of 1948 put passengers inside the frame rails and made Hudsons handle like nothing else in America — and the Hornet's big six beat the V8s at their own game on the NASCAR circuit. Merged into AMC in 1954; the name ended in 1957.",
+  "modelCount": 4
+ },
+ {
+  "type": "model",
+  "make": "hudson",
+  "makeName": "Hudson",
+  "slug": "essex",
+  "name": "Essex",
+  "years": "1919–1932",
+  "status": "Discontinued",
+  "segment": "Mid-size car",
+  "bodyStyles": [
+   "Sedan",
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "Hudson's budget line that outsold its parent: the Essex made closed cars affordable, put a six-cylinder engine in reach of ordinary buyers, and carried Hudson through the 1920s. The Super Six name above it said everything about the formula — more cylinders, less money.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "hudson",
+  "makeName": "Hudson",
+  "slug": "terraplane",
+  "name": "Terraplane",
+  "years": "1932–1947",
+  "status": "Discontinued",
+  "segment": "Mid-size car",
+  "bodyStyles": [
+   "Sedan",
+   "Coupe",
+   "Convertible",
+   "Pickup"
+  ],
+  "intro": "Launched off the Essex County Airport runway in 1932 — the name is the point — the Terraplane was Hudson's volume fighter: steel-bodied, quick for its price, and famous enough that bluesman Robert Johnson sang about one. It became simply 'Hudson' after 1938.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "hudson",
+  "makeName": "Hudson",
+  "slug": "jet",
+  "name": "Jet",
+  "years": "1953–1954",
+  "status": "Discontinued",
+  "segment": "Compact car",
+  "bodyStyles": [
+   "Sedan"
+  ],
+  "intro": "Hudson's compact gamble: a small, tall, well-equipped sedan launched into the teeth of the horsepower war. It was a good car in the wrong year, and its development cost is part of why Hudson merged into AMC in 1954.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "hudson",
+  "makeName": "Hudson",
+  "slug": "hornet",
+  "name": "Hornet",
+  "years": "1951–1957",
+  "status": "Discontinued",
+  "segment": "Full-size car",
+  "bodyStyles": [
+   "Sedan",
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "The step-down Hudson at its peak: a low, unit-body sedan whose big six humiliated V8s on the early NASCAR circuit — 'Fabulous Hudson Hornet' was a results sheet before it was a cartoon. The last true Hudsons before the AMC years turned it into a badge.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "make",
+  "make": "nash",
+  "slug": "nash",
+  "name": "Nash",
+  "country": "United States",
+  "founded": 1916,
+  "blurb": "Charles Nash built the industry's quiet innovator: overhead-valve engines, unit bodies, reclining seats, and in the 1950 Rambler, America's first successful compact. Nash merged with Hudson to form AMC in 1954 — and its Rambler idea became the new company's whole future.",
+  "modelCount": 4
+ },
+ {
+  "type": "model",
+  "make": "nash",
+  "makeName": "Nash",
+  "slug": "ambassador",
+  "name": "Ambassador",
+  "years": "1932–1957",
+  "status": "Discontinued",
+  "segment": "Full-size luxury car",
+  "bodyStyles": [
+   "Sedan",
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "Nash's flagship for a quarter century: overhead-valve engines when rivals ran flatheads, unit construction, reclining seats, and the bathtub Airflyte styling that defined post-war Nash. The nameplate outlived the company — AMC kept building Ambassadors after Nash itself was gone.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "nash",
+  "makeName": "Nash",
+  "slug": "rambler",
+  "name": "Rambler",
+  "years": "1950–1955",
+  "status": "Discontinued",
+  "segment": "Compact car",
+  "bodyStyles": [
+   "Sedan",
+   "Convertible",
+   "Wagon"
+  ],
+  "intro": "The car that started the American compact era: George Romney's bet that a smaller, cheaper, well-equipped Nash could beat the Big Three's bulk. It could. The Rambler name went on to anchor AMC, and this little Airflyte convertible is where it began.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "nash",
+  "makeName": "Nash",
+  "slug": "metropolitan",
+  "name": "Metropolitan",
+  "years": "1954–1962",
+  "status": "Discontinued",
+  "segment": "Subcompact car",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "An American idea built in England: Nash commissioned Austin to build its tiny Metropolitan in Birmingham, sold it as a Nash and then a Hudson, and proved a market for small cars existed a decade before Detroit admitted it. Two-tone paint and a continental spare were standard charm.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "nash",
+  "makeName": "Nash",
+  "slug": "nash-healey",
+  "name": "Nash-Healey",
+  "years": "1951–1954",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Convertible",
+   "Coupe"
+  ],
+  "intro": "America's first post-war sports car beat the Corvette to market: Donald Healey's chassis, Nash's overhead-valve six, and from 1952 a Pininfarina body built in Turin. A Nash-Healey finished third overall at Le Mans in 1952 — the marque's finest hour, in a car almost nobody bought.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "make",
+  "make": "kaiser",
+  "slug": "kaiser",
+  "name": "Kaiser",
+  "country": "United States",
+  "founded": 1945,
+  "blurb": "Shipbuilder Henry J. Kaiser took on Detroit from the world's largest factory building, with partner Joseph Frazer: for one year, 1947, Kaiser-Frazer outsold every other independent. The cars were handsome, the six was honest, and the Big Three's scale won in the end. US car production ended in 1955.",
+  "modelCount": 3
+ },
+ {
+  "type": "model",
+  "make": "kaiser",
+  "makeName": "Kaiser",
+  "slug": "kaiser",
+  "name": "Kaiser (Special / Deluxe / Manhattan)",
+  "years": "1947–1955",
+  "status": "Discontinued",
+  "segment": "Full-size car",
+  "bodyStyles": [
+   "Sedan",
+   "Coupe"
+  ],
+  "intro": "Henry J. Kaiser's post-war challenger: built in Ford's vast Willow Run plant, styled with real flair by 1951, and powered throughout by the same Continental six — which is why the Manhattan's 1954 supercharger mattered. Kaiser outsold every other independent in 1947 and never quite caught the Big Three again.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "kaiser",
+  "makeName": "Kaiser",
+  "slug": "henry-j",
+  "name": "Henry J",
+  "years": "1951–1954",
+  "status": "Discontinued",
+  "segment": "Compact car",
+  "bodyStyles": [
+   "Sedan"
+  ],
+  "intro": "The $1,300 car: Kaiser's austerity special, named for the boss, built to undercut everyone. No trunk lid on early cars — you loaded through the folded seat. It sold respectably, seeded the compact idea at Kaiser, and survives today mostly as gasser drag-car raw material.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "kaiser",
+  "makeName": "Kaiser",
+  "slug": "darrin",
+  "name": "Darrin",
+  "years": "1954",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Convertible"
+  ],
+  "intro": "The Kaiser-Darrin: a fibreglass sports car with doors that slide into the front wings, launched the same season as the Corvette and gone within the year. Howard 'Dutch' Darrin put his name on it; Kaiser built 435 before the money ran out.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "make",
+  "make": "stutz",
+  "slug": "stutz",
+  "name": "Stutz",
+  "country": "United States",
+  "founded": 1911,
+  "blurb": "Harry Stutz debuted at Indianapolis in 1911 and finished eleventh with no mechanical trouble — 'the car that made good in a day.' The Bearcat made the marque; the Vertical Eight and the twin-cam DV-32 kept it at the luxury summit until 1937.",
+  "modelCount": 2
+ },
+ {
+  "type": "model",
+  "make": "stutz",
+  "makeName": "Stutz",
+  "slug": "bearcat",
+  "name": "Bearcat",
+  "years": "1912–1933",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Roadster"
+  ],
+  "intro": "The brass-age sports car in its purest form: two bucket seats, a fuel tank, a huge four-cylinder engine and nothing else. The Bearcat made Stutz's name at Indianapolis in 1911 — 'the car that made good in a day' — and the name returned on the supercharged DV-32 cars of the thirties.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "stutz",
+  "makeName": "Stutz",
+  "slug": "vertical-eight",
+  "name": "Vertical Eight (Safety Stutz)",
+  "years": "1926–1935",
+  "status": "Discontinued",
+  "segment": "Luxury car",
+  "bodyStyles": [
+   "Sedan",
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "Stutz reinvented itself as a luxury marque: the Vertical Eight brought an overhead-cam straight-eight, hydraulic brakes and safety glass to a company built on speed, and the Weymann fabric-body cars gave it Parisian style. The Blackhawk speed records of 1928 were the proof of speed.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "make",
+  "make": "triumph",
+  "slug": "triumph",
+  "name": "Triumph",
+  "country": "United Kingdom",
+  "founded": 1885,
+  "blurb": "A bicycle company that became Britain's sports-car export champion: the TR line sold the open two-seater to America for three decades, the Stag aimed at Mercedes, and the Dolomite Sprint quietly invented the mass-produced sixteen-valve engine. Car production ended in 1984; the name survives with BMW.",
+  "modelCount": 7
+ },
+ {
+  "type": "model",
+  "make": "triumph",
+  "makeName": "Triumph",
+  "slug": "tr2-tr3",
+  "name": "TR2 / TR3",
+  "years": "1953–1962",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Convertible"
+  ],
+  "intro": "The post-war British sports car distilled: a twin-carburettor twin-seater with cut-down doors, a 100 mph top speed and a price Detroit couldn't touch. The TR line started here, and so did a generation of American sports-car racing.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "triumph",
+  "makeName": "Triumph",
+  "slug": "tr4-tr5",
+  "name": "TR4 / TR5 / TR250",
+  "years": "1961–1968",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Convertible",
+   "Coupe"
+  ],
+  "intro": "Michelotti civilised the TR: wind-up windows, a proper boot, and an optional Surrey top — then the TR5 added fuel injection and six cylinders' worth of pace. America got carburettors and the TR250 name instead, which is why the injected cars are the legend.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "triumph",
+  "makeName": "Triumph",
+  "slug": "tr6",
+  "name": "TR6",
+  "years": "1968–1976",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Convertible"
+  ],
+  "intro": "Karmann sharpened the TR5's suit and Triumph kept the recipe: a big six, a separate chassis, and 150,000 buyers, nearly all of them American. The last of the traditional hairy-chested TRs before the wedge arrived.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "triumph",
+  "makeName": "Triumph",
+  "slug": "tr7-tr8",
+  "name": "TR7 / TR8",
+  "years": "1975–1981",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "'The shape of things to come': Harris Mann's wedge replaced a decade of tradition with pop-up lamps and a fixed head, and the launch quality troubles wrote the headlines. The TR8's Rover V8 fixed the pace problem just as production ended — which is why it is the one everyone wants now.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "triumph",
+  "makeName": "Triumph",
+  "slug": "spitfire",
+  "name": "Spitfire",
+  "years": "1962–1980",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Convertible"
+  ],
+  "intro": "Michelotti's small sports car on Herald bones: a flip-forward bonnet, swing axles with opinions, and 315,000 buyers over eighteen years. The Spitfire was the sports car students could afford and the one half the paddock started in.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "triumph",
+  "makeName": "Triumph",
+  "slug": "stag",
+  "name": "Stag",
+  "years": "1970–1977",
+  "status": "Discontinued",
+  "segment": "Grand tourer",
+  "bodyStyles": [
+   "Convertible",
+   "Coupe"
+  ],
+  "intro": "Triumph's grand idea: a four-seat convertible with a home-grown 3.0 V8, a T-bar roof and Michelotti styling aimed squarely at Mercedes' SL. The engine's cooling troubles wrote its reputation; the survivors, mostly cured by forty years of club knowledge, are the grand tourers the car always meant to be.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "triumph",
+  "makeName": "Triumph",
+  "slug": "dolomite",
+  "name": "Dolomite",
+  "years": "1972–1980",
+  "status": "Discontinued",
+  "segment": "Sports sedan",
+  "bodyStyles": [
+   "Sedan"
+  ],
+  "intro": "The Sprint is the headline: a 2.0-litre sixteen-valve head — the first mass-produced multi-valve engine — on a Michelotti sedan that embarrassed bigger cars in touring-car racing. The ordinary Dolomites were worthy family cars; the Sprint was a factory hot rod in a cardigan.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "make",
+  "make": "austin-healey",
+  "slug": "austin-healey",
+  "name": "Austin-Healey",
+  "country": "United Kingdom",
+  "founded": 1952,
+  "blurb": "Born in a single evening at the 1952 Earls Court show: Donald Healey's sports car, Austin's engines and factories. The Big Healeys ruled early-sixties rallying, the Frogeye Sprite put a smile on the cheapest sports car in Britain, and the badge partnership ended in 1971.",
+  "modelCount": 4
+ },
+ {
+  "type": "model",
+  "make": "austin-healey",
+  "makeName": "Austin-Healey",
+  "slug": "100",
+  "name": "100",
+  "years": "1953–1956",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Convertible"
+  ],
+  "intro": "The Healey 100 that Austin built: Donald Healey's Earls Court show car of 1952, adopted by Leonard Lord overnight and put into production at Longbridge with Austin's big four. A hundred miles an hour for a thousand pounds — the name is the spec sheet.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "austin-healey",
+  "makeName": "Austin-Healey",
+  "slug": "100-6",
+  "name": "100-6",
+  "years": "1956–1959",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Convertible"
+  ],
+  "intro": "The six-cylinder Healey: BMC's C-series engine replaced the four, the wheelbase stretched for occasional rear seats, and the car grew from sports car toward grand tourer. The 1958 cars, built at Abingdon alongside the MGs, are the sweet spot of the line.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "austin-healey",
+  "makeName": "Austin-Healey",
+  "slug": "3000",
+  "name": "3000",
+  "years": "1959–1967",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Convertible"
+  ],
+  "intro": "The Big Healey at full size: 2.9 litres, disc brakes, and a rally record — Pat Moss, the Morley brothers, wins at the Liège and the Alpine — that made it the definitive British competition car of the sixties. The Mk III's wood dash and wind-up windows civilised it without softening it.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "austin-healey",
+  "makeName": "Austin-Healey",
+  "slug": "sprite",
+  "name": "Sprite",
+  "years": "1958–1971",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Convertible"
+  ],
+  "intro": "The Frogeye: a Healey sports car for £669, its headlamps perched on the bonnet because the flip-up mechanism cost too much. The Sprite democratised the sports car a second time and raced everywhere; its MG Midget twin kept the shape alive to 1979.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "make",
+  "make": "jensen",
+  "slug": "jensen",
+  "name": "Jensen",
+  "country": "United Kingdom",
+  "founded": 1922,
+  "blurb": "The Jensen brothers' West Bromwich works built bodies for half the industry, then their own cars: fibreglass GTs first, then the Interceptor — Italian styling, American V8, and in the FF the world's first four-wheel-drive, anti-lock-braked production car. Production ended in 1976.",
+  "modelCount": 4
+ },
+ {
+  "type": "model",
+  "make": "jensen",
+  "makeName": "Jensen",
+  "slug": "541",
+  "name": "541",
+  "years": "1954–1963",
+  "status": "Discontinued",
+  "segment": "Grand tourer",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "Jensen's fibreglass pioneer: a glass-bodied GT with Austin's four-litre six, a Perspex rear window and a drag figure that embarrassed steel cars. The 541R added disc brakes all round — a British first on a production four-seater — and the 541S finished the line in comfort.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "jensen",
+  "makeName": "Jensen",
+  "slug": "c-v8",
+  "name": "C-V8",
+  "years": "1962–1966",
+  "status": "Discontinued",
+  "segment": "Grand tourer",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "Before the Interceptor, the formula: Chrysler V8 power in a West Bromwich fibreglass body, with the canted quad headlamps that half the press hated and the other half never forgot. One of the fastest four-seaters of its day, full stop.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "jensen",
+  "makeName": "Jensen",
+  "slug": "interceptor",
+  "name": "Interceptor",
+  "years": "1966–1976",
+  "status": "Discontinued",
+  "segment": "Grand tourer",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "The definitive Jensen: Touring of Milan's steel body, that vast curved rear window, Chrysler V8 torque, and in the FF, four-wheel drive and anti-lock brakes years before Audi made the quattro famous. It was the car rock stars bought instead of an Aston, and it has never stopped looking like money.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "jensen",
+  "makeName": "Jensen",
+  "slug": "jensen-healey",
+  "name": "Jensen-Healey",
+  "years": "1972–1976",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Convertible"
+  ],
+  "intro": "Jensen's bid for the American sports-car market after the Big Healey ended: Donald Healey's name, a Lotus twin-cam engine, and styling built for California. Engine teething troubles hurt it early; sorted cars are the quick, comfortable classic the spec sheet always promised.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "make",
+  "make": "tvr",
+  "slug": "tvr",
+  "name": "TVR",
+  "country": "United Kingdom",
+  "founded": 1947,
+  "blurb": "Trevor Wilkinson started TVR in a Blackpool wheelwright's shop; under Peter Wheeler it became British sports-car making at its most gloriously uncompromising — glassfibre bodies, backbone chassis, enormous power-to-weight and a standing refusal of driver aids. The factory closed in 2006.",
+  "modelCount": 6
+ },
+ {
+  "type": "model",
+  "make": "tvr",
+  "makeName": "TVR",
+  "slug": "grantura",
+  "name": "Grantura",
+  "years": "1958–1967",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "The first production TVR: a glassfibre coupé on a backbone chassis, sold with whatever engine the decade offered — Climax, Ford, BMC, MG. Light, stark and quick, it set the template every TVR since has followed: minimum weight, maximum engine, no apologies.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "tvr",
+  "makeName": "TVR",
+  "slug": "griffith",
+  "name": "Griffith",
+  "years": "1963–2002",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Convertible",
+   "Coupe"
+  ],
+  "intro": "Two cars, one idea, thirty years apart. Jack Griffith stuffed a Ford 289 into a Grantura in New York and built America's Cobra rival; Peter Wheeler stuffed Rover's V8 into a nineties roadster and built Britain's. Both are light, loud and entirely serious about power-to-weight.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "tvr",
+  "makeName": "TVR",
+  "slug": "chimaera",
+  "name": "Chimaera",
+  "years": "1992–2003",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Convertible"
+  ],
+  "intro": "TVR's best-seller: the Griffith's running gear in a softer, roomier roadster that sold over 6,000 copies and kept Blackpool busy for a decade. It is the usable TVR — which in TVR terms still means a Rover V8, a glassfibre body and no safety net.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "tvr",
+  "makeName": "TVR",
+  "slug": "cerbera",
+  "name": "Cerbera",
+  "years": "1996–2003",
+  "status": "Discontinued",
+  "segment": "Sports coupe",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "The 2+2 that took TVR racing: Peter Wheeler's brief was a Porsche 911 rival with TVR's own engines — the flat-plane AJP8 V8 and the Speed Six — designed in-house because Rover power wasn't enough anymore. The Cerbera Speed 12, its unhinged sibling, never reached customers. This one did, barely tamed.",
+  "buyingClass": "modern-classic",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "tvr",
+  "makeName": "TVR",
+  "slug": "tuscan",
+  "name": "Tuscan",
+  "years": "1999–2006",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Convertible",
+   "Coupe"
+  ],
+  "intro": "The Speed Six engine in a body with a removable roof panel, no door handles and curves that owed nothing to a wind tunnel. The Tuscan was TVR's millennium flagship — the car from Swordfish, and the last of the Wheeler-era volume models.",
+  "buyingClass": "modern-classic",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "tvr",
+  "makeName": "TVR",
+  "slug": "sagaris",
+  "name": "Sagaris",
+  "years": "2004–2006",
+  "status": "Discontinued",
+  "segment": "Sports coupe",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "The last Wheeler TVR and the most extreme: a Tuscan underneath, endurance-racer vents cut into every panel, a clear rear spoiler and a 400 hp Speed Six. Built for two years before the factory closed; it reads now as the marque's full stop, exclamation included.",
+  "buyingClass": "modern-classic",
+  "generationCount": 1
  }
 ]

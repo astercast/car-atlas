@@ -1,0 +1,80 @@
+{
+ "make": "stutz",
+ "models": [
+  {
+   "bodyStyles": [
+    "Roadster"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Pre-war fours with known history are museum-tier. The DV-32 cars are among the most valuable American classics; engine-and-chassis number matching is the market.",
+   "generations": [
+    {
+     "code": "Bearcat 1",
+     "name": "Bearcat (four-cylinder)",
+     "note": "Early cars used a Wisconsin T-head four of 389 cu in; later Bearcats used Stutz's own sixteen-valve four. Either way the recipe was the same: maximum engine, minimum car.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "6.4L inline-4 (Wisconsin / Stutz)",
+      "power": "60 hp"
+     },
+     "years": "1912–1925"
+    },
+    {
+     "code": "Bearcat 2",
+     "name": "Bearcat DV-32",
+     "note": "The Depression-era revival: a double-overhead-cam, 32-valve straight-eight under a cut-down speedster body. A supercharged DV-32 engine option was quoted at over 180 hp; very few Bearcats of either kind were built in the thirties.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.3L straight-8 (DV-32)",
+      "power": "156 hp"
+     },
+     "years": "1931–1933"
+    }
+   ],
+   "intro": "The brass-age sports car in its purest form: two bucket seats, a fuel tank, a huge four-cylinder engine and nothing else. The Bearcat made Stutz's name at Indianapolis in 1911 — 'the car that made good in a day' — and the name returned on the supercharged DV-32 cars of the thirties.",
+   "name": "Bearcat",
+   "segment": "Sports car",
+   "slug": "bearcat",
+   "status": "Discontinued",
+   "trims": [
+    "Bearcat",
+    "Bearcat DV-32",
+    "Super Bearcat"
+   ],
+   "years": "1912–1933"
+  },
+  {
+   "bodyStyles": [
+    "Sedan",
+    "Coupe",
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Weymann fabric bodies are the fragile treasure — original fabric is nearly irreplaceable. DV-32-powered cars command the DV premium.",
+   "generations": [
+    {
+     "code": "Vertical Eight",
+     "name": "Series AA–M / Blackhawk",
+     "note": "The 1926 Series AA's 287 cu in eight made 92 hp; the line grew through the BB and M series to the DV-32 cars. A Stutz Blackhawk held the 24-hour speed record in 1928, averaging over 106 mph at Daytona.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "4.7L–5.3L straight-8",
+      "power": "92–156 hp"
+     },
+     "years": "1926–1935"
+    }
+   ],
+   "intro": "Stutz reinvented itself as a luxury marque: the Vertical Eight brought an overhead-cam straight-eight, hydraulic brakes and safety glass to a company built on speed, and the Weymann fabric-body cars gave it Parisian style. The Blackhawk speed records of 1928 were the proof of speed.",
+   "name": "Vertical Eight (Safety Stutz)",
+   "segment": "Luxury car",
+   "slug": "vertical-eight",
+   "status": "Discontinued",
+   "trims": [
+    "Vertical Eight",
+    "Blackhawk",
+    "Monte Carlo sedan"
+   ],
+   "years": "1926–1935"
+  }
+ ]
+}

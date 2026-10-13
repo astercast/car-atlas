@@ -1,0 +1,110 @@
+{
+ "make": "kaiser",
+ "models": [
+  {
+   "bodyStyles": [
+    "Sedan",
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Manhattans and the Darrin-styled 1951–53 cars lead the market; supercharger presence and function are the Manhattan check.",
+   "generations": [
+    {
+     "code": "Kaiser 1",
+     "name": "Kaiser Special / Frazer-era cars",
+     "note": "The slab-sided 1947 cars were shared with the upmarket Frazer. The six was a Continental industrial engine — unglamorous, unburstable.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "3.7L inline-6",
+      "power": "100–112 hp"
+     },
+     "years": "1947–1950"
+    },
+    {
+     "code": "Kaiser 2",
+     "name": "Kaiser Deluxe / Manhattan",
+     "note": "Howard Darrin's 1951 redesign — the sweetheart-dipper rear window, the padded dash — is the independent era's styling high point. The 1954 Manhattan added a McCulloch supercharger, 140 hp, and a Kaiser shield on the hood.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "3.7L inline-6 (supercharged Manhattan)",
+      "power": "115–140 hp"
+     },
+     "years": "1951–1955"
+    }
+   ],
+   "intro": "Henry J. Kaiser's post-war challenger: built in Ford's vast Willow Run plant, styled with real flair by 1951, and powered throughout by the same Continental six — which is why the Manhattan's 1954 supercharger mattered. Kaiser outsold every other independent in 1947 and never quite caught the Big Three again.",
+   "name": "Kaiser (Special / Deluxe / Manhattan)",
+   "segment": "Full-size car",
+   "slug": "kaiser",
+   "status": "Discontinued",
+   "trims": [
+    "Kaiser Special",
+    "Kaiser Deluxe",
+    "Kaiser Virginian",
+    "Kaiser Manhattan",
+    "Kaiser Carolina"
+   ],
+   "years": "1947–1955"
+  },
+  {
+   "bodyStyles": [
+    "Sedan"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Stock survivors are rarer than the hot rods built from them; an unmodified six-cylinder car is the collector's find.",
+   "generations": [
+    {
+     "code": "Henry J",
+     "name": "Henry J / Allstate",
+     "note": "Willys-supplied engines did the work. Sears sold the same car as the Allstate in 1952–53, with Sears badges and Allstate tyres — the only car Sears ever catalogue-sold.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.2L inline-4 / 2.6L inline-6",
+      "power": "68–80 hp"
+     },
+     "years": "1951–1954"
+    }
+   ],
+   "intro": "The $1,300 car: Kaiser's austerity special, named for the boss, built to undercut everyone. No trunk lid on early cars — you loaded through the folded seat. It sold respectably, seeded the compact idea at Kaiser, and survives today mostly as gasser drag-car raw material.",
+   "name": "Henry J",
+   "segment": "Compact car",
+   "slug": "henry-j",
+   "status": "Discontinued",
+   "trims": [
+    "Henry J",
+    "Henry J Corsair",
+    "Allstate"
+   ],
+   "years": "1951–1954"
+  },
+  {
+   "bodyStyles": [
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "All 435 are accounted for by the registries more often than not; the sliding doors' mechanism condition is the car's whole story at inspection.",
+   "generations": [
+    {
+     "code": "Darrin",
+     "name": "Kaiser-Darrin DKF-161",
+     "note": "Bodies came from Glasspar in fibreglass over a Henry J chassis. Unsold cars were later fitted with Cadillac V8s by Darrin himself and sold from his Hollywood shop.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.6L inline-6 (Willys)",
+      "power": "90 hp"
+     },
+     "years": "1954"
+    }
+   ],
+   "intro": "The Kaiser-Darrin: a fibreglass sports car with doors that slide into the front wings, launched the same season as the Corvette and gone within the year. Howard 'Dutch' Darrin put his name on it; Kaiser built 435 before the money ran out.",
+   "name": "Darrin",
+   "segment": "Sports car",
+   "slug": "darrin",
+   "status": "Discontinued",
+   "trims": [
+    "Darrin DKF-161"
+   ],
+   "years": "1954"
+  }
+ ]
+}

@@ -1,0 +1,149 @@
+{
+ "make": "hudson",
+ "models": [
+  {
+   "bodyStyles": [
+    "Sedan",
+    "Coupe",
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Survivors are affordable pre-war motoring; the sixes are the usable ones. Condition and completeness beat rarity here — trim for these cars is not reproduced.",
+   "generations": [
+    {
+     "code": "Essex",
+     "name": "Essex Four / Super Six",
+     "note": "Launched as a four, the Essex became a six in 1924 and one of America's best-selling cars. The line closed in 1932, succeeded by the Terraplane.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.9L inline-4 / 2.9L inline-6",
+      "power": "55–76 hp"
+     },
+     "years": "1919–1932"
+    }
+   ],
+   "intro": "Hudson's budget line that outsold its parent: the Essex made closed cars affordable, put a six-cylinder engine in reach of ordinary buyers, and carried Hudson through the 1920s. The Super Six name above it said everything about the formula — more cylinders, less money.",
+   "name": "Essex",
+   "segment": "Mid-size car",
+   "slug": "essex",
+   "status": "Discontinued",
+   "trims": [
+    "Essex Four",
+    "Essex Super Six",
+    "Essex Challenger"
+   ],
+   "years": "1919–1932"
+  },
+  {
+   "bodyStyles": [
+    "Sedan",
+    "Coupe",
+    "Convertible",
+    "Pickup"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "The utility coupe — a car that converts to a pickup — is the collector's favourite. Pre-war eight-cylinder cars are the rare ones.",
+   "generations": [
+    {
+     "code": "Terraplane",
+     "name": "Terraplane / Hudson Terraplane",
+     "note": "The eight-cylinder Terraplane of 1933 was among the fastest cheap cars in America. Orville Wright bought one of the first. Post-war cars ran to 1947 as the Super Six line took over.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "3.5L inline-6 / 4.0L straight-8",
+      "power": "70–101 hp"
+     },
+     "years": "1932–1947"
+    }
+   ],
+   "intro": "Launched off the Essex County Airport runway in 1932 — the name is the point — the Terraplane was Hudson's volume fighter: steel-bodied, quick for its price, and famous enough that bluesman Robert Johnson sang about one. It became simply 'Hudson' after 1938.",
+   "name": "Terraplane",
+   "segment": "Mid-size car",
+   "slug": "terraplane",
+   "status": "Discontinued",
+   "trims": [
+    "Terraplane Six",
+    "Terraplane Eight",
+    "Terraplane Deluxe",
+    "Terraplane Utility Coupe"
+   ],
+   "years": "1932–1947"
+  },
+  {
+   "bodyStyles": [
+    "Sedan"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Oddball charm and genuine rarity keep Jet values honest rather than high; Twin H cars are the ones to chase.",
+   "generations": [
+    {
+     "code": "Jet",
+     "name": "Jet / Jet-Liner",
+     "note": "The 202 cu in six came with the Twin H-Power twin-carburettor option at 114 hp — strong specific output for a 1953 compact. Just over 35,000 Jets were built across two years.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "3.3L inline-6",
+      "power": "104–114 hp"
+     },
+     "years": "1953–1954"
+    }
+   ],
+   "intro": "Hudson's compact gamble: a small, tall, well-equipped sedan launched into the teeth of the horsepower war. It was a good car in the wrong year, and its development cost is part of why Hudson merged into AMC in 1954.",
+   "name": "Jet",
+   "segment": "Compact car",
+   "slug": "jet",
+   "status": "Discontinued",
+   "trims": [
+    "Jet",
+    "Jet-Liner",
+    "Super Jet"
+   ],
+   "years": "1953–1954"
+  },
+  {
+   "bodyStyles": [
+    "Sedan",
+    "Coupe",
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "First-generation Twin H cars with racing provenance sit at the top; documentation matters, as tribute cars abound. The step-down structure rusts from the inside — inspect the perimeter frame rails.",
+   "generations": [
+    {
+     "code": "Hornet 1",
+     "name": "Hornet (step-down)",
+     "note": "The 308 cu in six was the largest six in American production. With the Twin H-Power twin carburettors it reached up to 170 hp, and Hornets won 27 of 34 NASCAR Grand National races in 1952.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.0L inline-6",
+      "power": "145–170 hp"
+     },
+     "years": "1951–1954"
+    },
+    {
+     "code": "Hornet 2",
+     "name": "Hornet (AMC era)",
+     "note": "Built by AMC after the 1954 merger, the restyled 'Hash' Hornet kept the six, then took V8 power — a Packard-built V8 in 1956 and AMC's own 327 in 1957, the final year of the Hudson name.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.0L inline-6 / 5.8L V8",
+      "power": "160–255 hp"
+     },
+     "years": "1955–1957"
+    }
+   ],
+   "intro": "The step-down Hudson at its peak: a low, unit-body sedan whose big six humiliated V8s on the early NASCAR circuit — 'Fabulous Hudson Hornet' was a results sheet before it was a cartoon. The last true Hudsons before the AMC years turned it into a badge.",
+   "name": "Hornet",
+   "segment": "Full-size car",
+   "slug": "hornet",
+   "status": "Discontinued",
+   "trims": [
+    "Hornet",
+    "Hornet Hollywood hardtop",
+    "Hornet Brougham convertible",
+    "Hornet Custom"
+   ],
+   "years": "1951–1957"
+  }
+ ]
+}

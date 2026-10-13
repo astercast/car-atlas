@@ -1,0 +1,85 @@
+{
+ "make": "cord",
+ "models": [
+  {
+   "bodyStyles": [
+    "Sedan",
+    "Convertible",
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Chassis and drivetrain originality is everything; the front-drive hardware is unusual enough that specialist knowledge lives almost entirely inside the ACD Club.",
+   "generations": [
+    {
+     "code": "L-29",
+     "name": "L-29",
+     "note": "About 4,400 were built. The Lycoming straight-eight drove the front wheels through a three-speed gearbox ahead of the axle, which let the body sit strikingly low without a propshaft tunnel.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "5.3L straight-8 (Lycoming)",
+      "power": "125 hp"
+     },
+     "years": "1929–1932"
+    }
+   ],
+   "intro": "The first American production car with front-wheel drive: E.L. Cord's answer to a market that thought drive belonged at the back. Low, long and handsome, it sold refinement and novelty in equal measure — until the Depression sold neither.",
+   "name": "L-29",
+   "segment": "Luxury touring car",
+   "slug": "l-29",
+   "status": "Discontinued",
+   "trims": [
+    "L-29 sedan",
+    "L-29 brougham",
+    "L-29 cabriolet",
+    "L-29 phaeton"
+   ],
+   "years": "1929–1932"
+  },
+  {
+   "bodyStyles": [
+    "Sedan",
+    "Convertible",
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "The supercharged 812 is the blue-chip Cord; verify the blower and its external pipes are factory, not later theatre. ACD Club certification carries real weight in this market.",
+   "generations": [
+    {
+     "code": "810",
+     "name": "810",
+     "note": "The 'coffin nose' hid louvres instead of a grille, the headlamps cranked up by hand, and the Lycoming V8 drove the front wheels. Roughly 1,200 810s were built in the first year.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "4.7L V8 (Lycoming)",
+      "power": "125 hp"
+     },
+     "years": "1936"
+    },
+    {
+     "code": "812",
+     "name": "812 (supercharged)",
+     "note": "A Schwitzer-Cummins supercharger, announced by chrome exhaust pipes sweeping out of the hood sides, lifted output to 170 hp. Total 810/812 production was under 3,000 cars before Cord's empire closed in August 1937.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "4.7L supercharged V8 (Lycoming)",
+      "power": "170 hp"
+     },
+     "years": "1937"
+    }
+   ],
+   "intro": "Gordon Buehrig's masterpiece and the most advanced American car of its decade: front-wheel drive, hidden headlamps, a supercharger option, and not one exposed hinge or running board. It arrived too late and too expensive to save the company — and became immortal anyway.",
+   "name": "810 / 812",
+   "segment": "Luxury car",
+   "slug": "810-812",
+   "status": "Discontinued",
+   "trims": [
+    "810 Westchester",
+    "810 Beverly",
+    "812 Beverly",
+    "812 Sportsman",
+    "812 Custom"
+   ],
+   "years": "1936–1937"
+  }
+ ]
+}

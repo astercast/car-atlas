@@ -1,0 +1,145 @@
+{
+ "make": "jensen",
+ "models": [
+  {
+   "bodyStyles": [
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Fibreglass doesn't rust but it does craze and the chassis beneath it does rust; the R is the valuable one and its disc-brake hardware should all be present.",
+   "generations": [
+    {
+     "code": "541",
+     "name": "541 / 541R / 541S",
+     "note": "The standard car's Austin DS5 engine made about 130 hp as fitted; the R's higher-compression tune is commonly quoted at 150 hp. Just over 500 541s of all kinds were built.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "4.0L inline-6",
+      "power": "130–150 hp"
+     },
+     "years": "1954–1963"
+    }
+   ],
+   "intro": "Jensen's fibreglass pioneer: a glass-bodied GT with Austin's four-litre six, a Perspex rear window and a drag figure that embarrassed steel cars. The 541R added disc brakes all round — a British first on a production four-seater — and the 541S finished the line in comfort.",
+   "name": "541",
+   "segment": "Grand tourer",
+   "slug": "541",
+   "status": "Discontinued",
+   "trims": [
+    "541",
+    "541 DeLuxe",
+    "541R",
+    "541S"
+   ],
+   "years": "1954–1963"
+  },
+  {
+   "bodyStyles": [
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "About 500 were built and survival is low; originality of the fibreglass nose — often repaired, sometimes re-shaped — is the inspection's first item.",
+   "generations": [
+    {
+     "code": "C-V8",
+     "name": "C-V8 Mk I–III",
+     "note": "The 361 cu in engine of the first cars gave way to the 383. The FF experiment — Ferguson four-wheel drive and anti-lock brakes — was proven on a C-V8 before it reached the Interceptor.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.9L–6.3L V8 (Chrysler)",
+      "power": "330 hp"
+     },
+     "years": "1962–1966"
+    }
+   ],
+   "intro": "Before the Interceptor, the formula: Chrysler V8 power in a West Bromwich fibreglass body, with the canted quad headlamps that half the press hated and the other half never forgot. One of the fastest four-seaters of its day, full stop.",
+   "name": "C-V8",
+   "segment": "Grand tourer",
+   "slug": "c-v8",
+   "status": "Discontinued",
+   "trims": [
+    "C-V8 Mk I",
+    "C-V8 Mk II",
+    "C-V8 Mk III"
+   ],
+   "years": "1962–1966"
+  },
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "FFs and SPs sit at the top; rust in the sills and rear arches decides everything else. Chrysler mechanicals are the easy part — trim and that rear glass are not.",
+   "generations": [
+    {
+     "code": "Interceptor 1",
+     "name": "Interceptor Mk I / Mk II (+ FF)",
+     "note": "The FF (1966–71) added Ferguson Formula four-wheel drive and Dunlop Maxaret anti-lock brakes — the first production car with either, let alone both. About 320 FFs were built.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "6.3L V8 (Chrysler)",
+      "power": "330–335 hp"
+     },
+     "years": "1966–1971"
+    },
+    {
+     "code": "Interceptor 2",
+     "name": "Interceptor Mk III / SP",
+     "note": "The 440 cu in engine arrived with the Mk III; the six-pack SP's triple carburettors made it the most powerful Jensen at a quoted 390 hp, and one of the fastest four-seaters in the world in 1971.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "7.2L V8 (Chrysler)",
+      "power": "330–390 hp"
+     },
+     "years": "1971–1976"
+    }
+   ],
+   "intro": "The definitive Jensen: Touring of Milan's steel body, that vast curved rear window, Chrysler V8 torque, and in the FF, four-wheel drive and anti-lock brakes years before Audi made the quattro famous. It was the car rock stars bought instead of an Aston, and it has never stopped looking like money.",
+   "name": "Interceptor",
+   "segment": "Grand tourer",
+   "slug": "interceptor",
+   "status": "Discontinued",
+   "trims": [
+    "Interceptor Mk I",
+    "Interceptor FF",
+    "Interceptor Mk II",
+    "Interceptor Mk III",
+    "Interceptor SP",
+    "Interceptor convertible"
+   ],
+   "years": "1966–1976"
+  },
+  {
+   "bodyStyles": [
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Timing-belt history is the engine's whole file — the 907 is an interference engine. The shooting-brake Jensen GT is the rarity.",
+   "generations": [
+    {
+     "code": "Jensen-Healey",
+     "name": "Jensen-Healey Mk I / Mk II",
+     "note": "The Lotus 907 was its first production home, before the Esprit. About 10,000 Jensen-Healeys were built; the five-speed Mk II cars are the developed ones.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.0L inline-4 (Lotus 907)",
+      "power": "140–144 hp"
+     },
+     "years": "1972–1976"
+    }
+   ],
+   "intro": "Jensen's bid for the American sports-car market after the Big Healey ended: Donald Healey's name, a Lotus twin-cam engine, and styling built for California. Engine teething troubles hurt it early; sorted cars are the quick, comfortable classic the spec sheet always promised.",
+   "name": "Jensen-Healey",
+   "segment": "Sports car",
+   "slug": "jensen-healey",
+   "status": "Discontinued",
+   "trims": [
+    "Jensen-Healey Mk I",
+    "Jensen-Healey Mk II",
+    "Jensen GT"
+   ],
+   "years": "1972–1976"
+  }
+ ]
+}

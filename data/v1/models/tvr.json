@@ -1,0 +1,205 @@
+{
+ "make": "tvr",
+ "models": [
+  {
+   "bodyStyles": [
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Engine identity is the price: document which unit the car left Blackpool with. Chassis condition under the glassfibre is the rest of the story.",
+   "generations": [
+    {
+     "code": "Grantura",
+     "name": "Grantura Mk I–IV",
+     "note": "Power depends entirely on the engine fitted, from Ford sidevalves to the MGB's 1800 in the Mk III and IV. The 1800S cars are the quick ones and the racers' choice.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "1.2L–1.8L inline-4",
+      "power": "50–98 hp"
+     },
+     "years": "1958–1967"
+    }
+   ],
+   "intro": "The first production TVR: a glassfibre coupé on a backbone chassis, sold with whatever engine the decade offered — Climax, Ford, BMC, MG. Light, stark and quick, it set the template every TVR since has followed: minimum weight, maximum engine, no apologies.",
+   "name": "Grantura",
+   "segment": "Sports car",
+   "slug": "grantura",
+   "status": "Discontinued",
+   "trims": [
+    "Grantura Mk I",
+    "Grantura Mk II",
+    "Grantura Mk III",
+    "Grantura 1800S"
+   ],
+   "years": "1958–1967"
+  },
+  {
+   "bodyStyles": [
+    "Convertible",
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Original sixties cars are transatlantic blue-chip; nineties cars are valued on chassis condition — the backbone and outriggers are a known, expensive repair when neglected.",
+   "generations": [
+    {
+     "code": "Griffith 1",
+     "name": "Griffith 200 / 400",
+     "note": "The 400's high-performance 289 was quoted at 271 hp in a car weighing under 900 kg. About 310 original Griffiths were built, most for America.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "4.7L V8 (Ford)",
+      "power": "195–271 hp"
+     },
+     "years": "1963–1967"
+    },
+    {
+     "code": "Griffith 2",
+     "name": "Griffith (Rover V8)",
+     "note": "Launched at the 1990 motor show to a storm of orders. The 500's five-litre Rover V8 made 340 hp; there were no driver aids of any kind, which was rather the point.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "4.0L–5.0L V8 (Rover)",
+      "power": "240–340 hp"
+     },
+     "years": "1991–2002"
+    }
+   ],
+   "intro": "Two cars, one idea, thirty years apart. Jack Griffith stuffed a Ford 289 into a Grantura in New York and built America's Cobra rival; Peter Wheeler stuffed Rover's V8 into a nineties roadster and built Britain's. Both are light, loud and entirely serious about power-to-weight.",
+   "name": "Griffith",
+   "segment": "Sports car",
+   "slug": "griffith",
+   "status": "Discontinued",
+   "trims": [
+    "Griffith 200",
+    "Griffith 400",
+    "Griffith 4.0",
+    "Griffith 4.3",
+    "Griffith 500"
+   ],
+   "years": "1963–2002"
+  },
+  {
+   "bodyStyles": [
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Buy on chassis and engine condition, not mileage claims; a documented chassis refurbishment is worth more than low miles on a rotten frame.",
+   "generations": [
+    {
+     "code": "Chimaera",
+     "name": "Chimaera",
+     "note": "Engines ran from the 4.0 to the rare 5.0; the 4.5 is the connoisseur's middle ground. Facelift cars from 1998 gained the Cerbera's lamps under covers.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "4.0L–5.0L V8 (Rover)",
+      "power": "240–340 hp"
+     },
+     "years": "1992–2003"
+    }
+   ],
+   "intro": "TVR's best-seller: the Griffith's running gear in a softer, roomier roadster that sold over 6,000 copies and kept Blackpool busy for a decade. It is the usable TVR — which in TVR terms still means a Rover V8, a glassfibre body and no safety net.",
+   "name": "Chimaera",
+   "segment": "Sports car",
+   "slug": "chimaera",
+   "status": "Discontinued",
+   "trims": [
+    "Chimaera 4.0",
+    "Chimaera 4.5",
+    "Chimaera 5.0"
+   ],
+   "years": "1992–2003"
+  },
+  {
+   "bodyStyles": [
+    "Coupe"
+   ],
+   "buyingClass": "modern-classic",
+   "collectorNote": "AJP8 engines have a known appetite for rebuilds; a car with a recent documented engine build by a known specialist is the rational buy in an irrational market.",
+   "generations": [
+    {
+     "code": "Cerbera",
+     "name": "Cerbera",
+     "note": "The 4.5 V8's 420 hp was the peak of the production range; the Speed Six cars are smoother and, their owners insist, sweeter. All are quick enough to make the point.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "4.0L inline-6 / 4.2L–4.5L V8 (TVR)",
+      "power": "350–420 hp"
+     },
+     "years": "1996–2003"
+    }
+   ],
+   "intro": "The 2+2 that took TVR racing: Peter Wheeler's brief was a Porsche 911 rival with TVR's own engines — the flat-plane AJP8 V8 and the Speed Six — designed in-house because Rover power wasn't enough anymore. The Cerbera Speed 12, its unhinged sibling, never reached customers. This one did, barely tamed.",
+   "name": "Cerbera",
+   "segment": "Sports coupe",
+   "slug": "cerbera",
+   "status": "Discontinued",
+   "trims": [
+    "Cerbera 4.2",
+    "Cerbera 4.5",
+    "Cerbera Speed Six"
+   ],
+   "years": "1996–2003"
+  },
+  {
+   "bodyStyles": [
+    "Convertible",
+    "Coupe"
+   ],
+   "buyingClass": "modern-classic",
+   "collectorNote": "Speed Six engine history is the file that matters — rebuild provenance from a recognised specialist transforms both value and ownership.",
+   "generations": [
+    {
+     "code": "Tuscan",
+     "name": "Tuscan / Tuscan S",
+     "note": "The Tuscan S's 4.0-litre Speed Six was rated at 400 hp. Later cars gained a full convertible and the targa arrangement was refined; none gained traction control.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "3.6L–4.0L inline-6 (Speed Six)",
+      "power": "350–400 hp"
+     },
+     "years": "1999–2006"
+    }
+   ],
+   "intro": "The Speed Six engine in a body with a removable roof panel, no door handles and curves that owed nothing to a wind tunnel. The Tuscan was TVR's millennium flagship — the car from Swordfish, and the last of the Wheeler-era volume models.",
+   "name": "Tuscan",
+   "segment": "Sports car",
+   "slug": "tuscan",
+   "status": "Discontinued",
+   "trims": [
+    "Tuscan",
+    "Tuscan S",
+    "Tuscan convertible"
+   ],
+   "years": "1999–2006"
+  },
+  {
+   "bodyStyles": [
+    "Coupe"
+   ],
+   "buyingClass": "modern-classic",
+   "collectorNote": "The rarest of the modern TVRs and priced as the era's peak; originality matters — many cars wear later cosmetic 'improvements' the market is learning to discount.",
+   "generations": [
+    {
+     "code": "Sagaris",
+     "name": "Sagaris",
+     "note": "Around 200 cars were built. The louvred bodywork was designed to endurance-racing practice — the vents are functional, which at TVR counted as restraint.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "4.0L inline-6 (Speed Six)",
+      "power": "400 hp"
+     },
+     "years": "2004–2006"
+    }
+   ],
+   "intro": "The last Wheeler TVR and the most extreme: a Tuscan underneath, endurance-racer vents cut into every panel, a clear rear spoiler and a 400 hp Speed Six. Built for two years before the factory closed; it reads now as the marque's full stop, exclamation included.",
+   "name": "Sagaris",
+   "segment": "Sports coupe",
+   "slug": "sagaris",
+   "status": "Discontinued",
+   "trims": [
+    "Sagaris"
+   ],
+   "years": "2004–2006"
+  }
+ ]
+}

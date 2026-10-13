@@ -1,0 +1,258 @@
+{
+ "make": "triumph",
+ "models": [
+  {
+   "bodyStyles": [
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Early small-mouth TR3s and disc-brake cars are prized; overdrive gearboxes transform them and add value in kind.",
+   "generations": [
+    {
+     "code": "TR2/3",
+     "name": "TR2 / TR3 / TR3A",
+     "note": "The TR2's 90 hp grew to 100 in the TR3A, which also brought the full-width grille and front disc brakes — standard from 1956, a production-car first generation when it mattered.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.0L inline-4",
+      "power": "90–100 hp"
+     },
+     "years": "1953–1962"
+    }
+   ],
+   "intro": "The post-war British sports car distilled: a twin-carburettor twin-seater with cut-down doors, a 100 mph top speed and a price Detroit couldn't touch. The TR line started here, and so did a generation of American sports-car racing.",
+   "name": "TR2 / TR3",
+   "segment": "Sports car",
+   "slug": "tr2-tr3",
+   "status": "Discontinued",
+   "trims": [
+    "TR2",
+    "TR3",
+    "TR3A",
+    "TR3B"
+   ],
+   "years": "1953–1962"
+  },
+  {
+   "bodyStyles": [
+    "Convertible",
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "A genuine TR5 PI is the blue-chip small TR. Verify the injection system is present and working — many were converted to carburettors, and the market prices accordingly.",
+   "generations": [
+    {
+     "code": "TR4",
+     "name": "TR4 / TR4A",
+     "note": "The TR4A added independent rear suspension. The four-cylinder TRs are the last of the tractor-engine line — torquey, simple, indestructible.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.1L inline-4",
+      "power": "105 hp"
+     },
+     "years": "1961–1967"
+    },
+    {
+     "code": "TR5",
+     "name": "TR5 PI / TR250",
+     "note": "Lucas fuel injection gave the home-market TR5 150 hp and a genuine 120 mph; the federal TR250 made do with twin carburettors and 104 hp. Just 2,947 TR5s were built.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.5L inline-6",
+      "power": "104–150 hp"
+     },
+     "years": "1967–1968"
+    }
+   ],
+   "intro": "Michelotti civilised the TR: wind-up windows, a proper boot, and an optional Surrey top — then the TR5 added fuel injection and six cylinders' worth of pace. America got carburettors and the TR250 name instead, which is why the injected cars are the legend.",
+   "name": "TR4 / TR5 / TR250",
+   "segment": "Sports car",
+   "slug": "tr4-tr5",
+   "status": "Discontinued",
+   "trims": [
+    "TR4",
+    "TR4A",
+    "TR5 PI",
+    "TR250"
+   ],
+   "years": "1961–1968"
+  },
+  {
+   "bodyStyles": [
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Chassis outriggers and trailing-arm mounts rust structurally — the frame inspection matters more than the paint. Injected cars lead, US cars follow closely on condition.",
+   "generations": [
+    {
+     "code": "TR6",
+     "name": "TR6",
+     "note": "Home-market injected cars made 150 hp, then 125 from 1973; US carburettor cars were rated 104 hp. The gap is the whole story of seventies emissions law in one model.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.5L inline-6",
+      "power": "104–150 hp"
+     },
+     "years": "1968–1976"
+    }
+   ],
+   "intro": "Karmann sharpened the TR5's suit and Triumph kept the recipe: a big six, a separate chassis, and 150,000 buyers, nearly all of them American. The last of the traditional hairy-chested TRs before the wedge arrived.",
+   "name": "TR6",
+   "segment": "Sports car",
+   "slug": "tr6",
+   "status": "Discontinued",
+   "trims": [
+    "TR6 PI",
+    "TR6 (US carburettor)"
+   ],
+   "years": "1968–1976"
+  },
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "TR8s are genuinely scarce and priced like it; TR7s remain the cheapest seat in the TR club. Check wedge sills and turrets before the cosmetics.",
+   "generations": [
+    {
+     "code": "TR7",
+     "name": "TR7",
+     "note": "UK cars made 105 hp, US cars less under emissions tuning. Convertibles arrived in 1979 and are the better drive and the easier sell.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.0L inline-4",
+      "power": "92–105 hp"
+     },
+     "years": "1975–1981"
+    },
+    {
+     "code": "TR8",
+     "name": "TR8",
+     "note": "The V8 the wedge always needed, built mostly for America and mostly as a convertible. Official production was under 3,000 cars.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "3.5L V8 (Rover)",
+      "power": "148 hp"
+     },
+     "years": "1980–1981"
+    }
+   ],
+   "intro": "'The shape of things to come': Harris Mann's wedge replaced a decade of tradition with pop-up lamps and a fixed head, and the launch quality troubles wrote the headlines. The TR8's Rover V8 fixed the pace problem just as production ended — which is why it is the one everyone wants now.",
+   "name": "TR7 / TR8",
+   "segment": "Sports car",
+   "slug": "tr7-tr8",
+   "status": "Discontinued",
+   "trims": [
+    "TR7 coupé",
+    "TR7 convertible",
+    "TR8 convertible"
+   ],
+   "years": "1975–1981"
+  },
+  {
+   "bodyStyles": [
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Condition rules a market this deep; a sorted 1500 is the usable classic, an early Mk III the prettiest. Sills and bonnet fit tell you the car's real history.",
+   "generations": [
+    {
+     "code": "Spitfire 1",
+     "name": "Spitfire 4 / Mk II / Mk III",
+     "note": "The Herald's 1147 cc engine made 63 hp in twin-carburettor tune; the Mk III's 1296 cc raised it to 75 and added the raised front bumper the Americans required.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "1.1L–1.3L inline-4",
+      "power": "63–75 hp"
+     },
+     "years": "1962–1970"
+    },
+    {
+     "code": "Spitfire 2",
+     "name": "Spitfire Mk IV / 1500",
+     "note": "The Mk IV cleaned up the tail and tamed the rear suspension; the 1500's longer-stroke engine traded revs for torque, with US cars rated lower under emissions rules.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "1.3L–1.5L inline-4",
+      "power": "61–71 hp"
+     },
+     "years": "1970–1980"
+    }
+   ],
+   "intro": "Michelotti's small sports car on Herald bones: a flip-forward bonnet, swing axles with opinions, and 315,000 buyers over eighteen years. The Spitfire was the sports car students could afford and the one half the paddock started in.",
+   "name": "Spitfire",
+   "segment": "Sports car",
+   "slug": "spitfire",
+   "status": "Discontinued",
+   "trims": [
+    "Spitfire 4",
+    "Spitfire Mk III",
+    "Spitfire Mk IV",
+    "Spitfire 1500"
+   ],
+   "years": "1962–1980"
+  },
+  {
+   "bodyStyles": [
+    "Convertible",
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Buy the engine history, not the paint: a Stag with a paper trail of timing-chain and head work is worth more than a shiny one without.",
+   "generations": [
+    {
+     "code": "Stag",
+     "name": "Stag",
+     "note": "About 26,000 were built. The V8's timing chains and cooling are the known work; cars with documented engine rebuilds and modern cooling upgrades are the market's preference, not its compromise.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "3.0L V8",
+      "power": "145 hp"
+     },
+     "years": "1970–1977"
+    }
+   ],
+   "intro": "Triumph's grand idea: a four-seat convertible with a home-grown 3.0 V8, a T-bar roof and Michelotti styling aimed squarely at Mercedes' SL. The engine's cooling troubles wrote its reputation; the survivors, mostly cured by forty years of club knowledge, are the grand tourers the car always meant to be.",
+   "name": "Stag",
+   "segment": "Grand tourer",
+   "slug": "stag",
+   "status": "Discontinued",
+   "trims": [
+    "Stag (manual)",
+    "Stag (automatic)"
+   ],
+   "years": "1970–1977"
+  },
+  {
+   "bodyStyles": [
+    "Sedan"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Sprints are the collectible; verify the Sprint engine is present — the sixteen-valve head is the value, and a standard engine under the bonnet is a known swap.",
+   "generations": [
+    {
+     "code": "Dolomite",
+     "name": "Dolomite / Dolomite Sprint",
+     "note": "The Sprint's single-cam sixteen-valve head made 127 hp in 1973, when that was BMW 2002 tii territory. About 23,000 Sprints were built.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "1.85L–2.0L inline-4",
+      "power": "91–127 hp"
+     },
+     "years": "1972–1980"
+    }
+   ],
+   "intro": "The Sprint is the headline: a 2.0-litre sixteen-valve head — the first mass-produced multi-valve engine — on a Michelotti sedan that embarrassed bigger cars in touring-car racing. The ordinary Dolomites were worthy family cars; the Sprint was a factory hot rod in a cardigan.",
+   "name": "Dolomite",
+   "segment": "Sports sedan",
+   "slug": "dolomite",
+   "status": "Discontinued",
+   "trims": [
+    "Dolomite 1850",
+    "Dolomite Sprint"
+   ],
+   "years": "1972–1980"
+  }
+ ]
+}

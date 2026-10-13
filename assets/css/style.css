@@ -227,3 +227,24 @@ footer nav { display: flex; gap: 20px; }
   .band { padding: 30px 22px; }
   .stat b { font-size: 27px; }
 }
+
+/* ——— Cross-page view transitions (wave 5; Fleet Commons
+   view-transitions v1.0.0, graduated from the 9th Website's test
+   bed, first adopted by Film). Assessed for the gallery-minimal
+   identity and adopted in its quietest form: a plain crossfade —
+   opacity only, no travel, no settle. Moving between pages should
+   feel like turning a gallery sheet, not travelling anywhere.
+   The guard is the pattern: everything lives inside
+   prefers-reduced-motion: no-preference, and browsers without
+   cross-document view transitions ignore the rule and navigate
+   exactly as before. The pattern's same-document half is
+   deliberately not adopted — in-page swaps here (search, filters)
+   are instant by design, and animating them would add motion
+   where the identity calls for none. See WAVELOG wave 5. ——— */
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition { navigation: auto; }
+  ::view-transition-old(root) { animation: vt-fade-out 0.22s ease-in both; }
+  ::view-transition-new(root) { animation: vt-fade-in 0.32s ease-out both; }
+}
+@keyframes vt-fade-out { to { opacity: 0; } }
+@keyframes vt-fade-in { from { opacity: 0; } }

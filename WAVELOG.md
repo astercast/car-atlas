@@ -1,5 +1,128 @@
 # WAVELOG — Car Atlas
 
+## Wave 5 — Historic marques batch 2, Price Watch +4, view transitions adopted quiet (2026-10-13)
+
+The wave-4 frontier's named next tier, at the wave-3/4 standard:
+
+- **Historic marques batch 2:** **40 → 49 makes, 180 → 216
+  models, 373 → 421 generations.** The nine defunct marques from
+  the COVERAGE list arrive with 36 models and 48 generations in
+  house format: Cord (L-29, 810/812), Hudson (Essex, Terraplane,
+  Jet, Hornet), Nash (Ambassador, Rambler, Metropolitan,
+  Nash-Healey), Kaiser (Special–Manhattan, Henry J, Darrin),
+  Stutz (Bearcat, Vertical Eight), Triumph (TR2/3, TR4/5, TR6,
+  TR7/8, Spitfire, Stag, Dolomite), Austin-Healey (100, 100-6,
+  3000, Sprite), Jensen (541, C-V8, Interceptor, Jensen-Healey),
+  TVR (Grantura, Griffith, Chimaera, Cerbera, Tuscan, Sagaris).
+  Specs are the standard published flagship figures, ranged where
+  they vary by year, market or engine fitted; nothing was fetched
+  and nothing was invented. No photographs are wired for the new
+  makes — the Foundry library holds none for them, and a photo
+  without provenance does not ship; the make and model pages render
+  complete without one, as the pre-wave-4 pages did.
+- **Clubs:** **35 → 43 entries**: marque clubs for eight of the
+  nine new makes (Hudson-Essex-Terraplane Club, Nash Car Club of
+  America, Kaiser Frazer Owners Club International, The Stutz
+  Club, TR Register, Austin Healey Club, Jensen Owners' Club,
+  TVR Car Club). Cord takes no new entry — the Auburn Cord
+  Duesenberg Club, already listed, is its club, and the registry
+  note now says so. Three club domains were re-verified against
+  published sources this pass; the Kaiser club's official site is
+  recorded as `kfclubmembers.com`, per its own bulletin.
+- **Price Watch stage 1, extended:** **7 → 11 certified
+  results**, each with car, price, currency, price basis,
+  house/event, sale date and a linked published source, certified
+  at ingest on 2026-10-13: the 1954 Mercedes-Benz W 196 R
+  Stromlinienwagen (€51,155,000 incl. premium, RM Sotheby's
+  Stuttgart, 2025-02-01); the 1962 Ferrari 330 LM / 250 GTO
+  ($51,705,000 incl. premium, RM Sotheby's New York, 2023-11-13);
+  the 1957 Ferrari 335 Sport Scaglietti (€32,075,200 incl.
+  premium, Artcurial Rétromobile Paris, 2016-02-05); the 1956
+  Aston Martin DBR1 ($22,550,000 incl. premium, RM Sotheby's
+  Monterey, Friday evening 2017-08-18). **Skipped, recorded in
+  the file itself:** the 1935 Duesenberg SSJ ($22,000,000,
+  Gooding & Company, Pebble Beach) — car, price and house are
+  published, but the sources consulted date the sale only to the
+  two-day event (24–25 August 2018), not to the day; skipped
+  rather than dated by inference. Results are now ordered newest
+  first. Stage 1 remains a static file — no function, no cron.
+- **View Transitions — ADOPTED, in the quiet form.** Assessment
+  for the gallery-minimal identity: the site's motion budget is
+  deliberately near zero (one hover lift, smooth scroll) and its
+  pages are sheets in a gallery — but a bare navigation flash is
+  not stillness, it is a blink. The graduated Fleet Commons
+  pattern (view-transitions v1.0.0) is therefore adopted for
+  cross-document navigation only, shaped as a plain crossfade —
+  opacity only, 0.22 s out / 0.32 s in, no travel, no settle —
+  the quietest idiom in the fleet table (the 9th breathes, Aster
+  fades on browser defaults, Film cuts). Everything sits inside
+  `@media (prefers-reduced-motion: no-preference)` in
+  `assets/css/style.css`; browsers without cross-document view
+  transitions ignore the rule and navigate exactly as before.
+  The pattern's same-document half is **not** adopted: in-page
+  swaps here (instant search, club filters) are instant by
+  design, and animating them would add motion where the identity
+  calls for none. No `view-transition-name` pairings, per the
+  canonical form's own caution.
+- **Honesty maintenance on touch:** `llms.txt` counts updated to
+  the wave-5 record (49 / 216 / 421 / 43) and the Commons
+  checker re-run: **PASS — 0 errors, 0 warnings** (17/17 targets
+  exist). A stale "40 files" comment in `lib/data.js` now says
+  what the code does. `COVERAGE.md` updated to the new counts
+  and the batch-2 makes moved from roadmap to seeded.
+- **Commons adoption note:** the honest-fallback pattern
+  (VP-0003) is untouched this wave and remains byte-identical
+  canonical — see the regression check below.
+- **Rule 1762 (line endings):** CRLF audit clean across all
+  tracked text files; `.gitattributes` pin and binary carve-outs
+  untouched, and all binary blobs re-verified byte-identical
+  (sizes + hashes) after staging — the rotation-13 lesson,
+  applied as routine.
+- **VP-0003 regression check:** `FB:model-essentials` markers
+  (BEGIN + END) intact in `model.html` after the build re-bake
+  (216 models); `fetch_deadline.js` script tags present on all
+  five content pages; both canonical files re-verified
+  byte-identical to Fleet Commons; `build.py` re-bakes
+  idempotently. Spot checks (headless Chromium, local server):
+  one cold load of the 911 rendered the full live record (Where
+  to buy, Price Watch result, one `<h1>`, zero page errors); one
+  hang-injected load (make-file fetch never answering) painted
+  the baked snapshot inside 1.5 s and settled in the honest
+  terminal state — snapshot + "didn't finish loading" + Retry —
+  inside the deadline/watchdog band. New-content spot checks:
+  Cord 810/812, Hudson Hornet, Triumph TR6, Jensen Interceptor,
+  TVR Sagaris and Austin-Healey 3000 model pages and the Cord and
+  Ferrari make pages all render live with exactly one `<h1>`;
+  the Buy page shows all four new Price Watch results; homepage
+  stats read 49 / 216 / 421 / 43. **17/17 regression checks pass,
+  zero page errors.**
+- **Validation:** `scripts/build.py` passes (schema + counts +
+  price-watch source check) at 49 makes / 216 models / 421
+  generations; API smoke across all 5 functions passes (health
+  reports the new counts; makes/model/search/clubs serve the new
+  marques; honest 400/404s intact). Screenshot harness extended
+  (Cord make, 810/812, TR6, Interceptor desktop; Hornet mobile).
+- **Parked decisions (unchanged):** (1) a dedicated Ferrari
+  250 GTO model record — the photo and two auction results (the
+  2018 250 GTO and this wave's 330 LM / 250 GTO, both
+  `modelSlug: null`) sit at make level until the owner calls it;
+  (2) Price Watch stage 2 (listings ingest + a cron) — needs a
+  deploy target and its own free-tier audit before it is built;
+  (3) a sitemap — only meaningful with a domain; lands with
+  GO_LIVE step 5.
+
+### Next waves (planned)
+
+- Living-makes breadth from the COVERAGE list (Bentley, Bugatti,
+  Genesis, MINI, Mitsubishi, Rivian, Rolls-Royce, and the rest).
+- Historic batch 3 (from the COVERAGE list): Austin, Borgward,
+  De Tomaso, Facel Vega, Iso, NSU, Panhard, Simca, Talbot-Lago,
+  Willys.
+- Generation depth for the wave-2/3 models (the wave-4 icon
+  treatment, extended).
+- Price Watch stage 2 design (listings ingest) — build only
+  alongside a deploy decision.
+
 ## Wave 4 — Icon depth, Price Watch stage 1, placement pass, GO_LIVE (2026-10-13)
 
 The wave-1 roadmap's two named items, plus the fleet placement pass

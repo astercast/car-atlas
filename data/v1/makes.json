@@ -519,6 +519,96 @@
    "photoCredit": "Photo: Mustang Joe, CC0, via Wikimedia Commons",
    "slug": "plymouth",
    "status": "Defunct"
+  },
+  {
+   "blurb": "E.L. Cord's own nameplate, built by Auburn: America's first front-wheel-drive production cars, and in the 810 a design so advanced the Museum of Modern Art put it on a pedestal. The empire fell in 1937. The cars never fell at all.",
+   "country": "United States",
+   "founded": 1929,
+   "hq": "Auburn, Indiana",
+   "knownFor": "Front-wheel drive, the 810/812, E.L. Cord's empire",
+   "name": "Cord",
+   "slug": "cord",
+   "status": "Defunct"
+  },
+  {
+   "blurb": "Detroit's cleverest independent: the step-down body of 1948 put passengers inside the frame rails and made Hudsons handle like nothing else in America — and the Hornet's big six beat the V8s at their own game on the NASCAR circuit. Merged into AMC in 1954; the name ended in 1957.",
+   "country": "United States",
+   "founded": 1909,
+   "hq": "Detroit, Michigan",
+   "knownFor": "The step-down design, the Hornet, Twin H-Power",
+   "name": "Hudson",
+   "slug": "hudson",
+   "status": "Defunct"
+  },
+  {
+   "blurb": "Charles Nash built the industry's quiet innovator: overhead-valve engines, unit bodies, reclining seats, and in the 1950 Rambler, America's first successful compact. Nash merged with Hudson to form AMC in 1954 — and its Rambler idea became the new company's whole future.",
+   "country": "United States",
+   "founded": 1916,
+   "hq": "Kenosha, Wisconsin",
+   "knownFor": "Overhead-valve engines, the Rambler, unit construction",
+   "name": "Nash",
+   "slug": "nash",
+   "status": "Defunct"
+  },
+  {
+   "blurb": "Shipbuilder Henry J. Kaiser took on Detroit from the world's largest factory building, with partner Joseph Frazer: for one year, 1947, Kaiser-Frazer outsold every other independent. The cars were handsome, the six was honest, and the Big Three's scale won in the end. US car production ended in 1955.",
+   "country": "United States",
+   "founded": 1945,
+   "hq": "Willow Run, Michigan",
+   "knownFor": "Post-war challenger, the Henry J, the Darrin sports car",
+   "name": "Kaiser",
+   "slug": "kaiser",
+   "status": "Defunct"
+  },
+  {
+   "blurb": "Harry Stutz debuted at Indianapolis in 1911 and finished eleventh with no mechanical trouble — 'the car that made good in a day.' The Bearcat made the marque; the Vertical Eight and the twin-cam DV-32 kept it at the luxury summit until 1937.",
+   "country": "United States",
+   "founded": 1911,
+   "hq": "Indianapolis, Indiana",
+   "knownFor": "The Bearcat, the DV-32, 'the car that made good in a day'",
+   "name": "Stutz",
+   "slug": "stutz",
+   "status": "Defunct"
+  },
+  {
+   "blurb": "A bicycle company that became Britain's sports-car export champion: the TR line sold the open two-seater to America for three decades, the Stag aimed at Mercedes, and the Dolomite Sprint quietly invented the mass-produced sixteen-valve engine. Car production ended in 1984; the name survives with BMW.",
+   "country": "United Kingdom",
+   "founded": 1885,
+   "hq": "Coventry, England",
+   "knownFor": "The TR sports cars, the Stag, the Dolomite Sprint",
+   "name": "Triumph",
+   "slug": "triumph",
+   "status": "Defunct"
+  },
+  {
+   "blurb": "Born in a single evening at the 1952 Earls Court show: Donald Healey's sports car, Austin's engines and factories. The Big Healeys ruled early-sixties rallying, the Frogeye Sprite put a smile on the cheapest sports car in Britain, and the badge partnership ended in 1971.",
+   "country": "United Kingdom",
+   "founded": 1952,
+   "hq": "Abingdon, England",
+   "knownFor": "The Big Healeys, the Frogeye Sprite, rally wins",
+   "name": "Austin-Healey",
+   "slug": "austin-healey",
+   "status": "Defunct"
+  },
+  {
+   "blurb": "The Jensen brothers' West Bromwich works built bodies for half the industry, then their own cars: fibreglass GTs first, then the Interceptor — Italian styling, American V8, and in the FF the world's first four-wheel-drive, anti-lock-braked production car. Production ended in 1976.",
+   "country": "United Kingdom",
+   "founded": 1922,
+   "hq": "West Bromwich, England",
+   "knownFor": "The Interceptor, the FF, Chrysler V8 grand tourers",
+   "name": "Jensen",
+   "slug": "jensen",
+   "status": "Defunct"
+  },
+  {
+   "blurb": "Trevor Wilkinson started TVR in a Blackpool wheelwright's shop; under Peter Wheeler it became British sports-car making at its most gloriously uncompromising — glassfibre bodies, backbone chassis, enormous power-to-weight and a standing refusal of driver aids. The factory closed in 2006.",
+   "country": "United Kingdom",
+   "founded": 1947,
+   "hq": "Blackpool, England",
+   "knownFor": "Glassfibre sports cars, the Griffith, no driver aids",
+   "name": "TVR",
+   "slug": "tvr",
+   "status": "Defunct"
   }
  ],
  "note": "Marque registry. Model counts are derived at build time into search-index.json; see COVERAGE.md for what is seeded and what is planned.",

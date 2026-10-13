@@ -1,0 +1,153 @@
+{
+ "make": "austin-healey",
+ "models": [
+  {
+   "bodyStyles": [
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "The 100S is a competition car with competition prices; standard cars are valued on originality of the louvred bonnet and screen hardware. BN2s are the driver's pick.",
+   "generations": [
+    {
+     "code": "100",
+     "name": "100 (BN1 / BN2)",
+     "note": "The BN1's three-speed gearbox with overdrive gave way to the BN2's four-speed. The 100M (110 hp) and the aluminium 100S racers (132 hp) sit above the standard car in every sense.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.7L inline-4",
+      "power": "90 hp"
+     },
+     "years": "1953–1956"
+    }
+   ],
+   "intro": "The Healey 100 that Austin built: Donald Healey's Earls Court show car of 1952, adopted by Leonard Lord overnight and put into production at Longbridge with Austin's big four. A hundred miles an hour for a thousand pounds — the name is the spec sheet.",
+   "name": "100",
+   "segment": "Sports car",
+   "slug": "100",
+   "status": "Discontinued",
+   "trims": [
+    "100 BN1",
+    "100 BN2",
+    "100M",
+    "100S"
+   ],
+   "years": "1953–1956"
+  },
+  {
+   "bodyStyles": [
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Six-port-head cars (117 hp) are worth a premium over the early cars; check which head is fitted before paying for it.",
+   "generations": [
+    {
+     "code": "100-6",
+     "name": "100-6 (BN4 / BN6)",
+     "note": "Early BN4s made 102 hp; a revised head and manifold from 1957 raised output to 117. The two-seat BN6 of 1958–59 is the rarest body in the range.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.6L inline-6",
+      "power": "102–117 hp"
+     },
+     "years": "1956–1959"
+    }
+   ],
+   "intro": "The six-cylinder Healey: BMC's C-series engine replaced the four, the wheelbase stretched for occasional rear seats, and the car grew from sports car toward grand tourer. The 1958 cars, built at Abingdon alongside the MGs, are the sweet spot of the line.",
+   "name": "100-6",
+   "segment": "Sports car",
+   "slug": "100-6",
+   "status": "Discontinued",
+   "trims": [
+    "100-6 BN4",
+    "100-6 BN6"
+   ],
+   "years": "1956–1959"
+  },
+  {
+   "bodyStyles": [
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "BJ8s lead the market on comfort and power; documented rally history leads everything. Chassis rails and outriggers rust — the car is bought underneath.",
+   "generations": [
+    {
+     "code": "3000-1",
+     "name": "3000 Mk I / Mk II",
+     "note": "Front discs were standard from the start. The Mk II's triple carburettors (132 hp) proved fussy and gave way to twins on the Mk IIa convertible.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.9L inline-6",
+      "power": "124–132 hp"
+     },
+     "years": "1959–1963"
+    },
+    {
+     "code": "3000-2",
+     "name": "3000 Mk III",
+     "note": "The BJ8 Mk III is the most powerful and most comfortable Big Healey — walnut dash, wind-up windows, 148 hp — and the last: US safety and emissions rules ended production in 1967, with a handful of cars completed into 1968.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.9L inline-6",
+      "power": "148 hp"
+     },
+     "years": "1964–1967"
+    }
+   ],
+   "intro": "The Big Healey at full size: 2.9 litres, disc brakes, and a rally record — Pat Moss, the Morley brothers, wins at the Liège and the Alpine — that made it the definitive British competition car of the sixties. The Mk III's wood dash and wind-up windows civilised it without softening it.",
+   "name": "3000",
+   "segment": "Sports car",
+   "slug": "3000",
+   "status": "Discontinued",
+   "trims": [
+    "3000 Mk I",
+    "3000 Mk II",
+    "3000 Mk IIa",
+    "3000 Mk III (BJ8)"
+   ],
+   "years": "1959–1967"
+  },
+  {
+   "bodyStyles": [
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Frogeyes are the collectors' car; later 1275 cars are the drivers'. Original steel bonnets on Mk Is matter — many were replaced in period accidents.",
+   "generations": [
+    {
+     "code": "Sprite 1",
+     "name": "Sprite Mk I (Frogeye)",
+     "note": "The A-series 948 cc engine and those lamps. No boot lid — luggage went behind the seats. Just under 49,000 Frogeyes were built.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "0.95L inline-4",
+      "power": "43 hp"
+     },
+     "years": "1958–1961"
+    },
+    {
+     "code": "Sprite 2",
+     "name": "Sprite Mk II / Mk III / Mk IV",
+     "note": "Conventional lamps and a boot from the Mk II; the 1275 cc Mk IV reached 65 hp. The Sprite name ended in 1971 while the Midget twin carried on.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "1.0L–1.3L inline-4",
+      "power": "46–65 hp"
+     },
+     "years": "1961–1971"
+    }
+   ],
+   "intro": "The Frogeye: a Healey sports car for £669, its headlamps perched on the bonnet because the flip-up mechanism cost too much. The Sprite democratised the sports car a second time and raced everywhere; its MG Midget twin kept the shape alive to 1979.",
+   "name": "Sprite",
+   "segment": "Sports car",
+   "slug": "sprite",
+   "status": "Discontinued",
+   "trims": [
+    "Sprite Mk I",
+    "Sprite Mk II",
+    "Sprite Mk III",
+    "Sprite Mk IV"
+   ],
+   "years": "1958–1971"
+  }
+ ]
+}
