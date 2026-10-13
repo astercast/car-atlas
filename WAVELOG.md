@@ -112,3 +112,85 @@ fleet-ordered free-tier / best-pattern audit:
 - Historic marques batch 2 (from the COVERAGE list): Cord, Hudson,
   Nash, Kaiser, Stutz, and the British defuncts (Triumph, Austin-
   Healey, Jensen, TVR).
+
+## Priority fix — VP-0003: model pages can no longer stall at the loader (2026-10-13)
+
+Visitor Panel VP-0003 reproduced across three consecutive rounds at
+HEAD `e433bf3`: model pages intermittently sat at "Loading the
+record…" forever — round 3 counted **1 of 5 DOM loads completing**
+(911 desktop ×3, 911 mobile, Tucker 48) while screenshot loads
+completed 3/3. The data was never the problem (per-make files ~7 KB).
+
+- **Root cause, pinned in the code:** `assets/js/app.js`'s
+  `fetchJSON` was a bare `await fetch(path)` — no timeout, no abort,
+  no deadline — feeding a `Promise.all` in `initModel`. A fetch that
+  never settles never rejects, so the boot `.catch` (the page's only
+  error path) could never fire; and `model.html`'s `#model-root`
+  contained nothing but the loader text, so a hang painted an
+  eternal spinner over a blank page. A no-timeout race, exactly as
+  the ticket diagnosed.
+- **Pattern adopted:** Fleet Commons **honest-fallback v1.0.0**
+  (`~/workspace/fleet-commons/patterns/honest-fallback/` — harvested
+  from Trend Machine's certified VP-0001 fix, wave 30 at `c687d5f`),
+  adopted in its canonical shape, not re-invented: both canonical
+  files copied verbatim (Commons verified the adoption
+  byte-identical from its side) — `bake_fallback.py` →
+  `scripts/bake_fallback.py`, `fetch_deadline.js` →
+  `assets/js/fetch_deadline.js` (loaded by all five pages).
+  - **Layer 1 — baked snapshot.** `scripts/build.py` now bakes the
+    record's genuine static essentials (make/model names, intro,
+    years, status, segment, body styles, generation count — from
+    the same stored dataset) for all 180 models into `model.html`
+    between `<!--FB:model-essentials-->` markers, wholesale and
+    idempotent. `initModel` paints that snapshot synchronously,
+    before any fetch, in the live renderer's own markup, stamped
+    with the dataset's date and the words "static snapshot". A
+    stalled load now reads as the car's own page from the first
+    second.
+  - **Layer 2 — fetch deadline + watchdog.** Every loader in the
+    app now goes through `HonestFetch.getJSON` (canonical default
+    12 s); the model page's three loaders carry an 8 s per-loader
+    deadline (files are ~7 KB; a healthy local load is
+    milliseconds), backed by the canonical 12 s `armWatchdog`. On
+    deadline the load resolves into the baked snapshot with an
+    honest "didn't finish loading" status and a **Retry the full
+    record** button (or, for a model with no baked entry, an honest
+    error with retry) — the terminal-state law: live content · a
+    labeled baked snapshot · an honest error. Never a spinner
+    without a deadline.
+  - **Happy path unchanged:** on success the live renderer replaces
+    the snapshot wholesale, exactly as the panel's screenshots
+    showed.
+- **Before / after, panel-style verification** (headless Chromium,
+  cold loads, local server):
+  - Before: 1/5 DOM loads completing at `e433bf3`, the rest eternal
+    stalls (panel rounds 1–3).
+  - After, normal reps — **10/10 full live renders** (Where to buy
+    present, correct titles), zero page errors: 911 desktop ×3
+    (2.3–3.0 s), 911 mobile ×2 (1.2–1.7 s), Tucker 48 desktop ×2
+    (2.6–3.0 s) + mobile ×1 (2.4 s), Lexus LFA desktop ×2
+    (2.3–2.5 s).
+  - After, hang-injected reps (make-file fetch continued to a
+    never-responding endpoint — a fetch that never settles) —
+    **3/3 landed in the honest baked fallback** (911 desktop 13.1 s,
+    911 mobile 12.5 s, Tucker 48 mobile 11.6 s — the 8 s deadline /
+    12 s watchdog band), with the baked snapshot already painted at
+    1 s in every rep, and the Retry button recovering to the full
+    live record in 3/3 once the hang was removed.
+  - **Zero eternal stalls across all 13 reps.**
+- **Regression:** `scripts/build.py` passes (schema validation;
+  40 makes / 180 models / 354 generations; index regenerated
+  byte-identical; bake idempotent across repeat runs). API smoke
+  12/12 across all 5 functions (incl. honest 400/404s; health
+  reports the dataset's real counts and date). Screenshots harness
+  completed all 13 shots — the only console errors are the known
+  sandbox Google-Fonts tunnel artifact, no page errors.
+- **Also this fix:** `llms.txt` authored at the repo root per the
+  **llms-txt canonical contract (Commons round 7)**
+  (`~/workspace/fleet-commons/patterns/llms-txt/`) — the site had
+  none. H1 + blockquote summary in the atlas's editorial voice,
+  sections of canonical markdown links to the real pages, records,
+  data files, API notes, and docs, with an `## Optional` section.
+  The Commons checker (`check_llms.py`) verdict: **PASS — 0 errors,
+  0 warnings** (16/16 items canonical markdown-link, 16/16 targets
+  exist on disk).

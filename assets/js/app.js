@@ -6,7 +6,13 @@ const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
-async function fetchJSON(path) {
+/* Fleet Commons honest-fallback v1.0.0, Layer 2 (assets/js/
+   fetch_deadline.js, copied verbatim): every load races a deadline.
+   A fetch that never settles — the VP-0003 hang — now rejects into
+   the normal failure chain instead of spinning forever. Canonical
+   default 12000 ms applies unless a loader passes its own. */
+async function fetchJSON(path, opts) {
+  if (window.HonestFetch) return HonestFetch.getJSON(path, opts);
   const r = await fetch(path);
   if (!r.ok) throw new Error(`${path} → ${r.status}`);
   return r.json();
@@ -160,19 +166,78 @@ async function initMake() {
     </div></section>`;
 }
 
-/* ——— Model page ——— */
+/* ——— Model page ———
+   honest-fallback (VP-0003): Layer 1 paints the baked snapshot —
+   the record's genuine essentials, baked into model.html at build
+   time from the same dataset — synchronously, before any fetch.
+   Layer 2 bounds the live load: 8 s per-loader deadline (the files
+   are ~7 KB; a local load is milliseconds) plus the 12 s watchdog
+   backstop. Terminal states: live record · labeled static snapshot
+   with retry · honest error with retry. Never an eternal loader. */
+const MODEL_DEADLINE_MS = 8000, MODEL_WATCHDOG_MS = 12000;
+
+function renderBakedModel(root, mk, md) {
+  const all = window.__CA_MODEL_ESSENTIALS__;
+  const e = all && all[`${mk}/${md}`];
+  if (!e) return false;
+  document.title = `${e.makeName} ${e.name} — Car Atlas`;
+  root.innerHTML = `
+    <div class="crumb"><a href="index.html">Atlas</a> / <a href="${makeUrl(mk)}">${esc(e.makeName)}</a> / ${esc(e.name)}</div>
+    <h1>${esc(e.makeName)} ${esc(e.name)}</h1>
+    <p class="lede">${esc(e.intro)}</p>
+    <div class="factrow">
+      <div class="fact"><span>Years</span><b>${esc(e.years)}</b></div>
+      <div class="fact"><span>Status</span><b>${esc(e.status)}</b></div>
+      <div class="fact"><span>Segment</span><b>${esc(e.segment)}</b></div>
+      <div class="fact"><span>Body styles</span><b>${esc(e.bodyStyles.join(", "))}</b></div>
+      <div class="fact"><span>Generations</span><b>${e.generationCount}</b></div>
+    </div>
+    <div class="note-box"><b>Static snapshot</b>
+      <p>Atlas data as of ${esc(window.__CA_DATASET_UPDATED_AT__ || "")} · static snapshot — the full record (every generation, trims, where to buy) replaces this on load.</p>
+      <p id="model-load-status" aria-live="polite">Loading the full record…</p>
+    </div>`;
+  return true;
+}
+
+function modelStuck(root, baked, err) {
+  const msg = `The full record didn't finish loading${err ? ` (${err.message})` : ""}.`;
+  const wire = () => { const b = $("#model-retry", root); if (b) b.addEventListener("click", () => initModel()); };
+  const st = baked && $("#model-load-status", root);
+  if (st) {
+    st.innerHTML = `${esc(msg)} You're reading the static snapshot above — this car's essentials, exactly as baked from the atlas data. <button class="chip" id="model-retry" type="button">Retry the full record</button>`;
+  } else {
+    root.innerHTML = `<p class="center-note">${esc(msg)} <button class="chip" id="model-retry" type="button">Retry</button></p>`;
+  }
+  wire();
+}
+
 async function initModel() {
   const ps = new URLSearchParams(location.search);
   const mk = ps.get("make"), md = ps.get("model");
-  const [makesData, file, buying] = await Promise.all([
-    fetchJSON("data/v1/makes.json"),
-    fetchJSON(`data/v1/models/${mk}.json`),
-    fetchJSON("data/v1/buying.json"),
-  ]);
+  const root = $("#model-root");
+  const baked = renderBakedModel(root, mk, md);
+  let live = false, settled = false;
+  const cancelWatchdog = window.HonestFetch ? HonestFetch.armWatchdog({
+    ms: MODEL_WATCHDOG_MS,
+    isLive: () => live,
+    onStuck: () => { if (!settled) { settled = true; modelStuck(root, baked); } },
+  }) : () => {};
+  let makesData, file, buying;
+  try {
+    [makesData, file, buying] = await Promise.all([
+      fetchJSON("data/v1/makes.json", { ms: MODEL_DEADLINE_MS }),
+      fetchJSON(`data/v1/models/${mk}.json`, { ms: MODEL_DEADLINE_MS }),
+      fetchJSON("data/v1/buying.json", { ms: MODEL_DEADLINE_MS }),
+    ]);
+  } catch (err) {
+    if (!settled) { settled = true; cancelWatchdog(); modelStuck(root, baked, err); }
+    console.error(err);
+    return;
+  }
+  settled = true;
   const meta = makesData.makes.find((m) => m.slug === mk);
   const model = file.models.find((m) => m.slug === md);
-  const root = $("#model-root");
-  if (!meta || !model) { root.innerHTML = `<p class="center-note">Model not found in the atlas yet.</p>`; return; }
+  if (!meta || !model) { live = true; cancelWatchdog(); root.innerHTML = `<p class="center-note">Model not found in the atlas yet.</p>`; return; }
   document.title = `${meta.name} ${model.name} — Car Atlas`;
   const cls = buying.buyingClasses[model.buyingClass];
   const channels = (cls?.primaryChannels || [])
@@ -222,6 +287,7 @@ async function initModel() {
       </div>
       <div class="note-box"><b>Price Watch</b><p>Listing aggregation and price-drop alerts for this model are on the roadmap — the method and schema are published on the <a href="buy.html">Buy page</a>. No prices are shown until they can be shown honestly, with timestamps.</p></div>
     </section>`;
+  live = true; cancelWatchdog();
   const btn = $("#toggle-gens");
   if (btn) btn.addEventListener("click", () => {
     const box = $("#more-gens"), open = box.classList.toggle("hidden") === false;
