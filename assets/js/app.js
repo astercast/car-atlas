@@ -89,7 +89,7 @@ const photosHTML = (rec) => {
   return photoFigure(list[0], "photo-main")
     + (list.length > 1 ? `<div class="photo-grid">${list.slice(1).map((p) => photoFigure(p)).join("")}</div>` : "");
 };
-const money = (r) => (r.currency === "EUR" ? "€" : "$") + Number(r.price).toLocaleString("en-US");
+const money = (r) => (r.currency === "EUR" ? "€" : r.currency === "GBP" ? "£" : "$") + Number(r.price).toLocaleString("en-US");
 
 /* ——— Tiles ——— */
 const modelTile = (e) => `
@@ -406,6 +406,32 @@ async function initBuy() {
         <div class="t-foot"><a href="${href}">Atlas record →</a> · <a href="${esc(r.source.url)}" target="_blank" rel="noopener">Source ↗</a></div>
       </article>`;
       }).join("");
+    /* T-CARS-1, first rung (stage 6): cohort ranges computed only
+       from certified records sharing a model AND a currency, n>=2.
+       A range with its count — never a median or a valuation. */
+    const cgrid = $("#cohort-grid");
+    if (cgrid) {
+      const groups = {};
+      for (const r of pw.results) {
+        if (!r.modelSlug) continue;
+        const key = `${r.make}/${r.modelSlug}/${r.currency}`;
+        (groups[key] ||= []).push(r);
+      }
+      const cohorts = Object.values(groups).filter((g) => g.length >= 2)
+        .sort((a, b) => b.length - a.length || a[0].model.localeCompare(b[0].model));
+      cgrid.innerHTML = cohorts.map((g) => {
+        const prices = g.map((r) => r.price);
+        const lo = g[prices.indexOf(Math.min(...prices))], hi = g[prices.indexOf(Math.max(...prices))];
+        const years = g.map((r) => r.year);
+        return `
+      <article class="tile">
+        <div class="t-top"><h3>${esc(g[0].makeName)} ${esc(g[0].model.split(" (")[0])}</h3><span class="t-sub">n=${g.length} certified</span></div>
+        <p class="pw-price">${esc(money(lo))} – ${esc(money(hi))}</p>
+        <p>Certified results span model years ${Math.min(...years)}–${Math.max(...years)}, sales ${esc(g.map((r) => r.saleDate).sort()[0])} to ${esc(g.map((r) => r.saleDate).sort().slice(-1)[0])}.<br><span class="small mut">Range over ${g.length} certified sales in ${esc(g[0].currency)} — context, not a valuation of any other example.</span></p>
+        <div class="t-foot"><a href="${modelUrl(g[0].make, g[0].modelSlug)}">Atlas record →</a></div>
+      </article>`;
+      }).join("");
+    }
     const note = $("#results-note");
     if (note) note.textContent = pw.note;
   } catch { /* results stay unpublished rather than guessed */ }

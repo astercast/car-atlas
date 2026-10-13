@@ -1,5 +1,155 @@
 # WAVELOG — Car Atlas
 
+## Wave 11 — THE WORLD-BENCHMARK DELTA PASS: BENCHMARK.md, Price Watch stage 6 (46 → 56), T-CARS-1 first rung (2026-10-13)
+
+**Headline (named before building, owner order):** Car Atlas
+competes with the TOP CAR SITES IN THE WORLD — name the top set,
+score the atlas against each, close the closable deltas in-rotation,
+re-argue the deferred by name with priced closures, and carry a
+benchmark standing line in every rotation report from here.
+
+- **The top set, named (`BENCHMARK.md`, new):** Classic.com
+  (pricing intelligence + results aggregation), Hagerty (valuation +
+  collector intelligence), Bring a Trailer (enthusiast auctions +
+  results archive), Cars & Bids (modern enthusiast auctions),
+  CarGurus (mainstream used-car pricing intelligence), Hemmings
+  (classic classifieds + hobby hub), Wikipedia (encyclopedia
+  breadth). Desk assessment from field knowledge, stated as such in
+  the file — no live rival read was claimed and no fetch needing a
+  sharing approval was attempted. **Scorecard verdicts:** the atlas
+  is BEHIND every rival on live data depth/intelligence (56
+  certified results against archives and listing pools orders of
+  magnitude larger; zero live listings), BEHIND Wikipedia on
+  encyclopedia breadth, PARITY-or-AHEAD on design against the whole
+  set (the gallery-minimal register is the fleet's reference
+  register — held honestly, not chased), and AHEAD only on
+  per-record provenance and on having encyclopedia + buying +
+  clubs in one structured product.
+- **Price Watch stage 6:** **46 → 56 certified results**, each
+  certified at ingest on 2026-10-13 against a published source
+  naming car, price, house and day: the 1948 Tucker 48, chassis
+  1021 ($1,870,000 incl. fees, Mecum Kissimmee, Saturday
+  2024-01-13 — `modelSlug: 48`); the 1970 Plymouth Hemi Cuda
+  Convertible, chassis BS27R0B305097 ($1,950,000 as recorded,
+  Mecum Kissimmee, 2024-01-12 — `modelSlug: barracuda`); and eight
+  from Saturday 2023-08-19: the 1957 Jaguar XKSS, chassis XKSS 707
+  ($13,205,000, RM Sotheby's Monterey — make level, no XKSS model
+  record exists); the 1962 Ferrari 250 GT SWB Berlinetta, chassis
+  3507 GT ($9,465,000, Gooding & Company Pebble Beach — make
+  level); the 1972 Lamborghini Miura P400 SV, chassis 5066
+  ($3,580,000, Gooding — `miura`); the 1991 Ferrari F40, chassis
+  ZFFMN34A5M0087568 ($3,085,000, Gooding — `f40`); the 1930
+  Duesenberg Model J 'Barrelside' Phaeton, chassis 2323
+  ($2,975,000, Gooding — `model-j`); the 2007 Maserati MC12
+  Versione Corsa, chassis ZAMDF33B000029629 ($2,480,000, Gooding —
+  `mc12`); the 1968 Lamborghini Miura P400, chassis 3378
+  ($2,260,000, Gooding — `miura`; sale day pinned by CLASSIC.COM's
+  record of the same lot); the 1965 Aston Martin DB5 Convertible,
+  chassis DB5C/1903/L ($2,205,000, Gooding — `db5`). Results stay
+  ordered newest first and render on the Buy page (verified:
+  56 tiles, desktop + mobile).
+- **T-CARS-2 (condition/mileage) — ADVANCED:** populated only
+  where the certifying source states the field: condition
+  **4/46 → 11/56** (XKSS, SWB, Miura SV, F40, Model J, DB5,
+  Hemi Cuda — all "Original & Highly Original" per source),
+  mileage **1/46 → 7/56** (XKSS 25k mi TMU, SWB 53k km, Miura SV
+  1k km TMU, F40 1k mi, DB5 78k mi, Hemi Cuda 26k mi TMU), chassis
+  keys **34/46 → 44/56** (all ten new records carry one; the MC12's
+  source states originality "N/A" and mileage TMU, so both fields
+  stay null — stated, not filled).
+- **T-CARS-3 (orphans) — ADVANCED:** linked records **21 → 29**;
+  orphan count 25 → 27 (the two new make-level records above),
+  orphan **share 54% → 48%**.
+- **T-CARS-4 — re-scanned, still an honest zero:** no chassis in
+  the 56 repeats. The Miura P400's chassis 3378 is reported by its
+  house to have sold at the same venue in 2021 — that sale is not
+  a certified record in this set, so no repeat is claimed; the
+  mechanism will surface it if the 2021 sale is ever certified.
+- **T-CARS-1 (benchmark/cohort) — FIRST RUNG SHIPPED, full form
+  still DEFERRED and priced in `BENCHMARK.md`:** the Buy page now
+  computes cohort ranges from certified records only — model +
+  single currency, n ≥ 2, count shown, labelled "ranges, not
+  valuations". Seven cohorts qualify (F1, Corvette, Ford GT,
+  F40-EUR, Miura-USD, DB5, Model J). No median, no condition tier,
+  no per-model value is claimed: Classic.com's CMB and Hagerty's
+  condition tiers WIN today, outright — priced closure in
+  BENCHMARK.md (~300+ certified results at ≥8 per priority model,
+  or a licensed feed needing an owner call; the computation
+  machinery itself is one wave once any cohort reaches n ≥ 8).
+- **T-CARS-5 (follow/notify) — DEFERRED, re-argued and priced in
+  `BENCHMARK.md`:** BaT, Cars & Bids and Classic.com win today.
+  Priced in two rungs: a local-only follow (browser storage,
+  labelled as notifying nobody off-site) is one client-only wave;
+  true notify is deploy-gated, est. 2–3 waves after a deploy
+  exists, inseparable from the parked cron decision.
+- **Honesty fix on touch:** `money()` rendered GBP records with a
+  `$` sign; it now renders `£` (the 2013 W 196 R record displays
+  £19,601,500, verified on the Buy page).
+- **Skipped, recorded in the file itself (1 new;
+  `skippedSources` 10 → 11):** the 2006 Bugatti Veyron 16.4
+  ($1,545,000, Gooding & Company Pebble Beach, 2023-08-19) — car,
+  price, house and day published, but the atlas carries no Bugatti
+  marque record; skipped rather than misattributed (the CSX 2000 /
+  Blower / Atalante precedent).
+- **What stage 6 is not:** the listings ingest + cron parked in
+  earlier roadmaps is still not built — it still needs a deploy
+  decision and its own free-tier audit. Stage 6 is results ingest
+  only: still a static file, no function, no cron, no external
+  call. The file's `stage` field, the Buy page heading,
+  `buying.json`'s new `stage6` note, `API.md`, `GO_LIVE.md`,
+  `LIVE_CHECKLIST.md`, `COVERAGE.md` and `llms.txt` all say so in
+  the same words; counts everywhere re-derived from the data
+  (56 results; 59 / 257 / 469 / 46 unchanged).
+- **Regression: VP-0003 holds.** Build passes (schema + counts +
+  price-watch source check: "56 certified auction results";
+  59 / 257 / 469 unchanged) and re-bakes idempotently (hashes
+  stable across repeat builds); llms checker **PASS — 0 errors,
+  0 warnings** (18/18 targets, BENCHMARK.md included). Render
+  checks (headless Chromium, ThreadingHTTPServer, deterministic
+  `wait_for_function` on content — no fixed sleeps): the Buy page
+  renders all 56 results and exactly 7 cohort tiles with zero page
+  errors (desktop + mobile; screenshots refreshed in repo and
+  archived at `~/workspace/progress-archive/car-atlas/rotation-020/`);
+  cold loads of the Tucker 48, Barracuda, MC12, Miura, Model J and
+  DB5 model pages each rendered one `<h1>` and their newly linked
+  Price Watch result live; a hang-injected 911 load settled in the
+  honest baked fallback. (Verifier lesson recorded: the note-box
+  heading is CSS-uppercased in `innerText`, so content waits must
+  match case-insensitively — the first verifier run timed out on
+  case, not on content.)
+- **BENCHMARK STANDING — CLOSER**, on evidence a visitor can see:
+  the certified-results set grew 46 → 56 (+22%), linked share rose
+  to 29/56 and orphan share fell 54% → 48%, condition/mileage
+  coverage nearly tripled (4 → 11 and 1 → 7), and the atlas
+  shipped its first cohort rung (ranges, n shown) — while
+  remaining BEHIND every named rival on live listings, true
+  cohort benchmarks (T-CARS-1) and follow/notify (T-CARS-5), and
+  BEHIND Wikipedia on encyclopedia breadth; design held at
+  PARITY-or-AHEAD against the whole set.
+- **Parked decisions (unchanged):** (1) a dedicated Ferrari
+  250 GTO model record — the photo and the make-level auction
+  results sit at make level until the owner calls it; (2) the
+  listings-ingest / cron form of Price Watch — needs a deploy
+  decision and its own free-tier audit; (3) a sitemap — lands
+  with GO_LIVE step 5.
+
+### Next waves (planned)
+
+- Living-makes breadth from the COVERAGE list (Bentley, Bugatti,
+  Genesis, MINI, Mitsubishi, Rivian, Rolls-Royce, and the rest) —
+  Bentley's arrival would also unblock the stage-4 Blower skip,
+  Bugatti's the stage-5 Atalante and stage-6 Veyron skips.
+- Generation depth for the wave-2/3 models (the wave-4 icon
+  treatment, extended).
+- Remaining historic marques from the COVERAGE list (Marlin, MG
+  pre-SAIC lineage, Morgan, Opel, Saturn, Vauxhall).
+- Price Watch: further certified results to the same standard as
+  sources allow (priority: cohorts approaching n ≥ 8 in one
+  currency, and the 2021 Miura P400 sale of chassis 3378, which
+  would give T-CARS-4 its first genuine repeat); T-CARS-5's
+  local-follow rung as a named candidate wave; listings ingest
+  only alongside a deploy decision.
+
 ## Wave 10 — Price Watch ingest stage 5: certified results 37 → 46, T-CARS link/field mechanisms (2026-10-13)
 
 **Headline (named before building):** Price Watch ingest stage 5 —

@@ -1,5 +1,5 @@
 {
- "note": "Price Watch tracks completed auction results, not live listings. Every record below was certified at ingest against a published source naming the car, the price, the house, and the date; the source is linked on each record. Wave 4 certified 7 results (2026-10-13); wave 5 added 4 more to the same standard; wave 7 (stage 2) added 8 more; wave 8 (stage 3) added 9 more; wave 9 (stage 4) added 9 more; wave 10 (stage 5) added 9 more — 46 certified results in all. Stage 5 also gave every record a chassis key (populated where the source names the chassis, null otherwise), condition and mileage fields (populated only where a source states them, null otherwise — never inferred), and linked seven earlier records to model pages the atlas already carried. Stage 5 extends the certified-results set only: the listings ingest described in earlier roadmaps is not built, and no listing, estimate or unsold lot appears here. Prices are historical facts about one specific car on one specific day — not asking prices, not estimates, and not a valuation of any other example. Results that could not be certified to that standard were skipped, not estimated (see skippedSources).",
+ "note": "Price Watch tracks completed auction results, not live listings. Every record below was certified at ingest against a published source naming the car, the price, the house, and the date; the source is linked on each record. Wave 4 certified 7 results (2026-10-13); wave 5 added 4 more to the same standard; wave 7 (stage 2) added 8 more; wave 8 (stage 3) added 9 more; wave 9 (stage 4) added 9 more; wave 10 (stage 5) added 9 more; wave 11 (stage 6) added 10 more — 56 certified results in all. Stage 5 gave every record a chassis key (populated where the source names the chassis, null otherwise) and condition and mileage fields (populated only where a source states them, null otherwise — never inferred); stage 6 populated those fields from its sources wherever they stated them, linked eight of its ten new records to model pages the atlas already carried, and added the Buy page's first cohort rung: per-model result ranges computed only from certified records in a single currency, with the count shown. Stage 6 extends the certified-results set only: the listings ingest described in earlier roadmaps is not built, and no listing, estimate or unsold lot appears here. Prices are historical facts about one specific car on one specific day — not asking prices, not estimates, and not a valuation of any other example. Results that could not be certified to that standard were skipped, not estimated (see skippedSources).",
  "results": [
   {
    "chassis": "00009/54",
@@ -22,6 +22,46 @@
    "year": 1954
   },
   {
+   "chassis": "1021",
+   "condition": null,
+   "mileage": null,
+   "modelSlug": "48",
+   "status": "sold",
+   "currency": "USD",
+   "event": "Mecum Kissimmee",
+   "make": "tucker",
+   "makeName": "Tucker",
+   "model": "48 (chassis 1021)",
+   "price": 1870000,
+   "priceBasis": "Including fees, as reported from the sale (Saturday session, 13 Jan 2024)",
+   "saleDate": "2024-01-13",
+   "source": {
+    "name": "American Cars and Racing — Mecum Kissimmee 2024 sale report (13 Jan 2024; sale day cross-checked against CLASSIC.COM's Mecum Kissimmee 2024 lot record)",
+    "url": "https://americancarsandracing.com/2024/01/13/tucker-48-sold-mecum-auction-1-87-million/"
+   },
+   "year": 1948
+  },
+  {
+   "chassis": "BS27R0B305097",
+   "condition": "Original & Highly Original",
+   "mileage": "26k mi TMU",
+   "modelSlug": "barracuda",
+   "status": "sold",
+   "currency": "USD",
+   "event": "Mecum Kissimmee",
+   "make": "plymouth",
+   "makeName": "Plymouth",
+   "model": "Hemi Cuda Convertible (chassis BS27R0B305097)",
+   "price": 1950000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2024-01-12",
+   "source": {
+    "name": "CLASSIC.COM record of the Mecum Kissimmee 2024 result (lot F200)",
+    "url": "https://www.classic.com/a/mecum-kissimmee-2024-8p6VGVp/lots/1970-plymouth-hemi-cuda-convertible-pG729Yp/?page=3"
+   },
+   "year": 1970
+  },
+  {
    "chassis": "3765",
    "condition": null,
    "currency": "USD",
@@ -40,6 +80,166 @@
    },
    "status": "sold",
    "year": 1962
+  },
+  {
+   "chassis": "XKSS 707",
+   "condition": "Original & Highly Original",
+   "mileage": "25k mi TMU",
+   "modelSlug": null,
+   "status": "sold",
+   "currency": "USD",
+   "event": "RM Sotheby's Monterey",
+   "make": "jaguar",
+   "makeName": "Jaguar",
+   "model": "XKSS (chassis XKSS 707)",
+   "price": 13205000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2023-08-19",
+   "source": {
+    "name": "CLASSIC.COM record of the RM Sotheby's Monterey 2023 result (lot 351)",
+    "url": "https://www.classic.com/a/rm-sothebys-monterey-2023-xpGORjp/lots/1957-jaguar-xkss-n1kOzqp/?page=2"
+   },
+   "year": 1957
+  },
+  {
+   "chassis": "3507 GT",
+   "condition": "Original & Highly Original",
+   "mileage": "53k km (32k mi)",
+   "modelSlug": null,
+   "status": "sold",
+   "currency": "USD",
+   "event": "Gooding & Company Pebble Beach",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "model": "250 GT SWB Berlinetta (chassis 3507 GT)",
+   "price": 9465000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2023-08-19",
+   "source": {
+    "name": "CLASSIC.COM record of the Gooding & Company Pebble Beach 2023 result (lot 40)",
+    "url": "https://www.classic.com/a/gooding-company-pebble-beach-2023-knXMA5W/lots/1962-ferrari-250-gt-swb-berlinetta-nQY3VZn"
+   },
+   "year": 1962
+  },
+  {
+   "chassis": "5066",
+   "condition": "Original & Highly Original",
+   "mileage": "1k km (923 mi) TMU",
+   "modelSlug": "miura",
+   "status": "sold",
+   "currency": "USD",
+   "event": "Gooding & Company Pebble Beach",
+   "make": "lamborghini",
+   "makeName": "Lamborghini",
+   "model": "Miura P400 SV (chassis 5066)",
+   "price": 3580000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2023-08-19",
+   "source": {
+    "name": "CLASSIC.COM record of the Gooding & Company Pebble Beach 2023 result (lot 20)",
+    "url": "https://Www.classic.com/a/gooding-company-pebble-beach-2023-knXMA5W/lots/1972-lamborghini-miura-p400-sv-4M6VDgn/"
+   },
+   "year": 1972
+  },
+  {
+   "chassis": "ZFFMN34A5M0087568",
+   "condition": "Original & Highly Original",
+   "mileage": "1k mi",
+   "modelSlug": "f40",
+   "status": "sold",
+   "currency": "USD",
+   "event": "Gooding & Company Pebble Beach",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "model": "F40 (chassis ZFFMN34A5M0087568)",
+   "price": 3085000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2023-08-19",
+   "source": {
+    "name": "CLASSIC.COM record of the Gooding & Company Pebble Beach 2023 result (lot 34)",
+    "url": "http://www.classic.com/a/gooding-company-pebble-beach-2023-knXMA5W/lots/1991-ferrari-f40-WqEK6EW/?page=2"
+   },
+   "year": 1991
+  },
+  {
+   "chassis": "2323",
+   "condition": "Original & Highly Original",
+   "mileage": null,
+   "modelSlug": "model-j",
+   "status": "sold",
+   "currency": "USD",
+   "event": "Gooding & Company Pebble Beach",
+   "make": "duesenberg",
+   "makeName": "Duesenberg",
+   "model": "Model J Dual Cowl 'Barrelside' Phaeton (chassis 2323)",
+   "price": 2975000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2023-08-19",
+   "source": {
+    "name": "CLASSIC.COM record of the Gooding & Company Pebble Beach 2023 result (lot 45)",
+    "url": "https://Www.classic.com/a/gooding-company-pebble-beach-2023-knXMA5W/lots/1930-duesenberg-model-j-dual-cowl-barrelside-phaet-4VboM54/"
+   },
+   "year": 1930
+  },
+  {
+   "chassis": "ZAMDF33B000029629",
+   "condition": null,
+   "mileage": null,
+   "modelSlug": "mc12",
+   "status": "sold",
+   "currency": "USD",
+   "event": "Gooding & Company Pebble Beach",
+   "make": "maserati",
+   "makeName": "Maserati",
+   "model": "MC12 Versione Corsa (chassis ZAMDF33B000029629)",
+   "price": 2480000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2023-08-19",
+   "source": {
+    "name": "CLASSIC.COM record of the Gooding & Company Pebble Beach 2023 result (lot 57)",
+    "url": "https://www.classic.com/a/gooding-company-pebble-beach-2023-knXMA5W/lots/2007-maserati-mc12-versione-corsa-WLQ6D6p/"
+   },
+   "year": 2007
+  },
+  {
+   "chassis": "3378",
+   "condition": null,
+   "mileage": null,
+   "modelSlug": "miura",
+   "status": "sold",
+   "currency": "USD",
+   "event": "Gooding & Company Pebble Beach",
+   "make": "lamborghini",
+   "makeName": "Lamborghini",
+   "model": "Miura P400 (chassis 3378)",
+   "price": 2260000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2023-08-19",
+   "source": {
+    "name": "Gooding & Company — Pebble Beach 2023 lot 157 record (sale day pinned by CLASSIC.COM's record of the same lot)",
+    "url": "https://www.goodingco.com/lot/1968-lamborghini-miura-p400-1/"
+   },
+   "year": 1968
+  },
+  {
+   "chassis": "DB5C/1903/L",
+   "condition": "Original & Highly Original",
+   "mileage": "78k mi",
+   "modelSlug": "db5",
+   "status": "sold",
+   "currency": "USD",
+   "event": "Gooding & Company Pebble Beach",
+   "make": "aston-martin",
+   "makeName": "Aston Martin",
+   "model": "DB5 Convertible (chassis DB5C/1903/L)",
+   "price": 2205000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2023-08-19",
+   "source": {
+    "name": "CLASSIC.COM record of the Gooding & Company Pebble Beach 2023 result (lot 131)",
+    "url": "http://www.classic.com/a/gooding-company-pebble-beach-2023-knXMA5W/lots/1965-aston-martin-db5-convertible-nw5VqYp/?page=1"
+   },
+   "year": 1965
   },
   {
    "chassis": "0854",
@@ -932,9 +1132,10 @@
   "Wave 7 pass: the first Shelby Cobra, CSX 2000 ($13,750,000 incl. premium, RM Sotheby's Monterey, 2016-08-19) — car, price, house and day are all published, but the atlas carries no Shelby marque record and the car is not a Ford; certifying it would require a marque the atlas does not have, so it is skipped rather than misattributed.",
   "Wave 8 pass: the 1960 Ferrari 250 GT SWB California Spider ($17,055,000 incl. premium, RM Sotheby's Monterey) — car, price and house are published, but the sources consulted date the sale only to the three-day event (15–17 August 2024), not to the day; skipped rather than dated by inference (the SSJ precedent).",
   "Wave 9 pass: the 1929 Bentley 4½-Litre Supercharged 'Blower' No.1 (£5,042,000 incl. premium, Bonhams, Goodwood Festival of Speed, June 2012) — car, price, house and sale are all published, but the atlas carries no Bentley marque record; certifying it would require a marque the atlas does not have, so it is skipped rather than misattributed (the CSX 2000 precedent).",
-  "Wave 10 pass: the 1937 Bugatti Type 57 Atalante Coupé ($10,345,000, Gooding & Company, Pebble Beach, 2022) — car, price and house are published, but the atlas carries no Bugatti marque record; certifying it would require a marque the atlas does not have, so it is skipped rather than misattributed (the CSX 2000 / Blower precedent)."
+  "Wave 10 pass: the 1937 Bugatti Type 57 Atalante Coupé ($10,345,000, Gooding & Company, Pebble Beach, 2022) — car, price and house are published, but the atlas carries no Bugatti marque record; certifying it would require a marque the atlas does not have, so it is skipped rather than misattributed (the CSX 2000 / Blower precedent).",
+  "Wave 11 pass: the 2006 Bugatti Veyron 16.4 ($1,545,000, Gooding & Company Pebble Beach, 2023-08-19) — car, price, house and day are all published, but the atlas carries no Bugatti marque record; certifying it would require a marque the atlas does not have, so it is skipped rather than misattributed (the CSX 2000 / Blower / Atalante precedent)."
  ],
- "stage": "Stage 5 — auction results, extended a fourth time",
+ "stage": "Stage 6 — auction results, extended a fifth time",
  "updatedAt": "2026-10-13",
  "version": "1.0.0"
 }

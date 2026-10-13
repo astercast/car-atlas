@@ -22,7 +22,7 @@ The dataset lives in `data/v1/` as plain JSON and is the single source of truth:
 - [Search index](data/v1/search-index.json): the single generated file the homepage loads; rebuilt by `scripts/build.py`, never edited by hand.
 - [Porsche model records](data/v1/models/porsche.json): the per-make model files — one JSON per make under `data/v1/models/`, each holding that make's models, generations, and specs.
 - [Buying data](data/v1/buying.json): the four buying classes, the 13 channels, and the Price Watch schema.
-- [Price Watch results](data/v1/price-watch.json): the certified auction results (stages 1–5) — car, price, house, date, and a linked published source per record.
+- [Price Watch results](data/v1/price-watch.json): the certified auction results (stages 1–6) — car, price, house, date, and a linked published source per record.
 - [Clubs registry](data/v1/clubs.json): the 46 clubs and networks, with regions and chapter models.
 
 ## API
@@ -33,6 +33,7 @@ The dataset lives in `data/v1/` as plain JSON and is the single source of truth:
 
 - [README](README.md): what the atlas is and how the repository is laid out.
 - [Coverage ledger](COVERAGE.md): what is seeded, what is planned, and the counts as they stand.
+- [Benchmark](BENCHMARK.md): the standing scorecard against the top car sites in the world — the named top set, per-rival verdicts, and the priced T-CARS closures, with the rotation standing line.
 - [Go-live checklist](LIVE_CHECKLIST.md): the fleet-standard checks a deploy must pass, including the free-tier audit.
 
 ## Optional

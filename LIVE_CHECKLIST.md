@@ -159,3 +159,13 @@ a conversation.
   them, and linked seven earlier records to existing model pages
   (linked 7 → 21 of 46; orphans 30/37 → 25/46). Still no function,
   no cron, no external call — the audit above is unchanged.
+- **Wave-11 addendum (2026-10-13):** Price Watch stage 6 extended
+  the same static file to 56 certified results (wave 11 added 10;
+  linked 21 → 29 of 56, orphans 25/46 → 27/56, share 54% → 48%;
+  condition 4/46 → 11/56, mileage 1/46 → 7/56, chassis 34/46 →
+  44/56), and the Buy page gained the T-CARS-1 first rung (cohort
+  ranges from certified records only, computed client-side from
+  the same static file). `BENCHMARK.md` added: the standing
+  scorecard against the top car sites, with T-CARS-1 / T-CARS-5
+  re-argued and priced there. Still no function, no cron, no
+  external call — the audit above is unchanged.

@@ -92,7 +92,18 @@ Type 57 Atalante, which has no marque record here). Stage 5
 also linked seven earlier results to model pages the atlas
 already carried (DB5, F40, LaFerrari, T150, SL, and both GT40
 records) and gave every result a chassis key plus
-source-stated condition/mileage fields. Still planned: listings ingest adapters for
+source-stated condition/mileage fields. Stage 6 (wave 11, the
+world-benchmark delta pass) extended it again to 56 auction
+results — eight of its ten new results link to model pages
+(DB5, F40, Miura ×2, Model J, MC12, Tucker 48, Barracuda),
+condition now stands at 11/56 and mileage at 7/56, and the Buy
+page gained the first cohort rung: ranges computed only from
+certified records sharing a model and a currency, count shown,
+labelled context not a valuation. One further skip was recorded
+(a Bugatti Veyron, which has no marque record here). The standing
+benchmark against the top car sites in the world — the named set,
+the scorecard, and the priced T-CARS-1 / T-CARS-5 closures — lives
+in `BENCHMARK.md`. Still planned: listings ingest adapters for
 the channels in `buying.json` and cohort medians computed from
 certified records only.
 
