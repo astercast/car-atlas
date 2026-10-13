@@ -1,0 +1,178 @@
+{
+  "make": "volvo",
+  "models": [
+    {
+      "bodyStyles": [
+        "Sedan",
+        "Wagon",
+        "Coupe"
+      ],
+      "buyingClass": "vintage",
+      "collectorNote": "Turbo and GLT cars and clean wagons lead the market; a rare 242 GT or Bertone 262C is the collector play. Rust in the floor pans and rear arches decides most prices.",
+      "generations": [
+        {
+          "code": "Early",
+          "name": "1975–1985 cars",
+          "note": "Started as the 240/260 with round or rectangular headlights depending on market, mechanical fuel injection and a reputation for shrugging off crashes and neglect in equal measure.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "2.1L inline-4",
+            "power": "98–114 hp"
+          },
+          "years": "1974–1985"
+        },
+        {
+          "code": "Late",
+          "name": "1986–1993 cars",
+          "note": "Smoother front end, better rustproofing and the 2.3-litre B230 engine. The last 240s, badged Classic in some markets, are the ones to buy — everything had been fixed by then.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "2.3L inline-4",
+            "power": "114 hp"
+          },
+          "years": "1986–1993"
+        }
+      ],
+      "intro": "The brick. Nearly three million built over nineteen years, and a significant number are still running — the 240 is the car that made Volvo's safety-and-durability reputation permanent. Slow, upright, honest, and close to immortal when maintained.",
+      "name": "240",
+      "segment": "Midsize car",
+      "slug": "240",
+      "status": "Discontinued",
+      "trims": [
+        "DL",
+        "GL",
+        "GLT",
+        "Turbo",
+        "Classic"
+      ],
+      "years": "1974–1993"
+    },
+    {
+      "bodyStyles": [
+        "SUV"
+      ],
+      "buyingClass": "new",
+      "generations": [
+        {
+          "code": "P2",
+          "name": "First generation",
+          "note": "Launched with a turbo five-cylinder and an inline-six; the 2005 V8, built by Yamaha, was Volvo's first and only V8. Famously, nobody has ever died in one in the UK, per insurance data of the era.",
+          "spec": {
+            "drivetrain": "AWD",
+            "engine": "2.5L turbo inline-5 / 4.4L V8",
+            "power": "208–311 hp"
+          },
+          "years": "2002–2014"
+        },
+        {
+          "code": "SPA",
+          "name": "Second generation",
+          "note": "All four-cylinder power: turbo, supercharged and plug-in hybrid variants. The plug-in T8 became the flagship. A 2024 facelift kept it on sale alongside the electric EX90.",
+          "spec": {
+            "drivetrain": "AWD",
+            "engine": "2.0L inline-4 / plug-in hybrid",
+            "power": "247–455 hp"
+          },
+          "years": "2015–present"
+        }
+      ],
+      "intro": "Volvo's bestseller and the car that proved a seven-seat SUV could be about safety instead of size. The second-generation car's interior — open-pore wood, a portrait touchscreen, seats like armchairs — embarrassed German rivals at launch.",
+      "name": "XC90",
+      "segment": "Midsize luxury SUV",
+      "slug": "xc90",
+      "status": "In production",
+      "trims": [
+        "B5",
+        "B6",
+        "T8 Plug-In Hybrid"
+      ],
+      "years": "2002–present"
+    },
+    {
+      "bodyStyles": [
+        "Coupe",
+        "Shooting brake"
+      ],
+      "buyingClass": "vintage",
+      "collectorNote": "Early Jensen-built cars are the rarest; the 1800ES wagon is the cult favourite. Roger Moore's ST1 from The Saint is the most famous single car.",
+      "generations": [
+        {
+          "code": "Jensen",
+          "name": "Jensen-built cars",
+          "note": "The first roughly 6,000 cars were assembled by Jensen in England. Quality problems pushed production back to Gothenburg in 1963.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "1.8L inline-4",
+            "power": "100 hp"
+          },
+          "years": "1961–1963"
+        },
+        {
+          "code": "1800S / E / ES",
+          "name": "Swedish-built cars",
+          "note": "Engines grew to 2.0 litres with fuel injection on the E. The run ended with the 1800ES shooting brake, a glass-tailgate wagon decades before the idea was fashionable.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "1.8L–2.0L inline-4",
+            "power": "100–130 hp"
+          },
+          "years": "1963–1973"
+        }
+      ],
+      "intro": "Volvo's beautiful mistake: a curvaceous Italian-styled GT from a company known for boxes, built first by Jensen in England. Roger Moore drove one in The Saint, and one New York owner's car passed three million miles — the highest mileage ever recorded.",
+      "name": "P1800",
+      "segment": "Grand tourer",
+      "slug": "p1800",
+      "status": "Discontinued",
+      "trims": [
+        "P1800",
+        "1800S",
+        "1800E",
+        "1800ES"
+      ],
+      "years": "1961–1973"
+    },
+    {
+      "bodyStyles": [
+        "Wagon"
+      ],
+      "buyingClass": "used",
+      "generations": [
+        {
+          "code": "P3-based",
+          "name": "First generation",
+          "note": "Five- and six-cylinder engines, front-wheel drive, and a Polestar-tuned flagship with 345 hp in later years. The last of the old-school Volvo wagons.",
+          "spec": {
+            "drivetrain": "FWD / AWD",
+            "engine": "2.0L–3.0L inline-4/5/6",
+            "power": "163–345 hp"
+          },
+          "years": "2010–2018"
+        },
+        {
+          "code": "SPA",
+          "name": "Second generation",
+          "note": "Four-cylinder only, with Cross Country and plug-in hybrid Recharge versions and the 455 hp Polestar Engineered T8 at the top. US sales of the standard wagon ended after 2021, and the Cross Country carried the line until production ended in April 2026.",
+          "spec": {
+            "drivetrain": "AWD",
+            "engine": "2.0L inline-4 / plug-in hybrid",
+            "power": "247–455 hp"
+          },
+          "years": "2018–2026"
+        }
+      ],
+      "intro": "The modern Volvo wagon done properly: long roof, low stance, and in T8 Polestar Engineered form, 455 hp nobody asked for and everybody wants. America's wagon drought made it a cult car here; in Sweden it was just a car.",
+      "name": "V60",
+      "segment": "Midsize wagon",
+      "slug": "v60",
+      "status": "Discontinued",
+      "trims": [
+        "T5",
+        "T6",
+        "Cross Country",
+        "T8 Polestar Engineered"
+      ],
+      "years": "2010–2026"
+    }
+  ]
+}

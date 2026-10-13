@@ -1,0 +1,191 @@
+{
+  "make": "jaguar",
+  "models": [
+    {
+      "bodyStyles": [
+        "Coupe",
+        "Convertible"
+      ],
+      "buyingClass": "vintage",
+      "collectorNote": "Early flat-floor, outside-bonnet-latch Series 1 cars top the market at auction. Buy on body condition — rust repair on the monocoque is where budgets go to die.",
+      "generations": [
+        {
+          "code": "Series 1",
+          "name": "Series 1",
+          "note": "Launched at £2,097 in the UK — half the price of an Aston Martin with the same 150 mph claim. The 4.2 of 1964 added a better gearbox and seats you could sit in all day.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "3.8L / 4.2L inline-6 (XK)",
+            "power": "265 hp"
+          },
+          "years": "1961–1968"
+        },
+        {
+          "code": "Series 2",
+          "name": "Series 2",
+          "note": "US safety rules drove most changes: bigger lights, a wraparound rear bumper, exposed headlights. Mechanically improved, visually diluted — and cheaper to buy today because of it.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "4.2L inline-6 (XK)",
+            "power": "265 hp"
+          },
+          "years": "1968–1971"
+        },
+        {
+          "code": "Series 3",
+          "name": "Series 3",
+          "note": "The 5.3-litre V12 made it a relaxed GT rather than a sports car, and most were automatics. Flared arches and a bigger grille finished the transformation.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "5.3L V12",
+            "power": "272 hp"
+          },
+          "years": "1971–1975"
+        }
+      ],
+      "intro": "Enzo Ferrari reportedly called it the most beautiful car ever made, and he was not wrong. 150 mph for a third of an Aston's price in 1961, on a monocoque with the XK engine and independent rear suspension. The standard every GT since has been judged against.",
+      "name": "E-Type",
+      "segment": "Sports car",
+      "slug": "e-type",
+      "status": "Discontinued",
+      "trims": [
+        "Series 1",
+        "Series 2",
+        "Series 3 V12"
+      ],
+      "years": "1961–1975"
+    },
+    {
+      "bodyStyles": [
+        "Sedan"
+      ],
+      "buyingClass": "used",
+      "generations": [
+        {
+          "code": "Series I",
+          "name": "Series I XJ6",
+          "note": "William Lyons' last great design: short-deck elegance, twin fuel tanks and the XK six in 2.8 and 4.2 forms. The V12 XJ12 of 1972 was the fastest four-door in the world.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "4.2L inline-6 (XK) / 5.3L V12",
+            "power": "245–269 hp"
+          },
+          "years": "1968–1973"
+        },
+        {
+          "code": "X350",
+          "name": "X350",
+          "note": "An aluminium body under deliberately traditional styling — 40% lighter than the steel car it replaced. The supercharged XJR is the stealth pick of the whole XJ line.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "4.2L V8 / supercharged",
+            "power": "300–400 hp"
+          },
+          "years": "2003–2009"
+        },
+        {
+          "code": "X351",
+          "name": "X351",
+          "note": "Ian Callum threw out fifty years of XJ styling in one move. All-aluminium, no six-cylinder in the US, and the long-wheelbase car became a genuine chauffeur rival. The last XJ ever — the electric successor was cancelled.",
+          "spec": {
+            "drivetrain": "RWD / AWD",
+            "engine": "5.0L V8 / supercharged",
+            "power": "340–575 hp"
+          },
+          "years": "2010–2019"
+        }
+      ],
+      "intro": "Jaguar's flagship saloon for half a century, from William Lyons' Series I to Ian Callum's radical X351. The XJ was always the driver's luxury car — lighter, lower and keener than the German default, when it wasn't being let down by 1970s build quality.",
+      "name": "XJ",
+      "segment": "Full-size luxury sedan",
+      "slug": "xj",
+      "status": "Discontinued",
+      "trims": [
+        "XJ6",
+        "XJ8",
+        "XJR",
+        "XJL",
+        "XJR575"
+      ],
+      "years": "1968–2019"
+    },
+    {
+      "bodyStyles": [
+        "Coupe",
+        "Convertible"
+      ],
+      "buyingClass": "used",
+      "collectorNote": "The SVR and the manual-gearbox V6 cars are the collector ends of the range. Exhaust and rear-diff service history matters; the noise is worth it.",
+      "generations": [
+        {
+          "code": "X152 early",
+          "name": "First phase",
+          "note": "V6 and V8 supercharged engines, an aluminium body and the loudest factory exhaust this side of a race car. The SVR of 2016 pushed the V8 to 575 hp.",
+          "spec": {
+            "drivetrain": "RWD / AWD",
+            "engine": "3.0L supercharged V6 / 5.0L supercharged V8",
+            "power": "335–575 hp"
+          },
+          "years": "2013–2019"
+        },
+        {
+          "code": "X152 facelift",
+          "name": "Facelift",
+          "note": "Slimmer lights, a tidier range and the four-cylinder P300 at the bottom. Production ended in 2024 — the last petrol Jaguar sports car, full stop.",
+          "spec": {
+            "drivetrain": "RWD / AWD",
+            "engine": "2.0L turbo inline-4 / 5.0L supercharged V8",
+            "power": "296–575 hp"
+          },
+          "years": "2020–2024"
+        }
+      ],
+      "intro": "The E-Type's self-appointed heir: an aluminium two-seater with supercharged V6 and V8 engines and a crackling exhaust that became its signature. The facelift cleaned up the styling; the SVR turned it into a genuine supercar-baiter.",
+      "name": "F-Type",
+      "segment": "Sports car",
+      "slug": "f-type",
+      "status": "Discontinued",
+      "trims": [
+        "P300",
+        "P450",
+        "R",
+        "SVR",
+        "R 575"
+      ],
+      "years": "2013–2024"
+    },
+    {
+      "bodyStyles": [
+        "Roadster",
+        "Coupe"
+      ],
+      "buyingClass": "vintage",
+      "collectorNote": "Original XK120s with matching numbers and the alloy-bodied early cars lead the market. The SE 'M' specification is the driver's pick.",
+      "generations": [
+        {
+          "code": "XK120",
+          "name": "Production run",
+          "note": "The fastest production car in the world at launch — '120' was the mph claim, and a near-stock car proved 132 mph in Belgium in 1949. About 240 early cars were alloy-bodied before steel production began.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "3.4L inline-6 (XK)",
+            "power": "160 hp"
+          },
+          "years": "1948–1954"
+        }
+      ],
+      "intro": "A show car that escaped. Jaguar built the XK120 for the 1948 London Motor Show as a showcase for its new XK engine, took hundreds of orders, and had to put it into production. It defined the British sports car for a generation and launched Jaguar's Le Mans era.",
+      "name": "XK120",
+      "segment": "Sports car",
+      "slug": "xk120",
+      "status": "Discontinued",
+      "trims": [
+        "Roadster",
+        "Fixed Head Coupe",
+        "Drophead Coupe",
+        "SE"
+      ],
+      "years": "1948–1954"
+    }
+  ]
+}

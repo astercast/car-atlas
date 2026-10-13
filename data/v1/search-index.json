@@ -1,0 +1,1743 @@
+[
+ {
+  "type": "make",
+  "make": "toyota",
+  "slug": "toyota",
+  "name": "Toyota",
+  "country": "Japan",
+  "founded": 1937,
+  "blurb": "The best-selling carmaker on Earth. Built its name on durability, then proved it could do excitement too — the 2000GT, the Supra, and a Land Cruiser that outlasts its owners.",
+  "modelCount": 7
+ },
+ {
+  "type": "model",
+  "make": "toyota",
+  "makeName": "Toyota",
+  "slug": "corolla",
+  "name": "Corolla",
+  "years": "1966–present",
+  "status": "In production",
+  "segment": "Compact car",
+  "bodyStyles": [
+   "Sedan",
+   "Hatchback",
+   "Wagon"
+  ],
+  "intro": "The best-selling nameplate in history — more than 50 million sold. The Corolla is the default answer to 'what car should I buy?' on every continent, and the GR Corolla proves the badge can still have a pulse.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "toyota",
+  "makeName": "Toyota",
+  "slug": "camry",
+  "name": "Camry",
+  "years": "1982–present",
+  "status": "In production",
+  "segment": "Midsize sedan",
+  "bodyStyles": [
+   "Sedan"
+  ],
+  "intro": "America's best-selling sedan for over two decades. The Camry is the car as appliance done perfectly — and since 2024, hybrid-only, which tells you where the whole segment went.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "toyota",
+  "makeName": "Toyota",
+  "slug": "supra",
+  "name": "Supra",
+  "years": "1978–2002, 2019–present",
+  "status": "In production",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "Four generations of inline-six grand tourer, one legend: the Mk IV's 2JZ engine became the most famous tuning platform on Earth. The name returned in 2019, co-developed with BMW.",
+  "buyingClass": "modern-classic",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "toyota",
+  "makeName": "Toyota",
+  "slug": "land-cruiser",
+  "name": "Land Cruiser",
+  "years": "1951–present",
+  "status": "In production",
+  "segment": "Off-road SUV",
+  "bodyStyles": [
+   "SUV",
+   "Pickup"
+  ],
+  "intro": "The vehicle that goes where roads apologize. From the FJ40 to the 300 Series, the Land Cruiser is the expedition default on every continent — the car aid workers and armies trust when failure isn't an option.",
+  "buyingClass": "modern-classic",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "toyota",
+  "makeName": "Toyota",
+  "slug": "prius",
+  "name": "Prius",
+  "years": "1997–present",
+  "status": "In production",
+  "segment": "Hybrid",
+  "bodyStyles": [
+   "Liftback",
+   "Hatchback"
+  ],
+  "intro": "The car that made 'hybrid' a word your parents knew. The second generation became a cultural symbol; the fifth became, improbably, genuinely good-looking.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "toyota",
+  "makeName": "Toyota",
+  "slug": "tacoma",
+  "name": "Tacoma",
+  "years": "1995–present",
+  "status": "In production",
+  "segment": "Midsize pickup",
+  "bodyStyles": [
+   "Pickup"
+  ],
+  "intro": "The midsize truck benchmark for resale value and trail credibility. Tacomas are bought, used hard for a decade, and sold for embarrassing fractions of their original price.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "toyota",
+  "makeName": "Toyota",
+  "slug": "2000gt",
+  "name": "2000GT",
+  "years": "1967–1970",
+  "status": "Discontinued",
+  "segment": "Grand tourer",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "Japan's first supercar. Co-developed with Yamaha, hand-built in tiny numbers — 351 cars — and proof in 1967 that Japan could build a world-class GT. A Bond film made one a convertible because Sean Connery didn't fit.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "make",
+  "make": "honda",
+  "slug": "honda",
+  "name": "Honda",
+  "country": "Japan",
+  "founded": 1948,
+  "blurb": "An engine company that happens to build cars. VTEC, the NSX, and a Civic for every budget and every era of a driver's life.",
+  "modelCount": 5
+ },
+ {
+  "type": "model",
+  "make": "honda",
+  "makeName": "Honda",
+  "slug": "civic",
+  "name": "Civic",
+  "years": "1972–present",
+  "status": "In production",
+  "segment": "Compact car",
+  "bodyStyles": [
+   "Sedan",
+   "Hatchback",
+   "Coupe"
+  ],
+  "intro": "Started as a fuel-crisis runabout and grew into the compact benchmark. Every generation has had a version worth caring about — and the Type R versions are among the best front-drive cars ever made.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "honda",
+  "makeName": "Honda",
+  "slug": "accord",
+  "name": "Accord",
+  "years": "1976–present",
+  "status": "In production",
+  "segment": "Midsize sedan",
+  "bodyStyles": [
+   "Sedan",
+   "Coupe",
+   "Hatchback",
+   "Wagon"
+  ],
+  "intro": "The family sedan for people who actually read reviews. The Accord spent decades trading best-in-class wins with the Camry, and usually won on steering and feel rather than on price.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "honda",
+  "makeName": "Honda",
+  "slug": "nsx",
+  "name": "NSX",
+  "years": "1990–2005, 2016–2022",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Coupe",
+   "Targa"
+  ],
+  "intro": "The supercar that embarrassed Ferrari on reliability and usability, then came back 25 years later as a hybrid. Ayrton Senna helped develop the first one. That fact alone tells you the intent.",
+  "buyingClass": "modern-classic",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "honda",
+  "makeName": "Honda",
+  "slug": "s2000",
+  "name": "S2000",
+  "years": "1999–2009",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Roadster"
+  ],
+  "intro": "A 9,000 rpm love letter to the naturally aspirated engine. The F20C made 120 hp per litre — a record for a production road car at launch — and the shifter is still the benchmark every manual is judged against.",
+  "buyingClass": "modern-classic",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "honda",
+  "makeName": "Honda",
+  "slug": "cr-v",
+  "name": "CR-V",
+  "years": "1995–present",
+  "status": "In production",
+  "segment": "Compact SUV",
+  "bodyStyles": [
+   "SUV"
+  ],
+  "intro": "One of the original car-based crossovers, and still the sensible default in the segment. It has never been exciting. It has also never really been beaten at the job it was built for.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "make",
+  "make": "nissan",
+  "slug": "nissan",
+  "name": "Nissan",
+  "country": "Japan",
+  "founded": 1933,
+  "blurb": "Home of Godzilla. The GT-R line spent five decades embarrassing supercars, and the Z car made performance democratic.",
+  "modelCount": 5
+ },
+ {
+  "type": "model",
+  "make": "nissan",
+  "makeName": "Nissan",
+  "slug": "gt-r",
+  "name": "GT-R",
+  "years": "2007–2025",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "Nissan's giant-killer, built for 17 years with one brief: be faster than cars costing three times as much. It mostly was. All-wheel drive, a hand-built twin-turbo V6, and a launch-control party trick that never got old.",
+  "buyingClass": "modern-classic",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "nissan",
+  "makeName": "Nissan",
+  "slug": "z",
+  "name": "Z",
+  "years": "1969–present",
+  "status": "In production",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Coupe",
+   "Roadster"
+  ],
+  "intro": "The people's sports car, running since 1969 with a long nap in the middle. The 240Z made performance democratic; the current car keeps the twin-turbo, rear-drive, manual-gearbox faith alive when most rivals dropped it.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "nissan",
+  "makeName": "Nissan",
+  "slug": "skyline-gt-r",
+  "name": "Skyline GT-R",
+  "years": "1989–2002",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "Three generations of Skyline GT-R that never officially came to America — which only sharpened the legend. The RB26 engine's official 276 hp was a gentlemen's-agreement fiction everyone politely maintained.",
+  "buyingClass": "modern-classic",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "nissan",
+  "makeName": "Nissan",
+  "slug": "leaf",
+  "name": "Leaf",
+  "years": "2010–present",
+  "status": "In production",
+  "segment": "Electric hatchback",
+  "bodyStyles": [
+   "Hatchback",
+   "Crossover"
+  ],
+  "intro": "The car that proved ordinary people would buy an electric car if it was priced like a car. First-generation cars depreciate like dropped phones, which makes a healthy-battery example one of the cheapest ways to run a second car there is.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "nissan",
+  "makeName": "Nissan",
+  "slug": "patrol",
+  "name": "Patrol",
+  "years": "1951–present",
+  "status": "In production",
+  "segment": "Off-road SUV",
+  "bodyStyles": [
+   "SUV"
+  ],
+  "intro": "Land Cruiser's oldest rival, and in much of the Middle East and Australia, the preferred one. The Patrol is what UN fleets and desert drivers buy when a breakdown is not a survivable option.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "make",
+  "make": "mazda",
+  "slug": "mazda",
+  "name": "Mazda",
+  "country": "Japan",
+  "founded": 1920,
+  "blurb": "The small company that bet on rotary engines and lightweight roadsters when nobody else would. The MX-5 is the best-selling two-seat sports car in history.",
+  "modelCount": 4
+ },
+ {
+  "type": "model",
+  "make": "mazda",
+  "makeName": "Mazda",
+  "slug": "mx-5-miata",
+  "name": "MX-5 Miata",
+  "years": "1989–present",
+  "status": "In production",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Roadster"
+  ],
+  "intro": "The best-selling two-seat sports car in history, and the answer to almost any 'what fun car should I buy?' question. Power was never the point. Response, weight, and a roof that drops in seconds always were.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "mazda",
+  "makeName": "Mazda",
+  "slug": "rx-7",
+  "name": "RX-7",
+  "years": "1978–2002",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "The rotary engine's masterpiece. Three generations, one idea: light weight and an engine that revs like a motorcycle. The FD is the famous one; the earlier cars are the honest bargains.",
+  "buyingClass": "modern-classic",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "mazda",
+  "makeName": "Mazda",
+  "slug": "mazda3",
+  "name": "Mazda3",
+  "years": "2003–present",
+  "status": "In production",
+  "segment": "Compact car",
+  "bodyStyles": [
+   "Hatchback",
+   "Sedan"
+  ],
+  "intro": "The compact for people who notice steering feel. Mazda kept giving the 3 a better interior and sharper chassis than the segment required, and the current turbo AWD car is nearly a luxury product wearing a mainstream badge.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "mazda",
+  "makeName": "Mazda",
+  "slug": "cx-5",
+  "name": "CX-5",
+  "years": "2012–present",
+  "status": "In production",
+  "segment": "Compact SUV",
+  "bodyStyles": [
+   "SUV"
+  ],
+  "intro": "The crossover that proved family cars didn't have to steer like appliances. The CX-5 built Mazda's modern business — the profits from this car fund everything else the company makes.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "make",
+  "make": "subaru",
+  "slug": "subaru",
+  "name": "Subaru",
+  "country": "Japan",
+  "founded": 1953,
+  "blurb": "All-wheel drive and boxer engines, everywhere, always. Rally stages made the WRX a legend; the Outback made wagons into a lifestyle.",
+  "modelCount": 4
+ },
+ {
+  "type": "model",
+  "make": "subaru",
+  "makeName": "Subaru",
+  "slug": "impreza-wrx",
+  "name": "Impreza WRX",
+  "years": "1992–present",
+  "status": "In production",
+  "segment": "Compact sports sedan",
+  "bodyStyles": [
+   "Sedan",
+   "Hatchback",
+   "Wagon"
+  ],
+  "intro": "Rally car for the road, in continuous production in spirit since 1992. Turbo flat-four, all-wheel drive, and a bonnet scoop you could set your watch by. The STI versions are modern classics; the plain WRX is just a great all-weather fast car.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "subaru",
+  "makeName": "Subaru",
+  "slug": "outback",
+  "name": "Outback",
+  "years": "1994–present",
+  "status": "In production",
+  "segment": "Wagon / crossover",
+  "bodyStyles": [
+   "Wagon",
+   "Crossover"
+  ],
+  "intro": "The wagon that out-SUV'd the SUVs. Subaru jacked up a Legacy, added cladding, and accidentally created the blueprint for half the cars on American roads today — while never giving up the wagon part.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "subaru",
+  "makeName": "Subaru",
+  "slug": "brz",
+  "name": "BRZ",
+  "years": "2012–present",
+  "status": "In production",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "Proof a sports car doesn't need power, it needs balance. Subaru built the flat-four and the chassis; Toyota handled much of the rest. The result is the car driving instructors and racers agree on.",
+  "buyingClass": "new",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "subaru",
+  "makeName": "Subaru",
+  "slug": "forester",
+  "name": "Forester",
+  "years": "1997–present",
+  "status": "In production",
+  "segment": "Compact SUV",
+  "bodyStyles": [
+   "SUV"
+  ],
+  "intro": "The tall, boxy, all-weather wagon-SUV that Vermont runs on. Early turbo XTs are cult cars; later ones are simply the sensible answer for snow-belt families who refuse to buy a crossover that looks like an egg.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "make",
+  "make": "hyundai",
+  "slug": "hyundai",
+  "name": "Hyundai",
+  "country": "South Korea",
+  "founded": 1967,
+  "blurb": "The fastest climb in the industry — from budget punchline in the 1990s to design-led EVs and the N performance division that embarrasses hot hatches twice its price.",
+  "modelCount": 4
+ },
+ {
+  "type": "model",
+  "make": "hyundai",
+  "makeName": "Hyundai",
+  "slug": "elantra",
+  "name": "Elantra",
+  "years": "1990–present",
+  "status": "In production",
+  "segment": "Compact car",
+  "bodyStyles": [
+   "Sedan",
+   "Hatchback"
+  ],
+  "intro": "Hyundai's compact started as transport for people who couldn't afford a Civic and ended up producing the Elantra N, one of the best performance bargains on sale. That arc is Hyundai's last 30 years in miniature.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "hyundai",
+  "makeName": "Hyundai",
+  "slug": "sonata",
+  "name": "Sonata",
+  "years": "1985–present",
+  "status": "In production",
+  "segment": "Midsize sedan",
+  "bodyStyles": [
+   "Sedan"
+  ],
+  "intro": "The car that announced Hyundai could design. The 2011 Sonata's swooping styling forced every midsize rival to follow, and the current car splits its personality between efficient hybrids and a properly quick N Line.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "hyundai",
+  "makeName": "Hyundai",
+  "slug": "ioniq-5",
+  "name": "Ioniq 5",
+  "years": "2021–present",
+  "status": "In production",
+  "segment": "Electric crossover",
+  "bodyStyles": [
+   "Hatchback",
+   "Crossover"
+  ],
+  "intro": "A retro-futuristic hatchback the size of a crossover, and the car that made Hyundai a design leader in the EV era. Pixel lights, a flat floor, and charging speeds that embarrassed cars costing twice as much at launch.",
+  "buyingClass": "new",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "hyundai",
+  "makeName": "Hyundai",
+  "slug": "tucson",
+  "name": "Tucson",
+  "years": "2004–present",
+  "status": "In production",
+  "segment": "Compact SUV",
+  "bodyStyles": [
+   "SUV"
+  ],
+  "intro": "Hyundai's RAV4 and CR-V rival, and the model that shows how far the mainstream range has come: the current hybrid is efficient, quick enough, and styled like it escaped from a motor show stand.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "make",
+  "make": "ford",
+  "slug": "ford",
+  "name": "Ford",
+  "country": "United States",
+  "founded": 1903,
+  "blurb": "Put the world on wheels with the Model T, then gave it the Mustang and the F-Series. The company that beat Ferrari at Le Mans out of spite.",
+  "modelCount": 5
+ },
+ {
+  "type": "model",
+  "make": "ford",
+  "makeName": "Ford",
+  "slug": "model-t",
+  "name": "Model T",
+  "years": "1908–1927",
+  "status": "Discontinued",
+  "segment": "Mass-market car",
+  "bodyStyles": [
+   "Touring",
+   "Runabout",
+   "Sedan",
+   "Pickup"
+  ],
+  "intro": "The car that put the world on wheels. Ford built over 15 million of them, cut the price from $850 to under $300, and in doing so invented the moving assembly line's reason to exist. By the early 1920s, roughly half the cars on Earth were Model Ts.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "ford",
+  "makeName": "Ford",
+  "slug": "mustang",
+  "name": "Mustang",
+  "years": "1964–present",
+  "status": "In production",
+  "segment": "Pony car",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible",
+   "Fastback"
+  ],
+  "intro": "Launched in April 1964 and sold 22,000 cars on day one. The Mustang invented the pony car — long hood, short deck, endless options list — and has survived gas crises, the Mustang II, and the SUV era without ever leaving production.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "ford",
+  "makeName": "Ford",
+  "slug": "f-series",
+  "name": "F-Series (F-150)",
+  "years": "1948–present",
+  "status": "In production",
+  "segment": "Full-size pickup",
+  "bodyStyles": [
+   "Pickup"
+  ],
+  "intro": "America's best-selling vehicle line for over four decades. The F-Series is less a model than an economy — work truck, family hauler, off-road toy, and status symbol, all on the same ladder frame.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "ford",
+  "makeName": "Ford",
+  "slug": "gt",
+  "name": "GT (GT40 lineage)",
+  "years": "1964–1969, 2005–2006, 2017–2022",
+  "status": "Discontinued",
+  "segment": "Supercar",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "One nameplate, three separate vendettas against physics. The GT40 was built to beat Ferrari at Le Mans after Enzo walked away from selling to Ford — and did it four years straight, 1966 to 1969. Both modern revivals exist because that grudge never cooled.",
+  "buyingClass": "modern-classic",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "ford",
+  "makeName": "Ford",
+  "slug": "bronco",
+  "name": "Bronco",
+  "years": "1966–1996, 2021–present",
+  "status": "In production",
+  "segment": "Off-road SUV",
+  "bodyStyles": [
+   "SUV"
+  ],
+  "intro": "Ford's answer to the Jeep CJ in 1966, a full-size truck-based SUV by the 1980s, dead in 1996, and revived in 2021 as a removable-roof Wrangler rival. The first-generation trucks are the collector sweet spot; the new one is the one you can actually use daily.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "make",
+  "make": "chevrolet",
+  "slug": "chevrolet",
+  "name": "Chevrolet",
+  "country": "United States",
+  "founded": 1911,
+  "blurb": "GM's volume brand and America's performance bargain. The Corvette has been the attainable supercar since 1953; the small-block V8 powered everything.",
+  "modelCount": 5
+ },
+ {
+  "type": "model",
+  "make": "chevrolet",
+  "makeName": "Chevrolet",
+  "slug": "corvette",
+  "name": "Corvette",
+  "years": "1953–present",
+  "status": "In production",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "America's attainable supercar since 1953. The Corvette's trick has always been the arithmetic: most of a European exotic's speed for a fraction of the price. The C8's move to a mid-engine layout in 2020 broke a 67-year tradition and nobody sensible misses the old one.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "chevrolet",
+  "makeName": "Chevrolet",
+  "slug": "camaro",
+  "name": "Camaro",
+  "years": "1967–2002, 2010–2024",
+  "status": "Discontinued",
+  "segment": "Pony car",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "GM's answer to the Mustang, launched for 1967 and locked in the pony-car war for six generations. Production ended again in 2024 with no successor announced — the sixth generation went out as the best-driving Camaro ever made.",
+  "buyingClass": "modern-classic",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "chevrolet",
+  "makeName": "Chevrolet",
+  "slug": "silverado",
+  "name": "Silverado",
+  "years": "1999–present",
+  "status": "In production",
+  "segment": "Full-size pickup",
+  "bodyStyles": [
+   "Pickup"
+  ],
+  "intro": "Chevrolet's full-size truck and Ford's oldest argument. Chevrolet pickups go back to 1918, but the Silverado nameplate dates to 1999, when it replaced the C/K line. The 3.0L Duramax diesel is the connoisseur's pick; the 6.2L V8 is the loud one.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "chevrolet",
+  "makeName": "Chevrolet",
+  "slug": "bel-air",
+  "name": "Bel Air",
+  "years": "1950–1975",
+  "status": "Discontinued",
+  "segment": "Full-size car",
+  "bodyStyles": [
+   "Sedan",
+   "Coupe",
+   "Convertible",
+   "Wagon"
+  ],
+  "intro": "Chevrolet's top trim line through the 1950s, and the 1955–1957 'Tri-Five' cars are about as close as American design gets to universal agreement. The '57 Bel Air is shorthand for the whole decade.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "chevrolet",
+  "makeName": "Chevrolet",
+  "slug": "impala",
+  "name": "Impala",
+  "years": "1958–1985, 1994–1996, 2000–2020",
+  "status": "Discontinued",
+  "segment": "Full-size sedan",
+  "bodyStyles": [
+   "Sedan",
+   "Coupe",
+   "Convertible",
+   "Wagon"
+  ],
+  "intro": "Chevrolet's flagship nameplate from 1958, and the best-selling car in America through the mid-1960s — over a million sold in 1965 alone. It lived three lives: the 1960s icon, the 1990s Impala SS sleeper, and a competent front-drive sedan until 2020.",
+  "buyingClass": "used",
+  "generationCount": 3
+ },
+ {
+  "type": "make",
+  "make": "jeep",
+  "slug": "jeep",
+  "name": "Jeep",
+  "country": "United States",
+  "founded": 1941,
+  "blurb": "Born for war, kept for weekends. The Wrangler is the direct descendant of the Willys MB, and the seven-slot grille is the most copied face in off-roading.",
+  "modelCount": 4
+ },
+ {
+  "type": "model",
+  "make": "jeep",
+  "makeName": "Jeep",
+  "slug": "wrangler",
+  "name": "Wrangler",
+  "years": "1987–present",
+  "status": "In production",
+  "segment": "Off-road SUV",
+  "bodyStyles": [
+   "SUV"
+  ],
+  "intro": "The direct descendant of the Willys MB that won a war, carried through the CJ line and renamed Wrangler in 1987. Solid axles, a folding windshield, doors that come off — the formula has survived four corporate owners because altering it would end the business.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "jeep",
+  "makeName": "Jeep",
+  "slug": "grand-cherokee",
+  "name": "Grand Cherokee",
+  "years": "1993–present",
+  "status": "In production",
+  "segment": "Midsize SUV",
+  "bodyStyles": [
+   "SUV"
+  ],
+  "intro": "The SUV that took Jeep upmarket. The Grand Cherokee created the premium 4x4 niche in 1993 — proper off-road hardware under a vehicle you'd park at a hotel — and Range Rover has been answering it ever since.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "jeep",
+  "makeName": "Jeep",
+  "slug": "cj",
+  "name": "CJ (Civilian Jeep)",
+  "years": "1945–1986",
+  "status": "Discontinued",
+  "segment": "Off-road utility",
+  "bodyStyles": [
+   "SUV"
+  ],
+  "intro": "CJ stands for Civilian Jeep — the Willys MB demobbed in 1945 and sold to farmers, surveyors, and anyone who needed to get somewhere roads didn't go. The CJ-5 alone ran for 29 years, and every Wrangler since is this shape with better manners.",
+  "buyingClass": "vintage",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "jeep",
+  "makeName": "Jeep",
+  "slug": "wagoneer",
+  "name": "Wagoneer",
+  "years": "1963–1991, 2022–present",
+  "status": "In production",
+  "segment": "Full-size SUV",
+  "bodyStyles": [
+   "SUV",
+   "Wagon"
+  ],
+  "intro": "The original luxury SUV. The SJ Wagoneer arrived in 1963, predating the Range Rover by seven years, and its wood-sided Grand Wagoneer finale became the Hamptons driveway default. Jeep revived the name in 2022 as a three-row flagship.",
+  "buyingClass": "new",
+  "generationCount": 2
+ },
+ {
+  "type": "make",
+  "make": "tesla",
+  "slug": "tesla",
+  "name": "Tesla",
+  "country": "United States",
+  "founded": 2003,
+  "blurb": "Forced the entire industry to go electric. The Model S proved EVs could be the fast option; the Model Y became the best-selling car in the world, of any kind.",
+  "modelCount": 5
+ },
+ {
+  "type": "model",
+  "make": "tesla",
+  "makeName": "Tesla",
+  "slug": "roadster",
+  "name": "Roadster",
+  "years": "2008–2012",
+  "status": "Discontinued",
+  "segment": "Electric sports car",
+  "bodyStyles": [
+   "Roadster"
+  ],
+  "intro": "The car that started it. Tesla's first product took a Lotus Elise chassis, replaced the running gear with batteries and a single electric motor, and proved in 2008 that an electric car could be the fast one. A successor has been promised for years and has not reached production.",
+  "buyingClass": "modern-classic",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "tesla",
+  "makeName": "Tesla",
+  "slug": "model-s",
+  "name": "Model S",
+  "years": "2012–present",
+  "status": "In production",
+  "segment": "Executive sedan",
+  "bodyStyles": [
+   "Sedan"
+  ],
+  "intro": "The car that forced every major maker to build an EV program. Launched in 2012 with range and acceleration no production EV had combined before, and still on sale — heavily revised underneath — more than a decade later.",
+  "buyingClass": "new",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "tesla",
+  "makeName": "Tesla",
+  "slug": "model-3",
+  "name": "Model 3",
+  "years": "2017–present",
+  "status": "In production",
+  "segment": "Compact sedan",
+  "bodyStyles": [
+   "Sedan"
+  ],
+  "intro": "Tesla's mass-market bet, and the car that took EVs mainstream: over two million sold, the best-selling EV in the world for stretches of its life, and the reason every legacy maker now has an electric sedan program.",
+  "buyingClass": "new",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "tesla",
+  "makeName": "Tesla",
+  "slug": "model-y",
+  "name": "Model Y",
+  "years": "2020–present",
+  "status": "In production",
+  "segment": "Compact crossover SUV",
+  "bodyStyles": [
+   "SUV"
+  ],
+  "intro": "The best-selling car in the world in 2023 — not the best-selling EV, the best-selling car, full stop. The Model Y is the Model 3's formula raised onto a crossover body, and it outsells everything Tesla makes combined.",
+  "buyingClass": "new",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "tesla",
+  "makeName": "Tesla",
+  "slug": "cybertruck",
+  "name": "Cybertruck",
+  "years": "2023–present",
+  "status": "In production",
+  "segment": "Electric pickup",
+  "bodyStyles": [
+   "Pickup"
+  ],
+  "intro": "Unveiled in 2019 with a smashed window on stage, delivered from late 2023. The Cybertruck's stainless wedge looks like a rendering error; underneath sit genuinely radical choices — steer-by-wire and a 48V architecture — wrapped in the most polarising truck ever sold.",
+  "buyingClass": "new",
+  "generationCount": 1
+ },
+ {
+  "type": "make",
+  "make": "bmw",
+  "slug": "bmw",
+  "name": "BMW",
+  "country": "Germany",
+  "founded": 1916,
+  "blurb": "Started with aircraft engines, defined the sports sedan with the 3 Series, and built the M division into a byword for fast cars that still steer properly.",
+  "modelCount": 5
+ },
+ {
+  "type": "model",
+  "make": "bmw",
+  "makeName": "BMW",
+  "slug": "3-series",
+  "name": "3 Series",
+  "years": "1975–present",
+  "status": "In production",
+  "segment": "Compact executive car",
+  "bodyStyles": [
+   "Sedan",
+   "Wagon",
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "The sports sedan benchmark for fifty years. Other brands build rivals; BMW builds the car they are measured against. The recipe has swollen and softened at times, but a straight-six 3 Series driven hard is still the reference.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "bmw",
+  "makeName": "BMW",
+  "slug": "5-series",
+  "name": "5 Series",
+  "years": "1972–present",
+  "status": "In production",
+  "segment": "Executive car",
+  "bodyStyles": [
+   "Sedan",
+   "Wagon"
+  ],
+  "intro": "The executive sedan done the BMW way: rear-drive balance, a proper straight-six up front, and just enough aggression. At its best — the E39 — it was possibly the finest sedan in the world.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "bmw",
+  "makeName": "BMW",
+  "slug": "m3",
+  "name": "M3",
+  "years": "1986–present",
+  "status": "In production",
+  "segment": "Sports sedan",
+  "bodyStyles": [
+   "Coupe",
+   "Sedan",
+   "Convertible",
+   "Wagon"
+  ],
+  "intro": "Born as a homologation special for touring-car racing, kept as the fast 3 Series with its own engine, chassis, and attitude. The market treats it as its own model, and so does everyone who has driven one.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "bmw",
+  "makeName": "BMW",
+  "slug": "2002",
+  "name": "2002",
+  "years": "1968–1976",
+  "status": "Discontinued",
+  "segment": "Compact sports sedan",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "The car that saved BMW in America and invented the sports sedan formula: a boxy two-door, a willing four-cylinder, and handling that made contemporary Detroit iron feel broken. Every 3 Series since is an apology for, or a tribute to, this car.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "bmw",
+  "makeName": "BMW",
+  "slug": "x5",
+  "name": "X5",
+  "years": "1999–present",
+  "status": "In production",
+  "segment": "Luxury SUV",
+  "bodyStyles": [
+   "SUV"
+  ],
+  "intro": "BMW insisted on calling it a Sports Activity Vehicle, and for once the marketing was honest: the X5 drove like a tall 5 Series when every rival drove like a truck. It built the performance-SUV segment the whole industry now lives in.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "make",
+  "make": "mercedes-benz",
+  "slug": "mercedes-benz",
+  "name": "Mercedes-Benz",
+  "country": "Germany",
+  "founded": 1926,
+  "blurb": "Benz built the first automobile in 1886 and the company has been previewing the industry's future in the S-Class ever since. The 300SL is the collector benchmark.",
+  "modelCount": 5
+ },
+ {
+  "type": "model",
+  "make": "mercedes-benz",
+  "makeName": "Mercedes-Benz",
+  "slug": "s-class",
+  "name": "S-Class",
+  "years": "1972–present",
+  "status": "In production",
+  "segment": "Full-size luxury sedan",
+  "bodyStyles": [
+   "Sedan",
+   "Coupe"
+  ],
+  "intro": "The car the rest of the industry copies five years later. Air suspension, massaging seats, night vision — if it debuts anywhere, it debuts here. The name is short for Sonderklasse: special class. It has earned it more often than not.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "mercedes-benz",
+  "makeName": "Mercedes-Benz",
+  "slug": "e-class",
+  "name": "E-Class",
+  "years": "1984–present",
+  "status": "In production",
+  "segment": "Executive car",
+  "bodyStyles": [
+   "Sedan",
+   "Wagon",
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "The taxi in Stuttgart, the boardroom car everywhere else. The E-Class line — the W124 carried it before the name existed — is Mercedes at its most durable and least theatrical, which is exactly the point.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "mercedes-benz",
+  "makeName": "Mercedes-Benz",
+  "slug": "sl",
+  "name": "SL",
+  "years": "1954–present",
+  "status": "In production",
+  "segment": "Grand tourer",
+  "bodyStyles": [
+   "Coupe",
+   "Roadster"
+  ],
+  "intro": "It starts with the 300SL Gullwing — the fastest production car of its day and still the collector benchmark — and continues as seven decades of open-top grand touring. The current car is an AMG product; the early car is automotive royalty.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "mercedes-benz",
+  "makeName": "Mercedes-Benz",
+  "slug": "g-class",
+  "name": "G-Class",
+  "years": "1979–present",
+  "status": "In production",
+  "segment": "Luxury off-road SUV",
+  "bodyStyles": [
+   "SUV"
+  ],
+  "intro": "A military utility vehicle that became a luxury icon without changing its silhouette. Three locking differentials, a ladder frame, and door hinges on the outside — the shape is the substance, and Mercedes has wisely never messed with it.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "mercedes-benz",
+  "makeName": "Mercedes-Benz",
+  "slug": "amg-gt",
+  "name": "AMG GT",
+  "years": "2014–present",
+  "status": "In production",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Coupe",
+   "Roadster"
+  ],
+  "intro": "AMG's own car, not a tuned Mercedes: a front-mid V8, a transaxle at the back, and a long bonnet with the cabin sitting nearly over the rear wheels. The second generation shares its bones with the SL and got more civilised; the first one is the purist's pick.",
+  "buyingClass": "new",
+  "generationCount": 2
+ },
+ {
+  "type": "make",
+  "make": "porsche",
+  "slug": "porsche",
+  "name": "Porsche",
+  "country": "Germany",
+  "founded": 1931,
+  "blurb": "One car, perfected for sixty years: the 911. Around it, Porsche built the most profitable sports-car company in the world without diluting the recipe.",
+  "modelCount": 5
+ },
+ {
+  "type": "model",
+  "make": "porsche",
+  "makeName": "Porsche",
+  "slug": "911",
+  "name": "911",
+  "years": "1964–present",
+  "status": "In production",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible",
+   "Targa"
+  ],
+  "intro": "One car, perfected for sixty years. The engine is still in the wrong place, the silhouette is still a teardrop, and the 911 is still the sports car everything else is judged against — because Porsche never stopped developing it.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "porsche",
+  "makeName": "Porsche",
+  "slug": "cayenne",
+  "name": "Cayenne",
+  "years": "2002–present",
+  "status": "In production",
+  "segment": "Luxury SUV",
+  "bodyStyles": [
+   "SUV"
+  ],
+  "intro": "The SUV that saved Porsche — purists hated it in 2002 and the profits funded every GT car since. It also happened to be genuinely good: fast, capable off-road, and unmistakably a Porsche to drive.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "porsche",
+  "makeName": "Porsche",
+  "slug": "taycan",
+  "name": "Taycan",
+  "years": "2019–present",
+  "status": "In production",
+  "segment": "Electric sports sedan",
+  "bodyStyles": [
+   "Sedan",
+   "Wagon"
+  ],
+  "intro": "Porsche's first EV, built to answer one question: can an electric car feel like a Porsche? Two-speed rear gearbox, repeatable launch control, and steering that talks. The answer held up.",
+  "buyingClass": "new",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "porsche",
+  "makeName": "Porsche",
+  "slug": "356",
+  "name": "356",
+  "years": "1948–1965",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible",
+   "Speedster"
+  ],
+  "intro": "The first production Porsche: a Beetle-derived aluminium coupe built in a sawmill in Gmünd, Austria, that became the template for everything after. Light, slippery, and quicker than cars with twice the power.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "porsche",
+  "makeName": "Porsche",
+  "slug": "718-cayman-boxster",
+  "name": "718 Cayman/Boxster",
+  "years": "1996–2025",
+  "status": "Discontinued",
+  "segment": "Mid-engine sports car",
+  "bodyStyles": [
+   "Roadster",
+   "Coupe"
+  ],
+  "intro": "The Boxster saved Porsche in the 1990s; the Cayman coupe followed in 2005, and the pair became the handling benchmark money could buy. Renamed 718 in 2016 for the turbo flat-four era, then redeemed by the 4.0-litre sixes. Production of the petrol cars ended in 2025, with an electric successor planned.",
+  "buyingClass": "modern-classic",
+  "generationCount": 3
+ },
+ {
+  "type": "make",
+  "make": "volkswagen",
+  "slug": "volkswagen",
+  "name": "Volkswagen",
+  "country": "Germany",
+  "founded": 1937,
+  "blurb": "The people's car, literally. The Beetle is one of the best-selling designs ever; the Golf GTI invented the hot hatch; the Bus became a cultural era on wheels.",
+  "modelCount": 4
+ },
+ {
+  "type": "model",
+  "make": "volkswagen",
+  "makeName": "Volkswagen",
+  "slug": "beetle",
+  "name": "Beetle",
+  "years": "1938–2019",
+  "status": "Discontinued",
+  "segment": "Compact car",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "The best-selling single design in car history — over 21 million originals. An air-cooled rear-engined economy car that outlived its century, then came back twice as nostalgia. The original is the one that matters.",
+  "buyingClass": "vintage",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "volkswagen",
+  "makeName": "Volkswagen",
+  "slug": "golf",
+  "name": "Golf",
+  "years": "1974–present",
+  "status": "In production",
+  "segment": "Compact car",
+  "bodyStyles": [
+   "Hatchback",
+   "Wagon"
+  ],
+  "intro": "The Beetle's replacement and the car that defined the modern hatchback. The GTI variant invented the hot hatch in 1976 — a family car with a big engine and red trim that embarrassed sports cars — and every generation since has had to live up to it.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "volkswagen",
+  "makeName": "Volkswagen",
+  "slug": "type-2",
+  "name": "Type 2 (Bus)",
+  "years": "1950–2013",
+  "status": "Discontinued",
+  "segment": "Van",
+  "bodyStyles": [
+   "Van",
+   "Pickup"
+  ],
+  "intro": "A delivery van that became a cultural era. The Bus carried hippies, surfboards, families, and half of Brazil — production there ran until 2013. Few vehicles have ever meant as much to as many different people.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "volkswagen",
+  "makeName": "Volkswagen",
+  "slug": "passat",
+  "name": "Passat",
+  "years": "1973–present",
+  "status": "In production",
+  "segment": "Midsize car",
+  "bodyStyles": [
+   "Sedan",
+   "Wagon"
+  ],
+  "intro": "Volkswagen's sensible family car for fifty years — which produced some genuinely odd highlights, including a W8 engine nobody asked for. The US sedan ended in 2022, but the nameplate continues in Europe as a wagon and in China as a sedan.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "make",
+  "make": "audi",
+  "slug": "audi",
+  "name": "Audi",
+  "country": "Germany",
+  "founded": 1909,
+  "blurb": "Quattro all-wheel drive changed rallying forever in 1980, then changed road cars. Audi sells technology and restraint in equal measure.",
+  "modelCount": 4
+ },
+ {
+  "type": "model",
+  "make": "audi",
+  "makeName": "Audi",
+  "slug": "quattro",
+  "name": "Quattro",
+  "years": "1980–1991",
+  "status": "Discontinued",
+  "segment": "Sports coupe",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "The original — Ur-Quattro in German, ur meaning ancestral. A turbocharged five-cylinder coupe with permanent all-wheel drive, launched in 1980 when that combination did not exist in a road car. It rewrote rallying, then rewrote what a fast road car was supposed to be. Every quattro-badged Audi since — the badge is lowercase for the system now — is this car's descendant.",
+  "buyingClass": "vintage",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "audi",
+  "makeName": "Audi",
+  "slug": "a4",
+  "name": "A4",
+  "years": "1994–present",
+  "status": "In production",
+  "segment": "Compact executive car",
+  "bodyStyles": [
+   "Sedan",
+   "Wagon"
+  ],
+  "intro": "Audi's 3 Series rival and the car that made its interiors the industry benchmark. The formula has been consistent for thirty years: restrained styling, a cabin a class above, and quattro all-wheel drive as the calling card.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "audi",
+  "makeName": "Audi",
+  "slug": "r8",
+  "name": "R8",
+  "years": "2006–2024",
+  "status": "Discontinued",
+  "segment": "Supercar",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "Audi's supercar, built on Lamborghini bones and better for being the sensible one: a V8 — then a soaring naturally aspirated V10 — behind the seats, all-wheel drive, and usability no Italian rival matched. The first generation's gated manual is already legend.",
+  "buyingClass": "modern-classic",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "audi",
+  "makeName": "Audi",
+  "slug": "tt",
+  "name": "TT",
+  "years": "1998–2023",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Coupe",
+   "Roadster"
+  ],
+  "intro": "A design concept that escaped the motor show almost unchanged. The first TT was Bauhaus on wheels — a perfect geometric statement with a car underneath — and the line spent 25 years getting faster, peaking with the five-cylinder TT RS.",
+  "buyingClass": "modern-classic",
+  "generationCount": 3
+ },
+ {
+  "type": "make",
+  "make": "ferrari",
+  "slug": "ferrari",
+  "name": "Ferrari",
+  "country": "Italy",
+  "founded": 1947,
+  "blurb": "A racing team that sells road cars to fund itself, and has never once pretended otherwise. V12s, scarlet paint, and waiting lists measured in years.",
+  "modelCount": 5
+ },
+ {
+  "type": "model",
+  "make": "ferrari",
+  "makeName": "Ferrari",
+  "slug": "f40",
+  "name": "F40",
+  "years": "1987–1992",
+  "status": "Discontinued",
+  "segment": "Supercar",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "Enzo Ferrari's last signed-off car, built for the company's 40th anniversary. A twin-turbo V8, a Kevlar-and-carbon body, no ABS, no power steering, no apology. About 1,300 were built and it remains the rawest road car Ferrari has ever sold.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "ferrari",
+  "makeName": "Ferrari",
+  "slug": "laferrari",
+  "name": "LaFerrari",
+  "years": "2013–2018",
+  "status": "Discontinued",
+  "segment": "Hypercar",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "Ferrari's hybrid flagship and its answer to the McLaren P1 and Porsche 918. A 6.3-litre V12 plus a KERS electric motor, 499 coupes, then 210 Aperta roadsters. Offered by invitation only, and most never left collections.",
+  "buyingClass": "modern-classic",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "ferrari",
+  "makeName": "Ferrari",
+  "slug": "testarossa",
+  "name": "Testarossa",
+  "years": "1984–1996",
+  "status": "Discontinued",
+  "segment": "Grand tourer",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "The poster car of the 1980s. Side strakes feeding side-mounted radiators, a flat-12 mounted low in the middle, and a starring role on Miami Vice. Nearly 10,000 were built across the Testarossa, 512 TR and F512 M — huge numbers for a Ferrari flagship.",
+  "buyingClass": "vintage",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "ferrari",
+  "makeName": "Ferrari",
+  "slug": "enzo",
+  "name": "Enzo",
+  "years": "2002–2004",
+  "status": "Discontinued",
+  "segment": "Hypercar",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "Named for the founder and built as a Formula 1 car in road clothes — carbon tub, automated-manual gearbox, carbon-ceramic brakes, and aero that generated serious downforce without a big rear wing. 400 built, including the last one for the Pope.",
+  "buyingClass": "modern-classic",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "ferrari",
+  "makeName": "Ferrari",
+  "slug": "roma",
+  "name": "Roma",
+  "years": "2020–present",
+  "status": "In production",
+  "segment": "Grand tourer",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "Ferrari's front-engined coupé in its softest suit: clean, retro-leaning styling, a 2+ cabin and the twin-turbo V8 from the Portofino turned up. The Spider convertible followed. It's the Ferrari for people who found the rest of the range too shouty.",
+  "buyingClass": "new",
+  "generationCount": 1
+ },
+ {
+  "type": "make",
+  "make": "lamborghini",
+  "slug": "lamborghini",
+  "name": "Lamborghini",
+  "country": "Italy",
+  "founded": 1963,
+  "blurb": "Ferruccio built tractors, got insulted by Enzo Ferrari, and answered with the Miura. Lamborghini has been the loud answer ever since — Countach posters defined a generation's bedroom walls.",
+  "modelCount": 5
+ },
+ {
+  "type": "model",
+  "make": "lamborghini",
+  "makeName": "Lamborghini",
+  "slug": "miura",
+  "name": "Miura",
+  "years": "1966–1973",
+  "status": "Discontinued",
+  "segment": "Supercar",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "The car that invented the mid-engined supercar. Ferruccio Lamborghini's young engineers built it after hours, against his wishes — he wanted a grand tourer. The transverse V12 layout rewrote the rulebook permanently, and Gandini's styling has never been bettered at Sant'Agata.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "lamborghini",
+  "makeName": "Lamborghini",
+  "slug": "countach",
+  "name": "Countach",
+  "years": "1974–1990",
+  "status": "Discontinued",
+  "segment": "Supercar",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "The wedge. Gandini's scissor-doored V12 spent sixteen years as the definitive poster car, growing wider, wingier and faster the whole way. Impractical, cramped, nearly impossible to reverse — and completely untouchable as an object.",
+  "buyingClass": "vintage",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "lamborghini",
+  "makeName": "Lamborghini",
+  "slug": "huracan",
+  "name": "Huracán",
+  "years": "2014–2024",
+  "status": "Discontinued",
+  "segment": "Supercar",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "The Gallardo's successor and the last of the naturally aspirated V10s. Over two decades of production variants — Evo, Performante, STO, Tecnica, Sterrato — made it Lamborghini's best-selling sports car before the Temerario replaced it in 2024.",
+  "buyingClass": "used",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "lamborghini",
+  "makeName": "Lamborghini",
+  "slug": "aventador",
+  "name": "Aventador",
+  "years": "2011–2022",
+  "status": "Discontinued",
+  "segment": "Supercar",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "The V12 flagship for a decade: carbon monocoque, pushrod suspension, scissor doors, and a 6.5-litre V12 that outlived three generations of rivals. Replaced by the hybrid Revuelto, which makes the Aventador the last pure-V12 Lamborghini flagship.",
+  "buyingClass": "used",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "lamborghini",
+  "makeName": "Lamborghini",
+  "slug": "urus",
+  "name": "Urus",
+  "years": "2018–present",
+  "status": "In production",
+  "segment": "Luxury SUV",
+  "bodyStyles": [
+   "SUV"
+  ],
+  "intro": "The 'Super SUV' that doubled Lamborghini's sales and paid for everything else in the catalogue. Purists scoffed in 2018; the order books answered. Genuinely fast, genuinely usable, and the reason Lamborghini can still afford V12 flagships.",
+  "buyingClass": "new",
+  "generationCount": 2
+ },
+ {
+  "type": "make",
+  "make": "volvo",
+  "slug": "volvo",
+  "name": "Volvo",
+  "country": "Sweden",
+  "founded": 1927,
+  "blurb": "Gave the world the three-point seat belt and refused to patent it. Boxy wagons became a design language; the 240 simply refuses to die.",
+  "modelCount": 4
+ },
+ {
+  "type": "model",
+  "make": "volvo",
+  "makeName": "Volvo",
+  "slug": "240",
+  "name": "240",
+  "years": "1974–1993",
+  "status": "Discontinued",
+  "segment": "Midsize car",
+  "bodyStyles": [
+   "Sedan",
+   "Wagon",
+   "Coupe"
+  ],
+  "intro": "The brick. Nearly three million built over nineteen years, and a significant number are still running — the 240 is the car that made Volvo's safety-and-durability reputation permanent. Slow, upright, honest, and close to immortal when maintained.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "volvo",
+  "makeName": "Volvo",
+  "slug": "xc90",
+  "name": "XC90",
+  "years": "2002–present",
+  "status": "In production",
+  "segment": "Midsize luxury SUV",
+  "bodyStyles": [
+   "SUV"
+  ],
+  "intro": "Volvo's bestseller and the car that proved a seven-seat SUV could be about safety instead of size. The second-generation car's interior — open-pore wood, a portrait touchscreen, seats like armchairs — embarrassed German rivals at launch.",
+  "buyingClass": "new",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "volvo",
+  "makeName": "Volvo",
+  "slug": "p1800",
+  "name": "P1800",
+  "years": "1961–1973",
+  "status": "Discontinued",
+  "segment": "Grand tourer",
+  "bodyStyles": [
+   "Coupe",
+   "Shooting brake"
+  ],
+  "intro": "Volvo's beautiful mistake: a curvaceous Italian-styled GT from a company known for boxes, built first by Jensen in England. Roger Moore drove one in The Saint, and one New York owner's car passed three million miles — the highest mileage ever recorded.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "volvo",
+  "makeName": "Volvo",
+  "slug": "v60",
+  "name": "V60",
+  "years": "2010–2026",
+  "status": "Discontinued",
+  "segment": "Midsize wagon",
+  "bodyStyles": [
+   "Wagon"
+  ],
+  "intro": "The modern Volvo wagon done properly: long roof, low stance, and in T8 Polestar Engineered form, 455 hp nobody asked for and everybody wants. America's wagon drought made it a cult car here; in Sweden it was just a car.",
+  "buyingClass": "used",
+  "generationCount": 2
+ },
+ {
+  "type": "make",
+  "make": "jaguar",
+  "slug": "jaguar",
+  "name": "Jaguar",
+  "country": "United Kingdom",
+  "founded": 1922,
+  "blurb": "The E-Type was called the most beautiful car ever made by Enzo Ferrari himself. Jaguar's history swings between genius and chaos, usually in the same decade.",
+  "modelCount": 4
+ },
+ {
+  "type": "model",
+  "make": "jaguar",
+  "makeName": "Jaguar",
+  "slug": "e-type",
+  "name": "E-Type",
+  "years": "1961–1975",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "Enzo Ferrari reportedly called it the most beautiful car ever made, and he was not wrong. 150 mph for a third of an Aston's price in 1961, on a monocoque with the XK engine and independent rear suspension. The standard every GT since has been judged against.",
+  "buyingClass": "vintage",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "jaguar",
+  "makeName": "Jaguar",
+  "slug": "xj",
+  "name": "XJ",
+  "years": "1968–2019",
+  "status": "Discontinued",
+  "segment": "Full-size luxury sedan",
+  "bodyStyles": [
+   "Sedan"
+  ],
+  "intro": "Jaguar's flagship saloon for half a century, from William Lyons' Series I to Ian Callum's radical X351. The XJ was always the driver's luxury car — lighter, lower and keener than the German default, when it wasn't being let down by 1970s build quality.",
+  "buyingClass": "used",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "jaguar",
+  "makeName": "Jaguar",
+  "slug": "f-type",
+  "name": "F-Type",
+  "years": "2013–2024",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "The E-Type's self-appointed heir: an aluminium two-seater with supercharged V6 and V8 engines and a crackling exhaust that became its signature. The facelift cleaned up the styling; the SVR turned it into a genuine supercar-baiter.",
+  "buyingClass": "used",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "jaguar",
+  "makeName": "Jaguar",
+  "slug": "xk120",
+  "name": "XK120",
+  "years": "1948–1954",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Roadster",
+   "Coupe"
+  ],
+  "intro": "A show car that escaped. Jaguar built the XK120 for the 1948 London Motor Show as a showcase for its new XK engine, took hundreds of orders, and had to put it into production. It defined the British sports car for a generation and launched Jaguar's Le Mans era.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "make",
+  "make": "land-rover",
+  "slug": "land-rover",
+  "name": "Land Rover",
+  "country": "United Kingdom",
+  "founded": 1948,
+  "blurb": "The 1948 Series I was a stopgap built from war-surplus aluminium; it became the default vehicle of farms, armies, and expeditions on every continent.",
+  "modelCount": 3
+ },
+ {
+  "type": "model",
+  "make": "land-rover",
+  "makeName": "Land Rover",
+  "slug": "defender",
+  "name": "Defender",
+  "years": "1990–2016, 2020–present",
+  "status": "In production",
+  "segment": "Off-road SUV",
+  "bodyStyles": [
+   "SUV"
+  ],
+  "intro": "Seventy years of farm, army and expedition service made the original Defender a British institution — and about as comfortable as one. The 2020 replacement kept the name and the look, replaced the ladder frame and live axles with a monocoque, and sold in numbers the original never approached.",
+  "buyingClass": "new",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "land-rover",
+  "makeName": "Land Rover",
+  "slug": "range-rover",
+  "name": "Range Rover",
+  "years": "1970–present",
+  "status": "In production",
+  "segment": "Full-size luxury SUV",
+  "bodyStyles": [
+   "SUV"
+  ],
+  "intro": "The original luxury SUV, from 1970: coil springs, a V8, and a design so right that one sat in the Louvre. Every generation since has traded a little more mud-plugging honesty for a lot more polish, and the fifth is now a full-scale limousine that can still wade nearly a metre of water.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "land-rover",
+  "makeName": "Land Rover",
+  "slug": "discovery",
+  "name": "Discovery",
+  "years": "1989–present",
+  "status": "In production",
+  "segment": "Midsize luxury SUV",
+  "bodyStyles": [
+   "SUV"
+  ],
+  "intro": "The middle child done right: seven seats, real off-road hardware and a stepped roof you can spot a mile away. The Discovery has always been the Land Rover for families who actually leave tarmac, even if the fifth generation dresses like it doesn't.",
+  "buyingClass": "new",
+  "generationCount": 3
+ }
+]

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Car Atlas — Every car ever made. One atlas.</title>
+<meta name="description" content="The all-in-one car atlas: every make, model, and generation ever built — specs, history, where to buy each one for the best price, and the clubs near you.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>●</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="home">
+
+<header class="nav"><div class="wrap nav-in">
+  <a class="wordmark" href="index.html">CAR ATLAS<span class="dot">.</span></a>
+  <nav class="nav-links">
+    <a href="#makes">Makes</a>
+    <a href="#eras">Eras</a>
+    <a href="buy.html">Buy</a>
+    <a href="clubs.html">Clubs</a>
+  </nav>
+</div></header>
+
+<main class="wrap">
+  <div class="hero">
+    <h1>Every car ever made. <span class="accent">One atlas.</span></h1>
+    <p class="sub">Every make, model, and generation — the specs, the story, where to buy each one for the best price, and the people near you who love them. Start typing.</p>
+    <div class="searchbox">
+      <input id="q" type="search" placeholder="Try “911”, “Miata”, “Countach”…" autocomplete="off" aria-label="Search every make and model">
+      <button class="go" aria-label="Search" onclick="document.getElementById('q').focus()">→</button>
+      <div id="q-results" class="results hidden" role="listbox"></div>
+    </div>
+    <div class="stats">
+      <div class="stat"><b id="stat-makes">–</b><span>Makes</span></div>
+      <div class="stat"><b id="stat-models">–</b><span>Models</span></div>
+      <div class="stat"><b id="stat-gens">–</b><span>Generations</span></div>
+      <div class="stat"><b>22</b><span>Clubs seeded</span></div>
+    </div>
+  </div>
+
+  <p id="js-error" class="note-box hidden" role="alert"></p>
+
+  <section class="block" id="featured">
+    <div class="block-head"><h2>Start with the icons</h2><p>Six cars that explain the whole hobby. Each one links to its full generation-by-generation record.</p></div>
+    <div class="grid models" id="featured-grid"></div>
+  </section>
+
+  <section class="block" id="makes">
+    <div class="block-head"><h2>Browse by make</h2><p>Every marque in the atlas so far. The registry grows each wave toward the full list — hundreds of makes, living and dead — tracked openly in the coverage notes.</p></div>
+    <div class="grid makes" id="makes-grid"></div>
+  </section>
+
+  <section class="block" id="eras">
+    <div class="block-head"><h2>Browse by era</h2><p>Cars wear their decade. Pick one and see what the atlas holds from it.</p></div>
+    <div class="chips" id="era-chips" style="margin-bottom:18px"></div>
+    <div class="grid models" id="era-grid"></div>
+  </section>
+
+  <section class="block" id="styles">
+    <div class="block-head"><h2>Browse by shape</h2><p>Coupe, wagon, pickup, roadster — start from the silhouette you want.</p></div>
+    <div class="chips" id="style-chips" style="margin-bottom:18px"></div>
+    <div class="grid models" id="style-grid"></div>
+  </section>
+
+  <div class="band">
+    <h2>Buying one? Start with where the market actually trades.</h2>
+    <p>The buying layer maps every model to the channels that set its price — auction results, marketplaces, and specialists — with a price-watch system designed in the open. No listings faked, no prices invented.</p>
+    <a class="btn" href="buy.html">Open the buying layer →</a>
+  </div>
+
+  <section class="block">
+    <div class="block-head"><h2>Find your people</h2><a class="more" href="clubs.html">All clubs →</a></div>
+    <p class="mut" style="max-width:62ch">Car culture is local. The clubs registry covers marque clubs, motorsport bodies, and meet networks by region — from the SCCA's autocross grids to the Goodwood Road Racing Club's period-correct paddocks.</p>
+  </section>
+</main>
+
+<footer><div class="wrap f-in">
+  <div><b>Car Atlas.</b> Every car ever made — a work in progress, built in the open, wave by wave.</div>
+  <nav><a href="#makes">Makes</a><a href="buy.html">Buy</a><a href="clubs.html">Clubs</a></nav>
+</div></footer>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,252 @@
+{
+ "make": "porsche",
+ "models": [
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Convertible",
+    "Targa"
+   ],
+   "buyingClass": "new",
+   "collectorNote": "Air-cooled cars (pre-1998) live in their own market. Documentation and original specification decide values more than mileage does.",
+   "generations": [
+    {
+     "code": "964",
+     "name": "964 — the bridge car",
+     "note": "The bridge car: classic silhouette over modern underpinnings, with all-wheel drive available for the first time. The Turbo and Carrera RS are the blue chips.",
+     "spec": {
+      "drivetrain": "RWD / AWD",
+      "engine": "3.6L flat-6 (Carrera)",
+      "power": "247 hp"
+     },
+     "years": "1989–1994"
+    },
+    {
+     "code": "993",
+     "name": "993 — last of the air-cooled",
+     "note": "The last air-cooled 911, and the market treats it accordingly. Multi-link rear suspension finally tamed the layout's worst habits.",
+     "spec": {
+      "drivetrain": "RWD / AWD",
+      "engine": "3.6L flat-6 (Carrera)",
+      "power": "272–285 hp"
+     },
+     "years": "1994–1998"
+    },
+    {
+     "code": "992",
+     "name": "992 — the modern benchmark",
+     "note": "Wide-body for everyone, a proper digital cabin, and a Turbo S that out-accelerates most hypercars. The GT3 keeps a 9,000 rpm naturally aspirated flat-six alive.",
+     "spec": {
+      "drivetrain": "RWD / AWD",
+      "engine": "3.0L twin-turbo flat-6",
+      "power": "379–640 hp"
+     },
+     "years": "2019–present"
+    }
+   ],
+   "intro": "One car, perfected for sixty years. The engine is still in the wrong place, the silhouette is still a teardrop, and the 911 is still the sports car everything else is judged against — because Porsche never stopped developing it.",
+   "name": "911",
+   "segment": "Sports car",
+   "slug": "911",
+   "status": "In production",
+   "trims": [
+    "Carrera",
+    "Carrera S",
+    "Turbo",
+    "Turbo S",
+    "GT3",
+    "GT3 RS"
+   ],
+   "years": "1964–present"
+  },
+  {
+   "bodyStyles": [
+    "SUV"
+   ],
+   "buyingClass": "new",
+   "generations": [
+    {
+     "code": "955",
+     "name": "First generation",
+     "note": "Launched with V8s only, including a 450 hp Turbo when that was absurd for an SUV. Low-range gearing meant it could actually climb things.",
+     "spec": {
+      "drivetrain": "AWD",
+      "engine": "4.5L twin-turbo V8 (Turbo)",
+      "power": "450 hp"
+     },
+     "years": "2002–2010"
+    },
+    {
+     "code": "92A",
+     "name": "Second generation",
+     "note": "Lighter, better looking, and hybridised. The diesel suited it so well that its loss stung.",
+     "spec": {
+      "drivetrain": "AWD",
+      "engine": "4.8L V8 (Cayenne S)",
+      "power": "400 hp"
+     },
+     "years": "2010–2017"
+    },
+    {
+     "code": "E3",
+     "name": "Third generation",
+     "note": "Turbo V6s and V8s, a Coupe variant chasing the X6, and a Turbo GT that laps the Nürburgring faster than sports cars.",
+     "spec": {
+      "drivetrain": "AWD",
+      "engine": "3.0L turbo V6 / 4.0L twin-turbo V8",
+      "power": "335–631 hp"
+     },
+     "years": "2017–present"
+    }
+   ],
+   "intro": "The SUV that saved Porsche — purists hated it in 2002 and the profits funded every GT car since. It also happened to be genuinely good: fast, capable off-road, and unmistakably a Porsche to drive.",
+   "name": "Cayenne",
+   "segment": "Luxury SUV",
+   "slug": "cayenne",
+   "status": "In production",
+   "trims": [
+    "Cayenne",
+    "Cayenne S",
+    "Cayenne E-Hybrid",
+    "Cayenne Turbo GT"
+   ],
+   "years": "2002–present"
+  },
+  {
+   "bodyStyles": [
+    "Sedan",
+    "Wagon"
+   ],
+   "buyingClass": "new",
+   "generations": [
+    {
+     "code": "J1",
+     "name": "First generation",
+     "note": "Launched as Turbo and Turbo S — no turbo anywhere, the names are trim levels now. The 2024 facelift brought more range, more power, and the 1,000 hp-class Turbo GT.",
+     "spec": {
+      "drivetrain": "RWD / AWD",
+      "engine": "Single- / dual-motor electric",
+      "power": "402–750 hp"
+     },
+     "years": "2019–present"
+    }
+   ],
+   "intro": "Porsche's first EV, built to answer one question: can an electric car feel like a Porsche? Two-speed rear gearbox, repeatable launch control, and steering that talks. The answer held up.",
+   "name": "Taycan",
+   "segment": "Electric sports sedan",
+   "slug": "taycan",
+   "status": "In production",
+   "trims": [
+    "Taycan",
+    "Taycan 4S",
+    "Turbo",
+    "Turbo S",
+    "Turbo GT"
+   ],
+   "years": "2019–present"
+  },
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Convertible",
+    "Speedster"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Speedsters and four-cam Carreras are the seven-figure end of the market. Matching numbers and the Kardex build record are everything on any 356.",
+   "generations": [
+    {
+     "code": "Pre-A",
+     "name": "356 (original)",
+     "note": "Hand-built early cars, split windscreens at first, and engines that grew from 1.1 to 1.5 litres as Porsche found its feet.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "1.1L–1.5L flat-4",
+      "power": "40–70 hp"
+     },
+     "years": "1948–1955"
+    },
+    {
+     "code": "356C",
+     "name": "356C",
+     "note": "Disc brakes all round and the most developed pushrod flat-four. The SC was the quick one; the 911 was already waiting in the wings.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "1.6L flat-4",
+      "power": "75–95 hp"
+     },
+     "years": "1963–1965"
+    }
+   ],
+   "intro": "The first production Porsche: a Beetle-derived aluminium coupe built in a sawmill in Gmünd, Austria, that became the template for everything after. Light, slippery, and quicker than cars with twice the power.",
+   "name": "356",
+   "segment": "Sports car",
+   "slug": "356",
+   "status": "Discontinued",
+   "trims": [
+    "356",
+    "356A",
+    "356B",
+    "356C",
+    "Speedster",
+    "Carrera"
+   ],
+   "years": "1948–1965"
+  },
+  {
+   "bodyStyles": [
+    "Roadster",
+    "Coupe"
+   ],
+   "buyingClass": "modern-classic",
+   "collectorNote": "The 981 GT4 and 718 GT4 RS / Spyder RS are the collectible end. Six-cylinder cars generally hold value far better than the turbo fours.",
+   "generations": [
+    {
+     "code": "986",
+     "name": "Boxster (first generation)",
+     "note": "The roadster that paid for the 911's future. Mid-engined balance and a flat-six soundtrack for relatively sensible money.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.5L–3.2L flat-6",
+      "power": "201–258 hp"
+     },
+     "years": "1996–2004"
+    },
+    {
+     "code": "981",
+     "name": "Cayman/Boxster (third generation)",
+     "note": "The six-cylinder peak before downsizing. The Cayman GT4 got the 911's 3.8 and a manual only — an instant classic.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.7L–3.8L flat-6",
+      "power": "265–385 hp"
+     },
+     "years": "2012–2016"
+    },
+    {
+     "code": "982",
+     "name": "718 (fourth generation)",
+     "note": "Turbo fours for the standard cars drew the complaints; the GTS 4.0, GT4 RS and Spyder RS answered them with a 9,000 rpm six taken from the GT3.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.0L turbo flat-4 / 4.0L flat-6",
+      "power": "300–493 hp"
+     },
+     "years": "2016–2025"
+    }
+   ],
+   "intro": "The Boxster saved Porsche in the 1990s; the Cayman coupe followed in 2005, and the pair became the handling benchmark money could buy. Renamed 718 in 2016 for the turbo flat-four era, then redeemed by the 4.0-litre sixes. Production of the petrol cars ended in 2025, with an electric successor planned.",
+   "name": "718 Cayman/Boxster",
+   "segment": "Mid-engine sports car",
+   "slug": "718-cayman-boxster",
+   "status": "Discontinued",
+   "trims": [
+    "Base",
+    "S",
+    "GTS 4.0",
+    "GT4",
+    "Spyder"
+   ],
+   "years": "1996–2025"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clubs near you — Car Atlas</title>
+<meta name="description" content="Car clubs by region and marque: marque clubs, motorsport bodies, historic racing, and meet networks.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>●</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="clubs">
+<header class="nav"><div class="wrap nav-in">
+  <a class="wordmark" href="index.html">CAR ATLAS<span class="dot">.</span></a>
+  <nav class="nav-links">
+    <a href="index.html#makes">Makes</a><a href="index.html#eras">Eras</a><a href="buy.html">Buy</a><a href="clubs.html" aria-current="page">Clubs</a>
+  </nav>
+</div></header>
+<main class="wrap">
+  <div class="page-head">
+    <div class="crumb"><a href="index.html">Atlas</a> / Clubs</div>
+    <h1>Clubs near you.</h1>
+    <p class="lede">Ownership is better with people. Filter the registry by region and marque — marque clubs, motorsport sanctioning bodies, historic-racing clubs, and the Saturday-morning meet networks that tie local scenes together.</p>
+  </div>
+  <p id="js-error" class="note-box hidden" role="alert"></p>
+  <div class="filters">
+    <label for="f-region">Region</label><select id="f-region"></select>
+    <label for="f-marque">Marque / focus</label><select id="f-marque"></select>
+    <span class="mut small" id="club-count"></span>
+  </div>
+  <div class="grid two" id="club-grid"></div>
+  <div class="note-box"><b>How this grows</b><p>Wave 1 seeds national clubs and major networks — the organizations with chapters near most readers. Later waves add chapter-level detail: cities, meeting cadence, and event calendars, so "near you" gets literal. Details were accurate as seeded; confirm current terms on each club's own site.</p></div>
+</main>
+<footer><div class="wrap f-in">
+  <div><b>Car Atlas.</b> Every car ever made — built in the open, wave by wave.</div>
+  <nav><a href="index.html#makes">Makes</a><a href="buy.html">Buy</a><a href="clubs.html">Clubs</a></nav>
+</div></footer>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
