@@ -609,6 +609,106 @@
    "name": "TVR",
    "slug": "tvr",
    "status": "Defunct"
+  },
+  {
+   "blurb": "Herbert Austin built the Seven that motorised Britain, then the Longbridge works carried the Mini, the 1100 and the Metro — the cars ordinary Britain actually drove. The marque faded through the BMC and British Leyland years and was retired in the late 1980s.",
+   "country": "United Kingdom",
+   "founded": 1905,
+   "hq": "Longbridge, England",
+   "knownFor": "The Seven, the Mini, Britain's everyday cars",
+   "name": "Austin",
+   "slug": "austin",
+   "status": "Defunct"
+  },
+  {
+   "blurb": "Carl F. W. Borgward built Germany's most inventive post-war car group — the first new German design of 1949, the Isabella, air suspension on the P100 — then lost it all in the sudden, still-argued collapse of 1961.",
+   "country": "Germany",
+   "founded": 1929,
+   "hq": "Bremen, Germany",
+   "knownFor": "The Isabella, post-war German innovation, the 1961 collapse",
+   "name": "Borgward",
+   "slug": "borgward",
+   "status": "Defunct"
+  },
+  {
+   "blurb": "Alejandro de Tomaso, an Argentine racer settled in Modena, built the formula that defined the marque for thirty years: Italian design, a mid-mounted Ford V8, and American dealer reach. The Pantera sold from 1971 to 1992.",
+   "country": "Italy",
+   "founded": 1959,
+   "hq": "Modena, Italy",
+   "knownFor": "The Pantera, Ford V8s in Italian chassis",
+   "name": "De Tomaso",
+   "slug": "de-tomaso",
+   "status": "Defunct"
+  },
+  {
+   "blurb": "Jean Daninos turned a pressings company into France's last luxury marque: Chrysler V8s, hand-finished cabins, and a client list of kings and film stars. The Facellia's fragile engine sank the firm; production ended in October 1964.",
+   "country": "France",
+   "founded": 1954,
+   "hq": "Paris, France",
+   "knownFor": "Chrysler-powered French luxury GTs, the HK500 and Facel II",
+   "name": "Facel Vega",
+   "slug": "facel-vega",
+   "status": "Defunct"
+  },
+  {
+   "blurb": "Renzo Rivolta's company licensed the Isetta to BMW, then aimed the other way entirely: Bertone-bodied grand tourers with Chevrolet and Ford V8s. The Grifo is the peak — Bizzarrini engineering under one of the great GT shapes.",
+   "country": "Italy",
+   "founded": 1953,
+   "hq": "Bresso, Italy",
+   "knownFor": "The Grifo, Corvette-engined GTs, the Isetta's creator",
+   "name": "Iso",
+   "slug": "iso",
+   "status": "Defunct"
+  },
+  {
+   "blurb": "A knitting-machine and motorcycle giant that bet the company on Felix Wankel's rotary engine: first in the little Spider, then in the Ro80, 1968's European Car of the Year. Engine warranties consumed NSU; Volkswagen absorbed it into Audi in 1969.",
+   "country": "Germany",
+   "founded": 1873,
+   "hq": "Neckarsulm, Germany",
+   "knownFor": "The Wankel rotary — Spider and Ro80 — and the Prinz",
+   "name": "NSU",
+   "slug": "nsu",
+   "status": "Defunct"
+  },
+  {
+   "blurb": "Panhard & Levassor set the automobile's layout in 1891 — engine front, drive rear — then reinvented itself after the war around tiny air-cooled flat-twins, front-wheel drive and radical economy. Citroën absorbed the marque and ended its cars in 1967.",
+   "country": "France",
+   "founded": 1887,
+   "hq": "Paris, France",
+   "knownFor": "The Système Panhard, flat-twin economy cars, Monte Carlo 1961",
+   "name": "Panhard",
+   "slug": "panhard",
+   "status": "Defunct"
+  },
+  {
+   "blurb": "Founded to build Fiats in France, Simca became the country's second carmaker on the Aronde, bought Ford's French V8 works, pioneered the hatchback with the 1100, and faded through Chrysler and Peugeot ownership by 1970.",
+   "country": "France",
+   "founded": 1934,
+   "hq": "Poissy, France",
+   "knownFor": "The Aronde, the 1000 Rallye, the hatchback 1100",
+   "name": "Simca",
+   "slug": "simca",
+   "status": "Defunct"
+  },
+  {
+   "blurb": "Anthony Lago took over Talbot's French works and built the summit of the French classics: Figoni-teardrop coupés before the war, a Le Mans winner after it. The America of 1955 was the last car; Simca absorbed the firm in 1959.",
+   "country": "France",
+   "founded": 1935,
+   "hq": "Suresnes, France",
+   "knownFor": "The teardrop T150C-SS, the Le Mans-winning T26 Grand Sport",
+   "name": "Talbot-Lago",
+   "slug": "talbot-lago",
+   "status": "Defunct"
+  },
+  {
+   "blurb": "Willys-Overland built the wartime Jeep and spent the peace turning it civilian: the CJ, the all-steel station wagon that prefigured the SUV, and the Aero saloon. Kaiser bought the company in 1953; the Willys name left its grilles in the 1960s.",
+   "country": "United States",
+   "founded": 1908,
+   "hq": "Toledo, Ohio",
+   "knownFor": "The Jeep — MB, CJ, and the first all-steel wagon",
+   "name": "Willys",
+   "slug": "willys",
+   "status": "Defunct"
   }
  ],
  "note": "Marque registry. Model counts are derived at build time into search-index.json; see COVERAGE.md for what is seeded and what is planned.",

@@ -1,0 +1,146 @@
+{
+ "make": "willys",
+ "models": [
+  {
+   "bodyStyles": [
+    "Utility"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Matching-numbers military provenance is a researched field — data plates, frame numbers and Ford-vs-Willys production splits decide value.",
+   "generations": [
+    {
+     "code": "MB",
+     "name": "MB / Ford GPW",
+     "note": "The L-head Go Devil made 60 hp and 105 lb-ft; combined MB/GPW production exceeded 640,000 vehicles.",
+     "spec": {
+      "drivetrain": "4WD",
+      "engine": "2.2L inline-4 (Go Devil)",
+      "power": "60 hp"
+     },
+     "years": "1941–1945"
+    }
+   ],
+   "intro": "The Jeep: Willys-Overland's MB (built alongside Ford's near-identical GPW) put over 360,000 Willys examples into every theatre of the Second World War on the 60 hp Go Devil four. It is the most consequential utility vehicle ever made, and the ancestor of everything in this atlas with seven grille slots.",
+   "name": "MB (Willys Jeep)",
+   "segment": "Off-road vehicle",
+   "slug": "mb",
+   "status": "Discontinued",
+   "trims": [
+    "MB",
+    "Slat Grille"
+   ],
+   "years": "1941–1945"
+  },
+  {
+   "bodyStyles": [
+    "Utility",
+    "Pickup"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "The market is enormous and so is the modification rate — original-spec early CJs are the appreciating minority. Frame rust at the rear crossmember is the classic check.",
+   "generations": [
+    {
+     "code": "CJ 1",
+     "name": "CJ-2A / CJ-3A / CJ-3B",
+     "note": "The Hurricane F-head replaced the Go Devil in 1950; the tall CJ-3B existed to clear it.",
+     "spec": {
+      "drivetrain": "4WD",
+      "engine": "2.2L inline-4 (Go Devil / Hurricane)",
+      "power": "60–72 hp"
+     },
+     "years": "1945–1958"
+    },
+    {
+     "code": "CJ 2",
+     "name": "CJ-5 / CJ-6 / CJ-7 / CJ-8 Scrambler",
+     "note": "Engines ran from the Hurricane four to AMC's 304 V8; the CJ-5 alone sold over 600,000 across 1954–1983.",
+     "spec": {
+      "drivetrain": "4WD",
+      "engine": "2.2L–4.2L inline-4/6, 5.0L V8",
+      "power": "72–150 hp"
+     },
+     "years": "1954–1986"
+    }
+   ],
+   "intro": "The Jeep comes home: the CJ-2A of 1945 put the wartime formula to farm and trail work, and the line ran for four decades — CJ-3B's high hood, the CJ-5's twenty-year production, the CJ-7's extra room and the Scrambler's pickup bed. Willys built them until 1963; Kaiser and AMC carried the line on.",
+   "name": "CJ (Civilian Jeep)",
+   "segment": "Off-road vehicle",
+   "slug": "cj",
+   "status": "Discontinued",
+   "trims": [
+    "CJ-2A",
+    "CJ-3B",
+    "CJ-5",
+    "CJ-7",
+    "CJ-8 Scrambler"
+   ],
+   "years": "1945–1986"
+  },
+  {
+   "bodyStyles": [
+    "Estate",
+    "Pickup",
+    "Panel van"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "The Jeepster convertible cousin rides along in this record's trims — the phaeton experiment of 1948. Steel wagons survive well; wood-era trim does not exist here, which is the point of the design.",
+   "generations": [
+    {
+     "code": "Wagon",
+     "name": "Station Wagon / Pickup / Panel",
+     "note": "The Super Hurricane six (115 hp in the Tornado OHC's later form, as fitted 1962–65) topped the range; the Tornado was America's first post-war overhead-cam six.",
+     "spec": {
+      "drivetrain": "RWD / 4WD",
+      "engine": "2.2L inline-4 – 3.7L inline-6",
+      "power": "60–115 hp"
+     },
+     "years": "1946–1965"
+    }
+   ],
+   "intro": "America's first all-steel station wagon — Brooks Stevens's design sold the Jeep idea to families, and the same bones carried the pickup truck and panel delivery. Four-wheel drive from 1949 made it the original SUV in all but name, a decade and a half before the term.",
+   "name": "Station Wagon / Pickup",
+   "segment": "Utility vehicle",
+   "slug": "wagon",
+   "status": "Discontinued",
+   "trims": [
+    "Station Wagon",
+    "Pickup",
+    "Panel Delivery",
+    "Jeepster (1948–1950)"
+   ],
+   "years": "1946–1965"
+  },
+  {
+   "bodyStyles": [
+    "Saloon"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "US survivors are scarce and Brazilian cars are their own chapter; the Eagle hardtop is the collector's Aero.",
+   "generations": [
+    {
+     "code": "Aero",
+     "name": "Aero Lark / Ace / Eagle",
+     "note": "The F-head six made up to 90 hp in the Eagle; the Aero's light weight gave it performance the spec sheet understates.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.6L inline-6 (Hurricane 6), 2.2L four",
+      "power": "75–90 hp"
+     },
+     "years": "1952–1955"
+    }
+   ],
+   "intro": "Willys's post-war passenger car: a light, efficient unitary saloon (Aero Lark, Wing, Ace and the Eagle hardtop) that handled well, sipped fuel and sold against the full weight of the Big Three. Production moved to Brazil, where the Aero Willys lived on into the 1970s.",
+   "name": "Aero",
+   "segment": "Family car",
+   "slug": "aero",
+   "status": "Discontinued",
+   "trims": [
+    "Aero Lark",
+    "Aero Wing",
+    "Aero Ace",
+    "Aero Eagle"
+   ],
+   "years": "1952–1955"
+  }
+ ]
+}

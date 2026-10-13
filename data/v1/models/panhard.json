@@ -1,0 +1,132 @@
+{
+ "make": "panhard",
+ "models": [
+  {
+   "bodyStyles": [
+    "Saloon",
+    "Convertible",
+    "Estate"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Aluminium panels survive where steel chassis parts do not; the flat-twin's specialists are in France and the club is the map to them.",
+   "generations": [
+    {
+     "code": "Dyna X",
+     "name": "Dyna X (X84–X87)",
+     "note": "Engines grew from 610 to 851 cc; the Sprint versions tuned the twin to the top of the range. Aluminium body panels kept weight near 550 kg.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "610 cc–851 cc air-cooled flat-twin",
+      "power": "28–42 hp"
+     },
+     "years": "1947–1953"
+    }
+   ],
+   "intro": "Post-war France's cleverest small car: Jean-Albert Grégoire's aluminium-intensive design with Panhard's air-cooled flat-twin, front-wheel drive and room for a family on 610 cc. The Dyna X's light weight made it economical, quick for its class, and a rally winner.",
+   "name": "Dyna X",
+   "segment": "Compact car",
+   "slug": "dyna-x",
+   "status": "Discontinued",
+   "trims": [
+    "Dyna X",
+    "Dyna X Sprint",
+    "Découvrable"
+   ],
+   "years": "1947–1953"
+  },
+  {
+   "bodyStyles": [
+    "Saloon"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Steel bodies rust where the X's aluminium did not; Tigre specification should be verified against the engine, not the badges.",
+   "generations": [
+    {
+     "code": "Dyna Z",
+     "name": "Dyna Z / Tigre",
+     "note": "Standard cars made 42 hp; the Tigre's twin-carburettor engine reached 50. Economy remained the headline — 40 mpg was routine.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "851 cc air-cooled flat-twin",
+      "power": "42–50 hp"
+     },
+     "years": "1954–1959"
+    }
+   ],
+   "intro": "The Dyna X's successor traded aluminium for steel as costs bit, kept the flat-twin and front-drive, and gained Louis Bionier's rounded 'ponton' styling with a panoramic windscreen. The Tigre versions are the sporting cars, with the twin tuned and the chassis sorted.",
+   "name": "Dyna Z",
+   "segment": "Compact car",
+   "slug": "dyna-z",
+   "status": "Discontinued",
+   "trims": [
+    "Dyna Z",
+    "Dyna Z Tigre"
+   ],
+   "years": "1954–1959"
+  },
+  {
+   "bodyStyles": [
+    "Saloon",
+    "Convertible",
+    "Estate"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "The Monte Carlo halo has not yet priced these like other rally winners; the French club scene is strong and parts remanufacture exists.",
+   "generations": [
+    {
+     "code": "PL17",
+     "name": "PL 17 / Tigre",
+     "note": "The Tigre reached 60 hp in its final form; the 1961 Monte Carlo cars were near-standard Tigres, which was rather the point.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "848 cc–851 cc air-cooled flat-twin",
+      "power": "42–60 hp"
+     },
+     "years": "1959–1965"
+    }
+   ],
+   "intro": "The Dyna Z evolved: named for Panhard-Levassor and its 17 tax-and-space formula, restyled with a droop snoot and eyelid headlamps, and crowned by a Monte Carlo Rally outright win in 1961 — three PL 17s in the top places, against the factories of Europe.",
+   "name": "PL 17",
+   "segment": "Compact car",
+   "slug": "pl17",
+   "status": "Discontinued",
+   "trims": [
+    "PL 17",
+    "PL 17 Tigre",
+    "Cabriolet"
+   ],
+   "years": "1959–1965"
+  },
+  {
+   "bodyStyles": [
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "The coupé's proportions draw the eye and the prices; verify Tigre specification by engine number. Saloons are near-extinct.",
+   "generations": [
+    {
+     "code": "24",
+     "name": "24 C / CT / B / BT",
+     "note": "The CT was the sporting coupé at 50 hp, later 60 in Tigre tune; the four-door B/BT saloons are the rarest of the line.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "848 cc air-cooled flat-twin",
+      "power": "42–60 hp"
+     },
+     "years": "1963–1967"
+    }
+   ],
+   "intro": "Panhard's last car: a steel-bodied coupé (and rare saloon) styled by Louis Bionier with the flat-twin behind a long, low nose — named for the 24 Hours its makers dreamed of, where the related CD coupés had already won the Index of Performance. Citroën, which had absorbed Panhard, ended car production in 1967.",
+   "name": "24 CT / BT",
+   "segment": "Sports car",
+   "slug": "24",
+   "status": "Discontinued",
+   "trims": [
+    "24 C",
+    "24 CT",
+    "24 BT"
+   ],
+   "years": "1963–1967"
+  }
+ ]
+}

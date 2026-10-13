@@ -30,6 +30,12 @@ PAGES = [
     ("model-810.png", "model.html?make=cord&model=810-812", None),
     ("model-tr6.png", "model.html?make=triumph&model=tr6", None),
     ("model-interceptor.png", "model.html?make=jensen&model=interceptor", None),
+    ("make-austin.png", "make.html?make=austin", None),
+    ("model-mini.png", "model.html?make=austin&model=mini", None),
+    ("model-pantera.png", "model.html?make=de-tomaso&model=pantera", None),
+    ("model-ro80.png", "model.html?make=nsu&model=ro80", None),
+    ("model-grifo.png", "model.html?make=iso&model=grifo", None),
+    ("make-willys.png", "make.html?make=willys", None),
 ]
 
 MOBILE_PAGES = [
@@ -39,6 +45,7 @@ MOBILE_PAGES = [
     ("model-mustang-mobile.png", "model.html?make=ford&model=mustang", None),
     ("buy-mobile.png", "buy.html", None),
     ("model-hornet-mobile.png", "model.html?make=hudson&model=hornet", None),
+    ("model-isabella-mobile.png", "model.html?make=borgward&model=isabella", None),
 ]
 
 

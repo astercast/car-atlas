@@ -1,0 +1,138 @@
+{
+ "make": "nsu",
+ "models": [
+  {
+   "bodyStyles": [
+    "Saloon",
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Air-cooled parts cross over with the motorcycle world; the Sport Prinz's Bertone body is the collector's target and its rust the usual tax.",
+   "generations": [
+    {
+     "code": "Prinz 1",
+     "name": "Prinz I–III / Sport Prinz",
+     "note": "The twin made 20 hp at launch and 30 in the Sport Prinz; the engine was a enlarged motorcycle unit, and revved like one.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "583 cc–598 cc air-cooled twin",
+      "power": "20–30 hp"
+     },
+     "years": "1958–1962"
+    },
+    {
+     "code": "Prinz 2",
+     "name": "Prinz 4",
+     "note": "The Prinz 4's styling quoted the Chevrolet Corvair in miniature; over 570,000 were built, the marque's volume backbone.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "598 cc air-cooled twin",
+      "power": "30 hp"
+     },
+     "years": "1961–1973"
+    }
+   ],
+   "intro": "NSU's return to cars: a rear-engined two-cylinder runabout that grew, in the Prinz 4 of 1961, into the sharp-edged 'bathtub' saloon half of Germany learned to drive in. The Sport Prinz coupé (Bertone, styled by Franco Scaglione) proved the little chassis had glamour in it.",
+   "name": "Prinz",
+   "segment": "City car",
+   "slug": "prinz",
+   "status": "Discontinued",
+   "trims": [
+    "Prinz",
+    "Sport Prinz",
+    "Prinz 4"
+   ],
+   "years": "1958–1973"
+  },
+  {
+   "bodyStyles": [
+    "Saloon"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "TTS originality is easily faked from a 1000 shell — engine numbers and the model's specific fittings are the check. Hillclimb history adds real value.",
+   "generations": [
+    {
+     "code": "TT",
+     "name": "1000 / 1000 TT / 1200 TT / TTS",
+     "note": "The 1000 made 43 hp, the TTs 55–65, and the TTS — with its oil cooler in the front panel — 70 hp and a competition career out of all proportion to its size.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "1.0L–1.2L air-cooled inline-4",
+      "power": "43–70 hp"
+     },
+     "years": "1963–1972"
+    }
+   ],
+   "intro": "The Prinz grown up: a four-cylinder air-cooled saloon whose sporting derivatives — 1000 TT, 1200 TT and the twin-carburettor TTS — became the giant-killers of German hillclimbs and the car a generation of tuners (and the founders of Abt) learned on.",
+   "name": "1000 / TT / TTS",
+   "segment": "Compact car",
+   "slug": "1000",
+   "status": "Discontinued",
+   "trims": [
+    "1000",
+    "1000 TT",
+    "1200 TT",
+    "TTS"
+   ],
+   "years": "1963–1972"
+  },
+  {
+   "bodyStyles": [
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Engine history is everything: a Spider with a documented rotary (many were converted to piston power in period) is the real article.",
+   "generations": [
+    {
+     "code": "Spider",
+     "name": "Wankel Spider",
+     "note": "The rotor displaced 498 cc and made 50 hp; apex-seal wear — the rotary's teething trouble — was covered by an NSU warranty generous enough to hurt.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "498 cc single-rotor Wankel",
+      "power": "50 hp"
+     },
+     "years": "1964–1967"
+    }
+   ],
+   "intro": "The first production car in the world with a Wankel rotary engine: a Bertone-bodied roadster on the Sport Prinz chassis, its single-rotor engine spinning to speeds no piston twin could match. About 2,400 were built, and every rotary Mazda descends from the bet NSU placed here.",
+   "name": "Spider (Wankel Spider)",
+   "segment": "Sports car",
+   "slug": "spider",
+   "status": "Discontinued",
+   "trims": [
+    "Wankel Spider"
+   ],
+   "years": "1964–1967"
+  },
+  {
+   "bodyStyles": [
+    "Saloon"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Buy the best engine you can find — rebuilt rotaries by the small specialist circle are the difference between a driver and a project. The rest of the car is durable, refined and undervalued.",
+   "generations": [
+    {
+     "code": "Ro80",
+     "name": "Ro80",
+     "note": "Twin rotors of 497.5 cc each; the Saxomat-derived gearbox needed only a clutch touch to shift. Some 37,000 were built over ten years.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "995 cc twin-rotor Wankel",
+      "power": "115 hp"
+     },
+     "years": "1967–1977"
+    }
+   ],
+   "intro": "European Car of the Year 1968 and the rotary's flagship: a twin-rotor saloon with front-wheel drive, a semi-automatic gearbox, inboard front discs and Claudio Luthe's wind-tunnel styling a decade ahead of the industry. The engine's seal problems bankrupted NSU into Volkswagen's arms — and the car itself was superb.",
+   "name": "Ro80",
+   "segment": "Executive car",
+   "slug": "ro80",
+   "status": "Discontinued",
+   "trims": [
+    "Ro80"
+   ],
+   "years": "1967–1977"
+  }
+ ]
+}

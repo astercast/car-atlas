@@ -1,0 +1,188 @@
+{
+ "make": "austin",
+ "models": [
+  {
+   "bodyStyles": [
+    "Tourer",
+    "Saloon",
+    "Van"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "The market is deep and the club scene is the car's great strength — buy the best body you can, mechanical parts are plentiful and cheap by pre-war standards.",
+   "generations": [
+    {
+     "code": "Seven",
+     "name": "Seven (Chummy, Box Saloon, Ruby)",
+     "note": "Power grew from the first cars' 13 hp; the Ruby of 1934 added a third bearing and synchromesh. Some 290,000 Sevens were built, and the specials built on its chassis seeded British motor racing.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "747 cc side-valve four",
+      "power": "13 hp"
+     },
+     "years": "1922–1939"
+    }
+   ],
+   "intro": "The car that motorised Britain. Herbert Austin's baby car put a real automobile — four cylinders, four wheels, brakes all round eventually — within reach of families who had managed with a motorcycle and sidecar, and licensed production spread the design from Munich (the first BMW) to Tokyo and New York.",
+   "name": "Seven",
+   "segment": "City car",
+   "slug": "seven",
+   "status": "Discontinued",
+   "trims": [
+    "Chummy",
+    "Box Saloon",
+    "Ruby",
+    "Pearl",
+    "Opal"
+   ],
+   "years": "1922–1939"
+  },
+  {
+   "bodyStyles": [
+    "Saloon",
+    "Estate",
+    "Van",
+    "Pickup"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Rust is the whole negotiation — sills, spring hangers and the boot floor. Racing has lifted good vans and pickups; saloons remain the affordable way in.",
+   "generations": [
+    {
+     "code": "A30/A35",
+     "name": "A30 / A35",
+     "note": "The A30's 803 cc engine made 28 hp; the A35's 948 raised it to 34. The A40 Somerset shared the floorpan in grander dress.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "803 cc–948 cc inline-4 (A-series)",
+      "power": "28–34 hp"
+     },
+     "years": "1951–1962"
+    }
+   ],
+   "intro": "Austin's first post-war small car and the A-series engine's debut. The A35 of 1956 sharpened it with the 948 cc engine, and A35s became unlikely giant-killers in saloon-car racing — they still race at Goodwood today, sideways and entirely serious.",
+   "name": "A30 / A35",
+   "segment": "Compact car",
+   "slug": "a35",
+   "status": "Discontinued",
+   "trims": [
+    "A30 Seven",
+    "A35",
+    "A35 Countryman",
+    "A35 van"
+   ],
+   "years": "1951–1962"
+  },
+  {
+   "bodyStyles": [
+    "Saloon",
+    "Estate",
+    "Van",
+    "Pickup"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Cooper S provenance is everything — replicas outnumber real cars. On any Mini, check the subframes and the shell they bolt to before the engine.",
+   "generations": [
+    {
+     "code": "Mini 1",
+     "name": "Mini Mk I–II (ADO15)",
+     "note": "Cooper versions (997/998, then the 970/1071/1275 S) turned the car into a rally weapon; the 1275 Cooper S made 76 hp and won Monte Carlo in 1964, 1965 and 1967.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "848 cc inline-4 (A-series)",
+      "power": "34 hp"
+     },
+     "years": "1959–1967"
+    },
+    {
+     "code": "Mini 2",
+     "name": "Mini Mk III–VII (incl. Clubman)",
+     "note": "The Clubman front modernised the face in 1969; the last cars gained fuel injection and a 63 hp 1275. Production ended in October 2000 after 5.3 million Minis of all types.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "998 cc–1,275 cc inline-4 (A-series)",
+      "power": "34–63 hp"
+     },
+     "years": "1969–2000"
+    }
+   ],
+   "intro": "Alec Issigonis's transverse-engine, front-drive rethink of the small car: ten feet long, room for four, and a layout the whole industry eventually copied. Sold as an Austin (Seven, then Mini) and a Morris, it won Monte Carlo rallies, carried the sixties, and stayed in production for 41 years.",
+   "name": "Mini",
+   "segment": "City car",
+   "slug": "mini",
+   "status": "Discontinued",
+   "trims": [
+    "850",
+    "Cooper",
+    "Cooper S",
+    "Clubman",
+    "1275 GT"
+   ],
+   "years": "1959–2000"
+  },
+  {
+   "bodyStyles": [
+    "Saloon",
+    "Estate"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Survival is the story — these rusted eagerly and few were saved. A sound Vanden Plas or MG is now genuinely scarce.",
+   "generations": [
+    {
+     "code": "ADO16",
+     "name": "1100 / 1300",
+     "note": "The 1100 made 48 hp; the twin-carburettor 1300 GT reached 70. Hydrolastic displacers are the running gear's known wear point.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "1,098 cc–1,275 cc inline-4 (A-series)",
+      "power": "48–70 hp"
+     },
+     "years": "1962–1974"
+    }
+   ],
+   "intro": "Britain's best-selling car of the sixties: Issigonis's larger car, with Hydrolastic suspension, front-wheel drive and Pininfarina-influenced lines. Badged as Austin, Morris, MG, Riley, Vanden Plas and Wolseley — the 1300 GT and the MG 1300 are the sporting faces of the range.",
+   "name": "1100 / 1300 (ADO16)",
+   "segment": "Compact car",
+   "slug": "1100",
+   "status": "Discontinued",
+   "trims": [
+    "1100",
+    "1300",
+    "1300 GT",
+    "MG 1300",
+    "Vanden Plas 1300"
+   ],
+   "years": "1962–1974"
+  },
+  {
+   "bodyStyles": [
+    "Hatchback"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "MG Turbo cars are the collectible tip and the rust-prone body's usual caveat applies twice over; the survival rate is low and falling.",
+   "generations": [
+    {
+     "code": "Metro",
+     "name": "Metro / MG Metro / Rover 100",
+     "note": "The MG Metro Turbo's Garrett-blown A-series made 93 hp, later Rover 114 GTi cars 103 hp from the 1.4 K-series. Hydragas suspension replaced the Mini's rubber cones.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "1.0L–1.4L inline-4 (A-series, then K-series)",
+      "power": "44–103 hp"
+     },
+     "years": "1980–1997"
+    }
+   ],
+   "intro": "The 'British car to beat the world', launched to replace the Mini and instead sold alongside it for seventeen years. The MG Metro and the turbocharged MG Metro Turbo carried the sporting brief; the late Rover-badged cars (from 1990, as the Rover 100) gained the K-series engine.",
+   "name": "Metro",
+   "segment": "Supermini",
+   "slug": "metro",
+   "status": "Discontinued",
+   "trims": [
+    "Metro",
+    "MG Metro",
+    "MG Metro Turbo",
+    "Rover 114 GTi"
+   ],
+   "years": "1980–1997"
+  }
+ ]
+}

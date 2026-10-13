@@ -1,0 +1,153 @@
+{
+ "make": "simca",
+ "models": [
+  {
+   "bodyStyles": [
+    "Saloon",
+    "Estate",
+    "Coupe",
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "French-market survivors dominate; the Facel-bodied coupés are the blue-chip Arondes and priced accordingly.",
+   "generations": [
+    {
+     "code": "Aronde 1",
+     "name": "Aronde (9 Aronde / Flash)",
+     "note": "The Flash engine replaced the Fiat-derived unit in 1956; sporting Grand Large and Plein Ciel/Océane coupés were bodied by Facel.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "1.1L–1.3L inline-4",
+      "power": "42–57 hp"
+     },
+     "years": "1951–1958"
+    },
+    {
+     "code": "Aronde 2",
+     "name": "Aronde P60",
+     "note": "The squared-off P60 restyle modernised the range; the Montlhéry and Étoile versions spanned taxi to near-sporting.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "1.3L inline-4 (Flash / Rush)",
+      "power": "52–70 hp"
+     },
+     "years": "1958–1964"
+    }
+   ],
+   "intro": "The swallow (hirondelle — hence the badge) that made Simca France's second carmaker: a modern monocoque saloon with the Flash engine, sold in everything from taxi trim to the elegant Facel-built coupés. Over 1.4 million were made.",
+   "name": "Aronde",
+   "segment": "Family car",
+   "slug": "aronde",
+   "status": "Discontinued",
+   "trims": [
+    "Aronde",
+    "Grand Large",
+    "Plein Ciel",
+    "Océane",
+    "P60"
+   ],
+   "years": "1951–1964"
+  },
+  {
+   "bodyStyles": [
+    "Saloon",
+    "Estate"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Flathead parts knowledge lives in the early-Ford world; French V8 survivors are few, Brazilian cars (with the later Hemi 'Emi-Sul') are a parallel universe.",
+   "generations": [
+    {
+     "code": "Vedette",
+     "name": "Vedette / Chambord / Présidence",
+     "note": "The Aquillon engine was Ford's French V8-60 development; the Présidence was the flag-trim flagship.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.4L V8 (Ford flathead)",
+      "power": "80–84 hp"
+     },
+     "years": "1954–1961"
+    }
+   ],
+   "intro": "Ford of France's V8, inherited whole when Simca bought the Poissy plant in 1954: a flathead 2.4-litre V8 in an American-styled saloon — Versailles, Trianon, Régence, then the Présidence and the Chambord. France's last V8-engined production car of its era, and the seed of Brazil's Simca do Brasil.",
+   "name": "Vedette",
+   "segment": "Luxury car",
+   "slug": "vedette",
+   "status": "Discontinued",
+   "trims": [
+    "Versailles",
+    "Trianon",
+    "Chambord",
+    "Présidence",
+    "Marly"
+   ],
+   "years": "1954–1961"
+  },
+  {
+   "bodyStyles": [
+    "Saloon"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Rallye 2/3 provenance is documented by the club registries — replicas exist. Rear-engined handling rewards respect and good dampers.",
+   "generations": [
+    {
+     "code": "1000",
+     "name": "1000 / Rallye 1–3",
+     "note": "Road cars ran 39–60 hp across the range; the Rallye 3's 1,294 cc engine made 103 hp and wore its arches and stripes from the factory.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "777 cc–1,294 cc inline-4",
+      "power": "39–103 hp"
+     },
+     "years": "1961–1978"
+    }
+   ],
+   "intro": "Simca's rear-engined answer to the Renault 4 and the Beetle era: a square-cut four-door with the Poissy engine behind the rear axle, built for seventeen years and rallied hard in its Rallye forms — the Rallye 2 and 3 are homologation-bred tarmac weapons with a cult following.",
+   "name": "1000",
+   "segment": "Compact car",
+   "slug": "1000",
+   "status": "Discontinued",
+   "trims": [
+    "1000",
+    "1000 LS",
+    "Rallye 1",
+    "Rallye 2",
+    "Rallye 3"
+   ],
+   "years": "1961–1978"
+  },
+  {
+   "bodyStyles": [
+    "Hatchback",
+    "Estate",
+    "Van"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Survival in France is better than export markets; the Ti is the collector car, the Rancho the cult one. Check the hatch aperture and sills for rust.",
+   "generations": [
+    {
+     "code": "1100",
+     "name": "1100 / Ti",
+     "note": "The Ti's twin-carburettor 1,294 cc engine made 82–83 hp and gave the hatchback genuine pace; the Rancho added the outdoor costume on the same bones.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "944 cc–1,442 cc inline-4 (Poissy)",
+      "power": "45–83 hp"
+     },
+     "years": "1967–1985"
+    }
+   ],
+   "intro": "One of the first true hatchbacks: transverse engine, front-wheel drive, a folding rear seat and a hatch, years before the Golf defined the class. The 1100 Ti and the Matra-Simca Rancho (the leisure off-roader it sired) show the range's reach; nearly 2.9 million were built.",
+   "name": "1100",
+   "segment": "Compact car",
+   "slug": "1100",
+   "status": "Discontinued",
+   "trims": [
+    "1100",
+    "1100 Ti",
+    "1100 Special",
+    "Rancho (Matra-Simca)"
+   ],
+   "years": "1967–1985"
+  }
+ ]
+}

@@ -5,9 +5,9 @@ and tens of thousands of models, so coverage ships in waves and this
 file is the honest ledger. If a car isn't listed here as seeded, it
 isn't in the atlas — no silent gaps dressed up as completeness.
 
-## Seeded (waves 1–5, 2026-10-12/13)
+## Seeded (waves 1–6, 2026-10-12/13)
 
-**49 makes, 216 models, 421 generations** (exact counts are printed
+**59 makes, 257 models, 469 generations** (exact counts are printed
 by `scripts/build.py` and shown in the homepage stats strip).
 
 Wave 1 makes: Toyota, Honda, Nissan, Mazda, Subaru, Hyundai, Ford,
@@ -34,10 +34,15 @@ Kaiser, Stutz, Triumph, Austin-Healey, Jensen, TVR (36 models,
 48 generations — the 810/812 and the Hornet, the TR line and the
 Big Healeys, the Interceptor and the Bearcat).
 
-Also seeded: 43 clubs/networks — national level for most marques,
+Also seeded: 46 clubs/networks — national level for most marques,
 with chapter-level entries (regional chapters with their own
-calendars) beginning in wave 2, and marque clubs for the wave-3 and
-wave-5 historic makes — plus 13 buying channels and 4 buying classes.
+calendars) beginning in wave 2, and marque clubs for the wave-3,
+wave-5 and wave-6 historic makes — plus 13 buying channels and 4 buying classes.
+
+Wave 6 makes (historic batch 3, all defunct): Austin, Borgward,
+De Tomaso, Facel Vega, Iso, NSU, Panhard, Simca, Talbot-Lago, Willys
+(41 models, 48 generations — the Mini and the Ro80, the teardrop
+Talbot and the wartime Jeep, the Pantera and the Isabella).
 
 Photography (wave 4): 49 real, CC-licensed photographs from Wikimedia
 Commons are wired to 40 model records and all 40 make records, each

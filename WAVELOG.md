@@ -1,5 +1,111 @@
 # WAVELOG — Car Atlas
 
+## Wave 6 — Historic marques batch 3 + rotation-15 capture (2026-10-13)
+
+**Headline (named before building):** the WAVELOG roadmap's
+largest named batch — historic batch 3, all ten marques — at the
+wave-3/5 scale. The living-makes list and generation depth remain
+on the roadmap below.
+
+- **Historic marques batch 3:** **49 → 59 makes, 216 → 257
+  models, 421 → 469 generations.** The ten defunct marques from
+  the COVERAGE list arrive with 41 models and 48 generations in
+  house format: Austin (Seven, A30/A35, Mini, 1100/1300, Metro),
+  Borgward (Hansa 1500, Isabella, Arabella, P100), De Tomaso
+  (Vallelunga, Mangusta, Pantera, Longchamp, Guarà), Facel Vega
+  (HK500, Excellence, Facellia, Facel II), Iso (Rivolta, Grifo,
+  Fidia, Lele), NSU (Prinz, 1000/TT, Spider, Ro80), Panhard
+  (Dyna X, Dyna Z, PL 17, 24), Simca (Aronde, Vedette, 1000,
+  1100), Talbot-Lago (T150C-SS, T26, America), Willys (MB, CJ,
+  Station Wagon/Pickup, Aero). Specs are the standard published
+  flagship figures, ranged where they vary by year, market or
+  engine fitted; nothing was fetched for specs and nothing was
+  invented. No photographs are wired for the new makes — the
+  Foundry library holds none for them, and a photo without
+  provenance does not ship; the pages render complete without
+  one, as the wave-5 pages did.
+- **Clubs:** **43 → 46 entries**: Austin Seven Clubs'
+  Association (`a7ca.org`), Borgward Drivers Club
+  (`borgward.org.uk`) and Pantera Owners Club of America
+  (`poca.com`). The first two domains were re-verified against
+  published sources this pass. The other seven batch-3 marques
+  take no new entry this wave: no further club domain was carried
+  to the registry's standard, and an unverified address does not
+  ship. (Willys practice routes through the Jeep-era clubs
+  already listed in spirit; a dedicated entry waits for a
+  verifiable house.)
+- **Price Watch: untouched this wave** — still the 11 certified
+  results of waves 4–5. No new result was certified, so none was
+  added and no skip needed recording beyond the file's existing
+  `skippedSources`. Stage 2 stays parked (below).
+- **Capture duty (rotation 15):** the progress-archive set for
+  this rotation is complete at
+  `~/workspace/progress-archive/car-atlas/rotation-015/` — 22
+  dated stills (hero, home, search, make, model, Buy, Clubs;
+  desktop + mobile) plus a homepage search-interaction clip.
+  Ticket sweep note: the ticket book was verified empty for Car
+  Atlas at this rotation's start (QA-003 and QA-004 both stand
+  closed in the fleet index — QA-003 was close-verified at
+  round 4 against the rotation-001/012 sets); this set covers
+  every baseline page type QA-003 named, in both viewports, so
+  no remainder is outstanding under any reading of the ticket.
+- **Honesty maintenance on touch:** `llms.txt` counts updated to
+  the wave-6 record (59 / 257 / 469 / 46, including the stale
+  clubs line in the Data section) and the Commons checker
+  re-run: **PASS — 0 errors, 0 warnings** (17/17 targets exist).
+  `COVERAGE.md` updated to the new counts, batch 3 moved from
+  roadmap to seeded.
+- **Commons adoption note:** honest-fallback (VP-0003) and the
+  view-transitions quiet form are untouched this wave; both
+  canonical files re-verified byte-identical to Fleet Commons,
+  and the VT block re-checked in place (opacity only, 0.22 s
+  out / 0.32 s in, inside the no-preference guard, cross-document
+  only — no `startViewTransition` anywhere in the site JS).
+- **Rule 1762 (line endings):** `.gitattributes` pin and binary
+  carve-outs untouched; all binary blobs re-verified
+  byte-identical (sizes + hashes) after staging, as routine.
+- **Regression: 17/17 checks pass, zero page errors** — build
+  (schema + counts) and idempotent re-bake; FB markers intact;
+  `fetch_deadline.js` on all five content pages; static `<h1>`
+  census clean (make/model render theirs from data — rendered
+  census below); llms checker PASS 0/0; VT quiet-form in place;
+  photo wiring unchanged (40 models / 40 makes, attribution rows
+  intact, old records byte-identical to HEAD). API smoke across
+  all 5 functions passes (health reports 59 / 257 / 469 / 46;
+  Ro80 model record serves; Pantera search hits; honest 404
+  intact). VP-0003 spot checks (headless Chromium, local server):
+  one cold load of the 911 rendered the full live record (Where
+  to buy, one `<h1>`, zero page errors); one hang-injected load
+  (make-file fetch never answering) painted the baked snapshot
+  inside 1.5 s and settled in the honest terminal state —
+  snapshot + "didn't finish loading" + Retry — at 12.5 s, inside
+  the deadline/watchdog band. New-content spot checks: Pantera,
+  Ro80, Mini model pages and the Talbot-Lago make page all render
+  live with exactly one `<h1>`; homepage stats read
+  59 / 257 / 469 / 46; the Buy page still renders the Price
+  Watch results. Screenshot harness extended (Austin make, Mini,
+  Pantera, Ro80, Grifo, Willys desktop; Isabella mobile) — the
+  only console noise is the known sandbox Google-Fonts tunnel
+  artifact.
+- **Parked decisions (unchanged):** (1) a dedicated Ferrari
+  250 GTO model record — the photo and two auction results sit
+  at make level until the owner calls it; (2) Price Watch
+  stage 2 (listings ingest + a cron) — needs a deploy target
+  and its own free-tier audit before it is built; (3) a
+  sitemap — only meaningful with a domain; lands with GO_LIVE
+  step 5.
+
+### Next waves (planned)
+
+- Living-makes breadth from the COVERAGE list (Bentley, Bugatti,
+  Genesis, MINI, Mitsubishi, Rivian, Rolls-Royce, and the rest).
+- Generation depth for the wave-2/3 models (the wave-4 icon
+  treatment, extended).
+- Remaining historic marques from the COVERAGE list (Marlin, MG
+  pre-SAIC lineage, Morgan, Opel, Saturn, Vauxhall).
+- Price Watch stage 2 design (listings ingest) — build only
+  alongside a deploy decision.
+
 ## Wave 5 — Historic marques batch 2, Price Watch +4, view transitions adopted quiet (2026-10-13)
 
 The wave-4 frontier's named next tier, at the wave-3/4 standard:

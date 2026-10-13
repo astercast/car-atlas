@@ -1,0 +1,138 @@
+{
+ "make": "iso",
+ "models": [
+  {
+   "bodyStyles": [
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Chevrolet running gear keeps them usable; the Bertone body's rust traps are the cost centre. Isetta-era Rivolta paperwork occasionally surfaces with cars.",
+   "generations": [
+    {
+     "code": "Rivolta",
+     "name": "Rivolta IR 300 / IR 340",
+     "note": "The numbers are in the names: 300 hp standard, 340 for the IR 340. Four-speed manual or automatic.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.4L V8 (Chevrolet)",
+      "power": "300–340 hp"
+     },
+     "years": "1962–1970"
+    }
+   ],
+   "intro": "Renzo Rivolta's move from Isetta bubble cars to a Corvette-engined GT: Bertone styling (by the young Giugiaro), a pressed-steel monocoque, De Dion rear suspension and Chevrolet's 327. The IR 340 raised the tune; about 800 Rivoltas were built.",
+   "name": "Rivolta IR 300",
+   "segment": "Grand tourer",
+   "slug": "rivolta",
+   "status": "Discontinued",
+   "trims": [
+    "IR 300",
+    "IR 340"
+   ],
+   "years": "1962–1970"
+  },
+  {
+   "bodyStyles": [
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Bizzarrini's departure makes early A3/L documentation prized; big-block cars trade in a different league from small-blocks.",
+   "generations": [
+    {
+     "code": "Grifo 1",
+     "name": "Grifo Series I (A3/L)",
+     "note": "Small-block cars began at 300 hp; the 7 Litri's 427 was quoted at 400. Bizzarrini's competition A3/C was the same car in racing dress.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.4L–7.0L V8 (Chevrolet)",
+      "power": "300–400 hp"
+     },
+     "years": "1965–1970"
+    },
+    {
+     "code": "Grifo 2",
+     "name": "Grifo Series II",
+     "note": "The Series II hid its headlamps and mostly took Ford's 351 Cleveland after Chevrolet supply tightened; the last cars are the rarest.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.8L V8 (Ford), 5.7L–7.4L (Chevrolet)",
+      "power": "300–395 hp"
+     },
+     "years": "1970–1974"
+    }
+   ],
+   "intro": "The Rivolta formula turned up to supercar: Giotto Bizzarrini's chassis engineering, Bertone's most muscular coupé shape, and a ladder of Chevrolet and Ford V8s ending in the 7-litre big-block cars. The Grifo 7 Litri is Italy's answer to the Cobra question.",
+   "name": "Grifo",
+   "segment": "Grand tourer",
+   "slug": "grifo",
+   "status": "Discontinued",
+   "trims": [
+    "Grifo",
+    "Grifo 7 Litri",
+    "Grifo Series II",
+    "Grifo Can Am"
+   ],
+   "years": "1965–1974"
+  },
+  {
+   "bodyStyles": [
+    "Saloon"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Rarity is extreme and saloon values lag the coupés — the connoisseur's Iso, bought on body condition above all.",
+   "generations": [
+    {
+     "code": "Fidia",
+     "name": "Fidia (S4)",
+     "note": "Engines followed Iso's supply lines from Chevrolet to Ford; most cars were automatic.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.4L V8 (Chevrolet), later 5.8L (Ford)",
+      "power": "300–330 hp"
+     },
+     "years": "1967–1975"
+    }
+   ],
+   "intro": "The four-door Iso — 'the fastest four seats in the world' in the advertising, and with a Corvette V8 up front the claim had substance. Ghia built the bodies; John Lennon bought one of the first. Fewer than 200 were made, first as the S4, then simply Fidia.",
+   "name": "Fidia",
+   "segment": "Luxury car",
+   "slug": "fidia",
+   "status": "Discontinued",
+   "trims": [
+    "Fidia S4",
+    "Fidia"
+   ],
+   "years": "1967–1975"
+  },
+  {
+   "bodyStyles": [
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "The Gandini lines have aged into fashion; check the Ford-era cars for their (better) parts support through the Mustang world.",
+   "generations": [
+    {
+     "code": "Lele",
+     "name": "Lele / Lele Sport",
+     "note": "The Sport of 1973 was a lightened, uprated special; standard cars favoured the automatic gearbox.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.4L V8 (Chevrolet), then 5.8L (Ford)",
+      "power": "300–330 hp"
+     },
+     "years": "1969–1979"
+    }
+   ],
+   "intro": "Iso's seventies GT, named for Renzo Rivolta's wife: a Marcello Gandini-penned 2+2 that began with Chevrolet power, moved to Ford's Cleveland, and carried the marque through its final decade. About 285 were built, including the Marlboro-sponsored Lele Sport specials.",
+   "name": "Lele",
+   "segment": "Grand tourer",
+   "slug": "lele",
+   "status": "Discontinued",
+   "trims": [
+    "Lele",
+    "Lele Sport"
+   ],
+   "years": "1969–1979"
+  }
+ ]
+}

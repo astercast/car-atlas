@@ -1,0 +1,125 @@
+{
+ "make": "facel-vega",
+ "models": [
+  {
+   "bodyStyles": [
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Chrysler mechanicals make the engine the easy part; trim, brightwork and that dashboard are the restoration's real budget.",
+   "generations": [
+    {
+     "code": "HK500",
+     "name": "HK500",
+     "note": "Early cars used the 5.9-litre Chrysler at 335 hp before the 6.3 arrived; the manual gearbox was a Pont-à-Mousson four-speed, most cars took Chrysler's TorqueFlite automatic.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "6.3L V8 (Chrysler)",
+      "power": "360 hp"
+     },
+     "years": "1958–1961"
+    }
+   ],
+   "intro": "France's last great luxury GT at full strength: Jean Daninos's Facel Vega with a 6.3-litre Chrysler V8, a tubular chassis, and an interior finished like a Parisian salon — including the famous painted faux-wood dashboard, done by hand. Stirling Moss drove his across Europe between races.",
+   "name": "HK500",
+   "segment": "Grand tourer",
+   "slug": "hk500",
+   "status": "Discontinued",
+   "trims": [
+    "HK500"
+   ],
+   "years": "1958–1961"
+  },
+  {
+   "bodyStyles": [
+    "Saloon"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Fewer than half are thought to survive; completeness of the interior fittings decides a car's fate more than its body.",
+   "generations": [
+    {
+     "code": "Excellence",
+     "name": "Excellence EX1 / EX2",
+     "note": "The EX2 of 1961 restyled the fins away and adopted the HK500/Facel II running gear.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.9L–6.7L V8 (Chrysler)",
+      "power": "360–390 hp"
+     },
+     "years": "1958–1964"
+    }
+   ],
+   "intro": "A pillarless four-door hardtop on the grand scale — suicide rear doors, a Chrysler V8, and a price that bought several Citroën DSs. About 230 were built for kings, ambassadors and Ava Gardner; it remains the only French post-war car built to true American-limousine scale.",
+   "name": "Excellence",
+   "segment": "Luxury car",
+   "slug": "excellence",
+   "status": "Discontinued",
+   "trims": [
+    "Excellence EX1",
+    "Excellence EX2"
+   ],
+   "years": "1958–1964"
+  },
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "A rebuilt Marchisio engine by a known specialist transforms the ownership story; the Facel III is the pragmatic classic of the three.",
+   "generations": [
+    {
+     "code": "Facellia",
+     "name": "Facellia / Facel III / Facel 6",
+     "note": "The Facel III substituted Volvo's rugged 1.8-litre four (108 hp) and sold better than the original; about 1,900 Facellias were built against plan for many more.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "1.6L twin-cam inline-4",
+      "power": "115 hp"
+     },
+     "years": "1960–1963"
+    }
+   ],
+   "intro": "The little Facel, built to sell in volume with a twin-cam four designed by Carlo Marchisio — a jewel of an engine that proved fatally fragile in service and sank the company under warranty claims. Its successors (Facel III, with a Volvo engine, and the six-cylinder Facel 6) were the rescue attempt.",
+   "name": "Facellia",
+   "segment": "Sports car",
+   "slug": "facellia",
+   "status": "Discontinued",
+   "trims": [
+    "Facellia",
+    "Facel III",
+    "Facel 6"
+   ],
+   "years": "1960–1963"
+  },
+  {
+   "bodyStyles": [
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "The market treats the Facel II as France's blue-chip GT; documentation from the Amicale Facel Vega's archives is the provenance standard.",
+   "generations": [
+    {
+     "code": "Facel II",
+     "name": "Facel II",
+     "note": "The 6.7-litre cars with the manual gearbox are the quickest Facels; quoted figures vary between gross ratings by year.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "6.3L–6.7L V8 (Chrysler)",
+      "power": "355–390 hp"
+     },
+     "years": "1962–1964"
+    }
+   ],
+   "intro": "Daninos called it the finest Facel of all, and the styling backs him: the HK500's successor cleaned the lines, stacked the headlamps, and kept the Chrysler power and the hand-finished cabin. Only 184 were built before Facel closed in October 1964.",
+   "name": "Facel II",
+   "segment": "Grand tourer",
+   "slug": "facel-ii",
+   "status": "Discontinued",
+   "trims": [
+    "Facel II"
+   ],
+   "years": "1962–1964"
+  }
+ ]
+}

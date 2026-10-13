@@ -1,0 +1,133 @@
+{
+ "make": "borgward",
+ "models": [
+  {
+   "bodyStyles": [
+    "Saloon",
+    "Estate",
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Survivors are few and the German club scene holds most of the knowledge; completeness matters more than cosmetics.",
+   "generations": [
+    {
+     "code": "Hansa",
+     "name": "Hansa 1500 / 1800",
+     "note": "The 1500 made 48 hp; the 1800 (from 1952) reached 60, and the 1800 Diesel was among the first German diesel cars of the post-war era.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "1.5L–1.8L inline-4",
+      "power": "48–66 hp"
+     },
+     "years": "1949–1954"
+    }
+   ],
+   "intro": "The first new German car design after the war: a ponton-bodied saloon from Carl Borgward's Bremen works, shown at Geneva in 1949 when most rivals were still selling pre-war shapes. The Hansa name came from Borgward's pre-war marque.",
+   "name": "Hansa 1500 / 1800",
+   "segment": "Family car",
+   "slug": "hansa-1500",
+   "status": "Discontinued",
+   "trims": [
+    "Hansa 1500",
+    "Hansa 1800",
+    "Hansa 1800 Diesel"
+   ],
+   "years": "1949–1954"
+  },
+  {
+   "bodyStyles": [
+    "Saloon",
+    "Coupe",
+    "Convertible",
+    "Estate"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "The Borgward collapse orphaned the cars overnight; the owners' club remanufacture schemes keep them viable. Coupés carry the premium.",
+   "generations": [
+    {
+     "code": "Isabella",
+     "name": "Isabella / Isabella TS",
+     "note": "Standard cars made 60 hp; the twin-carburettor TS reached 75. Over 200,000 Isabellas were built before the group's sudden 1961 collapse ended everything.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "1.5L inline-4",
+      "power": "60–75 hp"
+     },
+     "years": "1954–1962"
+    }
+   ],
+   "intro": "Borgward's masterpiece and its best-seller: a clean-lined monocoque saloon named, the story goes, because Carl Borgward told his staff to write 'Isabella' on the test reports so rivals would not know what was coming. The coupé is one of the prettiest German cars of the fifties.",
+   "name": "Isabella",
+   "segment": "Family car",
+   "slug": "isabella",
+   "status": "Discontinued",
+   "trims": [
+    "Isabella",
+    "Isabella TS",
+    "Isabella Coupé",
+    "Isabella Cabriolet",
+    "Combi"
+   ],
+   "years": "1954–1962"
+  },
+  {
+   "bodyStyles": [
+    "Saloon"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Rarity is total — most were worked to death as cheap cars. Any complete Arabella is a preservation candidate first and a project second.",
+   "generations": [
+    {
+     "code": "Arabella",
+     "name": "Arabella / Arabella de Luxe",
+     "note": "The flat-four was designed with lessons from Borgward's racing programme; de Luxe cars added trim rather than power.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "1.5L flat-4",
+      "power": "55–60 hp"
+     },
+     "years": "1959–1961"
+    }
+   ],
+   "intro": "The small Borgward, built to take the group downmarket against the Beetle and the Kadett — a water-cooled flat-four (a rarity then and now) in a neat two-door saloon. It arrived just as the money ran out, and barely 47,000 were built.",
+   "name": "Arabella",
+   "segment": "Compact car",
+   "slug": "arabella",
+   "status": "Discontinued",
+   "trims": [
+    "Arabella",
+    "Arabella de Luxe"
+   ],
+   "years": "1959–1961"
+  },
+  {
+   "bodyStyles": [
+    "Saloon"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Air-suspension components are the ownership crux — club knowledge and NOS stock decide whether a car is a driver or a statue.",
+   "generations": [
+    {
+     "code": "P100",
+     "name": "P100 (2.3 Liter)",
+     "note": "The six was developed from the Hansa 2400's unit; air suspension was standard, a first for a German production car.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.2L inline-6",
+      "power": "100 hp"
+     },
+     "years": "1959–1961"
+    }
+   ],
+   "intro": "Borgward's flagship and Germany's first production car with air suspension: a 2.3-litre six in a formal ponton body, aimed squarely at Mercedes. Fewer than 2,600 were built before the 1961 collapse, making it the rarest route into the marque's top drawer.",
+   "name": "P100",
+   "segment": "Luxury car",
+   "slug": "p100",
+   "status": "Discontinued",
+   "trims": [
+    "P100"
+   ],
+   "years": "1959–1961"
+  }
+ ]
+}

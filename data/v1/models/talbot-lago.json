@@ -1,0 +1,110 @@
+{
+ "make": "talbot-lago",
+ "models": [
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Roadster"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "This is the blue-chip summit of the French classics — provenance is researched chassis by chassis, and the atlas records the type, not individual cars.",
+   "generations": [
+    {
+     "code": "T150",
+     "name": "T150C / T150C-SS",
+     "note": "The SS (surprofilé) cars were the short-chassis sporting specials; racing T150Cs won the 1937 French Grand Prix's sports-car honours and placed at Le Mans.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "4.0L inline-6",
+      "power": "140 hp"
+     },
+     "years": "1936–1939"
+    }
+   ],
+   "intro": "Anthony Lago's Talbot at its zenith: the T150C chassis with Wilson pre-selector gearbox and a 4.0-litre six, clothed by Figoni & Falaschi in the famous 'goutte d'eau' teardrop coupés — the most valuable French cars of the thirties, and regular concours Best-of-Show winners today.",
+   "name": "T150C-SS",
+   "segment": "Sports car",
+   "slug": "t150",
+   "status": "Discontinued",
+   "trims": [
+    "T150C",
+    "T150C-SS",
+    "Teardrop Coupé"
+   ],
+   "years": "1936–1939"
+  },
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Saloon",
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Coachbuilt GS cars are individual works — value follows the body and its history. The Rosier Le Mans connection anchors the model's standing.",
+   "generations": [
+    {
+     "code": "T26 Record",
+     "name": "T26 Record",
+     "note": "The Record's six was developed from the pre-war Grand Prix engine; saloon, coupé and cabriolet bodies were offered.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "4.5L inline-6",
+      "power": "170 hp"
+     },
+     "years": "1946–1953"
+    },
+    {
+     "code": "T26 GS",
+     "name": "T26 Grand Sport",
+     "note": "The GS shortened the chassis and raised the tune; Louis Rosier's 1950 Le Mans win was in a near-standard GS with a coupé body.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "4.5L inline-6",
+      "power": "190–200 hp"
+     },
+     "years": "1947–1953"
+    }
+   ],
+   "intro": "Post-war Talbot-Lago: the 4.5-litre twin-cam six in the Record saloon and the short-chassis Grand Sport, one of the fastest road cars of its day and a Le Mans winner in 1950 (a T26 GS, father and son Rosier driving). Grand Sport chassis went to the great coachbuilders — Saoutchik, Figoni, Franay.",
+   "name": "T26 Record / Grand Sport",
+   "segment": "Grand tourer",
+   "slug": "t26",
+   "status": "Discontinued",
+   "trims": [
+    "Record",
+    "Grand Sport"
+   ],
+   "years": "1946–1953"
+  },
+  {
+   "bodyStyles": [
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "A footnote car with a fascinating spec sheet — buy on completeness, as trim and glass are effectively unobtainable off the shelf.",
+   "generations": [
+    {
+     "code": "America",
+     "name": "T14 LS / America",
+     "note": "The BMW V8 cars made about 95 hp and are the majority of survivors; the four-cylinder cars are the purist's rarity.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.5L inline-4, then 2.6L V8 (BMW)",
+      "power": "95 hp"
+     },
+     "years": "1955–1959"
+    }
+   ],
+   "intro": "The last Talbot-Lago: a small coupé that began with Talbot's own 2.5-litre four and ended, as money ran out, with BMW's 2.6-litre V8 and the America name. About 120 were built; Simca bought the company in 1959 and the marque slept until the name resurfaced under Peugeot in 1979.",
+   "name": "T14 America",
+   "segment": "Sports car",
+   "slug": "america",
+   "status": "Discontinued",
+   "trims": [
+    "T14 LS",
+    "America V8"
+   ],
+   "years": "1955–1959"
+  }
+ ]
+}
