@@ -316,8 +316,10 @@ async function initModel() {
       </div>
       ${(() => {
         const hits = (priceWatch?.results || []).filter((r) => r.make === mk && r.modelSlug === md);
+        /* T-CARS-4: repeat-sale linking by shared chassis key. */
+        const repeatsOf = (r) => r.chassis ? (priceWatch?.results || []).filter((x) => x !== r && x.chassis === r.chassis) : [];
         return hits.length ? `<div class="note-box"><b>Price Watch — auction results</b>
-          ${hits.map((r) => `<p>${esc(r.year)} ${esc(r.model)} — sold for <b>${esc(money(r))}</b> at ${esc(r.event)}, ${esc(r.saleDate)}. <a href="${esc(r.source.url)}" target="_blank" rel="noopener">Source: ${esc(r.source.name)} ↗</a></p>`).join("")}
+          ${hits.map((r) => `<p>${esc(r.year)} ${esc(r.model)} — sold for <b>${esc(money(r))}</b> at ${esc(r.event)}, ${esc(r.saleDate)}.${r.chassis ? ` Chassis ${esc(r.chassis)}.` : ""}${r.condition ? ` Condition (per source): ${esc(r.condition)}.` : ""}${r.mileage ? ` Mileage (per source): ${esc(r.mileage)}.` : ""}${repeatsOf(r).map((x) => ` Same chassis also sold ${esc(x.saleDate)} for ${esc(money(x))} at ${esc(x.event)}.`).join("")} <a href="${esc(r.source.url)}" target="_blank" rel="noopener">Source: ${esc(r.source.name)} ↗</a></p>`).join("")}
           <p class="small">A result is one specific car on one day — not a valuation of any other example. The full results set is on the <a href="buy.html">Buy page</a>.</p></div>`
         : `<div class="note-box"><b>Price Watch</b><p>Price Watch tracks certified auction results (on the <a href="buy.html">Buy page</a>); no certified result for this model yet, so none is shown. Listing aggregation and price-drop alerts remain later stages.</p></div>`;
       })()}
@@ -387,11 +389,20 @@ async function initBuy() {
       .sort((a, b) => b.saleDate.localeCompare(a.saleDate))
       .map((r) => {
         const href = r.modelSlug ? modelUrl(r.make, r.modelSlug) : makeUrl(r.make);
+        /* T-CARS-4: repeat-sale linking — records sharing a chassis
+           key name each other on the tile. T-CARS-2: condition and
+           mileage render only where a source stated them. */
+        const repeats = r.chassis ? pw.results.filter((x) => x !== r && x.chassis === r.chassis) : [];
+        const facts = [r.chassis ? `Chassis ${r.chassis}` : null,
+          r.condition ? `Condition (per source): ${r.condition}` : null,
+          r.mileage ? `Mileage (per source): ${r.mileage}` : null].filter(Boolean).join(" · ");
         return `
       <article class="tile">
         <div class="t-top"><h3>${esc(r.year)} ${esc(r.makeName)} ${esc(r.model)}</h3></div>
         <p class="pw-price">${esc(money(r))}</p>
         <p>${esc(r.event)} · ${esc(r.saleDate)}<br><span class="small mut">${esc(r.priceBasis)}</span></p>
+        ${facts ? `<p class="small">${esc(facts)}</p>` : ""}
+        ${repeats.map((x) => `<p class="small">Same chassis also sold ${esc(x.saleDate)} for ${esc(money(x))} at ${esc(x.event)}.</p>`).join("")}
         <div class="t-foot"><a href="${href}">Atlas record →</a> · <a href="${esc(r.source.url)}" target="_blank" rel="noopener">Source ↗</a></div>
       </article>`;
       }).join("");

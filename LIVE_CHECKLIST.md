@@ -152,3 +152,10 @@ a conversation.
 - `GO_LIVE.md` now carries the deploy rulebook (QA-004), including
   the deploy-time absolutizing checklist for the relative
   `og:image` / canonical / JSON-LD URLs shipped this wave.
+- **Wave-10 addendum (2026-10-13):** Price Watch stage 5 extended the
+  same static file to 46 certified results (wave 10 added 9), gave
+  every record a chassis key (34/46 populated) plus condition (4/46)
+  and mileage (1/46) fields populated only where a source states
+  them, and linked seven earlier records to existing model pages
+  (linked 7 → 21 of 46; orphans 30/37 → 25/46). Still no function,
+  no cron, no external call — the audit above is unchanged.

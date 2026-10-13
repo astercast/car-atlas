@@ -20,11 +20,12 @@ because the dataset changes in waves, not minutes.
 | `GET /api/search` | `q` | ranked make/model matches (server twin of the client instant search) |
 | `GET /api/clubs` | `region`, `marque` (optional) | filtered club registry |
 
-## Price Watch (stages 1–4 shipped — still not an endpoint)
+## Price Watch (stages 1–5 shipped — still not an endpoint)
 
 The results file is real and deliberately static: `data/v1/price-watch.json`
-holds 37 certified auction results (car, price, currency, basis,
-house/event, sale date, linked published source), rendered on the
+holds 46 certified auction results (car, price, currency, basis,
+house/event, sale date, linked published source, plus a chassis
+key and source-stated condition/mileage where a source gives them), rendered on the
 Buy page and on the matching model pages. No function serves it —
 the static file is the ingest. The listing stages remain design:
 

@@ -1,11 +1,14 @@
 {
- "note": "Price Watch tracks completed auction results, not live listings. Every record below was certified at ingest against a published source naming the car, the price, the house, and the date; the source is linked on each record. Wave 4 certified 7 results (2026-10-13); wave 5 added 4 more to the same standard; wave 7 (stage 2) added 8 more; wave 8 (stage 3) added 9 more; wave 9 (stage 4) added 9 more — 37 certified results in all. Stage 4 extends the certified-results set only: the listings ingest described in earlier roadmaps is not built, and no listing, estimate or unsold lot appears here. Prices are historical facts about one specific car on one specific day — not asking prices, not estimates, and not a valuation of any other example. Results that could not be certified to that standard were skipped, not estimated (see skippedSources).",
+ "note": "Price Watch tracks completed auction results, not live listings. Every record below was certified at ingest against a published source naming the car, the price, the house, and the date; the source is linked on each record. Wave 4 certified 7 results (2026-10-13); wave 5 added 4 more to the same standard; wave 7 (stage 2) added 8 more; wave 8 (stage 3) added 9 more; wave 9 (stage 4) added 9 more; wave 10 (stage 5) added 9 more — 46 certified results in all. Stage 5 also gave every record a chassis key (populated where the source names the chassis, null otherwise), condition and mileage fields (populated only where a source states them, null otherwise — never inferred), and linked seven earlier records to model pages the atlas already carried. Stage 5 extends the certified-results set only: the listings ingest described in earlier roadmaps is not built, and no listing, estimate or unsold lot appears here. Prices are historical facts about one specific car on one specific day — not asking prices, not estimates, and not a valuation of any other example. Results that could not be certified to that standard were skipped, not estimated (see skippedSources).",
  "results": [
   {
+   "chassis": "00009/54",
+   "condition": null,
    "currency": "EUR",
    "event": "RM Sotheby's — Mercedes-Benz Museum, Stuttgart (single-car sale)",
    "make": "mercedes-benz",
    "makeName": "Mercedes-Benz",
+   "mileage": null,
    "model": "W 196 R Stromlinienwagen (chassis 00009/54)",
    "modelSlug": null,
    "price": 51155000,
@@ -19,10 +22,13 @@
    "year": 1954
   },
   {
+   "chassis": "3765",
+   "condition": null,
    "currency": "USD",
    "event": "RM Sotheby's New York",
    "make": "ferrari",
    "makeName": "Ferrari",
+   "mileage": null,
    "model": "330 LM / 250 GTO (chassis 3765)",
    "modelSlug": null,
    "price": 51705000,
@@ -36,10 +42,153 @@
    "year": 1962
   },
   {
+   "chassis": "0854",
+   "condition": "Restored (nine-year restoration)",
+   "currency": "USD",
+   "event": "Bonhams — The Quail Auction, Carmel",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "mileage": null,
+   "model": "412P Berlinetta (chassis 0854)",
+   "modelSlug": null,
+   "price": 30255000,
+   "priceBasis": "Including buyer's premium (hammer $27,500,000)",
+   "saleDate": "2023-08-18",
+   "source": {
+    "name": "Bonhams — The Quail Auction 2023 results (house results page, sale 18 Aug 2023)",
+    "url": "https://cars.bonhams.com/auction/28011/the-quail-auction/"
+   },
+   "status": "sold",
+   "year": 1967
+  },
+  {
+   "chassis": "110117",
+   "condition": "Largely unrestored",
+   "currency": "USD",
+   "event": "Bonhams — The Quail Auction, Carmel",
+   "make": "talbot-lago",
+   "makeName": "Talbot-Lago",
+   "mileage": null,
+   "model": "T26 Grand Sport Cabriolet (chassis 110117)",
+   "modelSlug": "t26",
+   "price": 2040000,
+   "priceBasis": "Including buyer's premium",
+   "saleDate": "2023-08-18",
+   "source": {
+    "name": "Bonhams — The Quail Auction 2023 results (house results page, sale 18 Aug 2023)",
+    "url": "https://cars.bonhams.com/auction/28011/the-quail-auction/"
+   },
+   "status": "sold",
+   "year": 1949
+  },
+  {
+   "chassis": "2841",
+   "condition": null,
+   "currency": "USD",
+   "event": "Bonhams — The Quail Auction, Carmel",
+   "make": "duesenberg",
+   "makeName": "Duesenberg",
+   "mileage": null,
+   "model": "Model J 'Sweep Panel' Dual-Cowl Phaeton (chassis 2841)",
+   "modelSlug": "model-j",
+   "price": 1127000,
+   "priceBasis": "Including buyer's premium",
+   "saleDate": "2023-08-18",
+   "source": {
+    "name": "Bonhams — The Quail Auction 2023 results (house results page, sale 18 Aug 2023)",
+    "url": "https://cars.bonhams.com/auction/28011/the-quail-auction/"
+   },
+   "status": "sold",
+   "year": 1932
+  },
+  {
+   "chassis": null,
+   "condition": null,
+   "currency": "EUR",
+   "event": "RM Sotheby's Paris",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "mileage": null,
+   "model": "Enzo",
+   "modelSlug": "enzo",
+   "price": 4055000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2023-02-01",
+   "source": {
+    "name": "Classic Car Auctions — RM Sotheby's Paris 2023 results (sale 1 Feb 2023)",
+    "url": "https://www.classic-car-auctions.info/european/2023-rm-sothebys-paris-sale-auction-results/"
+   },
+   "status": "sold",
+   "year": 2003
+  },
+  {
+   "chassis": "ZFFGJ34B000085308",
+   "condition": "Original & Highly Original",
+   "currency": "EUR",
+   "event": "RM Sotheby's Paris",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "mileage": "9k km (5k mi)",
+   "model": "F40",
+   "modelSlug": "f40",
+   "price": 1917500,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2023-02-01",
+   "source": {
+    "name": "CLASSIC.COM record of the RM Sotheby's Paris 2023 result (lot 168)",
+    "url": "https://www.classic.com/a/rm-sothebys-paris-2023-PWxA9yp/lots/1990-ferrari-f40-4A8ONvp/?page=3"
+   },
+   "status": "sold",
+   "year": 1990
+  },
+  {
+   "chassis": null,
+   "condition": null,
+   "currency": "EUR",
+   "event": "RM Sotheby's Paris",
+   "make": "lamborghini",
+   "makeName": "Lamborghini",
+   "mileage": null,
+   "model": "Miura P400 S",
+   "modelSlug": "miura",
+   "price": 1580000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2023-02-01",
+   "source": {
+    "name": "Classic Car Auctions — RM Sotheby's Paris 2023 results (sale 1 Feb 2023)",
+    "url": "https://www.classic-car-auctions.info/european/2023-rm-sothebys-paris-sale-auction-results/"
+   },
+   "status": "sold",
+   "year": 1969
+  },
+  {
+   "chassis": null,
+   "condition": null,
+   "currency": "EUR",
+   "event": "RM Sotheby's Paris",
+   "make": "mclaren",
+   "makeName": "McLaren",
+   "mileage": null,
+   "model": "P1",
+   "modelSlug": "p1",
+   "price": 1073750,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2023-02-01",
+   "source": {
+    "name": "Classic Car Auctions — RM Sotheby's Paris 2023 results (sale 1 Feb 2023)",
+    "url": "https://www.classic-car-auctions.info/european/2023-rm-sothebys-paris-sale-auction-results/"
+   },
+   "status": "sold",
+   "year": 2015
+  },
+  {
+   "chassis": null,
+   "condition": null,
    "currency": "USD",
    "event": "Mecum Kissimmee 2023",
    "make": "chevrolet",
    "makeName": "Chevrolet",
+   "mileage": null,
    "model": "Corvette Split Window A/C Coupe (C2, lot F110.1)",
    "modelSlug": "corvette",
    "price": 434500,
@@ -53,10 +202,13 @@
    "year": 1963
   },
   {
+   "chassis": null,
+   "condition": null,
    "currency": "USD",
    "event": "Bring a Trailer",
    "make": "toyota",
    "makeName": "Toyota",
+   "mileage": null,
    "model": "Land Cruiser FJ40 (lot 94386)",
    "modelSlug": "land-cruiser",
    "price": 26750,
@@ -70,10 +222,13 @@
    "year": 1980
   },
   {
+   "chassis": null,
+   "condition": null,
    "currency": "USD",
    "event": "RM Sotheby's Monterey",
    "make": "porsche",
    "makeName": "Porsche",
+   "mileage": null,
    "model": "911 Sally Special (992, one-off)",
    "modelSlug": "911",
    "price": 3600000,
@@ -87,10 +242,33 @@
    "year": 2022
   },
   {
+   "chassis": "0598 CM",
+   "condition": null,
+   "currency": "USD",
+   "event": "RM Sotheby's Monterey",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "mileage": null,
+   "model": "410 Sport Spider (chassis 0598 CM)",
+   "modelSlug": null,
+   "price": 22005000,
+   "priceBasis": "As reported from the sale (Saturday-night session, 20 Aug 2022)",
+   "saleDate": "2022-08-20",
+   "source": {
+    "name": "RM Sotheby's press release — Monterey 2022 sale report (23 Aug 2022; Saturday-night session)",
+    "url": "https://rmsothebys.com/media-center/press-releases/2392-million-in-sales-best-of-show-at-pebble-beach-and-sally-becomes-the-most-expensive-new-porsche-ever-sold-rm-sotheby-s-dominates-monterey-2022/"
+   },
+   "status": "sold",
+   "year": 1955
+  },
+  {
+   "chassis": null,
+   "condition": null,
    "currency": "USD",
    "event": "Bring a Trailer",
    "make": "ford",
    "makeName": "Ford",
+   "mileage": null,
    "model": "Shelby Mustang GT500 Fastback 4-Speed (lot 80632)",
    "modelSlug": "mustang",
    "price": 295000,
@@ -104,10 +282,13 @@
    "year": 1967
   },
   {
+   "chassis": null,
+   "condition": null,
    "currency": "EUR",
    "event": "RM Sotheby's — Mercedes-Benz Museum, Stuttgart",
    "make": "mercedes-benz",
    "makeName": "Mercedes-Benz",
+   "mileage": null,
    "model": "300 SLR Uhlenhaut Coupé",
    "modelSlug": null,
    "price": 135000000,
@@ -121,12 +302,15 @@
    "year": 1955
   },
   {
+   "chassis": "90107",
+   "condition": null,
    "currency": "USD",
    "event": "Gooding & Company, Amelia Island",
    "make": "talbot-lago",
    "makeName": "Talbot-Lago",
+   "mileage": null,
    "model": "T150-C-SS Teardrop Coupe (chassis 90107)",
-   "modelSlug": null,
+   "modelSlug": "t150",
    "price": 13425000,
    "priceBasis": "As recorded for the lot",
    "saleDate": "2022-03-04",
@@ -138,12 +322,35 @@
    "year": 1937
   },
   {
+   "chassis": "MF10-10001",
+   "condition": "Restored (body-off, to 1968 SCCA specification)",
+   "currency": "USD",
+   "event": "Gooding & Company, Amelia Island",
+   "make": "toyota",
+   "makeName": "Toyota",
+   "mileage": null,
+   "model": "2000GT (Toyota-Shelby, chassis MF10-10001)",
+   "modelSlug": "2000gt",
+   "price": 2535000,
+   "priceBasis": "As reported from the sale",
+   "saleDate": "2022-03-04",
+   "source": {
+    "name": "Classic & Sports Car — Gooding & Company Amelia Island 2022 sale report (the 4 March sale)",
+    "url": "https://www.classicandsportscar.com/news/toyota-shelby-2000gt-makes-history-amelia-island"
+   },
+   "status": "sold",
+   "year": 1967
+  },
+  {
+   "chassis": "5500332",
+   "condition": null,
    "currency": "USD",
    "event": "RM Sotheby's Arizona, Phoenix",
    "make": "mercedes-benz",
    "makeName": "Mercedes-Benz",
+   "mileage": null,
    "model": "300 SL Alloy Gullwing (chassis 5500332)",
-   "modelSlug": null,
+   "modelSlug": "sl",
    "price": 6825000,
    "priceBasis": "As recorded for the lot",
    "saleDate": "2022-01-27",
@@ -155,10 +362,13 @@
    "year": 1955
   },
   {
+   "chassis": "029",
+   "condition": null,
    "currency": "USD",
    "event": "Gooding & Company, Pebble Beach",
    "make": "mclaren",
    "makeName": "McLaren",
+   "mileage": null,
    "model": "F1 (chassis 029)",
    "modelSlug": "f1",
    "price": 20465000,
@@ -172,10 +382,13 @@
    "year": 1995
   },
   {
+   "chassis": "018",
+   "condition": null,
    "currency": "USD",
    "event": "RM Sotheby's Monterey",
    "make": "mclaren",
    "makeName": "McLaren",
+   "mileage": null,
    "model": "F1 'LM-Specification' (chassis 018)",
    "modelSlug": "f1",
    "price": 19805000,
@@ -189,12 +402,15 @@
    "year": 1994
   },
   {
+   "chassis": "GT/108",
+   "condition": null,
    "currency": "USD",
    "event": "RM Sotheby's Monterey",
    "make": "ford",
    "makeName": "Ford",
+   "mileage": null,
    "model": "GT40 Roadster Prototype (chassis GT/108)",
-   "modelSlug": null,
+   "modelSlug": "gt",
    "price": 7650000,
    "priceBasis": "As recorded for the lot",
    "saleDate": "2019-08-16",
@@ -206,12 +422,15 @@
    "year": 1965
   },
   {
+   "chassis": "DB5/2008/R",
+   "condition": null,
    "currency": "USD",
    "event": "RM Sotheby's Monterey — An Evening with Aston Martin",
    "make": "aston-martin",
    "makeName": "Aston Martin",
+   "mileage": null,
    "model": "DB5 'Bond Car' (chassis DB5/2008/R)",
-   "modelSlug": null,
+   "modelSlug": "db5",
    "price": 6385000,
    "priceBasis": "Including buyer's premium (hammer $5,800,000)",
    "saleDate": "2019-08-15",
@@ -223,10 +442,13 @@
    "year": 1965
   },
   {
+   "chassis": "412024",
+   "condition": null,
    "currency": "EUR",
    "event": "Artcurial — Rétromobile, Paris",
    "make": "alfa-romeo",
    "makeName": "Alfa Romeo",
+   "mileage": null,
    "model": "8C 2900B Touring Berlinetta (chassis 412024)",
    "modelSlug": null,
    "price": 16745600,
@@ -240,12 +462,15 @@
    "year": 1939
   },
   {
+   "chassis": "74045",
+   "condition": null,
    "currency": "EUR",
    "event": "RM Sotheby's Paris",
    "make": "ferrari",
    "makeName": "Ferrari",
+   "mileage": null,
    "model": "F40 LM (chassis 74045)",
-   "modelSlug": null,
+   "modelSlug": "f40",
    "price": 4842500,
    "priceBasis": "Including buyer's premium",
    "saleDate": "2019-02-06",
@@ -257,10 +482,13 @@
    "year": 1987
   },
   {
+   "chassis": "3413 GT",
+   "condition": null,
    "currency": "USD",
    "event": "RM Sotheby's Monterey",
    "make": "ferrari",
    "makeName": "Ferrari",
+   "mileage": null,
    "model": "250 GTO (chassis 3413 GT)",
    "modelSlug": null,
    "price": 48405000,
@@ -274,10 +502,13 @@
    "year": 1962
   },
   {
+   "chassis": null,
+   "condition": null,
    "currency": "USD",
    "event": "RM Sotheby's Monterey (night one)",
    "make": "aston-martin",
    "makeName": "Aston Martin",
+   "mileage": null,
    "model": "DP215 Grand Touring Competition Prototype",
    "modelSlug": null,
    "price": 21455000,
@@ -291,12 +522,15 @@
    "year": 1963
   },
   {
+   "chassis": null,
+   "condition": null,
    "currency": "EUR",
    "event": "RM Sotheby's — Ferrari Leggenda e Passione, Maranello",
    "make": "ferrari",
    "makeName": "Ferrari",
+   "mileage": null,
    "model": "LaFerrari Aperta (the 210th and final example)",
-   "modelSlug": null,
+   "modelSlug": "laferrari",
    "price": 8300000,
    "priceBasis": "Hammer price, free of commission (charity sale; proceeds donated to Save the Children)",
    "saleDate": "2017-09-09",
@@ -308,10 +542,13 @@
    "year": 2017
   },
   {
+   "chassis": "DBR1/1",
+   "condition": null,
    "currency": "USD",
    "event": "RM Sotheby's Monterey",
    "make": "aston-martin",
    "makeName": "Aston Martin",
+   "mileage": null,
    "model": "DBR1 (chassis DBR1/1)",
    "modelSlug": null,
    "price": 22550000,
@@ -325,10 +562,13 @@
    "year": 1956
   },
   {
+   "chassis": "917-024",
+   "condition": null,
    "currency": "USD",
    "event": "Gooding & Company, Pebble Beach",
    "make": "porsche",
    "makeName": "Porsche",
+   "mileage": null,
    "model": "917K (chassis 917-024)",
    "modelSlug": null,
    "price": 14080000,
@@ -342,10 +582,13 @@
    "year": 1970
   },
   {
+   "chassis": "XKD 501",
+   "condition": null,
    "currency": "USD",
    "event": "RM Sotheby's Monterey",
    "make": "jaguar",
    "makeName": "Jaguar",
+   "mileage": null,
    "model": "D-Type (chassis XKD 501)",
    "modelSlug": null,
    "price": 21780000,
@@ -359,10 +602,13 @@
    "year": 1955
   },
   {
+   "chassis": "0674",
+   "condition": null,
    "currency": "EUR",
    "event": "Artcurial — Rétromobile, Paris",
    "make": "ferrari",
    "makeName": "Ferrari",
+   "mileage": null,
    "model": "335 Sport Scaglietti (chassis 0674)",
    "modelSlug": null,
    "price": 32075200,
@@ -376,10 +622,13 @@
    "year": 1957
   },
   {
+   "chassis": "0626",
+   "condition": null,
    "currency": "USD",
    "event": "RM Sotheby's New York — Driven by Disruption",
    "make": "ferrari",
    "makeName": "Ferrari",
+   "mileage": null,
    "model": "290 MM (chassis 0626)",
    "modelSlug": null,
    "price": 28050000,
@@ -393,10 +642,13 @@
    "year": 1956
   },
   {
+   "chassis": "3095 GT",
+   "condition": null,
    "currency": "USD",
    "event": "Gooding & Company, Pebble Beach",
    "make": "ferrari",
    "makeName": "Ferrari",
+   "mileage": null,
    "model": "250 GT SWB California Spider (chassis 3095 GT)",
    "modelSlug": null,
    "price": 16830000,
@@ -410,10 +662,13 @@
    "year": 1961
   },
   {
+   "chassis": "956-003",
+   "condition": null,
    "currency": "USD",
    "event": "Gooding & Company, Pebble Beach",
    "make": "porsche",
    "makeName": "Porsche",
+   "mileage": null,
    "model": "956 (chassis 956-003)",
    "modelSlug": null,
    "price": 10120000,
@@ -427,10 +682,13 @@
    "year": 1982
   },
   {
+   "chassis": "XKC 052",
+   "condition": null,
    "currency": "USD",
    "event": "RM Sotheby's Monterey",
    "make": "jaguar",
    "makeName": "Jaguar",
+   "mileage": null,
    "model": "C-Type Works Lightweight (chassis XKC 052)",
    "modelSlug": null,
    "price": 13200000,
@@ -444,10 +702,13 @@
    "year": 1953
   },
   {
+   "chassis": "6105",
+   "condition": null,
    "currency": "USD",
    "event": "RM Sotheby's Monterey — The Pinnacle Portfolio",
    "make": "ferrari",
    "makeName": "Ferrari",
+   "mileage": null,
    "model": "250 LM (chassis 6105)",
    "modelSlug": null,
    "price": 17600000,
@@ -461,10 +722,13 @@
    "year": 1964
   },
   {
+   "chassis": null,
+   "condition": null,
    "currency": "EUR",
    "event": "Artcurial — Rétromobile, Paris",
    "make": "ferrari",
    "makeName": "Ferrari",
+   "mileage": null,
    "model": "250 GT SWB California Spider (Baillon Collection, chassis 2935 GT)",
    "modelSlug": null,
    "price": 16288000,
@@ -478,10 +742,13 @@
    "year": 1961
   },
   {
+   "chassis": "06701",
+   "condition": null,
    "currency": "USD",
    "event": "RM Auctions Monterey",
    "make": "ferrari",
    "makeName": "Ferrari",
+   "mileage": null,
    "model": "275 GTB/C Speciale (chassis 06701)",
    "modelSlug": null,
    "price": 26400000,
@@ -495,10 +762,13 @@
    "year": 1964
   },
   {
+   "chassis": "3851 GT",
+   "condition": null,
    "currency": "USD",
    "event": "Bonhams Quail Lodge, Carmel",
    "make": "ferrari",
    "makeName": "Ferrari",
+   "mileage": null,
    "model": "250 GTO Berlinetta (chassis 3851 GT)",
    "modelSlug": null,
    "price": 38115000,
@@ -512,10 +782,13 @@
    "year": 1962
   },
   {
+   "chassis": null,
+   "condition": null,
    "currency": "USD",
    "event": "Barrett-Jackson Scottsdale",
    "make": "chevrolet",
    "makeName": "Chevrolet",
+   "mileage": null,
    "model": "Corvette L88 Coupe (C2)",
    "modelSlug": "corvette",
    "price": 3850000,
@@ -529,10 +802,13 @@
    "year": 1967
   },
   {
+   "chassis": "10709",
+   "condition": null,
    "currency": "USD",
    "event": "RM Auctions Monterey",
    "make": "ferrari",
    "makeName": "Ferrari",
+   "mileage": null,
    "model": "275 GTB/4*S N.A.R.T. Spider (chassis 10709)",
    "modelSlug": null,
    "price": 27500000,
@@ -546,10 +822,13 @@
    "year": 1967
   },
   {
+   "chassis": "00006/54",
+   "condition": null,
    "currency": "GBP",
    "event": "Bonhams — Goodwood Festival of Speed",
    "make": "mercedes-benz",
    "makeName": "Mercedes-Benz",
+   "mileage": null,
    "model": "W 196 R (chassis 00006/54)",
    "modelSlug": null,
    "price": 19601500,
@@ -563,10 +842,13 @@
    "year": 1954
   },
   {
+   "chassis": "0320AM",
+   "condition": null,
    "currency": "EUR",
    "event": "RM Auctions — Villa Erba, Lake Como",
    "make": "ferrari",
    "makeName": "Ferrari",
+   "mileage": null,
    "model": "340/375 MM Berlinetta 'Competizione' (chassis 0320AM)",
    "modelSlug": null,
    "price": 9856000,
@@ -580,12 +862,15 @@
    "year": 1953
   },
   {
+   "chassis": "P/1074",
+   "condition": null,
    "currency": "USD",
    "event": "RM Auctions Monterey",
    "make": "ford",
    "makeName": "Ford",
+   "mileage": null,
    "model": "GT40 Gulf/Mirage Lightweight Racing Car (chassis P/1074)",
-   "modelSlug": null,
+   "modelSlug": "gt",
    "price": 11000000,
    "priceBasis": "As reported from the sale",
    "saleDate": "2012-08-17",
@@ -597,10 +882,13 @@
    "year": 1968
   },
   {
+   "chassis": "0680 MDTR",
+   "condition": null,
    "currency": "EUR",
    "event": "RM Auctions Monaco",
    "make": "ferrari",
    "makeName": "Ferrari",
+   "mileage": null,
    "model": "625 TRC Spider (chassis 0680 MDTR)",
    "modelSlug": null,
    "price": 5040000,
@@ -614,10 +902,13 @@
    "year": 1957
   },
   {
+   "chassis": "0666 TR",
+   "condition": null,
    "currency": "USD",
    "event": "Gooding & Company, Pebble Beach",
    "make": "ferrari",
    "makeName": "Ferrari",
+   "mileage": null,
    "model": "250 Testa Rossa Prototype (chassis 0666 TR)",
    "modelSlug": null,
    "price": 16390000,
@@ -640,9 +931,10 @@
   "Wave 7 pass: the 1939 Alfa Romeo 8C 2900B Lungo Spider by Touring ($19,800,000 incl. premium, RM Sotheby's Monterey) — car, price and house are published, but the sources consulted date the sale only to the two-day event (19–20 August 2016), not to the session day; skipped rather than dated by inference (the SSJ precedent).",
   "Wave 7 pass: the first Shelby Cobra, CSX 2000 ($13,750,000 incl. premium, RM Sotheby's Monterey, 2016-08-19) — car, price, house and day are all published, but the atlas carries no Shelby marque record and the car is not a Ford; certifying it would require a marque the atlas does not have, so it is skipped rather than misattributed.",
   "Wave 8 pass: the 1960 Ferrari 250 GT SWB California Spider ($17,055,000 incl. premium, RM Sotheby's Monterey) — car, price and house are published, but the sources consulted date the sale only to the three-day event (15–17 August 2024), not to the day; skipped rather than dated by inference (the SSJ precedent).",
-  "Wave 9 pass: the 1929 Bentley 4½-Litre Supercharged 'Blower' No.1 (£5,042,000 incl. premium, Bonhams, Goodwood Festival of Speed, June 2012) — car, price, house and sale are all published, but the atlas carries no Bentley marque record; certifying it would require a marque the atlas does not have, so it is skipped rather than misattributed (the CSX 2000 precedent)."
+  "Wave 9 pass: the 1929 Bentley 4½-Litre Supercharged 'Blower' No.1 (£5,042,000 incl. premium, Bonhams, Goodwood Festival of Speed, June 2012) — car, price, house and sale are all published, but the atlas carries no Bentley marque record; certifying it would require a marque the atlas does not have, so it is skipped rather than misattributed (the CSX 2000 precedent).",
+  "Wave 10 pass: the 1937 Bugatti Type 57 Atalante Coupé ($10,345,000, Gooding & Company, Pebble Beach, 2022) — car, price and house are published, but the atlas carries no Bugatti marque record; certifying it would require a marque the atlas does not have, so it is skipped rather than misattributed (the CSX 2000 / Blower precedent)."
  ],
- "stage": "Stage 4 — auction results, extended a third time",
+ "stage": "Stage 5 — auction results, extended a fourth time",
  "updatedAt": "2026-10-13",
  "version": "1.0.0"
 }

@@ -79,14 +79,20 @@ rotary, and hundreds more).
 **Buying layer:** Price Watch stage 1 shipped in wave 4 and grew
 in wave 5; stage 2 (wave 7) extended the certified set to
 19 auction results, stage 3 (wave 8) extended it again to
-28 auction results, and stage 4 (wave 9) extended it again to
-37 auction results in
+28 auction results, stage 4 (wave 9) extended it again to
+37 auction results, and stage 5 (wave 10) extended it again to
+46 auction results in
 `data/v1/price-watch.json`, each with its published source, and
 recorded further skips in the file (an Alfa Romeo 8C 2900B
 whose sale day sources do not pin, the first Shelby Cobra,
 which has no marque record here, and a Ferrari 250 GT SWB
-California Spider whose sale day sources do not pin, and a
-Bentley Blower, which has no marque record here). Still planned: listings ingest adapters for
+California Spider whose sale day sources do not pin, a
+Bentley Blower, which has no marque record here, and a Bugatti
+Type 57 Atalante, which has no marque record here). Stage 5
+also linked seven earlier results to model pages the atlas
+already carried (DB5, F40, LaFerrari, T150, SL, and both GT40
+records) and gave every result a chassis key plus
+source-stated condition/mileage fields. Still planned: listings ingest adapters for
 the channels in `buying.json` and cohort medians computed from
 certified records only.
 

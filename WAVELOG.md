@@ -1,5 +1,116 @@
 # WAVELOG — Car Atlas
 
+## Wave 10 — Price Watch ingest stage 5: certified results 37 → 46, T-CARS link/field mechanisms (2026-10-13)
+
+**Headline (named before building):** Price Watch ingest stage 5 —
+extend the certified-results set beyond the 37 stage-1/2/3/4 results
+using the stage-1 standard exactly: real auction results only, each
+sourced + day-dated, status sold; a result that cannot be certified
+to that standard is SKIPPED and recorded in the file, never
+approximated or misattributed.
+
+- **Price Watch stage 5:** **37 → 46 certified results**, each
+  certified at ingest on 2026-10-13 against a published source
+  naming car, price, house and day: the 1967 Ferrari 412P
+  Berlinetta, chassis 0854 ($30,255,000 incl. premium, Bonhams —
+  The Quail Auction, 2023-08-18); the 1949 Talbot-Lago T26 Grand
+  Sport Cabriolet, chassis 110117 ($2,040,000 incl. premium,
+  Bonhams — The Quail Auction, 2023-08-18 —
+  `modelSlug: t26`); the 1932 Duesenberg Model J 'Sweep Panel'
+  Dual-Cowl Phaeton, chassis 2841 ($1,127,000 incl. premium,
+  Bonhams — The Quail Auction, 2023-08-18 —
+  `modelSlug: model-j`); the 2003 Ferrari Enzo (€4,055,000,
+  RM Sotheby's Paris, 2023-02-01 — `modelSlug: enzo`); the 1990
+  Ferrari F40 (€1,917,500, RM Sotheby's Paris, 2023-02-01 —
+  `modelSlug: f40`); the 1969 Lamborghini Miura P400 S
+  (€1,580,000, RM Sotheby's Paris, 2023-02-01 —
+  `modelSlug: miura`); the 2015 McLaren P1 (€1,073,750,
+  RM Sotheby's Paris, 2023-02-01 — `modelSlug: p1`); the 1955
+  Ferrari 410 Sport Spider, chassis 0598 CM ($22,005,000,
+  RM Sotheby's Monterey, Saturday-night session 2022-08-20);
+  the 1967 Toyota-Shelby 2000GT, chassis MF10-10001 ($2,535,000,
+  Gooding & Company Amelia Island, 2022-03-04 —
+  `modelSlug: 2000gt`). Seven of the nine link at model level.
+  Results stay ordered newest first and render on the Buy page
+  (verified: 46 tiles, desktop + mobile).
+- **T-CARS-3 (results orphaned from model pages) — ADVANCED:**
+  a link audit of the existing 37 found seven records whose model
+  records the atlas already carried, now linked: the DB5 'Bond
+  Car' (`db5`), the F40 LM (`f40`), the LaFerrari Aperta
+  (`laferrari` — its record carries an Aperta generation), the
+  T150-C-SS Teardrop (`t150`), the 300 SL Alloy Gullwing (`sl` —
+  its record carries the 300SL generation), and both GT40 records
+  (`gt` — its record is the GT40-lineage record). Orphan share:
+  **30/37 (81%) → 25/46 (54%)**; linked records 7 → 21. The 1939
+  Alfa Romeo 8C was deliberately NOT linked to the modern 8C
+  Competizione record — a different car.
+- **T-CARS-4 (repeat-sale linking) — mechanism CLOSED, honest
+  zero:** every record now carries a shared `chassis` key
+  (populated 34/46, from the chassis its own source names; null
+  otherwise), and the Buy tiles and model-page Price Watch blocks
+  surface the key and name any other record sharing it. A full-set
+  scan finds **zero genuine same-chassis repeat sales** in the 46
+  (the two California Spiders are different chassis — 3095 GT and
+  2935 GT — as are the two W 196 R cars and the two McLaren F1s);
+  the mechanism ships and links automatically when a true repeat
+  is ingested.
+- **T-CARS-2 (condition/mileage fields) — ADVANCED:** the record
+  schema gains `condition` and `mileage`, populated ONLY where a
+  source states them (explicit null otherwise, never inferred):
+  condition 0/37 → 4/46 (412P, T26, F40, 2000GT), mileage
+  0/37 → 1/46 (the Paris F40, 9k km per its lot record). Both
+  render on the Buy tiles and model pages, labeled "(per source)".
+- **T-CARS-1 (benchmark/cohort) and T-CARS-5 (follow/notify) —
+  DEFERRED by name:** not built this stage, not half-built. Stage
+  5's chassis keys and source-stated fields are groundwork a
+  cohort stage can compute from, noted without claiming either.
+- **Skipped, recorded in the file itself (1 new;
+  `skippedSources` 9 → 10):** the 1937 Bugatti Type 57 Atalante
+  Coupé ($10,345,000, Gooding & Company Pebble Beach, 2022) —
+  car, price and house published, but the atlas carries no
+  Bugatti marque record; skipped rather than misattributed (the
+  CSX 2000 / Blower precedent). The wave-9 Bentley Blower skip
+  stands unchanged.
+- **What stage 5 is not:** the listings ingest + cron parked in
+  earlier roadmaps is still not built — it still needs a deploy
+  decision and its own free-tier audit. Stage 5 here is results
+  ingest only: still a static file, no function, no cron, no
+  external call. The file's `stage` field, the Buy page heading,
+  `buying.json`'s new `stage5` note, `API.md`, `GO_LIVE.md`,
+  `LIVE_CHECKLIST.md`, `COVERAGE.md` and `llms.txt` all say so in
+  the same words; counts everywhere re-derived from the data
+  (46 results; 59 / 257 / 469 / 46 unchanged).
+- **Regression: VP-0003 holds.** Build passes (schema + counts +
+  price-watch source check: "46 certified auction results";
+  59 / 257 / 469 unchanged) and re-bakes idempotently; llms
+  checker **PASS — 0 errors, 0 warnings** (17/17 targets).
+  Render checks (headless Chromium, ThreadingHTTPServer, fresh
+  browser): the Buy page renders all 46 results with zero page
+  errors (desktop + mobile; screenshots refreshed in repo and
+  archived at `~/workspace/progress-archive/car-atlas/rotation-019/`);
+  cold loads of the DB5, F40, T26, 2000GT, SL and GT model pages
+  each rendered one `<h1>` and their newly linked Price Watch
+  result live.
+- **Parked decisions (unchanged):** (1) a dedicated Ferrari
+  250 GTO model record — the photo and the make-level auction
+  results sit at make level until the owner calls it; (2) the
+  listings-ingest / cron form of Price Watch — needs a deploy
+  decision and its own free-tier audit; (3) a sitemap — lands
+  with GO_LIVE step 5.
+
+### Next waves (planned)
+
+- Living-makes breadth from the COVERAGE list (Bentley, Bugatti,
+  Genesis, MINI, Mitsubishi, Rivian, Rolls-Royce, and the rest) —
+  Bentley's arrival would also unblock the stage-4 Blower skip,
+  Bugatti's the stage-5 Atalante skip.
+- Generation depth for the wave-2/3 models (the wave-4 icon
+  treatment, extended).
+- Remaining historic marques from the COVERAGE list (Marlin, MG
+  pre-SAIC lineage, Morgan, Opel, Saturn, Vauxhall).
+- Price Watch: further certified results to the same standard as
+  sources allow; listings ingest only alongside a deploy decision.
+
 ## Wave 9 — Price Watch ingest stage 4: certified results 28 → 37 (2026-10-13)
 
 **Headline (named before building):** Price Watch ingest stage 4 —
