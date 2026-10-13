@@ -20,10 +20,10 @@ because the dataset changes in waves, not minutes.
 | `GET /api/search` | `q` | ranked make/model matches (server twin of the client instant search) |
 | `GET /api/clubs` | `region`, `marque` (optional) | filtered club registry |
 
-## Price Watch (stage 1 shipped wave 4 — still not an endpoint)
+## Price Watch (stages 1–2 shipped — still not an endpoint)
 
-Stage 1 is real and deliberately static: `data/v1/price-watch.json`
-holds certified auction results (car, price, currency, basis,
+The results file is real and deliberately static: `data/v1/price-watch.json`
+holds 19 certified auction results (car, price, currency, basis,
 house/event, sale date, linked published source), rendered on the
 Buy page and on the matching model pages. No function serves it —
 the static file is the ingest. The listing stages remain design:
@@ -42,5 +42,5 @@ the static file is the ingest. The listing stages remain design:
    stats and current drops. Nothing here returns a price the ingest
    didn't actually observe, and stale cohorts are labeled stale.
 
-Until stage 1 ships, model pages link to the buying channels directly
-and say so. That honesty is the feature.
+Model pages without a certified result link to the buying channels
+directly and say so. That honesty is the feature.

@@ -77,8 +77,12 @@ Africa), model-specific registries (air-cooled Porsche, early Bronco,
 rotary, and hundreds more).
 
 **Buying layer:** Price Watch stage 1 shipped in wave 4 and grew
-in wave 5 — 11 certified auction results in
-`data/v1/price-watch.json`, each with its published source. Still planned: listings ingest adapters for
+in wave 5; stage 2 (wave 7) extended the certified set to
+19 auction results in
+`data/v1/price-watch.json`, each with its published source, and
+recorded two further skips in the file (an Alfa Romeo 8C 2900B
+whose sale day sources do not pin, and the first Shelby Cobra,
+which has no marque record here). Still planned: listings ingest adapters for
 the channels in `buying.json` and cohort medians computed from
 certified records only.
 

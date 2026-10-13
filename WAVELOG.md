@@ -1,5 +1,89 @@
 # WAVELOG — Car Atlas
 
+## Wave 7 — Price Watch ingest stage 2: certified results 11 → 19 (2026-10-13)
+
+**Headline (named before building):** Price Watch ingest stage 2 —
+extend the certified-results set beyond the 11 stage-1 results using
+the stage-1 standard exactly: real auction results only, each sourced
++ day-dated, status recorded honestly; a result whose sale day cannot
+be pinned by sources is SKIPPED and recorded in the file (the SSJ
+precedent), never approximated.
+
+- **Price Watch stage 2:** **11 → 19 certified results**, each
+  certified at ingest on 2026-10-13 against a published source naming
+  car, price, house and day: the 1970 Porsche 917K, chassis 917-024
+  ($14,080,000, Gooding & Company Pebble Beach, 2017-08-18); the 1955
+  Jaguar D-Type, XKD 501 ($21,780,000 incl. premium, RM Sotheby's
+  Monterey, Friday session 2016-08-19 — the day pinned by RM's own
+  sale report); the 1956 Ferrari 290 MM, chassis 0626 ($28,050,000
+  incl. premium, RM Sotheby's New York — Driven by Disruption,
+  2015-12-10); the 1964 Ferrari 275 GTB/C Speciale, chassis 06701
+  ($26,400,000 incl. premium, RM Auctions Monterey, day two
+  2014-08-16); the 1962 Ferrari 250 GTO Berlinetta, chassis 3851 GT
+  ($38,115,000 incl. premium, Bonhams Quail Lodge, 2014-08-15); the
+  1967 Ferrari 275 GTB/4*S N.A.R.T. Spider, chassis 10709
+  ($27,500,000 incl. premium, RM Auctions Monterey, Saturday
+  2013-08-17); the 1954 Mercedes-Benz W 196 R, chassis 00006/54
+  (£19,601,500 incl. premium — the file's first GBP record — Bonhams
+  Goodwood Festival of Speed, Friday 2013-07-12); the 1957 Ferrari
+  250 Testa Rossa Prototype, chassis 0666 TR ($16,390,000 incl.
+  premium, Gooding & Company Pebble Beach, Saturday night
+  2011-08-20). All eight carry `modelSlug: null` — the atlas has no
+  model records for them, and none was invented; they link at make
+  level, as the earlier GTO/DBR1 records do. Results stay ordered
+  newest first and render on the Buy page (verified: 19 tiles).
+- **Skipped, recorded in the file itself (2 new):** the 1939 Alfa
+  Romeo 8C 2900B Lungo Spider ($19,800,000 incl. premium, RM
+  Sotheby's Monterey) — car, price and house published, but the
+  sources consulted date the sale only to the two-day event
+  (19–20 August 2016), not to the session day; skipped rather than
+  dated by inference (the SSJ precedent, applied exactly). And the
+  first Shelby Cobra, CSX 2000 ($13,750,000 incl. premium, RM
+  Sotheby's Monterey, 2016-08-19) — car, price, house and day all
+  published, but the atlas carries no Shelby marque record and the
+  car is not a Ford; skipped rather than misattributed.
+- **What stage 2 is not:** the listings ingest + cron parked in
+  earlier roadmaps is still not built — it still needs a deploy
+  target and its own free-tier audit. Stage 2 here is results ingest
+  only: still a static file, no function, no cron, no external call.
+  The file's `stage` field, the Buy page heading, `buying.json`'s new
+  `stage2` note, `API.md`, `GO_LIVE.md`, `LIVE_CHECKLIST.md` and
+  `COVERAGE.md` all say so in the same words.
+- **Secondary (icons): not taken.** The four roadmapped icons
+  already hold full generation depth from wave 4; no honest delta
+  was available there this wave, and none was manufactured.
+- **Regression: VP-0003 holds.** Build passes (schema + counts +
+  price-watch source check: "19 certified auction results";
+  59 / 257 / 469 unchanged) and re-bakes idempotently; FB markers
+  (BEGIN + END) intact in `model.html`; `fetch_deadline.js` on all
+  five content pages; both canonical files byte-identical to Fleet
+  Commons; llms checker **PASS — 0 errors, 0 warnings** (17/17
+  targets). Spot checks (headless Chromium, ThreadingHTTPServer):
+  the Buy page renders all 19 results with zero page errors
+  (desktop + mobile screenshots refreshed); one cold load of the
+  911 rendered the full live record (one `<h1>`, zero page errors);
+  one hang-injected load (porsche make file never answering —
+  server-side hang) painted the baked snapshot and settled in the
+  honest terminal state — snapshot + "didn't finish loading" +
+  Retry — at 11.1 s, inside the deadline/watchdog band.
+- **Parked decisions (unchanged):** (1) a dedicated Ferrari 250 GTO
+  model record — the photo and now three auction results (2018,
+  2014, 2023) sit at make level until the owner calls it; (2) the
+  listings-ingest form of Price Watch stage 2 — needs a deploy
+  target and its own free-tier audit; (3) a sitemap — lands with
+  GO_LIVE step 5.
+
+### Next waves (planned)
+
+- Living-makes breadth from the COVERAGE list (Bentley, Bugatti,
+  Genesis, MINI, Mitsubishi, Rivian, Rolls-Royce, and the rest).
+- Generation depth for the wave-2/3 models (the wave-4 icon
+  treatment, extended).
+- Remaining historic marques from the COVERAGE list (Marlin, MG
+  pre-SAIC lineage, Morgan, Opel, Saturn, Vauxhall).
+- Price Watch: further certified results to the same standard as
+  sources allow; listings ingest only alongside a deploy decision.
+
 ## Wave 6 — Historic marques batch 3 + rotation-15 capture (2026-10-13)
 
 **Headline (named before building):** the WAVELOG roadmap's

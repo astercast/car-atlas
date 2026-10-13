@@ -1,5 +1,5 @@
 {
- "note": "Price Watch stage 1 tracks completed auction results, not live listings. Every record below was certified at ingest against a published source naming the car, the price, the house, and the date; the source is linked on each record. Wave 4 certified 7 results (2026-10-13); wave 5 added 4 more to the same standard. Prices are historical facts about one specific car on one specific day — not asking prices, not estimates, and not a valuation of any other example. Results that could not be certified to that standard were skipped, not estimated (see skippedSources).",
+ "note": "Price Watch tracks completed auction results, not live listings. Every record below was certified at ingest against a published source naming the car, the price, the house, and the date; the source is linked on each record. Wave 4 certified 7 results (2026-10-13); wave 5 added 4 more to the same standard; wave 7 (stage 2) added 8 more — 19 certified results in all. Stage 2 extends the certified-results set only: the listings ingest described in earlier roadmaps is not built, and no listing, estimate or unsold lot appears here. Prices are historical facts about one specific car on one specific day — not asking prices, not estimates, and not a valuation of any other example. Results that could not be certified to that standard were skipped, not estimated (see skippedSources).",
  "results": [
   {
    "currency": "EUR",
@@ -172,6 +172,40 @@
    "year": 1956
   },
   {
+   "currency": "USD",
+   "event": "Gooding & Company, Pebble Beach",
+   "make": "porsche",
+   "makeName": "Porsche",
+   "model": "917K (chassis 917-024)",
+   "modelSlug": null,
+   "price": 14080000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2017-08-18",
+   "source": {
+    "name": "CLASSIC.COM record of the Gooding & Company result",
+    "url": "http://www.classic.com/a/gooding-the-pebble-beach-auctions-2017-anOabp9/lots/1970-porsche-917k-JWb1Lvn"
+   },
+   "status": "sold",
+   "year": 1970
+  },
+  {
+   "currency": "USD",
+   "event": "RM Sotheby's Monterey",
+   "make": "jaguar",
+   "makeName": "Jaguar",
+   "model": "D-Type (chassis XKD 501)",
+   "modelSlug": null,
+   "price": 21780000,
+   "priceBasis": "Including buyer's premium (hammer $19,800,000)",
+   "saleDate": "2016-08-19",
+   "source": {
+    "name": "Sports Car Digest — RM Sotheby's Monterey 2016 auction results",
+    "url": "https://sportscardigest.com/rm-sothebys-monterey-2016-auction-results/"
+   },
+   "status": "sold",
+   "year": 1955
+  },
+  {
    "currency": "EUR",
    "event": "Artcurial — Rétromobile, Paris",
    "make": "ferrari",
@@ -187,6 +221,108 @@
    },
    "status": "sold",
    "year": 1957
+  },
+  {
+   "currency": "USD",
+   "event": "RM Sotheby's New York — Driven by Disruption",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "model": "290 MM (chassis 0626)",
+   "modelSlug": null,
+   "price": 28050000,
+   "priceBasis": "Including buyer's premium",
+   "saleDate": "2015-12-10",
+   "source": {
+    "name": "Classic Car Auctions — record of the RM Sotheby's New York 2015 result",
+    "url": "https://www.classic-car-auctions.info/records/1956-ferrari-290-mm-most-expensive-car-in-2015/"
+   },
+   "status": "sold",
+   "year": 1956
+  },
+  {
+   "currency": "USD",
+   "event": "RM Auctions Monterey",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "model": "275 GTB/C Speciale (chassis 06701)",
+   "modelSlug": null,
+   "price": 26400000,
+   "priceBasis": "Including buyer's premium",
+   "saleDate": "2014-08-16",
+   "source": {
+    "name": "Carophile — 20 most expensive cars sold at auction (record of the RM Auctions result)",
+    "url": "https://www.carophile.com/most-expensive-cars-sold-at-auction/4/"
+   },
+   "status": "sold",
+   "year": 1964
+  },
+  {
+   "currency": "USD",
+   "event": "Bonhams Quail Lodge, Carmel",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "model": "250 GTO Berlinetta (chassis 3851 GT)",
+   "modelSlug": null,
+   "price": 38115000,
+   "priceBasis": "Including buyer's premium",
+   "saleDate": "2014-08-15",
+   "source": {
+    "name": "CLASSIC.COM record of the Bonhams Quail Lodge result",
+    "url": "http://www.classic.com/a/bonhams-quail-lodge-auction-2014-M4DGop5/lots/1962-63-ferrari-250-gto-berlinetta-Wkl29kp/?page=5"
+   },
+   "status": "sold",
+   "year": 1962
+  },
+  {
+   "currency": "USD",
+   "event": "RM Auctions Monterey",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "model": "275 GTB/4*S N.A.R.T. Spider (chassis 10709)",
+   "modelSlug": null,
+   "price": 27500000,
+   "priceBasis": "Including buyer's premium (hammer $25,000,000; proceeds donated to charity)",
+   "saleDate": "2013-08-17",
+   "source": {
+    "name": "Carophile — 20 most expensive cars sold at auction (record of the RM Auctions result)",
+    "url": "https://www.carophile.com/most-expensive-cars-sold-at-auction/3/"
+   },
+   "status": "sold",
+   "year": 1967
+  },
+  {
+   "currency": "GBP",
+   "event": "Bonhams — Goodwood Festival of Speed",
+   "make": "mercedes-benz",
+   "makeName": "Mercedes-Benz",
+   "model": "W 196 R (chassis 00006/54)",
+   "modelSlug": null,
+   "price": 19601500,
+   "priceBasis": "Including buyer's premium (hammer £17,500,000)",
+   "saleDate": "2013-07-12",
+   "source": {
+    "name": "Supercars.net — Bonhams Goodwood 2013 sale report",
+    "url": "https://www.supercars.net/blog/mercedes-benz-w196-breaks-auction-record/"
+   },
+   "status": "sold",
+   "year": 1954
+  },
+  {
+   "currency": "USD",
+   "event": "Gooding & Company, Pebble Beach",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "model": "250 Testa Rossa Prototype (chassis 0666 TR)",
+   "modelSlug": null,
+   "price": 16390000,
+   "priceBasis": "Including buyer's premium (hammer $14,900,000)",
+   "saleDate": "2011-08-20",
+   "source": {
+    "name": "Autoblog — Gooding & Company Pebble Beach 2011 sale report",
+    "url": "https://www.autoblog.com/features/1957-ferrari-250-tr-prototype-sells-for-record-16-39-million-at"
+   },
+   "status": "sold",
+   "year": 1957
   }
  ],
  "skippedSources": [
@@ -194,9 +330,11 @@
   "Pre-sale estimates and unsold / bid-to lots — not results; excluded.",
   "Cars & Bids and Hemmings results — no individual lot was certified to the car + price + house + date standard at ingest; skipped, not estimated.",
   "Aggregator summary statistics (medians, averages) — stage 1 publishes individual certified results only; cohort statistics arrive only when they can be computed from certified records.",
-  "Wave 5 pass: the 1935 Duesenberg SSJ ($22,000,000 incl. premium, Gooding & Company, Pebble Beach) — car, price and house are published, but the sources consulted date the sale only to the two-day event (24–25 August 2018), not to the day; skipped rather than dated by inference."
+  "Wave 5 pass: the 1935 Duesenberg SSJ ($22,000,000 incl. premium, Gooding & Company, Pebble Beach) — car, price and house are published, but the sources consulted date the sale only to the two-day event (24–25 August 2018), not to the day; skipped rather than dated by inference.",
+  "Wave 7 pass: the 1939 Alfa Romeo 8C 2900B Lungo Spider by Touring ($19,800,000 incl. premium, RM Sotheby's Monterey) — car, price and house are published, but the sources consulted date the sale only to the two-day event (19–20 August 2016), not to the session day; skipped rather than dated by inference (the SSJ precedent).",
+  "Wave 7 pass: the first Shelby Cobra, CSX 2000 ($13,750,000 incl. premium, RM Sotheby's Monterey, 2016-08-19) — car, price, house and day are all published, but the atlas carries no Shelby marque record and the car is not a Ford; certifying it would require a marque the atlas does not have, so it is skipped rather than misattributed."
  ],
- "stage": "Stage 1 — auction results",
+ "stage": "Stage 2 — auction results, extended",
  "updatedAt": "2026-10-13",
  "version": "1.0.0"
 }

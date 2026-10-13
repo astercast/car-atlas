@@ -131,6 +131,10 @@ a conversation.
 - **Price Watch stage 1** is a static file (`data/v1/price-watch.json`,
   7 certified auction results): no function added (still 5), no
   cron, no external call. The audit above is unchanged.
+- **Wave-7 addendum (2026-10-13):** Price Watch stage 2 extended the
+  same static file to 19 certified results (waves 5 and 7 added 4 +
+  8). Still no function, no cron, no external call — the audit
+  above is unchanged.
 - **Photography:** 49 sourced photos (~13 MB) now live under
   `assets/photos/`, plus `assets/og-card.png`. They are lazy-loaded
   (`loading="lazy"`), served under the existing `/assets/*` SWR

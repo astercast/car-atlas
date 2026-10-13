@@ -319,7 +319,7 @@ async function initModel() {
         return hits.length ? `<div class="note-box"><b>Price Watch — auction results</b>
           ${hits.map((r) => `<p>${esc(r.year)} ${esc(r.model)} — sold for <b>${esc(money(r))}</b> at ${esc(r.event)}, ${esc(r.saleDate)}. <a href="${esc(r.source.url)}" target="_blank" rel="noopener">Source: ${esc(r.source.name)} ↗</a></p>`).join("")}
           <p class="small">A result is one specific car on one day — not a valuation of any other example. The full results set is on the <a href="buy.html">Buy page</a>.</p></div>`
-        : `<div class="note-box"><b>Price Watch</b><p>Stage 1 tracks certified auction results (on the <a href="buy.html">Buy page</a>); no certified result for this model yet, so none is shown. Listing aggregation and price-drop alerts remain later stages.</p></div>`;
+        : `<div class="note-box"><b>Price Watch</b><p>Price Watch tracks certified auction results (on the <a href="buy.html">Buy page</a>); no certified result for this model yet, so none is shown. Listing aggregation and price-drop alerts remain later stages.</p></div>`;
       })()}
     </section>
     <script type="application/ld+json">${JSON.stringify({
