@@ -167,7 +167,8 @@
    "status"
   ],
   "stage1": "Stage 1 shipped in wave 4 (2026-10-13): certified auction results in data/v1/price-watch.json, rendered on the Buy page and on the model pages they belong to. Listings ingest, cohorts, and alerts remain later stages.",
-  "stage2": "Stage 2 shipped in wave 7 (2026-10-13): the certified-results set extended to the same standard — 19 results in all, each sourced and day-dated, with uncertifiable candidates recorded as skips in the file rather than approximated. Stage 2 is results ingest only; the listings ingest, cohorts, and alerts remain later stages."
+  "stage2": "Stage 2 shipped in wave 7 (2026-10-13): the certified-results set extended to the same standard — 19 results in all, each sourced and day-dated, with uncertifiable candidates recorded as skips in the file rather than approximated. Stage 2 is results ingest only; the listings ingest, cohorts, and alerts remain later stages.",
+  "stage3": "Stage 3 shipped in wave 8 (2026-10-13): the certified-results set extended again to the same standard — 28 results in all, each sourced and day-dated, with one further uncertifiable candidate recorded as a skip in the file rather than approximated. Stage 3 is results ingest only; the listings ingest, cohorts, and alerts remain later stages."
  },
  "updatedAt": "2026-10-13",
  "version": "1.0.0"

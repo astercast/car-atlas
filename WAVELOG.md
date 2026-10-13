@@ -1,5 +1,96 @@
 # WAVELOG — Car Atlas
 
+## Wave 8 — Price Watch ingest stage 3: certified results 19 → 28 (2026-10-13)
+
+**Headline (named before building):** Price Watch ingest stage 3 —
+extend the certified-results set beyond the 19 stage-1/2 results
+using the stage-1 standard exactly: real auction results only, each
+sourced + day-dated, status sold; a result whose sale day cannot
+be pinned by sources is SKIPPED and recorded in the file (the SSJ
+precedent), never approximated.
+
+- **Price Watch stage 3:** **19 → 28 certified results**, each
+  certified at ingest on 2026-10-13 against a published source
+  naming car, price, house and day: the 1937 Talbot-Lago T150-C-SS
+  Teardrop Coupe, chassis 90107 ($13,425,000, Gooding & Company
+  Amelia Island, 2022-03-04); the 1955 Mercedes-Benz 300 SL Alloy
+  Gullwing, chassis 5500332 ($6,825,000, RM Sotheby's Arizona,
+  2022-01-27); the 1994 McLaren F1 'LM-Specification', chassis 018
+  ($19,805,000 incl. premium, RM Sotheby's Monterey, Friday
+  2019-08-16 — the set's one new model-level link, `modelSlug: f1`);
+  the 1939 Alfa Romeo 8C 2900B Touring Berlinetta, chassis 412024
+  (€16,745,600 incl. premium, Artcurial Rétromobile Paris, lot 20,
+  2019-02-08); the 1963 Aston Martin DP215 Grand Touring
+  Competition Prototype ($21,455,000, RM Sotheby's Monterey night
+  one, 2018-08-24); the 2017 Ferrari LaFerrari Aperta (€8,300,000
+  hammer, free of commission — charity sale, RM Sotheby's Ferrari
+  Leggenda e Passione, Maranello, single-day sale 2017-09-09);
+  the 1953 Jaguar C-Type Works Lightweight, chassis XKC 052
+  ($13,200,000, RM Sotheby's Monterey, Friday 2015-08-14); the
+  1964 Ferrari 250 LM, chassis 6105 ($17,600,000, RM Sotheby's
+  Monterey — The Pinnacle Portfolio, Thursday 2015-08-13); the
+  1968 Ford GT40 Gulf/Mirage Lightweight Racing Car, chassis
+  P/1074 ($11,000,000, RM Auctions Monterey, Friday 2012-08-17).
+  The other eight carry `modelSlug: null` — the atlas has no model
+  records for them, and none was invented; they link at make
+  level, as the earlier GTO/DBR1 records do. Results stay ordered
+  newest first and render on the Buy page (verified: 28 tiles,
+  desktop + mobile).
+- **Skipped, recorded in the file itself (1 new):** the 1960
+  Ferrari 250 GT SWB California Spider ($17,055,000 incl. premium,
+  RM Sotheby's Monterey) — car, price and house published, but
+  the sources consulted date the sale only to the three-day event
+  (15–17 August 2024), not to the day; skipped rather than dated
+  by inference (the SSJ precedent, applied exactly).
+- **What stage 3 is not:** the listings ingest + cron parked in
+  earlier roadmaps is still not built — it still needs a deploy
+  decision and its own free-tier audit. Stage 3 here is results
+  ingest only: still a static file, no function, no cron, no
+  external call. The file's `stage` field, the Buy page heading,
+  `buying.json`'s new `stage3` note, `API.md`, `GO_LIVE.md`,
+  `LIVE_CHECKLIST.md`, `COVERAGE.md` and `llms.txt` all say so in
+  the same words; counts everywhere re-derived from the data
+  (28 results; 59 / 257 / 469 / 46 unchanged).
+- **Regression: VP-0003 holds.** Build passes (schema + counts +
+  price-watch source check: "28 certified auction results";
+  59 / 257 / 469 unchanged) and re-bakes idempotently; FB markers
+  (BEGIN + END) intact in `model.html`; `fetch_deadline.js` on
+  all five content pages; both canonical files byte-identical to
+  Fleet Commons; the view-transitions CSS is untouched; llms
+  checker **PASS — 0 errors, 0 warnings** (17/17 targets). Spot
+  checks (headless Chromium, ThreadingHTTPServer, server-side
+  hang): one cold load of the 911 rendered the full live record
+  (one `<h1>`, zero page errors); hang-injected loads (porsche
+  make file held 30 s server-side) painted the baked snapshot
+  inside 1.5 s and settled in the honest terminal state —
+  snapshot + "didn't finish loading" + Retry — at 11.3 s on the
+  cleanest rep (inside the 8 s deadline / 12 s watchdog band;
+  slower reps, 14.7–15.6 s, traced to sandbox DOMContentLoaded
+  latency of 3.2–5.7 s from the known Google-Fonts tunnel, not
+  to the deadline mechanism), and Retry recovered the full live
+  record. The McLaren F1 model page now shows its new
+  LM-Specification Price Watch result live. **17/17 regression
+  checks pass, zero page errors; API smoke 9/9 across all 5
+  functions** (health reports 59 / 257 / 469 / 46). Buy
+  screenshots refreshed (repo + rotation-017 progress archive).
+- **Parked decisions (unchanged):** (1) a dedicated Ferrari
+  250 GTO model record — the photo and the make-level auction
+  results sit at make level until the owner calls it; (2) the
+  listings-ingest / cron form of Price Watch — needs a deploy
+  decision and its own free-tier audit; (3) a sitemap — lands
+  with GO_LIVE step 5.
+
+### Next waves (planned)
+
+- Living-makes breadth from the COVERAGE list (Bentley, Bugatti,
+  Genesis, MINI, Mitsubishi, Rivian, Rolls-Royce, and the rest).
+- Generation depth for the wave-2/3 models (the wave-4 icon
+  treatment, extended).
+- Remaining historic marques from the COVERAGE list (Marlin, MG
+  pre-SAIC lineage, Morgan, Opel, Saturn, Vauxhall).
+- Price Watch: further certified results to the same standard as
+  sources allow; listings ingest only alongside a deploy decision.
+
 ## Wave 7 — Price Watch ingest stage 2: certified results 11 → 19 (2026-10-13)
 
 **Headline (named before building):** Price Watch ingest stage 2 —

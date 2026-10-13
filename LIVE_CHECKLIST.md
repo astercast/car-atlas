@@ -135,6 +135,10 @@ a conversation.
   same static file to 19 certified results (waves 5 and 7 added 4 +
   8). Still no function, no cron, no external call — the audit
   above is unchanged.
+- **Wave-8 addendum (2026-10-13):** Price Watch stage 3 extended the
+  same static file to 28 certified results (wave 8 added 9). Still
+  no function, no cron, no external call — the audit above is
+  unchanged.
 - **Photography:** 49 sourced photos (~13 MB) now live under
   `assets/photos/`, plus `assets/og-card.png`. They are lazy-loaded
   (`loading="lazy"`), served under the existing `/assets/*` SWR

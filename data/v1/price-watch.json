@@ -1,5 +1,5 @@
 {
- "note": "Price Watch tracks completed auction results, not live listings. Every record below was certified at ingest against a published source naming the car, the price, the house, and the date; the source is linked on each record. Wave 4 certified 7 results (2026-10-13); wave 5 added 4 more to the same standard; wave 7 (stage 2) added 8 more — 19 certified results in all. Stage 2 extends the certified-results set only: the listings ingest described in earlier roadmaps is not built, and no listing, estimate or unsold lot appears here. Prices are historical facts about one specific car on one specific day — not asking prices, not estimates, and not a valuation of any other example. Results that could not be certified to that standard were skipped, not estimated (see skippedSources).",
+ "note": "Price Watch tracks completed auction results, not live listings. Every record below was certified at ingest against a published source naming the car, the price, the house, and the date; the source is linked on each record. Wave 4 certified 7 results (2026-10-13); wave 5 added 4 more to the same standard; wave 7 (stage 2) added 8 more; wave 8 (stage 3) added 9 more — 28 certified results in all. Stage 3 extends the certified-results set only: the listings ingest described in earlier roadmaps is not built, and no listing, estimate or unsold lot appears here. Prices are historical facts about one specific car on one specific day — not asking prices, not estimates, and not a valuation of any other example. Results that could not be certified to that standard were skipped, not estimated (see skippedSources).",
  "results": [
   {
    "currency": "EUR",
@@ -122,6 +122,40 @@
   },
   {
    "currency": "USD",
+   "event": "Gooding & Company, Amelia Island",
+   "make": "talbot-lago",
+   "makeName": "Talbot-Lago",
+   "model": "T150-C-SS Teardrop Coupe (chassis 90107)",
+   "modelSlug": null,
+   "price": 13425000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2022-03-04",
+   "source": {
+    "name": "CLASSIC.COM record of the Gooding & Company Amelia Island 2022 result",
+    "url": "https://www.classic.com/a/gooding-amelia-island-2022-kpdw0OW/lots/1937-talbot-lago-t150-c-ss-teardrop-coupe-Wk2mQgn/?page=3"
+   },
+   "status": "sold",
+   "year": 1937
+  },
+  {
+   "currency": "USD",
+   "event": "RM Sotheby's Arizona, Phoenix",
+   "make": "mercedes-benz",
+   "makeName": "Mercedes-Benz",
+   "model": "300 SL Alloy Gullwing (chassis 5500332)",
+   "modelSlug": null,
+   "price": 6825000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2022-01-27",
+   "source": {
+    "name": "CLASSIC.COM record of the RM Sotheby's Arizona 2022 result",
+    "url": "http://www.classic.com/a/rm-sothebys-arizona-2022-Z47mQOW/lots/1955-mercedes-benz-300-sl-alloy-gullwing-WxxbLxW/?page=1"
+   },
+   "status": "sold",
+   "year": 1955
+  },
+  {
+   "currency": "USD",
    "event": "Gooding & Company, Pebble Beach",
    "make": "mclaren",
    "makeName": "McLaren",
@@ -140,6 +174,40 @@
   {
    "currency": "USD",
    "event": "RM Sotheby's Monterey",
+   "make": "mclaren",
+   "makeName": "McLaren",
+   "model": "F1 'LM-Specification' (chassis 018)",
+   "modelSlug": "f1",
+   "price": 19805000,
+   "priceBasis": "Including buyer's premium",
+   "saleDate": "2019-08-16",
+   "source": {
+    "name": "CLASSIC.COM record of the RM Sotheby's Monterey 2019 result",
+    "url": "http://www.classic.com/a/rm-sothebys-monterey-2019-v4oMvWA/lots/1994-mclaren-f1-lm-specification-nlmKvQW/?page=8"
+   },
+   "status": "sold",
+   "year": 1994
+  },
+  {
+   "currency": "EUR",
+   "event": "Artcurial — Rétromobile, Paris",
+   "make": "alfa-romeo",
+   "makeName": "Alfa Romeo",
+   "model": "8C 2900B Touring Berlinetta (chassis 412024)",
+   "modelSlug": null,
+   "price": 16745600,
+   "priceBasis": "Including buyer's premium",
+   "saleDate": "2019-02-08",
+   "source": {
+    "name": "Glenmarch — record of the Artcurial Rétromobile 2019 result (lot 20, 8 February 2019)",
+    "url": "https://www.glenmarch.com/cars/results/quick/Alfa_Romeo?sort=AuctionCars.results_price&direction=desc"
+   },
+   "status": "sold",
+   "year": 1939
+  },
+  {
+   "currency": "USD",
+   "event": "RM Sotheby's Monterey",
    "make": "ferrari",
    "makeName": "Ferrari",
    "model": "250 GTO (chassis 3413 GT)",
@@ -153,6 +221,40 @@
    },
    "status": "sold",
    "year": 1962
+  },
+  {
+   "currency": "USD",
+   "event": "RM Sotheby's Monterey (night one)",
+   "make": "aston-martin",
+   "makeName": "Aston Martin",
+   "model": "DP215 Grand Touring Competition Prototype",
+   "modelSlug": null,
+   "price": 21455000,
+   "priceBasis": "As reported from the sale",
+   "saleDate": "2018-08-24",
+   "source": {
+    "name": "RM Sotheby's press release (24 Aug 2018)",
+    "url": "https://rmsothebys.com/media-center/press-releases/aston-martin-dp215-sells-for-215-million-at-rm-sotheby-s-monterey-sale-night-one/"
+   },
+   "status": "sold",
+   "year": 1963
+  },
+  {
+   "currency": "EUR",
+   "event": "RM Sotheby's — Ferrari Leggenda e Passione, Maranello",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "model": "LaFerrari Aperta (the 210th and final example)",
+   "modelSlug": null,
+   "price": 8300000,
+   "priceBasis": "Hammer price, free of commission (charity sale; proceeds donated to Save the Children)",
+   "saleDate": "2017-09-09",
+   "source": {
+    "name": "RM Sotheby's press release (11 Sep 2017, sale held 9 Sep 2017)",
+    "url": "https://rmsothebys.com/media-center/press-releases/rm-sotheby-s-achieves-an-astonishing-63m-in-maranello-as-unique-laferrari-aperta-breaks-records/"
+   },
+   "status": "sold",
+   "year": 2017
   },
   {
    "currency": "USD",
@@ -241,6 +343,40 @@
   },
   {
    "currency": "USD",
+   "event": "RM Sotheby's Monterey",
+   "make": "jaguar",
+   "makeName": "Jaguar",
+   "model": "C-Type Works Lightweight (chassis XKC 052)",
+   "modelSlug": null,
+   "price": 13200000,
+   "priceBasis": "As reported from the sale",
+   "saleDate": "2015-08-14",
+   "source": {
+    "name": "RM Sotheby's press release (14 Aug 2015)",
+    "url": "https://rmsothebys.com/media-center/press-releases/rm-sothebys-sets-record-for-a-jaguar-at-auction/"
+   },
+   "status": "sold",
+   "year": 1953
+  },
+  {
+   "currency": "USD",
+   "event": "RM Sotheby's Monterey — The Pinnacle Portfolio",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "model": "250 LM (chassis 6105)",
+   "modelSlug": null,
+   "price": 17600000,
+   "priceBasis": "As reported from the sale",
+   "saleDate": "2015-08-13",
+   "source": {
+    "name": "Autoblog — RM Sotheby's Monterey 2015 auction report (Pinnacle Portfolio, Thursday 13 Aug 2015)",
+    "url": "https://www.autoblog.com/2015/08/16/rm-sothebys-monterey-2015-auction/"
+   },
+   "status": "sold",
+   "year": 1964
+  },
+  {
+   "currency": "USD",
    "event": "RM Auctions Monterey",
    "make": "ferrari",
    "makeName": "Ferrari",
@@ -309,6 +445,23 @@
   },
   {
    "currency": "USD",
+   "event": "RM Auctions Monterey",
+   "make": "ford",
+   "makeName": "Ford",
+   "model": "GT40 Gulf/Mirage Lightweight Racing Car (chassis P/1074)",
+   "modelSlug": null,
+   "price": 11000000,
+   "priceBasis": "As reported from the sale",
+   "saleDate": "2012-08-17",
+   "source": {
+    "name": "The Gentleman Racer — RM Auctions Monterey 2012 sale report (17 Aug 2012)",
+    "url": "https://thegentlemanracer.com/2012/08/the-original-gulf-gt-brings-11-million/"
+   },
+   "status": "sold",
+   "year": 1968
+  },
+  {
+   "currency": "USD",
    "event": "Gooding & Company, Pebble Beach",
    "make": "ferrari",
    "makeName": "Ferrari",
@@ -332,9 +485,10 @@
   "Aggregator summary statistics (medians, averages) — stage 1 publishes individual certified results only; cohort statistics arrive only when they can be computed from certified records.",
   "Wave 5 pass: the 1935 Duesenberg SSJ ($22,000,000 incl. premium, Gooding & Company, Pebble Beach) — car, price and house are published, but the sources consulted date the sale only to the two-day event (24–25 August 2018), not to the day; skipped rather than dated by inference.",
   "Wave 7 pass: the 1939 Alfa Romeo 8C 2900B Lungo Spider by Touring ($19,800,000 incl. premium, RM Sotheby's Monterey) — car, price and house are published, but the sources consulted date the sale only to the two-day event (19–20 August 2016), not to the session day; skipped rather than dated by inference (the SSJ precedent).",
-  "Wave 7 pass: the first Shelby Cobra, CSX 2000 ($13,750,000 incl. premium, RM Sotheby's Monterey, 2016-08-19) — car, price, house and day are all published, but the atlas carries no Shelby marque record and the car is not a Ford; certifying it would require a marque the atlas does not have, so it is skipped rather than misattributed."
+  "Wave 7 pass: the first Shelby Cobra, CSX 2000 ($13,750,000 incl. premium, RM Sotheby's Monterey, 2016-08-19) — car, price, house and day are all published, but the atlas carries no Shelby marque record and the car is not a Ford; certifying it would require a marque the atlas does not have, so it is skipped rather than misattributed.",
+  "Wave 8 pass: the 1960 Ferrari 250 GT SWB California Spider ($17,055,000 incl. premium, RM Sotheby's Monterey) — car, price and house are published, but the sources consulted date the sale only to the three-day event (15–17 August 2024), not to the day; skipped rather than dated by inference (the SSJ precedent)."
  ],
- "stage": "Stage 2 — auction results, extended",
+ "stage": "Stage 3 — auction results, extended again",
  "updatedAt": "2026-10-13",
  "version": "1.0.0"
 }

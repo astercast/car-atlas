@@ -78,11 +78,13 @@ rotary, and hundreds more).
 
 **Buying layer:** Price Watch stage 1 shipped in wave 4 and grew
 in wave 5; stage 2 (wave 7) extended the certified set to
-19 auction results in
+19 auction results, and stage 3 (wave 8) extended it again to
+28 auction results in
 `data/v1/price-watch.json`, each with its published source, and
-recorded two further skips in the file (an Alfa Romeo 8C 2900B
-whose sale day sources do not pin, and the first Shelby Cobra,
-which has no marque record here). Still planned: listings ingest adapters for
+recorded further skips in the file (an Alfa Romeo 8C 2900B
+whose sale day sources do not pin, the first Shelby Cobra,
+which has no marque record here, and a Ferrari 250 GT SWB
+California Spider whose sale day sources do not pin). Still planned: listings ingest adapters for
 the channels in `buying.json` and cohort medians computed from
 certified records only.
 
