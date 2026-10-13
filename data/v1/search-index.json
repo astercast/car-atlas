@@ -1739,5 +1739,874 @@
   "intro": "The middle child done right: seven seats, real off-road hardware and a stepped roof you can spot a mile away. The Discovery has always been the Land Rover for families who actually leave tarmac, even if the fifth generation dresses like it doesn't.",
   "buyingClass": "new",
   "generationCount": 3
+ },
+ {
+  "type": "make",
+  "make": "lexus",
+  "slug": "lexus",
+  "name": "Lexus",
+  "country": "Japan",
+  "founded": 1989,
+  "blurb": "Toyota spent a billion dollars and five years building a Mercedes-beater in secret, then launched it in 1989 to a stunned industry. The luxury arm has been the quiet benchmark ever since — and built the LFA just to prove it could.",
+  "modelCount": 5
+ },
+ {
+  "type": "model",
+  "make": "lexus",
+  "makeName": "Lexus",
+  "slug": "ls",
+  "name": "LS",
+  "years": "1989–present",
+  "status": "In production",
+  "segment": "Full-size luxury sedan",
+  "bodyStyles": [
+   "Sedan"
+  ],
+  "intro": "The car that launched a marque. Toyota's secret Flagship One project produced a V8 saloon quieter and cheaper than a Mercedes S-Class, and German boardrooms have respected Lexus ever since.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "lexus",
+  "makeName": "Lexus",
+  "slug": "lfa",
+  "name": "LFA",
+  "years": "2010–2012",
+  "status": "Discontinued",
+  "segment": "Supercar",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "A decade in development, a carbon tub, and a Yamaha-co-developed V10 that revs to 9,000 rpm faster than an analogue tach could follow — so the dial went digital. 500 built, each at a loss.",
+  "buyingClass": "modern-classic",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "lexus",
+  "makeName": "Lexus",
+  "slug": "is",
+  "name": "IS",
+  "years": "1999–present",
+  "status": "In production",
+  "segment": "Compact luxury sedan",
+  "bodyStyles": [
+   "Sedan"
+  ],
+  "intro": "Lexus's answer to the 3 Series, sold in Japan as the Toyota Altezza — chronograph-style instruments, a jewel of a straight six, and later the V8 IS 500 as a parting gift to the segment.",
+  "buyingClass": "new",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "lexus",
+  "makeName": "Lexus",
+  "slug": "rx",
+  "name": "RX",
+  "years": "1998–present",
+  "status": "In production",
+  "segment": "Mid-size luxury crossover",
+  "bodyStyles": [
+   "SUV"
+  ],
+  "intro": "The original luxury crossover — a car-based SUV before the industry had a name for it. The RX hybrid of 2005 also made electrification a luxury feature rather than a compromise.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "lexus",
+  "makeName": "Lexus",
+  "slug": "lc",
+  "name": "LC",
+  "years": "2017–present",
+  "status": "In production",
+  "segment": "Grand tourer",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "The LF-LC concept car made production almost unchanged — a V8 grand tourer with concept-car surfacing, a ten-speed automatic, and one of the great interiors of its decade.",
+  "buyingClass": "new",
+  "generationCount": 1
+ },
+ {
+  "type": "make",
+  "make": "alfa-romeo",
+  "slug": "alfa-romeo",
+  "name": "Alfa Romeo",
+  "country": "Italy",
+  "founded": 1910,
+  "blurb": "Founded in Milan in 1910, Alfa won the first two Formula 1 world championships and employed a young Enzo Ferrari. The cars have always been emotional purchases — the Giulia Quadrifoglio is the current argument.",
+  "modelCount": 5
+ },
+ {
+  "type": "model",
+  "make": "alfa-romeo",
+  "makeName": "Alfa Romeo",
+  "slug": "giulia",
+  "name": "Giulia",
+  "years": "2016–present",
+  "status": "In production",
+  "segment": "Sports sedan",
+  "bodyStyles": [
+   "Sedan"
+  ],
+  "intro": "Project Giorgio: Alfa poached Ferrari engineers, spent billions, and produced a rear-drive sedan whose Quadrifoglio variant — with a Ferrari-derived twin-turbo V6 — reset the sports-sedan benchmark.",
+  "buyingClass": "new",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "alfa-romeo",
+  "makeName": "Alfa Romeo",
+  "slug": "stelvio",
+  "name": "Stelvio",
+  "years": "2017–present",
+  "status": "In production",
+  "segment": "Luxury crossover",
+  "bodyStyles": [
+   "SUV"
+  ],
+  "intro": "The Giulia's platform under an SUV body, named for the pass with 48 hairpins. The Quadrifoglio version held the Nürburgring SUV lap record on launch.",
+  "buyingClass": "new",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "alfa-romeo",
+  "makeName": "Alfa Romeo",
+  "slug": "spider",
+  "name": "Spider",
+  "years": "1966–1994",
+  "status": "Discontinued",
+  "segment": "Roadster",
+  "bodyStyles": [
+   "Convertible"
+  ],
+  "intro": "The Duetto: Pininfarina's round-tail roadster, Dustin Hoffman's co-star in The Graduate, and one of the longest-lived sports car designs ever — 28 years with the same basic body.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "alfa-romeo",
+  "makeName": "Alfa Romeo",
+  "slug": "8c-competizione",
+  "name": "8C Competizione",
+  "years": "2007–2010",
+  "status": "Discontinued",
+  "segment": "Grand tourer",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "A concept car Alfa actually built: carbon body over a Maserati-derived chassis with Ferrari's 4.7 V8 up front. 500 coupés, then 500 Spiders, all sold before production began.",
+  "buyingClass": "modern-classic",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "alfa-romeo",
+  "makeName": "Alfa Romeo",
+  "slug": "giulia-sprint-gt",
+  "name": "Giulia Sprint GT",
+  "years": "1963–1976",
+  "status": "Discontinued",
+  "segment": "Sports coupe",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "Bertone's stepped-nose coupé, styled by a young Giorgetto Giugiaro. The GTA variant — aluminium skin, twin-plug head — owned European touring car racing in the late 1960s.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "make",
+  "make": "aston-martin",
+  "slug": "aston-martin",
+  "name": "Aston Martin",
+  "country": "United Kingdom",
+  "founded": 1913,
+  "blurb": "Lionel Martin raced specials at Aston Clinton hill climb; the company he founded in 1913 has gone bankrupt seven times and never stopped making the definitive British GT. Bond's DB5 made it immortal.",
+  "modelCount": 5
+ },
+ {
+  "type": "model",
+  "make": "aston-martin",
+  "makeName": "Aston Martin",
+  "slug": "db5",
+  "name": "DB5",
+  "years": "1963–1965",
+  "status": "Discontinued",
+  "segment": "Grand tourer",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "The Goldfinger car — though the DB4 did the engineering, the DB5 did the immortality. Tadek Marek's twin-cam six, a ZF five-speed, and the template for every Aston since.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "aston-martin",
+  "makeName": "Aston Martin",
+  "slug": "v8-vantage",
+  "name": "V8 Vantage",
+  "years": "2005–2018",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "The Gaydon-era entry Aston: hand-assembled Jaguar-derived V8, a proper manual gearbox for most of its life, and styling that aged better than anything else in its class.",
+  "buyingClass": "modern-classic",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "aston-martin",
+  "makeName": "Aston Martin",
+  "slug": "db11",
+  "name": "DB11",
+  "years": "2016–2024",
+  "status": "Discontinued",
+  "segment": "Grand tourer",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "The first car of Aston's 'second century' plan: new bonded structure, a twin-turbo V12 of Aston's own, then an AMG V8 that many testers preferred for its lighter nose.",
+  "buyingClass": "used",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "aston-martin",
+  "makeName": "Aston Martin",
+  "slug": "dbx",
+  "name": "DBX",
+  "years": "2020–present",
+  "status": "In production",
+  "segment": "Luxury SUV",
+  "bodyStyles": [
+   "SUV"
+  ],
+  "intro": "The SUV that saved Aston Martin, built in a new Welsh factory. The DBX707 briefly held the title of most powerful production SUV in the world.",
+  "buyingClass": "new",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "aston-martin",
+  "makeName": "Aston Martin",
+  "slug": "valkyrie",
+  "name": "Valkyrie",
+  "years": "2021–present",
+  "status": "In production",
+  "segment": "Hypercar",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "Adrian Newey's road car: a Cosworth V12 revving to 11,000 rpm, a hybrid system filling the torque gaps, and downforce figures from a Formula 1 wind tunnel. 150 coupés, all spoken for.",
+  "buyingClass": "new",
+  "generationCount": 1
+ },
+ {
+  "type": "make",
+  "make": "cadillac",
+  "slug": "cadillac",
+  "name": "Cadillac",
+  "country": "United States",
+  "founded": 1902,
+  "blurb": "Henry Leland built Cadillac on interchangeable parts and precision machining in 1902. It defined American luxury for a century — tailfins, the Escalade, and a Blackwing line that out-handles the Germans.",
+  "modelCount": 4
+ },
+ {
+  "type": "model",
+  "make": "cadillac",
+  "makeName": "Cadillac",
+  "slug": "eldorado",
+  "name": "Eldorado",
+  "years": "1953–2002",
+  "status": "Discontinued",
+  "segment": "Personal luxury coupe",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "Fifty years of America's idea of luxury, from the hand-built 1953 convertible through the tallest tailfins ever fitted to a production car, to the final front-drive coupé of 2002.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "cadillac",
+  "makeName": "Cadillac",
+  "slug": "escalade",
+  "name": "Escalade",
+  "years": "1999–present",
+  "status": "In production",
+  "segment": "Full-size luxury SUV",
+  "bodyStyles": [
+   "SUV"
+  ],
+  "intro": "A Yukon Denali in a tuxedo that became a cultural fixture — and Cadillac's profit engine. The current car added a 38-inch curved OLED and a 682 hp V-Series.",
+  "buyingClass": "new",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "cadillac",
+  "makeName": "Cadillac",
+  "slug": "cts-v",
+  "name": "CTS-V",
+  "years": "2004–2019",
+  "status": "Discontinued",
+  "segment": "Sports sedan",
+  "bodyStyles": [
+   "Sedan",
+   "Coupe",
+   "Wagon"
+  ],
+  "intro": "Corvette engines in a Cadillac sedan, three generations running. The second-gen wagon with a manual gearbox is one of the most collectible American cars of the 2010s.",
+  "buyingClass": "modern-classic",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "cadillac",
+  "makeName": "Cadillac",
+  "slug": "ct5-v-blackwing",
+  "name": "CT5-V Blackwing",
+  "years": "2022–present",
+  "status": "In production",
+  "segment": "Sports sedan",
+  "bodyStyles": [
+   "Sedan"
+  ],
+  "intro": "The last of its kind: a supercharged V8, rear-wheel drive, and a six-speed manual with no-lift shift, in a segment that went hybrid and all-wheel drive. Cadillac kept it in production because demand refused to die.",
+  "buyingClass": "new",
+  "generationCount": 1
+ },
+ {
+  "type": "make",
+  "make": "dodge",
+  "slug": "dodge",
+  "name": "Dodge",
+  "country": "United States",
+  "founded": 1900,
+  "blurb": "The Dodge brothers started as machinists supplying Ford before building their own car in 1914. The modern brand distilled itself to one idea — horsepower, cheap — and the Hellcat era was its glorious peak.",
+  "modelCount": 4
+ },
+ {
+  "type": "model",
+  "make": "dodge",
+  "makeName": "Dodge",
+  "slug": "charger",
+  "name": "Charger",
+  "years": "1966–present",
+  "status": "In production",
+  "segment": "Muscle car",
+  "bodyStyles": [
+   "Coupe",
+   "Sedan"
+  ],
+  "intro": "From the 1968 car that defined the muscle silhouette, through two decades as a four-door sedan with Hellcat power, to the electric-and-six-cylinder Charger of 2024 — the nameplate keeps reinventing the same idea.",
+  "buyingClass": "new",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "dodge",
+  "makeName": "Dodge",
+  "slug": "challenger",
+  "name": "Challenger",
+  "years": "1970–2023",
+  "status": "Discontinued",
+  "segment": "Muscle car",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "Late to the pony-car fight in 1970, gone by 1974, then reborn in 2008 as a full-size retro coupé that outlived its rivals — and ended with the 840 hp Demon and the 1,025 hp Demon 170.",
+  "buyingClass": "used",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "dodge",
+  "makeName": "Dodge",
+  "slug": "viper",
+  "name": "Viper",
+  "years": "1992–2017",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "A V10, a tube frame, and no apology: no ABS, no traction control, no side windows on the first cars. Five generations of America's most honest sports car.",
+  "buyingClass": "modern-classic",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "dodge",
+  "makeName": "Dodge",
+  "slug": "durango",
+  "name": "Durango",
+  "years": "1998–present",
+  "status": "In production",
+  "segment": "Full-size SUV",
+  "bodyStyles": [
+   "SUV"
+  ],
+  "intro": "Three rows and a Hemi for most of its life. The SRT Hellcat version — 710 hp, briefly the most powerful production SUV in the world — turned the school run into a drag strip.",
+  "buyingClass": "new",
+  "generationCount": 1
+ },
+ {
+  "type": "make",
+  "make": "gmc",
+  "slug": "gmc",
+  "name": "GMC",
+  "country": "United States",
+  "founded": 1911,
+  "blurb": "GM's truck-only division since 1911. GMC sells the same bones as Chevrolet trucks with a premium brief — Denali became a luxury brand inside the brand, and the Hummer EV gave it an electric halo.",
+  "modelCount": 4
+ },
+ {
+  "type": "model",
+  "make": "gmc",
+  "makeName": "GMC",
+  "slug": "sierra-1500",
+  "name": "Sierra 1500",
+  "years": "1999–present",
+  "status": "In production",
+  "segment": "Full-size pickup",
+  "bodyStyles": [
+   "Pickup"
+  ],
+  "intro": "Chevrolet's Silverado with a premium brief — and in Denali form, the truck that taught American luxury buyers to shop at a GMC store. C/K pickups carried the lineage before the Sierra name took over.",
+  "buyingClass": "new",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "gmc",
+  "makeName": "GMC",
+  "slug": "yukon",
+  "name": "Yukon",
+  "years": "1992–present",
+  "status": "In production",
+  "segment": "Full-size SUV",
+  "bodyStyles": [
+   "SUV"
+  ],
+  "intro": "The Tahoe's plusher twin since 1992. Yukon Denali became so dominant that 'Denali' is effectively GMC's luxury sub-brand, and the current XL is a genuine Escalade alternative.",
+  "buyingClass": "new",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "gmc",
+  "makeName": "GMC",
+  "slug": "hummer-ev",
+  "name": "Hummer EV",
+  "years": "2022–present",
+  "status": "In production",
+  "segment": "Electric off-roader",
+  "bodyStyles": [
+   "Pickup",
+   "SUV"
+  ],
+  "intro": "The Hummer name reborn as a 4-tonne electric flagship: three motors, 1,000 hp, four-wheel steering with CrabWalk, and an open-air roof. Absurd, deliberate, and a genuine halo.",
+  "buyingClass": "new",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "gmc",
+  "makeName": "GMC",
+  "slug": "syclone",
+  "name": "Syclone",
+  "years": "1991",
+  "status": "Discontinued",
+  "segment": "Sport truck",
+  "bodyStyles": [
+   "Pickup"
+  ],
+  "intro": "A turbocharged, all-wheel-drive S-10 that out-accelerated a Ferrari 348 in a famous 1991 comparison test. 2,995 built, all black, and the original American sport truck.",
+  "buyingClass": "modern-classic",
+  "generationCount": 1
+ },
+ {
+  "type": "make",
+  "make": "kia",
+  "slug": "kia",
+  "name": "Kia",
+  "country": "South Korea",
+  "founded": 1944,
+  "blurb": "Korea's oldest carmaker spent decades as the budget option, then hired Peter Schreyer from Audi in 2006 and redesigned everything. The Stinger, Telluride, and EV6 are what the turnaround produced.",
+  "modelCount": 4
+ },
+ {
+  "type": "model",
+  "make": "kia",
+  "makeName": "Kia",
+  "slug": "stinger",
+  "name": "Stinger",
+  "years": "2018–2023",
+  "status": "Discontinued",
+  "segment": "Sports sedan",
+  "bodyStyles": [
+   "Sedan"
+  ],
+  "intro": "Kia's gran turismo: rear-drive, a twin-turbo V6, and chassis tuning by BMW M's former engineering chief Albert Biermann. It never sold like a 4 Series — which is why the good ones are bargains.",
+  "buyingClass": "used",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "kia",
+  "makeName": "Kia",
+  "slug": "ev6",
+  "name": "EV6",
+  "years": "2021–present",
+  "status": "In production",
+  "segment": "Electric crossover",
+  "bodyStyles": [
+   "Crossover"
+  ],
+  "intro": "The E-GMP skateboard in a shooting-brake suit: 800-volt charging, a European Car of the Year trophy, and a GT flagship with 576 hp that embarrassed supercars at drag strips.",
+  "buyingClass": "new",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "kia",
+  "makeName": "Kia",
+  "slug": "telluride",
+  "name": "Telluride",
+  "years": "2020–present",
+  "status": "In production",
+  "segment": "Mid-size SUV",
+  "bodyStyles": [
+   "SUV"
+  ],
+  "intro": "The three-row that swept the 2020 awards — World Car of the Year, MotorTrend SUV of the Year, North American Utility of the Year — by being honest, handsome, and priced under the Germans it out-finished.",
+  "buyingClass": "new",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "kia",
+  "makeName": "Kia",
+  "slug": "soul",
+  "name": "Soul",
+  "years": "2009–2025",
+  "status": "Discontinued",
+  "segment": "Compact crossover",
+  "bodyStyles": [
+   "Hatchback"
+  ],
+  "intro": "The box the hamsters sold: a tall hatchback with genuine design wit that became Kia's American breakthrough car. Three generations over 16 years before the market moved to crossovers proper.",
+  "buyingClass": "used",
+  "generationCount": 2
+ },
+ {
+  "type": "make",
+  "make": "lotus",
+  "slug": "lotus",
+  "name": "Lotus",
+  "country": "United Kingdom",
+  "founded": 1948,
+  "blurb": "Colin Chapman's doctrine — simplify, then add lightness — won seven Formula 1 constructors' titles and defined the British sports car. Now Geely-owned and electric-bound, with the Emira as the last petrol farewell.",
+  "modelCount": 5
+ },
+ {
+  "type": "model",
+  "make": "lotus",
+  "makeName": "Lotus",
+  "slug": "elan",
+  "name": "Elan",
+  "years": "1962–1975",
+  "status": "Discontinued",
+  "segment": "Roadster",
+  "bodyStyles": [
+   "Convertible",
+   "Coupe"
+  ],
+  "intro": "The definitive Chapman road car: a steel backbone chassis, fibreglass body, twin-cam power, and 675 kg. The Elan's steering feel is still the reference other roadsters are measured against — Mazda benchmarked it for the MX-5.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "lotus",
+  "makeName": "Lotus",
+  "slug": "esprit",
+  "name": "Esprit",
+  "years": "1976–2004",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "Giugiaro's wedge, Bond's submarine, and 28 years of evolution from a 160 hp four to a twin-turbo V8. The last hand-built Lotus flagship and a study in keeping one design alive.",
+  "buyingClass": "modern-classic",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "lotus",
+  "makeName": "Lotus",
+  "slug": "elise",
+  "name": "Elise",
+  "years": "1996–2021",
+  "status": "Discontinued",
+  "segment": "Roadster",
+  "bodyStyles": [
+   "Convertible"
+  ],
+  "intro": "The car that saved Lotus, named for Romano Artioli's granddaughter. A bonded aluminium tub at 725 kg proved in 1996 that lightness, not power, was the way back.",
+  "buyingClass": "modern-classic",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "lotus",
+  "makeName": "Lotus",
+  "slug": "emira",
+  "name": "Emira",
+  "years": "2022–present",
+  "status": "In production",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "The last petrol Lotus: AMG's turbo four or Toyota's supercharged V6, hydraulic steering feel, and supercar surfacing at sports-car money. A farewell written with unusual care.",
+  "buyingClass": "new",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "lotus",
+  "makeName": "Lotus",
+  "slug": "evija",
+  "name": "Evija",
+  "years": "2020–present",
+  "status": "In production",
+  "segment": "Electric hypercar",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "Lotus's electric reset: four motors, a 2,000 PS target, and Venturi tunnels through the rear bodywork. Eight customer cars a year make it the rarest thing Hethel has built.",
+  "buyingClass": "new",
+  "generationCount": 1
+ },
+ {
+  "type": "make",
+  "make": "maserati",
+  "slug": "maserati",
+  "name": "Maserati",
+  "country": "Italy",
+  "founded": 1914,
+  "blurb": "Six brothers from Bologna, a trident borrowed from a Neptune statue, and a century of racing and grand touring. Maserati has lived under Citroën, De Tomaso, Ferrari, and now Stellantis — the cars kept their opera regardless.",
+  "modelCount": 6
+ },
+ {
+  "type": "model",
+  "make": "maserati",
+  "makeName": "Maserati",
+  "slug": "ghibli-am115",
+  "name": "Ghibli (AM115)",
+  "years": "1967–1973",
+  "status": "Discontinued",
+  "segment": "Grand tourer",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "Giugiaro's masterpiece for Ghia: a long-bonnet GT with a quad-cam V8 and the longest, lowest silhouette of its era. The SS with the 4.9 is the one that matters.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "maserati",
+  "makeName": "Maserati",
+  "slug": "ghibli-m157",
+  "name": "Ghibli (M157)",
+  "years": "2013–2024",
+  "status": "Discontinued",
+  "segment": "Luxury sports sedan",
+  "bodyStyles": [
+   "Sedan"
+  ],
+  "intro": "The modern Ghibli took the fight to the 5 Series with Ferrari-built twin-turbo engines and proper Italian drama. The Trofeo's 580 hp V8 made it a Q-car of the first order.",
+  "buyingClass": "used",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "maserati",
+  "makeName": "Maserati",
+  "slug": "quattroporte",
+  "name": "Quattroporte",
+  "years": "1963–2024",
+  "status": "Discontinued",
+  "segment": "Luxury sports sedan",
+  "bodyStyles": [
+   "Sedan"
+  ],
+  "intro": "The original sports saloon: Maserati put racing V8s in four-door bodies in 1963 and kept the nameplate alive for six generations until 2024.",
+  "buyingClass": "used",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "maserati",
+  "makeName": "Maserati",
+  "slug": "granturismo",
+  "name": "GranTurismo",
+  "years": "2007–present",
+  "status": "In production",
+  "segment": "Grand tourer",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "Pininfarina's long-lived GT defined Maserati for a decade with a Ferrari V8; the second generation returned in 2023 with the Nettuno V6 and an all-electric Folgore flagship.",
+  "buyingClass": "new",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "maserati",
+  "makeName": "Maserati",
+  "slug": "mc12",
+  "name": "MC12",
+  "years": "2004–2005",
+  "status": "Discontinued",
+  "segment": "Supercar",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "Maserati's return to racing, built on the Enzo's bones to homologate a GT1 car. Bigger, rarer, and in race trim far more successful than the Ferrari it came from — five FIA GT titles.",
+  "buyingClass": "modern-classic",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "maserati",
+  "makeName": "Maserati",
+  "slug": "mc20",
+  "name": "MC20",
+  "years": "2021–present",
+  "status": "In production",
+  "segment": "Supercar",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "The Trident's clean-sheet supercar: a carbon tub, butterfly doors, and the Nettuno V6 with F1-style pre-chamber ignition — Maserati's own engine again, at last.",
+  "buyingClass": "new",
+  "generationCount": 1
+ },
+ {
+  "type": "make",
+  "make": "mclaren",
+  "slug": "mclaren",
+  "name": "McLaren",
+  "country": "United Kingdom",
+  "founded": 1963,
+  "blurb": "Bruce McLaren founded his race team in 1963; the road-car arm's first effort, the 1992 F1, is still the fastest naturally aspirated production car ever made. Everything since chases that standard in carbon fibre.",
+  "modelCount": 5
+ },
+ {
+  "type": "model",
+  "make": "mclaren",
+  "makeName": "McLaren",
+  "slug": "f1",
+  "name": "F1",
+  "years": "1992–1998",
+  "status": "Discontinued",
+  "segment": "Supercar",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "Gordon Murray's manifesto: a BMW V12, a carbon monocoque, a central driving seat, gold foil in the engine bay, and no turbos, no four-wheel drive, no compromise. Still the fastest naturally aspirated production car ever built.",
+  "buyingClass": "modern-classic",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "mclaren",
+  "makeName": "McLaren",
+  "slug": "p1",
+  "name": "P1",
+  "years": "2013–2015",
+  "status": "Discontinued",
+  "segment": "Hybrid hypercar",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "The hybrid holy-trinity car from Woking: a twin-turbo V8 plus an electric motor filling every torque gap, active aero, and a Race mode that drops the car 50 mm. 375 built.",
+  "buyingClass": "modern-classic",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "mclaren",
+  "makeName": "McLaren",
+  "slug": "720s",
+  "name": "720S",
+  "years": "2017–2023",
+  "status": "Discontinued",
+  "segment": "Supercar",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "The second-generation Super Series car that humiliated everything at the drag strip: lighter, faster, and more usable than the class it redefined. Replaced by the 750S.",
+  "buyingClass": "used",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "mclaren",
+  "makeName": "McLaren",
+  "slug": "senna",
+  "name": "Senna",
+  "years": "2018–2019",
+  "status": "Discontinued",
+  "segment": "Track hypercar",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "Named for Ayrton, built for lap time: 800 kg of downforce, a door you can see the road through, and styling dictated entirely by the wind. 500 cars, all sold before the reveal.",
+  "buyingClass": "modern-classic",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "mclaren",
+  "makeName": "McLaren",
+  "slug": "artura",
+  "name": "Artura",
+  "years": "2022–present",
+  "status": "In production",
+  "segment": "Hybrid supercar",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "McLaren's reset: an all-new carbon architecture, a 120-degree V6 hybrid, and the electric-only running a supercar needs for the 2020s. The Spider is the pick of the range.",
+  "buyingClass": "new",
+  "generationCount": 1
  }
 ]

@@ -1,0 +1,216 @@
+{
+  "make": "maserati",
+  "models": [
+    {
+      "bodyStyles": [
+        "Coupe",
+        "Convertible"
+      ],
+      "buyingClass": "vintage",
+      "collectorNote": "Spyder conversions pollute the market — verify against factory records. A documented SS coupé is the blue-chip Maserati of the era.",
+      "generations": [
+        {
+          "code": "AM115",
+          "name": "Ghibli / Ghibli SS",
+          "note": "Dry-sump V8, pop-up lamps, and steel or alloy bodies. Faster in a straight line than a Daytona, more relaxed everywhere else — the connoisseur's Italian GT.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "4.7L / 4.9L V8",
+            "power": "306–335 hp"
+          },
+          "years": "1967–1973"
+        }
+      ],
+      "intro": "Giugiaro's masterpiece for Ghia: a long-bonnet GT with a quad-cam V8 and the longest, lowest silhouette of its era. The SS with the 4.9 is the one that matters.",
+      "name": "Ghibli (AM115)",
+      "segment": "Grand tourer",
+      "slug": "ghibli-am115",
+      "status": "Discontinued",
+      "trims": [
+        "Ghibli",
+        "Ghibli SS",
+        "Ghibli Spyder"
+      ],
+      "years": "1967–1973"
+    },
+    {
+      "bodyStyles": [
+        "Sedan"
+      ],
+      "buyingClass": "used",
+      "collectorNote": "Depreciation did the first owners no favours and buyers every favour. Trofeos are rare and holding; V6 cars want timing-chain and service-history scrutiny.",
+      "generations": [
+        {
+          "code": "M157",
+          "name": "Ghibli / Trofeo",
+          "note": "Chrysler-era platform, Ferrari F160 V6 built in Maranello, and ZF eight-speed. The 2020 Trofeo added the F154 V8 and a Corsa mode — the last V8 Maserati sedan.",
+          "spec": {
+            "drivetrain": "RWD / AWD",
+            "engine": "3.0L twin-turbo V6 / 3.8L twin-turbo V8",
+            "power": "345–580 hp"
+          },
+          "years": "2013–2024"
+        }
+      ],
+      "intro": "The modern Ghibli took the fight to the 5 Series with Ferrari-built twin-turbo engines and proper Italian drama. The Trofeo's 580 hp V8 made it a Q-car of the first order.",
+      "name": "Ghibli (M157)",
+      "segment": "Luxury sports sedan",
+      "slug": "ghibli-m157",
+      "status": "Discontinued",
+      "trims": [
+        "Ghibli",
+        "Ghibli S",
+        "Ghibli Modena",
+        "Ghibli Trofeo"
+      ],
+      "years": "2013–2024"
+    },
+    {
+      "bodyStyles": [
+        "Sedan"
+      ],
+      "buyingClass": "used",
+      "generations": [
+        {
+          "code": "Series I",
+          "name": "Quattroporte I",
+          "note": "Frua styling, a 260 hp V8 from the 450S racing programme's family, and 170+ mph ambitions in a limousine body. The car that invented the genre AMG now owns.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "4.1L V8",
+            "power": "256 hp"
+          },
+          "years": "1963–1966"
+        },
+        {
+          "code": "M156",
+          "name": "Quattroporte VI",
+          "note": "The final Quattroporte: Ghibli's bigger brother with a Ferrari-built 3.8 V8 in the GTS and Trofeo. Ended in 2024 with the Ultima celebrations.",
+          "spec": {
+            "drivetrain": "RWD / AWD",
+            "engine": "3.0L twin-turbo V6 / 3.8L twin-turbo V8",
+            "power": "404–580 hp"
+          },
+          "years": "2013–2024"
+        }
+      ],
+      "intro": "The original sports saloon: Maserati put racing V8s in four-door bodies in 1963 and kept the nameplate alive for six generations until 2024.",
+      "name": "Quattroporte",
+      "segment": "Luxury sports sedan",
+      "slug": "quattroporte",
+      "status": "Discontinued",
+      "trims": [
+        "Quattroporte",
+        "Quattroporte S",
+        "Quattroporte GTS",
+        "Quattroporte Trofeo"
+      ],
+      "years": "1963–2024"
+    },
+    {
+      "bodyStyles": [
+        "Coupe"
+      ],
+      "buyingClass": "new",
+      "generations": [
+        {
+          "code": "M145",
+          "name": "GranTurismo",
+          "note": "The 4.7 in the S and MC Stradale is the soundtrack car — one of the great production V8 exhaust notes, wrapped in the era's prettiest coupé body.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "4.2L / 4.7L V8",
+            "power": "399–454 hp"
+          },
+          "years": "2007–2019"
+        },
+        {
+          "code": "M189",
+          "name": "GranTurismo Modena / Folgore",
+          "note": "One body, two cars: the Nettuno twin-turbo V6 (542 hp in Trofeo form) or the tri-motor Folgore EV with 800-volt architecture and 751 hp.",
+          "spec": {
+            "drivetrain": "RWD / AWD",
+            "engine": "3.0L twin-turbo V6 / tri-motor EV",
+            "power": "483–751 hp"
+          },
+          "years": "2023–present"
+        }
+      ],
+      "intro": "Pininfarina's long-lived GT defined Maserati for a decade with a Ferrari V8; the second generation returned in 2023 with the Nettuno V6 and an all-electric Folgore flagship.",
+      "name": "GranTurismo",
+      "segment": "Grand tourer",
+      "slug": "granturismo",
+      "status": "In production",
+      "trims": [
+        "GranTurismo",
+        "GranTurismo S",
+        "MC Stradale",
+        "GranTurismo Trofeo",
+        "GranTurismo Folgore"
+      ],
+      "years": "2007–present"
+    },
+    {
+      "bodyStyles": [
+        "Coupe",
+        "Convertible"
+      ],
+      "buyingClass": "modern-classic",
+      "collectorNote": "Fifty cars and no casual market — MC12s lead Maserati values at auction, and provenance documentation is the entire conversation.",
+      "generations": [
+        {
+          "code": "MC12",
+          "name": "MC12 Stradale",
+          "note": "50 road cars, all in white over blue. The race Corsa took the longer nose, the wins, and the mythology.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "6.0L V12",
+            "power": "621 hp"
+          },
+          "years": "2004–2005"
+        }
+      ],
+      "intro": "Maserati's return to racing, built on the Enzo's bones to homologate a GT1 car. Bigger, rarer, and in race trim far more successful than the Ferrari it came from — five FIA GT titles.",
+      "name": "MC12",
+      "segment": "Supercar",
+      "slug": "mc12",
+      "status": "Discontinued",
+      "trims": [
+        "MC12 Stradale",
+        "MC12 Versione Corse"
+      ],
+      "years": "2004–2005"
+    },
+    {
+      "bodyStyles": [
+        "Coupe",
+        "Convertible"
+      ],
+      "buyingClass": "new",
+      "generations": [
+        {
+          "code": "MC20",
+          "name": "MC20 / Cielo",
+          "note": "621 hp from 3.0 litres, a Dallara-developed tub at 1,500 kg, and no hybrid hardware. The Cielo spyder adds a retractable glass roof; the GT2 Stradale sharpens it for the road.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "3.0L twin-turbo V6 (Nettuno)",
+            "power": "621–630 hp"
+          },
+          "years": "2021–present"
+        }
+      ],
+      "intro": "The Trident's clean-sheet supercar: a carbon tub, butterfly doors, and the Nettuno V6 with F1-style pre-chamber ignition — Maserati's own engine again, at last.",
+      "name": "MC20",
+      "segment": "Supercar",
+      "slug": "mc20",
+      "status": "In production",
+      "trims": [
+        "MC20",
+        "MC20 Cielo",
+        "MC20 GT2 Stradale"
+      ],
+      "years": "2021–present"
+    }
+  ]
+}

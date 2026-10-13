@@ -25,8 +25,43 @@ working track only) and a flagship first build shipped:
 
 ### Next waves (planned)
 
-- Wave 2: +10 living makes (Lexus, Alfa Romeo, Aston Martin, Cadillac,
-  Dodge, GMC, Kia, Lotus, Maserati, McLaren); clubs chapter data begins.
+- Wave 3: historic marques batch 1 (DeLorean, Duesenberg, Packard,
+  Saab, Studebaker, Tucker, AMC, Pontiac, Oldsmobile, Plymouth).
+- Wave 4: full generation depth for the 911, Corvette, Mustang, and
+  Land Cruiser; Price Watch ingest stage 1 (auction results).
+
+## Wave 2 — Breadth: ten living makes + clubs chapters begin (2026-10-12)
+
+Executed the wave-1 roadmap's first item at flagship scale:
+
+- **Encyclopedia:** 20 → **30 makes**, 92 → **139 models**,
+  229 → **299 generations**. The ten roadmap makes (Lexus, Alfa
+  Romeo, Aston Martin, Cadillac, Dodge, GMC, Kia, Lotus, Maserati,
+  McLaren) arrive with 47 models in the house format — landmark
+  generations, flagship specs, collector notes where the market
+  demands them (LFA, McLaren F1, Charger, Viper, Elise, MC12…).
+  Every spec is standard published data for the car in question,
+  hedged with a range or omitted where figures vary by market —
+  no invented numbers, per the house rule.
+- **Clubs:** 22 → **28 entries**, and chapter-level data begins:
+  two regional chapters with their own calendars (SCCA San
+  Francisco Region, PCA Golden Gate Region) plus marque clubs for
+  four of the new makes (AROC-USA, Cadillac & LaSalle Club,
+  Lotus Ltd., Maserati Club UK). The registry's `regions` list is
+  now derived from the entries themselves, so it can't drift.
+- **Honesty fixes:** COVERAGE.md updated to the new counts and the
+  seeded/planned split; clubs.json note now says chapters have
+  begun rather than promising them later; the homepage "Clubs
+  seeded" stat was hardcoded at 22 in `index.html` — it is now
+  read from `clubs.json` at runtime like the other three stats,
+  so it cannot go stale again.
+- **Validation:** `scripts/build.py` passes (schema + regenerated
+  search index). Screenshot script extended: desktop shots for a
+  new make (Lexus) and model (LFA), clubs page, and mobile-viewport
+  hero + model shots — zero console/page errors.
+
+### Next waves (planned)
+
 - Wave 3: historic marques batch 1 (DeLorean, Duesenberg, Packard,
   Saab, Studebaker, Tucker, AMC, Pontiac, Oldsmobile, Plymouth).
 - Wave 4: full generation depth for the 911, Corvette, Mustang, and

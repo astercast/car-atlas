@@ -5,28 +5,32 @@ and tens of thousands of models, so coverage ships in waves and this
 file is the honest ledger. If a car isn't listed here as seeded, it
 isn't in the atlas — no silent gaps dressed up as completeness.
 
-## Wave 1 — seeded (2026-10-12)
+## Seeded (waves 1–2, 2026-10-12)
 
-**20 makes, 92 models, 229 generations** (exact counts are printed
+**30 makes, 139 models, 299 generations** (exact counts are printed
 by `scripts/build.py` and shown in the homepage stats strip).
 
-Makes: Toyota, Honda, Nissan, Mazda, Subaru, Hyundai, Ford, Chevrolet,
-Jeep, Tesla, BMW, Mercedes-Benz, Porsche, Volkswagen, Audi, Ferrari,
-Lamborghini, Volvo, Jaguar, Land Rover.
+Wave 1 makes: Toyota, Honda, Nissan, Mazda, Subaru, Hyundai, Ford,
+Chevrolet, Jeep, Tesla, BMW, Mercedes-Benz, Porsche, Volkswagen,
+Audi, Ferrari, Lamborghini, Volvo, Jaguar, Land Rover.
+
+Wave 2 makes: Lexus, Alfa Romeo, Aston Martin, Cadillac, Dodge, GMC,
+Kia, Lotus, Maserati, McLaren (47 models, 70 generations).
 
 For each seeded make: its most significant models, with 1–3 landmark
 generations each and flagship specs. Depth first; breadth follows.
 
-Also seeded: 22 clubs/networks (national level), 13 buying channels,
+Also seeded: 28 clubs/networks — national level for most marques,
+with chapter-level entries (regional chapters with their own
+calendars) beginning in wave 2 — plus 13 buying channels and
 4 buying classes.
 
 ## Not yet covered — the roadmap
 
-**Makes, next waves (living):** Abarth, Alfa Romeo, Aston Martin,
-Bentley, Bugatti, Cadillac, Citroën, Dodge, DS, Fiat, Genesis, GMC,
-Infiniti, Isuzu, Kia, Koenigsegg, Lexus, Lotus, Lucid, Maserati,
-McLaren, MINI, Mitsubishi, Pagani, Peugeot, Polestar, Ram, Renault,
-Rimac, Rivian, Rolls-Royce, SEAT, Škoda, Smart, Spyker, Suzuki.
+**Makes, next waves (living):** Abarth, Bentley, Bugatti, Citroën,
+DS, Fiat, Genesis, Infiniti, Isuzu, Koenigsegg, Lucid, MINI,
+Mitsubishi, Pagani, Peugeot, Polestar, Ram, Renault, Rimac, Rivian,
+Rolls-Royce, SEAT, Škoda, Smart, Spyker, Suzuki.
 
 **Makes (historic/defunct — the "ever made" promise demands them):**
 AMC, Austin, Austin-Healey, Borgward, Cord, DeLorean, De Tomaso,

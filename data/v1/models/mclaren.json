@@ -1,0 +1,160 @@
+{
+  "make": "mclaren",
+  "models": [
+    {
+      "bodyStyles": [
+        "Coupe"
+      ],
+      "buyingClass": "modern-classic",
+      "collectorNote": "The centre of the modern collector market — eight-figure prices are the norm and the best cars trade privately. The atlas records the fact plainly: this is the benchmark supercar.",
+      "generations": [
+        {
+          "code": "F1",
+          "name": "F1 / F1 LM / F1 GTR",
+          "note": "106 cars including racers; the GTR won Le Mans outright in 1995 against prototypes. Road cars reached 240 mph with the rev limiter raised. Nothing before or since aimed so high with so little weight.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "6.1L V12 (BMW S70/2)",
+            "power": "618 hp"
+          },
+          "years": "1992–1998"
+        }
+      ],
+      "intro": "Gordon Murray's manifesto: a BMW V12, a carbon monocoque, a central driving seat, gold foil in the engine bay, and no turbos, no four-wheel drive, no compromise. Still the fastest naturally aspirated production car ever built.",
+      "name": "F1",
+      "segment": "Supercar",
+      "slug": "f1",
+      "status": "Discontinued",
+      "trims": [
+        "F1",
+        "F1 LM",
+        "F1 GT",
+        "F1 GTR"
+      ],
+      "years": "1992–1998"
+    },
+    {
+      "bodyStyles": [
+        "Coupe"
+      ],
+      "buyingClass": "modern-classic",
+      "collectorNote": "Battery health is the whole used conversation — McLaren's upgraded pack is the value-preserving fix. Values track the LaFerrari and 918 a step behind, which buyers call opportunity.",
+      "generations": [
+        {
+          "code": "P1",
+          "name": "P1 / P1 GTR",
+          "note": "903 hp combined and sub-7 minutes at the Nürburgring that McLaren famously never published a time for. The track-only GTR and the Lanzante road conversions are the extended universe.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "3.8L twin-turbo V8 + e-motor",
+            "power": "903 hp"
+          },
+          "years": "2013–2015"
+        }
+      ],
+      "intro": "The hybrid holy-trinity car from Woking: a twin-turbo V8 plus an electric motor filling every torque gap, active aero, and a Race mode that drops the car 50 mm. 375 built.",
+      "name": "P1",
+      "segment": "Hybrid hypercar",
+      "slug": "p1",
+      "status": "Discontinued",
+      "trims": [
+        "P1",
+        "P1 GTR"
+      ],
+      "years": "2013–2015"
+    },
+    {
+      "bodyStyles": [
+        "Coupe",
+        "Convertible"
+      ],
+      "buyingClass": "used",
+      "collectorNote": "Depreciation made the 720S the performance bargain of the decade. Accumulators and warranty status decide individual cars; the 765LT never got the memo and holds firm.",
+      "generations": [
+        {
+          "code": "720S",
+          "name": "720S / 765LT",
+          "note": "The 4.0 V8 and a carbon MonoCage II at 1,283 kg dry. The 765LT longtail — 765 PS, 80 kg lighter, shorter gearing — is the modern McLaren to keep.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "4.0L twin-turbo V8",
+            "power": "710–755 hp"
+          },
+          "years": "2017–2023"
+        }
+      ],
+      "intro": "The second-generation Super Series car that humiliated everything at the drag strip: lighter, faster, and more usable than the class it redefined. Replaced by the 750S.",
+      "name": "720S",
+      "segment": "Supercar",
+      "slug": "720s",
+      "status": "Discontinued",
+      "trims": [
+        "720S",
+        "720S Spider",
+        "765LT",
+        "765LT Spider"
+      ],
+      "years": "2017–2023"
+    },
+    {
+      "bodyStyles": [
+        "Coupe"
+      ],
+      "buyingClass": "modern-classic",
+      "generations": [
+        {
+          "code": "Senna",
+          "name": "Senna",
+          "note": "The brief was the fastest McLaren around any circuit, road-legal or not. Active aero front and rear, RaceActive chassis, and a 789 hp tune of the 4.0 V8.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "4.0L twin-turbo V8",
+            "power": "789 hp"
+          },
+          "years": "2018–2019"
+        }
+      ],
+      "intro": "Named for Ayrton, built for lap time: 800 kg of downforce, a door you can see the road through, and styling dictated entirely by the wind. 500 cars, all sold before the reveal.",
+      "name": "Senna",
+      "segment": "Track hypercar",
+      "slug": "senna",
+      "status": "Discontinued",
+      "trims": [
+        "Senna",
+        "Senna GTR",
+        "Senna LM"
+      ],
+      "years": "2018–2019"
+    },
+    {
+      "bodyStyles": [
+        "Coupe",
+        "Convertible"
+      ],
+      "buyingClass": "new",
+      "generations": [
+        {
+          "code": "Artura",
+          "name": "Artura / Artura Spider",
+          "note": "The V6 and e-motor combine for 671 hp at launch (more after the 2025 update, retrofitted free to early cars). MCLA tub, hydraulic steering kept — character intact.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "3.0L twin-turbo V6 hybrid",
+            "power": "671–680 hp"
+          },
+          "years": "2022–present"
+        }
+      ],
+      "intro": "McLaren's reset: an all-new carbon architecture, a 120-degree V6 hybrid, and the electric-only running a supercar needs for the 2020s. The Spider is the pick of the range.",
+      "name": "Artura",
+      "segment": "Hybrid supercar",
+      "slug": "artura",
+      "status": "In production",
+      "trims": [
+        "Artura",
+        "Artura Spider"
+      ],
+      "years": "2022–present"
+    }
+  ]
+}

@@ -17,8 +17,15 @@ PAGES = [
     ("search.png", "index.html", "#q|911"),
     ("make-porsche.png", "make.html?make=porsche", None),
     ("model-911.png", "model.html?make=porsche&model=911", None),
+    ("make-lexus.png", "make.html?make=lexus", None),
+    ("model-lfa.png", "model.html?make=lexus&model=lfa", None),
     ("clubs.png", "clubs.html", None),
     ("buy.png", "buy.html", None),
+]
+
+MOBILE_PAGES = [
+    ("home-mobile.png", "index.html", None),
+    ("model-lfa-mobile.png", "model.html?make=lexus&model=lfa", None),
 ]
 
 
@@ -42,6 +49,14 @@ def main():
                 page.fill(sel, text)
                 page.wait_for_timeout(500)
             page.screenshot(path=str(OUT / name), full_page=(name != "search.png"))
+            print(f"shot {name}")
+        mobile = browser.new_page(viewport={"width": 390, "height": 844})
+        mobile.on("console", lambda m: errors.append(m.text) if m.type == "error" else None)
+        mobile.on("pageerror", lambda e: errors.append(str(e)))
+        for name, rel, act in MOBILE_PAGES:
+            mobile.goto(f"{base}/{rel}", wait_until="networkidle")
+            mobile.wait_for_timeout(600)
+            mobile.screenshot(path=str(OUT / name))
             print(f"shot {name}")
         browser.close()
     server.shutdown()

@@ -1,0 +1,149 @@
+{
+  "make": "gmc",
+  "models": [
+    {
+      "bodyStyles": [
+        "Pickup"
+      ],
+      "buyingClass": "new",
+      "generations": [
+        {
+          "code": "GMT800",
+          "name": "Sierra 1500",
+          "note": "The LS-engine era: simple, strong, and the last of the truly analogue full-size trucks. Denali launched here as an all-wheel-drive luxury trim with the 6.0 V8.",
+          "spec": {
+            "drivetrain": "RWD / 4WD",
+            "engine": "4.8L / 5.3L / 6.0L V8",
+            "power": "270–345 hp"
+          },
+          "years": "1999–2007"
+        },
+        {
+          "code": "T1XX",
+          "name": "Sierra 1500 Denali / AT4",
+          "note": "Carbon-fibre bed on the Denali, the MultiPro tailgate, a 3.0-litre diesel straight six that's the thinking buy, and the AT4X as the factory off-roader.",
+          "spec": {
+            "drivetrain": "RWD / 4WD",
+            "engine": "5.3L / 6.2L V8 / 3.0L diesel I6",
+            "power": "277–420 hp"
+          },
+          "years": "2019–present"
+        }
+      ],
+      "intro": "Chevrolet's Silverado with a premium brief — and in Denali form, the truck that taught American luxury buyers to shop at a GMC store. C/K pickups carried the lineage before the Sierra name took over.",
+      "name": "Sierra 1500",
+      "segment": "Full-size pickup",
+      "slug": "sierra-1500",
+      "status": "In production",
+      "trims": [
+        "Sierra 1500",
+        "Sierra Denali",
+        "Sierra AT4",
+        "Sierra AT4X"
+      ],
+      "years": "1999–present"
+    },
+    {
+      "bodyStyles": [
+        "SUV"
+      ],
+      "buyingClass": "new",
+      "generations": [
+        {
+          "code": "GMT400",
+          "name": "Yukon",
+          "note": "Two-door and four-door trucks on the C/K platform, 5.7 V8, and the start of the full-size SUV era. The two-door GT is the cult pick of the range.",
+          "spec": {
+            "drivetrain": "RWD / 4WD",
+            "engine": "5.7L V8",
+            "power": "255 hp"
+          },
+          "years": "1992–2000"
+        },
+        {
+          "code": "T1XX",
+          "name": "Yukon Denali / AT4",
+          "note": "Independent rear suspension, air ride, and a Denali Ultimate trim with massaging seats and open-pore wood. The AT4 brings the family-truck brief off-road.",
+          "spec": {
+            "drivetrain": "RWD / 4WD",
+            "engine": "5.3L / 6.2L V8 / 3.0L diesel I6",
+            "power": "277–420 hp"
+          },
+          "years": "2021–present"
+        }
+      ],
+      "intro": "The Tahoe's plusher twin since 1992. Yukon Denali became so dominant that 'Denali' is effectively GMC's luxury sub-brand, and the current XL is a genuine Escalade alternative.",
+      "name": "Yukon",
+      "segment": "Full-size SUV",
+      "slug": "yukon",
+      "status": "In production",
+      "trims": [
+        "Yukon",
+        "Yukon XL",
+        "Yukon Denali",
+        "Yukon AT4"
+      ],
+      "years": "1992–present"
+    },
+    {
+      "bodyStyles": [
+        "Pickup",
+        "SUV"
+      ],
+      "buyingClass": "new",
+      "generations": [
+        {
+          "code": "Hummer EV",
+          "name": "Hummer EV Pickup / SUV",
+          "note": "Ultium platform, up to 350 kW charging, and Watts to Freedom launching the pickup to 60 mph in about 3 seconds. Weight is the tax: roughly 9,000 lb in Edition 1 form.",
+          "spec": {
+            "drivetrain": "AWD",
+            "engine": "Dual/tri-motor EV",
+            "power": "625–1,000 hp"
+          },
+          "years": "2022–present"
+        }
+      ],
+      "intro": "The Hummer name reborn as a 4-tonne electric flagship: three motors, 1,000 hp, four-wheel steering with CrabWalk, and an open-air roof. Absurd, deliberate, and a genuine halo.",
+      "name": "Hummer EV",
+      "segment": "Electric off-roader",
+      "slug": "hummer-ev",
+      "status": "In production",
+      "trims": [
+        "Hummer EV 2X",
+        "Hummer EV 3X",
+        "Edition 1"
+      ],
+      "years": "2022–present"
+    },
+    {
+      "bodyStyles": [
+        "Pickup"
+      ],
+      "buyingClass": "modern-classic",
+      "collectorNote": "Roughly half are thought to survive in good order. Original paint and the factory turbo hardware matter; modified trucks are parts donors, originals are investments.",
+      "generations": [
+        {
+          "code": "Syclone",
+          "name": "Syclone",
+          "note": "Mitsubishi turbo on the 4.3 V6, a Borg-Warner transfer case sending 65% rearward, and 0–60 in the mid-fours when the Corvette needed five and a half.",
+          "spec": {
+            "drivetrain": "AWD",
+            "engine": "4.3L turbo V6",
+            "power": "280 hp"
+          },
+          "years": "1991"
+        }
+      ],
+      "intro": "A turbocharged, all-wheel-drive S-10 that out-accelerated a Ferrari 348 in a famous 1991 comparison test. 2,995 built, all black, and the original American sport truck.",
+      "name": "Syclone",
+      "segment": "Sport truck",
+      "slug": "syclone",
+      "status": "Discontinued",
+      "trims": [
+        "Syclone"
+      ],
+      "years": "1991"
+    }
+  ]
+}

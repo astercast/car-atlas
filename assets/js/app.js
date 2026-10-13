@@ -83,6 +83,7 @@ async function initHome() {
   $("#stat-makes").textContent = makes.length;
   $("#stat-models").textContent = models.length;
   $("#stat-gens").textContent = models.reduce((n, m) => n + (m.generationCount || 0), 0);
+  fetchJSON("data/v1/clubs.json").then((d) => { $("#stat-clubs").textContent = d.clubs.length; }).catch(() => {});
 
   wireSearch($("#q"), $("#q-results"), idx);
   const q = new URLSearchParams(location.search).get("q");

@@ -1,0 +1,185 @@
+{
+  "make": "lotus",
+  "models": [
+    {
+      "bodyStyles": [
+        "Convertible",
+        "Coupe"
+      ],
+      "buyingClass": "vintage",
+      "collectorNote": "Chassis condition and originality of the twin-cam are everything. Big-valve Sprints lead the market; +2s remain the underpriced way in.",
+      "generations": [
+        {
+          "code": "Type 26/36/45",
+          "name": "Elan S1–S4 / Sprint",
+          "note": "Four-wheel discs, all-independent suspension, and a Ford-block/Cosworth-head twin-cam when rivals had live axles. The Sprint of 1971 is the quick, sorted finale.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "1.6L twin-cam I4",
+            "power": "105–126 hp"
+          },
+          "years": "1962–1973"
+        }
+      ],
+      "intro": "The definitive Chapman road car: a steel backbone chassis, fibreglass body, twin-cam power, and 675 kg. The Elan's steering feel is still the reference other roadsters are measured against — Mazda benchmarked it for the MX-5.",
+      "name": "Elan",
+      "segment": "Roadster",
+      "slug": "elan",
+      "status": "Discontinued",
+      "trims": [
+        "Elan S1",
+        "Elan S3",
+        "Elan S4",
+        "Elan Sprint",
+        "Elan +2"
+      ],
+      "years": "1962–1975"
+    },
+    {
+      "bodyStyles": [
+        "Coupe"
+      ],
+      "buyingClass": "modern-classic",
+      "collectorNote": "V8 cars are appreciating; buy on gearbox and manifold history. The S1 is a design object — purchase the best body, not the cheapest car.",
+      "generations": [
+        {
+          "code": "S1",
+          "name": "Esprit S1",
+          "note": "Pure origami styling over a 2.0-litre four. Light, delicate, and slow by modern measure — the shape is the point, and The Spy Who Loved Me made it eternal.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "2.0L I4",
+            "power": "160 hp"
+          },
+          "years": "1976–1978"
+        },
+        {
+          "code": "Type 105",
+          "name": "Esprit V8",
+          "note": "Lotus's own 3.5 twin-turbo V8 — flat-plane crank, 350 hp, and a gearbox that was always the weak link. The Sport 350 is the hardcore farewell.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "3.5L twin-turbo V8",
+            "power": "350 hp"
+          },
+          "years": "1996–2004"
+        }
+      ],
+      "intro": "Giugiaro's wedge, Bond's submarine, and 28 years of evolution from a 160 hp four to a twin-turbo V8. The last hand-built Lotus flagship and a study in keeping one design alive.",
+      "name": "Esprit",
+      "segment": "Sports car",
+      "slug": "esprit",
+      "status": "Discontinued",
+      "trims": [
+        "Esprit S1",
+        "Esprit Turbo",
+        "Esprit S4",
+        "Esprit V8",
+        "Sport 350"
+      ],
+      "years": "1976–2004"
+    },
+    {
+      "bodyStyles": [
+        "Convertible"
+      ],
+      "buyingClass": "modern-classic",
+      "collectorNote": "S1s are the collector grade — originality and the early MMC discs matter. Later Toyota-engined cars are the use-it-daily pick. Check the ali tub for accident damage; it is not repairable in the usual way.",
+      "generations": [
+        {
+          "code": "S1",
+          "name": "Elise Series 1",
+          "note": "Rover's K-series gave 118 hp and the whole car weighed less than a modern car's options list. MMC brake discs and no power steering, brakes, or roof motor.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "1.8L I4 (Rover K-series)",
+            "power": "118 hp"
+          },
+          "years": "1996–2001"
+        },
+        {
+          "code": "S3",
+          "name": "Elise Sprint / Cup",
+          "note": "Toyota engines replaced the Rover unit, supercharged in the fast cars. The Cup 250 is the track-day distillation; final cars left Hethel in 2021.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "1.6L / 1.8L supercharged I4",
+            "power": "134–240 hp"
+          },
+          "years": "2010–2021"
+        }
+      ],
+      "intro": "The car that saved Lotus, named for Romano Artioli's granddaughter. A bonded aluminium tub at 725 kg proved in 1996 that lightness, not power, was the way back.",
+      "name": "Elise",
+      "segment": "Roadster",
+      "slug": "elise",
+      "status": "Discontinued",
+      "trims": [
+        "Elise",
+        "Elise 111R",
+        "Elise Sprint",
+        "Elise Cup 250"
+      ],
+      "years": "1996–2021"
+    },
+    {
+      "bodyStyles": [
+        "Coupe"
+      ],
+      "buyingClass": "new",
+      "generations": [
+        {
+          "code": "Emira",
+          "name": "Emira V6 / i4",
+          "note": "The V6 keeps the manual gearbox alive; the AMG i4 is quicker on paper with its dual-clutch. Both sit in a car sized like the Evora it replaced but styled a class above.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "2.0L turbo I4 / 3.5L supercharged V6",
+            "power": "360–400 hp"
+          },
+          "years": "2022–present"
+        }
+      ],
+      "intro": "The last petrol Lotus: AMG's turbo four or Toyota's supercharged V6, hydraulic steering feel, and supercar surfacing at sports-car money. A farewell written with unusual care.",
+      "name": "Emira",
+      "segment": "Sports car",
+      "slug": "emira",
+      "status": "In production",
+      "trims": [
+        "Emira First Edition",
+        "Emira V6",
+        "Emira Turbo"
+      ],
+      "years": "2022–present"
+    },
+    {
+      "bodyStyles": [
+        "Coupe"
+      ],
+      "buyingClass": "new",
+      "generations": [
+        {
+          "code": "Evija",
+          "name": "Evija",
+          "note": "Developed with Williams Advanced Engineering, targeting the most powerful production car in the world. Deliveries began in 2024 after a long gestation.",
+          "spec": {
+            "drivetrain": "AWD",
+            "engine": "Quad-motor EV",
+            "power": "1,972 hp"
+          },
+          "years": "2020–present"
+        }
+      ],
+      "intro": "Lotus's electric reset: four motors, a 2,000 PS target, and Venturi tunnels through the rear bodywork. Eight customer cars a year make it the rarest thing Hethel has built.",
+      "name": "Evija",
+      "segment": "Electric hypercar",
+      "slug": "evija",
+      "status": "In production",
+      "trims": [
+        "Evija",
+        "Evija Fittipaldi"
+      ],
+      "years": "2020–present"
+    }
+  ]
+}
