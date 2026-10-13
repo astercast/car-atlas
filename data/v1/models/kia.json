@@ -1,141 +1,151 @@
 {
-  "make": "kia",
-  "models": [
+ "make": "kia",
+ "models": [
+  {
+   "bodyStyles": [
+    "Sedan"
+   ],
+   "buyingClass": "used",
+   "collectorNote": "The 2023 Tribute Edition (1,000 cars) is the collector marker. Ordinary GTs are the used bargain of the class — check for the hatch rattle fix and diff service.",
+   "generations": [
     {
-      "bodyStyles": [
-        "Sedan"
-      ],
-      "buyingClass": "used",
-      "collectorNote": "The 2023 Tribute Edition (1,000 cars) is the collector marker. Ordinary GTs are the used bargain of the class — check for the hatch rattle fix and diff service.",
-      "generations": [
-        {
-          "code": "CK",
-          "name": "Stinger GT",
-          "note": "The 3.3 V6 was the car; the 2.0 four was the fleet special. A hatchback boot and genuine 70/30 rear bias made it the thinking enthusiast's daily.",
-          "spec": {
-            "drivetrain": "RWD / AWD",
-            "engine": "2.0L turbo I4 / 3.3L twin-turbo V6",
-            "power": "255–368 hp"
-          },
-          "years": "2018–2023"
-        }
-      ],
-      "intro": "Kia's gran turismo: rear-drive, a twin-turbo V6, and chassis tuning by BMW M's former engineering chief Albert Biermann. It never sold like a 4 Series — which is why the good ones are bargains.",
-      "name": "Stinger",
-      "segment": "Sports sedan",
-      "slug": "stinger",
-      "status": "Discontinued",
-      "trims": [
-        "Stinger",
-        "Stinger GT",
-        "Stinger GT2",
-        "Tribute Edition"
-      ],
-      "years": "2018–2023"
-    },
-    {
-      "bodyStyles": [
-        "Crossover"
-      ],
-      "buyingClass": "new",
-      "generations": [
-        {
-          "code": "CV",
-          "name": "EV6 / EV6 GT",
-          "note": "10–80% charging in about 18 minutes set the class standard. The GT added dual motors, an electronic diff, and drift mode without losing the family brief.",
-          "spec": {
-            "drivetrain": "RWD / AWD",
-            "engine": "Single/dual-motor EV",
-            "power": "225–576 hp"
-          },
-          "years": "2021–present"
-        }
-      ],
-      "intro": "The E-GMP skateboard in a shooting-brake suit: 800-volt charging, a European Car of the Year trophy, and a GT flagship with 576 hp that embarrassed supercars at drag strips.",
-      "name": "EV6",
-      "segment": "Electric crossover",
-      "slug": "ev6",
-      "status": "In production",
-      "trims": [
-        "EV6 Light",
-        "EV6 Wind",
-        "EV6 GT-Line",
-        "EV6 GT"
-      ],
-      "years": "2021–present"
-    },
-    {
-      "bodyStyles": [
-        "SUV"
-      ],
-      "buyingClass": "new",
-      "generations": [
-        {
-          "code": "ON",
-          "name": "Telluride",
-          "note": "One engine, one brief: a 3.8 V6, eight seats, and an interior that embarrassed luxury brands. The X-Pro trim adds genuine off-road kit; a hybrid second generation follows mid-decade.",
-          "spec": {
-            "drivetrain": "FWD / AWD",
-            "engine": "3.8L V6",
-            "power": "291 hp"
-          },
-          "years": "2020–present"
-        }
-      ],
-      "intro": "The three-row that swept the 2020 awards — World Car of the Year, MotorTrend SUV of the Year, North American Utility of the Year — by being honest, handsome, and priced under the Germans it out-finished.",
-      "name": "Telluride",
-      "segment": "Mid-size SUV",
-      "slug": "telluride",
-      "status": "In production",
-      "trims": [
-        "Telluride LX",
-        "Telluride EX",
-        "Telluride SX",
-        "Telluride X-Pro"
-      ],
-      "years": "2020–present"
-    },
-    {
-      "bodyStyles": [
-        "Hatchback"
-      ],
-      "buyingClass": "used",
-      "generations": [
-        {
-          "code": "AM",
-          "name": "Soul",
-          "note": "Peter Schreyer's 'tiger nose' era. Cheap, cheerful, and styled like nothing else at the price — the car that made Kia a design brand in the US.",
-          "spec": {
-            "drivetrain": "FWD",
-            "engine": "1.6L / 2.0L I4",
-            "power": "122–164 hp"
-          },
-          "years": "2009–2013"
-        },
-        {
-          "code": "SK3",
-          "name": "Soul",
-          "note": "The third car added a 201 hp turbo and the boxy EV variant abroad. US production ended after 2025 as Kia's line-up electrified around it.",
-          "spec": {
-            "drivetrain": "FWD",
-            "engine": "2.0L I4 / 1.6L turbo I4",
-            "power": "147–201 hp"
-          },
-          "years": "2020–2025"
-        }
-      ],
-      "intro": "The box the hamsters sold: a tall hatchback with genuine design wit that became Kia's American breakthrough car. Three generations over 16 years before the market moved to crossovers proper.",
-      "name": "Soul",
-      "segment": "Compact crossover",
-      "slug": "soul",
-      "status": "Discontinued",
-      "trims": [
-        "Soul Base",
-        "Soul +",
-        "Soul !",
-        "Soul Turbo"
-      ],
-      "years": "2009–2025"
+     "code": "CK",
+     "name": "Stinger GT",
+     "note": "The 3.3 V6 was the car; the 2.0 four was the fleet special. A hatchback boot and genuine 70/30 rear bias made it the thinking enthusiast's daily.",
+     "spec": {
+      "drivetrain": "RWD / AWD",
+      "engine": "2.0L turbo I4 / 3.3L twin-turbo V6",
+      "power": "255–368 hp"
+     },
+     "years": "2018–2023"
     }
-  ]
+   ],
+   "intro": "Kia's gran turismo: rear-drive, a twin-turbo V6, and chassis tuning by BMW M's former engineering chief Albert Biermann. It never sold like a 4 Series — which is why the good ones are bargains.",
+   "name": "Stinger",
+   "segment": "Sports sedan",
+   "slug": "stinger",
+   "status": "Discontinued",
+   "trims": [
+    "Stinger",
+    "Stinger GT",
+    "Stinger GT2",
+    "Tribute Edition"
+   ],
+   "years": "2018–2023"
+  },
+  {
+   "bodyStyles": [
+    "Crossover"
+   ],
+   "buyingClass": "new",
+   "generations": [
+    {
+     "code": "CV",
+     "name": "EV6 / EV6 GT",
+     "note": "10–80% charging in about 18 minutes set the class standard. The GT added dual motors, an electronic diff, and drift mode without losing the family brief.",
+     "spec": {
+      "drivetrain": "RWD / AWD",
+      "engine": "Single/dual-motor EV",
+      "power": "225–576 hp"
+     },
+     "years": "2021–present"
+    }
+   ],
+   "intro": "The E-GMP skateboard in a shooting-brake suit: 800-volt charging, a European Car of the Year trophy, and a GT flagship with 576 hp that embarrassed supercars at drag strips.",
+   "name": "EV6",
+   "photo": "assets/photos/kia-ev6.webp",
+   "photoCaption": "EV6 GT-Line, front 3/4",
+   "photoCredit": "Photo: Alexander Migl, CC BY-SA 4.0, via Wikimedia Commons",
+   "photos": [
+    {
+     "caption": "EV6 GT-Line, front 3/4",
+     "credit": "Photo: Alexander Migl, CC BY-SA 4.0, via Wikimedia Commons",
+     "src": "assets/photos/kia-ev6.webp"
+    }
+   ],
+   "segment": "Electric crossover",
+   "slug": "ev6",
+   "status": "In production",
+   "trims": [
+    "EV6 Light",
+    "EV6 Wind",
+    "EV6 GT-Line",
+    "EV6 GT"
+   ],
+   "years": "2021–present"
+  },
+  {
+   "bodyStyles": [
+    "SUV"
+   ],
+   "buyingClass": "new",
+   "generations": [
+    {
+     "code": "ON",
+     "name": "Telluride",
+     "note": "One engine, one brief: a 3.8 V6, eight seats, and an interior that embarrassed luxury brands. The X-Pro trim adds genuine off-road kit; a hybrid second generation follows mid-decade.",
+     "spec": {
+      "drivetrain": "FWD / AWD",
+      "engine": "3.8L V6",
+      "power": "291 hp"
+     },
+     "years": "2020–present"
+    }
+   ],
+   "intro": "The three-row that swept the 2020 awards — World Car of the Year, MotorTrend SUV of the Year, North American Utility of the Year — by being honest, handsome, and priced under the Germans it out-finished.",
+   "name": "Telluride",
+   "segment": "Mid-size SUV",
+   "slug": "telluride",
+   "status": "In production",
+   "trims": [
+    "Telluride LX",
+    "Telluride EX",
+    "Telluride SX",
+    "Telluride X-Pro"
+   ],
+   "years": "2020–present"
+  },
+  {
+   "bodyStyles": [
+    "Hatchback"
+   ],
+   "buyingClass": "used",
+   "generations": [
+    {
+     "code": "AM",
+     "name": "Soul",
+     "note": "Peter Schreyer's 'tiger nose' era. Cheap, cheerful, and styled like nothing else at the price — the car that made Kia a design brand in the US.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "1.6L / 2.0L I4",
+      "power": "122–164 hp"
+     },
+     "years": "2009–2013"
+    },
+    {
+     "code": "SK3",
+     "name": "Soul",
+     "note": "The third car added a 201 hp turbo and the boxy EV variant abroad. US production ended after 2025 as Kia's line-up electrified around it.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "2.0L I4 / 1.6L turbo I4",
+      "power": "147–201 hp"
+     },
+     "years": "2020–2025"
+    }
+   ],
+   "intro": "The box the hamsters sold: a tall hatchback with genuine design wit that became Kia's American breakthrough car. Three generations over 16 years before the market moved to crossovers proper.",
+   "name": "Soul",
+   "segment": "Compact crossover",
+   "slug": "soul",
+   "status": "Discontinued",
+   "trims": [
+    "Soul Base",
+    "Soul +",
+    "Soul !",
+    "Soul Turbo"
+   ],
+   "years": "2009–2025"
+  }
+ ]
 }

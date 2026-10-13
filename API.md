@@ -20,9 +20,13 @@ because the dataset changes in waves, not minutes.
 | `GET /api/search` | `q` | ranked make/model matches (server twin of the client instant search) |
 | `GET /api/clubs` | `region`, `marque` (optional) | filtered club registry |
 
-## Price Watch (design — not yet an endpoint)
+## Price Watch (stage 1 shipped wave 4 — still not an endpoint)
 
-Price Watch becomes an API when the data behind it is real. Stages:
+Stage 1 is real and deliberately static: `data/v1/price-watch.json`
+holds certified auction results (car, price, currency, basis,
+house/event, sale date, linked published source), rendered on the
+Buy page and on the matching model pages. No function serves it —
+the static file is the ingest. The listing stages remain design:
 
 1. **Ingest** — one adapter per channel in `data/v1/buying.json`,
    normalizing listings to the published schema: `modelSlug, year,

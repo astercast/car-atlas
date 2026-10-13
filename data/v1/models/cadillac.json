@@ -1,162 +1,172 @@
 {
-  "make": "cadillac",
-  "models": [
+ "make": "cadillac",
+ "models": [
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "1959 convertibles are the blue-chip fin cars — buy the best-restored example, because a full chrome-and-metal restoration costs more than the car. Late ETCs are the bargain entry to the nameplate.",
+   "generations": [
     {
-      "bodyStyles": [
-        "Coupe",
-        "Convertible"
-      ],
-      "buyingClass": "vintage",
-      "collectorNote": "1959 convertibles are the blue-chip fin cars — buy the best-restored example, because a full chrome-and-metal restoration costs more than the car. Late ETCs are the bargain entry to the nameplate.",
-      "generations": [
-        {
-          "code": "1959",
-          "name": "Eldorado Biarritz / Seville",
-          "note": "The fin year. Twin bullet tail lights, a 390 V8, and air suspension on the Biarritz convertible — the high-water mark of American chrome-age design, for better and worse.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "6.4L V8 (390 cu in)",
-            "power": "325–345 hp"
-          },
-          "years": "1959–1960"
-        },
-        {
-          "code": "1992",
-          "name": "Eldorado Touring Coupe",
-          "note": "The last Eldorado: clean Bill Mitchell-era surfacing, the Northstar V8 from 1993, and a front-drive layout the market had already moved past. A 2002 Collector Series closed the nameplate.",
-          "spec": {
-            "drivetrain": "FWD",
-            "engine": "4.6L Northstar V8",
-            "power": "275–300 hp"
-          },
-          "years": "1992–2002"
-        }
-      ],
-      "intro": "Fifty years of America's idea of luxury, from the hand-built 1953 convertible through the tallest tailfins ever fitted to a production car, to the final front-drive coupé of 2002.",
-      "name": "Eldorado",
-      "segment": "Personal luxury coupe",
-      "slug": "eldorado",
-      "status": "Discontinued",
-      "trims": [
-        "Eldorado Biarritz",
-        "Eldorado Seville",
-        "Eldorado Touring Coupe"
-      ],
-      "years": "1953–2002"
+     "code": "1959",
+     "name": "Eldorado Biarritz / Seville",
+     "note": "The fin year. Twin bullet tail lights, a 390 V8, and air suspension on the Biarritz convertible — the high-water mark of American chrome-age design, for better and worse.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "6.4L V8 (390 cu in)",
+      "power": "325–345 hp"
+     },
+     "years": "1959–1960"
     },
     {
-      "bodyStyles": [
-        "SUV"
-      ],
-      "buyingClass": "new",
-      "generations": [
-        {
-          "code": "GMT800",
-          "name": "Escalade",
-          "note": "The second generation is the icon: hip-hop's official vehicle, a 6.0 V8, and the template for every luxury full-size SUV since.",
-          "spec": {
-            "drivetrain": "RWD / AWD",
-            "engine": "5.3L / 6.0L V8",
-            "power": "285–345 hp"
-          },
-          "years": "2002–2006"
-        },
-        {
-          "code": "T1XX",
-          "name": "Escalade / Escalade-V",
-          "note": "Independent rear suspension finally, hands-free Super Cruise, and the V: a supercharged 6.2 with 682 hp in a three-row SUV. The electric Escalade IQ extends the nameplate, not the platform.",
-          "spec": {
-            "drivetrain": "RWD / 4WD",
-            "engine": "6.2L V8 / supercharged V8 / diesel I6",
-            "power": "277–682 hp"
-          },
-          "years": "2021–present"
-        }
-      ],
-      "intro": "A Yukon Denali in a tuxedo that became a cultural fixture — and Cadillac's profit engine. The current car added a 38-inch curved OLED and a 682 hp V-Series.",
-      "name": "Escalade",
-      "segment": "Full-size luxury SUV",
-      "slug": "escalade",
-      "status": "In production",
-      "trims": [
-        "Escalade",
-        "Escalade ESV",
-        "Escalade-V"
-      ],
-      "years": "1999–present"
-    },
-    {
-      "bodyStyles": [
-        "Sedan",
-        "Coupe",
-        "Wagon"
-      ],
-      "buyingClass": "modern-classic",
-      "collectorNote": "Manual wagons are the grail; manual sedans are the value. All LSA cars want a supercharger coupler check and a diff that has seen fresh fluid.",
-      "generations": [
-        {
-          "code": "Gen 2",
-          "name": "CTS-V (LSA)",
-          "note": "A detuned ZR1 engine, magnetic dampers, and a 7:59 Nürburgring time that made it the fastest production sedan in the world at launch. Offered as sedan, coupé, and the immortal wagon.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "6.2L supercharged V8 (LSA)",
-            "power": "556 hp"
-          },
-          "years": "2009–2015"
-        },
-        {
-          "code": "Gen 3",
-          "name": "CTS-V (LT4)",
-          "note": "The LT4 from the Z06, 640 hp, 200 mph — and automatic only, which is why the gen-2 manual wagon keeps appreciating past it.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "6.2L supercharged V8 (LT4)",
-            "power": "640 hp"
-          },
-          "years": "2016–2019"
-        }
-      ],
-      "intro": "Corvette engines in a Cadillac sedan, three generations running. The second-gen wagon with a manual gearbox is one of the most collectible American cars of the 2010s.",
-      "name": "CTS-V",
-      "segment": "Sports sedan",
-      "slug": "cts-v",
-      "status": "Discontinued",
-      "trims": [
-        "CTS-V Sedan",
-        "CTS-V Coupe",
-        "CTS-V Wagon"
-      ],
-      "years": "2004–2019"
-    },
-    {
-      "bodyStyles": [
-        "Sedan"
-      ],
-      "buyingClass": "new",
-      "collectorNote": "Manual cars are the future collectibles. Precision Package cars and early production numbers are the ones collectors are already circling.",
-      "generations": [
-        {
-          "code": "Blackwing",
-          "name": "CT5-V Blackwing",
-          "note": "The hand-built LT4 makes 668 hp here. GM's engineers got the manual signed off as a deliberate statement — when it's gone, there will be nothing like it left.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "6.2L supercharged V8 (LT4)",
-            "power": "668 hp"
-          },
-          "years": "2022–present"
-        }
-      ],
-      "intro": "The last of its kind: a supercharged V8, rear-wheel drive, and a six-speed manual with no-lift shift, in a segment that went hybrid and all-wheel drive. Cadillac kept it in production because demand refused to die.",
-      "name": "CT5-V Blackwing",
-      "segment": "Sports sedan",
-      "slug": "ct5-v-blackwing",
-      "status": "In production",
-      "trims": [
-        "CT5-V Blackwing"
-      ],
-      "years": "2022–present"
+     "code": "1992",
+     "name": "Eldorado Touring Coupe",
+     "note": "The last Eldorado: clean Bill Mitchell-era surfacing, the Northstar V8 from 1993, and a front-drive layout the market had already moved past. A 2002 Collector Series closed the nameplate.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "4.6L Northstar V8",
+      "power": "275–300 hp"
+     },
+     "years": "1992–2002"
     }
-  ]
+   ],
+   "intro": "Fifty years of America's idea of luxury, from the hand-built 1953 convertible through the tallest tailfins ever fitted to a production car, to the final front-drive coupé of 2002.",
+   "name": "Eldorado",
+   "photo": "assets/photos/cadillac-eldorado.webp",
+   "photoCaption": "Eldorado 1970, front view, street",
+   "photoCredit": "Photo: Oleg Yunakov, CC BY-SA 4.0, via Wikimedia Commons",
+   "photos": [
+    {
+     "caption": "Eldorado 1970, front view, street",
+     "credit": "Photo: Oleg Yunakov, CC BY-SA 4.0, via Wikimedia Commons",
+     "src": "assets/photos/cadillac-eldorado.webp"
+    }
+   ],
+   "segment": "Personal luxury coupe",
+   "slug": "eldorado",
+   "status": "Discontinued",
+   "trims": [
+    "Eldorado Biarritz",
+    "Eldorado Seville",
+    "Eldorado Touring Coupe"
+   ],
+   "years": "1953–2002"
+  },
+  {
+   "bodyStyles": [
+    "SUV"
+   ],
+   "buyingClass": "new",
+   "generations": [
+    {
+     "code": "GMT800",
+     "name": "Escalade",
+     "note": "The second generation is the icon: hip-hop's official vehicle, a 6.0 V8, and the template for every luxury full-size SUV since.",
+     "spec": {
+      "drivetrain": "RWD / AWD",
+      "engine": "5.3L / 6.0L V8",
+      "power": "285–345 hp"
+     },
+     "years": "2002–2006"
+    },
+    {
+     "code": "T1XX",
+     "name": "Escalade / Escalade-V",
+     "note": "Independent rear suspension finally, hands-free Super Cruise, and the V: a supercharged 6.2 with 682 hp in a three-row SUV. The electric Escalade IQ extends the nameplate, not the platform.",
+     "spec": {
+      "drivetrain": "RWD / 4WD",
+      "engine": "6.2L V8 / supercharged V8 / diesel I6",
+      "power": "277–682 hp"
+     },
+     "years": "2021–present"
+    }
+   ],
+   "intro": "A Yukon Denali in a tuxedo that became a cultural fixture — and Cadillac's profit engine. The current car added a 38-inch curved OLED and a 682 hp V-Series.",
+   "name": "Escalade",
+   "segment": "Full-size luxury SUV",
+   "slug": "escalade",
+   "status": "In production",
+   "trims": [
+    "Escalade",
+    "Escalade ESV",
+    "Escalade-V"
+   ],
+   "years": "1999–present"
+  },
+  {
+   "bodyStyles": [
+    "Sedan",
+    "Coupe",
+    "Wagon"
+   ],
+   "buyingClass": "modern-classic",
+   "collectorNote": "Manual wagons are the grail; manual sedans are the value. All LSA cars want a supercharger coupler check and a diff that has seen fresh fluid.",
+   "generations": [
+    {
+     "code": "Gen 2",
+     "name": "CTS-V (LSA)",
+     "note": "A detuned ZR1 engine, magnetic dampers, and a 7:59 Nürburgring time that made it the fastest production sedan in the world at launch. Offered as sedan, coupé, and the immortal wagon.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "6.2L supercharged V8 (LSA)",
+      "power": "556 hp"
+     },
+     "years": "2009–2015"
+    },
+    {
+     "code": "Gen 3",
+     "name": "CTS-V (LT4)",
+     "note": "The LT4 from the Z06, 640 hp, 200 mph — and automatic only, which is why the gen-2 manual wagon keeps appreciating past it.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "6.2L supercharged V8 (LT4)",
+      "power": "640 hp"
+     },
+     "years": "2016–2019"
+    }
+   ],
+   "intro": "Corvette engines in a Cadillac sedan, three generations running. The second-gen wagon with a manual gearbox is one of the most collectible American cars of the 2010s.",
+   "name": "CTS-V",
+   "segment": "Sports sedan",
+   "slug": "cts-v",
+   "status": "Discontinued",
+   "trims": [
+    "CTS-V Sedan",
+    "CTS-V Coupe",
+    "CTS-V Wagon"
+   ],
+   "years": "2004–2019"
+  },
+  {
+   "bodyStyles": [
+    "Sedan"
+   ],
+   "buyingClass": "new",
+   "collectorNote": "Manual cars are the future collectibles. Precision Package cars and early production numbers are the ones collectors are already circling.",
+   "generations": [
+    {
+     "code": "Blackwing",
+     "name": "CT5-V Blackwing",
+     "note": "The hand-built LT4 makes 668 hp here. GM's engineers got the manual signed off as a deliberate statement — when it's gone, there will be nothing like it left.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "6.2L supercharged V8 (LT4)",
+      "power": "668 hp"
+     },
+     "years": "2022–present"
+    }
+   ],
+   "intro": "The last of its kind: a supercharged V8, rear-wheel drive, and a six-speed manual with no-lift shift, in a segment that went hybrid and all-wheel drive. Cadillac kept it in production because demand refused to die.",
+   "name": "CT5-V Blackwing",
+   "segment": "Sports sedan",
+   "slug": "ct5-v-blackwing",
+   "status": "In production",
+   "trims": [
+    "CT5-V Blackwing"
+   ],
+   "years": "2022–present"
+  }
+ ]
 }

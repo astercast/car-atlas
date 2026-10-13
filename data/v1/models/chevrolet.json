@@ -1,1 +1,345 @@
-{"make":"chevrolet","models":[{"bodyStyles":["Coupe","Convertible"],"buyingClass":"new","generations":[{"code":"C1","name":"First generation","note":"Launched in 1953 with a six-cylinder and a two-speed automatic — the sports car part came later. The 1957 fuel-injected 283 made one horsepower per cubic inch, the number that made Corvette credible.","spec":{"drivetrain":"RWD","engine":"4.6L V8 (283, fuel-injected)","power":"283 hp"},"years":"1953–1962"},{"code":"C7","name":"Seventh generation","note":"The last front-engine Corvette, and a high point: the Stingray's 455 hp LT1, then the 650 hp supercharged Z06. Manual take rate stayed high because the buyers demanded it.","spec":{"drivetrain":"RWD","engine":"6.2L V8 (LT1)","power":"455 hp"},"years":"2014–2019"},{"code":"C8","name":"Eighth generation","note":"Mid-engine at last, after decades of prototypes. The flat-plane-crank Z06's 5.5L V8 revs to 8,600 rpm and makes 670 hp without turbos or supercharging.","spec":{"drivetrain":"RWD","engine":"6.2L V8 (LT2)","power":"495 hp"},"years":"2020–present"}],"intro":"America's attainable supercar since 1953. The Corvette's trick has always been the arithmetic: most of a European exotic's speed for a fraction of the price. The C8's move to a mid-engine layout in 2020 broke a 67-year tradition and nobody sensible misses the old one.","name":"Corvette","segment":"Sports car","slug":"corvette","status":"In production","trims":["Stingray","E-Ray","Z06","ZR1"],"years":"1953–present"},{"bodyStyles":["Coupe","Convertible"],"buyingClass":"modern-classic","collectorNote":"First-generation cars are the blue-chip end; a documented Z/28 or big-block SS is the one to own. Of the modern cars, the sixth-gen ZL1 1LE is the future collectible — low production, extreme aero, manual available.","generations":[{"code":"Gen 1","name":"First generation","note":"The 1969 model is the high-water mark — hidden headlights on the RS, the DZ 302 in the Z/28, and big-block SS cars that are still the reference for what a pony car should look like.","spec":{"drivetrain":"RWD","engine":"6.5L big-block V8 (SS 396)","power":"325–375 hp"},"years":"1967–1969"},{"code":"Gen 4","name":"Fourth generation","note":"Aero-slick and underrated for years. The 1998 LS1 cars took the engine that redefined the segment, and the SS and WS6-adjacent specials are finally getting their due.","spec":{"drivetrain":"RWD","engine":"5.7L V8 (LS1)","power":"305–320 hp"},"years":"1993–2002"},{"code":"Gen 6","name":"Sixth generation","note":"On the Alpha platform shared with Cadillac's sports sedans, and it showed — this is the best-handling Camaro ever built. The ZL1's 650 hp supercharged LT4 made it a supercar argument with a bowtie on it.","spec":{"drivetrain":"RWD","engine":"6.2L V8 (LT1)","power":"455 hp"},"years":"2016–2024"}],"intro":"GM's answer to the Mustang, launched for 1967 and locked in the pony-car war for six generations. Production ended again in 2024 with no successor announced — the sixth generation went out as the best-driving Camaro ever made.","name":"Camaro","segment":"Pony car","slug":"camaro","status":"Discontinued","trims":["LT","RS","SS","ZL1"],"years":"1967–2002, 2010–2024"},{"bodyStyles":["Pickup"],"buyingClass":"new","generations":[{"code":"GMT800","name":"First generation","note":"The Silverado name became the standalone truck line in 1999, replacing the C/K. The LS-family small-blocks in these trucks are a big part of why that engine family is everywhere now.","spec":{"drivetrain":"RWD / 4WD","engine":"5.3L V8","power":"270–295 hp"},"years":"1999–2007"},{"code":"K2XX","name":"Third generation","note":"Direct injection, cylinder deactivation, and a properly modern cabin. The 6.2L versions were quietly among the quickest stock trucks of their era.","spec":{"drivetrain":"RWD / 4WD","engine":"5.3L V8","power":"355 hp"},"years":"2014–2019"},{"code":"T1XX","name":"Fourth generation","note":"A turbo four-cylinder as the volume engine — unthinkable in a full-size truck a generation ago — with the 6.2L V8 and the 3.0L Duramax diesel at the top of the range.","spec":{"drivetrain":"RWD / 4WD","engine":"6.2L V8","power":"420 hp"},"years":"2019–present"}],"intro":"Chevrolet's full-size truck and Ford's oldest argument. Chevrolet pickups go back to 1918, but the Silverado nameplate dates to 1999, when it replaced the C/K line. The 3.0L Duramax diesel is the connoisseur's pick; the 6.2L V8 is the loud one.","name":"Silverado","segment":"Full-size pickup","slug":"silverado","status":"In production","trims":["WT","Custom","LT","RST","High Country"],"years":"1999–present"},{"bodyStyles":["Sedan","Coupe","Convertible","Wagon"],"buyingClass":"vintage","collectorNote":"The '57 is the icon and priced like it — fuel-injected cars and convertibles sit at the top. A '55 or '56 hardtop gives you the same Tri-Five experience for noticeably less money.","generations":[{"code":"Tri-Five","name":"Tri-Five (second generation)","note":"1955, '56, '57 — the cars that defined the era. The 1957 model's fins, gold anodised grille, and available fuel injection made it the most reproduced piece of 1950s Americana there is.","spec":{"drivetrain":"RWD","engine":"4.6L V8 (283, fuel-injected)","power":"283 hp"},"years":"1955–1957"},{"code":"Gen 3","name":"Third generation","note":"The jet-age Bel Air: quad headlights, big fins in 1959 with those famous teardrop taillights, and the Impala name splitting off above it as the range-topper.","spec":{"drivetrain":"RWD","engine":"5.7L V8 (348)","power":"250–335 hp"},"years":"1958–1960"}],"intro":"Chevrolet's top trim line through the 1950s, and the 1955–1957 'Tri-Five' cars are about as close as American design gets to universal agreement. The '57 Bel Air is shorthand for the whole decade.","name":"Bel Air","segment":"Full-size car","slug":"bel-air","status":"Discontinued","trims":["150","210","Bel Air","Nomad"],"years":"1950–1975"},{"bodyStyles":["Sedan","Coupe","Convertible","Wagon"],"buyingClass":"used","collectorNote":"Two separate collector stories: the 1960s SS big-block cars, and the 1994–1996 Impala SS — a blacked-out, LT1-powered B-body that has been climbing steadily for a decade. The front-drive cars after 2000 are used cars, not collectibles.","generations":[{"code":"Gen 2","name":"Second generation (SS era)","note":"The Super Sport arrived in 1961 and the big-block cars defined American full-size performance: the 409 first, then the 396 and 427. A 1964 SS hardtop is the one in every song for a reason.","spec":{"drivetrain":"RWD","engine":"6.7L big-block V8 (409)","power":"360–425 hp"},"years":"1959–1964"},{"code":"Impala SS","name":"Seventh generation (Impala SS)","note":"One model, three years, essentially one spec: the Caprice-based, LT1-powered Impala SS of 1994–1996. 260 hp, floor shifter from 1996, and a cult following that never faded.","spec":{"drivetrain":"RWD","engine":"5.7L V8 (LT1)","power":"260 hp"},"years":"1994–1996"},{"code":"Gen 10","name":"Tenth generation","note":"The last Impala: a genuinely good full-size sedan, especially with the 305 hp 3.6L V6, killed by the crossover market along with every other big sedan GM made.","spec":{"drivetrain":"FWD","engine":"3.6L V6","power":"305 hp"},"years":"2014–2020"}],"intro":"Chevrolet's flagship nameplate from 1958, and the best-selling car in America through the mid-1960s — over a million sold in 1965 alone. It lived three lives: the 1960s icon, the 1990s Impala SS sleeper, and a competent front-drive sedan until 2020.","name":"Impala","segment":"Full-size sedan","slug":"impala","status":"Discontinued","trims":["LS","LT","Premier"],"years":"1958–1985, 1994–1996, 2000–2020"}]}
+{
+ "make": "chevrolet",
+ "models": [
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Convertible"
+   ],
+   "buyingClass": "new",
+   "generations": [
+    {
+     "code": "C1",
+     "name": "First generation",
+     "note": "Launched in 1953 with a six-cylinder and a two-speed automatic — the sports car part came later. The 1957 fuel-injected 283 made one horsepower per cubic inch, the number that made Corvette credible.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "4.6L V8 (283, fuel-injected)",
+      "power": "283 hp"
+     },
+     "years": "1953–1962"
+    },
+    {
+     "code": "C2",
+     "name": "Second generation (Sting Ray)",
+     "note": "The Sting Ray: a knife-edge coupe with hidden headlights and, for 1963 only, the split rear window. Independent rear suspension, disc brakes from 1965, and the 427 big-block turned it into a genuine world-beater.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "7.0L V8 (427)",
+      "power": "435 hp"
+     },
+     "years": "1963–1967"
+    },
+    {
+     "code": "C3",
+     "name": "Third generation",
+     "note": "The longest-lived Corvette, wearing Mako Shark show-car curves over C2 bones. Early chrome-bumper cars are the athletes; the seventies brought emissions-era power cuts, and the shape carried the car through regardless.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.7L V8 (LT-1)",
+      "power": "370 hp"
+     },
+     "years": "1968–1982"
+    },
+    {
+     "code": "C4",
+     "name": "Fourth generation",
+     "note": "A clean-sheet, aerodynamics-first redesign that made handling the headline. The 1990 ZR-1 answered with a Lotus-designed, quad-cam LT5 built by Mercury Marine — 405 hp by the end of the run and a 24-hour endurance record to prove it.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.7L V8 (LT5, ZR-1)",
+      "power": "405 hp"
+     },
+     "years": "1984–1996"
+    },
+    {
+     "code": "C5",
+     "name": "Fifth generation",
+     "note": "Hydroformed frame rails, a rear transaxle, and the new LS V8: stiffer, lighter, faster. The Z06 of 2001 revived the badge as a fixed-roof track car with 405 hp in final form.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.7L V8 (LS6, Z06)",
+      "power": "405 hp"
+     },
+     "years": "1997–2004"
+    },
+    {
+     "code": "C6",
+     "name": "Sixth generation",
+     "note": "Exposed headlights for the first time since 1962, and performance that kept climbing: the 7.0-litre Z06 at 505 hp, then the supercharged ZR1 at 638 hp — the fastest production Corvette of the front-engine era.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "7.0L V8 (LS7, Z06)",
+      "power": "505 hp"
+     },
+     "years": "2005–2013"
+    },
+    {
+     "code": "C7",
+     "name": "Seventh generation",
+     "note": "The last front-engine Corvette, and a high point: the Stingray's 455 hp LT1, then the 650 hp supercharged Z06. Manual take rate stayed high because the buyers demanded it.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "6.2L V8 (LT1)",
+      "power": "455 hp"
+     },
+     "years": "2014–2019"
+    },
+    {
+     "code": "C8",
+     "name": "Eighth generation",
+     "note": "Mid-engine at last, after decades of prototypes. The flat-plane-crank Z06's 5.5L V8 revs to 8,600 rpm and makes 670 hp without turbos or supercharging.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "6.2L V8 (LT2)",
+      "power": "495 hp"
+     },
+     "years": "2020–present"
+    }
+   ],
+   "intro": "America's attainable supercar since 1953. The Corvette's trick has always been the arithmetic: most of a European exotic's speed for a fraction of the price. The C8's move to a mid-engine layout in 2020 broke a 67-year tradition and nobody sensible misses the old one.",
+   "name": "Corvette",
+   "photo": "assets/photos/chevrolet-corvette-hero.webp",
+   "photoCaption": "Corvette C2 1963 split-window coupe, front 3/4",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photos": [
+    {
+     "caption": "Corvette C2 1963 split-window coupe, front 3/4",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "src": "assets/photos/chevrolet-corvette-hero.webp"
+    },
+    {
+     "caption": "Corvette C2 1964 convertible, front view",
+     "credit": "Photo: ArildV, CC BY-SA 4.0, via Wikimedia Commons",
+     "src": "assets/photos/chevrolet-corvette-front.webp"
+    },
+    {
+     "caption": "Corvette C3 Stingray front detail",
+     "credit": "Photo: Maksim Sokolov, CC BY-SA 4.0, via Wikimedia Commons",
+     "src": "assets/photos/chevrolet-corvette.webp"
+    }
+   ],
+   "segment": "Sports car",
+   "slug": "corvette",
+   "status": "In production",
+   "trims": [
+    "Stingray",
+    "E-Ray",
+    "Z06",
+    "ZR1"
+   ],
+   "years": "1953–present"
+  },
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Convertible"
+   ],
+   "buyingClass": "modern-classic",
+   "collectorNote": "First-generation cars are the blue-chip end; a documented Z/28 or big-block SS is the one to own. Of the modern cars, the sixth-gen ZL1 1LE is the future collectible — low production, extreme aero, manual available.",
+   "generations": [
+    {
+     "code": "Gen 1",
+     "name": "First generation",
+     "note": "The 1969 model is the high-water mark — hidden headlights on the RS, the DZ 302 in the Z/28, and big-block SS cars that are still the reference for what a pony car should look like.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "6.5L big-block V8 (SS 396)",
+      "power": "325–375 hp"
+     },
+     "years": "1967–1969"
+    },
+    {
+     "code": "Gen 4",
+     "name": "Fourth generation",
+     "note": "Aero-slick and underrated for years. The 1998 LS1 cars took the engine that redefined the segment, and the SS and WS6-adjacent specials are finally getting their due.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.7L V8 (LS1)",
+      "power": "305–320 hp"
+     },
+     "years": "1993–2002"
+    },
+    {
+     "code": "Gen 6",
+     "name": "Sixth generation",
+     "note": "On the Alpha platform shared with Cadillac's sports sedans, and it showed — this is the best-handling Camaro ever built. The ZL1's 650 hp supercharged LT4 made it a supercar argument with a bowtie on it.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "6.2L V8 (LT1)",
+      "power": "455 hp"
+     },
+     "years": "2016–2024"
+    }
+   ],
+   "intro": "GM's answer to the Mustang, launched for 1967 and locked in the pony-car war for six generations. Production ended again in 2024 with no successor announced — the sixth generation went out as the best-driving Camaro ever made.",
+   "name": "Camaro",
+   "segment": "Pony car",
+   "slug": "camaro",
+   "status": "Discontinued",
+   "trims": [
+    "LT",
+    "RS",
+    "SS",
+    "ZL1"
+   ],
+   "years": "1967–2002, 2010–2024"
+  },
+  {
+   "bodyStyles": [
+    "Pickup"
+   ],
+   "buyingClass": "new",
+   "generations": [
+    {
+     "code": "GMT800",
+     "name": "First generation",
+     "note": "The Silverado name became the standalone truck line in 1999, replacing the C/K. The LS-family small-blocks in these trucks are a big part of why that engine family is everywhere now.",
+     "spec": {
+      "drivetrain": "RWD / 4WD",
+      "engine": "5.3L V8",
+      "power": "270–295 hp"
+     },
+     "years": "1999–2007"
+    },
+    {
+     "code": "K2XX",
+     "name": "Third generation",
+     "note": "Direct injection, cylinder deactivation, and a properly modern cabin. The 6.2L versions were quietly among the quickest stock trucks of their era.",
+     "spec": {
+      "drivetrain": "RWD / 4WD",
+      "engine": "5.3L V8",
+      "power": "355 hp"
+     },
+     "years": "2014–2019"
+    },
+    {
+     "code": "T1XX",
+     "name": "Fourth generation",
+     "note": "A turbo four-cylinder as the volume engine — unthinkable in a full-size truck a generation ago — with the 6.2L V8 and the 3.0L Duramax diesel at the top of the range.",
+     "spec": {
+      "drivetrain": "RWD / 4WD",
+      "engine": "6.2L V8",
+      "power": "420 hp"
+     },
+     "years": "2019–present"
+    }
+   ],
+   "intro": "Chevrolet's full-size truck and Ford's oldest argument. Chevrolet pickups go back to 1918, but the Silverado nameplate dates to 1999, when it replaced the C/K line. The 3.0L Duramax diesel is the connoisseur's pick; the 6.2L V8 is the loud one.",
+   "name": "Silverado",
+   "segment": "Full-size pickup",
+   "slug": "silverado",
+   "status": "In production",
+   "trims": [
+    "WT",
+    "Custom",
+    "LT",
+    "RST",
+    "High Country"
+   ],
+   "years": "1999–present"
+  },
+  {
+   "bodyStyles": [
+    "Sedan",
+    "Coupe",
+    "Convertible",
+    "Wagon"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "The '57 is the icon and priced like it — fuel-injected cars and convertibles sit at the top. A '55 or '56 hardtop gives you the same Tri-Five experience for noticeably less money.",
+   "generations": [
+    {
+     "code": "Tri-Five",
+     "name": "Tri-Five (second generation)",
+     "note": "1955, '56, '57 — the cars that defined the era. The 1957 model's fins, gold anodised grille, and available fuel injection made it the most reproduced piece of 1950s Americana there is.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "4.6L V8 (283, fuel-injected)",
+      "power": "283 hp"
+     },
+     "years": "1955–1957"
+    },
+    {
+     "code": "Gen 3",
+     "name": "Third generation",
+     "note": "The jet-age Bel Air: quad headlights, big fins in 1959 with those famous teardrop taillights, and the Impala name splitting off above it as the range-topper.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.7L V8 (348)",
+      "power": "250–335 hp"
+     },
+     "years": "1958–1960"
+    }
+   ],
+   "intro": "Chevrolet's top trim line through the 1950s, and the 1955–1957 'Tri-Five' cars are about as close as American design gets to universal agreement. The '57 Bel Air is shorthand for the whole decade.",
+   "name": "Bel Air",
+   "segment": "Full-size car",
+   "slug": "bel-air",
+   "status": "Discontinued",
+   "trims": [
+    "150",
+    "210",
+    "Bel Air",
+    "Nomad"
+   ],
+   "years": "1950–1975"
+  },
+  {
+   "bodyStyles": [
+    "Sedan",
+    "Coupe",
+    "Convertible",
+    "Wagon"
+   ],
+   "buyingClass": "used",
+   "collectorNote": "Two separate collector stories: the 1960s SS big-block cars, and the 1994–1996 Impala SS — a blacked-out, LT1-powered B-body that has been climbing steadily for a decade. The front-drive cars after 2000 are used cars, not collectibles.",
+   "generations": [
+    {
+     "code": "Gen 2",
+     "name": "Second generation (SS era)",
+     "note": "The Super Sport arrived in 1961 and the big-block cars defined American full-size performance: the 409 first, then the 396 and 427. A 1964 SS hardtop is the one in every song for a reason.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "6.7L big-block V8 (409)",
+      "power": "360–425 hp"
+     },
+     "years": "1959–1964"
+    },
+    {
+     "code": "Impala SS",
+     "name": "Seventh generation (Impala SS)",
+     "note": "One model, three years, essentially one spec: the Caprice-based, LT1-powered Impala SS of 1994–1996. 260 hp, floor shifter from 1996, and a cult following that never faded.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.7L V8 (LT1)",
+      "power": "260 hp"
+     },
+     "years": "1994–1996"
+    },
+    {
+     "code": "Gen 10",
+     "name": "Tenth generation",
+     "note": "The last Impala: a genuinely good full-size sedan, especially with the 305 hp 3.6L V6, killed by the crossover market along with every other big sedan GM made.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "3.6L V6",
+      "power": "305 hp"
+     },
+     "years": "2014–2020"
+    }
+   ],
+   "intro": "Chevrolet's flagship nameplate from 1958, and the best-selling car in America through the mid-1960s — over a million sold in 1965 alone. It lived three lives: the 1960s icon, the 1990s Impala SS sleeper, and a competent front-drive sedan until 2020.",
+   "name": "Impala",
+   "segment": "Full-size sedan",
+   "slug": "impala",
+   "status": "Discontinued",
+   "trims": [
+    "LS",
+    "LT",
+    "Premier"
+   ],
+   "years": "1958–1985, 1994–1996, 2000–2020"
+  }
+ ]
+}

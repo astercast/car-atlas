@@ -1,185 +1,195 @@
 {
-  "make": "aston-martin",
-  "models": [
+ "make": "aston-martin",
+ "models": [
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "The Bond premium is real and permanent. Matching numbers and a known history matter more than colour; the Vantage-spec cars are the blue-chip end.",
+   "generations": [
     {
-      "bodyStyles": [
-        "Coupe",
-        "Convertible"
-      ],
-      "buyingClass": "vintage",
-      "collectorNote": "The Bond premium is real and permanent. Matching numbers and a known history matter more than colour; the Vantage-spec cars are the blue-chip end.",
-      "generations": [
-        {
-          "code": "DB5",
-          "name": "DB5",
-          "note": "4.0 litres, triple SUs or Webers in the Vantage, 145 mph. Just over a thousand built, including the film cars that made it the most recognised Aston Martin on Earth.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "4.0L inline-6",
-            "power": "282 hp"
-          },
-          "years": "1963–1965"
-        }
-      ],
-      "intro": "The Goldfinger car — though the DB4 did the engineering, the DB5 did the immortality. Tadek Marek's twin-cam six, a ZF five-speed, and the template for every Aston since.",
-      "name": "DB5",
-      "segment": "Grand tourer",
-      "slug": "db5",
-      "status": "Discontinued",
-      "trims": [
-        "DB5",
-        "DB5 Vantage",
-        "DB5 Convertible"
-      ],
-      "years": "1963–1965"
-    },
-    {
-      "bodyStyles": [
-        "Coupe",
-        "Convertible"
-      ],
-      "buyingClass": "modern-classic",
-      "collectorNote": "Manual 4.7s and any V12 Vantage are the holds. Budget for clutch and subframe corrosion checks — the cars reward owners who use specialists.",
-      "generations": [
-        {
-          "code": "VH",
-          "name": "V8 Vantage (4.3)",
-          "note": "Launched as the 'baby Aston' against the 911 Carrera — bonded aluminium VH chassis, dry-sump V8 behind the front axle line.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "4.3L V8",
-            "power": "380 hp"
-          },
-          "years": "2005–2008"
-        },
-        {
-          "code": "VH",
-          "name": "V8 Vantage (4.7) / V12 Vantage",
-          "note": "The 4.7 fixed the torque curve; the V12 Vantage S of 2013 stuffed the DBS's 5.9 V12 into the smallest Aston and created the connoisseur's pick of the whole range.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "4.7L V8 / 5.9L V12",
-            "power": "420–565 hp"
-          },
-          "years": "2008–2018"
-        }
-      ],
-      "intro": "The Gaydon-era entry Aston: hand-assembled Jaguar-derived V8, a proper manual gearbox for most of its life, and styling that aged better than anything else in its class.",
-      "name": "V8 Vantage",
-      "segment": "Sports car",
-      "slug": "v8-vantage",
-      "status": "Discontinued",
-      "trims": [
-        "V8 Vantage",
-        "Vantage S",
-        "V12 Vantage S",
-        "Vantage GT8"
-      ],
-      "years": "2005–2018"
-    },
-    {
-      "bodyStyles": [
-        "Coupe",
-        "Convertible"
-      ],
-      "buyingClass": "used",
-      "generations": [
-        {
-          "code": "DB11",
-          "name": "DB11 V12",
-          "note": "The 5.2 twin-turbo V12 was developed in-house with AMG electronics. Aerodynamic 'curlicue' ducts in the C-pillars did the work of a spoiler.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "5.2L twin-turbo V12",
-            "power": "600 hp"
-          },
-          "years": "2016–2018"
-        },
-        {
-          "code": "DB11",
-          "name": "DB11 V8 / AMR",
-          "note": "The Mercedes-AMG 4.0 V8 dropped 115 kg over the front axle. The AMR of 2018 sharpened the V12 car to 630 hp before the DB12 replaced the line.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "4.0L twin-turbo V8 / 5.2L V12",
-            "power": "503–630 hp"
-          },
-          "years": "2017–2024"
-        }
-      ],
-      "intro": "The first car of Aston's 'second century' plan: new bonded structure, a twin-turbo V12 of Aston's own, then an AMG V8 that many testers preferred for its lighter nose.",
-      "name": "DB11",
-      "segment": "Grand tourer",
-      "slug": "db11",
-      "status": "Discontinued",
-      "trims": [
-        "DB11 V12",
-        "DB11 V8",
-        "DB11 Volante",
-        "DB11 AMR"
-      ],
-      "years": "2016–2024"
-    },
-    {
-      "bodyStyles": [
-        "SUV"
-      ],
-      "buyingClass": "new",
-      "generations": [
-        {
-          "code": "DBX",
-          "name": "DBX / DBX707",
-          "note": "AMG's 4.0 V8 in two tunes; the 707 (697 hp) added a wet-clutch nine-speed and bigger turbos. Air suspension keeps the GT brief credible on real roads.",
-          "spec": {
-            "drivetrain": "AWD",
-            "engine": "4.0L twin-turbo V8",
-            "power": "542–697 hp"
-          },
-          "years": "2020–present"
-        }
-      ],
-      "intro": "The SUV that saved Aston Martin, built in a new Welsh factory. The DBX707 briefly held the title of most powerful production SUV in the world.",
-      "name": "DBX",
-      "segment": "Luxury SUV",
-      "slug": "dbx",
-      "status": "In production",
-      "trims": [
-        "DBX",
-        "DBX707",
-        "DBX S"
-      ],
-      "years": "2020–present"
-    },
-    {
-      "bodyStyles": [
-        "Coupe"
-      ],
-      "buyingClass": "new",
-      "collectorNote": "There is no casual Valkyrie market — cars trade privately at multiples of list. Provenance is everything; most will live in collections, not on roads.",
-      "generations": [
-        {
-          "code": "Valkyrie",
-          "name": "Valkyrie / AMR Pro",
-          "note": "The brief was a 1:1 power-to-weight ratio in kilograms and horsepower, and it got there. The track-only AMR Pro drops the hybrid and the road equipment, not the ambition.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "6.5L V12 hybrid",
-            "power": "1,160 hp"
-          },
-          "years": "2021–present"
-        }
-      ],
-      "intro": "Adrian Newey's road car: a Cosworth V12 revving to 11,000 rpm, a hybrid system filling the torque gaps, and downforce figures from a Formula 1 wind tunnel. 150 coupés, all spoken for.",
-      "name": "Valkyrie",
-      "segment": "Hypercar",
-      "slug": "valkyrie",
-      "status": "In production",
-      "trims": [
-        "Valkyrie",
-        "Valkyrie Spider",
-        "Valkyrie AMR Pro"
-      ],
-      "years": "2021–present"
+     "code": "DB5",
+     "name": "DB5",
+     "note": "4.0 litres, triple SUs or Webers in the Vantage, 145 mph. Just over a thousand built, including the film cars that made it the most recognised Aston Martin on Earth.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "4.0L inline-6",
+      "power": "282 hp"
+     },
+     "years": "1963–1965"
     }
-  ]
+   ],
+   "intro": "The Goldfinger car — though the DB4 did the engineering, the DB5 did the immortality. Tadek Marek's twin-cam six, a ZF five-speed, and the template for every Aston since.",
+   "name": "DB5",
+   "photo": "assets/photos/aston-martin-db5.webp",
+   "photoCaption": "DB5 Volante (convertible), front 3/4",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photos": [
+    {
+     "caption": "DB5 Volante (convertible), front 3/4",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "src": "assets/photos/aston-martin-db5.webp"
+    }
+   ],
+   "segment": "Grand tourer",
+   "slug": "db5",
+   "status": "Discontinued",
+   "trims": [
+    "DB5",
+    "DB5 Vantage",
+    "DB5 Convertible"
+   ],
+   "years": "1963–1965"
+  },
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Convertible"
+   ],
+   "buyingClass": "modern-classic",
+   "collectorNote": "Manual 4.7s and any V12 Vantage are the holds. Budget for clutch and subframe corrosion checks — the cars reward owners who use specialists.",
+   "generations": [
+    {
+     "code": "VH",
+     "name": "V8 Vantage (4.3)",
+     "note": "Launched as the 'baby Aston' against the 911 Carrera — bonded aluminium VH chassis, dry-sump V8 behind the front axle line.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "4.3L V8",
+      "power": "380 hp"
+     },
+     "years": "2005–2008"
+    },
+    {
+     "code": "VH",
+     "name": "V8 Vantage (4.7) / V12 Vantage",
+     "note": "The 4.7 fixed the torque curve; the V12 Vantage S of 2013 stuffed the DBS's 5.9 V12 into the smallest Aston and created the connoisseur's pick of the whole range.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "4.7L V8 / 5.9L V12",
+      "power": "420–565 hp"
+     },
+     "years": "2008–2018"
+    }
+   ],
+   "intro": "The Gaydon-era entry Aston: hand-assembled Jaguar-derived V8, a proper manual gearbox for most of its life, and styling that aged better than anything else in its class.",
+   "name": "V8 Vantage",
+   "segment": "Sports car",
+   "slug": "v8-vantage",
+   "status": "Discontinued",
+   "trims": [
+    "V8 Vantage",
+    "Vantage S",
+    "V12 Vantage S",
+    "Vantage GT8"
+   ],
+   "years": "2005–2018"
+  },
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Convertible"
+   ],
+   "buyingClass": "used",
+   "generations": [
+    {
+     "code": "DB11",
+     "name": "DB11 V12",
+     "note": "The 5.2 twin-turbo V12 was developed in-house with AMG electronics. Aerodynamic 'curlicue' ducts in the C-pillars did the work of a spoiler.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.2L twin-turbo V12",
+      "power": "600 hp"
+     },
+     "years": "2016–2018"
+    },
+    {
+     "code": "DB11",
+     "name": "DB11 V8 / AMR",
+     "note": "The Mercedes-AMG 4.0 V8 dropped 115 kg over the front axle. The AMR of 2018 sharpened the V12 car to 630 hp before the DB12 replaced the line.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "4.0L twin-turbo V8 / 5.2L V12",
+      "power": "503–630 hp"
+     },
+     "years": "2017–2024"
+    }
+   ],
+   "intro": "The first car of Aston's 'second century' plan: new bonded structure, a twin-turbo V12 of Aston's own, then an AMG V8 that many testers preferred for its lighter nose.",
+   "name": "DB11",
+   "segment": "Grand tourer",
+   "slug": "db11",
+   "status": "Discontinued",
+   "trims": [
+    "DB11 V12",
+    "DB11 V8",
+    "DB11 Volante",
+    "DB11 AMR"
+   ],
+   "years": "2016–2024"
+  },
+  {
+   "bodyStyles": [
+    "SUV"
+   ],
+   "buyingClass": "new",
+   "generations": [
+    {
+     "code": "DBX",
+     "name": "DBX / DBX707",
+     "note": "AMG's 4.0 V8 in two tunes; the 707 (697 hp) added a wet-clutch nine-speed and bigger turbos. Air suspension keeps the GT brief credible on real roads.",
+     "spec": {
+      "drivetrain": "AWD",
+      "engine": "4.0L twin-turbo V8",
+      "power": "542–697 hp"
+     },
+     "years": "2020–present"
+    }
+   ],
+   "intro": "The SUV that saved Aston Martin, built in a new Welsh factory. The DBX707 briefly held the title of most powerful production SUV in the world.",
+   "name": "DBX",
+   "segment": "Luxury SUV",
+   "slug": "dbx",
+   "status": "In production",
+   "trims": [
+    "DBX",
+    "DBX707",
+    "DBX S"
+   ],
+   "years": "2020–present"
+  },
+  {
+   "bodyStyles": [
+    "Coupe"
+   ],
+   "buyingClass": "new",
+   "collectorNote": "There is no casual Valkyrie market — cars trade privately at multiples of list. Provenance is everything; most will live in collections, not on roads.",
+   "generations": [
+    {
+     "code": "Valkyrie",
+     "name": "Valkyrie / AMR Pro",
+     "note": "The brief was a 1:1 power-to-weight ratio in kilograms and horsepower, and it got there. The track-only AMR Pro drops the hybrid and the road equipment, not the ambition.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "6.5L V12 hybrid",
+      "power": "1,160 hp"
+     },
+     "years": "2021–present"
+    }
+   ],
+   "intro": "Adrian Newey's road car: a Cosworth V12 revving to 11,000 rpm, a hybrid system filling the torque gaps, and downforce figures from a Formula 1 wind tunnel. 150 coupés, all spoken for.",
+   "name": "Valkyrie",
+   "segment": "Hypercar",
+   "slug": "valkyrie",
+   "status": "In production",
+   "trims": [
+    "Valkyrie",
+    "Valkyrie Spider",
+    "Valkyrie AMR Pro"
+   ],
+   "years": "2021–present"
+  }
+ ]
 }

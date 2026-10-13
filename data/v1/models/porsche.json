@@ -11,6 +11,28 @@
    "collectorNote": "Air-cooled cars (pre-1998) live in their own market. Documentation and original specification decide values more than mileage does.",
    "generations": [
     {
+     "code": "901",
+     "name": "901 — the original",
+     "note": "The original: a 2.0-litre air-cooled flat-six behind the rear axle, torsion-bar suspension, and a silhouette drawn once and then never really changed again. The 911S and the featherweight 2.7 Carrera RS of 1973 are the blue chips.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.0L flat-6",
+      "power": "130 hp"
+     },
+     "years": "1964–1973"
+    },
+    {
+     "code": "G",
+     "name": "G-Series — impact bumpers and the Turbo",
+     "note": "The long second act: impact bumpers, galvanised bodies from 1976, and in 1975 the 930 Turbo — the widowmaker that put forced induction on the map. The Carrera 3.2 of 1984 is the sweet spot the market keeps circling.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "3.2L flat-6 (Carrera 3.2)",
+      "power": "217 hp"
+     },
+     "years": "1973–1989"
+    },
+    {
      "code": "964",
      "name": "964 — the bridge car",
      "note": "The bridge car: classic silhouette over modern underpinnings, with all-wheel drive available for the first time. The Turbo and Carrera RS are the blue chips.",
@@ -33,6 +55,39 @@
      "years": "1994–1998"
     },
     {
+     "code": "996",
+     "name": "996 — water-cooled, like it or not",
+     "note": "The break with tradition: water cooling replaces air, the fried-egg headlights shared with the Boxster caused a decade of arguments, and underneath sat a superb chassis. The GT3 name debuts here; the Turbo is devastatingly fast for the money, then and now.",
+     "spec": {
+      "drivetrain": "RWD / AWD",
+      "engine": "3.4L water-cooled flat-6",
+      "power": "296 hp"
+     },
+     "years": "1998–2005"
+    },
+    {
+     "code": "997",
+     "name": "997 — the modern classic forms",
+     "note": "Round headlights return and the cabin grows up. The 2009 facelift adds direct injection and the PDK gearbox; the run closes with the GT3 RS 4.0, the largest-displacement 911 engine of its era and an instant collector car.",
+     "spec": {
+      "drivetrain": "RWD / AWD",
+      "engine": "3.8L flat-6 (Carrera S)",
+      "power": "355 hp"
+     },
+     "years": "2005–2012"
+    },
+    {
+     "code": "991",
+     "name": "991 — bigger, faster, argued about",
+     "note": "A longer wheelbase, electric steering, and another leap in pace — purists grumbled, lap times answered. The 2016 facelift turbocharges the Carrera line, leaving the GT3 as the naturally aspirated holdout.",
+     "spec": {
+      "drivetrain": "RWD / AWD",
+      "engine": "3.8L flat-6 (Carrera S)",
+      "power": "400 hp"
+     },
+     "years": "2012–2019"
+    },
+    {
      "code": "992",
      "name": "992 — the modern benchmark",
      "note": "Wide-body for everyone, a proper digital cabin, and a Turbo S that out-accelerates most hypercars. The GT3 keeps a 9,000 rpm naturally aspirated flat-six alive.",
@@ -46,6 +101,16 @@
    ],
    "intro": "One car, perfected for sixty years. The engine is still in the wrong place, the silhouette is still a teardrop, and the 911 is still the sports car everything else is judged against — because Porsche never stopped developing it.",
    "name": "911",
+   "photo": "assets/photos/porsche-911.webp",
+   "photoCaption": "Porsche 911 (992), green, showroom",
+   "photoCredit": "Photo: Matti Blume, CC BY-SA 4.0, via Wikimedia Commons",
+   "photos": [
+    {
+     "caption": "Porsche 911 (992), green, showroom",
+     "credit": "Photo: Matti Blume, CC BY-SA 4.0, via Wikimedia Commons",
+     "src": "assets/photos/porsche-911.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "911",
    "status": "In production",

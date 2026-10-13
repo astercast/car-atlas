@@ -2,7 +2,7 @@
 
 > Car Atlas is an encyclopedia of every car ever made — makes, models, generations, and flagship specs — with a buying layer that routes each model to the channels where it actually changes hands, and a registry of the clubs that keep the marques alive. It is built in the open, wave by wave.
 
-The dataset lives in `data/v1/` as plain JSON and is the single source of truth: the pages, the search index, and the API all read the same files, and functions never fabricate data — what they return is what the dataset holds, with its date on it. As of 2026-10-13 the atlas holds 40 makes, 180 models, and 354 generations, plus 35 clubs and networks. `python3 scripts/build.py` validates the schema and regenerates the search index and the model pages' baked snapshot; it fails loudly on drift. Prices are never shown until they can be shown honestly, with timestamps — the Price Watch method and schema are published on the Buy page instead.
+The dataset lives in `data/v1/` as plain JSON and is the single source of truth: the pages, the search index, and the API all read the same files, and functions never fabricate data — what they return is what the dataset holds, with its date on it. As of 2026-10-13 the atlas holds 40 makes, 180 models, and 373 generations, plus 35 clubs and networks. `python3 scripts/build.py` validates the schema and regenerates the search index and the model pages' baked snapshot; it fails loudly on drift. Prices are never invented: Price Watch stage 1 publishes certified auction results — each with its source and date — in `data/v1/price-watch.json` and on the Buy page, and the listing schema is published alongside them.
 
 ## Pages
 
@@ -22,6 +22,7 @@ The dataset lives in `data/v1/` as plain JSON and is the single source of truth:
 - [Search index](data/v1/search-index.json): the single generated file the homepage loads; rebuilt by `scripts/build.py`, never edited by hand.
 - [Porsche model records](data/v1/models/porsche.json): the per-make model files — one JSON per make under `data/v1/models/`, each holding that make's models, generations, and specs.
 - [Buying data](data/v1/buying.json): the four buying classes, the 13 channels, and the Price Watch schema.
+- [Price Watch results](data/v1/price-watch.json): the certified auction results (stage 1) — car, price, house, date, and a linked published source per record.
 - [Clubs registry](data/v1/clubs.json): the 35 clubs and networks, with regions and chapter models.
 
 ## API

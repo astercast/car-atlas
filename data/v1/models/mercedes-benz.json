@@ -1,1 +1,272 @@
-{"make":"mercedes-benz","models":[{"bodyStyles":["Sedan","Coupe"],"buyingClass":"new","generations":[{"code":"W116","name":"First generation","note":"The first car officially called S-Class. ABS arrived here in 1978, a world first, and the 6.9 was a 6.8-litre hot rod in a banker suit.","spec":{"drivetrain":"RWD","engine":"4.5L V8 (450 SE)","power":"190–225 hp"},"years":"1972–1980"},{"code":"W126","name":"Second generation","note":"The over-engineered era at full strength. Bruno Sacco styling, million-mile durability reputations, and the definitive 1980s boardroom car.","spec":{"drivetrain":"RWD","engine":"5.5L V8 (560 SEL)","power":"238–300 hp"},"years":"1979–1991"},{"code":"W223","name":"Seventh generation","note":"A screen-led cabin and mild-hybrid sixes and eights. The S580's V8 is the traditionalist pick before electrification takes the class over.","spec":{"drivetrain":"AWD","engine":"3.0L inline-6 / 4.0L twin-turbo V8","power":"429–496 hp"},"years":"2020–present"}],"intro":"The car the rest of the industry copies five years later. Air suspension, massaging seats, night vision — if it debuts anywhere, it debuts here. The name is short for Sonderklasse: special class. It has earned it more often than not.","name":"S-Class","segment":"Full-size luxury sedan","slug":"s-class","status":"In production","trims":["S 500","S 580","S 580e","Maybach S 580"],"years":"1972–present"},{"bodyStyles":["Sedan","Wagon","Coupe","Convertible"],"buyingClass":"new","generations":[{"code":"W124","name":"First generation (pre-name lineage)","note":"Built like a vault and styled like one too. The Porsche-built 500 E hid a 5.0 V8 in this shell and quietly outran sports cars.","spec":{"drivetrain":"RWD","engine":"5.0L V8 (500 E)","power":"322 hp"},"years":"1984–1995"},{"code":"W211","name":"Third generation","note":"The four-headlight face matured, quality recovered from the cost-cutting years, and the E55/E63 AMG versions were genuine muscle cars.","spec":{"drivetrain":"RWD","engine":"5.5L V8 (E 550)","power":"382 hp"},"years":"2002–2009"},{"code":"W213","name":"Fifth generation","note":"A mini S-Class in tech and cabin, including the wagon the US actually got in All-Terrain form. The E450's six is the sweet spot.","spec":{"drivetrain":"RWD / AWD","engine":"3.0L twin-turbo V6 (E 450)","power":"362 hp"},"years":"2016–2023"}],"intro":"The taxi in Stuttgart, the boardroom car everywhere else. The E-Class line — the W124 carried it before the name existed — is Mercedes at its most durable and least theatrical, which is exactly the point.","name":"E-Class","segment":"Executive car","slug":"e-class","status":"In production","trims":["E 350","E 450","E 450 All-Terrain","AMG E 53"],"years":"1984–present"},{"bodyStyles":["Coupe","Roadster"],"buyingClass":"new","collectorNote":"A 300SL Gullwing is a seven-figure car in any condition that runs. Alloy-bodied cars and documented race history move the number from there.","generations":[{"code":"W198","name":"300SL","note":"Direct fuel injection, a tubular spaceframe so tall it forced the gullwing doors, and Le Mans and Mille Miglia wins behind it. Coupe first, roadster from 1957.","spec":{"drivetrain":"RWD","engine":"3.0L inline-6","power":"215 hp"},"years":"1954–1963"},{"code":"R107","name":"Third generation","note":"An 18-year production run selling one idea: a heavy, safe, V8 roadster for American boulevards. The 560SL was the flagship of the final years.","spec":{"drivetrain":"RWD","engine":"5.6L V8 (560SL)","power":"238 hp"},"years":"1971–1989"},{"code":"R232","name":"AMG SL","note":"Back to a fabric roof, standard all-wheel drive, and full AMG development. The SL 63 is a GT car first and a roadster second.","spec":{"drivetrain":"AWD","engine":"4.0L twin-turbo V8","power":"469–577 hp"},"years":"2021–present"}],"intro":"It starts with the 300SL Gullwing — the fastest production car of its day and still the collector benchmark — and continues as seven decades of open-top grand touring. The current car is an AMG product; the early car is automotive royalty.","name":"SL","segment":"Grand tourer","slug":"sl","status":"In production","trims":["SL 55","SL 63"],"years":"1954–present"},{"bodyStyles":["SUV"],"buyingClass":"new","collectorNote":"Early W460 work trucks and the limited-run V12 G65 sit at opposite ends of the same market. Originality matters more than shine on the early cars.","generations":[{"code":"W460","name":"First generation","note":"Built in Austria by Steyr-Daimler-Puch as a working vehicle for armies and farmers. Spartan, slow, and nearly unkillable.","spec":{"drivetrain":"4WD","engine":"2.8L inline-6 (280 GE)","power":"150 hp"},"years":"1979–1992"},{"code":"W463","name":"Second generation","note":"The G goes luxury: leather and wood inside, same box outside. The supercharged G55 AMG turned the joke into a straight-line weapon.","spec":{"drivetrain":"4WD","engine":"5.4L supercharged V8 (G55 AMG)","power":"493 hp"},"years":"1990–2018"},{"code":"W463A","name":"Third generation","note":"Wider, lighter, independent front suspension — and it still looks like 1979 and locks all three diffs. The G63 outsells everything else in the range.","spec":{"drivetrain":"4WD","engine":"4.0L twin-turbo V8","power":"416–577 hp"},"years":"2018–present"}],"intro":"A military utility vehicle that became a luxury icon without changing its silhouette. Three locking differentials, a ladder frame, and door hinges on the outside — the shape is the substance, and Mercedes has wisely never messed with it.","name":"G-Class","segment":"Luxury off-road SUV","slug":"g-class","status":"In production","trims":["G 550","AMG G 63"],"years":"1979–present"},{"bodyStyles":["Coupe","Roadster"],"buyingClass":"new","generations":[{"code":"C190","name":"First generation","note":"Dry-sump V8 mounted behind the front axle. The GT R added rear steering and active aero and took the fight directly to the 911.","spec":{"drivetrain":"RWD","engine":"4.0L twin-turbo V8","power":"456–577 hp"},"years":"2014–2021"},{"code":"C192","name":"Second generation","note":"Bigger, heavier, all-wheel drive, and 2+2 seating — a GT in the true sense now. The GT 63's pace is not in question; the character changed.","spec":{"drivetrain":"AWD","engine":"4.0L twin-turbo V8","power":"469–577 hp"},"years":"2023–present"}],"intro":"AMG's own car, not a tuned Mercedes: a front-mid V8, a transaxle at the back, and a long bonnet with the cabin sitting nearly over the rear wheels. The second generation shares its bones with the SL and got more civilised; the first one is the purist's pick.","name":"AMG GT","segment":"Sports car","slug":"amg-gt","status":"In production","trims":["GT 43","GT 55","GT 63"],"years":"2014–present"}]}
+{
+ "make": "mercedes-benz",
+ "models": [
+  {
+   "bodyStyles": [
+    "Sedan",
+    "Coupe"
+   ],
+   "buyingClass": "new",
+   "generations": [
+    {
+     "code": "W116",
+     "name": "First generation",
+     "note": "The first car officially called S-Class. ABS arrived here in 1978, a world first, and the 6.9 was a 6.8-litre hot rod in a banker suit.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "4.5L V8 (450 SE)",
+      "power": "190–225 hp"
+     },
+     "years": "1972–1980"
+    },
+    {
+     "code": "W126",
+     "name": "Second generation",
+     "note": "The over-engineered era at full strength. Bruno Sacco styling, million-mile durability reputations, and the definitive 1980s boardroom car.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.5L V8 (560 SEL)",
+      "power": "238–300 hp"
+     },
+     "years": "1979–1991"
+    },
+    {
+     "code": "W223",
+     "name": "Seventh generation",
+     "note": "A screen-led cabin and mild-hybrid sixes and eights. The S580's V8 is the traditionalist pick before electrification takes the class over.",
+     "spec": {
+      "drivetrain": "AWD",
+      "engine": "3.0L inline-6 / 4.0L twin-turbo V8",
+      "power": "429–496 hp"
+     },
+     "years": "2020–present"
+    }
+   ],
+   "intro": "The car the rest of the industry copies five years later. Air suspension, massaging seats, night vision — if it debuts anywhere, it debuts here. The name is short for Sonderklasse: special class. It has earned it more often than not.",
+   "name": "S-Class",
+   "segment": "Full-size luxury sedan",
+   "slug": "s-class",
+   "status": "In production",
+   "trims": [
+    "S 500",
+    "S 580",
+    "S 580e",
+    "Maybach S 580"
+   ],
+   "years": "1972–present"
+  },
+  {
+   "bodyStyles": [
+    "Sedan",
+    "Wagon",
+    "Coupe",
+    "Convertible"
+   ],
+   "buyingClass": "new",
+   "generations": [
+    {
+     "code": "W124",
+     "name": "First generation (pre-name lineage)",
+     "note": "Built like a vault and styled like one too. The Porsche-built 500 E hid a 5.0 V8 in this shell and quietly outran sports cars.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.0L V8 (500 E)",
+      "power": "322 hp"
+     },
+     "years": "1984–1995"
+    },
+    {
+     "code": "W211",
+     "name": "Third generation",
+     "note": "The four-headlight face matured, quality recovered from the cost-cutting years, and the E55/E63 AMG versions were genuine muscle cars.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.5L V8 (E 550)",
+      "power": "382 hp"
+     },
+     "years": "2002–2009"
+    },
+    {
+     "code": "W213",
+     "name": "Fifth generation",
+     "note": "A mini S-Class in tech and cabin, including the wagon the US actually got in All-Terrain form. The E450's six is the sweet spot.",
+     "spec": {
+      "drivetrain": "RWD / AWD",
+      "engine": "3.0L twin-turbo V6 (E 450)",
+      "power": "362 hp"
+     },
+     "years": "2016–2023"
+    }
+   ],
+   "intro": "The taxi in Stuttgart, the boardroom car everywhere else. The E-Class line — the W124 carried it before the name existed — is Mercedes at its most durable and least theatrical, which is exactly the point.",
+   "name": "E-Class",
+   "segment": "Executive car",
+   "slug": "e-class",
+   "status": "In production",
+   "trims": [
+    "E 350",
+    "E 450",
+    "E 450 All-Terrain",
+    "AMG E 53"
+   ],
+   "years": "1984–present"
+  },
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Roadster"
+   ],
+   "buyingClass": "new",
+   "collectorNote": "A 300SL Gullwing is a seven-figure car in any condition that runs. Alloy-bodied cars and documented race history move the number from there.",
+   "generations": [
+    {
+     "code": "W198",
+     "name": "300SL",
+     "note": "Direct fuel injection, a tubular spaceframe so tall it forced the gullwing doors, and Le Mans and Mille Miglia wins behind it. Coupe first, roadster from 1957.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "3.0L inline-6",
+      "power": "215 hp"
+     },
+     "years": "1954–1963"
+    },
+    {
+     "code": "R107",
+     "name": "Third generation",
+     "note": "An 18-year production run selling one idea: a heavy, safe, V8 roadster for American boulevards. The 560SL was the flagship of the final years.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.6L V8 (560SL)",
+      "power": "238 hp"
+     },
+     "years": "1971–1989"
+    },
+    {
+     "code": "R232",
+     "name": "AMG SL",
+     "note": "Back to a fabric roof, standard all-wheel drive, and full AMG development. The SL 63 is a GT car first and a roadster second.",
+     "spec": {
+      "drivetrain": "AWD",
+      "engine": "4.0L twin-turbo V8",
+      "power": "469–577 hp"
+     },
+     "years": "2021–present"
+    }
+   ],
+   "intro": "It starts with the 300SL Gullwing — the fastest production car of its day and still the collector benchmark — and continues as seven decades of open-top grand touring. The current car is an AMG product; the early car is automotive royalty.",
+   "name": "SL",
+   "photo": "assets/photos/mercedes-benz-300sl.webp",
+   "photoCaption": "300 SL roadster, hood open, indoor show",
+   "photoCredit": "Photo: Matti Blume, CC BY-SA 4.0, via Wikimedia Commons",
+   "photos": [
+    {
+     "caption": "300 SL roadster, hood open, indoor show",
+     "credit": "Photo: Matti Blume, CC BY-SA 4.0, via Wikimedia Commons",
+     "src": "assets/photos/mercedes-benz-300sl.webp"
+    }
+   ],
+   "segment": "Grand tourer",
+   "slug": "sl",
+   "status": "In production",
+   "trims": [
+    "SL 55",
+    "SL 63"
+   ],
+   "years": "1954–present"
+  },
+  {
+   "bodyStyles": [
+    "SUV"
+   ],
+   "buyingClass": "new",
+   "collectorNote": "Early W460 work trucks and the limited-run V12 G65 sit at opposite ends of the same market. Originality matters more than shine on the early cars.",
+   "generations": [
+    {
+     "code": "W460",
+     "name": "First generation",
+     "note": "Built in Austria by Steyr-Daimler-Puch as a working vehicle for armies and farmers. Spartan, slow, and nearly unkillable.",
+     "spec": {
+      "drivetrain": "4WD",
+      "engine": "2.8L inline-6 (280 GE)",
+      "power": "150 hp"
+     },
+     "years": "1979–1992"
+    },
+    {
+     "code": "W463",
+     "name": "Second generation",
+     "note": "The G goes luxury: leather and wood inside, same box outside. The supercharged G55 AMG turned the joke into a straight-line weapon.",
+     "spec": {
+      "drivetrain": "4WD",
+      "engine": "5.4L supercharged V8 (G55 AMG)",
+      "power": "493 hp"
+     },
+     "years": "1990–2018"
+    },
+    {
+     "code": "W463A",
+     "name": "Third generation",
+     "note": "Wider, lighter, independent front suspension — and it still looks like 1979 and locks all three diffs. The G63 outsells everything else in the range.",
+     "spec": {
+      "drivetrain": "4WD",
+      "engine": "4.0L twin-turbo V8",
+      "power": "416–577 hp"
+     },
+     "years": "2018–present"
+    }
+   ],
+   "intro": "A military utility vehicle that became a luxury icon without changing its silhouette. Three locking differentials, a ladder frame, and door hinges on the outside — the shape is the substance, and Mercedes has wisely never messed with it.",
+   "name": "G-Class",
+   "segment": "Luxury off-road SUV",
+   "slug": "g-class",
+   "status": "In production",
+   "trims": [
+    "G 550",
+    "AMG G 63"
+   ],
+   "years": "1979–present"
+  },
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Roadster"
+   ],
+   "buyingClass": "new",
+   "generations": [
+    {
+     "code": "C190",
+     "name": "First generation",
+     "note": "Dry-sump V8 mounted behind the front axle. The GT R added rear steering and active aero and took the fight directly to the 911.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "4.0L twin-turbo V8",
+      "power": "456–577 hp"
+     },
+     "years": "2014–2021"
+    },
+    {
+     "code": "C192",
+     "name": "Second generation",
+     "note": "Bigger, heavier, all-wheel drive, and 2+2 seating — a GT in the true sense now. The GT 63's pace is not in question; the character changed.",
+     "spec": {
+      "drivetrain": "AWD",
+      "engine": "4.0L twin-turbo V8",
+      "power": "469–577 hp"
+     },
+     "years": "2023–present"
+    }
+   ],
+   "intro": "AMG's own car, not a tuned Mercedes: a front-mid V8, a transaxle at the back, and a long bonnet with the cabin sitting nearly over the rear wheels. The second generation shares its bones with the SL and got more civilised; the first one is the purist's pick.",
+   "name": "AMG GT",
+   "segment": "Sports car",
+   "slug": "amg-gt",
+   "status": "In production",
+   "trims": [
+    "GT 43",
+    "GT 55",
+    "GT 63"
+   ],
+   "years": "2014–present"
+  }
+ ]
+}

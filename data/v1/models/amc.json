@@ -1,176 +1,186 @@
 {
-  "make": "amc",
-  "models": [
+ "make": "amc",
+ "models": [
+  {
+   "bodyStyles": [
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Donohue editions and 401 cars lead; Pierre Cardin interiors are the conversation piece that keeps climbing. Undervalued next to Mustang and Camaro equivalents — for now.",
+   "generations": [
     {
-      "bodyStyles": [
-        "Coupe"
-      ],
-      "buyingClass": "vintage",
-      "collectorNote": "Donohue editions and 401 cars lead; Pierre Cardin interiors are the conversation piece that keeps climbing. Undervalued next to Mustang and Camaro equivalents — for now.",
-      "generations": [
-        {
-          "code": "Javelin 1",
-          "name": "Javelin (first generation)",
-          "note": "Sixes to the 390 V8; the 1970 Mark Donohue edition marked AMC's Trans-Am push with a ducktail spoiler and the 360 or 390 under the hood.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "6.4L V8 (390 cu in, top option)",
-            "power": "315 hp"
-          },
-          "years": "1968–1970"
-        },
-        {
-          "code": "Javelin 2",
-          "name": "Javelin (second generation)",
-          "note": "Bigger, curvier, with flared arches and the 401 V8 on top. Roger Penske's team took the Trans-Am title in 1971 and 1972; the Pierre Cardin interior option remains the strangest entry on any muscle-era option sheet.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "6.6L V8 (401 cu in, top option)",
-            "power": "255 hp (net)"
-          },
-          "years": "1971–1974"
-        }
-      ],
-      "intro": "AMC's pony car, and a good one: styled by Dick Teague, raced by Penske, and armed with engines up to the 401. The second-generation car won the Trans-Am championship outright in 1971 and 1972.",
-      "name": "Javelin",
-      "segment": "Pony car",
-      "slug": "javelin",
-      "status": "Discontinued",
-      "trims": [
-        "Javelin",
-        "Javelin SST",
-        "Javelin AMX",
-        "Javelin Pierre Cardin"
-      ],
-      "years": "1968–1974"
+     "code": "Javelin 1",
+     "name": "Javelin (first generation)",
+     "note": "Sixes to the 390 V8; the 1970 Mark Donohue edition marked AMC's Trans-Am push with a ducktail spoiler and the 360 or 390 under the hood.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "6.4L V8 (390 cu in, top option)",
+      "power": "315 hp"
+     },
+     "years": "1968–1970"
     },
     {
-      "bodyStyles": [
-        "Coupe"
-      ],
-      "buyingClass": "vintage",
-      "collectorNote": "Two seats, real rarity, and muscle-era pace: Big Bad colour cars (orange, green, blue) draw the eye and the bids. Verify the 390 is born-with, not swapped in.",
-      "generations": [
-        {
-          "code": "AMX",
-          "name": "AMX",
-          "note": "About 19,000 built across three years. The 390 with the Go-Package — discs, handling kit, stripes — is the spec; Hurst's SS drag cars are the unicorns.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "6.4L V8 (390 cu in, top option)",
-            "power": "315 hp"
-          },
-          "years": "1968–1970"
-        }
-      ],
-      "intro": "America's other two-seat sports car: a Javelin with a foot cut out of the wheelbase, a 390 V8 option, and a name made of the company's initials. Craig Breedlove took one to Bonneville records before it even went on sale.",
-      "name": "AMX",
-      "segment": "Sports coupe",
-      "slug": "amx",
-      "status": "Discontinued",
-      "trims": [
-        "AMX",
-        "AMX Go-Package",
-        "AMX Big Bad (1969 colours)"
-      ],
-      "years": "1968–1970"
-    },
-    {
-      "bodyStyles": [
-        "Hatchback"
-      ],
-      "buyingClass": "vintage",
-      "collectorNote": "Seventies kitsch with a rising floor. V8 and Levi's cars are the collectible ones; originality beats restoration at these values.",
-      "generations": [
-        {
-          "code": "Gremlin",
-          "name": "Gremlin",
-          "note": "Over 670,000 built. Sixes did the volume; the 5.0 V8 made it a stoplight surprise, and the 1977 Gremlin X kept the stripes honest. Levi's denim interiors were a real option.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "3.8L–4.2L inline-6 / 5.0L V8",
-            "power": "100–150 hp"
-          },
-          "years": "1970–1978"
-        }
-      ],
-      "intro": "Introduced on April Fool's Day, 1970 — a Rambler American with the back chopped off, styled on an air-sickness bag according to legend. Cheap, cheeky, and with the optional 304 V8, absurdly quick for a subcompact.",
-      "name": "Gremlin",
-      "segment": "Subcompact hatchback",
-      "slug": "gremlin",
-      "status": "Discontinued",
-      "trims": [
-        "Gremlin",
-        "Gremlin X",
-        "Gremlin Levi's edition"
-      ],
-      "years": "1970–1978"
-    },
-    {
-      "bodyStyles": [
-        "Hatchback",
-        "Wagon"
-      ],
-      "buyingClass": "vintage",
-      "collectorNote": "Pure nostalgia economics: tidy survivors are cheap fun, and the film car aura guarantees thumbs-ups per mile like nothing else at the price.",
-      "generations": [
-        {
-          "code": "Pacer",
-          "name": "Pacer",
-          "note": "Six-cylinder power only at first; a 304 V8 arrived for 1978. The cab-forward glasshouse anticipated modern packaging by a decade, even if the car around it stayed seventies.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "4.2L inline-6 / 5.0L V8",
-            "power": "90–120 hp"
-          },
-          "years": "1975–1980"
-        }
-      ],
-      "intro": "The wide small car: as broad as a full-size sedan, glass everywhere, and one door longer than the other so rear passengers could climb in. Designed for a rotary engine GM cancelled, immortalised by Wayne's World.",
-      "name": "Pacer",
-      "segment": "Compact wide-body car",
-      "slug": "pacer",
-      "status": "Discontinued",
-      "trims": [
-        "Pacer",
-        "Pacer X",
-        "Pacer wagon"
-      ],
-      "years": "1975–1980"
-    },
-    {
-      "bodyStyles": [
-        "Wagon",
-        "Sedan",
-        "Hatchback"
-      ],
-      "buyingClass": "vintage",
-      "collectorNote": "Wagons lead a small, devoted market. Rust and tired AWD viscous couplings are the checks; good ones are appreciating as the crossover's origin story gets retold.",
-      "generations": [
-        {
-          "code": "Eagle",
-          "name": "Eagle / SX/4 / Kammback",
-          "note": "The wagon is the icon — woodgrain optional, dignity intact. The 4.2 six and full-time AWD made it the ski-town and rural-route default of the eighties; the line outlived AMC itself by a model year.",
-          "spec": {
-            "drivetrain": "AWD",
-            "engine": "4.2L inline-6",
-            "power": "105–115 hp"
-          },
-          "years": "1980–1988"
-        }
-      ],
-      "intro": "The crossover, invented fifteen years early: a Concord body on full-time all-wheel drive with raised suspension, in wagon, sedan, coupe and the SX/4 hatch. Subaru and every modern crossover owe it a footnote at least.",
-      "name": "Eagle",
-      "segment": "All-wheel-drive family car",
-      "slug": "eagle",
-      "status": "Discontinued",
-      "trims": [
-        "Eagle wagon",
-        "Eagle sedan",
-        "Eagle SX/4",
-        "Eagle Kammback"
-      ],
-      "years": "1980–1988"
+     "code": "Javelin 2",
+     "name": "Javelin (second generation)",
+     "note": "Bigger, curvier, with flared arches and the 401 V8 on top. Roger Penske's team took the Trans-Am title in 1971 and 1972; the Pierre Cardin interior option remains the strangest entry on any muscle-era option sheet.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "6.6L V8 (401 cu in, top option)",
+      "power": "255 hp (net)"
+     },
+     "years": "1971–1974"
     }
-  ]
+   ],
+   "intro": "AMC's pony car, and a good one: styled by Dick Teague, raced by Penske, and armed with engines up to the 401. The second-generation car won the Trans-Am championship outright in 1971 and 1972.",
+   "name": "Javelin",
+   "segment": "Pony car",
+   "slug": "javelin",
+   "status": "Discontinued",
+   "trims": [
+    "Javelin",
+    "Javelin SST",
+    "Javelin AMX",
+    "Javelin Pierre Cardin"
+   ],
+   "years": "1968–1974"
+  },
+  {
+   "bodyStyles": [
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Two seats, real rarity, and muscle-era pace: Big Bad colour cars (orange, green, blue) draw the eye and the bids. Verify the 390 is born-with, not swapped in.",
+   "generations": [
+    {
+     "code": "AMX",
+     "name": "AMX",
+     "note": "About 19,000 built across three years. The 390 with the Go-Package — discs, handling kit, stripes — is the spec; Hurst's SS drag cars are the unicorns.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "6.4L V8 (390 cu in, top option)",
+      "power": "315 hp"
+     },
+     "years": "1968–1970"
+    }
+   ],
+   "intro": "America's other two-seat sports car: a Javelin with a foot cut out of the wheelbase, a 390 V8 option, and a name made of the company's initials. Craig Breedlove took one to Bonneville records before it even went on sale.",
+   "name": "AMX",
+   "photo": "assets/photos/amc-amx.webp",
+   "photoCaption": "AMX 1969, front 3/4",
+   "photoCredit": "Photo: Michael Barera, CC BY-SA 4.0, via Wikimedia Commons",
+   "photos": [
+    {
+     "caption": "AMX 1969, front 3/4",
+     "credit": "Photo: Michael Barera, CC BY-SA 4.0, via Wikimedia Commons",
+     "src": "assets/photos/amc-amx.webp"
+    }
+   ],
+   "segment": "Sports coupe",
+   "slug": "amx",
+   "status": "Discontinued",
+   "trims": [
+    "AMX",
+    "AMX Go-Package",
+    "AMX Big Bad (1969 colours)"
+   ],
+   "years": "1968–1970"
+  },
+  {
+   "bodyStyles": [
+    "Hatchback"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Seventies kitsch with a rising floor. V8 and Levi's cars are the collectible ones; originality beats restoration at these values.",
+   "generations": [
+    {
+     "code": "Gremlin",
+     "name": "Gremlin",
+     "note": "Over 670,000 built. Sixes did the volume; the 5.0 V8 made it a stoplight surprise, and the 1977 Gremlin X kept the stripes honest. Levi's denim interiors were a real option.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "3.8L–4.2L inline-6 / 5.0L V8",
+      "power": "100–150 hp"
+     },
+     "years": "1970–1978"
+    }
+   ],
+   "intro": "Introduced on April Fool's Day, 1970 — a Rambler American with the back chopped off, styled on an air-sickness bag according to legend. Cheap, cheeky, and with the optional 304 V8, absurdly quick for a subcompact.",
+   "name": "Gremlin",
+   "segment": "Subcompact hatchback",
+   "slug": "gremlin",
+   "status": "Discontinued",
+   "trims": [
+    "Gremlin",
+    "Gremlin X",
+    "Gremlin Levi's edition"
+   ],
+   "years": "1970–1978"
+  },
+  {
+   "bodyStyles": [
+    "Hatchback",
+    "Wagon"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Pure nostalgia economics: tidy survivors are cheap fun, and the film car aura guarantees thumbs-ups per mile like nothing else at the price.",
+   "generations": [
+    {
+     "code": "Pacer",
+     "name": "Pacer",
+     "note": "Six-cylinder power only at first; a 304 V8 arrived for 1978. The cab-forward glasshouse anticipated modern packaging by a decade, even if the car around it stayed seventies.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "4.2L inline-6 / 5.0L V8",
+      "power": "90–120 hp"
+     },
+     "years": "1975–1980"
+    }
+   ],
+   "intro": "The wide small car: as broad as a full-size sedan, glass everywhere, and one door longer than the other so rear passengers could climb in. Designed for a rotary engine GM cancelled, immortalised by Wayne's World.",
+   "name": "Pacer",
+   "segment": "Compact wide-body car",
+   "slug": "pacer",
+   "status": "Discontinued",
+   "trims": [
+    "Pacer",
+    "Pacer X",
+    "Pacer wagon"
+   ],
+   "years": "1975–1980"
+  },
+  {
+   "bodyStyles": [
+    "Wagon",
+    "Sedan",
+    "Hatchback"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Wagons lead a small, devoted market. Rust and tired AWD viscous couplings are the checks; good ones are appreciating as the crossover's origin story gets retold.",
+   "generations": [
+    {
+     "code": "Eagle",
+     "name": "Eagle / SX/4 / Kammback",
+     "note": "The wagon is the icon — woodgrain optional, dignity intact. The 4.2 six and full-time AWD made it the ski-town and rural-route default of the eighties; the line outlived AMC itself by a model year.",
+     "spec": {
+      "drivetrain": "AWD",
+      "engine": "4.2L inline-6",
+      "power": "105–115 hp"
+     },
+     "years": "1980–1988"
+    }
+   ],
+   "intro": "The crossover, invented fifteen years early: a Concord body on full-time all-wheel drive with raised suspension, in wagon, sedan, coupe and the SX/4 hatch. Subaru and every modern crossover owe it a footnote at least.",
+   "name": "Eagle",
+   "segment": "All-wheel-drive family car",
+   "slug": "eagle",
+   "status": "Discontinued",
+   "trims": [
+    "Eagle wagon",
+    "Eagle sedan",
+    "Eagle SX/4",
+    "Eagle Kammback"
+   ],
+   "years": "1980–1988"
+  }
+ ]
 }

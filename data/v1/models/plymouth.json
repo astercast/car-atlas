@@ -1,207 +1,217 @@
 {
-  "make": "plymouth",
-  "models": [
+ "make": "plymouth",
+ "models": [
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Hemi 'Cuda convertibles sit at the very top of the muscle market; documented 440 cars follow. Clones are everywhere — fender tags and build sheets are non-negotiable homework.",
+   "generations": [
     {
-      "bodyStyles": [
-        "Coupe",
-        "Convertible"
-      ],
-      "buyingClass": "vintage",
-      "collectorNote": "Hemi 'Cuda convertibles sit at the very top of the muscle market; documented 440 cars follow. Clones are everywhere — fender tags and build sheets are non-negotiable homework.",
-      "generations": [
-        {
-          "code": "Barracuda 1",
-          "name": "Barracuda (first generation)",
-          "note": "A fastback A-body with a 7-foot fold-down rear compartment. Formula S cars added handling and the 273 V8 — the pony formula, from Plymouth, first.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "4.5L V8 (273 cu in, top option)",
-            "power": "235 hp"
-          },
-          "years": "1964–1966"
-        },
-        {
-          "code": "Cuda",
-          "name": "'Cuda (E-body)",
-          "note": "Big-block 440s, the 440+6, and the 426 Hemi at 425 hp. The AAR 'Cuda's 340 and side pipes chased Trans-Am glory; Hemi convertibles — 14 built across 1970–71 — became the most valuable muscle cars of all.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "7.0L V8 (426 Hemi, top option)",
-            "power": "425 hp"
-          },
-          "years": "1970–1974"
-        }
-      ],
-      "intro": "Launched April 1, 1964 — two weeks before the Mustang — on Valiant bones with the biggest rear window in the business. By 1970 the E-body 'Cuda had become the muscle era's apex predator, and the Hemi convertible its holy grail.",
-      "name": "Barracuda",
-      "segment": "Pony car / muscle car",
-      "slug": "barracuda",
-      "status": "Discontinued",
-      "trims": [
-        "Barracuda",
-        "Barracuda Formula S",
-        "'Cuda",
-        "AAR 'Cuda",
-        "Hemi 'Cuda"
-      ],
-      "years": "1964–1974"
+     "code": "Barracuda 1",
+     "name": "Barracuda (first generation)",
+     "note": "A fastback A-body with a 7-foot fold-down rear compartment. Formula S cars added handling and the 273 V8 — the pony formula, from Plymouth, first.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "4.5L V8 (273 cu in, top option)",
+      "power": "235 hp"
+     },
+     "years": "1964–1966"
     },
     {
-      "bodyStyles": [
-        "Coupe",
-        "Convertible"
-      ],
-      "buyingClass": "vintage",
-      "collectorNote": "Hemi and Six Barrel cars lead; Superbirds are their own market entirely. The beep-beep horn and cartoon decals must be original-spec — the details are the car.",
-      "generations": [
-        {
-          "code": "Road Runner 1",
-          "name": "Road Runner (first era)",
-          "note": "383 standard, 440 Six Barrel added 1969, 426 Hemi optional throughout. The Superbird (1970) was built to lure Richard Petty back — about 1,900 road cars satisfied NASCAR's homologation.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "6.3L–7.0L V8",
-            "power": "335–425 hp"
-          },
-          "years": "1968–1970"
-        }
-      ],
-      "intro": "Plymouth paid Warner Bros. for the cartoon bird and spent the savings on speed: a stripped B-body, a 383 with magnum internals, and a 'meep meep' horn. The 1970 Superbird wore a nose cone and a wing for NASCAR — and for immortality.",
-      "name": "Road Runner",
-      "segment": "Muscle car",
-      "slug": "road-runner",
-      "status": "Discontinued",
-      "trims": [
-        "Road Runner",
-        "Road Runner 440+6",
-        "Road Runner Hemi",
-        "Superbird"
-      ],
-      "years": "1968–1980"
-    },
-    {
-      "bodyStyles": [
-        "Coupe",
-        "Convertible"
-      ],
-      "buyingClass": "vintage",
-      "generations": [
-        {
-          "code": "GTX",
-          "name": "GTX",
-          "note": "440 power at 375 hp for most; the 1967 cars are the sleeper pick, the 1971 the last of the line as compression and insurance closed in.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "7.2L V8 (440 cu in)",
-            "power": "375 hp"
-          },
-          "years": "1967–1971"
-        }
-      ],
-      "intro": "The gentleman's muscle car: Plymouth's upscale B-body with the 440 Super Commando standard and the Hemi on the option list, pitched at buyers who wanted the pace without the stripper spec.",
-      "name": "GTX",
-      "segment": "Muscle car",
-      "slug": "gtx",
-      "status": "Discontinued",
-      "trims": [
-        "GTX",
-        "GTX Hemi"
-      ],
-      "years": "1967–1971"
-    },
-    {
-      "bodyStyles": [
-        "Coupe"
-      ],
-      "buyingClass": "vintage",
-      "collectorNote": "340 cars are the appreciating ones; slant-six cars are the charming ones. Feather Dusters — aluminium panels from the fuel-crisis years — are the trivia-night rarity.",
-      "generations": [
-        {
-          "code": "Duster",
-          "name": "Duster 340",
-          "note": "The 340's 275 hp in a light A-body was the budget performance equation of the early seventies. Later cars softened into economy trim as the era ended.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "5.6L V8 (340 cu in, top option)",
-            "power": "275 hp"
-          },
-          "years": "1970–1976"
-        }
-      ],
-      "intro": "The budget bruiser: a Valiant fastback coupe that, with the 340 small-block, outran cars twice its price and embarrassed its own stablemates. The Twister trim sold the look; the 340 sold the legend.",
-      "name": "Duster",
-      "segment": "Compact muscle / coupe",
-      "slug": "duster",
-      "status": "Discontinued",
-      "trims": [
-        "Duster",
-        "Duster 340",
-        "Duster Twister",
-        "Gold Duster"
-      ],
-      "years": "1970–1976"
-    },
-    {
-      "bodyStyles": [
-        "Convertible"
-      ],
-      "buyingClass": "modern-classic",
-      "collectorNote": "Limited editions and the trailer option (yes, a matching trailer) amuse collectors. Values are stable-niche: buy the colour you want — purple and yellow lead the room.",
-      "generations": [
-        {
-          "code": "Prowler",
-          "name": "Prowler",
-          "note": "The 3.5 V6 rose from 214 to 253 hp with the 1999 aluminium-block update. About 11,700 were built including the Chrysler-badged final cars after Plymouth closed.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "3.5L V6",
-            "power": "214–253 hp"
-          },
-          "years": "1997–2002"
-        }
-      ],
-      "intro": "A factory hot rod in 1997: aluminium-intensive, open-wheeled retro styling, and a concept car Chrysler actually built. The V6-only powertrain was the compromise; the look was not.",
-      "name": "Prowler",
-      "segment": "Retro roadster",
-      "slug": "prowler",
-      "status": "Discontinued",
-      "trims": [
-        "Prowler",
-        "Prowler Mulholland / Black Tie editions"
-      ],
-      "years": "1997–2002"
-    },
-    {
-      "bodyStyles": [
-        "Minivan"
-      ],
-      "buyingClass": "vintage",
-      "collectorNote": "Survivors are scarce — they were used up, as intended. Turbo five-speed cars are the unicorns; condition and nostalgia, not spec, drive the tiny market.",
-      "generations": [
-        {
-          "code": "Voyager 1",
-          "name": "Voyager (first generation)",
-          "note": "Four-cylinder, turbo-four, or Mitsubishi V6 power — modest, but the package was the revolution. The turbo vans are the sleeper trivia answer; the woody Grand Voyager is the period piece.",
-          "spec": {
-            "drivetrain": "FWD",
-            "engine": "2.5L inline-4 / turbo / 3.0L V6",
-            "power": "100–150 hp"
-          },
-          "years": "1984–1990"
-        }
-      ],
-      "intro": "With the Dodge Caravan, the 1984 Voyager invented the modern minivan: front-wheel drive, a car floor height, and a sliding door, selling families out of station wagons by the millions. Lee Iacocca's second act saved Chrysler.",
-      "name": "Voyager",
-      "segment": "Minivan",
-      "slug": "voyager",
-      "status": "Discontinued",
-      "trims": [
-        "Voyager",
-        "Voyager SE",
-        "Grand Voyager",
-        "Voyager AWD"
-      ],
-      "years": "1984–2000"
+     "code": "Cuda",
+     "name": "'Cuda (E-body)",
+     "note": "Big-block 440s, the 440+6, and the 426 Hemi at 425 hp. The AAR 'Cuda's 340 and side pipes chased Trans-Am glory; Hemi convertibles — 14 built across 1970–71 — became the most valuable muscle cars of all.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "7.0L V8 (426 Hemi, top option)",
+      "power": "425 hp"
+     },
+     "years": "1970–1974"
     }
-  ]
+   ],
+   "intro": "Launched April 1, 1964 — two weeks before the Mustang — on Valiant bones with the biggest rear window in the business. By 1970 the E-body 'Cuda had become the muscle era's apex predator, and the Hemi convertible its holy grail.",
+   "name": "Barracuda",
+   "photo": "assets/photos/plymouth-barracuda.webp",
+   "photoCaption": "'Cuda 1971 billboard car, indoor show",
+   "photoCredit": "Photo: Mustang Joe, CC0, via Wikimedia Commons",
+   "photos": [
+    {
+     "caption": "'Cuda 1971 billboard car, indoor show",
+     "credit": "Photo: Mustang Joe, CC0, via Wikimedia Commons",
+     "src": "assets/photos/plymouth-barracuda.webp"
+    }
+   ],
+   "segment": "Pony car / muscle car",
+   "slug": "barracuda",
+   "status": "Discontinued",
+   "trims": [
+    "Barracuda",
+    "Barracuda Formula S",
+    "'Cuda",
+    "AAR 'Cuda",
+    "Hemi 'Cuda"
+   ],
+   "years": "1964–1974"
+  },
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Hemi and Six Barrel cars lead; Superbirds are their own market entirely. The beep-beep horn and cartoon decals must be original-spec — the details are the car.",
+   "generations": [
+    {
+     "code": "Road Runner 1",
+     "name": "Road Runner (first era)",
+     "note": "383 standard, 440 Six Barrel added 1969, 426 Hemi optional throughout. The Superbird (1970) was built to lure Richard Petty back — about 1,900 road cars satisfied NASCAR's homologation.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "6.3L–7.0L V8",
+      "power": "335–425 hp"
+     },
+     "years": "1968–1970"
+    }
+   ],
+   "intro": "Plymouth paid Warner Bros. for the cartoon bird and spent the savings on speed: a stripped B-body, a 383 with magnum internals, and a 'meep meep' horn. The 1970 Superbird wore a nose cone and a wing for NASCAR — and for immortality.",
+   "name": "Road Runner",
+   "segment": "Muscle car",
+   "slug": "road-runner",
+   "status": "Discontinued",
+   "trims": [
+    "Road Runner",
+    "Road Runner 440+6",
+    "Road Runner Hemi",
+    "Superbird"
+   ],
+   "years": "1968–1980"
+  },
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "generations": [
+    {
+     "code": "GTX",
+     "name": "GTX",
+     "note": "440 power at 375 hp for most; the 1967 cars are the sleeper pick, the 1971 the last of the line as compression and insurance closed in.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "7.2L V8 (440 cu in)",
+      "power": "375 hp"
+     },
+     "years": "1967–1971"
+    }
+   ],
+   "intro": "The gentleman's muscle car: Plymouth's upscale B-body with the 440 Super Commando standard and the Hemi on the option list, pitched at buyers who wanted the pace without the stripper spec.",
+   "name": "GTX",
+   "segment": "Muscle car",
+   "slug": "gtx",
+   "status": "Discontinued",
+   "trims": [
+    "GTX",
+    "GTX Hemi"
+   ],
+   "years": "1967–1971"
+  },
+  {
+   "bodyStyles": [
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "340 cars are the appreciating ones; slant-six cars are the charming ones. Feather Dusters — aluminium panels from the fuel-crisis years — are the trivia-night rarity.",
+   "generations": [
+    {
+     "code": "Duster",
+     "name": "Duster 340",
+     "note": "The 340's 275 hp in a light A-body was the budget performance equation of the early seventies. Later cars softened into economy trim as the era ended.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.6L V8 (340 cu in, top option)",
+      "power": "275 hp"
+     },
+     "years": "1970–1976"
+    }
+   ],
+   "intro": "The budget bruiser: a Valiant fastback coupe that, with the 340 small-block, outran cars twice its price and embarrassed its own stablemates. The Twister trim sold the look; the 340 sold the legend.",
+   "name": "Duster",
+   "segment": "Compact muscle / coupe",
+   "slug": "duster",
+   "status": "Discontinued",
+   "trims": [
+    "Duster",
+    "Duster 340",
+    "Duster Twister",
+    "Gold Duster"
+   ],
+   "years": "1970–1976"
+  },
+  {
+   "bodyStyles": [
+    "Convertible"
+   ],
+   "buyingClass": "modern-classic",
+   "collectorNote": "Limited editions and the trailer option (yes, a matching trailer) amuse collectors. Values are stable-niche: buy the colour you want — purple and yellow lead the room.",
+   "generations": [
+    {
+     "code": "Prowler",
+     "name": "Prowler",
+     "note": "The 3.5 V6 rose from 214 to 253 hp with the 1999 aluminium-block update. About 11,700 were built including the Chrysler-badged final cars after Plymouth closed.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "3.5L V6",
+      "power": "214–253 hp"
+     },
+     "years": "1997–2002"
+    }
+   ],
+   "intro": "A factory hot rod in 1997: aluminium-intensive, open-wheeled retro styling, and a concept car Chrysler actually built. The V6-only powertrain was the compromise; the look was not.",
+   "name": "Prowler",
+   "segment": "Retro roadster",
+   "slug": "prowler",
+   "status": "Discontinued",
+   "trims": [
+    "Prowler",
+    "Prowler Mulholland / Black Tie editions"
+   ],
+   "years": "1997–2002"
+  },
+  {
+   "bodyStyles": [
+    "Minivan"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Survivors are scarce — they were used up, as intended. Turbo five-speed cars are the unicorns; condition and nostalgia, not spec, drive the tiny market.",
+   "generations": [
+    {
+     "code": "Voyager 1",
+     "name": "Voyager (first generation)",
+     "note": "Four-cylinder, turbo-four, or Mitsubishi V6 power — modest, but the package was the revolution. The turbo vans are the sleeper trivia answer; the woody Grand Voyager is the period piece.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "2.5L inline-4 / turbo / 3.0L V6",
+      "power": "100–150 hp"
+     },
+     "years": "1984–1990"
+    }
+   ],
+   "intro": "With the Dodge Caravan, the 1984 Voyager invented the modern minivan: front-wheel drive, a car floor height, and a sliding door, selling families out of station wagons by the millions. Lee Iacocca's second act saved Chrysler.",
+   "name": "Voyager",
+   "segment": "Minivan",
+   "slug": "voyager",
+   "status": "Discontinued",
+   "trims": [
+    "Voyager",
+    "Voyager SE",
+    "Grand Voyager",
+    "Voyager AWD"
+   ],
+   "years": "1984–2000"
+  }
+ ]
 }

@@ -1,34 +1,44 @@
 {
-  "make": "tucker",
-  "models": [
+ "make": "tucker",
+ "models": [
+  {
+   "bodyStyles": [
+    "Sedan"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Among the most valuable American cars, period — most sales are private and most cars sit in museums. Chassis-number provenance is absolute; the registry of the 51 is the market.",
+   "generations": [
     {
-      "bodyStyles": [
-        "Sedan"
-      ],
-      "buyingClass": "vintage",
-      "collectorNote": "Among the most valuable American cars, period — most sales are private and most cars sit in museums. Chassis-number provenance is absolute; the registry of the 51 is the market.",
-      "generations": [
-        {
-          "code": "48",
-          "name": "Tucker 48 ('Torpedo')",
-          "note": "Fifty-one cars were completed including the prototype, most of which survive. The 5.5-litre flat-six, adapted from a Franklin helicopter engine, drove the rear wheels through a Cord-derived transaxle.",
-          "spec": {
-            "drivetrain": "RWD (rear-engined)",
-            "engine": "5.5L flat-6 (335 cu in)",
-            "power": "166 hp"
-          },
-          "years": "1948"
-        }
-      ],
-      "intro": "The 'Tin Goose' prototype and fifty production cars: a rear-engined, flat-six sedan years ahead of Detroit — padded dash, pop-out windscreen, a third headlight that turned with the steering, and a corporation that became a courtroom legend.",
-      "name": "48",
-      "segment": "Full-size sedan",
-      "slug": "48",
-      "status": "Discontinued",
-      "trims": [
-        "48"
-      ],
-      "years": "1948"
+     "code": "48",
+     "name": "Tucker 48 ('Torpedo')",
+     "note": "Fifty-one cars were completed including the prototype, most of which survive. The 5.5-litre flat-six, adapted from a Franklin helicopter engine, drove the rear wheels through a Cord-derived transaxle.",
+     "spec": {
+      "drivetrain": "RWD (rear-engined)",
+      "engine": "5.5L flat-6 (335 cu in)",
+      "power": "166 hp"
+     },
+     "years": "1948"
     }
-  ]
+   ],
+   "intro": "The 'Tin Goose' prototype and fifty production cars: a rear-engined, flat-six sedan years ahead of Detroit — padded dash, pop-out windscreen, a third headlight that turned with the steering, and a corporation that became a courtroom legend.",
+   "name": "48",
+   "photo": "assets/photos/tucker-48.webp",
+   "photoCaption": "Tucker 48 sedan 1948, front 3/4, Gilmore Car Museum",
+   "photoCredit": "Photo: Greg Gjerdingen, CC BY 2.0, via Wikimedia Commons",
+   "photos": [
+    {
+     "caption": "Tucker 48 sedan 1948, front 3/4, Gilmore Car Museum",
+     "credit": "Photo: Greg Gjerdingen, CC BY 2.0, via Wikimedia Commons",
+     "src": "assets/photos/tucker-48.webp"
+    }
+   ],
+   "segment": "Full-size sedan",
+   "slug": "48",
+   "status": "Discontinued",
+   "trims": [
+    "48"
+   ],
+   "years": "1948"
+  }
+ ]
 }

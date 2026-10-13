@@ -1,1 +1,222 @@
-{"make":"subaru","models":[{"bodyStyles":["Sedan","Hatchback","Wagon"],"buyingClass":"new","collectorNote":"Unmodified STIs — especially 2004–2007 US cars and clean GC-era imports — are the appreciating ones. A modified WRX is worth what the parts are worth, minus the worry.","generations":[{"code":"GC8","name":"First generation WRX/STI","note":"Born from rally homologation: turbo flat-four, all-wheel drive, and Colin McRae sideways on every TV in Britain. Japanese STI versions were officially rated at 276 hp.","spec":{"drivetrain":"AWD","engine":"2.0L turbo flat-4 (STI, Japan)","power":"276 hp (official)"},"years":"1992–2000"},{"code":"GD","name":"Second generation ('Bugeye' and successors)","note":"America finally got the WRX in 2002 with 227 hp, then the STI in 2004 with 300 hp and a driver-controlled centre differential. The rivalry with Mitsubishi's Evo defined a decade.","spec":{"drivetrain":"AWD","engine":"2.5L turbo flat-4 (STI, US)","power":"300 hp"},"years":"2000–2007"},{"code":"VB","name":"Current WRX","note":"A standalone model now, not an Impreza trim. The 2.4L turbo makes 271 hp, the plastic arch cladding divides opinion, and there is no STI — Subaru says the next one, if it comes, will be electrified.","spec":{"drivetrain":"AWD","engine":"2.4L turbo flat-4","power":"271 hp"},"years":"2021–present"}],"intro":"Rally car for the road, in continuous production in spirit since 1992. Turbo flat-four, all-wheel drive, and a bonnet scoop you could set your watch by. The STI versions are modern classics; the plain WRX is just a great all-weather fast car.","name":"Impreza WRX","segment":"Compact sports sedan","slug":"impreza-wrx","status":"In production","trims":["Base","Premium","Limited","GT","TR"],"years":"1992–present"},{"bodyStyles":["Wagon","Crossover"],"buyingClass":"new","generations":[{"code":"BG","name":"First generation","note":"A Legacy wagon with raised suspension, cladding, and Paul Hogan in the ads. It invented a segment Australia and America both claim as their own idea.","spec":{"drivetrain":"AWD","engine":"2.5L flat-4","power":"165 hp"},"years":"1994–1999"},{"code":"BS","name":"Fifth generation","note":"The wagon formula fully matured: quiet, spacious, and available with the 3.6L flat-six. The last Outback that still looked like a wagon first and an SUV second.","spec":{"drivetrain":"AWD","engine":"3.6L flat-6","power":"256 hp"},"years":"2014–2019"},{"code":"BT","name":"Sixth generation","note":"Turbo power returned in XT models, and the Wilderness trim added lift, skid plates, and the confidence to actually use them. This is the template every 'rugged wagon' rival copies.","spec":{"drivetrain":"AWD","engine":"2.4L turbo flat-4 (XT)","power":"260 hp"},"years":"2019–2025"}],"intro":"The wagon that out-SUV'd the SUVs. Subaru jacked up a Legacy, added cladding, and accidentally created the blueprint for half the cars on American roads today — while never giving up the wagon part.","name":"Outback","segment":"Wagon / crossover","slug":"outback","status":"In production","trims":["Base","Premium","Limited","Touring","Wilderness"],"years":"1994–present"},{"bodyStyles":["Coupe"],"buyingClass":"new","generations":[{"code":"ZC6","name":"First generation","note":"Co-developed with Toyota (sold as the GT86/Scion FR-S) around one idea: low weight, low centre of gravity, rear drive, and just 200 hp — enough, if you drive it properly.","spec":{"drivetrain":"RWD","engine":"2.0L flat-4","power":"200 hp"},"years":"2012–2020"},{"code":"ZD8","name":"Second generation","note":"The fix-everything sequel: a 2.4L engine with real mid-range torque, a stiffer shell, and the same manual gearbox. Widely considered one of the best affordable sports cars ever made.","spec":{"drivetrain":"RWD","engine":"2.4L flat-4","power":"228 hp"},"years":"2021–present"}],"intro":"Proof a sports car doesn't need power, it needs balance. Subaru built the flat-four and the chassis; Toyota handled much of the rest. The result is the car driving instructors and racers agree on.","name":"BRZ","segment":"Sports car","slug":"brz","status":"In production","trims":["Premium","Limited","tS"],"years":"2012–present"},{"bodyStyles":["SUV"],"buyingClass":"new","generations":[{"code":"SF","name":"First generation","note":"Impreza bones, tall body, standard all-wheel drive — a formula nobody else was selling in 1997. The turbocharged Japanese-market cars hinted at what was coming.","spec":{"drivetrain":"AWD","engine":"2.5L flat-4","power":"165 hp"},"years":"1997–2002"},{"code":"SG","name":"Second generation","note":"The XT is the sleeper of the 2000s: a WRX-adjacent turbo engine in a boxy family wagon. Manual XT cars are cult objects now, and increasingly hard to find unmodified.","spec":{"drivetrain":"AWD","engine":"2.5L turbo flat-4 (XT)","power":"210–230 hp"},"years":"2002–2008"},{"code":"SK","name":"Fifth generation","note":"Bigger, safer, CVT-only, and turbo-free — the XT spirit moved to the Outback. As family transport, though, this is the most complete Forester ever sold.","spec":{"drivetrain":"AWD","engine":"2.5L flat-4","power":"182 hp"},"years":"2018–2024"}],"intro":"The tall, boxy, all-weather wagon-SUV that Vermont runs on. Early turbo XTs are cult cars; later ones are simply the sensible answer for snow-belt families who refuse to buy a crossover that looks like an egg.","name":"Forester","segment":"Compact SUV","slug":"forester","status":"In production","trims":["Base","Premium","Sport","Wilderness","Touring"],"years":"1997–present"}]}
+{
+ "make": "subaru",
+ "models": [
+  {
+   "bodyStyles": [
+    "Sedan",
+    "Hatchback",
+    "Wagon"
+   ],
+   "buyingClass": "new",
+   "collectorNote": "Unmodified STIs — especially 2004–2007 US cars and clean GC-era imports — are the appreciating ones. A modified WRX is worth what the parts are worth, minus the worry.",
+   "generations": [
+    {
+     "code": "GC8",
+     "name": "First generation WRX/STI",
+     "note": "Born from rally homologation: turbo flat-four, all-wheel drive, and Colin McRae sideways on every TV in Britain. Japanese STI versions were officially rated at 276 hp.",
+     "spec": {
+      "drivetrain": "AWD",
+      "engine": "2.0L turbo flat-4 (STI, Japan)",
+      "power": "276 hp (official)"
+     },
+     "years": "1992–2000"
+    },
+    {
+     "code": "GD",
+     "name": "Second generation ('Bugeye' and successors)",
+     "note": "America finally got the WRX in 2002 with 227 hp, then the STI in 2004 with 300 hp and a driver-controlled centre differential. The rivalry with Mitsubishi's Evo defined a decade.",
+     "spec": {
+      "drivetrain": "AWD",
+      "engine": "2.5L turbo flat-4 (STI, US)",
+      "power": "300 hp"
+     },
+     "years": "2000–2007"
+    },
+    {
+     "code": "VB",
+     "name": "Current WRX",
+     "note": "A standalone model now, not an Impreza trim. The 2.4L turbo makes 271 hp, the plastic arch cladding divides opinion, and there is no STI — Subaru says the next one, if it comes, will be electrified.",
+     "spec": {
+      "drivetrain": "AWD",
+      "engine": "2.4L turbo flat-4",
+      "power": "271 hp"
+     },
+     "years": "2021–present"
+    }
+   ],
+   "intro": "Rally car for the road, in continuous production in spirit since 1992. Turbo flat-four, all-wheel drive, and a bonnet scoop you could set your watch by. The STI versions are modern classics; the plain WRX is just a great all-weather fast car.",
+   "name": "Impreza WRX",
+   "photo": "assets/photos/subaru-wrx-sti.webp",
+   "photoCaption": "WRX STI (VA), rally-prepared example in competition livery",
+   "photoCredit": "Photo: Yu Chu Chin, CC BY 4.0, via Wikimedia Commons",
+   "photos": [
+    {
+     "caption": "WRX STI (VA), rally-prepared example in competition livery",
+     "credit": "Photo: Yu Chu Chin, CC BY 4.0, via Wikimedia Commons",
+     "src": "assets/photos/subaru-wrx-sti.webp"
+    }
+   ],
+   "segment": "Compact sports sedan",
+   "slug": "impreza-wrx",
+   "status": "In production",
+   "trims": [
+    "Base",
+    "Premium",
+    "Limited",
+    "GT",
+    "TR"
+   ],
+   "years": "1992–present"
+  },
+  {
+   "bodyStyles": [
+    "Wagon",
+    "Crossover"
+   ],
+   "buyingClass": "new",
+   "generations": [
+    {
+     "code": "BG",
+     "name": "First generation",
+     "note": "A Legacy wagon with raised suspension, cladding, and Paul Hogan in the ads. It invented a segment Australia and America both claim as their own idea.",
+     "spec": {
+      "drivetrain": "AWD",
+      "engine": "2.5L flat-4",
+      "power": "165 hp"
+     },
+     "years": "1994–1999"
+    },
+    {
+     "code": "BS",
+     "name": "Fifth generation",
+     "note": "The wagon formula fully matured: quiet, spacious, and available with the 3.6L flat-six. The last Outback that still looked like a wagon first and an SUV second.",
+     "spec": {
+      "drivetrain": "AWD",
+      "engine": "3.6L flat-6",
+      "power": "256 hp"
+     },
+     "years": "2014–2019"
+    },
+    {
+     "code": "BT",
+     "name": "Sixth generation",
+     "note": "Turbo power returned in XT models, and the Wilderness trim added lift, skid plates, and the confidence to actually use them. This is the template every 'rugged wagon' rival copies.",
+     "spec": {
+      "drivetrain": "AWD",
+      "engine": "2.4L turbo flat-4 (XT)",
+      "power": "260 hp"
+     },
+     "years": "2019–2025"
+    }
+   ],
+   "intro": "The wagon that out-SUV'd the SUVs. Subaru jacked up a Legacy, added cladding, and accidentally created the blueprint for half the cars on American roads today — while never giving up the wagon part.",
+   "name": "Outback",
+   "segment": "Wagon / crossover",
+   "slug": "outback",
+   "status": "In production",
+   "trims": [
+    "Base",
+    "Premium",
+    "Limited",
+    "Touring",
+    "Wilderness"
+   ],
+   "years": "1994–present"
+  },
+  {
+   "bodyStyles": [
+    "Coupe"
+   ],
+   "buyingClass": "new",
+   "generations": [
+    {
+     "code": "ZC6",
+     "name": "First generation",
+     "note": "Co-developed with Toyota (sold as the GT86/Scion FR-S) around one idea: low weight, low centre of gravity, rear drive, and just 200 hp — enough, if you drive it properly.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.0L flat-4",
+      "power": "200 hp"
+     },
+     "years": "2012–2020"
+    },
+    {
+     "code": "ZD8",
+     "name": "Second generation",
+     "note": "The fix-everything sequel: a 2.4L engine with real mid-range torque, a stiffer shell, and the same manual gearbox. Widely considered one of the best affordable sports cars ever made.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.4L flat-4",
+      "power": "228 hp"
+     },
+     "years": "2021–present"
+    }
+   ],
+   "intro": "Proof a sports car doesn't need power, it needs balance. Subaru built the flat-four and the chassis; Toyota handled much of the rest. The result is the car driving instructors and racers agree on.",
+   "name": "BRZ",
+   "segment": "Sports car",
+   "slug": "brz",
+   "status": "In production",
+   "trims": [
+    "Premium",
+    "Limited",
+    "tS"
+   ],
+   "years": "2012–present"
+  },
+  {
+   "bodyStyles": [
+    "SUV"
+   ],
+   "buyingClass": "new",
+   "generations": [
+    {
+     "code": "SF",
+     "name": "First generation",
+     "note": "Impreza bones, tall body, standard all-wheel drive — a formula nobody else was selling in 1997. The turbocharged Japanese-market cars hinted at what was coming.",
+     "spec": {
+      "drivetrain": "AWD",
+      "engine": "2.5L flat-4",
+      "power": "165 hp"
+     },
+     "years": "1997–2002"
+    },
+    {
+     "code": "SG",
+     "name": "Second generation",
+     "note": "The XT is the sleeper of the 2000s: a WRX-adjacent turbo engine in a boxy family wagon. Manual XT cars are cult objects now, and increasingly hard to find unmodified.",
+     "spec": {
+      "drivetrain": "AWD",
+      "engine": "2.5L turbo flat-4 (XT)",
+      "power": "210–230 hp"
+     },
+     "years": "2002–2008"
+    },
+    {
+     "code": "SK",
+     "name": "Fifth generation",
+     "note": "Bigger, safer, CVT-only, and turbo-free — the XT spirit moved to the Outback. As family transport, though, this is the most complete Forester ever sold.",
+     "spec": {
+      "drivetrain": "AWD",
+      "engine": "2.5L flat-4",
+      "power": "182 hp"
+     },
+     "years": "2018–2024"
+    }
+   ],
+   "intro": "The tall, boxy, all-weather wagon-SUV that Vermont runs on. Early turbo XTs are cult cars; later ones are simply the sensible answer for snow-belt families who refuse to buy a crossover that looks like an egg.",
+   "name": "Forester",
+   "segment": "Compact SUV",
+   "slug": "forester",
+   "status": "In production",
+   "trims": [
+    "Base",
+    "Premium",
+    "Sport",
+    "Wilderness",
+    "Touring"
+   ],
+   "years": "1997–present"
+  }
+ ]
+}

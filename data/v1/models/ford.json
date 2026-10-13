@@ -1,1 +1,311 @@
-{"make":"ford","models":[{"bodyStyles":["Touring","Runabout","Sedan","Pickup"],"buyingClass":"vintage","collectorNote":"They built 15 million, so rarity is not the value driver — originality and condition are. Brass-era cars (pre-1913) and genuine early production examples are where the money is; a running late T is still one of the cheapest ways into pre-war motoring.","generations":[{"code":"Production run","name":"Production run","note":"Planetary transmission worked by pedals, a hand throttle on the column, and a crank start for most of its life. Ford famously offered it in any color so long as it was black — faster-drying paint kept the line moving.","spec":{"drivetrain":"RWD","engine":"2.9L inline-4","power":"20 hp"},"years":"1908–1927"}],"intro":"The car that put the world on wheels. Ford built over 15 million of them, cut the price from $850 to under $300, and in doing so invented the moving assembly line's reason to exist. By the early 1920s, roughly half the cars on Earth were Model Ts.","name":"Model T","segment":"Mass-market car","slug":"model-t","status":"Discontinued","trims":["Runabout","Touring","Tudor","Fordor"],"years":"1908–1927"},{"bodyStyles":["Coupe","Convertible","Fastback"],"buyingClass":"new","generations":[{"code":"Gen 1","name":"First generation","note":"Started as a Falcon underneath with show-car styling on top. The K-code 289 and the big-block GTs made it a genuine performance car; Carroll Shelby's GT350 made it a legend.","spec":{"drivetrain":"RWD","engine":"4.9L V8 (289 Hi-Po)","power":"271 hp"},"years":"1964–1973"},{"code":"Fox","name":"Third generation (Fox body)","note":"Light, square, and cheap to make fast. The 5.0 LX with a five-speed is the definitive budget drag car, and the aftermarket that grew around the Fox platform never really went away.","spec":{"drivetrain":"RWD","engine":"5.0L V8","power":"225 hp"},"years":"1979–1993"},{"code":"S650","name":"Seventh generation","note":"The last V8 standing in the segment after the Camaro and Challenger died. The GT's Coyote makes 486 hp, and the Dark Horse pushes to 500 with a Tremec six-speed.","spec":{"drivetrain":"RWD","engine":"5.0L V8 (Coyote)","power":"486 hp"},"years":"2024–present"}],"intro":"Launched in April 1964 and sold 22,000 cars on day one. The Mustang invented the pony car — long hood, short deck, endless options list — and has survived gas crises, the Mustang II, and the SUV era without ever leaving production.","name":"Mustang","segment":"Pony car","slug":"mustang","status":"In production","trims":["EcoBoost","GT","Dark Horse"],"years":"1964–present"},{"bodyStyles":["Pickup"],"buyingClass":"new","generations":[{"code":"F-1","name":"First generation","note":"Ford's first purpose-built post-war truck, sold as the F-1 through F-8. The flathead V8 and a cab designed around all-day work set the template every truck since has followed.","spec":{"drivetrain":"RWD","engine":"3.9L flathead V8","power":"100 hp"},"years":"1948–1952"},{"code":"Gen 9","name":"Ninth generation","note":"The last of the square, simple F-150s — and the generation that made the SVT Lightning a thing. The 7.3L Power Stroke diesel versions of the heavy-duty trucks are now cult objects.","spec":{"drivetrain":"RWD / 4WD","engine":"5.0L V8","power":"185 hp"},"years":"1992–1997"},{"code":"Gen 14","name":"Fourteenth generation","note":"Aluminium body, a hybrid PowerBoost option, and the all-electric F-150 Lightning alongside. The twin-turbo V6 outsells the V8 — torque won the truck argument years ago.","spec":{"drivetrain":"RWD / 4WD","engine":"3.5L twin-turbo V6","power":"400 hp"},"years":"2021–present"}],"intro":"America's best-selling vehicle line for over four decades. The F-Series is less a model than an economy — work truck, family hauler, off-road toy, and status symbol, all on the same ladder frame.","name":"F-Series (F-150)","segment":"Full-size pickup","slug":"f-series","status":"In production","trims":["XL","XLT","Lariat","King Ranch","Platinum","Raptor"],"years":"1948–present"},{"bodyStyles":["Coupe"],"buyingClass":"modern-classic","collectorNote":"GT40 originals trade in the millions and rarely in public. The 2005–2006 GT is the attainable one — still a $400k-plus conversation for low-mile cars, and the 2017 car sits higher again.","generations":[{"code":"GT40","name":"GT40","note":"Forty inches tall at the roof — that's the name. The 7.0-litre Mk II finished 1-2-3 at Le Mans in 1966, and a GT40 won the race four consecutive years. Originals are eight-figure cars.","spec":{"drivetrain":"RWD","engine":"7.0L V8 (427)","power":"425 hp"},"years":"1964–1969"},{"code":"GT (2005)","name":"Ford GT, first revival","note":"A near-exact silhouette of the GT40 over modern aluminium and a supercharged 5.4. Built 4,038 cars; values roughly tripled and stayed there.","spec":{"drivetrain":"RWD","engine":"5.4L supercharged V8","power":"550 hp"},"years":"2005–2006"},{"code":"GT (2017)","name":"Ford GT, second revival","note":"Carbon tub, active aero, and a twin-turbo V6 where everyone expected a V8. Won its class at Le Mans in 2016, fifty years after the 1966 win — Ford planned it that way.","spec":{"drivetrain":"RWD","engine":"3.5L twin-turbo V6","power":"647 hp"},"years":"2017–2022"}],"intro":"One nameplate, three separate vendettas against physics. The GT40 was built to beat Ferrari at Le Mans after Enzo walked away from selling to Ford — and did it four years straight, 1966 to 1969. Both modern revivals exist because that grudge never cooled.","name":"GT (GT40 lineage)","segment":"Supercar","slug":"gt","status":"Discontinued","trims":["Mk I","Mk II","Mk IV","GT"],"years":"1964–1969, 2005–2006, 2017–2022"},{"bodyStyles":["SUV"],"buyingClass":"new","generations":[{"code":"Gen 1","name":"First generation","note":"Short wheelbase, uncut rear fenders on the good ones, and a V8 option from 1969. Simple enough to fix with hand tools, which is exactly why people pay serious money for them now.","spec":{"drivetrain":"4WD","engine":"4.9L V8 (302)","power":"205 hp"},"years":"1966–1977"},{"code":"Gen 5","name":"Fifth generation","note":"The full-size, F-150-based Bronco — the white one from the 1994 slow-speed chase is a 1993 model. A genuinely comfortable truck that happened to have a removable top.","spec":{"drivetrain":"4WD","engine":"5.8L V8","power":"210 hp"},"years":"1992–1996"},{"code":"Gen 6","name":"Sixth generation","note":"Body-on-frame, doors and roof come off, and a Raptor version with long-travel suspension. The 2.7L twin-turbo V6 is the engine to have short of the Raptor.","spec":{"drivetrain":"4WD","engine":"2.7L twin-turbo V6","power":"330 hp"},"years":"2021–present"}],"intro":"Ford's answer to the Jeep CJ in 1966, a full-size truck-based SUV by the 1980s, dead in 1996, and revived in 2021 as a removable-roof Wrangler rival. The first-generation trucks are the collector sweet spot; the new one is the one you can actually use daily.","name":"Bronco","segment":"Off-road SUV","slug":"bronco","status":"In production","trims":["Base","Big Bend","Outer Banks","Badlands","Raptor"],"years":"1966–1996, 2021–present"}]}
+{
+ "make": "ford",
+ "models": [
+  {
+   "bodyStyles": [
+    "Touring",
+    "Runabout",
+    "Sedan",
+    "Pickup"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "They built 15 million, so rarity is not the value driver — originality and condition are. Brass-era cars (pre-1913) and genuine early production examples are where the money is; a running late T is still one of the cheapest ways into pre-war motoring.",
+   "generations": [
+    {
+     "code": "Production run",
+     "name": "Production run",
+     "note": "Planetary transmission worked by pedals, a hand throttle on the column, and a crank start for most of its life. Ford famously offered it in any color so long as it was black — faster-drying paint kept the line moving.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.9L inline-4",
+      "power": "20 hp"
+     },
+     "years": "1908–1927"
+    }
+   ],
+   "intro": "The car that put the world on wheels. Ford built over 15 million of them, cut the price from $850 to under $300, and in doing so invented the moving assembly line's reason to exist. By the early 1920s, roughly half the cars on Earth were Model Ts.",
+   "name": "Model T",
+   "segment": "Mass-market car",
+   "slug": "model-t",
+   "status": "Discontinued",
+   "trims": [
+    "Runabout",
+    "Touring",
+    "Tudor",
+    "Fordor"
+   ],
+   "years": "1908–1927"
+  },
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Convertible",
+    "Fastback"
+   ],
+   "buyingClass": "new",
+   "generations": [
+    {
+     "code": "Gen 1",
+     "name": "First generation",
+     "note": "Started as a Falcon underneath with show-car styling on top. The K-code 289 and the big-block GTs made it a genuine performance car; Carroll Shelby's GT350 made it a legend.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "4.9L V8 (289 Hi-Po)",
+      "power": "271 hp"
+     },
+     "years": "1964–1973"
+    },
+    {
+     "code": "Gen 2",
+     "name": "Second generation (Mustang II)",
+     "note": "The downsized answer to the fuel crisis: Pinto-based, hatchback offered, and a V8 that returned for 1975 making 122 hp. Collectors mock it; historians note it sold in huge numbers and kept the nameplate alive when the Camaro nearly died.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.0L V8 (302)",
+      "power": "122 hp"
+     },
+     "years": "1974–1978"
+    },
+    {
+     "code": "Fox",
+     "name": "Third generation (Fox body)",
+     "note": "Light, square, and cheap to make fast. The 5.0 LX with a five-speed is the definitive budget drag car, and the aftermarket that grew around the Fox platform never really went away.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.0L V8",
+      "power": "225 hp"
+     },
+     "years": "1979–1993"
+    },
+    {
+     "code": "SN-95",
+     "name": "Fourth generation (SN-95)",
+     "note": "A Fox-derived chassis under rounded nineties styling, then the sharper New Edge facelift of 1999. The modular 4.6 replaces the pushrod 5.0; the run peaks with the supercharged SVT Cobra 'Terminator' at 390 hp.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "4.6L V8 (GT)",
+      "power": "260 hp"
+     },
+     "years": "1994–2004"
+    },
+    {
+     "code": "S197",
+     "name": "Fifth generation (S197)",
+     "note": "Retro done right: the 1967 fastback redrawn for the modern crash-test era. The Coyote 5.0 arrives in 2011, and the Shelby GT500 closes the run at 662 hp — the most powerful production V8 of its day.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.0L V8 (Coyote)",
+      "power": "412 hp"
+     },
+     "years": "2005–2014"
+    },
+    {
+     "code": "S550",
+     "name": "Sixth generation (S550)",
+     "note": "Independent rear suspension at last, right-hand drive, and a genuinely global car. The Shelby GT350's flat-plane-crank Voodoo V8 revs to 8,250 rpm; the Mach 1 and the 760 hp GT500 bookend the range.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.0L V8 (Coyote)",
+      "power": "460 hp"
+     },
+     "years": "2015–2023"
+    },
+    {
+     "code": "S650",
+     "name": "Seventh generation",
+     "note": "The last V8 standing in the segment after the Camaro and Challenger died. The GT's Coyote makes 486 hp, and the Dark Horse pushes to 500 with a Tremec six-speed.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.0L V8 (Coyote)",
+      "power": "486 hp"
+     },
+     "years": "2024–present"
+    }
+   ],
+   "intro": "Launched in April 1964 and sold 22,000 cars on day one. The Mustang invented the pony car — long hood, short deck, endless options list — and has survived gas crises, the Mustang II, and the SUV era without ever leaving production.",
+   "name": "Mustang",
+   "photo": "assets/photos/ford-mustang.webp",
+   "photoCaption": "Ford Mustang (1971–73 Mach 1)",
+   "photoCredit": "Photo: Matti Blume, CC BY-SA 4.0, via Wikimedia Commons",
+   "photos": [
+    {
+     "caption": "Ford Mustang (1971–73 Mach 1)",
+     "credit": "Photo: Matti Blume, CC BY-SA 4.0, via Wikimedia Commons",
+     "src": "assets/photos/ford-mustang.webp"
+    }
+   ],
+   "segment": "Pony car",
+   "slug": "mustang",
+   "status": "In production",
+   "trims": [
+    "EcoBoost",
+    "GT",
+    "Dark Horse"
+   ],
+   "years": "1964–present"
+  },
+  {
+   "bodyStyles": [
+    "Pickup"
+   ],
+   "buyingClass": "new",
+   "generations": [
+    {
+     "code": "F-1",
+     "name": "First generation",
+     "note": "Ford's first purpose-built post-war truck, sold as the F-1 through F-8. The flathead V8 and a cab designed around all-day work set the template every truck since has followed.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "3.9L flathead V8",
+      "power": "100 hp"
+     },
+     "years": "1948–1952"
+    },
+    {
+     "code": "Gen 9",
+     "name": "Ninth generation",
+     "note": "The last of the square, simple F-150s — and the generation that made the SVT Lightning a thing. The 7.3L Power Stroke diesel versions of the heavy-duty trucks are now cult objects.",
+     "spec": {
+      "drivetrain": "RWD / 4WD",
+      "engine": "5.0L V8",
+      "power": "185 hp"
+     },
+     "years": "1992–1997"
+    },
+    {
+     "code": "Gen 14",
+     "name": "Fourteenth generation",
+     "note": "Aluminium body, a hybrid PowerBoost option, and the all-electric F-150 Lightning alongside. The twin-turbo V6 outsells the V8 — torque won the truck argument years ago.",
+     "spec": {
+      "drivetrain": "RWD / 4WD",
+      "engine": "3.5L twin-turbo V6",
+      "power": "400 hp"
+     },
+     "years": "2021–present"
+    }
+   ],
+   "intro": "America's best-selling vehicle line for over four decades. The F-Series is less a model than an economy — work truck, family hauler, off-road toy, and status symbol, all on the same ladder frame.",
+   "name": "F-Series (F-150)",
+   "segment": "Full-size pickup",
+   "slug": "f-series",
+   "status": "In production",
+   "trims": [
+    "XL",
+    "XLT",
+    "Lariat",
+    "King Ranch",
+    "Platinum",
+    "Raptor"
+   ],
+   "years": "1948–present"
+  },
+  {
+   "bodyStyles": [
+    "Coupe"
+   ],
+   "buyingClass": "modern-classic",
+   "collectorNote": "GT40 originals trade in the millions and rarely in public. The 2005–2006 GT is the attainable one — still a $400k-plus conversation for low-mile cars, and the 2017 car sits higher again.",
+   "generations": [
+    {
+     "code": "GT40",
+     "name": "GT40",
+     "note": "Forty inches tall at the roof — that's the name. The 7.0-litre Mk II finished 1-2-3 at Le Mans in 1966, and a GT40 won the race four consecutive years. Originals are eight-figure cars.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "7.0L V8 (427)",
+      "power": "425 hp"
+     },
+     "years": "1964–1969"
+    },
+    {
+     "code": "GT (2005)",
+     "name": "Ford GT, first revival",
+     "note": "A near-exact silhouette of the GT40 over modern aluminium and a supercharged 5.4. Built 4,038 cars; values roughly tripled and stayed there.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.4L supercharged V8",
+      "power": "550 hp"
+     },
+     "years": "2005–2006"
+    },
+    {
+     "code": "GT (2017)",
+     "name": "Ford GT, second revival",
+     "note": "Carbon tub, active aero, and a twin-turbo V6 where everyone expected a V8. Won its class at Le Mans in 2016, fifty years after the 1966 win — Ford planned it that way.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "3.5L twin-turbo V6",
+      "power": "647 hp"
+     },
+     "years": "2017–2022"
+    }
+   ],
+   "intro": "One nameplate, three separate vendettas against physics. The GT40 was built to beat Ferrari at Le Mans after Enzo walked away from selling to Ford — and did it four years straight, 1966 to 1969. Both modern revivals exist because that grudge never cooled.",
+   "name": "GT (GT40 lineage)",
+   "segment": "Supercar",
+   "slug": "gt",
+   "status": "Discontinued",
+   "trims": [
+    "Mk I",
+    "Mk II",
+    "Mk IV",
+    "GT"
+   ],
+   "years": "1964–1969, 2005–2006, 2017–2022"
+  },
+  {
+   "bodyStyles": [
+    "SUV"
+   ],
+   "buyingClass": "new",
+   "generations": [
+    {
+     "code": "Gen 1",
+     "name": "First generation",
+     "note": "Short wheelbase, uncut rear fenders on the good ones, and a V8 option from 1969. Simple enough to fix with hand tools, which is exactly why people pay serious money for them now.",
+     "spec": {
+      "drivetrain": "4WD",
+      "engine": "4.9L V8 (302)",
+      "power": "205 hp"
+     },
+     "years": "1966–1977"
+    },
+    {
+     "code": "Gen 5",
+     "name": "Fifth generation",
+     "note": "The full-size, F-150-based Bronco — the white one from the 1994 slow-speed chase is a 1993 model. A genuinely comfortable truck that happened to have a removable top.",
+     "spec": {
+      "drivetrain": "4WD",
+      "engine": "5.8L V8",
+      "power": "210 hp"
+     },
+     "years": "1992–1996"
+    },
+    {
+     "code": "Gen 6",
+     "name": "Sixth generation",
+     "note": "Body-on-frame, doors and roof come off, and a Raptor version with long-travel suspension. The 2.7L twin-turbo V6 is the engine to have short of the Raptor.",
+     "spec": {
+      "drivetrain": "4WD",
+      "engine": "2.7L twin-turbo V6",
+      "power": "330 hp"
+     },
+     "years": "2021–present"
+    }
+   ],
+   "intro": "Ford's answer to the Jeep CJ in 1966, a full-size truck-based SUV by the 1980s, dead in 1996, and revived in 2021 as a removable-roof Wrangler rival. The first-generation trucks are the collector sweet spot; the new one is the one you can actually use daily.",
+   "name": "Bronco",
+   "segment": "Off-road SUV",
+   "slug": "bronco",
+   "status": "In production",
+   "trims": [
+    "Base",
+    "Big Bend",
+    "Outer Banks",
+    "Badlands",
+    "Raptor"
+   ],
+   "years": "1966–1996, 2021–present"
+  }
+ ]
+}

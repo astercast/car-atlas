@@ -1,1 +1,173 @@
-{"buyingClasses":{"modern-classic":{"description":"Out of production, 10–30 years old, enthusiast demand rising. Sold through enthusiast auctions and specialist dealers. Condition spread is huge — documentation decides value.","label":"Modern classic (1995–2015)","primaryChannels":["bringatrailer.com","carsandbids.com","hemmings.com"]},"new":{"description":"Cars you can buy new today. Price means MSRP minus incentives plus dealer markup on hot models. Best price comes from comparing dealer quotes, not list price.","label":"New & current models","primaryChannels":["cars.com","autotrader.com","cargurus.com","truecar.com","tesla.com"]},"used":{"description":"In production recently or just out of it. Deep listing inventory everywhere — best price is a search problem, solved by aggregation and patience.","label":"Used modern (2015–today)","primaryChannels":["autotrader.com","cargurus.com","cars.com","carvana.com","facebook.com/marketplace"]},"vintage":{"description":"Pre-1995 and collector-grade. Auction results set the market; provenance and matching numbers outweigh mileage. Buy expertise before you buy the car.","label":"Vintage & collector (pre-1995)","primaryChannels":["rmsothebys.com","bonhams.com","mecum.com","hemmings.com","bringatrailer.com"]}},"channels":[{"audience":"Enthusiast auctions","blurb":"The auction site that reset modern-classic pricing. Every sale is public, so its results archive is the market's memory — the single best price reference for 1980s–2010s enthusiast cars.","domain":"bringatrailer.com","era":"Modern classic, vintage","kind":"Auction","name":"Bring a Trailer"},{"audience":"Modern enthusiast cars","blurb":"Doug DeMuro's auction platform for 1980s-and-newer enthusiast cars, with the same public-results transparency as BaT and lower fees for sellers.","domain":"carsandbids.com","era":"Modern classic, used","kind":"Auction","name":"Cars & Bids"},{"audience":"American collector cars","blurb":"The largest collector-car auction house in the world by volume — televised, fast, and the price-setter for American muscle and classics.","domain":"mecum.com","era":"Vintage, modern classic","kind":"Auction","name":"Mecum Auctions"},{"audience":"Blue-chip collector cars","blurb":"The top of the market. Pebble Beach and Monterey headline sales; if a car trades here, its result is the record the whole market cites.","domain":"rmsothebys.com","era":"Vintage, blue-chip","kind":"Auction","name":"RM Sotheby's"},{"audience":"Collector cars, automobilia","blurb":"Centuries-old auction house with deep European coverage — Goodwood sales and classic grids that BaT doesn't reach.","domain":"bonhams.com","era":"Vintage","kind":"Auction","name":"Bonhams Motoring"},{"audience":"Classic classifieds","blurb":"The classified bible of the American classic-car hobby since 1954. If it's old and for sale in the US, it's probably listed here.","domain":"hemmings.com","era":"Vintage, modern classic","kind":"Classifieds","name":"Hemmings"},{"audience":"New and used, dealer inventory","blurb":"One of the largest US listing aggregators — dealer new inventory plus used, with pricing tools that flag above/below market.","domain":"autotrader.com","era":"New, used","kind":"Marketplace","name":"AutoTrader"},{"audience":"Used pricing intelligence","blurb":"Best-in-class deal ratings: every listing scored against market value, so overpriced cars identify themselves. Start used searches here.","domain":"cargurus.com","era":"Used, new","kind":"Marketplace","name":"CarGurus"},{"audience":"New and used listings","blurb":"Huge US inventory and a research side (reviews, comparisons) that makes it a solid one-stop for mainstream buying.","domain":"cars.com","era":"New, used","kind":"Marketplace","name":"Cars.com"},{"audience":"Used, online purchase","blurb":"Buy entirely online with a 7-day return window. Prices run high versus private party, but the process is the simplest in used cars.","domain":"carvana.com","era":"Used","kind":"Marketplace","name":"Carvana"},{"audience":"Negotiated pricing","blurb":"Shows what others actually paid for the same car locally — the reference number to take into a dealership.","domain":"truecar.com","era":"New","kind":"Pricing","name":"TrueCar"},{"audience":"Local private-party","blurb":"Where the cheap cars live. No buyer protection and no polish, but private-party prices beat dealer retail by thousands — bring a friend and a pre-purchase inspection.","domain":"facebook.com/marketplace","era":"Used, modern classic","kind":"Classifieds","name":"Facebook Marketplace"},{"audience":"Factory-direct brands","blurb":"Tesla, Rivian, and Lucid sell direct at posted prices — no negotiation, no dealer markup, and the configurator is the showroom.","domain":"tesla.com","era":"New EV","kind":"Manufacturer direct","name":"Manufacturer direct (Tesla / Rivian / Lucid)"}],"note":"Curated outbound destinations, wave 1. Car Atlas does not sell cars or take commissions on listings; channel blurbs are editorial. Always verify a listing on the destination site itself.","priceWatch":{"cadence":"Refresh cycles target a 6-hour ingest per source, with per-listing timestamps shown on every record — a stale price is labeled stale, never presented as live.","design":"Price Watch is specified in API.md and rolls out in waves: (1) listing ingest adapters per channel in buying.json, normalizing to a common schema (model slug, year, trim, mileage, location, price, source, first-seen, last-seen); (2) price history per listing and per model-year cohort; (3) drop detection against cohort medians; (4) opt-in alerts. Wave 1 ships the schema, the cohort-median method, and this design — no fabricated live prices anywhere.","schema":["modelSlug","year","trim","mileage","location","priceUSD","source","listingUrl","firstSeen","lastSeen","status"]},"updatedAt":"2026-10-12","version":"1.0.0"}
+{
+ "buyingClasses": {
+  "modern-classic": {
+   "description": "Out of production, 10–30 years old, enthusiast demand rising. Sold through enthusiast auctions and specialist dealers. Condition spread is huge — documentation decides value.",
+   "label": "Modern classic (1995–2015)",
+   "primaryChannels": [
+    "bringatrailer.com",
+    "carsandbids.com",
+    "hemmings.com"
+   ]
+  },
+  "new": {
+   "description": "Cars you can buy new today. Price means MSRP minus incentives plus dealer markup on hot models. Best price comes from comparing dealer quotes, not list price.",
+   "label": "New & current models",
+   "primaryChannels": [
+    "cars.com",
+    "autotrader.com",
+    "cargurus.com",
+    "truecar.com",
+    "tesla.com"
+   ]
+  },
+  "used": {
+   "description": "In production recently or just out of it. Deep listing inventory everywhere — best price is a search problem, solved by aggregation and patience.",
+   "label": "Used modern (2015–today)",
+   "primaryChannels": [
+    "autotrader.com",
+    "cargurus.com",
+    "cars.com",
+    "carvana.com",
+    "facebook.com/marketplace"
+   ]
+  },
+  "vintage": {
+   "description": "Pre-1995 and collector-grade. Auction results set the market; provenance and matching numbers outweigh mileage. Buy expertise before you buy the car.",
+   "label": "Vintage & collector (pre-1995)",
+   "primaryChannels": [
+    "rmsothebys.com",
+    "bonhams.com",
+    "mecum.com",
+    "hemmings.com",
+    "bringatrailer.com"
+   ]
+  }
+ },
+ "channels": [
+  {
+   "audience": "Enthusiast auctions",
+   "blurb": "The auction site that reset modern-classic pricing. Every sale is public, so its results archive is the market's memory — the single best price reference for 1980s–2010s enthusiast cars.",
+   "domain": "bringatrailer.com",
+   "era": "Modern classic, vintage",
+   "kind": "Auction",
+   "name": "Bring a Trailer"
+  },
+  {
+   "audience": "Modern enthusiast cars",
+   "blurb": "Doug DeMuro's auction platform for 1980s-and-newer enthusiast cars, with the same public-results transparency as BaT and lower fees for sellers.",
+   "domain": "carsandbids.com",
+   "era": "Modern classic, used",
+   "kind": "Auction",
+   "name": "Cars & Bids"
+  },
+  {
+   "audience": "American collector cars",
+   "blurb": "The largest collector-car auction house in the world by volume — televised, fast, and the price-setter for American muscle and classics.",
+   "domain": "mecum.com",
+   "era": "Vintage, modern classic",
+   "kind": "Auction",
+   "name": "Mecum Auctions"
+  },
+  {
+   "audience": "Blue-chip collector cars",
+   "blurb": "The top of the market. Pebble Beach and Monterey headline sales; if a car trades here, its result is the record the whole market cites.",
+   "domain": "rmsothebys.com",
+   "era": "Vintage, blue-chip",
+   "kind": "Auction",
+   "name": "RM Sotheby's"
+  },
+  {
+   "audience": "Collector cars, automobilia",
+   "blurb": "Centuries-old auction house with deep European coverage — Goodwood sales and classic grids that BaT doesn't reach.",
+   "domain": "bonhams.com",
+   "era": "Vintage",
+   "kind": "Auction",
+   "name": "Bonhams Motoring"
+  },
+  {
+   "audience": "Classic classifieds",
+   "blurb": "The classified bible of the American classic-car hobby since 1954. If it's old and for sale in the US, it's probably listed here.",
+   "domain": "hemmings.com",
+   "era": "Vintage, modern classic",
+   "kind": "Classifieds",
+   "name": "Hemmings"
+  },
+  {
+   "audience": "New and used, dealer inventory",
+   "blurb": "One of the largest US listing aggregators — dealer new inventory plus used, with pricing tools that flag above/below market.",
+   "domain": "autotrader.com",
+   "era": "New, used",
+   "kind": "Marketplace",
+   "name": "AutoTrader"
+  },
+  {
+   "audience": "Used pricing intelligence",
+   "blurb": "Best-in-class deal ratings: every listing scored against market value, so overpriced cars identify themselves. Start used searches here.",
+   "domain": "cargurus.com",
+   "era": "Used, new",
+   "kind": "Marketplace",
+   "name": "CarGurus"
+  },
+  {
+   "audience": "New and used listings",
+   "blurb": "Huge US inventory and a research side (reviews, comparisons) that makes it a solid one-stop for mainstream buying.",
+   "domain": "cars.com",
+   "era": "New, used",
+   "kind": "Marketplace",
+   "name": "Cars.com"
+  },
+  {
+   "audience": "Used, online purchase",
+   "blurb": "Buy entirely online with a 7-day return window. Prices run high versus private party, but the process is the simplest in used cars.",
+   "domain": "carvana.com",
+   "era": "Used",
+   "kind": "Marketplace",
+   "name": "Carvana"
+  },
+  {
+   "audience": "Negotiated pricing",
+   "blurb": "Shows what others actually paid for the same car locally — the reference number to take into a dealership.",
+   "domain": "truecar.com",
+   "era": "New",
+   "kind": "Pricing",
+   "name": "TrueCar"
+  },
+  {
+   "audience": "Local private-party",
+   "blurb": "Where the cheap cars live. No buyer protection and no polish, but private-party prices beat dealer retail by thousands — bring a friend and a pre-purchase inspection.",
+   "domain": "facebook.com/marketplace",
+   "era": "Used, modern classic",
+   "kind": "Classifieds",
+   "name": "Facebook Marketplace"
+  },
+  {
+   "audience": "Factory-direct brands",
+   "blurb": "Tesla, Rivian, and Lucid sell direct at posted prices — no negotiation, no dealer markup, and the configurator is the showroom.",
+   "domain": "tesla.com",
+   "era": "New EV",
+   "kind": "Manufacturer direct",
+   "name": "Manufacturer direct (Tesla / Rivian / Lucid)"
+  }
+ ],
+ "note": "Curated outbound destinations, wave 1. Car Atlas does not sell cars or take commissions on listings; channel blurbs are editorial. Always verify a listing on the destination site itself.",
+ "priceWatch": {
+  "cadence": "Refresh cycles target a 6-hour ingest per source, with per-listing timestamps shown on every record — a stale price is labeled stale, never presented as live.",
+  "design": "Price Watch is specified in API.md and rolls out in waves: (1) listing ingest adapters per channel in buying.json, normalizing to a common schema (model slug, year, trim, mileage, location, price, source, first-seen, last-seen); (2) price history per listing and per model-year cohort; (3) drop detection against cohort medians; (4) opt-in alerts. Wave 1 ships the schema, the cohort-median method, and this design — no fabricated live prices anywhere.",
+  "schema": [
+   "modelSlug",
+   "year",
+   "trim",
+   "mileage",
+   "location",
+   "priceUSD",
+   "source",
+   "listingUrl",
+   "firstSeen",
+   "lastSeen",
+   "status"
+  ],
+  "stage1": "Stage 1 shipped in wave 4 (2026-10-13): certified auction results in data/v1/price-watch.json, rendered on the Buy page and on the model pages they belong to. Listings ingest, cohorts, and alerts remain later stages."
+ },
+ "updatedAt": "2026-10-13",
+ "version": "1.0.0"
+}

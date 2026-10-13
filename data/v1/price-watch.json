@@ -1,0 +1,133 @@
+{
+ "note": "Price Watch stage 1 tracks completed auction results, not live listings. Every record below was certified at ingest (2026-10-13) against a published source naming the car, the price, the house, and the date; the source is linked on each record. Prices are historical facts about one specific car on one specific day — not asking prices, not estimates, and not a valuation of any other example. Results that could not be certified to that standard were skipped, not estimated (see skippedSources).",
+ "results": [
+  {
+   "currency": "EUR",
+   "event": "RM Sotheby's — Mercedes-Benz Museum, Stuttgart",
+   "make": "mercedes-benz",
+   "makeName": "Mercedes-Benz",
+   "model": "300 SLR Uhlenhaut Coupé",
+   "modelSlug": null,
+   "price": 135000000,
+   "priceBasis": "As announced by Mercedes-Benz (RM Sotheby's sale)",
+   "saleDate": "2022-05-05",
+   "source": {
+    "name": "Mercedes-Benz Group (official announcement)",
+    "url": "https://group.mercedes-benz.com/company/news/uhlenhaut-coupe.html"
+   },
+   "status": "sold",
+   "year": 1955
+  },
+  {
+   "currency": "USD",
+   "event": "RM Sotheby's Monterey",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "model": "250 GTO (chassis 3413 GT)",
+   "modelSlug": null,
+   "price": 48405000,
+   "priceBasis": "Including buyer's premium (hammer $44,000,000)",
+   "saleDate": "2018-08-25",
+   "source": {
+    "name": "RM Sotheby's press release",
+    "url": "https://rmsothebys.com/media-center/press-releases/the-most-valuable-car-ever-sold-at-auction-rm-sotheby-s-sells-1962-ferrari-250-gto-for-484-million/"
+   },
+   "status": "sold",
+   "year": 1962
+  },
+  {
+   "currency": "USD",
+   "event": "Gooding & Company, Pebble Beach",
+   "make": "mclaren",
+   "makeName": "McLaren",
+   "model": "F1 (chassis 029)",
+   "modelSlug": "f1",
+   "price": 20465000,
+   "priceBasis": "As reported from the sale",
+   "saleDate": "2021-08-14",
+   "source": {
+    "name": "Classic Car Auctions — Gooding Pebble Beach 2021 results record",
+    "url": "https://www.classic-car-auctions.info/usa/california/pebble-beach/1995-mclaren-f1-the-most-expensive-mclaren-ever-sold-at-public-auction/"
+   },
+   "status": "sold",
+   "year": 1995
+  },
+  {
+   "currency": "USD",
+   "event": "RM Sotheby's Monterey",
+   "make": "porsche",
+   "makeName": "Porsche",
+   "model": "911 Sally Special (992, one-off)",
+   "modelSlug": "911",
+   "price": 3600000,
+   "priceBasis": "Hammer price (charity sale; proceeds donated)",
+   "saleDate": "2022-08-20",
+   "source": {
+    "name": "Porsche Newsroom",
+    "url": "https://newsroom.porsche.com/pdf/18958510-f06a-4a7b-be80-80e82db32e1b?print"
+   },
+   "status": "sold",
+   "year": 2022
+  },
+  {
+   "currency": "USD",
+   "event": "Mecum Kissimmee 2023",
+   "make": "chevrolet",
+   "makeName": "Chevrolet",
+   "model": "Corvette Split Window A/C Coupe (C2, lot F110.1)",
+   "modelSlug": "corvette",
+   "price": 434500,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2023-01-13",
+   "source": {
+    "name": "CLASSIC.COM record of the Mecum result",
+    "url": "http://www.classic.com/a/mecum-kissimmee-2023-V4M1ev4/lots/1963-chevrolet-corvette-split-window-ac-coupe-pzgxeb4/?page=3"
+   },
+   "status": "sold",
+   "year": 1963
+  },
+  {
+   "currency": "USD",
+   "event": "Bring a Trailer",
+   "make": "ford",
+   "makeName": "Ford",
+   "model": "Shelby Mustang GT500 Fastback 4-Speed (lot 80632)",
+   "modelSlug": "mustang",
+   "price": 295000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2022-08-05",
+   "source": {
+    "name": "CLASSIC.COM record of the Bring a Trailer result",
+    "url": "https://www.classic.com/a/bring-a-trailer-auctions-JknXEWB/lots/1967-shelby-mustang-gt500-fastback-4-speed-nOledAW/?page=6072"
+   },
+   "status": "sold",
+   "year": 1967
+  },
+  {
+   "currency": "USD",
+   "event": "Bring a Trailer",
+   "make": "toyota",
+   "makeName": "Toyota",
+   "model": "Land Cruiser FJ40 (lot 94386)",
+   "modelSlug": "land-cruiser",
+   "price": 26750,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2022-12-26",
+   "source": {
+    "name": "CLASSIC.COM record of the Bring a Trailer result",
+    "url": "https://www.classic.com/a/bring-a-trailer-auctions-JknXEWB/lots/1980-toyota-land-cruiser-fj40-Wq8e1Xn/?page=2"
+   },
+   "status": "sold",
+   "year": 1980
+  }
+ ],
+ "skippedSources": [
+  "Private transactions (e.g. reported private 250 GTO sales) — not auction results; excluded by design.",
+  "Pre-sale estimates and unsold / bid-to lots — not results; excluded.",
+  "Cars & Bids and Hemmings results — no individual lot was certified to the car + price + house + date standard at ingest; skipped, not estimated.",
+  "Aggregator summary statistics (medians, averages) — stage 1 publishes individual certified results only; cohort statistics arrive only when they can be computed from certified records."
+ ],
+ "stage": "Stage 1 — auction results",
+ "updatedAt": "2026-10-13",
+ "version": "1.0.0"
+}

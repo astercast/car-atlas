@@ -1,1 +1,208 @@
-{"make":"hyundai","models":[{"bodyStyles":["Sedan","Hatchback"],"buyingClass":"new","generations":[{"code":"MD/UD","name":"Fifth generation","note":"The 'fluidic sculpture' car that made the segment look twice. Sharp styling, strong value, and the generation where Elantra stopped being the default rental and started being a choice.","spec":{"drivetrain":"FWD","engine":"1.8L inline-4","power":"148 hp"},"years":"2010–2015"},{"code":"AD","name":"Sixth generation","note":"Calmer styling, better refinement, and a Sport model with a 1.6L turbo and independent rear suspension — a quiet preview of what the N division would do properly later.","spec":{"drivetrain":"FWD","engine":"1.6L turbo inline-4 (Sport)","power":"201 hp"},"years":"2015–2020"},{"code":"CN7","name":"Seventh generation","note":"Origami styling and, at the top, the Elantra N: 276 hp, a limited-slip differential, and a dual-clutch or manual. It embarrasses hot hatches costing far more, on track days especially.","spec":{"drivetrain":"FWD","engine":"2.0L turbo inline-4 (Elantra N)","power":"276 hp"},"years":"2020–present"}],"intro":"Hyundai's compact started as transport for people who couldn't afford a Civic and ended up producing the Elantra N, one of the best performance bargains on sale. That arc is Hyundai's last 30 years in miniature.","name":"Elantra","segment":"Compact car","slug":"elantra","status":"In production","trims":["SE","SEL","Limited","N Line","N"],"years":"1990–present"},{"bodyStyles":["Sedan"],"buyingClass":"new","generations":[{"code":"YF","name":"Sixth generation","note":"The styling shock of 2011 — a midsize sedan that looked like a concept car — paired with a 2.0L turbo making 274 hp, more than the V6 rivals it replaced.","spec":{"drivetrain":"FWD","engine":"2.0L turbo inline-4","power":"274 hp"},"years":"2009–2014"},{"code":"LF","name":"Seventh generation","note":"Hyundai turned the drama down and the quality up: better ride, better materials, a 245 hp turbo flagship. Less memorable to look at, more car to own.","spec":{"drivetrain":"FWD","engine":"2.0L turbo inline-4","power":"245 hp"},"years":"2014–2019"},{"code":"DN8","name":"Eighth generation","note":"The drama came back: a full-width light treatment and an N Line with a 290 hp 2.5L turbo. Hybrids now do most of the sales, which suits the car fine.","spec":{"drivetrain":"FWD","engine":"2.5L turbo inline-4 (N Line)","power":"290 hp"},"years":"2019–present"}],"intro":"The car that announced Hyundai could design. The 2011 Sonata's swooping styling forced every midsize rival to follow, and the current car splits its personality between efficient hybrids and a properly quick N Line.","name":"Sonata","segment":"Midsize sedan","slug":"sonata","status":"In production","trims":["SEL","N Line","Limited Hybrid"],"years":"1985–present"},{"bodyStyles":["Hatchback","Crossover"],"buyingClass":"new","generations":[{"code":"NE","name":"First generation","note":"Built on Hyundai's dedicated E-GMP electric platform with 800-volt charging — 10 to 80 percent in under 20 minutes in ideal conditions. The dual-motor car makes 320 hp; the Ioniq 5 N turns it into a 641 hp track-capable machine with fake gearshifts that somehow work.","spec":{"drivetrain":"RWD / AWD","engine":"Electric motor, 800V architecture","power":"320 hp (dual-motor AWD)"},"years":"2021–present"}],"intro":"A retro-futuristic hatchback the size of a crossover, and the car that made Hyundai a design leader in the EV era. Pixel lights, a flat floor, and charging speeds that embarrassed cars costing twice as much at launch.","name":"Ioniq 5","segment":"Electric crossover","slug":"ioniq-5","status":"In production","trims":["SE","SEL","Limited","N"],"years":"2021–present"},{"bodyStyles":["SUV"],"buyingClass":"new","generations":[{"code":"JM","name":"First generation","note":"Hyundai's first compact SUV for the global push: unibody, car-like manners, and an optional 2.7L V6. Anonymous to look at, significant in hindsight.","spec":{"drivetrain":"FWD / AWD","engine":"2.7L V6","power":"173 hp"},"years":"2004–2009"},{"code":"TL","name":"Third generation","note":"Sharper styling, a turbocharged option, and the polish that made Tucson a default shortlist car rather than a budget alternative. The segment's centre of gravity had moved, and Hyundai moved with it.","spec":{"drivetrain":"FWD / AWD","engine":"1.6L turbo inline-4","power":"175 hp"},"years":"2015–2021"},{"code":"NX4","name":"Fourth generation","note":"Concept-car styling, a hybrid and plug-in hybrid in the range from launch, and an interior that went fully digital. The hybrid is the sweet spot of the lineup.","spec":{"drivetrain":"FWD / AWD","engine":"1.6L turbo hybrid inline-4","power":"226–231 hp (combined)"},"years":"2020–present"}],"intro":"Hyundai's RAV4 and CR-V rival, and the model that shows how far the mainstream range has come: the current hybrid is efficient, quick enough, and styled like it escaped from a motor show stand.","name":"Tucson","segment":"Compact SUV","slug":"tucson","status":"In production","trims":["SE","SEL","N Line","Limited","Plug-in Hybrid"],"years":"2004–present"}]}
+{
+ "make": "hyundai",
+ "models": [
+  {
+   "bodyStyles": [
+    "Sedan",
+    "Hatchback"
+   ],
+   "buyingClass": "new",
+   "generations": [
+    {
+     "code": "MD/UD",
+     "name": "Fifth generation",
+     "note": "The 'fluidic sculpture' car that made the segment look twice. Sharp styling, strong value, and the generation where Elantra stopped being the default rental and started being a choice.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "1.8L inline-4",
+      "power": "148 hp"
+     },
+     "years": "2010–2015"
+    },
+    {
+     "code": "AD",
+     "name": "Sixth generation",
+     "note": "Calmer styling, better refinement, and a Sport model with a 1.6L turbo and independent rear suspension — a quiet preview of what the N division would do properly later.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "1.6L turbo inline-4 (Sport)",
+      "power": "201 hp"
+     },
+     "years": "2015–2020"
+    },
+    {
+     "code": "CN7",
+     "name": "Seventh generation",
+     "note": "Origami styling and, at the top, the Elantra N: 276 hp, a limited-slip differential, and a dual-clutch or manual. It embarrasses hot hatches costing far more, on track days especially.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "2.0L turbo inline-4 (Elantra N)",
+      "power": "276 hp"
+     },
+     "years": "2020–present"
+    }
+   ],
+   "intro": "Hyundai's compact started as transport for people who couldn't afford a Civic and ended up producing the Elantra N, one of the best performance bargains on sale. That arc is Hyundai's last 30 years in miniature.",
+   "name": "Elantra",
+   "segment": "Compact car",
+   "slug": "elantra",
+   "status": "In production",
+   "trims": [
+    "SE",
+    "SEL",
+    "Limited",
+    "N Line",
+    "N"
+   ],
+   "years": "1990–present"
+  },
+  {
+   "bodyStyles": [
+    "Sedan"
+   ],
+   "buyingClass": "new",
+   "generations": [
+    {
+     "code": "YF",
+     "name": "Sixth generation",
+     "note": "The styling shock of 2011 — a midsize sedan that looked like a concept car — paired with a 2.0L turbo making 274 hp, more than the V6 rivals it replaced.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "2.0L turbo inline-4",
+      "power": "274 hp"
+     },
+     "years": "2009–2014"
+    },
+    {
+     "code": "LF",
+     "name": "Seventh generation",
+     "note": "Hyundai turned the drama down and the quality up: better ride, better materials, a 245 hp turbo flagship. Less memorable to look at, more car to own.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "2.0L turbo inline-4",
+      "power": "245 hp"
+     },
+     "years": "2014–2019"
+    },
+    {
+     "code": "DN8",
+     "name": "Eighth generation",
+     "note": "The drama came back: a full-width light treatment and an N Line with a 290 hp 2.5L turbo. Hybrids now do most of the sales, which suits the car fine.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "2.5L turbo inline-4 (N Line)",
+      "power": "290 hp"
+     },
+     "years": "2019–present"
+    }
+   ],
+   "intro": "The car that announced Hyundai could design. The 2011 Sonata's swooping styling forced every midsize rival to follow, and the current car splits its personality between efficient hybrids and a properly quick N Line.",
+   "name": "Sonata",
+   "segment": "Midsize sedan",
+   "slug": "sonata",
+   "status": "In production",
+   "trims": [
+    "SEL",
+    "N Line",
+    "Limited Hybrid"
+   ],
+   "years": "1985–present"
+  },
+  {
+   "bodyStyles": [
+    "Hatchback",
+    "Crossover"
+   ],
+   "buyingClass": "new",
+   "generations": [
+    {
+     "code": "NE",
+     "name": "First generation",
+     "note": "Built on Hyundai's dedicated E-GMP electric platform with 800-volt charging — 10 to 80 percent in under 20 minutes in ideal conditions. The dual-motor car makes 320 hp; the Ioniq 5 N turns it into a 641 hp track-capable machine with fake gearshifts that somehow work.",
+     "spec": {
+      "drivetrain": "RWD / AWD",
+      "engine": "Electric motor, 800V architecture",
+      "power": "320 hp (dual-motor AWD)"
+     },
+     "years": "2021–present"
+    }
+   ],
+   "intro": "A retro-futuristic hatchback the size of a crossover, and the car that made Hyundai a design leader in the EV era. Pixel lights, a flat floor, and charging speeds that embarrassed cars costing twice as much at launch.",
+   "name": "Ioniq 5",
+   "photo": "assets/photos/hyundai-ioniq-5.webp",
+   "photoCaption": "Ioniq 5, rear 3/4, plugged in at a charger",
+   "photoCredit": "Photo: Alexander-93, CC BY-SA 4.0, via Wikimedia Commons",
+   "photos": [
+    {
+     "caption": "Ioniq 5, rear 3/4, plugged in at a charger",
+     "credit": "Photo: Alexander-93, CC BY-SA 4.0, via Wikimedia Commons",
+     "src": "assets/photos/hyundai-ioniq-5.webp"
+    }
+   ],
+   "segment": "Electric crossover",
+   "slug": "ioniq-5",
+   "status": "In production",
+   "trims": [
+    "SE",
+    "SEL",
+    "Limited",
+    "N"
+   ],
+   "years": "2021–present"
+  },
+  {
+   "bodyStyles": [
+    "SUV"
+   ],
+   "buyingClass": "new",
+   "generations": [
+    {
+     "code": "JM",
+     "name": "First generation",
+     "note": "Hyundai's first compact SUV for the global push: unibody, car-like manners, and an optional 2.7L V6. Anonymous to look at, significant in hindsight.",
+     "spec": {
+      "drivetrain": "FWD / AWD",
+      "engine": "2.7L V6",
+      "power": "173 hp"
+     },
+     "years": "2004–2009"
+    },
+    {
+     "code": "TL",
+     "name": "Third generation",
+     "note": "Sharper styling, a turbocharged option, and the polish that made Tucson a default shortlist car rather than a budget alternative. The segment's centre of gravity had moved, and Hyundai moved with it.",
+     "spec": {
+      "drivetrain": "FWD / AWD",
+      "engine": "1.6L turbo inline-4",
+      "power": "175 hp"
+     },
+     "years": "2015–2021"
+    },
+    {
+     "code": "NX4",
+     "name": "Fourth generation",
+     "note": "Concept-car styling, a hybrid and plug-in hybrid in the range from launch, and an interior that went fully digital. The hybrid is the sweet spot of the lineup.",
+     "spec": {
+      "drivetrain": "FWD / AWD",
+      "engine": "1.6L turbo hybrid inline-4",
+      "power": "226–231 hp (combined)"
+     },
+     "years": "2020–present"
+    }
+   ],
+   "intro": "Hyundai's RAV4 and CR-V rival, and the model that shows how far the mainstream range has come: the current hybrid is efficient, quick enough, and styled like it escaped from a motor show stand.",
+   "name": "Tucson",
+   "segment": "Compact SUV",
+   "slug": "tucson",
+   "status": "In production",
+   "trims": [
+    "SE",
+    "SEL",
+    "N Line",
+    "Limited",
+    "Plug-in Hybrid"
+   ],
+   "years": "2004–present"
+  }
+ ]
+}

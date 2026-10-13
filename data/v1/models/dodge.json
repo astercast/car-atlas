@@ -1,178 +1,193 @@
 {
-  "make": "dodge",
-  "models": [
+ "make": "dodge",
+ "models": [
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Sedan"
+   ],
+   "buyingClass": "new",
+   "collectorNote": "1969 Hemi cars sit at the classic peak; among modern cars, the 2023 'Last Call' Hellcats are the ones being put away. A clean 1968–70 440 car is the driver's buy.",
+   "generations": [
     {
-      "bodyStyles": [
-        "Coupe",
-        "Sedan"
-      ],
-      "buyingClass": "new",
-      "collectorNote": "1969 Hemi cars sit at the classic peak; among modern cars, the 2023 'Last Call' Hellcats are the ones being put away. A clean 1968–70 440 car is the driver's buy.",
-      "generations": [
-        {
-          "code": "B-body",
-          "name": "Charger R/T",
-          "note": "The Coke-bottle shape, the full-width grille, Bullitt's villain and the Dukes' hero. The 426 Hemi was the headline; the 440 Magnum was the street pick.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "7.0L Hemi V8 / 7.2L V8",
-            "power": "375–425 hp"
-          },
-          "years": "1968–1970"
-        },
-        {
-          "code": "LD",
-          "name": "Charger SRT Hellcat",
-          "note": "707 hp in a family sedan rewrote the rules; the Redeye took it to 797. The Widebody of 2020 finally gave it the tyre the power always needed.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "6.2L supercharged V8 (Hellcat)",
-            "power": "707–797 hp"
-          },
-          "years": "2015–2023"
-        },
-        {
-          "code": "LB",
-          "name": "Charger Daytona (electric)",
-          "note": "The eighth generation leads with the dual-motor Daytona (670 hp in Scat Pack form) and adds a twin-turbo 'Sixpack' six-cylinder. The market's verdict is still being written.",
-          "spec": {
-            "drivetrain": "AWD",
-            "engine": "Dual-motor EV / 3.0L twin-turbo I6",
-            "power": "420–670 hp"
-          },
-          "years": "2024–present"
-        }
-      ],
-      "intro": "From the 1968 car that defined the muscle silhouette, through two decades as a four-door sedan with Hellcat power, to the electric-and-six-cylinder Charger of 2024 — the nameplate keeps reinventing the same idea.",
-      "name": "Charger",
-      "segment": "Muscle car",
-      "slug": "charger",
-      "status": "In production",
-      "trims": [
-        "Charger R/T",
-        "Charger SRT Hellcat",
-        "Charger Daytona",
-        "Charger Sixpack"
-      ],
-      "years": "1966–present"
+     "code": "B-body",
+     "name": "Charger R/T",
+     "note": "The Coke-bottle shape, the full-width grille, Bullitt's villain and the Dukes' hero. The 426 Hemi was the headline; the 440 Magnum was the street pick.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "7.0L Hemi V8 / 7.2L V8",
+      "power": "375–425 hp"
+     },
+     "years": "1968–1970"
     },
     {
-      "bodyStyles": [
-        "Coupe"
-      ],
-      "buyingClass": "used",
-      "collectorNote": "Demons trade as collectibles already. The thinking buy is a manual Hellcat Widebody — the full experience at a third of Demon money.",
-      "generations": [
-        {
-          "code": "E-body",
-          "name": "Challenger R/T",
-          "note": "One year of glory: 1970 offered everything from a slant six to the 426 Hemi, plus the T/A built for Trans-Am homologation. The 'Cuda's plusher twin.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "7.0L Hemi V8 / 5.6L V8",
-            "power": "290–425 hp"
-          },
-          "years": "1970–1974"
-        },
-        {
-          "code": "LA",
-          "name": "Challenger SRT Hellcat / Demon",
-          "note": "The Hellcat put 707 hp under $60k. The 2018 Demon — 840 hp, drag radials from the factory, banned by the NHRA for being too fast without a cage — and the 2023 Demon 170 closed the book.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "6.2L supercharged V8",
-            "power": "707–1,025 hp"
-          },
-          "years": "2015–2023"
-        }
-      ],
-      "intro": "Late to the pony-car fight in 1970, gone by 1974, then reborn in 2008 as a full-size retro coupé that outlived its rivals — and ended with the 840 hp Demon and the 1,025 hp Demon 170.",
-      "name": "Challenger",
-      "segment": "Muscle car",
-      "slug": "challenger",
-      "status": "Discontinued",
-      "trims": [
-        "Challenger R/T",
-        "Challenger SRT Hellcat",
-        "Challenger SRT Demon",
-        "Demon 170"
-      ],
-      "years": "1970–2023"
+     "code": "LD",
+     "name": "Charger SRT Hellcat",
+     "note": "707 hp in a family sedan rewrote the rules; the Redeye took it to 797. The Widebody of 2020 finally gave it the tyre the power always needed.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "6.2L supercharged V8 (Hellcat)",
+      "power": "707–797 hp"
+     },
+     "years": "2015–2023"
     },
     {
-      "bodyStyles": [
-        "Coupe",
-        "Convertible"
-      ],
-      "buyingClass": "modern-classic",
-      "collectorNote": "ACRs lead the market and Gen II GTS coupés are the rising value — the blue-and-white launch colours especially. All Vipers want a careful check for track and 'Viper tax' deferred maintenance.",
-      "generations": [
-        {
-          "code": "SR I",
-          "name": "RT/10",
-          "note": "The Lamborghini-assisted alloy V10 made 400 hp and the car weighed 1,490 kg with plastic bodywork. Side curtains and a toupee roof; nothing about it was house-trained.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "8.0L V10",
-            "power": "400 hp"
-          },
-          "years": "1992–1995"
-        },
-        {
-          "code": "VX I",
-          "name": "Viper GTS / ACR",
-          "note": "The final car: 8.4 litres, 645 hp, and the ACR's aero package making a genuine tonne of downforce. ACRs took production-car records at 13 US tracks in one farewell tour.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "8.4L V10",
-            "power": "640–645 hp"
-          },
-          "years": "2013–2017"
-        }
-      ],
-      "intro": "A V10, a tube frame, and no apology: no ABS, no traction control, no side windows on the first cars. Five generations of America's most honest sports car.",
-      "name": "Viper",
-      "segment": "Sports car",
-      "slug": "viper",
-      "status": "Discontinued",
-      "trims": [
-        "RT/10",
-        "GTS",
-        "SRT-10",
-        "ACR"
-      ],
-      "years": "1992–2017"
-    },
-    {
-      "bodyStyles": [
-        "SUV"
-      ],
-      "buyingClass": "new",
-      "generations": [
-        {
-          "code": "WD",
-          "name": "Durango R/T / SRT Hellcat",
-          "note": "The third generation shares bones with the Grand Cherokee and kept the Hemi long after rivals downsized. SRT 392 and Hellcat trims are the enthusiast end; the platform soldiers on into the late 2020s.",
-          "spec": {
-            "drivetrain": "RWD / AWD",
-            "engine": "3.6L V6 / 5.7L / 6.4L / 6.2L supercharged V8",
-            "power": "293–710 hp"
-          },
-          "years": "2011–present"
-        }
-      ],
-      "intro": "Three rows and a Hemi for most of its life. The SRT Hellcat version — 710 hp, briefly the most powerful production SUV in the world — turned the school run into a drag strip.",
-      "name": "Durango",
-      "segment": "Full-size SUV",
-      "slug": "durango",
-      "status": "In production",
-      "trims": [
-        "Durango SXT",
-        "Durango R/T",
-        "Durango SRT 392",
-        "Durango SRT Hellcat"
-      ],
-      "years": "1998–present"
+     "code": "LB",
+     "name": "Charger Daytona (electric)",
+     "note": "The eighth generation leads with the dual-motor Daytona (670 hp in Scat Pack form) and adds a twin-turbo 'Sixpack' six-cylinder. The market's verdict is still being written.",
+     "spec": {
+      "drivetrain": "AWD",
+      "engine": "Dual-motor EV / 3.0L twin-turbo I6",
+      "power": "420–670 hp"
+     },
+     "years": "2024–present"
     }
-  ]
+   ],
+   "intro": "From the 1968 car that defined the muscle silhouette, through two decades as a four-door sedan with Hellcat power, to the electric-and-six-cylinder Charger of 2024 — the nameplate keeps reinventing the same idea.",
+   "name": "Charger",
+   "photo": "assets/photos/dodge-charger.webp",
+   "photoCaption": "Charger (modern LD sedan), front 3/4",
+   "photoCredit": "Photo: Ermell, CC BY-SA 4.0, via Wikimedia Commons",
+   "photos": [
+    {
+     "caption": "Charger (modern LD sedan), front 3/4",
+     "credit": "Photo: Ermell, CC BY-SA 4.0, via Wikimedia Commons",
+     "src": "assets/photos/dodge-charger.webp"
+    },
+    {
+     "caption": "Charger Daytona 1969 (aero variant), front 3/4",
+     "credit": "Photo: Sicnag, CC BY 2.0, via Wikimedia Commons",
+     "src": "assets/photos/dodge-charger-classic.webp"
+    }
+   ],
+   "segment": "Muscle car",
+   "slug": "charger",
+   "status": "In production",
+   "trims": [
+    "Charger R/T",
+    "Charger SRT Hellcat",
+    "Charger Daytona",
+    "Charger Sixpack"
+   ],
+   "years": "1966–present"
+  },
+  {
+   "bodyStyles": [
+    "Coupe"
+   ],
+   "buyingClass": "used",
+   "collectorNote": "Demons trade as collectibles already. The thinking buy is a manual Hellcat Widebody — the full experience at a third of Demon money.",
+   "generations": [
+    {
+     "code": "E-body",
+     "name": "Challenger R/T",
+     "note": "One year of glory: 1970 offered everything from a slant six to the 426 Hemi, plus the T/A built for Trans-Am homologation. The 'Cuda's plusher twin.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "7.0L Hemi V8 / 5.6L V8",
+      "power": "290–425 hp"
+     },
+     "years": "1970–1974"
+    },
+    {
+     "code": "LA",
+     "name": "Challenger SRT Hellcat / Demon",
+     "note": "The Hellcat put 707 hp under $60k. The 2018 Demon — 840 hp, drag radials from the factory, banned by the NHRA for being too fast without a cage — and the 2023 Demon 170 closed the book.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "6.2L supercharged V8",
+      "power": "707–1,025 hp"
+     },
+     "years": "2015–2023"
+    }
+   ],
+   "intro": "Late to the pony-car fight in 1970, gone by 1974, then reborn in 2008 as a full-size retro coupé that outlived its rivals — and ended with the 840 hp Demon and the 1,025 hp Demon 170.",
+   "name": "Challenger",
+   "segment": "Muscle car",
+   "slug": "challenger",
+   "status": "Discontinued",
+   "trims": [
+    "Challenger R/T",
+    "Challenger SRT Hellcat",
+    "Challenger SRT Demon",
+    "Demon 170"
+   ],
+   "years": "1970–2023"
+  },
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Convertible"
+   ],
+   "buyingClass": "modern-classic",
+   "collectorNote": "ACRs lead the market and Gen II GTS coupés are the rising value — the blue-and-white launch colours especially. All Vipers want a careful check for track and 'Viper tax' deferred maintenance.",
+   "generations": [
+    {
+     "code": "SR I",
+     "name": "RT/10",
+     "note": "The Lamborghini-assisted alloy V10 made 400 hp and the car weighed 1,490 kg with plastic bodywork. Side curtains and a toupee roof; nothing about it was house-trained.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "8.0L V10",
+      "power": "400 hp"
+     },
+     "years": "1992–1995"
+    },
+    {
+     "code": "VX I",
+     "name": "Viper GTS / ACR",
+     "note": "The final car: 8.4 litres, 645 hp, and the ACR's aero package making a genuine tonne of downforce. ACRs took production-car records at 13 US tracks in one farewell tour.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "8.4L V10",
+      "power": "640–645 hp"
+     },
+     "years": "2013–2017"
+    }
+   ],
+   "intro": "A V10, a tube frame, and no apology: no ABS, no traction control, no side windows on the first cars. Five generations of America's most honest sports car.",
+   "name": "Viper",
+   "segment": "Sports car",
+   "slug": "viper",
+   "status": "Discontinued",
+   "trims": [
+    "RT/10",
+    "GTS",
+    "SRT-10",
+    "ACR"
+   ],
+   "years": "1992–2017"
+  },
+  {
+   "bodyStyles": [
+    "SUV"
+   ],
+   "buyingClass": "new",
+   "generations": [
+    {
+     "code": "WD",
+     "name": "Durango R/T / SRT Hellcat",
+     "note": "The third generation shares bones with the Grand Cherokee and kept the Hemi long after rivals downsized. SRT 392 and Hellcat trims are the enthusiast end; the platform soldiers on into the late 2020s.",
+     "spec": {
+      "drivetrain": "RWD / AWD",
+      "engine": "3.6L V6 / 5.7L / 6.4L / 6.2L supercharged V8",
+      "power": "293–710 hp"
+     },
+     "years": "2011–present"
+    }
+   ],
+   "intro": "Three rows and a Hemi for most of its life. The SRT Hellcat version — 710 hp, briefly the most powerful production SUV in the world — turned the school run into a drag strip.",
+   "name": "Durango",
+   "segment": "Full-size SUV",
+   "slug": "durango",
+   "status": "In production",
+   "trims": [
+    "Durango SXT",
+    "Durango R/T",
+    "Durango SRT 392",
+    "Durango SRT Hellcat"
+   ],
+   "years": "1998–present"
+  }
+ ]
 }

@@ -172,6 +172,19 @@ section.block { padding: 56px 0 8px; }
 .note-box b { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: 0.09em; color: var(--accent-ink); margin-bottom: 5px; }
 .note-box p { color: var(--ink-2); font-size: 15px; }
 
+/* ——— Photos (placement pass, wave 4) ——— */
+.photo { margin: 26px 0 6px; }
+.photo img {
+  display: block; width: 100%; height: auto;
+  border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--card);
+}
+.photo-main img { max-height: 560px; object-fit: cover; }
+.photo figcaption { margin-top: 8px; font-size: 12.5px; color: var(--ink-3); }
+.photo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; }
+.photo-grid .photo { margin: 12px 0 0; }
+.pw-price { font-size: 26px; font-weight: 800; letter-spacing: -0.02em; color: var(--ink) !important; }
+
 /* tables & lists */
 .list-clean { list-style: none; }
 .list-clean li { display: flex; justify-content: space-between; gap: 16px; padding: 13px 2px; border-bottom: 1px solid var(--line); font-size: 15px; }

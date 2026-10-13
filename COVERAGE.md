@@ -5,9 +5,9 @@ and tens of thousands of models, so coverage ships in waves and this
 file is the honest ledger. If a car isn't listed here as seeded, it
 isn't in the atlas — no silent gaps dressed up as completeness.
 
-## Seeded (waves 1–3, 2026-10-12/13)
+## Seeded (waves 1–4, 2026-10-12/13)
 
-**40 makes, 180 models, 354 generations** (exact counts are printed
+**40 makes, 180 models, 373 generations** (exact counts are printed
 by `scripts/build.py` and shown in the homepage stats strip).
 
 Wave 1 makes: Toyota, Honda, Nissan, Mazda, Subaru, Hyundai, Ford,
@@ -25,10 +25,20 @@ to Turbo X).
 For each seeded make: its most significant models, with 1–3 landmark
 generations each and flagship specs. Depth first; breadth follows.
 
+Wave 4 depth upgrade: the four icons — Porsche 911 (8 generations),
+Chevrolet Corvette (8), Ford Mustang (7), Toyota Land Cruiser (8) —
+now carry their full generation lists, 19 generations added.
+
 Also seeded: 35 clubs/networks — national level for most marques,
 with chapter-level entries (regional chapters with their own
 calendars) beginning in wave 2, and marque clubs for seven of the
 wave-3 historic makes — plus 13 buying channels and 4 buying classes.
+
+Photography (wave 4): 49 real, CC-licensed photographs from Wikimedia
+Commons are wired to 40 model records and all 40 make records, each
+with its honest caption and attribution line on the page. One
+exception, stated plainly: the Ferrari 250 GTO photograph sits on
+the Ferrari make page — there is no 250 GTO model record yet.
 
 ## Not yet covered — the roadmap
 
@@ -46,18 +56,20 @@ AMC, DeLorean, Duesenberg, Oldsmobile, Packard, Plymouth, Pontiac,
 Saab, Studebaker, Tucker — seeded in wave 3.)
 
 **Depth upgrades planned per seeded make:** full generation lists
-(the 911 alone has eight), engine-variant tables, production figures,
-motorsport records, successor/predecessor links, market notes per
-generation.
+for the remaining models (the four icons were completed in wave 4),
+engine-variant tables, production figures, motorsport records,
+successor/predecessor links, market notes per generation.
 
 **Clubs:** chapter-level data (city, meeting cadence, event calendars),
 more regions (South America, Middle East, South & Southeast Asia,
 Africa), model-specific registries (air-cooled Porsche, early Bronco,
 rotary, and hundreds more).
 
-**Buying layer:** Price Watch stage 1 — ingest adapters for the
-channels in `buying.json`, cohort medians per model-year, public
-results tracking for the auction houses.
+**Buying layer:** Price Watch stage 1 shipped in wave 4 — 7
+certified auction results in `data/v1/price-watch.json`, each with
+its published source. Still planned: listings ingest adapters for
+the channels in `buying.json` and cohort medians computed from
+certified records only.
 
 ## Accuracy standard
 

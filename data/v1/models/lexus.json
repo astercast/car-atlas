@@ -1,217 +1,227 @@
 {
-  "make": "lexus",
-  "models": [
+ "make": "lexus",
+ "models": [
+  {
+   "bodyStyles": [
+    "Sedan"
+   ],
+   "buyingClass": "new",
+   "collectorNote": "First-generation LS 400s are the connoisseur buy: the over-engineering is real, parts support is Toyota-deep, and clean low-mile cars are quietly disappearing into collections.",
+   "generations": [
     {
-      "bodyStyles": [
-        "Sedan"
-      ],
-      "buyingClass": "new",
-      "collectorNote": "First-generation LS 400s are the connoisseur buy: the over-engineering is real, parts support is Toyota-deep, and clean low-mile cars are quietly disappearing into collections.",
-      "generations": [
-        {
-          "code": "XF10",
-          "name": "LS 400",
-          "note": "Five years, 450 prototypes, and a billion dollars bought a 4.0-litre V8 so smooth Lexus balanced a pyramid of champagne glasses on the bonnet in the ads.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "4.0L V8 (1UZ-FE)",
-            "power": "250 hp"
-          },
-          "years": "1989–1994"
-        },
-        {
-          "code": "XF40",
-          "name": "LS 460 / LS 600h",
-          "note": "The first eight-speed automatic in the class, and a hybrid flagship — the 600h paired a 5.0 V8 with electric motors when hybrids were still economy-car tech.",
-          "spec": {
-            "drivetrain": "RWD / AWD",
-            "engine": "4.6L V8 / 5.0L V8 hybrid",
-            "power": "380–438 hp"
-          },
-          "years": "2007–2017"
-        },
-        {
-          "code": "XF50",
-          "name": "LS 500",
-          "note": "No V8 for the first time — a twin-turbo V6 on the GA-L platform shared with the LC coupé. The styling finally matched the engineering ambition.",
-          "spec": {
-            "drivetrain": "RWD / AWD",
-            "engine": "3.4L twin-turbo V6 / hybrid V6",
-            "power": "416 hp"
-          },
-          "years": "2018–present"
-        }
-      ],
-      "intro": "The car that launched a marque. Toyota's secret Flagship One project produced a V8 saloon quieter and cheaper than a Mercedes S-Class, and German boardrooms have respected Lexus ever since.",
-      "name": "LS",
-      "segment": "Full-size luxury sedan",
-      "slug": "ls",
-      "status": "In production",
-      "trims": [
-        "LS 400",
-        "LS 430",
-        "LS 460",
-        "LS 500",
-        "LS 500h"
-      ],
-      "years": "1989–present"
+     "code": "XF10",
+     "name": "LS 400",
+     "note": "Five years, 450 prototypes, and a billion dollars bought a 4.0-litre V8 so smooth Lexus balanced a pyramid of champagne glasses on the bonnet in the ads.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "4.0L V8 (1UZ-FE)",
+      "power": "250 hp"
+     },
+     "years": "1989–1994"
     },
     {
-      "bodyStyles": [
-        "Coupe"
-      ],
-      "buyingClass": "modern-classic",
-      "collectorNote": "All 500 are accounted for and values never dipped the way speculators feared. The V10's soundtrack is the appreciating asset; buy the service history with the car.",
-      "generations": [
-        {
-          "code": "LFA",
-          "name": "LFA",
-          "note": "The engine is the car: a 4.8-litre V10 with titanium internals and a soundtrack tuned like an instrument. The Nürburgring Package lapped the 'Ring in 7:14 in 2011.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "4.8L V10 (1LR-GUE)",
-            "power": "552 hp"
-          },
-          "years": "2010–2012"
-        }
-      ],
-      "intro": "A decade in development, a carbon tub, and a Yamaha-co-developed V10 that revs to 9,000 rpm faster than an analogue tach could follow — so the dial went digital. 500 built, each at a loss.",
-      "name": "LFA",
-      "segment": "Supercar",
-      "slug": "lfa",
-      "status": "Discontinued",
-      "trims": [
-        "LFA",
-        "LFA Nürburgring Package"
-      ],
-      "years": "2010–2012"
+     "code": "XF40",
+     "name": "LS 460 / LS 600h",
+     "note": "The first eight-speed automatic in the class, and a hybrid flagship — the 600h paired a 5.0 V8 with electric motors when hybrids were still economy-car tech.",
+     "spec": {
+      "drivetrain": "RWD / AWD",
+      "engine": "4.6L V8 / 5.0L V8 hybrid",
+      "power": "380–438 hp"
+     },
+     "years": "2007–2017"
     },
     {
-      "bodyStyles": [
-        "Sedan"
-      ],
-      "buyingClass": "new",
-      "generations": [
-        {
-          "code": "XE10",
-          "name": "IS 200 / IS 300",
-          "note": "The Altezza's tail lights started a thousand imitations. The 3.0 straight six and a manual gearbox made it the driver's Lexus nobody expected.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "2.0L / 3.0L inline-6",
-            "power": "153–215 hp"
-          },
-          "years": "1999–2005"
-        },
-        {
-          "code": "XE30",
-          "name": "IS 300 / IS 350 / IS 500",
-          "note": "Sharper chassis, spindle grille, and in 2022 the IS 500 F Sport Performance: the 5.0 V8 from the RC F in the smallest Lexus sedan. A future classic hiding in plain sight.",
-          "spec": {
-            "drivetrain": "RWD / AWD",
-            "engine": "2.0L turbo I4 / 3.5L V6 / 5.0L V8",
-            "power": "241–472 hp"
-          },
-          "years": "2013–present"
-        }
-      ],
-      "intro": "Lexus's answer to the 3 Series, sold in Japan as the Toyota Altezza — chronograph-style instruments, a jewel of a straight six, and later the V8 IS 500 as a parting gift to the segment.",
-      "name": "IS",
-      "segment": "Compact luxury sedan",
-      "slug": "is",
-      "status": "In production",
-      "trims": [
-        "IS 200",
-        "IS 300",
-        "IS 350",
-        "IS 500 F Sport Performance"
-      ],
-      "years": "1999–present"
-    },
-    {
-      "bodyStyles": [
-        "SUV"
-      ],
-      "buyingClass": "new",
-      "generations": [
-        {
-          "code": "XU10",
-          "name": "RX 300",
-          "note": "A Camry-platform wagon in a tall hat, pitched exactly at American buyers leaving sedans. It created the segment every premium brand now depends on.",
-          "spec": {
-            "drivetrain": "FWD / AWD",
-            "engine": "3.0L V6",
-            "power": "220 hp"
-          },
-          "years": "1998–2003"
-        },
-        {
-          "code": "AL20",
-          "name": "RX 350 / RX 450h",
-          "note": "The fourth generation added a seven-seat L variant and the sharpest interpretation of the spindle grille. Hybrid remained the volume powertrain.",
-          "spec": {
-            "drivetrain": "FWD / AWD",
-            "engine": "3.5L V6 / hybrid V6",
-            "power": "295–308 hp"
-          },
-          "years": "2016–2022"
-        },
-        {
-          "code": "ALA10",
-          "name": "RX 350 / RX 500h",
-          "note": "Fifth generation went four-cylinder only — turbo, hybrid, and a plug-in — on the TNGA-K platform, with the 500h F Sport Performance as the quick one.",
-          "spec": {
-            "drivetrain": "AWD",
-            "engine": "2.4L turbo I4 / hybrid / PHEV",
-            "power": "246–366 hp"
-          },
-          "years": "2023–present"
-        }
-      ],
-      "intro": "The original luxury crossover — a car-based SUV before the industry had a name for it. The RX hybrid of 2005 also made electrification a luxury feature rather than a compromise.",
-      "name": "RX",
-      "segment": "Mid-size luxury crossover",
-      "slug": "rx",
-      "status": "In production",
-      "trims": [
-        "RX 300",
-        "RX 350",
-        "RX 450h",
-        "RX 500h"
-      ],
-      "years": "1998–present"
-    },
-    {
-      "bodyStyles": [
-        "Coupe",
-        "Convertible"
-      ],
-      "buyingClass": "new",
-      "collectorNote": "One of the last naturally aspirated GTs. The limited Inspiration Series cars, and any V8 in Structural Blue, are the ones to chase.",
-      "generations": [
-        {
-          "code": "LC 500",
-          "name": "LC 500 / LC 500h",
-          "note": "The 5.0-litre V8 is the one to have — the hybrid V6 is cleverer and slower-feeling. A convertible joined in 2021. Production winds down mid-decade, unreplaced.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "5.0L V8 / 3.5L hybrid V6",
-            "power": "354–471 hp"
-          },
-          "years": "2017–present"
-        }
-      ],
-      "intro": "The LF-LC concept car made production almost unchanged — a V8 grand tourer with concept-car surfacing, a ten-speed automatic, and one of the great interiors of its decade.",
-      "name": "LC",
-      "segment": "Grand tourer",
-      "slug": "lc",
-      "status": "In production",
-      "trims": [
-        "LC 500",
-        "LC 500h",
-        "LC 500 Convertible"
-      ],
-      "years": "2017–present"
+     "code": "XF50",
+     "name": "LS 500",
+     "note": "No V8 for the first time — a twin-turbo V6 on the GA-L platform shared with the LC coupé. The styling finally matched the engineering ambition.",
+     "spec": {
+      "drivetrain": "RWD / AWD",
+      "engine": "3.4L twin-turbo V6 / hybrid V6",
+      "power": "416 hp"
+     },
+     "years": "2018–present"
     }
-  ]
+   ],
+   "intro": "The car that launched a marque. Toyota's secret Flagship One project produced a V8 saloon quieter and cheaper than a Mercedes S-Class, and German boardrooms have respected Lexus ever since.",
+   "name": "LS",
+   "segment": "Full-size luxury sedan",
+   "slug": "ls",
+   "status": "In production",
+   "trims": [
+    "LS 400",
+    "LS 430",
+    "LS 460",
+    "LS 500",
+    "LS 500h"
+   ],
+   "years": "1989–present"
+  },
+  {
+   "bodyStyles": [
+    "Coupe"
+   ],
+   "buyingClass": "modern-classic",
+   "collectorNote": "All 500 are accounted for and values never dipped the way speculators feared. The V10's soundtrack is the appreciating asset; buy the service history with the car.",
+   "generations": [
+    {
+     "code": "LFA",
+     "name": "LFA",
+     "note": "The engine is the car: a 4.8-litre V10 with titanium internals and a soundtrack tuned like an instrument. The Nürburgring Package lapped the 'Ring in 7:14 in 2011.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "4.8L V10 (1LR-GUE)",
+      "power": "552 hp"
+     },
+     "years": "2010–2012"
+    }
+   ],
+   "intro": "A decade in development, a carbon tub, and a Yamaha-co-developed V10 that revs to 9,000 rpm faster than an analogue tach could follow — so the dial went digital. 500 built, each at a loss.",
+   "name": "LFA",
+   "photo": "assets/photos/lexus-lfa.webp",
+   "photoCaption": "LFA production coupe, side profile",
+   "photoCredit": "Photo: 先従隗始, CC0, via Wikimedia Commons",
+   "photos": [
+    {
+     "caption": "LFA production coupe, side profile",
+     "credit": "Photo: 先従隗始, CC0, via Wikimedia Commons",
+     "src": "assets/photos/lexus-lfa.webp"
+    }
+   ],
+   "segment": "Supercar",
+   "slug": "lfa",
+   "status": "Discontinued",
+   "trims": [
+    "LFA",
+    "LFA Nürburgring Package"
+   ],
+   "years": "2010–2012"
+  },
+  {
+   "bodyStyles": [
+    "Sedan"
+   ],
+   "buyingClass": "new",
+   "generations": [
+    {
+     "code": "XE10",
+     "name": "IS 200 / IS 300",
+     "note": "The Altezza's tail lights started a thousand imitations. The 3.0 straight six and a manual gearbox made it the driver's Lexus nobody expected.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.0L / 3.0L inline-6",
+      "power": "153–215 hp"
+     },
+     "years": "1999–2005"
+    },
+    {
+     "code": "XE30",
+     "name": "IS 300 / IS 350 / IS 500",
+     "note": "Sharper chassis, spindle grille, and in 2022 the IS 500 F Sport Performance: the 5.0 V8 from the RC F in the smallest Lexus sedan. A future classic hiding in plain sight.",
+     "spec": {
+      "drivetrain": "RWD / AWD",
+      "engine": "2.0L turbo I4 / 3.5L V6 / 5.0L V8",
+      "power": "241–472 hp"
+     },
+     "years": "2013–present"
+    }
+   ],
+   "intro": "Lexus's answer to the 3 Series, sold in Japan as the Toyota Altezza — chronograph-style instruments, a jewel of a straight six, and later the V8 IS 500 as a parting gift to the segment.",
+   "name": "IS",
+   "segment": "Compact luxury sedan",
+   "slug": "is",
+   "status": "In production",
+   "trims": [
+    "IS 200",
+    "IS 300",
+    "IS 350",
+    "IS 500 F Sport Performance"
+   ],
+   "years": "1999–present"
+  },
+  {
+   "bodyStyles": [
+    "SUV"
+   ],
+   "buyingClass": "new",
+   "generations": [
+    {
+     "code": "XU10",
+     "name": "RX 300",
+     "note": "A Camry-platform wagon in a tall hat, pitched exactly at American buyers leaving sedans. It created the segment every premium brand now depends on.",
+     "spec": {
+      "drivetrain": "FWD / AWD",
+      "engine": "3.0L V6",
+      "power": "220 hp"
+     },
+     "years": "1998–2003"
+    },
+    {
+     "code": "AL20",
+     "name": "RX 350 / RX 450h",
+     "note": "The fourth generation added a seven-seat L variant and the sharpest interpretation of the spindle grille. Hybrid remained the volume powertrain.",
+     "spec": {
+      "drivetrain": "FWD / AWD",
+      "engine": "3.5L V6 / hybrid V6",
+      "power": "295–308 hp"
+     },
+     "years": "2016–2022"
+    },
+    {
+     "code": "ALA10",
+     "name": "RX 350 / RX 500h",
+     "note": "Fifth generation went four-cylinder only — turbo, hybrid, and a plug-in — on the TNGA-K platform, with the 500h F Sport Performance as the quick one.",
+     "spec": {
+      "drivetrain": "AWD",
+      "engine": "2.4L turbo I4 / hybrid / PHEV",
+      "power": "246–366 hp"
+     },
+     "years": "2023–present"
+    }
+   ],
+   "intro": "The original luxury crossover — a car-based SUV before the industry had a name for it. The RX hybrid of 2005 also made electrification a luxury feature rather than a compromise.",
+   "name": "RX",
+   "segment": "Mid-size luxury crossover",
+   "slug": "rx",
+   "status": "In production",
+   "trims": [
+    "RX 300",
+    "RX 350",
+    "RX 450h",
+    "RX 500h"
+   ],
+   "years": "1998–present"
+  },
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Convertible"
+   ],
+   "buyingClass": "new",
+   "collectorNote": "One of the last naturally aspirated GTs. The limited Inspiration Series cars, and any V8 in Structural Blue, are the ones to chase.",
+   "generations": [
+    {
+     "code": "LC 500",
+     "name": "LC 500 / LC 500h",
+     "note": "The 5.0-litre V8 is the one to have — the hybrid V6 is cleverer and slower-feeling. A convertible joined in 2021. Production winds down mid-decade, unreplaced.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.0L V8 / 3.5L hybrid V6",
+      "power": "354–471 hp"
+     },
+     "years": "2017–present"
+    }
+   ],
+   "intro": "The LF-LC concept car made production almost unchanged — a V8 grand tourer with concept-car surfacing, a ten-speed automatic, and one of the great interiors of its decade.",
+   "name": "LC",
+   "segment": "Grand tourer",
+   "slug": "lc",
+   "status": "In production",
+   "trims": [
+    "LC 500",
+    "LC 500h",
+    "LC 500 Convertible"
+   ],
+   "years": "2017–present"
+  }
+ ]
 }

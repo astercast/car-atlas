@@ -17,7 +17,12 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "v1"
 BUYING_CLASSES = {"new", "used", "modern-classic", "vintage"}
 MODEL_KEYS = {"slug", "name", "years", "status", "bodyStyles", "segment",
-              "intro", "generations", "trims", "buyingClass", "collectorNote"}
+              "intro", "generations", "trims", "buyingClass", "collectorNote",
+              # Placement pass (wave 4): sourced photography, wired by
+              # build-time data edits from the Foundry manifest. Every
+              # photo carries its caption + CC attribution line.
+              "photo", "photoCaption", "photoCredit", "photos"}
+PHOTO_KEYS = {"src", "caption", "credit"}
 GEN_KEYS = {"code", "name", "years", "note", "spec"}
 SPEC_KEYS = {"engine", "power", "drivetrain"}
 
@@ -65,6 +70,11 @@ def main():
                     fail(f"{make['slug']}/{model['slug']}: generation keys {set(gen) - GEN_KEYS}")
                 if "spec" in gen and set(gen["spec"]) != SPEC_KEYS:
                     fail(f"{make['slug']}/{model['slug']}: spec keys must be {SPEC_KEYS}")
+            for ph in model.get("photos", []):
+                if set(ph) != PHOTO_KEYS:
+                    fail(f"{make['slug']}/{model['slug']}: photo keys must be {PHOTO_KEYS}")
+            if "photos" in model and model.get("photo") != model["photos"][0]["src"]:
+                fail(f"{make['slug']}/{model['slug']}: photo must mirror photos[0]")
             total_models += 1
             total_gens += len(model["generations"])
             index.append({
@@ -86,8 +96,15 @@ def main():
                 "generationCount": len(model["generations"]),
             }
 
-    for name in ("clubs.json", "buying.json"):
+    for name in ("clubs.json", "buying.json", "price-watch.json"):
         json.loads((DATA / name).read_text())
+    pw = json.loads((DATA / "price-watch.json").read_text())
+    for r in pw["results"]:
+        if r["make"] not in make_slugs:
+            fail(f"price-watch: unknown make {r['make']}")
+        if not r.get("source", {}).get("url", "").startswith("http"):
+            fail(f"price-watch: result for {r.get('model')} lacks a source URL")
+    print(f"OK: price-watch holds {len(pw['results'])} certified auction results")
 
     out = DATA / "search-index.json"
     out.write_text(json.dumps(index, indent=1, ensure_ascii=False) + "\n")

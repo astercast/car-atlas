@@ -125,3 +125,18 @@ services, no unbounded endpoints besides the search-query cache
 note above, no function anywhere near its duration ceiling, and
 the total dataset would need to grow ~25× before bandwidth became
 a conversation.
+
+## Wave-4 addendum (2026-10-13)
+
+- **Price Watch stage 1** is a static file (`data/v1/price-watch.json`,
+  7 certified auction results): no function added (still 5), no
+  cron, no external call. The audit above is unchanged.
+- **Photography:** 49 sourced photos (~13 MB) now live under
+  `assets/photos/`, plus `assets/og-card.png`. They are lazy-loaded
+  (`loading="lazy"`), served under the existing `/assets/*` SWR
+  cache policy, and only fetched by pages that render them — the
+  invocation model is untouched; bandwidth per full model-page view
+  grows by one hero image (~120–470 KB) plus any detail shots.
+- `GO_LIVE.md` now carries the deploy rulebook (QA-004), including
+  the deploy-time absolutizing checklist for the relative
+  `og:image` / canonical / JSON-LD URLs shipped this wave.

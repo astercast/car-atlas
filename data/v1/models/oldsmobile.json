@@ -1,204 +1,214 @@
 {
-  "make": "oldsmobile",
-  "models": [
+ "make": "oldsmobile",
+ "models": [
+  {
+   "bodyStyles": [
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Brass-era aristocracy with a finite, documented survivor pool. Provenance and correctness define value; the London-to-Brighton Run keeps them exercised and visible.",
+   "generations": [
     {
-      "bodyStyles": [
-        "Convertible"
-      ],
-      "buyingClass": "vintage",
-      "collectorNote": "Brass-era aristocracy with a finite, documented survivor pool. Provenance and correctness define value; the London-to-Brighton Run keeps them exercised and visible.",
-      "generations": [
-        {
-          "code": "Curved Dash",
-          "name": "Model R 'Curved Dash'",
-          "note": "About 19,000 were built across the run — unprecedented volume. A horizontal single-cylinder engine under the seat, tiller steering, and the curved dash that named it.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "Single-cylinder (95 cu in)",
-            "power": "7 hp"
-          },
-          "years": "1901–1907"
-        }
-      ],
-      "intro": "The car that started mass production's story: a $650 single-cylinder runabout built in the thousands while rivals built dozens — the first Oldsmobile, and for a while the best-selling car in America.",
-      "name": "Curved Dash Oldsmobile",
-      "segment": "Runabout",
-      "slug": "curved-dash",
-      "status": "Discontinued",
-      "trims": [
-        "Model R runabout"
-      ],
-      "years": "1901–1907"
-    },
-    {
-      "bodyStyles": [
-        "Sedan",
-        "Coupe",
-        "Convertible"
-      ],
-      "buyingClass": "vintage",
-      "collectorNote": "Early Rocket 88s are the historically important buy — the later cars are cruise-night staples. Originality of the Rocket engine is the check.",
-      "generations": [
-        {
-          "code": "Rocket 88",
-          "name": "Rocket 88 (first generation)",
-          "note": "The 303 Rocket V8 made 135 hp when flathead Fords made 100, in a car a class lighter than the big Oldsmobiles it shared the engine with. NASCAR noticed immediately; so did every young engineer in Detroit.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "5.0L V8 (303 cu in)",
-            "power": "135 hp"
-          },
-          "years": "1949–1953"
-        }
-      ],
-      "intro": "The 1949 Rocket 88 — a modern overhead-valve V8 in the lighter body — is a founding document of the muscle-car idea and the subject of what is often called the first rock-and-roll record. The 88 nameplate then ran for fifty years.",
-      "name": "88 / Rocket 88",
-      "segment": "Full-size sedan",
-      "slug": "rocket-88",
-      "status": "Discontinued",
-      "trims": [
-        "88",
-        "Super 88",
-        "Dynamic 88",
-        "Delta 88"
-      ],
-      "years": "1949–1999"
-    },
-    {
-      "bodyStyles": [
-        "Coupe",
-        "Convertible"
-      ],
-      "buyingClass": "vintage",
-      "collectorNote": "W-30 convertibles are the summit; documentation is everything in a field full of tributes. The nameplate continued as a trim into the 1990s — the atlas covers the muscle-era cars.",
-      "generations": [
-        {
-          "code": "442 1",
-          "name": "4-4-2 (first era)",
-          "note": "The 400 V8 reached 350 hp in tri-carb 1966 form (L69). W-30 ram-air packages began the factory hot-rod escalation.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "6.6L V8 (400 cu in)",
-            "power": "300–350 hp"
-          },
-          "years": "1964–1967"
-        },
-        {
-          "code": "442 2",
-          "name": "4-4-2 (second era)",
-          "note": "The 455 arrived for 1970, rated up to 370 hp in W-30 trim with its fibreglass hood and red inner fenders. The Hurst/Olds editions bookend the era in silver and gold.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "7.5L V8 (455 cu in)",
-            "power": "365–370 hp"
-          },
-          "years": "1968–1972"
-        }
-      ],
-      "intro": "Four-barrel, four-speed, dual exhausts — the name was the spec sheet. Born as a police-package option in the GTO's shadow, the 4-4-2 became its own model and, in 455 W-30 form, one of the era's fastest.",
-      "name": "4-4-2",
-      "segment": "Muscle car",
-      "slug": "4-4-2",
-      "status": "Discontinued",
-      "trims": [
-        "4-4-2",
-        "4-4-2 W-30",
-        "Hurst/Olds"
-      ],
-      "years": "1964–1972"
-    },
-    {
-      "bodyStyles": [
-        "Coupe"
-      ],
-      "buyingClass": "vintage",
-      "collectorNote": "First-generation cars are design icons with a following to match. The chain-drive transaxle is durable; trim and vacuum-operated details are the restoration cost.",
-      "generations": [
-        {
-          "code": "Toronado 1",
-          "name": "Toronado (first generation)",
-          "note": "425 cu in and 375 hp through the front wheels, with handling that shamed its size. The 1968 and 1970 facelifts kept the silhouette; the W-34 option sharpened the original further.",
-          "spec": {
-            "drivetrain": "FWD",
-            "engine": "7.0L V8 (425 cu in)",
-            "power": "375 hp"
-          },
-          "years": "1966–1970"
-        }
-      ],
-      "intro": "The car that brought front-wheel drive back to America: a 7-litre V8 driving the front wheels through a chain-driven transaxle, styled like a jet-age sculpture. It worked, it sold, and it changed GM's engineering map.",
-      "name": "Toronado",
-      "segment": "Personal luxury coupe",
-      "slug": "toronado",
-      "status": "Discontinued",
-      "trims": [
-        "Toronado",
-        "Toronado W-34"
-      ],
-      "years": "1966–1992"
-    },
-    {
-      "bodyStyles": [
-        "Sedan",
-        "Coupe",
-        "Wagon",
-        "Convertible"
-      ],
-      "buyingClass": "vintage",
-      "generations": [
-        {
-          "code": "Cutlass G",
-          "name": "Cutlass (G-body era)",
-          "note": "The downsized rear-drive Cutlass Supreme was America's best-selling car in several of these years. The Hurst/Olds and 4-4-2 revivals kept the performance thread; diesels are the footnote.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "3.8L V6 / 5.0L V8",
-            "power": "105–180 hp"
-          },
-          "years": "1978–1988"
-        }
-      ],
-      "intro": "For a time, the Cutlass was simply the best-selling car in America — the nameplate that carried Oldsmobile's volume from the muscle era through the G-body years, with the Supreme as the default upgrade buy of the suburbs.",
-      "name": "Cutlass",
-      "segment": "Mid-size family car",
-      "slug": "cutlass",
-      "status": "Discontinued",
-      "trims": [
-        "Cutlass Supreme",
-        "Cutlass Calais",
-        "Cutlass Salon"
-      ],
-      "years": "1961–1999"
-    },
-    {
-      "bodyStyles": [
-        "Sedan"
-      ],
-      "buyingClass": "modern-classic",
-      "collectorNote": "First-generation Autobahn cars are the pick of a thin, appreciating field. Head-gasket and electronics diligence applies; the reward is a genuinely distinctive flagship.",
-      "generations": [
-        {
-          "code": "Aurora",
-          "name": "Aurora",
-          "note": "The 4.0 'Shortstar'-family V8 made 250 hp; the second generation (2001) added a V6 option and softened the design. Aurora pace cars led the Indy 500 — the engineering was real.",
-          "spec": {
-            "drivetrain": "FWD",
-            "engine": "4.0L V8",
-            "power": "250 hp"
-          },
-          "years": "1995–2003"
-        }
-      ],
-      "intro": "Oldsmobile's last flagship and its best car in decades: a Northstar-derived 4.0 V8, a rigid shell, and concept-car styling — the car that was meant to save the marque and instead became its elegant farewell.",
-      "name": "Aurora",
-      "segment": "Luxury sedan",
-      "slug": "aurora",
-      "status": "Discontinued",
-      "trims": [
-        "Aurora",
-        "Aurora Autobahn package"
-      ],
-      "years": "1995–2003"
+     "code": "Curved Dash",
+     "name": "Model R 'Curved Dash'",
+     "note": "About 19,000 were built across the run — unprecedented volume. A horizontal single-cylinder engine under the seat, tiller steering, and the curved dash that named it.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "Single-cylinder (95 cu in)",
+      "power": "7 hp"
+     },
+     "years": "1901–1907"
     }
-  ]
+   ],
+   "intro": "The car that started mass production's story: a $650 single-cylinder runabout built in the thousands while rivals built dozens — the first Oldsmobile, and for a while the best-selling car in America.",
+   "name": "Curved Dash Oldsmobile",
+   "segment": "Runabout",
+   "slug": "curved-dash",
+   "status": "Discontinued",
+   "trims": [
+    "Model R runabout"
+   ],
+   "years": "1901–1907"
+  },
+  {
+   "bodyStyles": [
+    "Sedan",
+    "Coupe",
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Early Rocket 88s are the historically important buy — the later cars are cruise-night staples. Originality of the Rocket engine is the check.",
+   "generations": [
+    {
+     "code": "Rocket 88",
+     "name": "Rocket 88 (first generation)",
+     "note": "The 303 Rocket V8 made 135 hp when flathead Fords made 100, in a car a class lighter than the big Oldsmobiles it shared the engine with. NASCAR noticed immediately; so did every young engineer in Detroit.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "5.0L V8 (303 cu in)",
+      "power": "135 hp"
+     },
+     "years": "1949–1953"
+    }
+   ],
+   "intro": "The 1949 Rocket 88 — a modern overhead-valve V8 in the lighter body — is a founding document of the muscle-car idea and the subject of what is often called the first rock-and-roll record. The 88 nameplate then ran for fifty years.",
+   "name": "88 / Rocket 88",
+   "segment": "Full-size sedan",
+   "slug": "rocket-88",
+   "status": "Discontinued",
+   "trims": [
+    "88",
+    "Super 88",
+    "Dynamic 88",
+    "Delta 88"
+   ],
+   "years": "1949–1999"
+  },
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "W-30 convertibles are the summit; documentation is everything in a field full of tributes. The nameplate continued as a trim into the 1990s — the atlas covers the muscle-era cars.",
+   "generations": [
+    {
+     "code": "442 1",
+     "name": "4-4-2 (first era)",
+     "note": "The 400 V8 reached 350 hp in tri-carb 1966 form (L69). W-30 ram-air packages began the factory hot-rod escalation.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "6.6L V8 (400 cu in)",
+      "power": "300–350 hp"
+     },
+     "years": "1964–1967"
+    },
+    {
+     "code": "442 2",
+     "name": "4-4-2 (second era)",
+     "note": "The 455 arrived for 1970, rated up to 370 hp in W-30 trim with its fibreglass hood and red inner fenders. The Hurst/Olds editions bookend the era in silver and gold.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "7.5L V8 (455 cu in)",
+      "power": "365–370 hp"
+     },
+     "years": "1968–1972"
+    }
+   ],
+   "intro": "Four-barrel, four-speed, dual exhausts — the name was the spec sheet. Born as a police-package option in the GTO's shadow, the 4-4-2 became its own model and, in 455 W-30 form, one of the era's fastest.",
+   "name": "4-4-2",
+   "photo": "assets/photos/oldsmobile-442.webp",
+   "photoCaption": "442 convertible 1967, hood open, show field",
+   "photoCredit": "Photo: Michael Barera, CC BY-SA 4.0, via Wikimedia Commons",
+   "photos": [
+    {
+     "caption": "442 convertible 1967, hood open, show field",
+     "credit": "Photo: Michael Barera, CC BY-SA 4.0, via Wikimedia Commons",
+     "src": "assets/photos/oldsmobile-442.webp"
+    }
+   ],
+   "segment": "Muscle car",
+   "slug": "4-4-2",
+   "status": "Discontinued",
+   "trims": [
+    "4-4-2",
+    "4-4-2 W-30",
+    "Hurst/Olds"
+   ],
+   "years": "1964–1972"
+  },
+  {
+   "bodyStyles": [
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "First-generation cars are design icons with a following to match. The chain-drive transaxle is durable; trim and vacuum-operated details are the restoration cost.",
+   "generations": [
+    {
+     "code": "Toronado 1",
+     "name": "Toronado (first generation)",
+     "note": "425 cu in and 375 hp through the front wheels, with handling that shamed its size. The 1968 and 1970 facelifts kept the silhouette; the W-34 option sharpened the original further.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "7.0L V8 (425 cu in)",
+      "power": "375 hp"
+     },
+     "years": "1966–1970"
+    }
+   ],
+   "intro": "The car that brought front-wheel drive back to America: a 7-litre V8 driving the front wheels through a chain-driven transaxle, styled like a jet-age sculpture. It worked, it sold, and it changed GM's engineering map.",
+   "name": "Toronado",
+   "segment": "Personal luxury coupe",
+   "slug": "toronado",
+   "status": "Discontinued",
+   "trims": [
+    "Toronado",
+    "Toronado W-34"
+   ],
+   "years": "1966–1992"
+  },
+  {
+   "bodyStyles": [
+    "Sedan",
+    "Coupe",
+    "Wagon",
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "generations": [
+    {
+     "code": "Cutlass G",
+     "name": "Cutlass (G-body era)",
+     "note": "The downsized rear-drive Cutlass Supreme was America's best-selling car in several of these years. The Hurst/Olds and 4-4-2 revivals kept the performance thread; diesels are the footnote.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "3.8L V6 / 5.0L V8",
+      "power": "105–180 hp"
+     },
+     "years": "1978–1988"
+    }
+   ],
+   "intro": "For a time, the Cutlass was simply the best-selling car in America — the nameplate that carried Oldsmobile's volume from the muscle era through the G-body years, with the Supreme as the default upgrade buy of the suburbs.",
+   "name": "Cutlass",
+   "segment": "Mid-size family car",
+   "slug": "cutlass",
+   "status": "Discontinued",
+   "trims": [
+    "Cutlass Supreme",
+    "Cutlass Calais",
+    "Cutlass Salon"
+   ],
+   "years": "1961–1999"
+  },
+  {
+   "bodyStyles": [
+    "Sedan"
+   ],
+   "buyingClass": "modern-classic",
+   "collectorNote": "First-generation Autobahn cars are the pick of a thin, appreciating field. Head-gasket and electronics diligence applies; the reward is a genuinely distinctive flagship.",
+   "generations": [
+    {
+     "code": "Aurora",
+     "name": "Aurora",
+     "note": "The 4.0 'Shortstar'-family V8 made 250 hp; the second generation (2001) added a V6 option and softened the design. Aurora pace cars led the Indy 500 — the engineering was real.",
+     "spec": {
+      "drivetrain": "FWD",
+      "engine": "4.0L V8",
+      "power": "250 hp"
+     },
+     "years": "1995–2003"
+    }
+   ],
+   "intro": "Oldsmobile's last flagship and its best car in decades: a Northstar-derived 4.0 V8, a rigid shell, and concept-car styling — the car that was meant to save the marque and instead became its elegant farewell.",
+   "name": "Aurora",
+   "segment": "Luxury sedan",
+   "slug": "aurora",
+   "status": "Discontinued",
+   "trims": [
+    "Aurora",
+    "Aurora Autobahn package"
+   ],
+   "years": "1995–2003"
+  }
+ ]
 }

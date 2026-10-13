@@ -72,6 +72,25 @@ function wireSearch(input, box, index) {
   document.addEventListener("click", (ev) => { if (!box.contains(ev.target) && ev.target !== input) close(); });
 }
 
+/* ——— Photos (placement pass, wave 4) ———
+   Sourced photography from the Foundry manifest, wired through the
+   dataset's photo/photos fields. The caption states honestly what
+   the photograph shows; the credit line is the licence attribution
+   and renders on every page that shows the photo. */
+const photoFigure = (p, cls = "") => `
+  <figure class="photo ${cls}">
+    <img src="${esc(p.src)}" alt="${esc(p.caption)}" loading="lazy">
+    <figcaption>${esc(p.caption)} · ${esc(p.credit)}</figcaption>
+  </figure>`;
+const photosHTML = (rec) => {
+  const list = rec.photos && rec.photos.length ? rec.photos
+    : (rec.photo ? [{ src: rec.photo, caption: rec.photoCaption, credit: rec.photoCredit }] : []);
+  if (!list.length) return "";
+  return photoFigure(list[0], "photo-main")
+    + (list.length > 1 ? `<div class="photo-grid">${list.slice(1).map((p) => photoFigure(p)).join("")}</div>` : "");
+};
+const money = (r) => (r.currency === "EUR" ? "€" : "$") + Number(r.price).toLocaleString("en-US");
+
 /* ——— Tiles ——— */
 const modelTile = (e) => `
   <a class="tile" href="${modelUrl(e.make, e.slug)}">
@@ -161,9 +180,15 @@ async function initMake() {
       <div class="fact"><span>Known for</span><b>${esc(meta.knownFor)}</b></div>
       <div class="fact"><span>Models in atlas</span><b>${file.models.length}</b></div>
     </div>
+    ${photosHTML(meta)}
     <section class="block"><div class="grid models">
       ${file.models.map((m) => modelTile({ ...m, make: slug, makeName: meta.name, generationCount: m.generations.length })).join("")}
-    </div></section>`;
+    </div></section>
+    <script type="application/ld+json">${JSON.stringify({
+      "@context": "https://schema.org", "@type": "Brand",
+      name: meta.name, description: meta.blurb,
+      ...(meta.photo ? { image: meta.photo } : {}),
+    }).replace(/</g, "\\u003c")}<\/script>`;
 }
 
 /* ——— Model page ———
@@ -222,12 +247,15 @@ async function initModel() {
     isLive: () => live,
     onStuck: () => { if (!settled) { settled = true; modelStuck(root, baked); } },
   }) : () => {};
-  let makesData, file, buying;
+  let makesData, file, buying, priceWatch;
   try {
-    [makesData, file, buying] = await Promise.all([
+    [makesData, file, buying, priceWatch] = await Promise.all([
       fetchJSON("data/v1/makes.json", { ms: MODEL_DEADLINE_MS }),
       fetchJSON(`data/v1/models/${mk}.json`, { ms: MODEL_DEADLINE_MS }),
       fetchJSON("data/v1/buying.json", { ms: MODEL_DEADLINE_MS }),
+      /* Price Watch is an enhancement, never a gate: its failure
+         must not stall the record (VP-0003 discipline). */
+      fetchJSON("data/v1/price-watch.json", { ms: MODEL_DEADLINE_MS }).catch(() => null),
     ]);
   } catch (err) {
     if (!settled) { settled = true; cancelWatchdog(); modelStuck(root, baked, err); }
@@ -264,6 +292,7 @@ async function initModel() {
       <div class="fact"><span>Body styles</span><b>${esc(model.bodyStyles.join(", "))}</b></div>
       <div class="fact"><span>Generations</span><b>${model.generations.length}</b></div>
     </div>
+    ${photosHTML(model)}
     ${model.collectorNote ? `<div class="note-box"><b>Collector note</b><p>${esc(model.collectorNote)}</p></div>` : ""}
     <section class="block">
       <div class="block-head"><h2>Generations</h2><p>Every generation in the atlas, flagship specs first.</p></div>
@@ -285,8 +314,20 @@ async function initModel() {
             <div class="t-foot">${esc(c.domain)} ↗</div>
           </a>`).join("")}
       </div>
-      <div class="note-box"><b>Price Watch</b><p>Listing aggregation and price-drop alerts for this model are on the roadmap — the method and schema are published on the <a href="buy.html">Buy page</a>. No prices are shown until they can be shown honestly, with timestamps.</p></div>
-    </section>`;
+      ${(() => {
+        const hits = (priceWatch?.results || []).filter((r) => r.make === mk && r.modelSlug === md);
+        return hits.length ? `<div class="note-box"><b>Price Watch — auction results</b>
+          ${hits.map((r) => `<p>${esc(r.year)} ${esc(r.model)} — sold for <b>${esc(money(r))}</b> at ${esc(r.event)}, ${esc(r.saleDate)}. <a href="${esc(r.source.url)}" target="_blank" rel="noopener">Source: ${esc(r.source.name)} ↗</a></p>`).join("")}
+          <p class="small">A result is one specific car on one day — not a valuation of any other example. The full results set is on the <a href="buy.html">Buy page</a>.</p></div>`
+        : `<div class="note-box"><b>Price Watch</b><p>Stage 1 tracks certified auction results (on the <a href="buy.html">Buy page</a>); no certified result for this model yet, so none is shown. Listing aggregation and price-drop alerts remain later stages.</p></div>`;
+      })()}
+    </section>
+    <script type="application/ld+json">${JSON.stringify({
+      "@context": "https://schema.org", "@type": "Car",
+      name: `${meta.name} ${model.name}`, brand: { "@type": "Brand", name: meta.name },
+      description: model.intro, bodyType: model.bodyStyles.join(", "),
+      ...(model.photo ? { image: model.photo } : {}),
+    }).replace(/</g, "\\u003c")}<\/script>`;
   live = true; cancelWatchdog();
   const btn = $("#toggle-gens");
   if (btn) btn.addEventListener("click", () => {
@@ -336,6 +377,27 @@ async function initBuy() {
       <div class="t-foot">${esc(c.era)} · ${esc(c.domain)} ↗</div>
     </a>`).join("");
   $("#watch-schema").innerHTML = data.priceWatch.schema.map((f) => `<li><span>${esc(f)}</span><span class="mut">field</span></li>`).join("");
+  /* Price Watch stage 1 (wave 4): certified auction results. A
+     failure here leaves the designed-in-open section standing —
+     results are an addition, never a gate. */
+  try {
+    const pw = await fetchJSON("data/v1/price-watch.json");
+    const grid = $("#results-grid");
+    if (grid) grid.innerHTML = [...pw.results]
+      .sort((a, b) => b.saleDate.localeCompare(a.saleDate))
+      .map((r) => {
+        const href = r.modelSlug ? modelUrl(r.make, r.modelSlug) : makeUrl(r.make);
+        return `
+      <article class="tile">
+        <div class="t-top"><h3>${esc(r.year)} ${esc(r.makeName)} ${esc(r.model)}</h3></div>
+        <p class="pw-price">${esc(money(r))}</p>
+        <p>${esc(r.event)} · ${esc(r.saleDate)}<br><span class="small mut">${esc(r.priceBasis)}</span></p>
+        <div class="t-foot"><a href="${href}">Atlas record →</a> · <a href="${esc(r.source.url)}" target="_blank" rel="noopener">Source ↗</a></div>
+      </article>`;
+      }).join("");
+    const note = $("#results-note");
+    if (note) note.textContent = pw.note;
+  } catch { /* results stay unpublished rather than guessed */ }
 }
 
 const page = document.body.dataset.page;

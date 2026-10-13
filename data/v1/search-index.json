@@ -74,7 +74,7 @@
   ],
   "intro": "The vehicle that goes where roads apologize. From the FJ40 to the 300 Series, the Land Cruiser is the expedition default on every continent — the car aid workers and armies trust when failure isn't an option.",
   "buyingClass": "modern-classic",
-  "generationCount": 3
+  "generationCount": 8
  },
  {
   "type": "model",
@@ -586,7 +586,7 @@
   ],
   "intro": "Launched in April 1964 and sold 22,000 cars on day one. The Mustang invented the pony car — long hood, short deck, endless options list — and has survived gas crises, the Mustang II, and the SUV era without ever leaving production.",
   "buyingClass": "new",
-  "generationCount": 3
+  "generationCount": 7
  },
  {
   "type": "model",
@@ -661,7 +661,7 @@
   ],
   "intro": "America's attainable supercar since 1953. The Corvette's trick has always been the arithmetic: most of a European exotic's speed for a fraction of the price. The C8's move to a mid-engine layout in 2020 broke a 67-year tradition and nobody sensible misses the old one.",
   "buyingClass": "new",
-  "generationCount": 3
+  "generationCount": 8
  },
  {
   "type": "model",
@@ -1119,7 +1119,7 @@
   ],
   "intro": "One car, perfected for sixty years. The engine is still in the wrong place, the silhouette is still a teardrop, and the 911 is still the sports car everything else is judged against — because Porsche never stopped developing it.",
   "buyingClass": "new",
-  "generationCount": 3
+  "generationCount": 8
  },
  {
   "type": "model",

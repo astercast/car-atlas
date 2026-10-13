@@ -1,5 +1,119 @@
 # WAVELOG — Car Atlas
 
+## Wave 4 — Icon depth, Price Watch stage 1, placement pass, GO_LIVE (2026-10-13)
+
+The wave-1 roadmap's two named items, plus the fleet placement pass
+and ticket QA-004:
+
+- **Icon generation depth:** the four icons go from landmark-only
+  (3 generations each) to full depth — **354 → 373 generations**
+  (models and makes unchanged: 180 / 40). Porsche 911: 3 → 8
+  (901 original, G-Series, 964, 993, 996, 997, 991, 992). Corvette:
+  3 → 8 (C1–C8 complete). Mustang: 3 → 7 (Mustang II, SN-95, S197,
+  S550 join Gen 1, Fox, S650). Land Cruiser: 3 → 8 (60, 70, 100,
+  200, and 250 Series join the 40, 80, and 300). Specs are the
+  standard published flagship figures in house format, ranged where
+  they vary; the Mustang II's 122 hp is printed as proudly as the
+  GT500's 662 — the record is the record.
+- **Price Watch ingest stage 1 — auction RESULTS:**
+  `data/v1/price-watch.json` holds **7 certified results**, each
+  with car, price, currency, price basis, house/event, sale date,
+  and a linked published source, certified at ingest on 2026-10-13:
+  the 1955 Mercedes-Benz 300 SLR Uhlenhaut Coupé (€135,000,000,
+  RM Sotheby's, 2022-05-05, Mercedes-Benz Group announcement);
+  the 1962 Ferrari 250 GTO ($48,405,000 incl. premium, RM Sotheby's
+  Monterey, 2018-08-25); the 1995 McLaren F1 ($20,465,000, Gooding
+  Pebble Beach, 2021-08-14); the 2022 Porsche 911 Sally Special
+  ($3,600,000 hammer, RM Sotheby's Monterey, 2022-08-20, Porsche
+  Newsroom); a 1963 Corvette split-window ($434,500, Mecum
+  Kissimmee, 2023-01-13); a 1967 Shelby GT500 ($295,000, Bring a
+  Trailer, 2022-08-05); a 1980 FJ40 ($26,750, Bring a Trailer,
+  2022-12-26). Results render on the Buy page and inside the
+  matching model pages' Where-to-buy section. **Skipped, recorded
+  in the file itself:** private transactions, pre-sale estimates,
+  unsold lots, Cars & Bids / Hemmings lots (none certified to the
+  car + price + house + date standard this pass), and aggregator
+  summary statistics. Nothing was estimated. Stage 1 is a static
+  file — no function, no cron (see `GO_LIVE.md`).
+- **Placement pass (Foundry packet, hand-placed):** `og-card.png`
+  copied to `assets/og-card.png`; the OG/Twitter block is on all
+  six pages with per-page titles/descriptions mirrored from each
+  page. There is no live domain, so `og:image` ships in the
+  packet's marked **relative** form and the absolutize sweep is a
+  named deploy step in `GO_LIVE.md`. **All 49 Foundry photos are
+  wired**: copied to `assets/photos/`, carried in the dataset as
+  `photo` / `photoCaption` / `photoCredit` (+ `photos[]` where a
+  model has several) on **40 model records and all 40 make
+  records**, and rendered on make/model pages with the honest
+  caption and the CC attribution line on every page that shows the
+  photo. One honest exception: the Ferrari 250 GTO photograph is
+  wired at make level only — the atlas has no 250 GTO model record,
+  and none was invented for the photo. Still open (packet's own
+  labels): no clearly-licensed GR Supra exterior hero and no
+  McLaren front road-car hero exist in the library; the Supra ships
+  as A80 + interior + badge, the F1 as race-car rear + engine bay,
+  labeled as such. `theme-color` (`#fafaf8`, the `--paper` token
+  verbatim) on all pages; the file favicon set from the Foundry's
+  icon proposal (accent disc `#e8320f` — the wordmark's period as
+  the mark): `favicon.svg`, `favicon.ico`, `apple-touch-icon.png`,
+  `icon-192.png`, `icon-512.png`, replacing the placeholder data-URI
+  bullet. `robots.txt` added (allow-all; no Sitemap line — no
+  sitemap exists). Root-relative `rel="canonical"` on all six
+  pages. The 404 page gains the meta description it was missing.
+- **Honest JSON-LD:** the homepage carries a `WebSite` block (name
+  + description only — no domain exists to claim). Model pages emit
+  a `Car` object built only from real dataset fields (name, brand,
+  intro as description, body styles, photo path); make pages emit
+  `Brand`. No `Product`/`Offer` anywhere: Price Watch results are
+  historical auction records, not offers, and no price is emitted
+  as structured data.
+- **QA-004 closed:** `GO_LIVE.md` authored — two-track rule,
+  Standard builds, the `vercel.json` rules, data layout, the
+  free-tier audit summary, Price Watch's static posture, and the
+  deploy-time absolutizing checklist (OG/canonical/JSON-LD above).
+- **Commons adoption note:** the honest-fallback pattern
+  (VP-0003) is untouched this wave and remains byte-identical
+  canonical — see the regression check below. New data keys
+  (`photo*` / `photos`) were aligned on touch through
+  `scripts/build.py`'s schema, which now also validates photo
+  shape and price-watch sources.
+- **Rule 1762 (line endings):** audit found no CRLF in any tracked
+  text file (dataset already LF throughout); `.gitattributes` added
+  pinning `* text eol=lf` so it stays that way — with explicit
+  `binary` carve-outs for png/webp/ico/jpg. The carve-outs are
+  load-bearing, not decoration: the bare pin applied git's CRLF
+  conversion to the photo blobs on the first staging pass (blobs
+  landed 3–17 bytes short); caught by a byte-exactness check
+  before push, re-staged clean, all 71 binary blobs verified
+  byte-identical to their files.
+- **VP-0003 regression check:** baked `FB:model-essentials`
+  markers (START + END) and the dataset script survive the
+  `model.html` head edit; `fetch_deadline.js` script tags present
+  on all five content pages; both canonical files re-verified
+  byte-identical to Fleet Commons; `build.py` re-bakes
+  idempotently (180 models). Spot check after the build: one cold
+  load of the 911 rendered the full live record (title, Where to
+  buy, photo, Price Watch result, Car JSON-LD, zero page errors);
+  one hang-injected load (make-file fetch never answering) painted
+  the baked snapshot within half a second and settled in the
+  honest terminal state — snapshot + "didn't finish loading" +
+  Retry — inside the deadline/watchdog band. No eternal stall.
+- **Parked decisions:** (1) a dedicated Ferrari 250 GTO model
+  record — the photo and the record auction result both sit at
+  make level until the owner calls it; (2) Price Watch stage 2
+  (listings ingest + a cron) — needs a deploy target and its own
+  free-tier audit before it is built; (3) a sitemap — only
+  meaningful with a domain; lands with GO_LIVE step 5.
+
+### Next waves (planned)
+
+- Historic marques batch 2 (from the COVERAGE list): Cord, Hudson,
+  Nash, Kaiser, Stutz, and the British defuncts (Triumph,
+  Austin-Healey, Jensen, TVR).
+- Price Watch stage 2 design (listings ingest) — build only
+  alongside a deploy decision.
+
+
 ## Wave 1 — Foundation (2026-10-12)
 
 The founding wave. Repo created (`astercast/car-atlas`, private,

@@ -5,7 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Buy — where each car trades, and for how much · Car Atlas</title>
 <meta name="description" content="The Car Atlas buying layer: the channels that set every model's price, by buying class, plus the Price Watch system designed in the open.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>●</text></svg>">
+<meta name="theme-color" content="#fafaf8">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="canonical" href="/buy.html">
+<!-- RELATIVE until deploy: absolutize og:image + twitter:image against the live domain at GO_LIVE (see GO_LIVE.md) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Buy — where each car trades, and for how much · Car Atlas">
+<meta property="og:description" content="The Car Atlas buying layer: the channels that set every model's price, by buying class, plus the Price Watch system designed in the open.">
+<meta property="og:image" content="assets/og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Buy — where each car trades, and for how much · Car Atlas">
+<meta name="twitter:description" content="The Car Atlas buying layer: the channels that set every model's price, by buying class, plus the Price Watch system designed in the open.">
+<meta name="twitter:image" content="assets/og-card.png">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -35,8 +50,14 @@
   </section>
 
   <section class="block">
+    <div class="block-head"><h2>Price Watch — stage 1: auction results</h2></div>
+    <p class="mut" id="results-note" style="max-width:68ch">Certified auction results, each linked to its published source.</p>
+    <div class="grid two" id="results-grid" style="margin-top:20px"></div>
+  </section>
+
+  <section class="block">
     <div class="block-head"><h2>Price Watch, designed in the open</h2></div>
-    <p class="mut" style="max-width:68ch">The goal: for any model, a live median of what's actually listed right now, a history of where that median has been, and an alert when a car drops below it. It ships in stages — ingest adapters per channel, normalized to one schema; price history per listing and per model-year cohort; drop detection against cohort medians; opt-in alerts. Until a stage is real, it doesn't appear on this site. Every record will carry its own timestamps; a stale price will be labeled stale, never dressed up as live.</p>
+    <p class="mut" style="max-width:68ch">Stage 1 (above) is real: completed auction results, certified one by one against a published source. The later stages — listing ingest adapters per channel, normalized to one schema; price history per listing and per model-year cohort; drop detection against cohort medians; opt-in alerts — ship only when the data behind them is real. Until a stage is real, it doesn't appear on this site. Every record carries its date; a stale price will be labeled stale, never dressed up as live.</p>
     <div style="margin-top:20px;max-width:560px">
       <b class="small" style="text-transform:uppercase;letter-spacing:.08em;color:var(--ink-3)">Listing schema (v1)</b>
       <ul class="list-clean" id="watch-schema" style="margin-top:8px"></ul>

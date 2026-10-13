@@ -1,186 +1,196 @@
 {
-  "make": "alfa-romeo",
-  "models": [
+ "make": "alfa-romeo",
+ "models": [
+  {
+   "bodyStyles": [
+    "Sedan"
+   ],
+   "buyingClass": "new",
+   "collectorNote": "Early Quadrifoglios are the value in fast sedans — budget for the Alfa tax: specialist maintenance and electrical patience. 2021-on cars are the sorted ones.",
+   "generations": [
     {
-      "bodyStyles": [
-        "Sedan"
-      ],
-      "buyingClass": "new",
-      "collectorNote": "Early Quadrifoglios are the value in fast sedans — budget for the Alfa tax: specialist maintenance and electrical patience. 2021-on cars are the sorted ones.",
-      "generations": [
-        {
-          "code": "952",
-          "name": "Giulia / Quadrifoglio",
-          "note": "Carbon propshaft, 50:50 balance, and steering quicker than a 3 Series'. The Quadrifoglio launched at 505 hp; the GTA and GTAm specials are the collector-grade cars.",
-          "spec": {
-            "drivetrain": "RWD / AWD",
-            "engine": "2.0L turbo I4 / 2.9L twin-turbo V6",
-            "power": "280–520 hp"
-          },
-          "years": "2016–present"
-        }
-      ],
-      "intro": "Project Giorgio: Alfa poached Ferrari engineers, spent billions, and produced a rear-drive sedan whose Quadrifoglio variant — with a Ferrari-derived twin-turbo V6 — reset the sports-sedan benchmark.",
-      "name": "Giulia",
-      "segment": "Sports sedan",
-      "slug": "giulia",
-      "status": "In production",
-      "trims": [
-        "Giulia",
-        "Ti",
-        "Veloce",
-        "Quadrifoglio",
-        "GTA"
-      ],
-      "years": "2016–present"
-    },
-    {
-      "bodyStyles": [
-        "SUV"
-      ],
-      "buyingClass": "new",
-      "generations": [
-        {
-          "code": "949",
-          "name": "Stelvio / Quadrifoglio",
-          "note": "Same Giorgio bones as the Giulia, standard all-wheel drive, and the Quadrifoglio's 2.9 V6 made it the fastest SUV around the 'Ring at 7:51.7 in 2017.",
-          "spec": {
-            "drivetrain": "AWD",
-            "engine": "2.0L turbo I4 / 2.9L twin-turbo V6",
-            "power": "280–505 hp"
-          },
-          "years": "2017–present"
-        }
-      ],
-      "intro": "The Giulia's platform under an SUV body, named for the pass with 48 hairpins. The Quadrifoglio version held the Nürburgring SUV lap record on launch.",
-      "name": "Stelvio",
-      "segment": "Luxury crossover",
-      "slug": "stelvio",
-      "status": "In production",
-      "trims": [
-        "Stelvio",
-        "Ti",
-        "Veloce",
-        "Quadrifoglio"
-      ],
-      "years": "2017–present"
-    },
-    {
-      "bodyStyles": [
-        "Convertible"
-      ],
-      "buyingClass": "vintage",
-      "collectorNote": "Duettos lead the market; Series 4 cars are the drive-it bargain. Rust in the sills and floors is the whole negotiation — the twin-cam is the easy part.",
-      "generations": [
-        {
-          "code": "Series 1",
-          "name": "Duetto",
-          "note": "The 'osso di seppia' cuttlefish-bone tail. A 1.6 twin-cam with an alloy head and twin Webers when British rivals ran pushrods.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "1.6L twin-cam I4",
-            "power": "108 hp"
-          },
-          "years": "1966–1969"
-        },
-        {
-          "code": "Series 4",
-          "name": "Spider Veloce",
-          "note": "The final, cleaned-up Spider: body-colour bumpers, power steering, Bosch injection. The most usable of the breed and still the prettiest cheap Italian roadster.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "2.0L twin-cam I4",
-            "power": "120 hp"
-          },
-          "years": "1990–1994"
-        }
-      ],
-      "intro": "The Duetto: Pininfarina's round-tail roadster, Dustin Hoffman's co-star in The Graduate, and one of the longest-lived sports car designs ever — 28 years with the same basic body.",
-      "name": "Spider",
-      "segment": "Roadster",
-      "slug": "spider",
-      "status": "Discontinued",
-      "trims": [
-        "Duetto",
-        "Spider Junior",
-        "Spider Veloce",
-        "Graduate"
-      ],
-      "years": "1966–1994"
-    },
-    {
-      "bodyStyles": [
-        "Coupe",
-        "Convertible"
-      ],
-      "buyingClass": "modern-classic",
-      "collectorNote": "Values have been firm since new. The Spider is rarer in practice — fewer were ordered — and the coupé is the design icon. Both are museum-grade already.",
-      "generations": [
-        {
-          "code": "8C",
-          "name": "8C Competizione / Spider",
-          "note": "The name revives the 8C racers of the 1930s. Transaxle gearbox, carbon everywhere, and a crossplane V8 soundtrack no modern turbo Alfa matches.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "4.7L V8",
-            "power": "444 hp"
-          },
-          "years": "2007–2010"
-        }
-      ],
-      "intro": "A concept car Alfa actually built: carbon body over a Maserati-derived chassis with Ferrari's 4.7 V8 up front. 500 coupés, then 500 Spiders, all sold before production began.",
-      "name": "8C Competizione",
-      "segment": "Grand tourer",
-      "slug": "8c-competizione",
-      "status": "Discontinued",
-      "trims": [
-        "8C Competizione",
-        "8C Spider"
-      ],
-      "years": "2007–2010"
-    },
-    {
-      "bodyStyles": [
-        "Coupe"
-      ],
-      "buyingClass": "vintage",
-      "collectorNote": "Genuine GTAs are seven-figure-adjacent in Europe and thick with replicas — verify chassis numbers against the register before anything else. A good 2000 GTV is the driver's sweet spot.",
-      "generations": [
-        {
-          "code": "105",
-          "name": "Sprint GT / GTV",
-          "note": "The 'step front' came from the gap between bonnet and grille panel. All-alloy twin-cam engines from 1.3 to 2.0 litres, five-speed boxes, discs all round — a specification British rivals took a decade to match.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "1.3L–2.0L twin-cam I4",
-            "power": "87–131 hp"
-          },
-          "years": "1963–1976"
-        },
-        {
-          "code": "GTA",
-          "name": "GTA 1600",
-          "note": "The 'A' stands for alleggerita — lightened. Aluminium panels, magnesium wheels, 115 hp from 1.6 litres, and back-to-back European Touring Car titles.",
-          "spec": {
-            "drivetrain": "RWD",
-            "engine": "1.6L twin-cam I4",
-            "power": "115 hp"
-          },
-          "years": "1965–1969"
-        }
-      ],
-      "intro": "Bertone's stepped-nose coupé, styled by a young Giorgetto Giugiaro. The GTA variant — aluminium skin, twin-plug head — owned European touring car racing in the late 1960s.",
-      "name": "Giulia Sprint GT",
-      "segment": "Sports coupe",
-      "slug": "giulia-sprint-gt",
-      "status": "Discontinued",
-      "trims": [
-        "Sprint GT",
-        "GT Junior",
-        "2000 GTV",
-        "GTA"
-      ],
-      "years": "1963–1976"
+     "code": "952",
+     "name": "Giulia / Quadrifoglio",
+     "note": "Carbon propshaft, 50:50 balance, and steering quicker than a 3 Series'. The Quadrifoglio launched at 505 hp; the GTA and GTAm specials are the collector-grade cars.",
+     "spec": {
+      "drivetrain": "RWD / AWD",
+      "engine": "2.0L turbo I4 / 2.9L twin-turbo V6",
+      "power": "280–520 hp"
+     },
+     "years": "2016–present"
     }
-  ]
+   ],
+   "intro": "Project Giorgio: Alfa poached Ferrari engineers, spent billions, and produced a rear-drive sedan whose Quadrifoglio variant — with a Ferrari-derived twin-turbo V6 — reset the sports-sedan benchmark.",
+   "name": "Giulia",
+   "segment": "Sports sedan",
+   "slug": "giulia",
+   "status": "In production",
+   "trims": [
+    "Giulia",
+    "Ti",
+    "Veloce",
+    "Quadrifoglio",
+    "GTA"
+   ],
+   "years": "2016–present"
+  },
+  {
+   "bodyStyles": [
+    "SUV"
+   ],
+   "buyingClass": "new",
+   "generations": [
+    {
+     "code": "949",
+     "name": "Stelvio / Quadrifoglio",
+     "note": "Same Giorgio bones as the Giulia, standard all-wheel drive, and the Quadrifoglio's 2.9 V6 made it the fastest SUV around the 'Ring at 7:51.7 in 2017.",
+     "spec": {
+      "drivetrain": "AWD",
+      "engine": "2.0L turbo I4 / 2.9L twin-turbo V6",
+      "power": "280–505 hp"
+     },
+     "years": "2017–present"
+    }
+   ],
+   "intro": "The Giulia's platform under an SUV body, named for the pass with 48 hairpins. The Quadrifoglio version held the Nürburgring SUV lap record on launch.",
+   "name": "Stelvio",
+   "segment": "Luxury crossover",
+   "slug": "stelvio",
+   "status": "In production",
+   "trims": [
+    "Stelvio",
+    "Ti",
+    "Veloce",
+    "Quadrifoglio"
+   ],
+   "years": "2017–present"
+  },
+  {
+   "bodyStyles": [
+    "Convertible"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Duettos lead the market; Series 4 cars are the drive-it bargain. Rust in the sills and floors is the whole negotiation — the twin-cam is the easy part.",
+   "generations": [
+    {
+     "code": "Series 1",
+     "name": "Duetto",
+     "note": "The 'osso di seppia' cuttlefish-bone tail. A 1.6 twin-cam with an alloy head and twin Webers when British rivals ran pushrods.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "1.6L twin-cam I4",
+      "power": "108 hp"
+     },
+     "years": "1966–1969"
+    },
+    {
+     "code": "Series 4",
+     "name": "Spider Veloce",
+     "note": "The final, cleaned-up Spider: body-colour bumpers, power steering, Bosch injection. The most usable of the breed and still the prettiest cheap Italian roadster.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "2.0L twin-cam I4",
+      "power": "120 hp"
+     },
+     "years": "1990–1994"
+    }
+   ],
+   "intro": "The Duetto: Pininfarina's round-tail roadster, Dustin Hoffman's co-star in The Graduate, and one of the longest-lived sports car designs ever — 28 years with the same basic body.",
+   "name": "Spider",
+   "photo": "assets/photos/alfa-romeo-spider.webp",
+   "photoCaption": "Spider 2000 Veloce (Series 2), on road",
+   "photoCredit": "Photo: Ermell, CC BY-SA 4.0, via Wikimedia Commons",
+   "photos": [
+    {
+     "caption": "Spider 2000 Veloce (Series 2), on road",
+     "credit": "Photo: Ermell, CC BY-SA 4.0, via Wikimedia Commons",
+     "src": "assets/photos/alfa-romeo-spider.webp"
+    }
+   ],
+   "segment": "Roadster",
+   "slug": "spider",
+   "status": "Discontinued",
+   "trims": [
+    "Duetto",
+    "Spider Junior",
+    "Spider Veloce",
+    "Graduate"
+   ],
+   "years": "1966–1994"
+  },
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Convertible"
+   ],
+   "buyingClass": "modern-classic",
+   "collectorNote": "Values have been firm since new. The Spider is rarer in practice — fewer were ordered — and the coupé is the design icon. Both are museum-grade already.",
+   "generations": [
+    {
+     "code": "8C",
+     "name": "8C Competizione / Spider",
+     "note": "The name revives the 8C racers of the 1930s. Transaxle gearbox, carbon everywhere, and a crossplane V8 soundtrack no modern turbo Alfa matches.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "4.7L V8",
+      "power": "444 hp"
+     },
+     "years": "2007–2010"
+    }
+   ],
+   "intro": "A concept car Alfa actually built: carbon body over a Maserati-derived chassis with Ferrari's 4.7 V8 up front. 500 coupés, then 500 Spiders, all sold before production began.",
+   "name": "8C Competizione",
+   "segment": "Grand tourer",
+   "slug": "8c-competizione",
+   "status": "Discontinued",
+   "trims": [
+    "8C Competizione",
+    "8C Spider"
+   ],
+   "years": "2007–2010"
+  },
+  {
+   "bodyStyles": [
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Genuine GTAs are seven-figure-adjacent in Europe and thick with replicas — verify chassis numbers against the register before anything else. A good 2000 GTV is the driver's sweet spot.",
+   "generations": [
+    {
+     "code": "105",
+     "name": "Sprint GT / GTV",
+     "note": "The 'step front' came from the gap between bonnet and grille panel. All-alloy twin-cam engines from 1.3 to 2.0 litres, five-speed boxes, discs all round — a specification British rivals took a decade to match.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "1.3L–2.0L twin-cam I4",
+      "power": "87–131 hp"
+     },
+     "years": "1963–1976"
+    },
+    {
+     "code": "GTA",
+     "name": "GTA 1600",
+     "note": "The 'A' stands for alleggerita — lightened. Aluminium panels, magnesium wheels, 115 hp from 1.6 litres, and back-to-back European Touring Car titles.",
+     "spec": {
+      "drivetrain": "RWD",
+      "engine": "1.6L twin-cam I4",
+      "power": "115 hp"
+     },
+     "years": "1965–1969"
+    }
+   ],
+   "intro": "Bertone's stepped-nose coupé, styled by a young Giorgetto Giugiaro. The GTA variant — aluminium skin, twin-plug head — owned European touring car racing in the late 1960s.",
+   "name": "Giulia Sprint GT",
+   "segment": "Sports coupe",
+   "slug": "giulia-sprint-gt",
+   "status": "Discontinued",
+   "trims": [
+    "Sprint GT",
+    "GT Junior",
+    "2000 GTV",
+    "GTA"
+   ],
+   "years": "1963–1976"
+  }
+ ]
 }
