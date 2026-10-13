@@ -6,7 +6,7 @@ so the site works identically with or without the API. Every response
 is an envelope:
 
 ```json
-{ "ok": true, "data": { }, "meta": { "source": "car-atlas-dataset", "datasetUpdatedAt": "2026-10-12" } }
+{ "ok": true, "data": { }, "meta": { "source": "car-atlas-dataset", "datasetUpdatedAt": "2026-10-13" } }
 ```
 
 Responses cache aggressively (`s-maxage=300, stale-while-revalidate=86400`)

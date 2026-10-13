@@ -2608,5 +2608,796 @@
   "intro": "McLaren's reset: an all-new carbon architecture, a 120-degree V6 hybrid, and the electric-only running a supercar needs for the 2020s. The Spider is the pick of the range.",
   "buyingClass": "new",
   "generationCount": 1
+ },
+ {
+  "type": "make",
+  "make": "delorean",
+  "slug": "delorean",
+  "name": "DeLorean",
+  "country": "United States",
+  "founded": 1975,
+  "blurb": "John Z. DeLorean left GM to build the car of the future: unpainted stainless panels, gullwing doors, and a factory in Dunmurry, Northern Ireland. One model, three model years, receivership in 1982 — and, thanks to a time machine in a 1985 film, immortality.",
+  "modelCount": 1
+ },
+ {
+  "type": "model",
+  "make": "delorean",
+  "makeName": "DeLorean",
+  "slug": "dmc-12",
+  "name": "DMC-12",
+  "years": "1981–1983",
+  "status": "Discontinued",
+  "segment": "Sports coupe",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "The only DeLorean: a Giugiaro wedge in brushed stainless steel over a Lotus-engineered backbone chassis, built in Northern Ireland with British government money. Underpowered, over budget, and — after Back to the Future — the most recognisable car of the 1980s.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "make",
+  "make": "duesenberg",
+  "slug": "duesenberg",
+  "name": "Duesenberg",
+  "country": "United States",
+  "founded": 1913,
+  "blurb": "Fred and August Duesenberg built racing engines good enough to win Indianapolis and Le Mans outright; under E.L. Cord from 1926 they built the Model J, the grandest American car of its age, sold as a bare chassis to coachbuilders. The marque died with the Cord empire in 1937. The cars never did.",
+  "modelCount": 2
+ },
+ {
+  "type": "model",
+  "make": "duesenberg",
+  "makeName": "Duesenberg",
+  "slug": "model-a",
+  "name": "Model A",
+  "years": "1921–1926",
+  "status": "Discontinued",
+  "segment": "Luxury touring car",
+  "bodyStyles": [
+   "Sedan",
+   "Convertible"
+  ],
+  "intro": "The Duesenberg brothers' first production car, and a technical landmark: a straight-eight with an overhead cam in an era of flatheads, and four-wheel hydraulic brakes when rivals braked the rear wheels only.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "duesenberg",
+  "makeName": "Duesenberg",
+  "slug": "model-j",
+  "name": "Model J",
+  "years": "1928–1937",
+  "status": "Discontinued",
+  "segment": "Luxury chassis / coachbuilt grand tourer",
+  "bodyStyles": [
+   "Convertible",
+   "Sedan",
+   "Coupe"
+  ],
+  "intro": "Unveiled at the 1928 New York show as a chassis alone costing more than a whole Cadillac: 265 hp when 100 was a lot, built to carry the greatest coachwork of the age — Murphy, LeBaron, Derham, Figoni. The definitive American classic.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "make",
+  "make": "packard",
+  "slug": "packard",
+  "name": "Packard",
+  "country": "United States",
+  "founded": 1899,
+  "blurb": "'Ask the man who owns one.' Founded in Warren, Ohio and Detroit-based from 1903, Packard was American luxury's default answer for half a century — Twin Sixes, straight-eights and Twelves built to the standard Rolls-Royce was measured against. A merger with Studebaker and a changing market ended it in 1958; the best Packards remain blue-chip classics.",
+  "modelCount": 4
+ },
+ {
+  "type": "model",
+  "make": "packard",
+  "makeName": "Packard",
+  "slug": "twelve",
+  "name": "Twelve",
+  "years": "1933–1939",
+  "status": "Discontinued",
+  "segment": "Luxury flagship sedan",
+  "bodyStyles": [
+   "Sedan",
+   "Convertible",
+   "Coupe"
+  ],
+  "intro": "Packard's V12 flagship — launched as the Twin Six in 1932, renamed Twelve a year later — was Detroit's answer to the great European chassis: silent, torquey, and bodied by the best shops in America.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "packard",
+  "makeName": "Packard",
+  "slug": "super-eight",
+  "name": "Super Eight",
+  "years": "1933–1950",
+  "status": "Discontinued",
+  "segment": "Luxury sedan",
+  "bodyStyles": [
+   "Sedan",
+   "Convertible"
+  ],
+  "intro": "The straight-eight backbone of the Packard range for nearly two decades — the car most people meant by 'a Packard' — spanning the Classic era, the streamline years and the first postwar cars.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "packard",
+  "makeName": "Packard",
+  "slug": "caribbean",
+  "name": "Caribbean",
+  "years": "1953–1956",
+  "status": "Discontinued",
+  "segment": "Luxury convertible / hardtop",
+  "bodyStyles": [
+   "Convertible",
+   "Coupe"
+  ],
+  "intro": "Packard's halo car of the fifties: a low-volume convertible with continental flair, wire wheels and tri-tone paint, built to fight Cadillac's Eldorado. The 1956 hardtop joined for the final year.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "packard",
+  "makeName": "Packard",
+  "slug": "hawk",
+  "name": "Hawk",
+  "years": "1958",
+  "status": "Discontinued",
+  "segment": "Personal luxury coupe",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "The last real Packard, built for one year on Studebaker bones in South Bend: a supercharged Golden Hawk in Packard dress, with padded armrests on the outside of the doors and the marque's final flourish of fins.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "make",
+  "make": "saab",
+  "slug": "saab",
+  "name": "Saab",
+  "country": "Sweden",
+  "founded": 1937,
+  "blurb": "An aircraft company that built cars like aircraft: teardrop bodies, two-stroke engines, front-wheel drive proven in Swedish snow, and turbocharging for everyone years before it was fashion. GM ownership ended in the 2011 bankruptcy; the faithful — and the cars — never really left.",
+  "modelCount": 6
+ },
+ {
+  "type": "model",
+  "make": "saab",
+  "makeName": "Saab",
+  "slug": "92-96",
+  "name": "92 / 93 / 96",
+  "years": "1949–1980",
+  "status": "Discontinued",
+  "segment": "Compact family car",
+  "bodyStyles": [
+   "Sedan",
+   "Wagon"
+  ],
+  "intro": "Saab's first three decades in one line: a teardrop two-stroke shaped by aircraft engineers, evolved from the 92 through the 93 to the long-lived 96 — rally winner, family staple, and the car that made front-wheel drive make sense in winter.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "saab",
+  "makeName": "Saab",
+  "slug": "99",
+  "name": "99",
+  "years": "1968–1984",
+  "status": "Discontinued",
+  "segment": "Compact executive car",
+  "bodyStyles": [
+   "Sedan",
+   "Hatchback"
+  ],
+  "intro": "The bigger, safer Saab: wraparound windscreen, ignition by the handbrake, and in 1978 the 99 Turbo — one of the first production cars to make turbocharging a road-car virtue rather than a racing trick.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "saab",
+  "makeName": "Saab",
+  "slug": "900",
+  "name": "900",
+  "years": "1978–1998",
+  "status": "Discontinued",
+  "segment": "Executive hatchback / convertible",
+  "bodyStyles": [
+   "Hatchback",
+   "Sedan",
+   "Convertible"
+  ],
+  "intro": "The Saab most people picture: the upright windscreen, the deep hatch, the turbo whistle. The 'classic' 900 ran fifteen years and made the marque; its GM-platform successor shared the name and little else.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "saab",
+  "makeName": "Saab",
+  "slug": "9000",
+  "name": "9000",
+  "years": "1985–1998",
+  "status": "Discontinued",
+  "segment": "Executive sedan / hatchback",
+  "bodyStyles": [
+   "Sedan",
+   "Hatchback"
+  ],
+  "intro": "Saab's big car, developed with Fiat, Lancia and Alfa Romeo on the shared Type Four programme — but characteristically Saabified, and in Aero form one of the great sleepers: mid-range punch that embarrassed period supercars.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "saab",
+  "makeName": "Saab",
+  "slug": "9-3",
+  "name": "9-3",
+  "years": "1998–2011",
+  "status": "Discontinued",
+  "segment": "Compact executive car",
+  "bodyStyles": [
+   "Sedan",
+   "Convertible",
+   "Wagon"
+  ],
+  "intro": "The 900's successor under GM, twice over: first a deep facelift of the old car — Viggen included — then the 2003 Sport Sedan, all-new, with the Aero V6 and the all-wheel-drive Turbo X as its peaks. NEVS briefly restarted the line in 2013.",
+  "buyingClass": "modern-classic",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "saab",
+  "makeName": "Saab",
+  "slug": "9-5",
+  "name": "9-5",
+  "years": "1997–2012",
+  "status": "Discontinued",
+  "segment": "Executive sedan / wagon",
+  "bodyStyles": [
+   "Sedan",
+   "Wagon"
+  ],
+  "intro": "The 9000's replacement and Saab's flagship for fifteen years: the thinking driver's E-Class alternative, with the Aero estate as the connoisseur's express. Its handsome 2010 successor arrived just in time for the bankruptcy, and production stayed tiny.",
+  "buyingClass": "modern-classic",
+  "generationCount": 2
+ },
+ {
+  "type": "make",
+  "make": "studebaker",
+  "slug": "studebaker",
+  "name": "Studebaker",
+  "country": "United States",
+  "founded": 1852,
+  "blurb": "Wagon-maker in 1852 and carmaker from 1902, Studebaker was America's great independent for six decades. Raymond Loewy's studio gave it the landmark 1953 coupes and the Avanti; the Lark nearly saved it. South Bend closed in 1963 and the last cars came from Canada in 1966 — the designs aged better than the balance sheet.",
+  "modelCount": 4
+ },
+ {
+  "type": "model",
+  "make": "studebaker",
+  "makeName": "Studebaker",
+  "slug": "loewy-coupes",
+  "name": "Loewy Coupes (Starlight / Starliner)",
+  "years": "1953–1955",
+  "status": "Discontinued",
+  "segment": "Personal coupe",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "The 1953 coupes designed under Raymond Loewy — Robert Bourke's clean, low, European line — are regularly called the most beautiful American cars of the fifties. They became the foundation of the Hawk line that followed.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "studebaker",
+  "makeName": "Studebaker",
+  "slug": "lark",
+  "name": "Lark",
+  "years": "1959–1966",
+  "status": "Discontinued",
+  "segment": "Compact family car",
+  "bodyStyles": [
+   "Sedan",
+   "Wagon",
+   "Convertible"
+  ],
+  "intro": "The compact that saved Studebaker for a while: launched in 1959 just as America discovered small cars, it briefly returned the company to profit — and with the optional V8s, it was quietly quick.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "studebaker",
+  "makeName": "Studebaker",
+  "slug": "gran-turismo-hawk",
+  "name": "Gran Turismo Hawk",
+  "years": "1962–1964",
+  "status": "Discontinued",
+  "segment": "Grand tourer",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "Brooks Stevens restyled the Loewy coupe's bones into a formal, Mercedes-tinged GT for 1962 — the last Studebaker with real money spent on it, and a credible grand tourer at a Chevrolet price.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "studebaker",
+  "makeName": "Studebaker",
+  "slug": "avanti",
+  "name": "Avanti",
+  "years": "1963–1964",
+  "status": "Discontinued",
+  "segment": "Sports coupe",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "Raymond Loewy's team designed it in weeks; Brooks Stevens' studio finished it: a fibreglass, bottom-breather GT with a supercharged option, roll bar built in, and speed records at Bonneville. Studebaker died; the Avanti, built by others, lived on for decades.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "make",
+  "make": "tucker",
+  "slug": "tucker",
+  "name": "Tucker",
+  "country": "United States",
+  "founded": 1946,
+  "blurb": "Preston Tucker promised the car of tomorrow, today: rear-engined, a centre 'Cyclops Eye' headlight that steered with the wheels, and safety engineered in from the first sketch. Fifty-one cars were built before the company collapsed amid an SEC trial that ended in acquittal. The 48 is America's most famous almost.",
+  "modelCount": 1
+ },
+ {
+  "type": "model",
+  "make": "tucker",
+  "makeName": "Tucker",
+  "slug": "48",
+  "name": "48",
+  "years": "1948",
+  "status": "Discontinued",
+  "segment": "Full-size sedan",
+  "bodyStyles": [
+   "Sedan"
+  ],
+  "intro": "The 'Tin Goose' prototype and fifty production cars: a rear-engined, flat-six sedan years ahead of Detroit — padded dash, pop-out windscreen, a third headlight that turned with the steering, and a corporation that became a courtroom legend.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "make",
+  "make": "amc",
+  "slug": "amc",
+  "name": "AMC",
+  "country": "United States",
+  "founded": 1954,
+  "blurb": "Born of the Nash–Hudson merger in 1954, American Motors survived by being cleverer than the giants: compacts when compacts weren't cool, the Javelin and AMX for the muscle years, and the Eagle — all-wheel drive for ordinary families — a generation before the crossover era. Chrysler absorbed AMC in 1987, mostly for Jeep.",
+  "modelCount": 5
+ },
+ {
+  "type": "model",
+  "make": "amc",
+  "makeName": "AMC",
+  "slug": "javelin",
+  "name": "Javelin",
+  "years": "1968–1974",
+  "status": "Discontinued",
+  "segment": "Pony car",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "AMC's pony car, and a good one: styled by Dick Teague, raced by Penske, and armed with engines up to the 401. The second-generation car won the Trans-Am championship outright in 1971 and 1972.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "amc",
+  "makeName": "AMC",
+  "slug": "amx",
+  "name": "AMX",
+  "years": "1968–1970",
+  "status": "Discontinued",
+  "segment": "Sports coupe",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "America's other two-seat sports car: a Javelin with a foot cut out of the wheelbase, a 390 V8 option, and a name made of the company's initials. Craig Breedlove took one to Bonneville records before it even went on sale.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "amc",
+  "makeName": "AMC",
+  "slug": "gremlin",
+  "name": "Gremlin",
+  "years": "1970–1978",
+  "status": "Discontinued",
+  "segment": "Subcompact hatchback",
+  "bodyStyles": [
+   "Hatchback"
+  ],
+  "intro": "Introduced on April Fool's Day, 1970 — a Rambler American with the back chopped off, styled on an air-sickness bag according to legend. Cheap, cheeky, and with the optional 304 V8, absurdly quick for a subcompact.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "amc",
+  "makeName": "AMC",
+  "slug": "pacer",
+  "name": "Pacer",
+  "years": "1975–1980",
+  "status": "Discontinued",
+  "segment": "Compact wide-body car",
+  "bodyStyles": [
+   "Hatchback",
+   "Wagon"
+  ],
+  "intro": "The wide small car: as broad as a full-size sedan, glass everywhere, and one door longer than the other so rear passengers could climb in. Designed for a rotary engine GM cancelled, immortalised by Wayne's World.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "amc",
+  "makeName": "AMC",
+  "slug": "eagle",
+  "name": "Eagle",
+  "years": "1980–1988",
+  "status": "Discontinued",
+  "segment": "All-wheel-drive family car",
+  "bodyStyles": [
+   "Wagon",
+   "Sedan",
+   "Hatchback"
+  ],
+  "intro": "The crossover, invented fifteen years early: a Concord body on full-time all-wheel drive with raised suspension, in wagon, sedan, coupe and the SX/4 hatch. Subaru and every modern crossover owe it a footnote at least.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "make",
+  "make": "pontiac",
+  "slug": "pontiac",
+  "name": "Pontiac",
+  "country": "United States",
+  "founded": 1926,
+  "blurb": "GM's excitement division, by its own slogan and by the evidence: launched in 1926 as a companion to Oakland, it soon outsold its parent. The GTO started the muscle-car era in 1964, the Trans Am owned the late seventies, and the Solstice was a last flash of the old fire before GM closed the marque in 2010.",
+  "modelCount": 6
+ },
+ {
+  "type": "model",
+  "make": "pontiac",
+  "makeName": "Pontiac",
+  "slug": "gto",
+  "name": "GTO",
+  "years": "1964–2006",
+  "status": "Discontinued",
+  "segment": "Muscle car",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "The original muscle car: John DeLorean's team slipped a 389 big-block into a mid-size Tempest in 1964 and the era began. Judge, Ram Air, a wilderness decade, and a final Australian-built encore in 2004.",
+  "buyingClass": "vintage",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "pontiac",
+  "makeName": "Pontiac",
+  "slug": "firebird",
+  "name": "Firebird / Trans Am",
+  "years": "1967–2002",
+  "status": "Discontinued",
+  "segment": "Pony car / muscle car",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "Pontiac's F-body, four generations deep: Ram Air originals, the SD-455, the Bandit phenomenon, Knight Rider, and a final LS1 WS6 that was a Corvette in a tuxedo t-shirt.",
+  "buyingClass": "vintage",
+  "generationCount": 3
+ },
+ {
+  "type": "model",
+  "make": "pontiac",
+  "makeName": "Pontiac",
+  "slug": "grand-prix",
+  "name": "Grand Prix",
+  "years": "1962–2008",
+  "status": "Discontinued",
+  "segment": "Personal luxury coupe / sedan",
+  "bodyStyles": [
+   "Coupe",
+   "Sedan"
+  ],
+  "intro": "Pontiac's personal-luxury nameplate for 46 years: born as a full-size performance coupe with bucket seats and a 421 option, ending as a supercharged front-drive sedan — the GXP even got a V8.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "pontiac",
+  "makeName": "Pontiac",
+  "slug": "bonneville",
+  "name": "Bonneville",
+  "years": "1957–2005",
+  "status": "Discontinued",
+  "segment": "Full-size flagship",
+  "bodyStyles": [
+   "Convertible",
+   "Sedan",
+   "Coupe"
+  ],
+  "intro": "Named for the salt flats and launched as a fuel-injected convertible flagship in 1957 — every first-year car was a convertible, and 'fuel injection' was Pontiac announcing it had arrived as a performance brand.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "pontiac",
+  "makeName": "Pontiac",
+  "slug": "fiero",
+  "name": "Fiero",
+  "years": "1984–1988",
+  "status": "Discontinued",
+  "segment": "Mid-engine sports coupe",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "America's mid-engine commuter car that became a sports car just in time to be cancelled: plastic panels on a spaceframe, a V6 GT by 1985, and a proper fastback for 1986. The 1988 suspension — finally all Pontiac's own design — was the best and the last.",
+  "buyingClass": "modern-classic",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "pontiac",
+  "makeName": "Pontiac",
+  "slug": "solstice",
+  "name": "Solstice",
+  "years": "2006–2010",
+  "status": "Discontinued",
+  "segment": "Roadster",
+  "bodyStyles": [
+   "Convertible",
+   "Coupe"
+  ],
+  "intro": "Bob Lutz's back-to-basics roadster and Pontiac's last halo: a concept car (2002) willed into production, outselling the MX-5 in its first year, with the turbo GXP and a rare targa coupe as the collector endings.",
+  "buyingClass": "modern-classic",
+  "generationCount": 1
+ },
+ {
+  "type": "make",
+  "make": "oldsmobile",
+  "slug": "oldsmobile",
+  "name": "Oldsmobile",
+  "country": "United States",
+  "founded": 1897,
+  "blurb": "Ransom E. Olds founded the marque in 1897 and the Curved Dash made it America's first high-volume carmaker. The Rocket 88 put a modern overhead-valve V8 in a light body in 1949, the Toronado pioneered modern front-wheel drive, and the 4-4-2 carried the muscle years. GM phased Oldsmobile out in 2004, 107 years young.",
+  "modelCount": 6
+ },
+ {
+  "type": "model",
+  "make": "oldsmobile",
+  "makeName": "Oldsmobile",
+  "slug": "curved-dash",
+  "name": "Curved Dash Oldsmobile",
+  "years": "1901–1907",
+  "status": "Discontinued",
+  "segment": "Runabout",
+  "bodyStyles": [
+   "Convertible"
+  ],
+  "intro": "The car that started mass production's story: a $650 single-cylinder runabout built in the thousands while rivals built dozens — the first Oldsmobile, and for a while the best-selling car in America.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "oldsmobile",
+  "makeName": "Oldsmobile",
+  "slug": "rocket-88",
+  "name": "88 / Rocket 88",
+  "years": "1949–1999",
+  "status": "Discontinued",
+  "segment": "Full-size sedan",
+  "bodyStyles": [
+   "Sedan",
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "The 1949 Rocket 88 — a modern overhead-valve V8 in the lighter body — is a founding document of the muscle-car idea and the subject of what is often called the first rock-and-roll record. The 88 nameplate then ran for fifty years.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "oldsmobile",
+  "makeName": "Oldsmobile",
+  "slug": "4-4-2",
+  "name": "4-4-2",
+  "years": "1964–1972",
+  "status": "Discontinued",
+  "segment": "Muscle car",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "Four-barrel, four-speed, dual exhausts — the name was the spec sheet. Born as a police-package option in the GTO's shadow, the 4-4-2 became its own model and, in 455 W-30 form, one of the era's fastest.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "oldsmobile",
+  "makeName": "Oldsmobile",
+  "slug": "toronado",
+  "name": "Toronado",
+  "years": "1966–1992",
+  "status": "Discontinued",
+  "segment": "Personal luxury coupe",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "The car that brought front-wheel drive back to America: a 7-litre V8 driving the front wheels through a chain-driven transaxle, styled like a jet-age sculpture. It worked, it sold, and it changed GM's engineering map.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "oldsmobile",
+  "makeName": "Oldsmobile",
+  "slug": "cutlass",
+  "name": "Cutlass",
+  "years": "1961–1999",
+  "status": "Discontinued",
+  "segment": "Mid-size family car",
+  "bodyStyles": [
+   "Sedan",
+   "Coupe",
+   "Wagon",
+   "Convertible"
+  ],
+  "intro": "For a time, the Cutlass was simply the best-selling car in America — the nameplate that carried Oldsmobile's volume from the muscle era through the G-body years, with the Supreme as the default upgrade buy of the suburbs.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "oldsmobile",
+  "makeName": "Oldsmobile",
+  "slug": "aurora",
+  "name": "Aurora",
+  "years": "1995–2003",
+  "status": "Discontinued",
+  "segment": "Luxury sedan",
+  "bodyStyles": [
+   "Sedan"
+  ],
+  "intro": "Oldsmobile's last flagship and its best car in decades: a Northstar-derived 4.0 V8, a rigid shell, and concept-car styling — the car that was meant to save the marque and instead became its elegant farewell.",
+  "buyingClass": "modern-classic",
+  "generationCount": 1
+ },
+ {
+  "type": "make",
+  "make": "plymouth",
+  "slug": "plymouth",
+  "name": "Plymouth",
+  "country": "United States",
+  "founded": 1928,
+  "blurb": "Chrysler's value brand, launched in 1928, with a performance streak a mile wide: the Barracuda beat the Mustang to market by two weeks in 1964, the Road Runner made speed cheap, and the Hemi 'Cuda became the muscle market's ceiling. The Voyager helped invent the minivan in 1984. Chrysler retired the marque in 2001.",
+  "modelCount": 6
+ },
+ {
+  "type": "model",
+  "make": "plymouth",
+  "makeName": "Plymouth",
+  "slug": "barracuda",
+  "name": "Barracuda",
+  "years": "1964–1974",
+  "status": "Discontinued",
+  "segment": "Pony car / muscle car",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "Launched April 1, 1964 — two weeks before the Mustang — on Valiant bones with the biggest rear window in the business. By 1970 the E-body 'Cuda had become the muscle era's apex predator, and the Hemi convertible its holy grail.",
+  "buyingClass": "vintage",
+  "generationCount": 2
+ },
+ {
+  "type": "model",
+  "make": "plymouth",
+  "makeName": "Plymouth",
+  "slug": "road-runner",
+  "name": "Road Runner",
+  "years": "1968–1980",
+  "status": "Discontinued",
+  "segment": "Muscle car",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "Plymouth paid Warner Bros. for the cartoon bird and spent the savings on speed: a stripped B-body, a 383 with magnum internals, and a 'meep meep' horn. The 1970 Superbird wore a nose cone and a wing for NASCAR — and for immortality.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "plymouth",
+  "makeName": "Plymouth",
+  "slug": "gtx",
+  "name": "GTX",
+  "years": "1967–1971",
+  "status": "Discontinued",
+  "segment": "Muscle car",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "The gentleman's muscle car: Plymouth's upscale B-body with the 440 Super Commando standard and the Hemi on the option list, pitched at buyers who wanted the pace without the stripper spec.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "plymouth",
+  "makeName": "Plymouth",
+  "slug": "duster",
+  "name": "Duster",
+  "years": "1970–1976",
+  "status": "Discontinued",
+  "segment": "Compact muscle / coupe",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "The budget bruiser: a Valiant fastback coupe that, with the 340 small-block, outran cars twice its price and embarrassed its own stablemates. The Twister trim sold the look; the 340 sold the legend.",
+  "buyingClass": "vintage",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "plymouth",
+  "makeName": "Plymouth",
+  "slug": "prowler",
+  "name": "Prowler",
+  "years": "1997–2002",
+  "status": "Discontinued",
+  "segment": "Retro roadster",
+  "bodyStyles": [
+   "Convertible"
+  ],
+  "intro": "A factory hot rod in 1997: aluminium-intensive, open-wheeled retro styling, and a concept car Chrysler actually built. The V6-only powertrain was the compromise; the look was not.",
+  "buyingClass": "modern-classic",
+  "generationCount": 1
+ },
+ {
+  "type": "model",
+  "make": "plymouth",
+  "makeName": "Plymouth",
+  "slug": "voyager",
+  "name": "Voyager",
+  "years": "1984–2000",
+  "status": "Discontinued",
+  "segment": "Minivan",
+  "bodyStyles": [
+   "Minivan"
+  ],
+  "intro": "With the Dodge Caravan, the 1984 Voyager invented the modern minivan: front-wheel drive, a car floor height, and a sliding door, selling families out of station wagons by the millions. Lee Iacocca's second act saved Chrysler.",
+  "buyingClass": "vintage",
+  "generationCount": 1
  }
 ]

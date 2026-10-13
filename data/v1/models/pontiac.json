@@ -1,0 +1,254 @@
+{
+  "make": "pontiac",
+  "models": [
+    {
+      "bodyStyles": [
+        "Coupe",
+        "Convertible"
+      ],
+      "buyingClass": "vintage",
+      "collectorNote": "Judges and Ram Air IV cars are blue-chip muscle; protect-o-plate and build-sheet documentation separate the money cars from the clones. The 2004–06 cars are the sleeper performance buy.",
+      "generations": [
+        {
+          "code": "GTO 1",
+          "name": "GTO (first era)",
+          "note": "Tri-power 389s made up to 360 hp; by 1967 the 400 had arrived with Ram Air options. The 1966 car is the volume icon — nearly 97,000 sold that year.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "6.4L–6.6L V8",
+            "power": "325–360 hp"
+          },
+          "years": "1964–1967"
+        },
+        {
+          "code": "GTO 2",
+          "name": "GTO / The Judge",
+          "note": "The coke-bottle A-body, Endura nose, and from 1969 The Judge in Carousel Red. Ram Air IV 400s rated 370 hp closed the era before insurance and emissions closed the market.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "6.6L–7.5L V8",
+            "power": "350–370 hp"
+          },
+          "years": "1968–1972"
+        },
+        {
+          "code": "GTO 3",
+          "name": "GTO (Holden-built)",
+          "note": "A Monaro in Pontiac dress, built in Australia: LS1 then 400 hp LS2, six-speed manual available, and a chassis far better than the badge's seventies reputation suggested.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "5.7L–6.0L V8 (LS1/LS2)",
+            "power": "350–400 hp"
+          },
+          "years": "2004–2006"
+        }
+      ],
+      "intro": "The original muscle car: John DeLorean's team slipped a 389 big-block into a mid-size Tempest in 1964 and the era began. Judge, Ram Air, a wilderness decade, and a final Australian-built encore in 2004.",
+      "name": "GTO",
+      "segment": "Muscle car",
+      "slug": "gto",
+      "status": "Discontinued",
+      "trims": [
+        "GTO",
+        "GTO Judge",
+        "GTO Ram Air IV"
+      ],
+      "years": "1964–2006"
+    },
+    {
+      "bodyStyles": [
+        "Coupe",
+        "Convertible"
+      ],
+      "buyingClass": "vintage",
+      "collectorNote": "SD-455s and first-gen Trans Ams are the summit; Bandit-spec Special Editions are the market's mood ring. WS6 LS1 cars remain the performance-per-dollar pick.",
+      "generations": [
+        {
+          "code": "F1",
+          "name": "Firebird (first generation)",
+          "note": "Shared Camaro bones, Pontiac attitude: the 400 Ram Air cars made up to 335 hp and the 1969 Trans Am — just 697 built — started the legend.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "6.6L V8 (400 cu in, top option)",
+            "power": "335 hp"
+          },
+          "years": "1967–1969"
+        },
+        {
+          "code": "F2",
+          "name": "Firebird / Trans Am (second generation)",
+          "note": "The long gen: 455 Super Duty (1973–74) is the last true muscle peak, the 1977 black-and-gold Special Edition became the Bandit car, and turbos arrived for 1980. Sales peaked with the film.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "6.6L–7.5L V8 / 4.9L turbo V8",
+            "power": "220–290 hp"
+          },
+          "years": "1970–1981"
+        },
+        {
+          "code": "F4",
+          "name": "Firebird / Trans Am (fourth generation)",
+          "note": "LT1 then LS1 power; the WS6 Ram Air package took the final cars to 320 hp with handling to match. The 2002 Collector Edition closed the line.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "5.7L V8 (LT1/LS1)",
+            "power": "275–320 hp"
+          },
+          "years": "1993–2002"
+        }
+      ],
+      "intro": "Pontiac's F-body, four generations deep: Ram Air originals, the SD-455, the Bandit phenomenon, Knight Rider, and a final LS1 WS6 that was a Corvette in a tuxedo t-shirt.",
+      "name": "Firebird / Trans Am",
+      "segment": "Pony car / muscle car",
+      "slug": "firebird",
+      "status": "Discontinued",
+      "trims": [
+        "Firebird",
+        "Firebird Formula",
+        "Trans Am",
+        "Trans Am WS6",
+        "Trans Am SD-455"
+      ],
+      "years": "1967–2002"
+    },
+    {
+      "bodyStyles": [
+        "Coupe",
+        "Sedan"
+      ],
+      "buyingClass": "vintage",
+      "generations": [
+        {
+          "code": "GP 1",
+          "name": "Grand Prix (first generation)",
+          "note": "The 1962 original set the formula: full-size body, sports-car cockpit. The 421 HO reached 376 hp — serious pace in a luxury coupe.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "6.4L–6.9L V8",
+            "power": "303–376 hp"
+          },
+          "years": "1962–1968"
+        },
+        {
+          "code": "GP GTP",
+          "name": "Grand Prix GTP",
+          "note": "The W-body reinvention: a supercharged 3800 V6 at 240 hp in a wide-track sedan and coupe that outsold expectations and defined Pontiac's last volume decade.",
+          "spec": {
+            "drivetrain": "FWD",
+            "engine": "3.8L supercharged V6",
+            "power": "240 hp"
+          },
+          "years": "1997–2003"
+        }
+      ],
+      "intro": "Pontiac's personal-luxury nameplate for 46 years: born as a full-size performance coupe with bucket seats and a 421 option, ending as a supercharged front-drive sedan — the GXP even got a V8.",
+      "name": "Grand Prix",
+      "segment": "Personal luxury coupe / sedan",
+      "slug": "grand-prix",
+      "status": "Discontinued",
+      "trims": [
+        "Grand Prix",
+        "Grand Prix SJ",
+        "Grand Prix GTP",
+        "Grand Prix GXP"
+      ],
+      "years": "1962–2008"
+    },
+    {
+      "bodyStyles": [
+        "Convertible",
+        "Sedan",
+        "Coupe"
+      ],
+      "buyingClass": "vintage",
+      "collectorNote": "The 1957 fuelie convertibles are the blue-chip cars; the rest of the line is affordable full-size Americana. Documentation of the injection system matters.",
+      "generations": [
+        {
+          "code": "Bonneville 1",
+          "name": "Bonneville (fuel-injected debut)",
+          "note": "The 1957 car's Rochester fuel injection on the 347 V8 was headline tech, rating around 300 hp; only 630 convertibles were built. The nameplate then ran as Pontiac's flagship until 2005.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "5.7L V8 (347 cu in)",
+            "power": "300–310 hp"
+          },
+          "years": "1957–1958"
+        }
+      ],
+      "intro": "Named for the salt flats and launched as a fuel-injected convertible flagship in 1957 — every first-year car was a convertible, and 'fuel injection' was Pontiac announcing it had arrived as a performance brand.",
+      "name": "Bonneville",
+      "segment": "Full-size flagship",
+      "slug": "bonneville",
+      "status": "Discontinued",
+      "trims": [
+        "Bonneville convertible",
+        "Bonneville hardtop"
+      ],
+      "years": "1957–2005"
+    },
+    {
+      "bodyStyles": [
+        "Coupe"
+      ],
+      "buyingClass": "modern-classic",
+      "collectorNote": "1988 GTs are the collector spec and still cheap; the kit-car donor history means original unmodified cars are the rarity. Buy the cleanest chassis, not the lowest miles.",
+      "generations": [
+        {
+          "code": "Fiero",
+          "name": "Fiero / Fiero GT",
+          "note": "Iron Duke four or 2.8 V6; the GT's 140 hp in a light mid-engine chassis made the case the launch car hadn't. Nearly 370,000 built across five years.",
+          "spec": {
+            "drivetrain": "RWD (mid-engined)",
+            "engine": "2.5L inline-4 / 2.8L V6",
+            "power": "92–140 hp"
+          },
+          "years": "1984–1988"
+        }
+      ],
+      "intro": "America's mid-engine commuter car that became a sports car just in time to be cancelled: plastic panels on a spaceframe, a V6 GT by 1985, and a proper fastback for 1986. The 1988 suspension — finally all Pontiac's own design — was the best and the last.",
+      "name": "Fiero",
+      "segment": "Mid-engine sports coupe",
+      "slug": "fiero",
+      "status": "Discontinued",
+      "trims": [
+        "Fiero",
+        "Fiero SE",
+        "Fiero GT",
+        "Fiero Formula"
+      ],
+      "years": "1984–1988"
+    },
+    {
+      "bodyStyles": [
+        "Convertible",
+        "Coupe"
+      ],
+      "buyingClass": "modern-classic",
+      "collectorNote": "Coupes first, GXPs second, manuals over automatics throughout. The last Pontiac halo car has a floor under it and a story that only gets better.",
+      "generations": [
+        {
+          "code": "Solstice",
+          "name": "Solstice / GXP",
+          "note": "The GXP's direct-injected 2.0 turbo made 260 hp — the highest specific output GM had then produced. Just 1,266 coupes were built before the marque closed, making them instant collectibles.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "2.4L inline-4 / 2.0L turbo inline-4",
+            "power": "173–260 hp"
+          },
+          "years": "2006–2010"
+        }
+      ],
+      "intro": "Bob Lutz's back-to-basics roadster and Pontiac's last halo: a concept car (2002) willed into production, outselling the MX-5 in its first year, with the turbo GXP and a rare targa coupe as the collector endings.",
+      "name": "Solstice",
+      "segment": "Roadster",
+      "slug": "solstice",
+      "status": "Discontinued",
+      "trims": [
+        "Solstice",
+        "Solstice GXP",
+        "Solstice Coupe"
+      ],
+      "years": "2006–2010"
+    }
+  ]
+}

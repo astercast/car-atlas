@@ -1,0 +1,129 @@
+{
+  "make": "packard",
+  "models": [
+    {
+      "bodyStyles": [
+        "Sedan",
+        "Convertible",
+        "Coupe"
+      ],
+      "buyingClass": "vintage",
+      "collectorNote": "A Full Classic under CCCA rules, with values to match. Custom-bodied Twelves sit at the top; series production sedans are the (relative) entry ticket to V12 Packard ownership.",
+      "generations": [
+        {
+          "code": "Twelve",
+          "name": "Twelve (V12)",
+          "note": "The 7.3-litre V12 made 160 hp with a refinement nothing at the price matched. Dietrich and LeBaron bodies on the long wheelbases are the blue-chip cars of the Classic era.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "7.3L V12 (473 cu in)",
+            "power": "160 hp"
+          },
+          "years": "1933–1939"
+        }
+      ],
+      "intro": "Packard's V12 flagship — launched as the Twin Six in 1932, renamed Twelve a year later — was Detroit's answer to the great European chassis: silent, torquey, and bodied by the best shops in America.",
+      "name": "Twelve",
+      "segment": "Luxury flagship sedan",
+      "slug": "twelve",
+      "status": "Discontinued",
+      "trims": [
+        "Twelve sedan",
+        "Twelve convertible sedan",
+        "Twelve coupe"
+      ],
+      "years": "1933–1939"
+    },
+    {
+      "bodyStyles": [
+        "Sedan",
+        "Convertible"
+      ],
+      "buyingClass": "vintage",
+      "generations": [
+        {
+          "code": "Super Eight",
+          "name": "Super Eight",
+          "note": "Engines grew from 5.2 to 5.8 litres across the run and the 1940s One-Sixty flagship trim shared the line. Postwar Super Eights and Super Clippers carried the marque until the V8 era.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "5.2L–5.8L straight-8",
+            "power": "120–165 hp"
+          },
+          "years": "1933–1950"
+        }
+      ],
+      "intro": "The straight-eight backbone of the Packard range for nearly two decades — the car most people meant by 'a Packard' — spanning the Classic era, the streamline years and the first postwar cars.",
+      "name": "Super Eight",
+      "segment": "Luxury sedan",
+      "slug": "super-eight",
+      "status": "Discontinued",
+      "trims": [
+        "Super Eight",
+        "Super Eight One-Sixty",
+        "Super Clipper"
+      ],
+      "years": "1933–1950"
+    },
+    {
+      "bodyStyles": [
+        "Convertible",
+        "Coupe"
+      ],
+      "buyingClass": "vintage",
+      "collectorNote": "The most collectible postwar Packard. Convertibles lead, the one-year hardtop is the connoisseur's pick, and original tri-tone schemes documented from the build sheet matter.",
+      "generations": [
+        {
+          "code": "Caribbean",
+          "name": "Caribbean",
+          "note": "The 1955 cars brought Packard's new V8 and torsion-level suspension; the 1956 Caribbean's 6.1-litre V8 made 310 hp, the strongest Packard ever built. Production was in the hundreds per year.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "5.8L–6.1L V8",
+            "power": "275–310 hp"
+          },
+          "years": "1953–1956"
+        }
+      ],
+      "intro": "Packard's halo car of the fifties: a low-volume convertible with continental flair, wire wheels and tri-tone paint, built to fight Cadillac's Eldorado. The 1956 hardtop joined for the final year.",
+      "name": "Caribbean",
+      "segment": "Luxury convertible / hardtop",
+      "slug": "caribbean",
+      "status": "Discontinued",
+      "trims": [
+        "Caribbean convertible",
+        "Caribbean hardtop (1956)"
+      ],
+      "years": "1953–1956"
+    },
+    {
+      "bodyStyles": [
+        "Coupe"
+      ],
+      "buyingClass": "vintage",
+      "collectorNote": "Rarity plus the end-of-story significance keeps Hawks wanted. The supercharger and its health are the inspection's first item.",
+      "generations": [
+        {
+          "code": "Hawk",
+          "name": "Packard Hawk",
+          "note": "Just 588 were built. Under the fibreglass nose sat Studebaker's supercharged 289 V8 at 275 hp — the fastest car wearing a Packard badge that year, and a poignant full stop.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "4.7L supercharged V8 (289 cu in)",
+            "power": "275 hp"
+          },
+          "years": "1958"
+        }
+      ],
+      "intro": "The last real Packard, built for one year on Studebaker bones in South Bend: a supercharged Golden Hawk in Packard dress, with padded armrests on the outside of the doors and the marque's final flourish of fins.",
+      "name": "Hawk",
+      "segment": "Personal luxury coupe",
+      "slug": "hawk",
+      "status": "Discontinued",
+      "trims": [
+        "Hawk"
+      ],
+      "years": "1958"
+    }
+  ]
+}

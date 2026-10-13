@@ -1,0 +1,35 @@
+{
+  "make": "delorean",
+  "models": [
+    {
+      "bodyStyles": [
+        "Coupe"
+      ],
+      "buyingClass": "vintage",
+      "collectorNote": "Condition and documentation split the market: tired cars are projects, sorted low-mile cars with records are the collectible. The film connection guarantees an audience forever; buy on mechanical health, not nostalgia.",
+      "generations": [
+        {
+          "code": "DMC-12",
+          "name": "DMC-12",
+          "note": "Roughly 9,000 were built before receivership in 1982. The PRV V6 — shared with Peugeot, Renault and Volvo — made 130 hp in US trim, so the car cruised better than it sprinted; the gullwing doors, not the pace, were the point.",
+          "spec": {
+            "drivetrain": "RWD (rear-engined)",
+            "engine": "2.85L V6 (PRV ZMJ-159)",
+            "power": "130 hp"
+          },
+          "years": "1981–1983"
+        }
+      ],
+      "intro": "The only DeLorean: a Giugiaro wedge in brushed stainless steel over a Lotus-engineered backbone chassis, built in Northern Ireland with British government money. Underpowered, over budget, and — after Back to the Future — the most recognisable car of the 1980s.",
+      "name": "DMC-12",
+      "segment": "Sports coupe",
+      "slug": "dmc-12",
+      "status": "Discontinued",
+      "trims": [
+        "DMC-12 (5-speed manual)",
+        "DMC-12 (3-speed automatic)"
+      ],
+      "years": "1981–1983"
+    }
+  ]
+}

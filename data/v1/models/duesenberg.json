@@ -1,0 +1,81 @@
+{
+  "make": "duesenberg",
+  "models": [
+    {
+      "bodyStyles": [
+        "Sedan",
+        "Convertible"
+      ],
+      "buyingClass": "vintage",
+      "collectorNote": "Survivors are museum-grade cars now. Provenance — which chassis, which body, which show history — is the entire valuation conversation.",
+      "generations": [
+        {
+          "code": "Model A",
+          "name": "Model A",
+          "note": "Built in Indianapolis and priced against Packard and Pierce-Arrow. Duesenberg's racing programme — the 1921 French Grand Prix win, Indianapolis 500 victories in 1924 and 1925 — sold the engineering; about 600 Model As were built.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "4.3L straight-8 (260 cu in)",
+            "power": "88 hp"
+          },
+          "years": "1921–1926"
+        }
+      ],
+      "intro": "The Duesenberg brothers' first production car, and a technical landmark: a straight-eight with an overhead cam in an era of flatheads, and four-wheel hydraulic brakes when rivals braked the rear wheels only.",
+      "name": "Model A",
+      "segment": "Luxury touring car",
+      "slug": "model-a",
+      "status": "Discontinued",
+      "trims": [
+        "Model A touring",
+        "Model A roadster",
+        "Model A sedan"
+      ],
+      "years": "1921–1926"
+    },
+    {
+      "bodyStyles": [
+        "Convertible",
+        "Sedan",
+        "Coupe"
+      ],
+      "buyingClass": "vintage",
+      "collectorNote": "The top of the American market, full stop. Original engine-and-chassis pairings and documented coachwork decide everything; the finest Js trade in seven figures and the SSJs far beyond that.",
+      "generations": [
+        {
+          "code": "Model J",
+          "name": "Model J",
+          "note": "About 480 chassis were built, each bodied to order. The straight-eight's 265 hp made the J the most powerful American car of its day by a wide margin, and the ownership list — Clark Gable, Gary Cooper, royalty — became part of the legend.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "6.9L straight-8 (420 cu in)",
+            "power": "265 hp"
+          },
+          "years": "1928–1937"
+        },
+        {
+          "code": "SJ",
+          "name": "SJ / SSJ",
+          "note": "A centrifugal supercharger lifted output to 320 hp and genuine 130 mph territory. The two short-wheelbase SSJ roadsters, built for Gable and Cooper, are among the most valuable American cars in existence.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "6.9L supercharged straight-8",
+            "power": "320 hp"
+          },
+          "years": "1932–1937"
+        }
+      ],
+      "intro": "Unveiled at the 1928 New York show as a chassis alone costing more than a whole Cadillac: 265 hp when 100 was a lot, built to carry the greatest coachwork of the age — Murphy, LeBaron, Derham, Figoni. The definitive American classic.",
+      "name": "Model J",
+      "segment": "Luxury chassis / coachbuilt grand tourer",
+      "slug": "model-j",
+      "status": "Discontinued",
+      "trims": [
+        "Model J",
+        "Model SJ",
+        "Model SSJ"
+      ],
+      "years": "1928–1937"
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "make": "saab",
+  "models": [
+    {
+      "bodyStyles": [
+        "Sedan",
+        "Wagon"
+      ],
+      "buyingClass": "vintage",
+      "collectorNote": "Two-stroke cars are the specialist's joy — freewheel, smoke and all. V4 96s are the usable classic; Monte Carlo and Safari rally trims are the prizes.",
+      "generations": [
+        {
+          "code": "92",
+          "name": "92 / 93",
+          "note": "The 92's 764 cc two-cylinder two-stroke made 25 hp and the body was a wind-tunnel shape before that was marketing. The 93 (1955) added a three-cylinder two-stroke and genuine rally success.",
+          "spec": {
+            "drivetrain": "FWD",
+            "engine": "0.76L–0.84L two-stroke",
+            "power": "25–38 hp"
+          },
+          "years": "1949–1960"
+        },
+        {
+          "code": "96",
+          "name": "96 / 95 wagon",
+          "note": "The definitive early Saab: Erik Carlsson won the Monte Carlo Rally outright in 1962 and 1963 in a 96. From 1967 a Ford-sourced 1.5 V4 replaced the two-stroke; production passed 700,000 across the 92–96 family.",
+          "spec": {
+            "drivetrain": "FWD",
+            "engine": "0.84L two-stroke / 1.5L V4",
+            "power": "46–65 hp"
+          },
+          "years": "1960–1980"
+        }
+      ],
+      "intro": "Saab's first three decades in one line: a teardrop two-stroke shaped by aircraft engineers, evolved from the 92 through the 93 to the long-lived 96 — rally winner, family staple, and the car that made front-wheel drive make sense in winter.",
+      "name": "92 / 93 / 96",
+      "segment": "Compact family car",
+      "slug": "92-96",
+      "status": "Discontinued",
+      "trims": [
+        "92",
+        "93",
+        "96",
+        "95 wagon",
+        "96 V4"
+      ],
+      "years": "1949–1980"
+    },
+    {
+      "bodyStyles": [
+        "Sedan",
+        "Hatchback"
+      ],
+      "buyingClass": "vintage",
+      "collectorNote": "Turbo cars lead the market and the mythology. Rust decides values more than mileage; a documented Turbo with a solid shell is the find.",
+      "generations": [
+        {
+          "code": "99",
+          "name": "99",
+          "note": "Engines came from a Triumph-designed slant-four built by Saab in Sweden. The Combi Coupé hatchback (1974) set the template Saab kept for decades.",
+          "spec": {
+            "drivetrain": "FWD",
+            "engine": "1.85L–2.0L inline-4",
+            "power": "88–110 hp"
+          },
+          "years": "1968–1978"
+        },
+        {
+          "code": "99 Turbo",
+          "name": "99 Turbo",
+          "note": "145 hp from 2.0 litres when turbos were exotic — the template for every Saab that followed, and a Q-car landmark. The 99 line ended as the 90 in the mid-1980s.",
+          "spec": {
+            "drivetrain": "FWD",
+            "engine": "2.0L turbo inline-4",
+            "power": "145 hp"
+          },
+          "years": "1978–1984"
+        }
+      ],
+      "intro": "The bigger, safer Saab: wraparound windscreen, ignition by the handbrake, and in 1978 the 99 Turbo — one of the first production cars to make turbocharging a road-car virtue rather than a racing trick.",
+      "name": "99",
+      "segment": "Compact executive car",
+      "slug": "99",
+      "status": "Discontinued",
+      "trims": [
+        "99",
+        "99 Combi Coupé",
+        "99 Turbo"
+      ],
+      "years": "1968–1984"
+    },
+    {
+      "bodyStyles": [
+        "Hatchback",
+        "Sedan",
+        "Convertible"
+      ],
+      "buyingClass": "vintage",
+      "collectorNote": "Classic Turbo convertibles and late three-door turbos lead values; the Carlsson and Ruby specials are the collector trims. Convertible roofs and turbo health are the inspection list.",
+      "generations": [
+        {
+          "code": "C900",
+          "name": "900 (classic)",
+          "note": "Built on a heavily evolved 99 floorpan with double-wishbone front suspension and a longitudinal engine driving the front wheels. Turbo 16 models made up to 175 hp; the convertible, from 1986, became an unlikely yuppie icon. Over 900,000 classic 900s were built.",
+          "spec": {
+            "drivetrain": "FWD",
+            "engine": "2.0L inline-4 / turbo",
+            "power": "100–175 hp"
+          },
+          "years": "1978–1993"
+        },
+        {
+          "code": "NG900",
+          "name": "900 (new generation)",
+          "note": "GM-era car on an Opel Vectra platform — transverse engines, including a 2.5 V6, and the talladega-challenge-proven turbo fours. Competent, and the hinge point between old Saab and new.",
+          "spec": {
+            "drivetrain": "FWD",
+            "engine": "2.0L turbo I4 / 2.5L V6",
+            "power": "150–185 hp"
+          },
+          "years": "1994–1998"
+        }
+      ],
+      "intro": "The Saab most people picture: the upright windscreen, the deep hatch, the turbo whistle. The 'classic' 900 ran fifteen years and made the marque; its GM-platform successor shared the name and little else.",
+      "name": "900",
+      "segment": "Executive hatchback / convertible",
+      "slug": "900",
+      "status": "Discontinued",
+      "trims": [
+        "900",
+        "900 Turbo",
+        "900 Turbo 16",
+        "900 Convertible",
+        "900 SE"
+      ],
+      "years": "1978–1998"
+    },
+    {
+      "bodyStyles": [
+        "Sedan",
+        "Hatchback"
+      ],
+      "buyingClass": "vintage",
+      "collectorNote": "Aeros are the appreciating Q-car buy while they last. Torque steer is part of the charm; rust and DI cassette history are the checks.",
+      "generations": [
+        {
+          "code": "9000",
+          "name": "9000 / Aero",
+          "note": "The 2.3 turbo Aero (1993 on) made 225 hp through the front wheels with famously strong 50–70 mph acceleration. Hatchback (CS) and saloon (CD) bodies; over half a million built.",
+          "spec": {
+            "drivetrain": "FWD",
+            "engine": "2.0L–2.3L turbo inline-4",
+            "power": "150–225 hp"
+          },
+          "years": "1985–1998"
+        }
+      ],
+      "intro": "Saab's big car, developed with Fiat, Lancia and Alfa Romeo on the shared Type Four programme — but characteristically Saabified, and in Aero form one of the great sleepers: mid-range punch that embarrassed period supercars.",
+      "name": "9000",
+      "segment": "Executive sedan / hatchback",
+      "slug": "9000",
+      "status": "Discontinued",
+      "trims": [
+        "9000",
+        "9000 CD",
+        "9000 Aero"
+      ],
+      "years": "1985–1998"
+    },
+    {
+      "bodyStyles": [
+        "Sedan",
+        "Convertible",
+        "Wagon"
+      ],
+      "buyingClass": "modern-classic",
+      "collectorNote": "Turbo X and Viggen are the collector poles; convertibles are the summer buy. Everything is a parts-network car now — the Saab community is the infrastructure.",
+      "generations": [
+        {
+          "code": "OG 9-3",
+          "name": "9-3 (first generation)",
+          "note": "Saab claimed 1,100 changes over the 900. The Viggen — named for the fighter jet — ran a 2.3 turbo at 225 hp and taught a generation about torque steer.",
+          "spec": {
+            "drivetrain": "FWD",
+            "engine": "2.0L–2.3L turbo inline-4",
+            "power": "150–225 hp"
+          },
+          "years": "1998–2002"
+        },
+        {
+          "code": "Sport Sedan",
+          "name": "9-3 Sport Sedan / Turbo X",
+          "note": "Epsilon-platform car with Saab's cockpit intact. Aero models took a 2.8 turbo V6 up to 280 hp; the 2008 Turbo X added XWD all-wheel drive and is the modern Saab to have.",
+          "spec": {
+            "drivetrain": "FWD / AWD",
+            "engine": "2.0L turbo I4 / 2.8L turbo V6",
+            "power": "175–280 hp"
+          },
+          "years": "2003–2011"
+        }
+      ],
+      "intro": "The 900's successor under GM, twice over: first a deep facelift of the old car — Viggen included — then the 2003 Sport Sedan, all-new, with the Aero V6 and the all-wheel-drive Turbo X as its peaks. NEVS briefly restarted the line in 2013.",
+      "name": "9-3",
+      "segment": "Compact executive car",
+      "slug": "9-3",
+      "status": "Discontinued",
+      "trims": [
+        "9-3",
+        "9-3 Aero",
+        "9-3 Viggen",
+        "9-3 Turbo X",
+        "9-3 SportCombi"
+      ],
+      "years": "1998–2011"
+    },
+    {
+      "bodyStyles": [
+        "Sedan",
+        "Wagon"
+      ],
+      "buyingClass": "modern-classic",
+      "collectorNote": "Second-generation cars are rare and climbing; first-gen Aero estates are the value pick. As with all Saabs, the owner's club is the real parts department.",
+      "generations": [
+        {
+          "code": "OG 9-5",
+          "name": "9-5 (first generation)",
+          "note": "Aero models ran the 2.3 high-output turbo at up to 260 hp. Ventilated seats, night panel, and an estate that out-sold the saloon in some markets — peak Swedish wagon logic.",
+          "spec": {
+            "drivetrain": "FWD",
+            "engine": "2.0L–2.3L turbo inline-4",
+            "power": "150–260 hp"
+          },
+          "years": "1997–2010"
+        },
+        {
+          "code": "NG 9-5",
+          "name": "9-5 (second generation)",
+          "note": "The clean-sheet flagship: Epsilon II platform, available XWD and a 300 hp 2.8 turbo V6 in Aero trim. Production ended with Saab itself after roughly 11,000 cars — instant rarity.",
+          "spec": {
+            "drivetrain": "FWD / AWD",
+            "engine": "2.0L turbo I4 / 2.8L turbo V6",
+            "power": "220–300 hp"
+          },
+          "years": "2010–2012"
+        }
+      ],
+      "intro": "The 9000's replacement and Saab's flagship for fifteen years: the thinking driver's E-Class alternative, with the Aero estate as the connoisseur's express. Its handsome 2010 successor arrived just in time for the bankruptcy, and production stayed tiny.",
+      "name": "9-5",
+      "segment": "Executive sedan / wagon",
+      "slug": "9-5",
+      "status": "Discontinued",
+      "trims": [
+        "9-5",
+        "9-5 Aero",
+        "9-5 SportCombi"
+      ],
+      "years": "1997–2012"
+    }
+  ]
+}

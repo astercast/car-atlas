@@ -19,6 +19,8 @@ PAGES = [
     ("model-911.png", "model.html?make=porsche&model=911", None),
     ("make-lexus.png", "make.html?make=lexus", None),
     ("model-lfa.png", "model.html?make=lexus&model=lfa", None),
+    ("make-delorean.png", "make.html?make=delorean", None),
+    ("model-dmc-12.png", "model.html?make=delorean&model=dmc-12", None),
     ("clubs.png", "clubs.html", None),
     ("buy.png", "buy.html", None),
 ]
@@ -26,6 +28,7 @@ PAGES = [
 MOBILE_PAGES = [
     ("home-mobile.png", "index.html", None),
     ("model-lfa-mobile.png", "model.html?make=lexus&model=lfa", None),
+    ("model-dmc-12-mobile.png", "model.html?make=delorean&model=dmc-12", None),
 ]
 
 

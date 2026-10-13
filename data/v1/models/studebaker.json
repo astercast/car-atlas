@@ -1,0 +1,129 @@
+{
+  "make": "studebaker",
+  "models": [
+    {
+      "bodyStyles": [
+        "Coupe"
+      ],
+      "buyingClass": "vintage",
+      "collectorNote": "Design-history blue chips at (still) sub-Cadillac money. Original V8 Starliners lead; restomods are common, so originality documents count.",
+      "generations": [
+        {
+          "code": "Loewy coupe",
+          "name": "Starlight / Starliner coupes",
+          "note": "Commander V8 or Champion six power in a body lower than a Corvette of the same year. The hardtop Starliner is the icon; the pillared Starlight coupe is rarer today.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "3.8L V8 (232 cu in) / inline-6",
+            "power": "120 hp (V8)"
+          },
+          "years": "1953–1955"
+        }
+      ],
+      "intro": "The 1953 coupes designed under Raymond Loewy — Robert Bourke's clean, low, European line — are regularly called the most beautiful American cars of the fifties. They became the foundation of the Hawk line that followed.",
+      "name": "Loewy Coupes (Starlight / Starliner)",
+      "segment": "Personal coupe",
+      "slug": "loewy-coupes",
+      "status": "Discontinued",
+      "trims": [
+        "Starlight coupe",
+        "Starliner hardtop"
+      ],
+      "years": "1953–1955"
+    },
+    {
+      "bodyStyles": [
+        "Sedan",
+        "Wagon",
+        "Convertible"
+      ],
+      "buyingClass": "vintage",
+      "collectorNote": "Convertibles and V8 Daytonas lead a still-affordable field. The Wagonaire's sliding roof is the party trick and the leak check.",
+      "generations": [
+        {
+          "code": "Lark",
+          "name": "Lark",
+          "note": "Six or V8 power, sedan, wagon, hardtop and convertible bodies — including the sliding-roof Wagonaire. Late Daytonas with the 289 V8 were genuine sleepers. Production moved to Canada for the final years.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "2.8L inline-6 / 4.2L–4.7L V8",
+            "power": "90–225 hp"
+          },
+          "years": "1959–1966"
+        }
+      ],
+      "intro": "The compact that saved Studebaker for a while: launched in 1959 just as America discovered small cars, it briefly returned the company to profit — and with the optional V8s, it was quietly quick.",
+      "name": "Lark",
+      "segment": "Compact family car",
+      "slug": "lark",
+      "status": "Discontinued",
+      "trims": [
+        "Lark",
+        "Lark Daytona",
+        "Wagonaire"
+      ],
+      "years": "1959–1966"
+    },
+    {
+      "bodyStyles": [
+        "Coupe"
+      ],
+      "buyingClass": "vintage",
+      "collectorNote": "The connoisseur's Studebaker GT: low production, high style. R2 supercharged cars are the rare peak; verify the blower and its paperwork.",
+      "generations": [
+        {
+          "code": "GT Hawk",
+          "name": "Gran Turismo Hawk",
+          "note": "The 289 V8 in 210 or 225 hp tune, front disc brakes available, and supercharged R2 power as the rare option borrowed from the Avanti programme. South Bend's closure in December 1963 ended it.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "4.7L V8 (289 cu in)",
+            "power": "210–240 hp"
+          },
+          "years": "1962–1964"
+        }
+      ],
+      "intro": "Brooks Stevens restyled the Loewy coupe's bones into a formal, Mercedes-tinged GT for 1962 — the last Studebaker with real money spent on it, and a credible grand tourer at a Chevrolet price.",
+      "name": "Gran Turismo Hawk",
+      "segment": "Grand tourer",
+      "slug": "gran-turismo-hawk",
+      "status": "Discontinued",
+      "trims": [
+        "Gran Turismo Hawk",
+        "Gran Turismo Hawk R2 (supercharged)"
+      ],
+      "years": "1962–1964"
+    },
+    {
+      "bodyStyles": [
+        "Coupe"
+      ],
+      "buyingClass": "vintage",
+      "collectorNote": "R2s lead, R1s are the drive-it buy. Fibreglass condition and the supercharger decide cars; the Loewy provenance keeps the story — and the floor — strong.",
+      "generations": [
+        {
+          "code": "Avanti",
+          "name": "Avanti R1 / R2",
+          "note": "The R1's 289 V8 made 240 hp; the Paxton-supercharged R2 made 289 hp — one per cubic inch. About 4,600 Studebaker-built cars before the design was sold and continued as the Avanti II.",
+          "spec": {
+            "drivetrain": "RWD",
+            "engine": "4.7L V8 / supercharged V8 (289 cu in)",
+            "power": "240–289 hp"
+          },
+          "years": "1963–1964"
+        }
+      ],
+      "intro": "Raymond Loewy's team designed it in weeks; Brooks Stevens' studio finished it: a fibreglass, bottom-breather GT with a supercharged option, roll bar built in, and speed records at Bonneville. Studebaker died; the Avanti, built by others, lived on for decades.",
+      "name": "Avanti",
+      "segment": "Sports coupe",
+      "slug": "avanti",
+      "status": "Discontinued",
+      "trims": [
+        "Avanti R1",
+        "Avanti R2",
+        "Avanti R3 (rare)"
+      ],
+      "years": "1963–1964"
+    }
+  ]
+}
