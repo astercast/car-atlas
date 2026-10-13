@@ -1,5 +1,5 @@
 {
- "note": "Price Watch tracks completed auction results, not live listings. Every record below was certified at ingest against a published source naming the car, the price, the house, and the date; the source is linked on each record. Wave 4 certified 7 results (2026-10-13); wave 5 added 4 more to the same standard; wave 7 (stage 2) added 8 more; wave 8 (stage 3) added 9 more — 28 certified results in all. Stage 3 extends the certified-results set only: the listings ingest described in earlier roadmaps is not built, and no listing, estimate or unsold lot appears here. Prices are historical facts about one specific car on one specific day — not asking prices, not estimates, and not a valuation of any other example. Results that could not be certified to that standard were skipped, not estimated (see skippedSources).",
+ "note": "Price Watch tracks completed auction results, not live listings. Every record below was certified at ingest against a published source naming the car, the price, the house, and the date; the source is linked on each record. Wave 4 certified 7 results (2026-10-13); wave 5 added 4 more to the same standard; wave 7 (stage 2) added 8 more; wave 8 (stage 3) added 9 more; wave 9 (stage 4) added 9 more — 37 certified results in all. Stage 4 extends the certified-results set only: the listings ingest described in earlier roadmaps is not built, and no listing, estimate or unsold lot appears here. Prices are historical facts about one specific car on one specific day — not asking prices, not estimates, and not a valuation of any other example. Results that could not be certified to that standard were skipped, not estimated (see skippedSources).",
  "results": [
   {
    "currency": "EUR",
@@ -189,6 +189,40 @@
    "year": 1994
   },
   {
+   "currency": "USD",
+   "event": "RM Sotheby's Monterey",
+   "make": "ford",
+   "makeName": "Ford",
+   "model": "GT40 Roadster Prototype (chassis GT/108)",
+   "modelSlug": null,
+   "price": 7650000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2019-08-16",
+   "source": {
+    "name": "CLASSIC.COM record of the RM Sotheby's Monterey 2019 result",
+    "url": "https://www.classic.com/a/rm-sothebys-monterey-2019-v4oMvWA/lots/1965-ford-gt40-roadster-prototype-WR0dZ34/?page=8"
+   },
+   "status": "sold",
+   "year": 1965
+  },
+  {
+   "currency": "USD",
+   "event": "RM Sotheby's Monterey — An Evening with Aston Martin",
+   "make": "aston-martin",
+   "makeName": "Aston Martin",
+   "model": "DB5 'Bond Car' (chassis DB5/2008/R)",
+   "modelSlug": null,
+   "price": 6385000,
+   "priceBasis": "Including buyer's premium (hammer $5,800,000)",
+   "saleDate": "2019-08-15",
+   "source": {
+    "name": "Aston Martin Media — RM Sotheby's sale report (15 Aug 2019)",
+    "url": "https://media.astonmartin.com/records-shattered-as-classic-aston-martin-sports-cars-change-hands-for-millions-at-rm-sothebys-sale/?lang=eng"
+   },
+   "status": "sold",
+   "year": 1965
+  },
+  {
    "currency": "EUR",
    "event": "Artcurial — Rétromobile, Paris",
    "make": "alfa-romeo",
@@ -204,6 +238,23 @@
    },
    "status": "sold",
    "year": 1939
+  },
+  {
+   "currency": "EUR",
+   "event": "RM Sotheby's Paris",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "model": "F40 LM (chassis 74045)",
+   "modelSlug": null,
+   "price": 4842500,
+   "priceBasis": "Including buyer's premium",
+   "saleDate": "2019-02-06",
+   "source": {
+    "name": "Motor Sports NewsWire — RM Sotheby's Paris sale report (9 Feb 2019; sale 6 Feb 2019)",
+    "url": "https://motorsportsnewswire.com/2019/02/09/rm-sothebys-paris/"
+   },
+   "status": "sold",
+   "year": 1987
   },
   {
    "currency": "USD",
@@ -343,6 +394,40 @@
   },
   {
    "currency": "USD",
+   "event": "Gooding & Company, Pebble Beach",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "model": "250 GT SWB California Spider (chassis 3095 GT)",
+   "modelSlug": null,
+   "price": 16830000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2015-08-16",
+   "source": {
+    "name": "CLASSIC.COM vehicle record of the Gooding & Company Pebble Beach 2015 result",
+    "url": "http://www.classic.com/veh/1961-ferrari-250-gt-swb-california-spider-3095gt-nK3yq7n/"
+   },
+   "status": "sold",
+   "year": 1961
+  },
+  {
+   "currency": "USD",
+   "event": "Gooding & Company, Pebble Beach",
+   "make": "porsche",
+   "makeName": "Porsche",
+   "model": "956 (chassis 956-003)",
+   "modelSlug": null,
+   "price": 10120000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2015-08-15",
+   "source": {
+    "name": "CLASSIC.COM record of the Gooding & Company Pebble Beach 2015 result",
+    "url": "https://www.classic.com/a/gooding-pebble-beach-2015-MWRewnl/lots/1982-porsche-956-nm8ZE24/?page=2"
+   },
+   "status": "sold",
+   "year": 1982
+  },
+  {
+   "currency": "USD",
    "event": "RM Sotheby's Monterey",
    "make": "jaguar",
    "makeName": "Jaguar",
@@ -374,6 +459,23 @@
    },
    "status": "sold",
    "year": 1964
+  },
+  {
+   "currency": "EUR",
+   "event": "Artcurial — Rétromobile, Paris",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "model": "250 GT SWB California Spider (Baillon Collection, chassis 2935 GT)",
+   "modelSlug": null,
+   "price": 16288000,
+   "priceBasis": "Including buyer's premium",
+   "saleDate": "2015-02-06",
+   "source": {
+    "name": "CLASSIC.COM record of the Artcurial Rétromobile 2015 result (lot 59)",
+    "url": "http://www.classic.com/a/artcurial-retromobile-2015-ZnQOOpN/lots/1961-ferrari-250-gt-swb-california-spider-WbDoAj4"
+   },
+   "status": "sold",
+   "year": 1961
   },
   {
    "currency": "USD",
@@ -411,6 +513,23 @@
   },
   {
    "currency": "USD",
+   "event": "Barrett-Jackson Scottsdale",
+   "make": "chevrolet",
+   "makeName": "Chevrolet",
+   "model": "Corvette L88 Coupe (C2)",
+   "modelSlug": "corvette",
+   "price": 3850000,
+   "priceBasis": "Including buyer's premium (hammer $3,500,000)",
+   "saleDate": "2014-01-18",
+   "source": {
+    "name": "GM Authority — Barrett-Jackson Scottsdale sale report (Jan 2014)",
+    "url": "https://gmauthority.com/blog/2014/01/another-1967-corvette-sells-for-3-5-million-sets-world-record-at-barrett-jackson/"
+   },
+   "status": "sold",
+   "year": 1967
+  },
+  {
+   "currency": "USD",
    "event": "RM Auctions Monterey",
    "make": "ferrari",
    "makeName": "Ferrari",
@@ -444,6 +563,23 @@
    "year": 1954
   },
   {
+   "currency": "EUR",
+   "event": "RM Auctions — Villa Erba, Lake Como",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "model": "340/375 MM Berlinetta 'Competizione' (chassis 0320AM)",
+   "modelSlug": null,
+   "price": 9856000,
+   "priceBasis": "Including buyer's premium",
+   "saleDate": "2013-05-25",
+   "source": {
+    "name": "Classic & Sports Car — RM Auctions Villa Erba sale report (27 May 2013; sale 25 May)",
+    "url": "http://www.classicandsportscar.com/node/44335"
+   },
+   "status": "sold",
+   "year": 1953
+  },
+  {
    "currency": "USD",
    "event": "RM Auctions Monterey",
    "make": "ford",
@@ -459,6 +595,23 @@
    },
    "status": "sold",
    "year": 1968
+  },
+  {
+   "currency": "EUR",
+   "event": "RM Auctions Monaco",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "model": "625 TRC Spider (chassis 0680 MDTR)",
+   "modelSlug": null,
+   "price": 5040000,
+   "priceBasis": "As reported from the sale",
+   "saleDate": "2012-05-12",
+   "source": {
+    "name": "ClassicCarWeekly — RM Auctions Monaco 2012 offering (12 May 2012); price per RM Auctions sale report",
+    "url": "http://www.classiccarweekly.net/2012/04/16/ferrari-625-trc/"
+   },
+   "status": "sold",
+   "year": 1957
   },
   {
    "currency": "USD",
@@ -486,9 +639,10 @@
   "Wave 5 pass: the 1935 Duesenberg SSJ ($22,000,000 incl. premium, Gooding & Company, Pebble Beach) — car, price and house are published, but the sources consulted date the sale only to the two-day event (24–25 August 2018), not to the day; skipped rather than dated by inference.",
   "Wave 7 pass: the 1939 Alfa Romeo 8C 2900B Lungo Spider by Touring ($19,800,000 incl. premium, RM Sotheby's Monterey) — car, price and house are published, but the sources consulted date the sale only to the two-day event (19–20 August 2016), not to the session day; skipped rather than dated by inference (the SSJ precedent).",
   "Wave 7 pass: the first Shelby Cobra, CSX 2000 ($13,750,000 incl. premium, RM Sotheby's Monterey, 2016-08-19) — car, price, house and day are all published, but the atlas carries no Shelby marque record and the car is not a Ford; certifying it would require a marque the atlas does not have, so it is skipped rather than misattributed.",
-  "Wave 8 pass: the 1960 Ferrari 250 GT SWB California Spider ($17,055,000 incl. premium, RM Sotheby's Monterey) — car, price and house are published, but the sources consulted date the sale only to the three-day event (15–17 August 2024), not to the day; skipped rather than dated by inference (the SSJ precedent)."
+  "Wave 8 pass: the 1960 Ferrari 250 GT SWB California Spider ($17,055,000 incl. premium, RM Sotheby's Monterey) — car, price and house are published, but the sources consulted date the sale only to the three-day event (15–17 August 2024), not to the day; skipped rather than dated by inference (the SSJ precedent).",
+  "Wave 9 pass: the 1929 Bentley 4½-Litre Supercharged 'Blower' No.1 (£5,042,000 incl. premium, Bonhams, Goodwood Festival of Speed, June 2012) — car, price, house and sale are all published, but the atlas carries no Bentley marque record; certifying it would require a marque the atlas does not have, so it is skipped rather than misattributed (the CSX 2000 precedent)."
  ],
- "stage": "Stage 3 — auction results, extended again",
+ "stage": "Stage 4 — auction results, extended a third time",
  "updatedAt": "2026-10-13",
  "version": "1.0.0"
 }

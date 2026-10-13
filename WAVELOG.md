@@ -1,5 +1,86 @@
 # WAVELOG — Car Atlas
 
+## Wave 9 — Price Watch ingest stage 4: certified results 28 → 37 (2026-10-13)
+
+**Headline (named before building):** Price Watch ingest stage 4 —
+extend the certified-results set beyond the 28 stage-1/2/3 results
+using the stage-1 standard exactly: real auction results only, each
+sourced + day-dated, status sold; a result that cannot be certified
+to that standard is SKIPPED and recorded in the file, never
+approximated or misattributed.
+
+- **Price Watch stage 4:** **28 → 37 certified results**, each
+  certified at ingest on 2026-10-13 against a published source
+  naming car, price, house and day: the 1965 Ford GT40 Roadster
+  Prototype, chassis GT/108 ($7,650,000, RM Sotheby's Monterey,
+  2019-08-16); the 1965 Aston Martin DB5 'Bond Car', chassis
+  DB5/2008/R ($6,385,000 incl. premium, RM Sotheby's Monterey —
+  An Evening with Aston Martin, 2019-08-15); the 1987 Ferrari
+  F40 LM, chassis 74045 (€4,842,500 incl. premium, RM Sotheby's
+  Paris, 2019-02-06); the 1961 Ferrari 250 GT SWB California
+  Spider, chassis 3095 GT ($16,830,000, Gooding & Company Pebble
+  Beach, 2015-08-16); the 1982 Porsche 956, chassis 956-003
+  ($10,120,000, Gooding & Company Pebble Beach, 2015-08-15);
+  the 1961 Ferrari 250 GT SWB California Spider (Baillon
+  Collection), chassis 2935 GT (€16,288,000 incl. premium,
+  Artcurial Rétromobile Paris, lot 59, 2015-02-06); the 1967
+  Chevrolet Corvette L88 Coupe ($3,850,000 incl. premium,
+  Barrett-Jackson Scottsdale, 2014-01-18 — the stage's one new
+  model-level link, `modelSlug: corvette`); the 1953 Ferrari
+  340/375 MM Berlinetta 'Competizione', chassis 0320AM
+  (€9,856,000 incl. premium, RM Auctions Villa Erba, 2013-05-25);
+  the 1957 Ferrari 625 TRC Spider, chassis 0680 MDTR
+  (€5,040,000, RM Auctions Monaco, 2012-05-12). The other eight
+  carry `modelSlug: null` — the atlas has no model records for
+  them, and none was invented; they link at make level, as the
+  earlier GTO/DBR1 records do. Results stay ordered newest first
+  and render on the Buy page (verified: 37 tiles, desktop +
+  mobile; the Corvette model page now shows its L88 result live).
+- **Skipped, recorded in the file itself (1 new;
+  `skippedSources` 8 → 9):** the 1929 Bentley 4½-Litre
+  Supercharged 'Blower' No.1 (£5,042,000 incl. premium, Bonhams,
+  Goodwood Festival of Speed, June 2012) — car, price, house and
+  sale all published, but the atlas carries no Bentley marque
+  record; skipped rather than misattributed (the CSX 2000
+  precedent, applied exactly).
+- **What stage 4 is not:** the listings ingest + cron parked in
+  earlier roadmaps is still not built — it still needs a deploy
+  decision and its own free-tier audit. Stage 4 here is results
+  ingest only: still a static file, no function, no cron, no
+  external call. The file's `stage` field, the Buy page heading,
+  `buying.json`'s new `stage4` note, `API.md`, `GO_LIVE.md`,
+  `LIVE_CHECKLIST.md`, `COVERAGE.md` and `llms.txt` all say so in
+  the same words; counts everywhere re-derived from the data
+  (37 results; 59 / 257 / 469 / 46 unchanged).
+- **Regression: VP-0003 holds.** Build passes (schema + counts +
+  price-watch source check: "37 certified auction results";
+  59 / 257 / 469 unchanged) and re-bakes idempotently; llms
+  checker **PASS — 0 errors, 0 warnings** (17/17 targets).
+  Render checks (headless Chromium, ThreadingHTTPServer, fresh
+  browser): the Buy page renders all 37 results with zero page
+  errors (desktop + mobile; screenshots refreshed in repo and
+  archived at `~/workspace/progress-archive/car-atlas/rotation-018/`);
+  one cold load each of the 911 and the Corvette rendered the
+  full live record (one `<h1>` each, zero page errors).
+- **Parked decisions (unchanged):** (1) a dedicated Ferrari
+  250 GTO model record — the photo and the make-level auction
+  results sit at make level until the owner calls it; (2) the
+  listings-ingest / cron form of Price Watch — needs a deploy
+  decision and its own free-tier audit; (3) a sitemap — lands
+  with GO_LIVE step 5.
+
+### Next waves (planned)
+
+- Living-makes breadth from the COVERAGE list (Bentley, Bugatti,
+  Genesis, MINI, Mitsubishi, Rivian, Rolls-Royce, and the rest) —
+  Bentley's arrival would also unblock the stage-4 Blower skip.
+- Generation depth for the wave-2/3 models (the wave-4 icon
+  treatment, extended).
+- Remaining historic marques from the COVERAGE list (Marlin, MG
+  pre-SAIC lineage, Morgan, Opel, Saturn, Vauxhall).
+- Price Watch: further certified results to the same standard as
+  sources allow; listings ingest only alongside a deploy decision.
+
 ## Wave 8 — Price Watch ingest stage 3: certified results 19 → 28 (2026-10-13)
 
 **Headline (named before building):** Price Watch ingest stage 3 —
