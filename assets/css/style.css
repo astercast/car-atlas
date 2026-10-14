@@ -360,6 +360,17 @@ footer nav { display: flex; gap: 20px; }
      desktop is untouched. */
   .row .t-sub { white-space: normal; }
   .listing > * { min-width: 0; }
+  /* VP-0036 (mobile jumble, rotation 28): the shrink above let the
+     listing column narrow, but the title's own ink still spilled
+     past its box at 320 (7 titles: the unbroken chassis token in
+     "Ferrari F40 (chassis ZFFMN34A5...", +37px on the widest). The
+     token had no break opportunity, so the line painted outside
+     the link instead of wrapping. The title now breaks within its
+     own box at phone widths, the chassis string wrapping onto a
+     second line inside the title's area, whole and untruncated:
+     the same treatment the record ledger's .car already carries
+     below. Desktop is untouched (this block is phone-only). */
+  .listing .l-title { overflow-wrap: anywhere; }
   /* Rotation 23: the same shrink discipline for the record's price
      ledger, whose serif facts carry unbreakable chassis tokens
      (22px over at 320 on the F40 record before this line). */
