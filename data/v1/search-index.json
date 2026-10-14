@@ -1750,7 +1750,7 @@
   "buyingClass": "vintage",
   "generationCount": 1,
   "photo": "assets/photos/lamborghini-miura.webp",
-  "photoCaption": "Miura SV, front 3/4, showroom",
+  "photoCaption": "Lamborghini Miura, yellow, front 3/4, showroom",
   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
@@ -2304,7 +2304,7 @@
   "buyingClass": "vintage",
   "generationCount": 2,
   "photo": "assets/photos/alfa-romeo-giulia-sprint-gt.webp",
-  "photoCaption": "1964 Alfa Romeo Giulia Sprint GT",
+  "photoCaption": "Alfa Romeo Giulia Sprint GT family coupe, white, front 3/4",
   "photoCredit": "Photo: Calreyn88, CC0, via Wikimedia Commons",
   "photoSource": "https://commons.wikimedia.org/wiki/File:1964_Alfa_Romeo_Giulia_Sprint_GT.jpg"
  },
@@ -2416,7 +2416,7 @@
   "buyingClass": "new",
   "generationCount": 1,
   "photo": "assets/photos/aston-martin-valkyrie.webp",
-  "photoCaption": "2019 Aston Martin Valkyrie AMR Pro 6.5 Front",
+  "photoCaption": "Aston Martin Valkyrie, front 3/4, showroom",
   "photoCredit": "Photo: Vauxford, CC BY-SA 4.0, via Wikimedia Commons",
   "photoSource": "https://commons.wikimedia.org/wiki/File:2019_Aston_Martin_Valkyrie_AMR_Pro_6.5_Front.jpg"
  },
@@ -2447,7 +2447,7 @@
   "buyingClass": "vintage",
   "generationCount": 2,
   "photo": "assets/photos/cadillac-eldorado.webp",
-  "photoCaption": "Eldorado 1970, front view, street",
+  "photoCaption": "Full-size Cadillac, front view, street",
   "photoCredit": "Photo: Oleg Yunakov, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
@@ -2579,7 +2579,7 @@
   "buyingClass": "modern-classic",
   "generationCount": 2,
   "photo": "assets/photos/dodge-viper.webp",
-  "photoCaption": "1994 Dodge Viper",
+  "photoCaption": "Dodge Viper RT/10 roadster, hood open, street",
   "photoCredit": "Photo: ArildV, CC BY-SA 4.0, via Wikimedia Commons",
   "photoSource": "https://commons.wikimedia.org/wiki/File:1994_Dodge_Viper.jpg"
  },
@@ -2849,7 +2849,7 @@
   "buyingClass": "modern-classic",
   "generationCount": 2,
   "photo": "assets/photos/lotus-elise.webp",
-  "photoCaption": "Elise (Series 2) SC, yellow, front 3/4",
+  "photoCaption": "Lotus Elise, yellow, front 3/4",
   "photoCredit": "Photo: Thierry & Didier Descouens, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
@@ -3090,7 +3090,7 @@
   "buyingClass": "used",
   "generationCount": 1,
   "photo": "assets/photos/mclaren-720s.webp",
-  "photoCaption": "2017 McLaren 720S 4",
+  "photoCaption": "McLaren Super Series (720S family), front 3/4",
   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
   "photoSource": "https://commons.wikimedia.org/wiki/File:2017_McLaren_720S_4.jpg"
  },
@@ -4130,7 +4130,7 @@
   "buyingClass": "vintage",
   "generationCount": 2,
   "photo": "assets/photos/cord-810-812.webp",
-  "photoCaption": "1936 Cord 810 Westchester Sedan (21559608830)",
+  "photoCaption": "Cord 810/812, front 3/4, museum",
   "photoCredit": "Photo: Sicnag, CC BY 2.0, via Wikimedia Commons",
   "photoSource": "https://commons.wikimedia.org/wiki/File:1936_Cord_810_Westchester_Sedan_(21559608830).jpg"
  },
@@ -4446,7 +4446,7 @@
   "buyingClass": "vintage",
   "generationCount": 1,
   "photo": "assets/photos/stutz-vertical-eight.webp",
-  "photoCaption": "1927 Stutz Vertical Eight AA (21006235774)",
+  "photoCaption": "1920s luxury open tourer, period photo, snow",
   "photoCredit": "Photo: Tekniska museet, CC BY 2.0, via Wikimedia Commons",
   "photoSource": "https://commons.wikimedia.org/wiki/File:1927_Stutz_Vertical_Eight_AA_(21006235774).jpg"
  },
@@ -5678,7 +5678,7 @@
   "buyingClass": "vintage",
   "generationCount": 1,
   "photo": "assets/photos/simca-1000.webp",
-  "photoCaption": "Simca 1000 (1962, 39 PS)",
+  "photoCaption": "Simca 1000 four-door sedan, front 3/4",
   "photoCredit": "Photo: Wleiter, CC BY-SA 4.0, via Wikimedia Commons",
   "photoSource": "https://commons.wikimedia.org/wiki/File:Simca_1000_(1962,_39_PS).jpg"
  },
@@ -5803,7 +5803,7 @@
   "buyingClass": "vintage",
   "generationCount": 1,
   "photo": "assets/photos/willys-mb.webp",
-  "photoCaption": "41 Willys Jeep MB (8937385278)",
+  "photoCaption": "Wartime Jeep (MB pattern) with trailer, front 3/4",
   "photoCredit": "Photo: Greg Gjerdingen from Willmar, USA, CC BY 2.0, via Wikimedia Commons",
   "photoSource": "https://commons.wikimedia.org/wiki/File:41_Willys_Jeep_MB_(8937385278).jpg"
  },
