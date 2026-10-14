@@ -1,7 +1,7 @@
 {
  "buyingClasses": {
   "modern-classic": {
-   "description": "Out of production, 10–30 years old, enthusiast demand rising. Sold through enthusiast auctions and specialist dealers. Condition spread is huge — documentation decides value.",
+   "description": "Out of production, 10–30 years old, enthusiast demand rising. Sold through enthusiast auctions and specialist dealers. Condition spread is huge, documentation decides value.",
    "label": "Modern classic (1995–2015)",
    "primaryChannels": [
     "bringatrailer.com",
@@ -21,7 +21,7 @@
    ]
   },
   "used": {
-   "description": "In production recently or just out of it. Deep listing inventory everywhere — best price is a search problem, solved by aggregation and patience.",
+   "description": "In production recently or just out of it. Deep listing inventory everywhere, best price is a search problem, solved by aggregation and patience.",
    "label": "Used modern (2015–today)",
    "primaryChannels": [
     "autotrader.com",
@@ -46,7 +46,7 @@
  "channels": [
   {
    "audience": "Enthusiast auctions",
-   "blurb": "The auction site that reset modern-classic pricing. Every sale is public, so its results archive is the market's memory — the single best price reference for 1980s–2010s enthusiast cars.",
+   "blurb": "The auction site that reset modern-classic pricing. Every sale is public, so its results archive is the market's memory, the single best price reference for 1980s–2010s enthusiast cars.",
    "domain": "bringatrailer.com",
    "era": "Modern classic, vintage",
    "kind": "Auction",
@@ -62,7 +62,7 @@
   },
   {
    "audience": "American collector cars",
-   "blurb": "The largest collector-car auction house in the world by volume — televised, fast, and the price-setter for American muscle and classics.",
+   "blurb": "The largest collector-car auction house in the world by volume, televised, fast, and the price-setter for American muscle and classics.",
    "domain": "mecum.com",
    "era": "Vintage, modern classic",
    "kind": "Auction",
@@ -78,7 +78,7 @@
   },
   {
    "audience": "Collector cars, automobilia",
-   "blurb": "Centuries-old auction house with deep European coverage — Goodwood sales and classic grids that BaT doesn't reach.",
+   "blurb": "Centuries-old auction house with deep European coverage, Goodwood sales and classic grids that BaT doesn't reach.",
    "domain": "bonhams.com",
    "era": "Vintage",
    "kind": "Auction",
@@ -94,7 +94,7 @@
   },
   {
    "audience": "New and used, dealer inventory",
-   "blurb": "One of the largest US listing aggregators — dealer new inventory plus used, with pricing tools that flag above/below market.",
+   "blurb": "One of the largest US listing aggregators, dealer new inventory plus used, with pricing tools that flag above/below market.",
    "domain": "autotrader.com",
    "era": "New, used",
    "kind": "Marketplace",
@@ -126,7 +126,7 @@
   },
   {
    "audience": "Negotiated pricing",
-   "blurb": "Shows what others actually paid for the same car locally — the reference number to take into a dealership.",
+   "blurb": "Shows what others actually paid for the same car locally, the reference number to take into a dealership.",
    "domain": "truecar.com",
    "era": "New",
    "kind": "Pricing",
@@ -134,7 +134,7 @@
   },
   {
    "audience": "Local private-party",
-   "blurb": "Where the cheap cars live. No buyer protection and no polish, but private-party prices beat dealer retail by thousands — bring a friend and a pre-purchase inspection.",
+   "blurb": "Where the cheap cars live. No buyer protection and no polish, but private-party prices beat dealer retail by thousands, bring a friend and a pre-purchase inspection.",
    "domain": "facebook.com/marketplace",
    "era": "Used, modern classic",
    "kind": "Classifieds",
@@ -142,7 +142,7 @@
   },
   {
    "audience": "Factory-direct brands",
-   "blurb": "Tesla, Rivian, and Lucid sell direct at posted prices — no negotiation, no dealer markup, and the configurator is the showroom.",
+   "blurb": "Tesla, Rivian, and Lucid sell direct at posted prices, no negotiation, no dealer markup, and the configurator is the showroom.",
    "domain": "tesla.com",
    "era": "New EV",
    "kind": "Manufacturer direct",
@@ -151,8 +151,8 @@
  ],
  "note": "Curated outbound destinations, wave 1. Car Atlas does not sell cars or take commissions on listings; channel blurbs are editorial. Always verify a listing on the destination site itself.",
  "priceWatch": {
-  "cadence": "Refresh cycles target a 6-hour ingest per source, with per-listing timestamps shown on every record — a stale price is labeled stale, never presented as live.",
-  "design": "Price Watch is specified in API.md and rolls out in waves: (1) listing ingest adapters per channel in buying.json, normalizing to a common schema (model slug, year, trim, mileage, location, price, source, first-seen, last-seen); (2) price history per listing and per model-year cohort; (3) drop detection against cohort medians; (4) opt-in alerts. Wave 1 ships the schema, the cohort-median method, and this design — no fabricated live prices anywhere.",
+  "cadence": "Refresh cycles target a 6-hour ingest per source, with per-listing timestamps shown on every record, a stale price is labeled stale, never presented as live.",
+  "design": "Price Watch is specified in API.md and rolls out in waves: (1) listing ingest adapters per channel in buying.json, normalizing to a common schema (model slug, year, trim, mileage, location, price, source, first-seen, last-seen); (2) price history per listing and per model-year cohort; (3) drop detection against cohort medians; (4) opt-in alerts. Wave 1 ships the schema, the cohort-median method, and this design, no fabricated live prices anywhere.",
   "schema": [
    "modelSlug",
    "year",
@@ -167,12 +167,12 @@
    "status"
   ],
   "stage1": "Stage 1 shipped in wave 4 (2026-10-13): certified auction results in data/v1/price-watch.json, rendered on the Buy page and on the model pages they belong to. Listings ingest, cohorts, and alerts remain later stages.",
-  "stage2": "Stage 2 shipped in wave 7 (2026-10-13): the certified-results set extended to the same standard — 19 results in all, each sourced and day-dated, with uncertifiable candidates recorded as skips in the file rather than approximated. Stage 2 is results ingest only; the listings ingest, cohorts, and alerts remain later stages.",
-  "stage3": "Stage 3 shipped in wave 8 (2026-10-13): the certified-results set extended again to the same standard — 28 results in all, each sourced and day-dated, with one further uncertifiable candidate recorded as a skip in the file rather than approximated. Stage 3 is results ingest only; the listings ingest, cohorts, and alerts remain later stages.",
-  "stage4": "Stage 4 shipped in wave 9 (2026-10-13): the certified-results set extended a third time to the same standard — 37 results in all, each sourced and day-dated, with one further uncertifiable candidate recorded as a skip in the file rather than misattributed. Stage 4 is results ingest only; the listings ingest, cohorts, and alerts remain later stages.",
-  "stage5": "Stage 5 shipped in wave 10 (2026-10-13): the certified-results set extended a fourth time to the same standard — 46 results in all, each sourced and day-dated, with one further uncertifiable candidate recorded as a skip in the file rather than misattributed. Stage 5 also added a chassis key to every record (the repeat-sale linking key), condition and mileage fields populated only where a source states them, and model-page links for seven earlier records whose models the atlas already carried. Stage 5 is results ingest only; the listings ingest, cohorts, and alerts remain later stages.",
-  "stage6": "Stage 6 shipped in wave 11 (2026-10-13): the world-benchmark delta pass — the certified-results set extended a fifth time to the same standard, 56 results in all, each sourced and day-dated, with one further uncertifiable candidate recorded as a skip in the file rather than misattributed. Eight of the ten new results link to model pages the atlas already carried; condition and mileage were populated wherever the certifying source states them (condition 11/56, mileage 7/56 in the full set). Stage 6 also added the first rung of T-CARS-1 on the Buy page: cohort ranges computed only from certified records sharing a model and a currency (n shown, labelled context not a valuation). The full benchmark/cohort value (T-CARS-1) and follow/notify (T-CARS-5) remain deferred and are argued and priced in BENCHMARK.md. Stage 6 is results ingest only; the listings ingest, true cohorts, and alerts remain later stages."
+  "stage2": "Stage 2 shipped in wave 7 (2026-10-13): the certified-results set extended to the same standard, 19 results in all, each sourced and day-dated, with uncertifiable candidates recorded as skips in the file rather than approximated. Stage 2 is results ingest only; the listings ingest, cohorts, and alerts remain later stages.",
+  "stage3": "Stage 3 shipped in wave 8 (2026-10-13): the certified-results set extended again to the same standard, 28 results in all, each sourced and day-dated, with one further uncertifiable candidate recorded as a skip in the file rather than approximated. Stage 3 is results ingest only; the listings ingest, cohorts, and alerts remain later stages.",
+  "stage4": "Stage 4 shipped in wave 9 (2026-10-13): the certified-results set extended a third time to the same standard, 37 results in all, each sourced and day-dated, with one further uncertifiable candidate recorded as a skip in the file rather than misattributed. Stage 4 is results ingest only; the listings ingest, cohorts, and alerts remain later stages.",
+  "stage5": "Stage 5 shipped in wave 10 (2026-10-13): the certified-results set extended a fourth time to the same standard, 46 results in all, each sourced and day-dated, with one further uncertifiable candidate recorded as a skip in the file rather than misattributed. Stage 5 also added a chassis key to every record (the repeat-sale linking key), condition and mileage fields populated only where a source states them, and model-page links for seven earlier records whose models the atlas already carried. Stage 5 is results ingest only; the listings ingest, cohorts, and alerts remain later stages.",
+  "stage6": "Stage 6 shipped in wave 11 (2026-10-13): the world-benchmark delta pass, the certified-results set extended a fifth time to the same standard, 56 results in all, each sourced and day-dated, with one further uncertifiable candidate recorded as a skip in the file rather than misattributed. Eight of the ten new results link to model pages the atlas already carried; condition and mileage were populated wherever the certifying source states them (condition 11/56, mileage 7/56 in the full set). Stage 6 also added the first rung of T-CARS-1 on the Buy page: cohort ranges computed only from certified records sharing a model and a currency (n shown, labelled context not a valuation). The full benchmark/cohort value (T-CARS-1) and follow/notify (T-CARS-5) remain deferred and are argued and priced in BENCHMARK.md. Stage 6 is results ingest only; the listings ingest, true cohorts, and alerts remain later stages."
  },
- "updatedAt": "2026-10-13",
+ "updatedAt": "2026-10-14",
  "version": "1.0.0"
 }

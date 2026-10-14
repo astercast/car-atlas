@@ -7,12 +7,12 @@
     "Convertible"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Early flat-floor, outside-bonnet-latch Series 1 cars top the market at auction. Buy on body condition — rust repair on the monocoque is where budgets go to die.",
+   "collectorNote": "Early flat-floor, outside-bonnet-latch Series 1 cars top the market at auction. Buy on body condition, rust repair on the monocoque is where budgets go to die.",
    "generations": [
     {
      "code": "Series 1",
      "name": "Series 1",
-     "note": "Launched at £2,097 in the UK — half the price of an Aston Martin with the same 150 mph claim. The 4.2 of 1964 added a better gearbox and seats you could sit in all day.",
+     "note": "Launched at £2,097 in the UK, half the price of an Aston Martin with the same 150 mph claim. The 4.2 of 1964 added a better gearbox and seats you could sit in all day.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "3.8L / 4.2L inline-6 (XK)",
@@ -23,7 +23,7 @@
     {
      "code": "Series 2",
      "name": "Series 2",
-     "note": "US safety rules drove most changes: bigger lights, a wraparound rear bumper, exposed headlights. Mechanically improved, visually diluted — and cheaper to buy today because of it.",
+     "note": "US safety rules drove most changes: bigger lights, a wraparound rear bumper, exposed headlights. Mechanically improved, visually diluted, and cheaper to buy today because of it.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "4.2L inline-6 (XK)",
@@ -85,7 +85,7 @@
     {
      "code": "X350",
      "name": "X350",
-     "note": "An aluminium body under deliberately traditional styling — 40% lighter than the steel car it replaced. The supercharged XJR is the stealth pick of the whole XJ line.",
+     "note": "An aluminium body under deliberately traditional styling, 40% lighter than the steel car it replaced. The supercharged XJR is the stealth pick of the whole XJ line.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "4.2L V8 / supercharged",
@@ -96,7 +96,7 @@
     {
      "code": "X351",
      "name": "X351",
-     "note": "Ian Callum threw out fifty years of XJ styling in one move. All-aluminium, no six-cylinder in the US, and the long-wheelbase car became a genuine chauffeur rival. The last XJ ever — the electric successor was cancelled.",
+     "note": "Ian Callum threw out fifty years of XJ styling in one move. All-aluminium, no six-cylinder in the US, and the long-wheelbase car became a genuine chauffeur rival. The last XJ ever, the electric successor was cancelled.",
      "spec": {
       "drivetrain": "RWD / AWD",
       "engine": "5.0L V8 / supercharged",
@@ -105,7 +105,7 @@
      "years": "2010–2019"
     }
    ],
-   "intro": "Jaguar's flagship saloon for half a century, from William Lyons' Series I to Ian Callum's radical X351. The XJ was always the driver's luxury car — lighter, lower and keener than the German default, when it wasn't being let down by 1970s build quality.",
+   "intro": "Jaguar's flagship saloon for half a century, from William Lyons' Series I to Ian Callum's radical X351. The XJ was always the driver's luxury car, lighter, lower and keener than the German default, when it wasn't being let down by 1970s build quality.",
    "name": "XJ",
    "segment": "Full-size luxury sedan",
    "slug": "xj",
@@ -141,7 +141,7 @@
     {
      "code": "X152 facelift",
      "name": "Facelift",
-     "note": "Slimmer lights, a tidier range and the four-cylinder P300 at the bottom. Production ended in 2024 — the last petrol Jaguar sports car, full stop.",
+     "note": "Slimmer lights, a tidier range and the four-cylinder P300 at the bottom. Production ended in 2024, the last petrol Jaguar sports car, full stop.",
      "spec": {
       "drivetrain": "RWD / AWD",
       "engine": "2.0L turbo inline-4 / 5.0L supercharged V8",
@@ -175,7 +175,7 @@
     {
      "code": "XK120",
      "name": "Production run",
-     "note": "The fastest production car in the world at launch — '120' was the mph claim, and a near-stock car proved 132 mph in Belgium in 1949. About 240 early cars were alloy-bodied before steel production began.",
+     "note": "The fastest production car in the world at launch, '120' was the mph claim, and a near-stock car proved 132 mph in Belgium in 1949. About 240 early cars were alloy-bodied before steel production began.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "3.4L inline-6 (XK)",

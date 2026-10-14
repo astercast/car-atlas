@@ -84,6 +84,11 @@ def main():
                 "bodyStyles": model["bodyStyles"], "intro": model["intro"],
                 "buyingClass": model["buyingClass"],
                 "generationCount": len(model["generations"]),
+                # Sourced photography (wave 4 placement pass fields),
+                # carried so index rows and listing units can embed
+                # the model's photo where one is recorded.
+                **({"photo": model["photo"], "photoCaption": model["photoCaption"],
+                    "photoCredit": model["photoCredit"]} if model.get("photo") else {}),
             })
             # honest-fallback Layer 1 input: the record's static
             # essentials, baked into model.html below so a stalled

@@ -9,12 +9,12 @@
     "Pickup"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "They built 15 million, so rarity is not the value driver — originality and condition are. Brass-era cars (pre-1913) and genuine early production examples are where the money is; a running late T is still one of the cheapest ways into pre-war motoring.",
+   "collectorNote": "They built 15 million, so rarity is not the value driver, originality and condition are. Brass-era cars (pre-1913) and genuine early production examples are where the money is; a running late T is still one of the cheapest ways into pre-war motoring.",
    "generations": [
     {
      "code": "Production run",
      "name": "Production run",
-     "note": "Planetary transmission worked by pedals, a hand throttle on the column, and a crank start for most of its life. Ford famously offered it in any color so long as it was black — faster-drying paint kept the line moving.",
+     "note": "Planetary transmission worked by pedals, a hand throttle on the column, and a crank start for most of its life. Ford famously offered it in any color so long as it was black, faster-drying paint kept the line moving.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "2.9L inline-4",
@@ -91,7 +91,7 @@
     {
      "code": "S197",
      "name": "Fifth generation (S197)",
-     "note": "Retro done right: the 1967 fastback redrawn for the modern crash-test era. The Coyote 5.0 arrives in 2011, and the Shelby GT500 closes the run at 662 hp — the most powerful production V8 of its day.",
+     "note": "Retro done right: the 1967 fastback redrawn for the modern crash-test era. The Coyote 5.0 arrives in 2011, and the Shelby GT500 closes the run at 662 hp, the most powerful production V8 of its day.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "5.0L V8 (Coyote)",
@@ -122,7 +122,7 @@
      "years": "2024–present"
     }
    ],
-   "intro": "Launched in April 1964 and sold 22,000 cars on day one. The Mustang invented the pony car — long hood, short deck, endless options list — and has survived gas crises, the Mustang II, and the SUV era without ever leaving production.",
+   "intro": "Launched in April 1964 and sold 22,000 cars on day one. The Mustang invented the pony car, long hood, short deck, endless options list, and has survived gas crises, the Mustang II, and the SUV era without ever leaving production.",
    "name": "Mustang",
    "photo": "assets/photos/ford-mustang.webp",
    "photoCaption": "Ford Mustang (1971–73 Mach 1)",
@@ -164,7 +164,7 @@
     {
      "code": "Gen 9",
      "name": "Ninth generation",
-     "note": "The last of the square, simple F-150s — and the generation that made the SVT Lightning a thing. The 7.3L Power Stroke diesel versions of the heavy-duty trucks are now cult objects.",
+     "note": "The last of the square, simple F-150s, and the generation that made the SVT Lightning a thing. The 7.3L Power Stroke diesel versions of the heavy-duty trucks are now cult objects.",
      "spec": {
       "drivetrain": "RWD / 4WD",
       "engine": "5.0L V8",
@@ -175,7 +175,7 @@
     {
      "code": "Gen 14",
      "name": "Fourteenth generation",
-     "note": "Aluminium body, a hybrid PowerBoost option, and the all-electric F-150 Lightning alongside. The twin-turbo V6 outsells the V8 — torque won the truck argument years ago.",
+     "note": "Aluminium body, a hybrid PowerBoost option, and the all-electric F-150 Lightning alongside. The twin-turbo V6 outsells the V8, torque won the truck argument years ago.",
      "spec": {
       "drivetrain": "RWD / 4WD",
       "engine": "3.5L twin-turbo V6",
@@ -184,7 +184,7 @@
      "years": "2021–present"
     }
    ],
-   "intro": "America's best-selling vehicle line for over four decades. The F-Series is less a model than an economy — work truck, family hauler, off-road toy, and status symbol, all on the same ladder frame.",
+   "intro": "America's best-selling vehicle line for over four decades. The F-Series is less a model than an economy, work truck, family hauler, off-road toy, and status symbol, all on the same ladder frame.",
    "name": "F-Series (F-150)",
    "segment": "Full-size pickup",
    "slug": "f-series",
@@ -204,12 +204,12 @@
     "Coupe"
    ],
    "buyingClass": "modern-classic",
-   "collectorNote": "GT40 originals trade in the millions and rarely in public. The 2005–2006 GT is the attainable one — still a $400k-plus conversation for low-mile cars, and the 2017 car sits higher again.",
+   "collectorNote": "GT40 originals trade in the millions and rarely in public. The 2005–2006 GT is the attainable one, still a $400k-plus conversation for low-mile cars, and the 2017 car sits higher again.",
    "generations": [
     {
      "code": "GT40",
      "name": "GT40",
-     "note": "Forty inches tall at the roof — that's the name. The 7.0-litre Mk II finished 1-2-3 at Le Mans in 1966, and a GT40 won the race four consecutive years. Originals are eight-figure cars.",
+     "note": "Forty inches tall at the roof, that's the name. The 7.0-litre Mk II finished 1-2-3 at Le Mans in 1966, and a GT40 won the race four consecutive years. Originals are eight-figure cars.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "7.0L V8 (427)",
@@ -231,7 +231,7 @@
     {
      "code": "GT (2017)",
      "name": "Ford GT, second revival",
-     "note": "Carbon tub, active aero, and a twin-turbo V6 where everyone expected a V8. Won its class at Le Mans in 2016, fifty years after the 1966 win — Ford planned it that way.",
+     "note": "Carbon tub, active aero, and a twin-turbo V6 where everyone expected a V8. Won its class at Le Mans in 2016, fifty years after the 1966 win, Ford planned it that way.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "3.5L twin-turbo V6",
@@ -240,7 +240,7 @@
      "years": "2017–2022"
     }
    ],
-   "intro": "One nameplate, three separate vendettas against physics. The GT40 was built to beat Ferrari at Le Mans after Enzo walked away from selling to Ford — and did it four years straight, 1966 to 1969. Both modern revivals exist because that grudge never cooled.",
+   "intro": "One nameplate, three separate vendettas against physics. The GT40 was built to beat Ferrari at Le Mans after Enzo walked away from selling to Ford, and did it four years straight, 1966 to 1969. Both modern revivals exist because that grudge never cooled.",
    "name": "GT (GT40 lineage)",
    "segment": "Supercar",
    "slug": "gt",
@@ -273,7 +273,7 @@
     {
      "code": "Gen 5",
      "name": "Fifth generation",
-     "note": "The full-size, F-150-based Bronco — the white one from the 1994 slow-speed chase is a 1993 model. A genuinely comfortable truck that happened to have a removable top.",
+     "note": "The full-size, F-150-based Bronco, the white one from the 1994 slow-speed chase is a 1993 model. A genuinely comfortable truck that happened to have a removable top.",
      "spec": {
       "drivetrain": "4WD",
       "engine": "5.8L V8",

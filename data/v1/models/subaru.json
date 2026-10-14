@@ -8,7 +8,7 @@
     "Wagon"
    ],
    "buyingClass": "new",
-   "collectorNote": "Unmodified STIs — especially 2004–2007 US cars and clean GC-era imports — are the appreciating ones. A modified WRX is worth what the parts are worth, minus the worry.",
+   "collectorNote": "Unmodified STIs, especially 2004–2007 US cars and clean GC-era imports, are the appreciating ones. A modified WRX is worth what the parts are worth, minus the worry.",
    "generations": [
     {
      "code": "GC8",
@@ -35,7 +35,7 @@
     {
      "code": "VB",
      "name": "Current WRX",
-     "note": "A standalone model now, not an Impreza trim. The 2.4L turbo makes 271 hp, the plastic arch cladding divides opinion, and there is no STI — Subaru says the next one, if it comes, will be electrified.",
+     "note": "A standalone model now, not an Impreza trim. The 2.4L turbo makes 271 hp, the plastic arch cladding divides opinion, and there is no STI, Subaru says the next one, if it comes, will be electrified.",
      "spec": {
       "drivetrain": "AWD",
       "engine": "2.4L turbo flat-4",
@@ -109,7 +109,7 @@
      "years": "2019–2025"
     }
    ],
-   "intro": "The wagon that out-SUV'd the SUVs. Subaru jacked up a Legacy, added cladding, and accidentally created the blueprint for half the cars on American roads today — while never giving up the wagon part.",
+   "intro": "The wagon that out-SUV'd the SUVs. Subaru jacked up a Legacy, added cladding, and accidentally created the blueprint for half the cars on American roads today, while never giving up the wagon part.",
    "name": "Outback",
    "segment": "Wagon / crossover",
    "slug": "outback",
@@ -132,7 +132,7 @@
     {
      "code": "ZC6",
      "name": "First generation",
-     "note": "Co-developed with Toyota (sold as the GT86/Scion FR-S) around one idea: low weight, low centre of gravity, rear drive, and just 200 hp — enough, if you drive it properly.",
+     "note": "Co-developed with Toyota (sold as the GT86/Scion FR-S) around one idea: low weight, low centre of gravity, rear drive, and just 200 hp, enough, if you drive it properly.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "2.0L flat-4",
@@ -173,7 +173,7 @@
     {
      "code": "SF",
      "name": "First generation",
-     "note": "Impreza bones, tall body, standard all-wheel drive — a formula nobody else was selling in 1997. The turbocharged Japanese-market cars hinted at what was coming.",
+     "note": "Impreza bones, tall body, standard all-wheel drive, a formula nobody else was selling in 1997. The turbocharged Japanese-market cars hinted at what was coming.",
      "spec": {
       "drivetrain": "AWD",
       "engine": "2.5L flat-4",
@@ -195,7 +195,7 @@
     {
      "code": "SK",
      "name": "Fifth generation",
-     "note": "Bigger, safer, CVT-only, and turbo-free — the XT spirit moved to the Outback. As family transport, though, this is the most complete Forester ever sold.",
+     "note": "Bigger, safer, CVT-only, and turbo-free, the XT spirit moved to the Outback. As family transport, though, this is the most complete Forester ever sold.",
      "spec": {
       "drivetrain": "AWD",
       "engine": "2.5L flat-4",

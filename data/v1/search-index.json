@@ -6,7 +6,7 @@
   "name": "Toyota",
   "country": "Japan",
   "founded": 1937,
-  "blurb": "The best-selling carmaker on Earth. Built its name on durability, then proved it could do excitement too — the 2000GT, the Supra, and a Land Cruiser that outlasts its owners.",
+  "blurb": "The best-selling carmaker on Earth. Built its name on durability, then proved it could do excitement too, the 2000GT, the Supra, and a Land Cruiser that outlasts its owners.",
   "modelCount": 7
  },
  {
@@ -23,7 +23,7 @@
    "Hatchback",
    "Wagon"
   ],
-  "intro": "The best-selling nameplate in history — more than 50 million sold. The Corolla is the default answer to 'what car should I buy?' on every continent, and the GR Corolla proves the badge can still have a pulse.",
+  "intro": "The best-selling nameplate in history, more than 50 million sold. The Corolla is the default answer to 'what car should I buy?' on every continent, and the GR Corolla proves the badge can still have a pulse.",
   "buyingClass": "new",
   "generationCount": 3
  },
@@ -39,7 +39,7 @@
   "bodyStyles": [
    "Sedan"
   ],
-  "intro": "America's best-selling sedan for over two decades. The Camry is the car as appliance done perfectly — and since 2024, hybrid-only, which tells you where the whole segment went.",
+  "intro": "America's best-selling sedan for over two decades. The Camry is the car as appliance done perfectly, and since 2024, hybrid-only, which tells you where the whole segment went.",
   "buyingClass": "new",
   "generationCount": 3
  },
@@ -57,7 +57,10 @@
   ],
   "intro": "Four generations of inline-six grand tourer, one legend: the Mk IV's 2JZ engine became the most famous tuning platform on Earth. The name returned in 2019, co-developed with BMW.",
   "buyingClass": "modern-classic",
-  "generationCount": 3
+  "generationCount": 3,
+  "photo": "assets/photos/toyota-supra-a80.webp",
+  "photoCaption": "Supra A80 (Mk IV), modified example, Hong Kong street",
+  "photoCredit": "Photo: Dinkun Chen, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -72,9 +75,12 @@
    "SUV",
    "Pickup"
   ],
-  "intro": "The vehicle that goes where roads apologize. From the FJ40 to the 300 Series, the Land Cruiser is the expedition default on every continent — the car aid workers and armies trust when failure isn't an option.",
+  "intro": "The vehicle that goes where roads apologize. From the FJ40 to the 300 Series, the Land Cruiser is the expedition default on every continent, the car aid workers and armies trust when failure isn't an option.",
   "buyingClass": "modern-classic",
-  "generationCount": 8
+  "generationCount": 8,
+  "photo": "assets/photos/toyota-land-cruiser.webp",
+  "photoCaption": "Land Cruiser 70 double-cab",
+  "photoCredit": "Photo: Johannes Maximilian, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -121,7 +127,7 @@
   "bodyStyles": [
    "Coupe"
   ],
-  "intro": "Japan's first supercar. Co-developed with Yamaha, hand-built in tiny numbers — 351 cars — and proof in 1967 that Japan could build a world-class GT. A Bond film made one a convertible because Sean Connery didn't fit.",
+  "intro": "Japan's first supercar. Co-developed with Yamaha, hand-built in tiny numbers, 351 cars, and proof in 1967 that Japan could build a world-class GT. A Bond film made one a convertible because Sean Connery didn't fit.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -149,7 +155,7 @@
    "Hatchback",
    "Coupe"
   ],
-  "intro": "Started as a fuel-crisis runabout and grew into the compact benchmark. Every generation has had a version worth caring about — and the Type R versions are among the best front-drive cars ever made.",
+  "intro": "Started as a fuel-crisis runabout and grew into the compact benchmark. Every generation has had a version worth caring about, and the Type R versions are among the best front-drive cars ever made.",
   "buyingClass": "new",
   "generationCount": 3
  },
@@ -187,7 +193,10 @@
   ],
   "intro": "The supercar that embarrassed Ferrari on reliability and usability, then came back 25 years later as a hybrid. Ayrton Senna helped develop the first one. That fact alone tells you the intent.",
   "buyingClass": "modern-classic",
-  "generationCount": 2
+  "generationCount": 2,
+  "photo": "assets/photos/honda-nsx.webp",
+  "photoCaption": "NSX (first generation), front 3/4",
+  "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -201,7 +210,7 @@
   "bodyStyles": [
    "Roadster"
   ],
-  "intro": "A 9,000 rpm love letter to the naturally aspirated engine. The F20C made 120 hp per litre — a record for a production road car at launch — and the shifter is still the benchmark every manual is judged against.",
+  "intro": "A 9,000 rpm love letter to the naturally aspirated engine. The F20C made 120 hp per litre, a record for a production road car at launch, and the shifter is still the benchmark every manual is judged against.",
   "buyingClass": "modern-classic",
   "generationCount": 2
  },
@@ -245,7 +254,10 @@
   ],
   "intro": "Nissan's giant-killer, built for 17 years with one brief: be faster than cars costing three times as much. It mostly was. All-wheel drive, a hand-built twin-turbo V6, and a launch-control party trick that never got old.",
   "buyingClass": "modern-classic",
-  "generationCount": 2
+  "generationCount": 2,
+  "photo": "assets/photos/nissan-gt-r.webp",
+  "photoCaption": "Nissan GT-R (R35)",
+  "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -276,7 +288,7 @@
   "bodyStyles": [
    "Coupe"
   ],
-  "intro": "Three generations of Skyline GT-R that never officially came to America — which only sharpened the legend. The RB26 engine's official 276 hp was a gentlemen's-agreement fiction everyone politely maintained.",
+  "intro": "Three generations of Skyline GT-R that never officially came to America, which only sharpened the legend. The RB26 engine's official 276 hp was a gentlemen's-agreement fiction everyone politely maintained.",
   "buyingClass": "modern-classic",
   "generationCount": 3
  },
@@ -337,7 +349,10 @@
   ],
   "intro": "The best-selling two-seat sports car in history, and the answer to almost any 'what fun car should I buy?' question. Power was never the point. Response, weight, and a roof that drops in seconds always were.",
   "buyingClass": "new",
-  "generationCount": 3
+  "generationCount": 3,
+  "photo": "assets/photos/mazda-mx-5.webp",
+  "photoCaption": "Mazda MX-5 (NA), front-end bra fitted",
+  "photoCredit": "Photo: Chris Woodrich, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -384,7 +399,7 @@
   "bodyStyles": [
    "SUV"
   ],
-  "intro": "The crossover that proved family cars didn't have to steer like appliances. The CX-5 built Mazda's modern business — the profits from this car fund everything else the company makes.",
+  "intro": "The crossover that proved family cars didn't have to steer like appliances. The CX-5 built Mazda's modern business, the profits from this car fund everything else the company makes.",
   "buyingClass": "new",
   "generationCount": 3
  },
@@ -414,7 +429,10 @@
   ],
   "intro": "Rally car for the road, in continuous production in spirit since 1992. Turbo flat-four, all-wheel drive, and a bonnet scoop you could set your watch by. The STI versions are modern classics; the plain WRX is just a great all-weather fast car.",
   "buyingClass": "new",
-  "generationCount": 3
+  "generationCount": 3,
+  "photo": "assets/photos/subaru-wrx-sti.webp",
+  "photoCaption": "WRX STI (VA), rally-prepared example in competition livery",
+  "photoCredit": "Photo: Yu Chu Chin, CC BY 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -429,7 +447,7 @@
    "Wagon",
    "Crossover"
   ],
-  "intro": "The wagon that out-SUV'd the SUVs. Subaru jacked up a Legacy, added cladding, and accidentally created the blueprint for half the cars on American roads today — while never giving up the wagon part.",
+  "intro": "The wagon that out-SUV'd the SUVs. Subaru jacked up a Legacy, added cladding, and accidentally created the blueprint for half the cars on American roads today, while never giving up the wagon part.",
   "buyingClass": "new",
   "generationCount": 3
  },
@@ -472,7 +490,7 @@
   "name": "Hyundai",
   "country": "South Korea",
   "founded": 1967,
-  "blurb": "The fastest climb in the industry — from budget punchline in the 1990s to design-led EVs and the N performance division that embarrasses hot hatches twice its price.",
+  "blurb": "The fastest climb in the industry, from budget punchline in the 1990s to design-led EVs and the N performance division that embarrasses hot hatches twice its price.",
   "modelCount": 4
  },
  {
@@ -523,7 +541,10 @@
   ],
   "intro": "A retro-futuristic hatchback the size of a crossover, and the car that made Hyundai a design leader in the EV era. Pixel lights, a flat floor, and charging speeds that embarrassed cars costing twice as much at launch.",
   "buyingClass": "new",
-  "generationCount": 1
+  "generationCount": 1,
+  "photo": "assets/photos/hyundai-ioniq-5.webp",
+  "photoCaption": "Ioniq 5, rear 3/4, plugged in at a charger",
+  "photoCredit": "Photo: Alexander-93, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -584,9 +605,12 @@
    "Convertible",
    "Fastback"
   ],
-  "intro": "Launched in April 1964 and sold 22,000 cars on day one. The Mustang invented the pony car — long hood, short deck, endless options list — and has survived gas crises, the Mustang II, and the SUV era without ever leaving production.",
+  "intro": "Launched in April 1964 and sold 22,000 cars on day one. The Mustang invented the pony car, long hood, short deck, endless options list, and has survived gas crises, the Mustang II, and the SUV era without ever leaving production.",
   "buyingClass": "new",
-  "generationCount": 7
+  "generationCount": 7,
+  "photo": "assets/photos/ford-mustang.webp",
+  "photoCaption": "Ford Mustang (1971–73 Mach 1)",
+  "photoCredit": "Photo: Matti Blume, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -600,7 +624,7 @@
   "bodyStyles": [
    "Pickup"
   ],
-  "intro": "America's best-selling vehicle line for over four decades. The F-Series is less a model than an economy — work truck, family hauler, off-road toy, and status symbol, all on the same ladder frame.",
+  "intro": "America's best-selling vehicle line for over four decades. The F-Series is less a model than an economy, work truck, family hauler, off-road toy, and status symbol, all on the same ladder frame.",
   "buyingClass": "new",
   "generationCount": 3
  },
@@ -616,7 +640,7 @@
   "bodyStyles": [
    "Coupe"
   ],
-  "intro": "One nameplate, three separate vendettas against physics. The GT40 was built to beat Ferrari at Le Mans after Enzo walked away from selling to Ford — and did it four years straight, 1966 to 1969. Both modern revivals exist because that grudge never cooled.",
+  "intro": "One nameplate, three separate vendettas against physics. The GT40 was built to beat Ferrari at Le Mans after Enzo walked away from selling to Ford, and did it four years straight, 1966 to 1969. Both modern revivals exist because that grudge never cooled.",
   "buyingClass": "modern-classic",
   "generationCount": 3
  },
@@ -661,7 +685,10 @@
   ],
   "intro": "America's attainable supercar since 1953. The Corvette's trick has always been the arithmetic: most of a European exotic's speed for a fraction of the price. The C8's move to a mid-engine layout in 2020 broke a 67-year tradition and nobody sensible misses the old one.",
   "buyingClass": "new",
-  "generationCount": 8
+  "generationCount": 8,
+  "photo": "assets/photos/chevrolet-corvette-hero.webp",
+  "photoCaption": "Corvette C2 1963 split-window coupe, front 3/4",
+  "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -676,7 +703,7 @@
    "Coupe",
    "Convertible"
   ],
-  "intro": "GM's answer to the Mustang, launched for 1967 and locked in the pony-car war for six generations. Production ended again in 2024 with no successor announced — the sixth generation went out as the best-driving Camaro ever made.",
+  "intro": "GM's answer to the Mustang, launched for 1967 and locked in the pony-car war for six generations. Production ended again in 2024 with no successor announced, the sixth generation went out as the best-driving Camaro ever made.",
   "buyingClass": "modern-classic",
   "generationCount": 3
  },
@@ -730,7 +757,7 @@
    "Convertible",
    "Wagon"
   ],
-  "intro": "Chevrolet's flagship nameplate from 1958, and the best-selling car in America through the mid-1960s — over a million sold in 1965 alone. It lived three lives: the 1960s icon, the 1990s Impala SS sleeper, and a competent front-drive sedan until 2020.",
+  "intro": "Chevrolet's flagship nameplate from 1958, and the best-selling car in America through the mid-1960s, over a million sold in 1965 alone. It lived three lives: the 1960s icon, the 1990s Impala SS sleeper, and a competent front-drive sedan until 2020.",
   "buyingClass": "used",
   "generationCount": 3
  },
@@ -756,9 +783,12 @@
   "bodyStyles": [
    "SUV"
   ],
-  "intro": "The direct descendant of the Willys MB that won a war, carried through the CJ line and renamed Wrangler in 1987. Solid axles, a folding windshield, doors that come off — the formula has survived four corporate owners because altering it would end the business.",
+  "intro": "The direct descendant of the Willys MB that won a war, carried through the CJ line and renamed Wrangler in 1987. Solid axles, a folding windshield, doors that come off, the formula has survived four corporate owners because altering it would end the business.",
   "buyingClass": "new",
-  "generationCount": 3
+  "generationCount": 3,
+  "photo": "assets/photos/jeep-wrangler.webp",
+  "photoCaption": "Jeep Wrangler (JL)",
+  "photoCredit": "Photo: Dinkun Chen, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -772,7 +802,7 @@
   "bodyStyles": [
    "SUV"
   ],
-  "intro": "The SUV that took Jeep upmarket. The Grand Cherokee created the premium 4x4 niche in 1993 — proper off-road hardware under a vehicle you'd park at a hotel — and Range Rover has been answering it ever since.",
+  "intro": "The SUV that took Jeep upmarket. The Grand Cherokee created the premium 4x4 niche in 1993, proper off-road hardware under a vehicle you'd park at a hotel, and Range Rover has been answering it ever since.",
   "buyingClass": "new",
   "generationCount": 3
  },
@@ -788,7 +818,7 @@
   "bodyStyles": [
    "SUV"
   ],
-  "intro": "CJ stands for Civilian Jeep — the Willys MB demobbed in 1945 and sold to farmers, surveyors, and anyone who needed to get somewhere roads didn't go. The CJ-5 alone ran for 29 years, and every Wrangler since is this shape with better manners.",
+  "intro": "CJ stands for Civilian Jeep, the Willys MB demobbed in 1945 and sold to farmers, surveyors, and anyone who needed to get somewhere roads didn't go. The CJ-5 alone ran for 29 years, and every Wrangler since is this shape with better manners.",
   "buyingClass": "vintage",
   "generationCount": 3
  },
@@ -847,7 +877,7 @@
   "bodyStyles": [
    "Sedan"
   ],
-  "intro": "The car that forced every major maker to build an EV program. Launched in 2012 with range and acceleration no production EV had combined before, and still on sale — heavily revised underneath — more than a decade later.",
+  "intro": "The car that forced every major maker to build an EV program. Launched in 2012 with range and acceleration no production EV had combined before, and still on sale, heavily revised underneath, more than a decade later.",
   "buyingClass": "new",
   "generationCount": 2
  },
@@ -865,7 +895,10 @@
   ],
   "intro": "Tesla's mass-market bet, and the car that took EVs mainstream: over two million sold, the best-selling EV in the world for stretches of its life, and the reason every legacy maker now has an electric sedan program.",
   "buyingClass": "new",
-  "generationCount": 2
+  "generationCount": 2,
+  "photo": "assets/photos/tesla-model-3.webp",
+  "photoCaption": "Model 3 Performance, front 3/4, street",
+  "photoCredit": "Photo: AuHaidhausen, CC BY 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -879,7 +912,7 @@
   "bodyStyles": [
    "SUV"
   ],
-  "intro": "The best-selling car in the world in 2023 — not the best-selling EV, the best-selling car, full stop. The Model Y is the Model 3's formula raised onto a crossover body, and it outsells everything Tesla makes combined.",
+  "intro": "The best-selling car in the world in 2023, not the best-selling EV, the best-selling car, full stop. The Model Y is the Model 3's formula raised onto a crossover body, and it outsells everything Tesla makes combined.",
   "buyingClass": "new",
   "generationCount": 2
  },
@@ -895,7 +928,7 @@
   "bodyStyles": [
    "Pickup"
   ],
-  "intro": "Unveiled in 2019 with a smashed window on stage, delivered from late 2023. The Cybertruck's stainless wedge looks like a rendering error; underneath sit genuinely radical choices — steer-by-wire and a 48V architecture — wrapped in the most polarising truck ever sold.",
+  "intro": "Unveiled in 2019 with a smashed window on stage, delivered from late 2023. The Cybertruck's stainless wedge looks like a rendering error; underneath sit genuinely radical choices, steer-by-wire and a 48V architecture, wrapped in the most polarising truck ever sold.",
   "buyingClass": "new",
   "generationCount": 1
  },
@@ -941,7 +974,7 @@
    "Sedan",
    "Wagon"
   ],
-  "intro": "The executive sedan done the BMW way: rear-drive balance, a proper straight-six up front, and just enough aggression. At its best — the E39 — it was possibly the finest sedan in the world.",
+  "intro": "The executive sedan done the BMW way: rear-drive balance, a proper straight-six up front, and just enough aggression. At its best, the E39, it was possibly the finest sedan in the world.",
   "buyingClass": "new",
   "generationCount": 3
  },
@@ -962,7 +995,10 @@
   ],
   "intro": "Born as a homologation special for touring-car racing, kept as the fast 3 Series with its own engine, chassis, and attitude. The market treats it as its own model, and so does everyone who has driven one.",
   "buyingClass": "new",
-  "generationCount": 3
+  "generationCount": 3,
+  "photo": "assets/photos/bmw-m3.webp",
+  "photoCaption": "BMW M3 (E30) Peter Brock Mobil race car",
+  "photoCredit": "Photo: Yu Chu Chin, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -1020,7 +1056,7 @@
    "Sedan",
    "Coupe"
   ],
-  "intro": "The car the rest of the industry copies five years later. Air suspension, massaging seats, night vision — if it debuts anywhere, it debuts here. The name is short for Sonderklasse: special class. It has earned it more often than not.",
+  "intro": "The car the rest of the industry copies five years later. Air suspension, massaging seats, night vision, if it debuts anywhere, it debuts here. The name is short for Sonderklasse: special class. It has earned it more often than not.",
   "buyingClass": "new",
   "generationCount": 3
  },
@@ -1039,7 +1075,7 @@
    "Coupe",
    "Convertible"
   ],
-  "intro": "The taxi in Stuttgart, the boardroom car everywhere else. The E-Class line — the W124 carried it before the name existed — is Mercedes at its most durable and least theatrical, which is exactly the point.",
+  "intro": "The taxi in Stuttgart, the boardroom car everywhere else. The E-Class line, the W124 carried it before the name existed, is Mercedes at its most durable and least theatrical, which is exactly the point.",
   "buyingClass": "new",
   "generationCount": 3
  },
@@ -1056,9 +1092,12 @@
    "Coupe",
    "Roadster"
   ],
-  "intro": "It starts with the 300SL Gullwing — the fastest production car of its day and still the collector benchmark — and continues as seven decades of open-top grand touring. The current car is an AMG product; the early car is automotive royalty.",
+  "intro": "It starts with the 300SL Gullwing, the fastest production car of its day and still the collector benchmark, and continues as seven decades of open-top grand touring. The current car is an AMG product; the early car is automotive royalty.",
   "buyingClass": "new",
-  "generationCount": 3
+  "generationCount": 3,
+  "photo": "assets/photos/mercedes-benz-300sl.webp",
+  "photoCaption": "300 SL roadster, hood open, indoor show",
+  "photoCredit": "Photo: Matti Blume, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -1072,7 +1111,7 @@
   "bodyStyles": [
    "SUV"
   ],
-  "intro": "A military utility vehicle that became a luxury icon without changing its silhouette. Three locking differentials, a ladder frame, and door hinges on the outside — the shape is the substance, and Mercedes has wisely never messed with it.",
+  "intro": "A military utility vehicle that became a luxury icon without changing its silhouette. Three locking differentials, a ladder frame, and door hinges on the outside, the shape is the substance, and Mercedes has wisely never messed with it.",
   "buyingClass": "new",
   "generationCount": 3
  },
@@ -1117,9 +1156,12 @@
    "Convertible",
    "Targa"
   ],
-  "intro": "One car, perfected for sixty years. The engine is still in the wrong place, the silhouette is still a teardrop, and the 911 is still the sports car everything else is judged against — because Porsche never stopped developing it.",
+  "intro": "One car, perfected for sixty years. The engine is still in the wrong place, the silhouette is still a teardrop, and the 911 is still the sports car everything else is judged against, because Porsche never stopped developing it.",
   "buyingClass": "new",
-  "generationCount": 8
+  "generationCount": 8,
+  "photo": "assets/photos/porsche-911.webp",
+  "photoCaption": "Porsche 911 (992), green, showroom",
+  "photoCredit": "Photo: Matti Blume, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -1133,7 +1175,7 @@
   "bodyStyles": [
    "SUV"
   ],
-  "intro": "The SUV that saved Porsche — purists hated it in 2002 and the profits funded every GT car since. It also happened to be genuinely good: fast, capable off-road, and unmistakably a Porsche to drive.",
+  "intro": "The SUV that saved Porsche, purists hated it in 2002 and the profits funded every GT car since. It also happened to be genuinely good: fast, capable off-road, and unmistakably a Porsche to drive.",
   "buyingClass": "new",
   "generationCount": 3
  },
@@ -1212,9 +1254,12 @@
    "Coupe",
    "Convertible"
   ],
-  "intro": "The best-selling single design in car history — over 21 million originals. An air-cooled rear-engined economy car that outlived its century, then came back twice as nostalgia. The original is the one that matters.",
+  "intro": "The best-selling single design in car history, over 21 million originals. An air-cooled rear-engined economy car that outlived its century, then came back twice as nostalgia. The original is the one that matters.",
   "buyingClass": "vintage",
-  "generationCount": 3
+  "generationCount": 3,
+  "photo": "assets/photos/volkswagen-beetle-classic.webp",
+  "photoCaption": "Beetle 1965 sedan, rear 3/4",
+  "photoCredit": "Photo: Greg Gjerdingen, CC BY 2.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -1229,7 +1274,7 @@
    "Hatchback",
    "Wagon"
   ],
-  "intro": "The Beetle's replacement and the car that defined the modern hatchback. The GTI variant invented the hot hatch in 1976 — a family car with a big engine and red trim that embarrassed sports cars — and every generation since has had to live up to it.",
+  "intro": "The Beetle's replacement and the car that defined the modern hatchback. The GTI variant invented the hot hatch in 1976, a family car with a big engine and red trim that embarrassed sports cars, and every generation since has had to live up to it.",
   "buyingClass": "new",
   "generationCount": 3
  },
@@ -1246,7 +1291,7 @@
    "Van",
    "Pickup"
   ],
-  "intro": "A delivery van that became a cultural era. The Bus carried hippies, surfboards, families, and half of Brazil — production there ran until 2013. Few vehicles have ever meant as much to as many different people.",
+  "intro": "A delivery van that became a cultural era. The Bus carried hippies, surfboards, families, and half of Brazil, production there ran until 2013. Few vehicles have ever meant as much to as many different people.",
   "buyingClass": "vintage",
   "generationCount": 2
  },
@@ -1263,7 +1308,7 @@
    "Sedan",
    "Wagon"
   ],
-  "intro": "Volkswagen's sensible family car for fifty years — which produced some genuinely odd highlights, including a W8 engine nobody asked for. The US sedan ended in 2022, but the nameplate continues in Europe as a wagon and in China as a sedan.",
+  "intro": "Volkswagen's sensible family car for fifty years, which produced some genuinely odd highlights, including a W8 engine nobody asked for. The US sedan ended in 2022, but the nameplate continues in Europe as a wagon and in China as a sedan.",
   "buyingClass": "new",
   "generationCount": 3
  },
@@ -1289,9 +1334,12 @@
   "bodyStyles": [
    "Coupe"
   ],
-  "intro": "The original — Ur-Quattro in German, ur meaning ancestral. A turbocharged five-cylinder coupe with permanent all-wheel drive, launched in 1980 when that combination did not exist in a road car. It rewrote rallying, then rewrote what a fast road car was supposed to be. Every quattro-badged Audi since — the badge is lowercase for the system now — is this car's descendant.",
+  "intro": "The original, Ur-Quattro in German, ur meaning ancestral. A turbocharged five-cylinder coupe with permanent all-wheel drive, launched in 1980 when that combination did not exist in a road car. It rewrote rallying, then rewrote what a fast road car was supposed to be. Every quattro-badged Audi since, the badge is lowercase for the system now, is this car's descendant.",
   "buyingClass": "vintage",
-  "generationCount": 3
+  "generationCount": 3,
+  "photo": "assets/photos/audi-quattro.webp",
+  "photoCaption": "Sport quattro (Ur-Quattro family), museum display",
+  "photoCredit": "Photo: Anna (Grassau), CC BY-SA 2.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -1323,7 +1371,7 @@
    "Coupe",
    "Convertible"
   ],
-  "intro": "Audi's supercar, built on Lamborghini bones and better for being the sensible one: a V8 — then a soaring naturally aspirated V10 — behind the seats, all-wheel drive, and usability no Italian rival matched. The first generation's gated manual is already legend.",
+  "intro": "Audi's supercar, built on Lamborghini bones and better for being the sensible one: a V8, then a soaring naturally aspirated V10, behind the seats, all-wheel drive, and usability no Italian rival matched. The first generation's gated manual is already legend.",
   "buyingClass": "modern-classic",
   "generationCount": 2
  },
@@ -1340,7 +1388,7 @@
    "Coupe",
    "Roadster"
   ],
-  "intro": "A design concept that escaped the motor show almost unchanged. The first TT was Bauhaus on wheels — a perfect geometric statement with a car underneath — and the line spent 25 years getting faster, peaking with the five-cylinder TT RS.",
+  "intro": "A design concept that escaped the motor show almost unchanged. The first TT was Bauhaus on wheels, a perfect geometric statement with a car underneath, and the line spent 25 years getting faster, peaking with the five-cylinder TT RS.",
   "buyingClass": "modern-classic",
   "generationCount": 3
  },
@@ -1399,7 +1447,7 @@
   "bodyStyles": [
    "Coupe"
   ],
-  "intro": "The poster car of the 1980s. Side strakes feeding side-mounted radiators, a flat-12 mounted low in the middle, and a starring role on Miami Vice. Nearly 10,000 were built across the Testarossa, 512 TR and F512 M — huge numbers for a Ferrari flagship.",
+  "intro": "The poster car of the 1980s. Side strakes feeding side-mounted radiators, a flat-12 mounted low in the middle, and a starring role on Miami Vice. Nearly 10,000 were built across the Testarossa, 512 TR and F512 M, huge numbers for a Ferrari flagship.",
   "buyingClass": "vintage",
   "generationCount": 3
  },
@@ -1415,7 +1463,7 @@
   "bodyStyles": [
    "Coupe"
   ],
-  "intro": "Named for the founder and built as a Formula 1 car in road clothes — carbon tub, automated-manual gearbox, carbon-ceramic brakes, and aero that generated serious downforce without a big rear wing. 400 built, including the last one for the Pope.",
+  "intro": "Named for the founder and built as a Formula 1 car in road clothes, carbon tub, automated-manual gearbox, carbon-ceramic brakes, and aero that generated serious downforce without a big rear wing. 400 built, including the last one for the Pope.",
   "buyingClass": "modern-classic",
   "generationCount": 1
  },
@@ -1443,7 +1491,7 @@
   "name": "Lamborghini",
   "country": "Italy",
   "founded": 1963,
-  "blurb": "Ferruccio built tractors, got insulted by Enzo Ferrari, and answered with the Miura. Lamborghini has been the loud answer ever since — Countach posters defined a generation's bedroom walls.",
+  "blurb": "Ferruccio built tractors, got insulted by Enzo Ferrari, and answered with the Miura. Lamborghini has been the loud answer ever since, Countach posters defined a generation's bedroom walls.",
   "modelCount": 5
  },
  {
@@ -1458,9 +1506,12 @@
   "bodyStyles": [
    "Coupe"
   ],
-  "intro": "The car that invented the mid-engined supercar. Ferruccio Lamborghini's young engineers built it after hours, against his wishes — he wanted a grand tourer. The transverse V12 layout rewrote the rulebook permanently, and Gandini's styling has never been bettered at Sant'Agata.",
+  "intro": "The car that invented the mid-engined supercar. Ferruccio Lamborghini's young engineers built it after hours, against his wishes, he wanted a grand tourer. The transverse V12 layout rewrote the rulebook permanently, and Gandini's styling has never been bettered at Sant'Agata.",
   "buyingClass": "vintage",
-  "generationCount": 1
+  "generationCount": 1,
+  "photo": "assets/photos/lamborghini-miura.webp",
+  "photoCaption": "Miura SV, front 3/4, showroom",
+  "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -1474,7 +1525,7 @@
   "bodyStyles": [
    "Coupe"
   ],
-  "intro": "The wedge. Gandini's scissor-doored V12 spent sixteen years as the definitive poster car, growing wider, wingier and faster the whole way. Impractical, cramped, nearly impossible to reverse — and completely untouchable as an object.",
+  "intro": "The wedge. Gandini's scissor-doored V12 spent sixteen years as the definitive poster car, growing wider, wingier and faster the whole way. Impractical, cramped, nearly impossible to reverse, and completely untouchable as an object.",
   "buyingClass": "vintage",
   "generationCount": 3
  },
@@ -1491,7 +1542,7 @@
    "Coupe",
    "Convertible"
   ],
-  "intro": "The Gallardo's successor and the last of the naturally aspirated V10s. Over two decades of production variants — Evo, Performante, STO, Tecnica, Sterrato — made it Lamborghini's best-selling sports car before the Temerario replaced it in 2024.",
+  "intro": "The Gallardo's successor and the last of the naturally aspirated V10s. Over two decades of production variants, Evo, Performante, STO, Tecnica, Sterrato, made it Lamborghini's best-selling sports car before the Temerario replaced it in 2024.",
   "buyingClass": "used",
   "generationCount": 2
  },
@@ -1552,7 +1603,7 @@
    "Wagon",
    "Coupe"
   ],
-  "intro": "The brick. Nearly three million built over nineteen years, and a significant number are still running — the 240 is the car that made Volvo's safety-and-durability reputation permanent. Slow, upright, honest, and close to immortal when maintained.",
+  "intro": "The brick. Nearly three million built over nineteen years, and a significant number are still running, the 240 is the car that made Volvo's safety-and-durability reputation permanent. Slow, upright, honest, and close to immortal when maintained.",
   "buyingClass": "vintage",
   "generationCount": 2
  },
@@ -1568,7 +1619,7 @@
   "bodyStyles": [
    "SUV"
   ],
-  "intro": "Volvo's bestseller and the car that proved a seven-seat SUV could be about safety instead of size. The second-generation car's interior — open-pore wood, a portrait touchscreen, seats like armchairs — embarrassed German rivals at launch.",
+  "intro": "Volvo's bestseller and the car that proved a seven-seat SUV could be about safety instead of size. The second-generation car's interior, open-pore wood, a portrait touchscreen, seats like armchairs, embarrassed German rivals at launch.",
   "buyingClass": "new",
   "generationCount": 2
  },
@@ -1585,9 +1636,12 @@
    "Coupe",
    "Shooting brake"
   ],
-  "intro": "Volvo's beautiful mistake: a curvaceous Italian-styled GT from a company known for boxes, built first by Jensen in England. Roger Moore drove one in The Saint, and one New York owner's car passed three million miles — the highest mileage ever recorded.",
+  "intro": "Volvo's beautiful mistake: a curvaceous Italian-styled GT from a company known for boxes, built first by Jensen in England. Roger Moore drove one in The Saint, and one New York owner's car passed three million miles, the highest mileage ever recorded.",
   "buyingClass": "vintage",
-  "generationCount": 2
+  "generationCount": 2,
+  "photo": "assets/photos/volvo-p1800.webp",
+  "photoCaption": "P1800 ES (shooting brake), front 3/4",
+  "photoCredit": "Photo: Berthold Werner, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -1630,7 +1684,10 @@
   ],
   "intro": "Enzo Ferrari reportedly called it the most beautiful car ever made, and he was not wrong. 150 mph for a third of an Aston's price in 1961, on a monocoque with the XK engine and independent rear suspension. The standard every GT since has been judged against.",
   "buyingClass": "vintage",
-  "generationCount": 3
+  "generationCount": 3,
+  "photo": "assets/photos/jaguar-e-type.webp",
+  "photoCaption": "E-Type roadster, front 3/4",
+  "photoCredit": "Photo: Berthold Werner, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -1644,7 +1701,7 @@
   "bodyStyles": [
    "Sedan"
   ],
-  "intro": "Jaguar's flagship saloon for half a century, from William Lyons' Series I to Ian Callum's radical X351. The XJ was always the driver's luxury car — lighter, lower and keener than the German default, when it wasn't being let down by 1970s build quality.",
+  "intro": "Jaguar's flagship saloon for half a century, from William Lyons' Series I to Ian Callum's radical X351. The XJ was always the driver's luxury car, lighter, lower and keener than the German default, when it wasn't being let down by 1970s build quality.",
   "buyingClass": "used",
   "generationCount": 3
  },
@@ -1704,9 +1761,12 @@
   "bodyStyles": [
    "SUV"
   ],
-  "intro": "Seventy years of farm, army and expedition service made the original Defender a British institution — and about as comfortable as one. The 2020 replacement kept the name and the look, replaced the ladder frame and live axles with a monocoque, and sold in numbers the original never approached.",
+  "intro": "Seventy years of farm, army and expedition service made the original Defender a British institution, and about as comfortable as one. The 2020 replacement kept the name and the look, replaced the ladder frame and live axles with a monocoque, and sold in numbers the original never approached.",
   "buyingClass": "new",
-  "generationCount": 2
+  "generationCount": 2,
+  "photo": "assets/photos/land-rover-defender.webp",
+  "photoCaption": "Defender 110, Royal Brunei ceremonial vehicle",
+  "photoCredit": "Photo: Yu Chu Chin, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -1747,7 +1807,7 @@
   "name": "Lexus",
   "country": "Japan",
   "founded": 1989,
-  "blurb": "Toyota spent a billion dollars and five years building a Mercedes-beater in secret, then launched it in 1989 to a stunned industry. The luxury arm has been the quiet benchmark ever since — and built the LFA just to prove it could.",
+  "blurb": "Toyota spent a billion dollars and five years building a Mercedes-beater in secret, then launched it in 1989 to a stunned industry. The luxury arm has been the quiet benchmark ever since, and built the LFA just to prove it could.",
   "modelCount": 5
  },
  {
@@ -1778,9 +1838,12 @@
   "bodyStyles": [
    "Coupe"
   ],
-  "intro": "A decade in development, a carbon tub, and a Yamaha-co-developed V10 that revs to 9,000 rpm faster than an analogue tach could follow — so the dial went digital. 500 built, each at a loss.",
+  "intro": "A decade in development, a carbon tub, and a Yamaha-co-developed V10 that revs to 9,000 rpm faster than an analogue tach could follow, so the dial went digital. 500 built, each at a loss.",
   "buyingClass": "modern-classic",
-  "generationCount": 1
+  "generationCount": 1,
+  "photo": "assets/photos/lexus-lfa.webp",
+  "photoCaption": "LFA production coupe, side profile",
+  "photoCredit": "Photo: 先従隗始, CC0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -1794,7 +1857,7 @@
   "bodyStyles": [
    "Sedan"
   ],
-  "intro": "Lexus's answer to the 3 Series, sold in Japan as the Toyota Altezza — chronograph-style instruments, a jewel of a straight six, and later the V8 IS 500 as a parting gift to the segment.",
+  "intro": "Lexus's answer to the 3 Series, sold in Japan as the Toyota Altezza, chronograph-style instruments, a jewel of a straight six, and later the V8 IS 500 as a parting gift to the segment.",
   "buyingClass": "new",
   "generationCount": 2
  },
@@ -1810,7 +1873,7 @@
   "bodyStyles": [
    "SUV"
   ],
-  "intro": "The original luxury crossover — a car-based SUV before the industry had a name for it. The RX hybrid of 2005 also made electrification a luxury feature rather than a compromise.",
+  "intro": "The original luxury crossover, a car-based SUV before the industry had a name for it. The RX hybrid of 2005 also made electrification a luxury feature rather than a compromise.",
   "buyingClass": "new",
   "generationCount": 3
  },
@@ -1827,7 +1890,7 @@
    "Coupe",
    "Convertible"
   ],
-  "intro": "The LF-LC concept car made production almost unchanged — a V8 grand tourer with concept-car surfacing, a ten-speed automatic, and one of the great interiors of its decade.",
+  "intro": "The LF-LC concept car made production almost unchanged, a V8 grand tourer with concept-car surfacing, a ten-speed automatic, and one of the great interiors of its decade.",
   "buyingClass": "new",
   "generationCount": 1
  },
@@ -1838,7 +1901,7 @@
   "name": "Alfa Romeo",
   "country": "Italy",
   "founded": 1910,
-  "blurb": "Founded in Milan in 1910, Alfa won the first two Formula 1 world championships and employed a young Enzo Ferrari. The cars have always been emotional purchases — the Giulia Quadrifoglio is the current argument.",
+  "blurb": "Founded in Milan in 1910, Alfa won the first two Formula 1 world championships and employed a young Enzo Ferrari. The cars have always been emotional purchases, the Giulia Quadrifoglio is the current argument.",
   "modelCount": 5
  },
  {
@@ -1853,7 +1916,7 @@
   "bodyStyles": [
    "Sedan"
   ],
-  "intro": "Project Giorgio: Alfa poached Ferrari engineers, spent billions, and produced a rear-drive sedan whose Quadrifoglio variant — with a Ferrari-derived twin-turbo V6 — reset the sports-sedan benchmark.",
+  "intro": "Project Giorgio: Alfa poached Ferrari engineers, spent billions, and produced a rear-drive sedan whose Quadrifoglio variant, with a Ferrari-derived twin-turbo V6, reset the sports-sedan benchmark.",
   "buyingClass": "new",
   "generationCount": 1
  },
@@ -1885,9 +1948,12 @@
   "bodyStyles": [
    "Convertible"
   ],
-  "intro": "The Duetto: Pininfarina's round-tail roadster, Dustin Hoffman's co-star in The Graduate, and one of the longest-lived sports car designs ever — 28 years with the same basic body.",
+  "intro": "The Duetto: Pininfarina's round-tail roadster, Dustin Hoffman's co-star in The Graduate, and one of the longest-lived sports car designs ever, 28 years with the same basic body.",
   "buyingClass": "vintage",
-  "generationCount": 2
+  "generationCount": 2,
+  "photo": "assets/photos/alfa-romeo-spider.webp",
+  "photoCaption": "Spider 2000 Veloce (Series 2), on road",
+  "photoCredit": "Photo: Ermell, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -1918,7 +1984,7 @@
   "bodyStyles": [
    "Coupe"
   ],
-  "intro": "Bertone's stepped-nose coupé, styled by a young Giorgetto Giugiaro. The GTA variant — aluminium skin, twin-plug head — owned European touring car racing in the late 1960s.",
+  "intro": "Bertone's stepped-nose coupé, styled by a young Giorgetto Giugiaro. The GTA variant, aluminium skin, twin-plug head, owned European touring car racing in the late 1960s.",
   "buyingClass": "vintage",
   "generationCount": 2
  },
@@ -1945,9 +2011,12 @@
    "Coupe",
    "Convertible"
   ],
-  "intro": "The Goldfinger car — though the DB4 did the engineering, the DB5 did the immortality. Tadek Marek's twin-cam six, a ZF five-speed, and the template for every Aston since.",
+  "intro": "The Goldfinger car, though the DB4 did the engineering, the DB5 did the immortality. Tadek Marek's twin-cam six, a ZF five-speed, and the template for every Aston since.",
   "buyingClass": "vintage",
-  "generationCount": 1
+  "generationCount": 1,
+  "photo": "assets/photos/aston-martin-db5.webp",
+  "photoCaption": "DB5 Volante (convertible), front 3/4",
+  "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -2022,7 +2091,7 @@
   "name": "Cadillac",
   "country": "United States",
   "founded": 1902,
-  "blurb": "Henry Leland built Cadillac on interchangeable parts and precision machining in 1902. It defined American luxury for a century — tailfins, the Escalade, and a Blackwing line that out-handles the Germans.",
+  "blurb": "Henry Leland built Cadillac on interchangeable parts and precision machining in 1902. It defined American luxury for a century, tailfins, the Escalade, and a Blackwing line that out-handles the Germans.",
   "modelCount": 4
  },
  {
@@ -2040,7 +2109,10 @@
   ],
   "intro": "Fifty years of America's idea of luxury, from the hand-built 1953 convertible through the tallest tailfins ever fitted to a production car, to the final front-drive coupé of 2002.",
   "buyingClass": "vintage",
-  "generationCount": 2
+  "generationCount": 2,
+  "photo": "assets/photos/cadillac-eldorado.webp",
+  "photoCaption": "Eldorado 1970, front view, street",
+  "photoCredit": "Photo: Oleg Yunakov, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -2054,7 +2126,7 @@
   "bodyStyles": [
    "SUV"
   ],
-  "intro": "A Yukon Denali in a tuxedo that became a cultural fixture — and Cadillac's profit engine. The current car added a 38-inch curved OLED and a 682 hp V-Series.",
+  "intro": "A Yukon Denali in a tuxedo that became a cultural fixture, and Cadillac's profit engine. The current car added a 38-inch curved OLED and a 682 hp V-Series.",
   "buyingClass": "new",
   "generationCount": 2
  },
@@ -2099,7 +2171,7 @@
   "name": "Dodge",
   "country": "United States",
   "founded": 1900,
-  "blurb": "The Dodge brothers started as machinists supplying Ford before building their own car in 1914. The modern brand distilled itself to one idea — horsepower, cheap — and the Hellcat era was its glorious peak.",
+  "blurb": "The Dodge brothers started as machinists supplying Ford before building their own car in 1914. The modern brand distilled itself to one idea, horsepower, cheap, and the Hellcat era was its glorious peak.",
   "modelCount": 4
  },
  {
@@ -2115,9 +2187,12 @@
    "Coupe",
    "Sedan"
   ],
-  "intro": "From the 1968 car that defined the muscle silhouette, through two decades as a four-door sedan with Hellcat power, to the electric-and-six-cylinder Charger of 2024 — the nameplate keeps reinventing the same idea.",
+  "intro": "From the 1968 car that defined the muscle silhouette, through two decades as a four-door sedan with Hellcat power, to the electric-and-six-cylinder Charger of 2024, the nameplate keeps reinventing the same idea.",
   "buyingClass": "new",
-  "generationCount": 3
+  "generationCount": 3,
+  "photo": "assets/photos/dodge-charger.webp",
+  "photoCaption": "Charger (modern LD sedan), front 3/4",
+  "photoCredit": "Photo: Ermell, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -2131,7 +2206,7 @@
   "bodyStyles": [
    "Coupe"
   ],
-  "intro": "Late to the pony-car fight in 1970, gone by 1974, then reborn in 2008 as a full-size retro coupé that outlived its rivals — and ended with the 840 hp Demon and the 1,025 hp Demon 170.",
+  "intro": "Late to the pony-car fight in 1970, gone by 1974, then reborn in 2008 as a full-size retro coupé that outlived its rivals, and ended with the 840 hp Demon and the 1,025 hp Demon 170.",
   "buyingClass": "used",
   "generationCount": 2
  },
@@ -2164,7 +2239,7 @@
   "bodyStyles": [
    "SUV"
   ],
-  "intro": "Three rows and a Hemi for most of its life. The SRT Hellcat version — 710 hp, briefly the most powerful production SUV in the world — turned the school run into a drag strip.",
+  "intro": "Three rows and a Hemi for most of its life. The SRT Hellcat version, 710 hp, briefly the most powerful production SUV in the world, turned the school run into a drag strip.",
   "buyingClass": "new",
   "generationCount": 1
  },
@@ -2175,7 +2250,7 @@
   "name": "GMC",
   "country": "United States",
   "founded": 1911,
-  "blurb": "GM's truck-only division since 1911. GMC sells the same bones as Chevrolet trucks with a premium brief — Denali became a luxury brand inside the brand, and the Hummer EV gave it an electric halo.",
+  "blurb": "GM's truck-only division since 1911. GMC sells the same bones as Chevrolet trucks with a premium brief, Denali became a luxury brand inside the brand, and the Hummer EV gave it an electric halo.",
   "modelCount": 4
  },
  {
@@ -2190,9 +2265,12 @@
   "bodyStyles": [
    "Pickup"
   ],
-  "intro": "Chevrolet's Silverado with a premium brief — and in Denali form, the truck that taught American luxury buyers to shop at a GMC store. C/K pickups carried the lineage before the Sierra name took over.",
+  "intro": "Chevrolet's Silverado with a premium brief, and in Denali form, the truck that taught American luxury buyers to shop at a GMC store. C/K pickups carried the lineage before the Sierra name took over.",
   "buyingClass": "new",
-  "generationCount": 2
+  "generationCount": 2,
+  "photo": "assets/photos/gmc-sierra.webp",
+  "photoCaption": "Sierra Denali (GMT K2XX), front 3/4",
+  "photoCredit": "Photo: Alexander Migl, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -2265,7 +2343,7 @@
   "bodyStyles": [
    "Sedan"
   ],
-  "intro": "Kia's gran turismo: rear-drive, a twin-turbo V6, and chassis tuning by BMW M's former engineering chief Albert Biermann. It never sold like a 4 Series — which is why the good ones are bargains.",
+  "intro": "Kia's gran turismo: rear-drive, a twin-turbo V6, and chassis tuning by BMW M's former engineering chief Albert Biermann. It never sold like a 4 Series, which is why the good ones are bargains.",
   "buyingClass": "used",
   "generationCount": 1
  },
@@ -2283,7 +2361,10 @@
   ],
   "intro": "The E-GMP skateboard in a shooting-brake suit: 800-volt charging, a European Car of the Year trophy, and a GT flagship with 576 hp that embarrassed supercars at drag strips.",
   "buyingClass": "new",
-  "generationCount": 1
+  "generationCount": 1,
+  "photo": "assets/photos/kia-ev6.webp",
+  "photoCaption": "EV6 GT-Line, front 3/4",
+  "photoCredit": "Photo: Alexander Migl, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -2297,7 +2378,7 @@
   "bodyStyles": [
    "SUV"
   ],
-  "intro": "The three-row that swept the 2020 awards — World Car of the Year, MotorTrend SUV of the Year, North American Utility of the Year — by being honest, handsome, and priced under the Germans it out-finished.",
+  "intro": "The three-row that swept the 2020 awards, World Car of the Year, MotorTrend SUV of the Year, North American Utility of the Year, by being honest, handsome, and priced under the Germans it out-finished.",
   "buyingClass": "new",
   "generationCount": 1
  },
@@ -2324,7 +2405,7 @@
   "name": "Lotus",
   "country": "United Kingdom",
   "founded": 1948,
-  "blurb": "Colin Chapman's doctrine — simplify, then add lightness — won seven Formula 1 constructors' titles and defined the British sports car. Now Geely-owned and electric-bound, with the Emira as the last petrol farewell.",
+  "blurb": "Colin Chapman's doctrine, simplify, then add lightness, won seven Formula 1 constructors' titles and defined the British sports car. Now Geely-owned and electric-bound, with the Emira as the last petrol farewell.",
   "modelCount": 5
  },
  {
@@ -2340,7 +2421,7 @@
    "Convertible",
    "Coupe"
   ],
-  "intro": "The definitive Chapman road car: a steel backbone chassis, fibreglass body, twin-cam power, and 675 kg. The Elan's steering feel is still the reference other roadsters are measured against — Mazda benchmarked it for the MX-5.",
+  "intro": "The definitive Chapman road car: a steel backbone chassis, fibreglass body, twin-cam power, and 675 kg. The Elan's steering feel is still the reference other roadsters are measured against, Mazda benchmarked it for the MX-5.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -2374,7 +2455,10 @@
   ],
   "intro": "The car that saved Lotus, named for Romano Artioli's granddaughter. A bonded aluminium tub at 725 kg proved in 1996 that lightness, not power, was the way back.",
   "buyingClass": "modern-classic",
-  "generationCount": 2
+  "generationCount": 2,
+  "photo": "assets/photos/lotus-elise.webp",
+  "photoCaption": "Elise (Series 2) SC, yellow, front 3/4",
+  "photoCredit": "Photo: Thierry & Didier Descouens, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -2415,7 +2499,7 @@
   "name": "Maserati",
   "country": "Italy",
   "founded": 1914,
-  "blurb": "Six brothers from Bologna, a trident borrowed from a Neptune statue, and a century of racing and grand touring. Maserati has lived under Citroën, De Tomaso, Ferrari, and now Stellantis — the cars kept their opera regardless.",
+  "blurb": "Six brothers from Bologna, a trident borrowed from a Neptune statue, and a century of racing and grand touring. Maserati has lived under Citroën, De Tomaso, Ferrari, and now Stellantis, the cars kept their opera regardless.",
   "modelCount": 6
  },
  {
@@ -2481,7 +2565,10 @@
   ],
   "intro": "Pininfarina's long-lived GT defined Maserati for a decade with a Ferrari V8; the second generation returned in 2023 with the Nettuno V6 and an all-electric Folgore flagship.",
   "buyingClass": "new",
-  "generationCount": 2
+  "generationCount": 2,
+  "photo": "assets/photos/maserati-granturismo.webp",
+  "photoCaption": "GranTurismo Sport 2016, front 3/4",
+  "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -2496,7 +2583,7 @@
    "Coupe",
    "Convertible"
   ],
-  "intro": "Maserati's return to racing, built on the Enzo's bones to homologate a GT1 car. Bigger, rarer, and in race trim far more successful than the Ferrari it came from — five FIA GT titles.",
+  "intro": "Maserati's return to racing, built on the Enzo's bones to homologate a GT1 car. Bigger, rarer, and in race trim far more successful than the Ferrari it came from, five FIA GT titles.",
   "buyingClass": "modern-classic",
   "generationCount": 1
  },
@@ -2513,7 +2600,7 @@
    "Coupe",
    "Convertible"
   ],
-  "intro": "The Trident's clean-sheet supercar: a carbon tub, butterfly doors, and the Nettuno V6 with F1-style pre-chamber ignition — Maserati's own engine again, at last.",
+  "intro": "The Trident's clean-sheet supercar: a carbon tub, butterfly doors, and the Nettuno V6 with F1-style pre-chamber ignition, Maserati's own engine again, at last.",
   "buyingClass": "new",
   "generationCount": 1
  },
@@ -2541,7 +2628,10 @@
   ],
   "intro": "Gordon Murray's manifesto: a BMW V12, a carbon monocoque, a central driving seat, gold foil in the engine bay, and no turbos, no four-wheel drive, no compromise. Still the fastest naturally aspirated production car ever built.",
   "buyingClass": "modern-classic",
-  "generationCount": 1
+  "generationCount": 1,
+  "photo": "assets/photos/mclaren-f1.webp",
+  "photoCaption": "F1 GTR Longtail (race car), rear view",
+  "photoCredit": "Photo: Ank Kumar, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -2616,7 +2706,7 @@
   "name": "DeLorean",
   "country": "United States",
   "founded": 1975,
-  "blurb": "John Z. DeLorean left GM to build the car of the future: unpainted stainless panels, gullwing doors, and a factory in Dunmurry, Northern Ireland. One model, three model years, receivership in 1982 — and, thanks to a time machine in a 1985 film, immortality.",
+  "blurb": "John Z. DeLorean left GM to build the car of the future: unpainted stainless panels, gullwing doors, and a factory in Dunmurry, Northern Ireland. One model, three model years, receivership in 1982, and, thanks to a time machine in a 1985 film, immortality.",
   "modelCount": 1
  },
  {
@@ -2631,9 +2721,12 @@
   "bodyStyles": [
    "Coupe"
   ],
-  "intro": "The only DeLorean: a Giugiaro wedge in brushed stainless steel over a Lotus-engineered backbone chassis, built in Northern Ireland with British government money. Underpowered, over budget, and — after Back to the Future — the most recognisable car of the 1980s.",
+  "intro": "The only DeLorean: a Giugiaro wedge in brushed stainless steel over a Lotus-engineered backbone chassis, built in Northern Ireland with British government money. Underpowered, over budget, and, after Back to the Future, the most recognisable car of the 1980s.",
   "buyingClass": "vintage",
-  "generationCount": 1
+  "generationCount": 1,
+  "photo": "assets/photos/delorean-dmc-12.webp",
+  "photoCaption": "DMC-12, front 3/4, outdoor meet",
+  "photoCredit": "Photo: Berthold Werner, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "make",
@@ -2676,9 +2769,12 @@
    "Sedan",
    "Coupe"
   ],
-  "intro": "Unveiled at the 1928 New York show as a chassis alone costing more than a whole Cadillac: 265 hp when 100 was a lot, built to carry the greatest coachwork of the age — Murphy, LeBaron, Derham, Figoni. The definitive American classic.",
+  "intro": "Unveiled at the 1928 New York show as a chassis alone costing more than a whole Cadillac: 265 hp when 100 was a lot, built to carry the greatest coachwork of the age, Murphy, LeBaron, Derham, Figoni. The definitive American classic.",
   "buyingClass": "vintage",
-  "generationCount": 2
+  "generationCount": 2,
+  "photo": "assets/photos/duesenberg-model-j.webp",
+  "photoCaption": "Model J 1934, front 3/4, museum",
+  "photoCredit": "Photo: Michael Barera, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "make",
@@ -2687,7 +2783,7 @@
   "name": "Packard",
   "country": "United States",
   "founded": 1899,
-  "blurb": "'Ask the man who owns one.' Founded in Warren, Ohio and Detroit-based from 1903, Packard was American luxury's default answer for half a century — Twin Sixes, straight-eights and Twelves built to the standard Rolls-Royce was measured against. A merger with Studebaker and a changing market ended it in 1958; the best Packards remain blue-chip classics.",
+  "blurb": "'Ask the man who owns one.' Founded in Warren, Ohio and Detroit-based from 1903, Packard was American luxury's default answer for half a century, Twin Sixes, straight-eights and Twelves built to the standard Rolls-Royce was measured against. A merger with Studebaker and a changing market ended it in 1958; the best Packards remain blue-chip classics.",
   "modelCount": 4
  },
  {
@@ -2704,7 +2800,7 @@
    "Convertible",
    "Coupe"
   ],
-  "intro": "Packard's V12 flagship — launched as the Twin Six in 1932, renamed Twelve a year later — was Detroit's answer to the great European chassis: silent, torquey, and bodied by the best shops in America.",
+  "intro": "Packard's V12 flagship, launched as the Twin Six in 1932, renamed Twelve a year later, was Detroit's answer to the great European chassis: silent, torquey, and bodied by the best shops in America.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -2721,7 +2817,7 @@
    "Sedan",
    "Convertible"
   ],
-  "intro": "The straight-eight backbone of the Packard range for nearly two decades — the car most people meant by 'a Packard' — spanning the Classic era, the streamline years and the first postwar cars.",
+  "intro": "The straight-eight backbone of the Packard range for nearly two decades, the car most people meant by 'a Packard', spanning the Classic era, the streamline years and the first postwar cars.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -2740,7 +2836,10 @@
   ],
   "intro": "Packard's halo car of the fifties: a low-volume convertible with continental flair, wire wheels and tri-tone paint, built to fight Cadillac's Eldorado. The 1956 hardtop joined for the final year.",
   "buyingClass": "vintage",
-  "generationCount": 1
+  "generationCount": 1,
+  "photo": "assets/photos/packard-caribbean.webp",
+  "photoCaption": "Caribbean 1955 convertible, front view",
+  "photoCredit": "Photo: Oleg Yunakov, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -2765,7 +2864,7 @@
   "name": "Saab",
   "country": "Sweden",
   "founded": 1937,
-  "blurb": "An aircraft company that built cars like aircraft: teardrop bodies, two-stroke engines, front-wheel drive proven in Swedish snow, and turbocharging for everyone years before it was fashion. GM ownership ended in the 2011 bankruptcy; the faithful — and the cars — never really left.",
+  "blurb": "An aircraft company that built cars like aircraft: teardrop bodies, two-stroke engines, front-wheel drive proven in Swedish snow, and turbocharging for everyone years before it was fashion. GM ownership ended in the 2011 bankruptcy; the faithful, and the cars, never really left.",
   "modelCount": 6
  },
  {
@@ -2781,7 +2880,7 @@
    "Sedan",
    "Wagon"
   ],
-  "intro": "Saab's first three decades in one line: a teardrop two-stroke shaped by aircraft engineers, evolved from the 92 through the 93 to the long-lived 96 — rally winner, family staple, and the car that made front-wheel drive make sense in winter.",
+  "intro": "Saab's first three decades in one line: a teardrop two-stroke shaped by aircraft engineers, evolved from the 92 through the 93 to the long-lived 96, rally winner, family staple, and the car that made front-wheel drive make sense in winter.",
   "buyingClass": "vintage",
   "generationCount": 2
  },
@@ -2798,7 +2897,7 @@
    "Sedan",
    "Hatchback"
   ],
-  "intro": "The bigger, safer Saab: wraparound windscreen, ignition by the handbrake, and in 1978 the 99 Turbo — one of the first production cars to make turbocharging a road-car virtue rather than a racing trick.",
+  "intro": "The bigger, safer Saab: wraparound windscreen, ignition by the handbrake, and in 1978 the 99 Turbo, one of the first production cars to make turbocharging a road-car virtue rather than a racing trick.",
   "buyingClass": "vintage",
   "generationCount": 2
  },
@@ -2818,7 +2917,10 @@
   ],
   "intro": "The Saab most people picture: the upright windscreen, the deep hatch, the turbo whistle. The 'classic' 900 ran fifteen years and made the marque; its GM-platform successor shared the name and little else.",
   "buyingClass": "vintage",
-  "generationCount": 2
+  "generationCount": 2,
+  "photo": "assets/photos/saab-900.webp",
+  "photoCaption": "900 Turbo 16 (1989), front 3/4",
+  "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -2833,7 +2935,7 @@
    "Sedan",
    "Hatchback"
   ],
-  "intro": "Saab's big car, developed with Fiat, Lancia and Alfa Romeo on the shared Type Four programme — but characteristically Saabified, and in Aero form one of the great sleepers: mid-range punch that embarrassed period supercars.",
+  "intro": "Saab's big car, developed with Fiat, Lancia and Alfa Romeo on the shared Type Four programme, but characteristically Saabified, and in Aero form one of the great sleepers: mid-range punch that embarrassed period supercars.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -2851,7 +2953,7 @@
    "Convertible",
    "Wagon"
   ],
-  "intro": "The 900's successor under GM, twice over: first a deep facelift of the old car — Viggen included — then the 2003 Sport Sedan, all-new, with the Aero V6 and the all-wheel-drive Turbo X as its peaks. NEVS briefly restarted the line in 2013.",
+  "intro": "The 900's successor under GM, twice over: first a deep facelift of the old car, Viggen included, then the 2003 Sport Sedan, all-new, with the Aero V6 and the all-wheel-drive Turbo X as its peaks. NEVS briefly restarted the line in 2013.",
   "buyingClass": "modern-classic",
   "generationCount": 2
  },
@@ -2879,7 +2981,7 @@
   "name": "Studebaker",
   "country": "United States",
   "founded": 1852,
-  "blurb": "Wagon-maker in 1852 and carmaker from 1902, Studebaker was America's great independent for six decades. Raymond Loewy's studio gave it the landmark 1953 coupes and the Avanti; the Lark nearly saved it. South Bend closed in 1963 and the last cars came from Canada in 1966 — the designs aged better than the balance sheet.",
+  "blurb": "Wagon-maker in 1852 and carmaker from 1902, Studebaker was America's great independent for six decades. Raymond Loewy's studio gave it the landmark 1953 coupes and the Avanti; the Lark nearly saved it. South Bend closed in 1963 and the last cars came from Canada in 1966, the designs aged better than the balance sheet.",
   "modelCount": 4
  },
  {
@@ -2894,7 +2996,7 @@
   "bodyStyles": [
    "Coupe"
   ],
-  "intro": "The 1953 coupes designed under Raymond Loewy — Robert Bourke's clean, low, European line — are regularly called the most beautiful American cars of the fifties. They became the foundation of the Hawk line that followed.",
+  "intro": "The 1953 coupes designed under Raymond Loewy, Robert Bourke's clean, low, European line, are regularly called the most beautiful American cars of the fifties. They became the foundation of the Hawk line that followed.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -2912,7 +3014,7 @@
    "Wagon",
    "Convertible"
   ],
-  "intro": "The compact that saved Studebaker for a while: launched in 1959 just as America discovered small cars, it briefly returned the company to profit — and with the optional V8s, it was quietly quick.",
+  "intro": "The compact that saved Studebaker for a while: launched in 1959 just as America discovered small cars, it briefly returned the company to profit, and with the optional V8s, it was quietly quick.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -2928,7 +3030,7 @@
   "bodyStyles": [
    "Coupe"
   ],
-  "intro": "Brooks Stevens restyled the Loewy coupe's bones into a formal, Mercedes-tinged GT for 1962 — the last Studebaker with real money spent on it, and a credible grand tourer at a Chevrolet price.",
+  "intro": "Brooks Stevens restyled the Loewy coupe's bones into a formal, Mercedes-tinged GT for 1962, the last Studebaker with real money spent on it, and a credible grand tourer at a Chevrolet price.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -2946,7 +3048,10 @@
   ],
   "intro": "Raymond Loewy's team designed it in weeks; Brooks Stevens' studio finished it: a fibreglass, bottom-breather GT with a supercharged option, roll bar built in, and speed records at Bonneville. Studebaker died; the Avanti, built by others, lived on for decades.",
   "buyingClass": "vintage",
-  "generationCount": 1
+  "generationCount": 1,
+  "photo": "assets/photos/studebaker-avanti.webp",
+  "photoCaption": "Avanti 1963, front 3/4",
+  "photoCredit": "Photo: Michael Barera, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "make",
@@ -2970,9 +3075,12 @@
   "bodyStyles": [
    "Sedan"
   ],
-  "intro": "The 'Tin Goose' prototype and fifty production cars: a rear-engined, flat-six sedan years ahead of Detroit — padded dash, pop-out windscreen, a third headlight that turned with the steering, and a corporation that became a courtroom legend.",
+  "intro": "The 'Tin Goose' prototype and fifty production cars: a rear-engined, flat-six sedan years ahead of Detroit, padded dash, pop-out windscreen, a third headlight that turned with the steering, and a corporation that became a courtroom legend.",
   "buyingClass": "vintage",
-  "generationCount": 1
+  "generationCount": 1,
+  "photo": "assets/photos/tucker-48.webp",
+  "photoCaption": "Tucker 48 sedan 1948, front 3/4, Gilmore Car Museum",
+  "photoCredit": "Photo: Greg Gjerdingen, CC BY 2.0, via Wikimedia Commons"
  },
  {
   "type": "make",
@@ -2981,7 +3089,7 @@
   "name": "AMC",
   "country": "United States",
   "founded": 1954,
-  "blurb": "Born of the Nash–Hudson merger in 1954, American Motors survived by being cleverer than the giants: compacts when compacts weren't cool, the Javelin and AMX for the muscle years, and the Eagle — all-wheel drive for ordinary families — a generation before the crossover era. Chrysler absorbed AMC in 1987, mostly for Jeep.",
+  "blurb": "Born of the Nash–Hudson merger in 1954, American Motors survived by being cleverer than the giants: compacts when compacts weren't cool, the Javelin and AMX for the muscle years, and the Eagle, all-wheel drive for ordinary families, a generation before the crossover era. Chrysler absorbed AMC in 1987, mostly for Jeep.",
   "modelCount": 5
  },
  {
@@ -3014,7 +3122,10 @@
   ],
   "intro": "America's other two-seat sports car: a Javelin with a foot cut out of the wheelbase, a 390 V8 option, and a name made of the company's initials. Craig Breedlove took one to Bonneville records before it even went on sale.",
   "buyingClass": "vintage",
-  "generationCount": 1
+  "generationCount": 1,
+  "photo": "assets/photos/amc-amx.webp",
+  "photoCaption": "AMX 1969, front 3/4",
+  "photoCredit": "Photo: Michael Barera, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -3028,7 +3139,7 @@
   "bodyStyles": [
    "Hatchback"
   ],
-  "intro": "Introduced on April Fool's Day, 1970 — a Rambler American with the back chopped off, styled on an air-sickness bag according to legend. Cheap, cheeky, and with the optional 304 V8, absurdly quick for a subcompact.",
+  "intro": "Introduced on April Fool's Day, 1970, a Rambler American with the back chopped off, styled on an air-sickness bag according to legend. Cheap, cheeky, and with the optional 304 V8, absurdly quick for a subcompact.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -3092,7 +3203,10 @@
   ],
   "intro": "The original muscle car: John DeLorean's team slipped a 389 big-block into a mid-size Tempest in 1964 and the era began. Judge, Ram Air, a wilderness decade, and a final Australian-built encore in 2004.",
   "buyingClass": "vintage",
-  "generationCount": 3
+  "generationCount": 3,
+  "photo": "assets/photos/pontiac-gto.webp",
+  "photoCaption": "GTO 1967, front 3/4, lakeside",
+  "photoCredit": "Photo: Greg Gjerdingen, CC BY 2.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -3124,7 +3238,7 @@
    "Coupe",
    "Sedan"
   ],
-  "intro": "Pontiac's personal-luxury nameplate for 46 years: born as a full-size performance coupe with bucket seats and a 421 option, ending as a supercharged front-drive sedan — the GXP even got a V8.",
+  "intro": "Pontiac's personal-luxury nameplate for 46 years: born as a full-size performance coupe with bucket seats and a 421 option, ending as a supercharged front-drive sedan, the GXP even got a V8.",
   "buyingClass": "vintage",
   "generationCount": 2
  },
@@ -3142,7 +3256,7 @@
    "Sedan",
    "Coupe"
   ],
-  "intro": "Named for the salt flats and launched as a fuel-injected convertible flagship in 1957 — every first-year car was a convertible, and 'fuel injection' was Pontiac announcing it had arrived as a performance brand.",
+  "intro": "Named for the salt flats and launched as a fuel-injected convertible flagship in 1957, every first-year car was a convertible, and 'fuel injection' was Pontiac announcing it had arrived as a performance brand.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -3158,7 +3272,7 @@
   "bodyStyles": [
    "Coupe"
   ],
-  "intro": "America's mid-engine commuter car that became a sports car just in time to be cancelled: plastic panels on a spaceframe, a V6 GT by 1985, and a proper fastback for 1986. The 1988 suspension — finally all Pontiac's own design — was the best and the last.",
+  "intro": "America's mid-engine commuter car that became a sports car just in time to be cancelled: plastic panels on a spaceframe, a V6 GT by 1985, and a proper fastback for 1986. The 1988 suspension, finally all Pontiac's own design, was the best and the last.",
   "buyingClass": "modern-classic",
   "generationCount": 1
  },
@@ -3201,7 +3315,7 @@
   "bodyStyles": [
    "Convertible"
   ],
-  "intro": "The car that started mass production's story: a $650 single-cylinder runabout built in the thousands while rivals built dozens — the first Oldsmobile, and for a while the best-selling car in America.",
+  "intro": "The car that started mass production's story: a $650 single-cylinder runabout built in the thousands while rivals built dozens, the first Oldsmobile, and for a while the best-selling car in America.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -3219,7 +3333,7 @@
    "Coupe",
    "Convertible"
   ],
-  "intro": "The 1949 Rocket 88 — a modern overhead-valve V8 in the lighter body — is a founding document of the muscle-car idea and the subject of what is often called the first rock-and-roll record. The 88 nameplate then ran for fifty years.",
+  "intro": "The 1949 Rocket 88, a modern overhead-valve V8 in the lighter body, is a founding document of the muscle-car idea and the subject of what is often called the first rock-and-roll record. The 88 nameplate then ran for fifty years.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -3236,9 +3350,12 @@
    "Coupe",
    "Convertible"
   ],
-  "intro": "Four-barrel, four-speed, dual exhausts — the name was the spec sheet. Born as a police-package option in the GTO's shadow, the 4-4-2 became its own model and, in 455 W-30 form, one of the era's fastest.",
+  "intro": "Four-barrel, four-speed, dual exhausts, the name was the spec sheet. Born as a police-package option in the GTO's shadow, the 4-4-2 became its own model and, in 455 W-30 form, one of the era's fastest.",
   "buyingClass": "vintage",
-  "generationCount": 2
+  "generationCount": 2,
+  "photo": "assets/photos/oldsmobile-442.webp",
+  "photoCaption": "442 convertible 1967, hood open, show field",
+  "photoCredit": "Photo: Michael Barera, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -3271,7 +3388,7 @@
    "Wagon",
    "Convertible"
   ],
-  "intro": "For a time, the Cutlass was simply the best-selling car in America — the nameplate that carried Oldsmobile's volume from the muscle era through the G-body years, with the Supreme as the default upgrade buy of the suburbs.",
+  "intro": "For a time, the Cutlass was simply the best-selling car in America, the nameplate that carried Oldsmobile's volume from the muscle era through the G-body years, with the Supreme as the default upgrade buy of the suburbs.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -3287,7 +3404,7 @@
   "bodyStyles": [
    "Sedan"
   ],
-  "intro": "Oldsmobile's last flagship and its best car in decades: a Northstar-derived 4.0 V8, a rigid shell, and concept-car styling — the car that was meant to save the marque and instead became its elegant farewell.",
+  "intro": "Oldsmobile's last flagship and its best car in decades: a Northstar-derived 4.0 V8, a rigid shell, and concept-car styling, the car that was meant to save the marque and instead became its elegant farewell.",
   "buyingClass": "modern-classic",
   "generationCount": 1
  },
@@ -3314,9 +3431,12 @@
    "Coupe",
    "Convertible"
   ],
-  "intro": "Launched April 1, 1964 — two weeks before the Mustang — on Valiant bones with the biggest rear window in the business. By 1970 the E-body 'Cuda had become the muscle era's apex predator, and the Hemi convertible its holy grail.",
+  "intro": "Launched April 1, 1964, two weeks before the Mustang, on Valiant bones with the biggest rear window in the business. By 1970 the E-body 'Cuda had become the muscle era's apex predator, and the Hemi convertible its holy grail.",
   "buyingClass": "vintage",
-  "generationCount": 2
+  "generationCount": 2,
+  "photo": "assets/photos/plymouth-barracuda.webp",
+  "photoCaption": "'Cuda 1971 billboard car, indoor show",
+  "photoCredit": "Photo: Mustang Joe, CC0, via Wikimedia Commons"
  },
  {
   "type": "model",
@@ -3331,7 +3451,7 @@
    "Coupe",
    "Convertible"
   ],
-  "intro": "Plymouth paid Warner Bros. for the cartoon bird and spent the savings on speed: a stripped B-body, a 383 with magnum internals, and a 'meep meep' horn. The 1970 Superbird wore a nose cone and a wing for NASCAR — and for immortality.",
+  "intro": "Plymouth paid Warner Bros. for the cartoon bird and spent the savings on speed: a stripped B-body, a 383 with magnum internals, and a 'meep meep' horn. The 1970 Superbird wore a nose cone and a wing for NASCAR, and for immortality.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -3424,7 +3544,7 @@
    "Convertible",
    "Coupe"
   ],
-  "intro": "The first American production car with front-wheel drive: E.L. Cord's answer to a market that thought drive belonged at the back. Low, long and handsome, it sold refinement and novelty in equal measure — until the Depression sold neither.",
+  "intro": "The first American production car with front-wheel drive: E.L. Cord's answer to a market that thought drive belonged at the back. Low, long and handsome, it sold refinement and novelty in equal measure, until the Depression sold neither.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -3442,7 +3562,7 @@
    "Convertible",
    "Coupe"
   ],
-  "intro": "Gordon Buehrig's masterpiece and the most advanced American car of its decade: front-wheel drive, hidden headlamps, a supercharger option, and not one exposed hinge or running board. It arrived too late and too expensive to save the company — and became immortal anyway.",
+  "intro": "Gordon Buehrig's masterpiece and the most advanced American car of its decade: front-wheel drive, hidden headlamps, a supercharger option, and not one exposed hinge or running board. It arrived too late and too expensive to save the company, and became immortal anyway.",
   "buyingClass": "vintage",
   "generationCount": 2
  },
@@ -3453,7 +3573,7 @@
   "name": "Hudson",
   "country": "United States",
   "founded": 1909,
-  "blurb": "Detroit's cleverest independent: the step-down body of 1948 put passengers inside the frame rails and made Hudsons handle like nothing else in America — and the Hornet's big six beat the V8s at their own game on the NASCAR circuit. Merged into AMC in 1954; the name ended in 1957.",
+  "blurb": "Detroit's cleverest independent: the step-down body of 1948 put passengers inside the frame rails and made Hudsons handle like nothing else in America, and the Hornet's big six beat the V8s at their own game on the NASCAR circuit. Merged into AMC in 1954; the name ended in 1957.",
   "modelCount": 4
  },
  {
@@ -3470,7 +3590,7 @@
    "Coupe",
    "Convertible"
   ],
-  "intro": "Hudson's budget line that outsold its parent: the Essex made closed cars affordable, put a six-cylinder engine in reach of ordinary buyers, and carried Hudson through the 1920s. The Super Six name above it said everything about the formula — more cylinders, less money.",
+  "intro": "Hudson's budget line that outsold its parent: the Essex made closed cars affordable, put a six-cylinder engine in reach of ordinary buyers, and carried Hudson through the 1920s. The Super Six name above it said everything about the formula, more cylinders, less money.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -3489,7 +3609,7 @@
    "Convertible",
    "Pickup"
   ],
-  "intro": "Launched off the Essex County Airport runway in 1932 — the name is the point — the Terraplane was Hudson's volume fighter: steel-bodied, quick for its price, and famous enough that bluesman Robert Johnson sang about one. It became simply 'Hudson' after 1938.",
+  "intro": "Launched off the Essex County Airport runway in 1932, the name is the point, the Terraplane was Hudson's volume fighter: steel-bodied, quick for its price, and famous enough that bluesman Robert Johnson sang about one. It became simply 'Hudson' after 1938.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -3523,7 +3643,7 @@
    "Coupe",
    "Convertible"
   ],
-  "intro": "The step-down Hudson at its peak: a low, unit-body sedan whose big six humiliated V8s on the early NASCAR circuit — 'Fabulous Hudson Hornet' was a results sheet before it was a cartoon. The last true Hudsons before the AMC years turned it into a badge.",
+  "intro": "The step-down Hudson at its peak: a low, unit-body sedan whose big six humiliated V8s on the early NASCAR circuit, 'Fabulous Hudson Hornet' was a results sheet before it was a cartoon. The last true Hudsons before the AMC years turned it into a badge.",
   "buyingClass": "vintage",
   "generationCount": 2
  },
@@ -3534,7 +3654,7 @@
   "name": "Nash",
   "country": "United States",
   "founded": 1916,
-  "blurb": "Charles Nash built the industry's quiet innovator: overhead-valve engines, unit bodies, reclining seats, and in the 1950 Rambler, America's first successful compact. Nash merged with Hudson to form AMC in 1954 — and its Rambler idea became the new company's whole future.",
+  "blurb": "Charles Nash built the industry's quiet innovator: overhead-valve engines, unit bodies, reclining seats, and in the 1950 Rambler, America's first successful compact. Nash merged with Hudson to form AMC in 1954, and its Rambler idea became the new company's whole future.",
   "modelCount": 4
  },
  {
@@ -3551,7 +3671,7 @@
    "Coupe",
    "Convertible"
   ],
-  "intro": "Nash's flagship for a quarter century: overhead-valve engines when rivals ran flatheads, unit construction, reclining seats, and the bathtub Airflyte styling that defined post-war Nash. The nameplate outlived the company — AMC kept building Ambassadors after Nash itself was gone.",
+  "intro": "Nash's flagship for a quarter century: overhead-valve engines when rivals ran flatheads, unit construction, reclining seats, and the bathtub Airflyte styling that defined post-war Nash. The nameplate outlived the company, AMC kept building Ambassadors after Nash itself was gone.",
   "buyingClass": "vintage",
   "generationCount": 2
  },
@@ -3603,7 +3723,7 @@
    "Convertible",
    "Coupe"
   ],
-  "intro": "America's first post-war sports car beat the Corvette to market: Donald Healey's chassis, Nash's overhead-valve six, and from 1952 a Pininfarina body built in Turin. A Nash-Healey finished third overall at Le Mans in 1952 — the marque's finest hour, in a car almost nobody bought.",
+  "intro": "America's first post-war sports car beat the Corvette to market: Donald Healey's chassis, Nash's overhead-valve six, and from 1952 a Pininfarina body built in Turin. A Nash-Healey finished third overall at Le Mans in 1952, the marque's finest hour, in a car almost nobody bought.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -3630,7 +3750,7 @@
    "Sedan",
    "Coupe"
   ],
-  "intro": "Henry J. Kaiser's post-war challenger: built in Ford's vast Willow Run plant, styled with real flair by 1951, and powered throughout by the same Continental six — which is why the Manhattan's 1954 supercharger mattered. Kaiser outsold every other independent in 1947 and never quite caught the Big Three again.",
+  "intro": "Henry J. Kaiser's post-war challenger: built in Ford's vast Willow Run plant, styled with real flair by 1951, and powered throughout by the same Continental six, which is why the Manhattan's 1954 supercharger mattered. Kaiser outsold every other independent in 1947 and never quite caught the Big Three again.",
   "buyingClass": "vintage",
   "generationCount": 2
  },
@@ -3646,7 +3766,7 @@
   "bodyStyles": [
    "Sedan"
   ],
-  "intro": "The $1,300 car: Kaiser's austerity special, named for the boss, built to undercut everyone. No trunk lid on early cars — you loaded through the folded seat. It sold respectably, seeded the compact idea at Kaiser, and survives today mostly as gasser drag-car raw material.",
+  "intro": "The $1,300 car: Kaiser's austerity special, named for the boss, built to undercut everyone. No trunk lid on early cars, you loaded through the folded seat. It sold respectably, seeded the compact idea at Kaiser, and survives today mostly as gasser drag-car raw material.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -3673,7 +3793,7 @@
   "name": "Stutz",
   "country": "United States",
   "founded": 1911,
-  "blurb": "Harry Stutz debuted at Indianapolis in 1911 and finished eleventh with no mechanical trouble — 'the car that made good in a day.' The Bearcat made the marque; the Vertical Eight and the twin-cam DV-32 kept it at the luxury summit until 1937.",
+  "blurb": "Harry Stutz debuted at Indianapolis in 1911 and finished eleventh with no mechanical trouble, 'the car that made good in a day.' The Bearcat made the marque; the Vertical Eight and the twin-cam DV-32 kept it at the luxury summit until 1937.",
   "modelCount": 2
  },
  {
@@ -3688,7 +3808,7 @@
   "bodyStyles": [
    "Roadster"
   ],
-  "intro": "The brass-age sports car in its purest form: two bucket seats, a fuel tank, a huge four-cylinder engine and nothing else. The Bearcat made Stutz's name at Indianapolis in 1911 — 'the car that made good in a day' — and the name returned on the supercharged DV-32 cars of the thirties.",
+  "intro": "The brass-age sports car in its purest form: two bucket seats, a fuel tank, a huge four-cylinder engine and nothing else. The Bearcat made Stutz's name at Indianapolis in 1911, 'the car that made good in a day', and the name returned on the supercharged DV-32 cars of the thirties.",
   "buyingClass": "vintage",
   "generationCount": 2
  },
@@ -3749,7 +3869,7 @@
    "Convertible",
    "Coupe"
   ],
-  "intro": "Michelotti civilised the TR: wind-up windows, a proper boot, and an optional Surrey top — then the TR5 added fuel injection and six cylinders' worth of pace. America got carburettors and the TR250 name instead, which is why the injected cars are the legend.",
+  "intro": "Michelotti civilised the TR: wind-up windows, a proper boot, and an optional Surrey top, then the TR5 added fuel injection and six cylinders' worth of pace. America got carburettors and the TR250 name instead, which is why the injected cars are the legend.",
   "buyingClass": "vintage",
   "generationCount": 2
  },
@@ -3782,7 +3902,7 @@
    "Coupe",
    "Convertible"
   ],
-  "intro": "'The shape of things to come': Harris Mann's wedge replaced a decade of tradition with pop-up lamps and a fixed head, and the launch quality troubles wrote the headlines. The TR8's Rover V8 fixed the pace problem just as production ended — which is why it is the one everyone wants now.",
+  "intro": "'The shape of things to come': Harris Mann's wedge replaced a decade of tradition with pop-up lamps and a fixed head, and the launch quality troubles wrote the headlines. The TR8's Rover V8 fixed the pace problem just as production ended, which is why it is the one everyone wants now.",
   "buyingClass": "vintage",
   "generationCount": 2
  },
@@ -3831,7 +3951,7 @@
   "bodyStyles": [
    "Sedan"
   ],
-  "intro": "The Sprint is the headline: a 2.0-litre sixteen-valve head — the first mass-produced multi-valve engine — on a Michelotti sedan that embarrassed bigger cars in touring-car racing. The ordinary Dolomites were worthy family cars; the Sprint was a factory hot rod in a cardigan.",
+  "intro": "The Sprint is the headline: a 2.0-litre sixteen-valve head, the first mass-produced multi-valve engine, on a Michelotti sedan that embarrassed bigger cars in touring-car racing. The ordinary Dolomites were worthy family cars; the Sprint was a factory hot rod in a cardigan.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -3857,7 +3977,7 @@
   "bodyStyles": [
    "Convertible"
   ],
-  "intro": "The Healey 100 that Austin built: Donald Healey's Earls Court show car of 1952, adopted by Leonard Lord overnight and put into production at Longbridge with Austin's big four. A hundred miles an hour for a thousand pounds — the name is the spec sheet.",
+  "intro": "The Healey 100 that Austin built: Donald Healey's Earls Court show car of 1952, adopted by Leonard Lord overnight and put into production at Longbridge with Austin's big four. A hundred miles an hour for a thousand pounds, the name is the spec sheet.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -3889,7 +4009,7 @@
   "bodyStyles": [
    "Convertible"
   ],
-  "intro": "The Big Healey at full size: 2.9 litres, disc brakes, and a rally record — Pat Moss, the Morley brothers, wins at the Liège and the Alpine — that made it the definitive British competition car of the sixties. The Mk III's wood dash and wind-up windows civilised it without softening it.",
+  "intro": "The Big Healey at full size: 2.9 litres, disc brakes, and a rally record, Pat Moss, the Morley brothers, wins at the Liège and the Alpine, that made it the definitive British competition car of the sixties. The Mk III's wood dash and wind-up windows civilised it without softening it.",
   "buyingClass": "vintage",
   "generationCount": 2
  },
@@ -3916,7 +4036,7 @@
   "name": "Jensen",
   "country": "United Kingdom",
   "founded": 1922,
-  "blurb": "The Jensen brothers' West Bromwich works built bodies for half the industry, then their own cars: fibreglass GTs first, then the Interceptor — Italian styling, American V8, and in the FF the world's first four-wheel-drive, anti-lock-braked production car. Production ended in 1976.",
+  "blurb": "The Jensen brothers' West Bromwich works built bodies for half the industry, then their own cars: fibreglass GTs first, then the Interceptor, Italian styling, American V8, and in the FF the world's first four-wheel-drive, anti-lock-braked production car. Production ended in 1976.",
   "modelCount": 4
  },
  {
@@ -3931,7 +4051,7 @@
   "bodyStyles": [
    "Coupe"
   ],
-  "intro": "Jensen's fibreglass pioneer: a glass-bodied GT with Austin's four-litre six, a Perspex rear window and a drag figure that embarrassed steel cars. The 541R added disc brakes all round — a British first on a production four-seater — and the 541S finished the line in comfort.",
+  "intro": "Jensen's fibreglass pioneer: a glass-bodied GT with Austin's four-litre six, a Perspex rear window and a drag figure that embarrassed steel cars. The 541R added disc brakes all round, a British first on a production four-seater, and the 541S finished the line in comfort.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -3991,7 +4111,7 @@
   "name": "TVR",
   "country": "United Kingdom",
   "founded": 1947,
-  "blurb": "Trevor Wilkinson started TVR in a Blackpool wheelwright's shop; under Peter Wheeler it became British sports-car making at its most gloriously uncompromising — glassfibre bodies, backbone chassis, enormous power-to-weight and a standing refusal of driver aids. The factory closed in 2006.",
+  "blurb": "Trevor Wilkinson started TVR in a Blackpool wheelwright's shop; under Peter Wheeler it became British sports-car making at its most gloriously uncompromising, glassfibre bodies, backbone chassis, enormous power-to-weight and a standing refusal of driver aids. The factory closed in 2006.",
   "modelCount": 6
  },
  {
@@ -4006,7 +4126,7 @@
   "bodyStyles": [
    "Coupe"
   ],
-  "intro": "The first production TVR: a glassfibre coupé on a backbone chassis, sold with whatever engine the decade offered — Climax, Ford, BMC, MG. Light, stark and quick, it set the template every TVR since has followed: minimum weight, maximum engine, no apologies.",
+  "intro": "The first production TVR: a glassfibre coupé on a backbone chassis, sold with whatever engine the decade offered, Climax, Ford, BMC, MG. Light, stark and quick, it set the template every TVR since has followed: minimum weight, maximum engine, no apologies.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -4039,7 +4159,7 @@
   "bodyStyles": [
    "Convertible"
   ],
-  "intro": "TVR's best-seller: the Griffith's running gear in a softer, roomier roadster that sold over 6,000 copies and kept Blackpool busy for a decade. It is the usable TVR — which in TVR terms still means a Rover V8, a glassfibre body and no safety net.",
+  "intro": "TVR's best-seller: the Griffith's running gear in a softer, roomier roadster that sold over 6,000 copies and kept Blackpool busy for a decade. It is the usable TVR, which in TVR terms still means a Rover V8, a glassfibre body and no safety net.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -4055,7 +4175,7 @@
   "bodyStyles": [
    "Coupe"
   ],
-  "intro": "The 2+2 that took TVR racing: Peter Wheeler's brief was a Porsche 911 rival with TVR's own engines — the flat-plane AJP8 V8 and the Speed Six — designed in-house because Rover power wasn't enough anymore. The Cerbera Speed 12, its unhinged sibling, never reached customers. This one did, barely tamed.",
+  "intro": "The 2+2 that took TVR racing: Peter Wheeler's brief was a Porsche 911 rival with TVR's own engines, the flat-plane AJP8 V8 and the Speed Six, designed in-house because Rover power wasn't enough anymore. The Cerbera Speed 12, its unhinged sibling, never reached customers. This one did, barely tamed.",
   "buyingClass": "modern-classic",
   "generationCount": 1
  },
@@ -4072,7 +4192,7 @@
    "Convertible",
    "Coupe"
   ],
-  "intro": "The Speed Six engine in a body with a removable roof panel, no door handles and curves that owed nothing to a wind tunnel. The Tuscan was TVR's millennium flagship — the car from Swordfish, and the last of the Wheeler-era volume models.",
+  "intro": "The Speed Six engine in a body with a removable roof panel, no door handles and curves that owed nothing to a wind tunnel. The Tuscan was TVR's millennium flagship, the car from Swordfish, and the last of the Wheeler-era volume models.",
   "buyingClass": "modern-classic",
   "generationCount": 1
  },
@@ -4099,7 +4219,7 @@
   "name": "Austin",
   "country": "United Kingdom",
   "founded": 1905,
-  "blurb": "Herbert Austin built the Seven that motorised Britain, then the Longbridge works carried the Mini, the 1100 and the Metro — the cars ordinary Britain actually drove. The marque faded through the BMC and British Leyland years and was retired in the late 1980s.",
+  "blurb": "Herbert Austin built the Seven that motorised Britain, then the Longbridge works carried the Mini, the 1100 and the Metro, the cars ordinary Britain actually drove. The marque faded through the BMC and British Leyland years and was retired in the late 1980s.",
   "modelCount": 5
  },
  {
@@ -4116,7 +4236,7 @@
    "Saloon",
    "Van"
   ],
-  "intro": "The car that motorised Britain. Herbert Austin's baby car put a real automobile — four cylinders, four wheels, brakes all round eventually — within reach of families who had managed with a motorcycle and sidecar, and licensed production spread the design from Munich (the first BMW) to Tokyo and New York.",
+  "intro": "The car that motorised Britain. Herbert Austin's baby car put a real automobile, four cylinders, four wheels, brakes all round eventually, within reach of families who had managed with a motorcycle and sidecar, and licensed production spread the design from Munich (the first BMW) to Tokyo and New York.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -4135,7 +4255,7 @@
    "Van",
    "Pickup"
   ],
-  "intro": "Austin's first post-war small car and the A-series engine's debut. The A35 of 1956 sharpened it with the 948 cc engine, and A35s became unlikely giant-killers in saloon-car racing — they still race at Goodwood today, sideways and entirely serious.",
+  "intro": "Austin's first post-war small car and the A-series engine's debut. The A35 of 1956 sharpened it with the 948 cc engine, and A35s became unlikely giant-killers in saloon-car racing, they still race at Goodwood today, sideways and entirely serious.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -4171,7 +4291,7 @@
    "Saloon",
    "Estate"
   ],
-  "intro": "Britain's best-selling car of the sixties: Issigonis's larger car, with Hydrolastic suspension, front-wheel drive and Pininfarina-influenced lines. Badged as Austin, Morris, MG, Riley, Vanden Plas and Wolseley — the 1300 GT and the MG 1300 are the sporting faces of the range.",
+  "intro": "Britain's best-selling car of the sixties: Issigonis's larger car, with Hydrolastic suspension, front-wheel drive and Pininfarina-influenced lines. Badged as Austin, Morris, MG, Riley, Vanden Plas and Wolseley, the 1300 GT and the MG 1300 are the sporting faces of the range.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -4198,7 +4318,7 @@
   "name": "Borgward",
   "country": "Germany",
   "founded": 1929,
-  "blurb": "Carl F. W. Borgward built Germany's most inventive post-war car group — the first new German design of 1949, the Isabella, air suspension on the P100 — then lost it all in the sudden, still-argued collapse of 1961.",
+  "blurb": "Carl F. W. Borgward built Germany's most inventive post-war car group, the first new German design of 1949, the Isabella, air suspension on the P100, then lost it all in the sudden, still-argued collapse of 1961.",
   "modelCount": 4
  },
  {
@@ -4250,7 +4370,7 @@
   "bodyStyles": [
    "Saloon"
   ],
-  "intro": "The small Borgward, built to take the group downmarket against the Beetle and the Kadett — a water-cooled flat-four (a rarity then and now) in a neat two-door saloon. It arrived just as the money ran out, and barely 47,000 were built.",
+  "intro": "The small Borgward, built to take the group downmarket against the Beetle and the Kadett, a water-cooled flat-four (a rarity then and now) in a neat two-door saloon. It arrived just as the money ran out, and barely 47,000 were built.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -4292,7 +4412,7 @@
   "bodyStyles": [
    "Coupe"
   ],
-  "intro": "Alejandro de Tomaso's first road car: a mid-engined coupé with a backbone chassis, Ford Cortina power and Ghia or Fissore bodywork. Only about 58 were built, but the layout — mid-engine, Italian body, Ford engine — became the De Tomaso formula for thirty years.",
+  "intro": "Alejandro de Tomaso's first road car: a mid-engined coupé with a backbone chassis, Ford Cortina power and Ghia or Fissore bodywork. Only about 58 were built, but the layout, mid-engine, Italian body, Ford engine, became the De Tomaso formula for thirty years.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -4308,7 +4428,7 @@
   "bodyStyles": [
    "Coupe"
   ],
-  "intro": "The mongoose — the animal that kills cobras — drawn by Giorgetto Giugiaro at Ghia around a backbone chassis and a Ford V8. Gullwing covers over the engine, a split rear deck, and proportions that still stop traffic. About 400 were built.",
+  "intro": "The mongoose, the animal that kills cobras, drawn by Giorgetto Giugiaro at Ghia around a backbone chassis and a Ford V8. Gullwing covers over the engine, a split rear deck, and proportions that still stop traffic. About 400 were built.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -4324,7 +4444,7 @@
   "bodyStyles": [
    "Coupe"
   ],
-  "intro": "The De Tomaso that conquered America: Tom Tjaarda's wedge, a Ford 351 Cleveland amidships, sold through Lincoln-Mercury dealers with a Ford warranty. Group 4 racers, the wide-body GT5 cars of the eighties, and the final Si — the Pantera outlived its maker-era rivals by two decades.",
+  "intro": "The De Tomaso that conquered America: Tom Tjaarda's wedge, a Ford 351 Cleveland amidships, sold through Lincoln-Mercury dealers with a Ford warranty. Group 4 racers, the wide-body GT5 cars of the eighties, and the final Si, the Pantera outlived its maker-era rivals by two decades.",
   "buyingClass": "vintage",
   "generationCount": 2
  },
@@ -4341,7 +4461,7 @@
    "Coupe",
    "Convertible"
   ],
-  "intro": "De Tomaso's front-engined luxury coupé — Tjaarda again, Ford Cleveland power, and a chassis shared with the Deauville saloon and the Maserati Kyalami. About 409 coupés were built across a long, quiet production life, plus a handful of Spyder convertibles.",
+  "intro": "De Tomaso's front-engined luxury coupé, Tjaarda again, Ford Cleveland power, and a chassis shared with the Deauville saloon and the Maserati Kyalami. About 409 coupés were built across a long, quiet production life, plus a handful of Spyder convertibles.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -4384,7 +4504,7 @@
   "bodyStyles": [
    "Coupe"
   ],
-  "intro": "France's last great luxury GT at full strength: Jean Daninos's Facel Vega with a 6.3-litre Chrysler V8, a tubular chassis, and an interior finished like a Parisian salon — including the famous painted faux-wood dashboard, done by hand. Stirling Moss drove his across Europe between races.",
+  "intro": "France's last great luxury GT at full strength: Jean Daninos's Facel Vega with a 6.3-litre Chrysler V8, a tubular chassis, and an interior finished like a Parisian salon, including the famous painted faux-wood dashboard, done by hand. Stirling Moss drove his across Europe between races.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -4400,7 +4520,7 @@
   "bodyStyles": [
    "Saloon"
   ],
-  "intro": "A pillarless four-door hardtop on the grand scale — suicide rear doors, a Chrysler V8, and a price that bought several Citroën DSs. About 230 were built for kings, ambassadors and Ava Gardner; it remains the only French post-war car built to true American-limousine scale.",
+  "intro": "A pillarless four-door hardtop on the grand scale, suicide rear doors, a Chrysler V8, and a price that bought several Citroën DSs. About 230 were built for kings, ambassadors and Ava Gardner; it remains the only French post-war car built to true American-limousine scale.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -4417,7 +4537,7 @@
    "Coupe",
    "Convertible"
   ],
-  "intro": "The little Facel, built to sell in volume with a twin-cam four designed by Carlo Marchisio — a jewel of an engine that proved fatally fragile in service and sank the company under warranty claims. Its successors (Facel III, with a Volvo engine, and the six-cylinder Facel 6) were the rescue attempt.",
+  "intro": "The little Facel, built to sell in volume with a twin-cam four designed by Carlo Marchisio, a jewel of an engine that proved fatally fragile in service and sank the company under warranty claims. Its successors (Facel III, with a Volvo engine, and the six-cylinder Facel 6) were the rescue attempt.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -4444,7 +4564,7 @@
   "name": "Iso",
   "country": "Italy",
   "founded": 1953,
-  "blurb": "Renzo Rivolta's company licensed the Isetta to BMW, then aimed the other way entirely: Bertone-bodied grand tourers with Chevrolet and Ford V8s. The Grifo is the peak — Bizzarrini engineering under one of the great GT shapes.",
+  "blurb": "Renzo Rivolta's company licensed the Isetta to BMW, then aimed the other way entirely: Bertone-bodied grand tourers with Chevrolet and Ford V8s. The Grifo is the peak, Bizzarrini engineering under one of the great GT shapes.",
   "modelCount": 4
  },
  {
@@ -4491,7 +4611,7 @@
   "bodyStyles": [
    "Saloon"
   ],
-  "intro": "The four-door Iso — 'the fastest four seats in the world' in the advertising, and with a Corvette V8 up front the claim had substance. Ghia built the bodies; John Lennon bought one of the first. Fewer than 200 were made, first as the S4, then simply Fidia.",
+  "intro": "The four-door Iso, 'the fastest four seats in the world' in the advertising, and with a Corvette V8 up front the claim had substance. Ghia built the bodies; John Lennon bought one of the first. Fewer than 200 were made, first as the S4, then simply Fidia.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -4550,7 +4670,7 @@
   "bodyStyles": [
    "Saloon"
   ],
-  "intro": "The Prinz grown up: a four-cylinder air-cooled saloon whose sporting derivatives — 1000 TT, 1200 TT and the twin-carburettor TTS — became the giant-killers of German hillclimbs and the car a generation of tuners (and the founders of Abt) learned on.",
+  "intro": "The Prinz grown up: a four-cylinder air-cooled saloon whose sporting derivatives, 1000 TT, 1200 TT and the twin-carburettor TTS, became the giant-killers of German hillclimbs and the car a generation of tuners (and the founders of Abt) learned on.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -4582,7 +4702,7 @@
   "bodyStyles": [
    "Saloon"
   ],
-  "intro": "European Car of the Year 1968 and the rotary's flagship: a twin-rotor saloon with front-wheel drive, a semi-automatic gearbox, inboard front discs and Claudio Luthe's wind-tunnel styling a decade ahead of the industry. The engine's seal problems bankrupted NSU into Volkswagen's arms — and the car itself was superb.",
+  "intro": "European Car of the Year 1968 and the rotary's flagship: a twin-rotor saloon with front-wheel drive, a semi-automatic gearbox, inboard front discs and Claudio Luthe's wind-tunnel styling a decade ahead of the industry. The engine's seal problems bankrupted NSU into Volkswagen's arms, and the car itself was superb.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -4593,7 +4713,7 @@
   "name": "Panhard",
   "country": "France",
   "founded": 1887,
-  "blurb": "Panhard & Levassor set the automobile's layout in 1891 — engine front, drive rear — then reinvented itself after the war around tiny air-cooled flat-twins, front-wheel drive and radical economy. Citroën absorbed the marque and ended its cars in 1967.",
+  "blurb": "Panhard & Levassor set the automobile's layout in 1891, engine front, drive rear, then reinvented itself after the war around tiny air-cooled flat-twins, front-wheel drive and radical economy. Citroën absorbed the marque and ended its cars in 1967.",
   "modelCount": 4
  },
  {
@@ -4644,7 +4764,7 @@
    "Convertible",
    "Estate"
   ],
-  "intro": "The Dyna Z evolved: named for Panhard-Levassor and its 17 tax-and-space formula, restyled with a droop snoot and eyelid headlamps, and crowned by a Monte Carlo Rally outright win in 1961 — three PL 17s in the top places, against the factories of Europe.",
+  "intro": "The Dyna Z evolved: named for Panhard-Levassor and its 17 tax-and-space formula, restyled with a droop snoot and eyelid headlamps, and crowned by a Monte Carlo Rally outright win in 1961, three PL 17s in the top places, against the factories of Europe.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -4660,7 +4780,7 @@
   "bodyStyles": [
    "Coupe"
   ],
-  "intro": "Panhard's last car: a steel-bodied coupé (and rare saloon) styled by Louis Bionier with the flat-twin behind a long, low nose — named for the 24 Hours its makers dreamed of, where the related CD coupés had already won the Index of Performance. Citroën, which had absorbed Panhard, ended car production in 1967.",
+  "intro": "Panhard's last car: a steel-bodied coupé (and rare saloon) styled by Louis Bionier with the flat-twin behind a long, low nose, named for the 24 Hours its makers dreamed of, where the related CD coupés had already won the Index of Performance. Citroën, which had absorbed Panhard, ended car production in 1967.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -4689,7 +4809,7 @@
    "Coupe",
    "Convertible"
   ],
-  "intro": "The swallow (hirondelle — hence the badge) that made Simca France's second carmaker: a modern monocoque saloon with the Flash engine, sold in everything from taxi trim to the elegant Facel-built coupés. Over 1.4 million were made.",
+  "intro": "The swallow (hirondelle, hence the badge) that made Simca France's second carmaker: a modern monocoque saloon with the Flash engine, sold in everything from taxi trim to the elegant Facel-built coupés. Over 1.4 million were made.",
   "buyingClass": "vintage",
   "generationCount": 2
  },
@@ -4706,7 +4826,7 @@
    "Saloon",
    "Estate"
   ],
-  "intro": "Ford of France's V8, inherited whole when Simca bought the Poissy plant in 1954: a flathead 2.4-litre V8 in an American-styled saloon — Versailles, Trianon, Régence, then the Présidence and the Chambord. France's last V8-engined production car of its era, and the seed of Brazil's Simca do Brasil.",
+  "intro": "Ford of France's V8, inherited whole when Simca bought the Poissy plant in 1954: a flathead 2.4-litre V8 in an American-styled saloon, Versailles, Trianon, Régence, then the Présidence and the Chambord. France's last V8-engined production car of its era, and the seed of Brazil's Simca do Brasil.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -4722,7 +4842,7 @@
   "bodyStyles": [
    "Saloon"
   ],
-  "intro": "Simca's rear-engined answer to the Renault 4 and the Beetle era: a square-cut four-door with the Poissy engine behind the rear axle, built for seventeen years and rallied hard in its Rallye forms — the Rallye 2 and 3 are homologation-bred tarmac weapons with a cult following.",
+  "intro": "Simca's rear-engined answer to the Renault 4 and the Beetle era: a square-cut four-door with the Poissy engine behind the rear axle, built for seventeen years and rallied hard in its Rallye forms, the Rallye 2 and 3 are homologation-bred tarmac weapons with a cult following.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -4767,7 +4887,7 @@
    "Coupe",
    "Roadster"
   ],
-  "intro": "Anthony Lago's Talbot at its zenith: the T150C chassis with Wilson pre-selector gearbox and a 4.0-litre six, clothed by Figoni & Falaschi in the famous 'goutte d'eau' teardrop coupés — the most valuable French cars of the thirties, and regular concours Best-of-Show winners today.",
+  "intro": "Anthony Lago's Talbot at its zenith: the T150C chassis with Wilson pre-selector gearbox and a 4.0-litre six, clothed by Figoni & Falaschi in the famous 'goutte d'eau' teardrop coupés, the most valuable French cars of the thirties, and regular concours Best-of-Show winners today.",
   "buyingClass": "vintage",
   "generationCount": 1
  },
@@ -4785,7 +4905,7 @@
    "Saloon",
    "Convertible"
   ],
-  "intro": "Post-war Talbot-Lago: the 4.5-litre twin-cam six in the Record saloon and the short-chassis Grand Sport, one of the fastest road cars of its day and a Le Mans winner in 1950 (a T26 GS, father and son Rosier driving). Grand Sport chassis went to the great coachbuilders — Saoutchik, Figoni, Franay.",
+  "intro": "Post-war Talbot-Lago: the 4.5-litre twin-cam six in the Record saloon and the short-chassis Grand Sport, one of the fastest road cars of its day and a Le Mans winner in 1950 (a T26 GS, father and son Rosier driving). Grand Sport chassis went to the great coachbuilders, Saoutchik, Figoni, Franay.",
   "buyingClass": "vintage",
   "generationCount": 2
  },
@@ -4844,7 +4964,7 @@
    "Utility",
    "Pickup"
   ],
-  "intro": "The Jeep comes home: the CJ-2A of 1945 put the wartime formula to farm and trail work, and the line ran for four decades — CJ-3B's high hood, the CJ-5's twenty-year production, the CJ-7's extra room and the Scrambler's pickup bed. Willys built them until 1963; Kaiser and AMC carried the line on.",
+  "intro": "The Jeep comes home: the CJ-2A of 1945 put the wartime formula to farm and trail work, and the line ran for four decades, CJ-3B's high hood, the CJ-5's twenty-year production, the CJ-7's extra room and the Scrambler's pickup bed. Willys built them until 1963; Kaiser and AMC carried the line on.",
   "buyingClass": "vintage",
   "generationCount": 2
  },
@@ -4862,7 +4982,7 @@
    "Pickup",
    "Panel van"
   ],
-  "intro": "America's first all-steel station wagon — Brooks Stevens's design sold the Jeep idea to families, and the same bones carried the pickup truck and panel delivery. Four-wheel drive from 1949 made it the original SUV in all but name, a decade and a half before the term.",
+  "intro": "America's first all-steel station wagon, Brooks Stevens's design sold the Jeep idea to families, and the same bones carried the pickup truck and panel delivery. Four-wheel drive from 1949 made it the original SUV in all but name, a decade and a half before the term.",
   "buyingClass": "vintage",
   "generationCount": 1
  },

@@ -6,7 +6,7 @@
     "Coupe"
    ],
    "buyingClass": "modern-classic",
-   "collectorNote": "The centre of the modern collector market — eight-figure prices are the norm and the best cars trade privately. The atlas records the fact plainly: this is the benchmark supercar.",
+   "collectorNote": "The centre of the modern collector market, eight-figure prices are the norm and the best cars trade privately. The atlas records the fact plainly: this is the benchmark supercar.",
    "generations": [
     {
      "code": "F1",
@@ -53,7 +53,7 @@
     "Coupe"
    ],
    "buyingClass": "modern-classic",
-   "collectorNote": "Battery health is the whole used conversation — McLaren's upgraded pack is the value-preserving fix. Values track the LaFerrari and 918 a step behind, which buyers call opportunity.",
+   "collectorNote": "Battery health is the whole used conversation, McLaren's upgraded pack is the value-preserving fix. Values track the LaFerrari and 918 a step behind, which buyers call opportunity.",
    "generations": [
     {
      "code": "P1",
@@ -89,7 +89,7 @@
     {
      "code": "720S",
      "name": "720S / 765LT",
-     "note": "The 4.0 V8 and a carbon MonoCage II at 1,283 kg dry. The 765LT longtail — 765 PS, 80 kg lighter, shorter gearing — is the modern McLaren to keep.",
+     "note": "The 4.0 V8 and a carbon MonoCage II at 1,283 kg dry. The 765LT longtail, 765 PS, 80 kg lighter, shorter gearing, is the modern McLaren to keep.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "4.0L twin-turbo V8",
@@ -151,7 +151,7 @@
     {
      "code": "Artura",
      "name": "Artura / Artura Spider",
-     "note": "The V6 and e-motor combine for 671 hp at launch (more after the 2025 update, retrofitted free to early cars). MCLA tub, hydraulic steering kept — character intact.",
+     "note": "The V6 and e-motor combine for 671 hp at launch (more after the 2025 update, retrofitted free to early cars). MCLA tub, hydraulic steering kept, character intact.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "3.0L twin-turbo V6 hybrid",

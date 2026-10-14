@@ -1,8 +1,8 @@
 # Car Atlas
 
-> Car Atlas is an encyclopedia of every car ever made — makes, models, generations, and flagship specs — with a buying layer that routes each model to the channels where it actually changes hands, and a registry of the clubs that keep the marques alive. It is built in the open, wave by wave.
+> Car Atlas is an encyclopedia of every car ever made, makes, models, generations, and flagship specs, with a buying layer that routes each model to the channels where it actually changes hands, and a registry of the clubs that keep the marques alive. It is built in the open, wave by wave.
 
-The dataset lives in `data/v1/` as plain JSON and is the single source of truth: the pages, the search index, and the API all read the same files, and functions never fabricate data — what they return is what the dataset holds, with its date on it. As of 2026-10-13 the atlas holds 59 makes, 257 models, and 469 generations, plus 46 clubs and networks. `python3 scripts/build.py` validates the schema and regenerates the search index and the model pages' baked snapshot; it fails loudly on drift. Prices are never invented: Price Watch publishes certified auction results — each with its source and date — in `data/v1/price-watch.json` and on the Buy page, and the listing schema is published alongside them.
+The dataset lives in `data/v1/` as plain JSON and is the single source of truth: the pages, the search index, and the API all read the same files, and functions never fabricate data, what they return is what the dataset holds, with its date on it. As of 2026-10-13 the atlas holds 59 makes, 257 models, and 469 generations, plus 46 clubs and networks. `python3 scripts/build.py` validates the schema and regenerates the search index and the model pages' baked snapshot; it fails loudly on drift. Prices are never invented: Price Watch publishes certified auction results, each with its source and date, in `data/v1/price-watch.json` and on the Buy page, and the listing schema is published alongside them.
 
 ## Pages
 
@@ -12,30 +12,30 @@ The dataset lives in `data/v1/` as plain JSON and is the single source of truth:
 
 ## Records
 
-- [Porsche](make.html?make=porsche): a make page — the marque's story, facts, and every model in the atlas. One per make, at `make.html?make=<slug>`.
-- [Porsche 911](model.html?make=porsche&model=911): a model record — generations with flagship specs, collector note, trims, and where to buy. One per model, at `model.html?make=<make>&model=<model>`.
-- [Tucker 48](model.html?make=tucker&model=48): a model record from the historic marques — the same format, for a car built for one year.
+- [Porsche](make.html?make=porsche): a make page, the marque's story, facts, and every model in the atlas. One per make, at `make.html?make=<slug>`.
+- [Porsche 911](model.html?make=porsche&model=911): a model record, generations with flagship specs, collector note, trims, and where to buy. One per model, at `model.html?make=<make>&model=<model>`.
+- [Tucker 48](model.html?make=tucker&model=48): a model record from the historic marques, the same format, for a car built for one year.
 
 ## Data
 
 - [Makes index](data/v1/makes.json): every make in the atlas, with the dataset's own `updatedAt` date.
 - [Search index](data/v1/search-index.json): the single generated file the homepage loads; rebuilt by `scripts/build.py`, never edited by hand.
-- [Porsche model records](data/v1/models/porsche.json): the per-make model files — one JSON per make under `data/v1/models/`, each holding that make's models, generations, and specs.
+- [Porsche model records](data/v1/models/porsche.json): the per-make model files, one JSON per make under `data/v1/models/`, each holding that make's models, generations, and specs.
 - [Buying data](data/v1/buying.json): the four buying classes, the 13 channels, and the Price Watch schema.
-- [Price Watch results](data/v1/price-watch.json): the certified auction results (stages 1–6) — car, price, house, date, and a linked published source per record.
+- [Price Watch results](data/v1/price-watch.json): the certified auction results (stages 1–6), car, price, house, date, and a linked published source per record.
 - [Clubs registry](data/v1/clubs.json): the 46 clubs and networks, with regions and chapter models.
 
 ## API
 
-- [API notes](API.md): the envelope shape, caching, and the five endpoints — health, makes, model, search, clubs — served by the functions under `api/` over the same `data/v1/` dataset. The frontend does not depend on them.
+- [API notes](API.md): the envelope shape, caching, and the five endpoints, health, makes, model, search, clubs, served by the functions under `api/` over the same `data/v1/` dataset. The frontend does not depend on them.
 
 ## Documentation
 
 - [README](README.md): what the atlas is and how the repository is laid out.
 - [Coverage ledger](COVERAGE.md): what is seeded, what is planned, and the counts as they stand.
-- [Benchmark](BENCHMARK.md): the standing scorecard against the top car sites in the world — the named top set, per-rival verdicts, and the priced T-CARS closures, with the rotation standing line.
+- [Benchmark](BENCHMARK.md): the standing scorecard against the top car sites in the world, the named top set, per-rival verdicts, and the priced T-CARS closures, with the rotation standing line.
 - [Go-live checklist](LIVE_CHECKLIST.md): the fleet-standard checks a deploy must pass, including the free-tier audit.
 
 ## Optional
 
-- [Wave log](WAVELOG.md): the build history, wave by wave — skippable unless you need to know how the atlas got here.
+- [Wave log](WAVELOG.md): the build history, wave by wave, skippable unless you need to know how the atlas got here.

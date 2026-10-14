@@ -7,12 +7,12 @@
     "Convertible"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "1959 convertibles are the blue-chip fin cars — buy the best-restored example, because a full chrome-and-metal restoration costs more than the car. Late ETCs are the bargain entry to the nameplate.",
+   "collectorNote": "1959 convertibles are the blue-chip fin cars, buy the best-restored example, because a full chrome-and-metal restoration costs more than the car. Late ETCs are the bargain entry to the nameplate.",
    "generations": [
     {
      "code": "1959",
      "name": "Eldorado Biarritz / Seville",
-     "note": "The fin year. Twin bullet tail lights, a 390 V8, and air suspension on the Biarritz convertible — the high-water mark of American chrome-age design, for better and worse.",
+     "note": "The fin year. Twin bullet tail lights, a 390 V8, and air suspension on the Biarritz convertible, the high-water mark of American chrome-age design, for better and worse.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "6.4L V8 (390 cu in)",
@@ -83,7 +83,7 @@
      "years": "2021–present"
     }
    ],
-   "intro": "A Yukon Denali in a tuxedo that became a cultural fixture — and Cadillac's profit engine. The current car added a 38-inch curved OLED and a 682 hp V-Series.",
+   "intro": "A Yukon Denali in a tuxedo that became a cultural fixture, and Cadillac's profit engine. The current car added a 38-inch curved OLED and a 682 hp V-Series.",
    "name": "Escalade",
    "segment": "Full-size luxury SUV",
    "slug": "escalade",
@@ -118,7 +118,7 @@
     {
      "code": "Gen 3",
      "name": "CTS-V (LT4)",
-     "note": "The LT4 from the Z06, 640 hp, 200 mph — and automatic only, which is why the gen-2 manual wagon keeps appreciating past it.",
+     "note": "The LT4 from the Z06, 640 hp, 200 mph, and automatic only, which is why the gen-2 manual wagon keeps appreciating past it.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "6.2L supercharged V8 (LT4)",
@@ -149,7 +149,7 @@
     {
      "code": "Blackwing",
      "name": "CT5-V Blackwing",
-     "note": "The hand-built LT4 makes 668 hp here. GM's engineers got the manual signed off as a deliberate statement — when it's gone, there will be nothing like it left.",
+     "note": "The hand-built LT4 makes 668 hp here. GM's engineers got the manual signed off as a deliberate statement, when it's gone, there will be nothing like it left.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "6.2L supercharged V8 (LT4)",

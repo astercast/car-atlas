@@ -6,7 +6,7 @@
     "Sedan"
    ],
    "buyingClass": "used",
-   "collectorNote": "The 2023 Tribute Edition (1,000 cars) is the collector marker. Ordinary GTs are the used bargain of the class — check for the hatch rattle fix and diff service.",
+   "collectorNote": "The 2023 Tribute Edition (1,000 cars) is the collector marker. Ordinary GTs are the used bargain of the class, check for the hatch rattle fix and diff service.",
    "generations": [
     {
      "code": "CK",
@@ -20,7 +20,7 @@
      "years": "2018–2023"
     }
    ],
-   "intro": "Kia's gran turismo: rear-drive, a twin-turbo V6, and chassis tuning by BMW M's former engineering chief Albert Biermann. It never sold like a 4 Series — which is why the good ones are bargains.",
+   "intro": "Kia's gran turismo: rear-drive, a twin-turbo V6, and chassis tuning by BMW M's former engineering chief Albert Biermann. It never sold like a 4 Series, which is why the good ones are bargains.",
    "name": "Stinger",
    "segment": "Sports sedan",
    "slug": "stinger",
@@ -92,7 +92,7 @@
      "years": "2020–present"
     }
    ],
-   "intro": "The three-row that swept the 2020 awards — World Car of the Year, MotorTrend SUV of the Year, North American Utility of the Year — by being honest, handsome, and priced under the Germans it out-finished.",
+   "intro": "The three-row that swept the 2020 awards, World Car of the Year, MotorTrend SUV of the Year, North American Utility of the Year, by being honest, handsome, and priced under the Germans it out-finished.",
    "name": "Telluride",
    "segment": "Mid-size SUV",
    "slug": "telluride",
@@ -114,7 +114,7 @@
     {
      "code": "AM",
      "name": "Soul",
-     "note": "Peter Schreyer's 'tiger nose' era. Cheap, cheerful, and styled like nothing else at the price — the car that made Kia a design brand in the US.",
+     "note": "Peter Schreyer's 'tiger nose' era. Cheap, cheerful, and styled like nothing else at the price, the car that made Kia a design brand in the US.",
      "spec": {
       "drivetrain": "FWD",
       "engine": "1.6L / 2.0L I4",

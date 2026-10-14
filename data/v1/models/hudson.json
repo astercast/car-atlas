@@ -8,7 +8,7 @@
     "Convertible"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Survivors are affordable pre-war motoring; the sixes are the usable ones. Condition and completeness beat rarity here — trim for these cars is not reproduced.",
+   "collectorNote": "Survivors are affordable pre-war motoring; the sixes are the usable ones. Condition and completeness beat rarity here, trim for these cars is not reproduced.",
    "generations": [
     {
      "code": "Essex",
@@ -22,7 +22,7 @@
      "years": "1919–1932"
     }
    ],
-   "intro": "Hudson's budget line that outsold its parent: the Essex made closed cars affordable, put a six-cylinder engine in reach of ordinary buyers, and carried Hudson through the 1920s. The Super Six name above it said everything about the formula — more cylinders, less money.",
+   "intro": "Hudson's budget line that outsold its parent: the Essex made closed cars affordable, put a six-cylinder engine in reach of ordinary buyers, and carried Hudson through the 1920s. The Super Six name above it said everything about the formula, more cylinders, less money.",
    "name": "Essex",
    "segment": "Mid-size car",
    "slug": "essex",
@@ -42,7 +42,7 @@
     "Pickup"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "The utility coupe — a car that converts to a pickup — is the collector's favourite. Pre-war eight-cylinder cars are the rare ones.",
+   "collectorNote": "The utility coupe, a car that converts to a pickup, is the collector's favourite. Pre-war eight-cylinder cars are the rare ones.",
    "generations": [
     {
      "code": "Terraplane",
@@ -56,7 +56,7 @@
      "years": "1932–1947"
     }
    ],
-   "intro": "Launched off the Essex County Airport runway in 1932 — the name is the point — the Terraplane was Hudson's volume fighter: steel-bodied, quick for its price, and famous enough that bluesman Robert Johnson sang about one. It became simply 'Hudson' after 1938.",
+   "intro": "Launched off the Essex County Airport runway in 1932, the name is the point, the Terraplane was Hudson's volume fighter: steel-bodied, quick for its price, and famous enough that bluesman Robert Johnson sang about one. It became simply 'Hudson' after 1938.",
    "name": "Terraplane",
    "segment": "Mid-size car",
    "slug": "terraplane",
@@ -79,7 +79,7 @@
     {
      "code": "Jet",
      "name": "Jet / Jet-Liner",
-     "note": "The 202 cu in six came with the Twin H-Power twin-carburettor option at 114 hp — strong specific output for a 1953 compact. Just over 35,000 Jets were built across two years.",
+     "note": "The 202 cu in six came with the Twin H-Power twin-carburettor option at 114 hp, strong specific output for a 1953 compact. Just over 35,000 Jets were built across two years.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "3.3L inline-6",
@@ -107,7 +107,7 @@
     "Convertible"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "First-generation Twin H cars with racing provenance sit at the top; documentation matters, as tribute cars abound. The step-down structure rusts from the inside — inspect the perimeter frame rails.",
+   "collectorNote": "First-generation Twin H cars with racing provenance sit at the top; documentation matters, as tribute cars abound. The step-down structure rusts from the inside, inspect the perimeter frame rails.",
    "generations": [
     {
      "code": "Hornet 1",
@@ -123,7 +123,7 @@
     {
      "code": "Hornet 2",
      "name": "Hornet (AMC era)",
-     "note": "Built by AMC after the 1954 merger, the restyled 'Hash' Hornet kept the six, then took V8 power — a Packard-built V8 in 1956 and AMC's own 327 in 1957, the final year of the Hudson name.",
+     "note": "Built by AMC after the 1954 merger, the restyled 'Hash' Hornet kept the six, then took V8 power, a Packard-built V8 in 1956 and AMC's own 327 in 1957, the final year of the Hudson name.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "5.0L inline-6 / 5.8L V8",
@@ -132,7 +132,7 @@
      "years": "1955–1957"
     }
    ],
-   "intro": "The step-down Hudson at its peak: a low, unit-body sedan whose big six humiliated V8s on the early NASCAR circuit — 'Fabulous Hudson Hornet' was a results sheet before it was a cartoon. The last true Hudsons before the AMC years turned it into a badge.",
+   "intro": "The step-down Hudson at its peak: a low, unit-body sedan whose big six humiliated V8s on the early NASCAR circuit, 'Fabulous Hudson Hornet' was a results sheet before it was a cartoon. The last true Hudsons before the AMC years turned it into a badge.",
    "name": "Hornet",
    "segment": "Full-size car",
    "slug": "hornet",

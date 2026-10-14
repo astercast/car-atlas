@@ -23,7 +23,7 @@
     {
      "code": "FK",
      "name": "Tenth generation",
-     "note": "Turbocharging went range-wide, and the Civic Type R finally came to America — 306 hp, front-wheel drive, and a Nürburgring record to answer the doubters.",
+     "note": "Turbocharging went range-wide, and the Civic Type R finally came to America, 306 hp, front-wheel drive, and a Nürburgring record to answer the doubters.",
      "spec": {
       "drivetrain": "FWD",
       "engine": "2.0L turbo inline-4 (Type R)",
@@ -43,7 +43,7 @@
      "years": "2021–present"
     }
    ],
-   "intro": "Started as a fuel-crisis runabout and grew into the compact benchmark. Every generation has had a version worth caring about — and the Type R versions are among the best front-drive cars ever made.",
+   "intro": "Started as a fuel-crisis runabout and grew into the compact benchmark. Every generation has had a version worth caring about, and the Type R versions are among the best front-drive cars ever made.",
    "name": "Civic",
    "segment": "Compact car",
    "slug": "civic",
@@ -80,7 +80,7 @@
     {
      "code": "CV",
      "name": "Tenth generation",
-     "note": "The V6 died and nobody mourned for long — the 2.0T borrowed from the Civic Type R's family tree made this the quickest Accord yet.",
+     "note": "The V6 died and nobody mourned for long, the 2.0T borrowed from the Civic Type R's family tree made this the quickest Accord yet.",
      "spec": {
       "drivetrain": "FWD",
       "engine": "2.0L turbo inline-4",
@@ -119,7 +119,7 @@
     "Targa"
    ],
    "buyingClass": "modern-classic",
-   "collectorNote": "First-generation cars are the collectible ones — manuals over automatics, documented timing-belt service over low miles alone. Second-gen cars are still depreciating into interesting territory.",
+   "collectorNote": "First-generation cars are the collectible ones, manuals over automatics, documented timing-belt service over low miles alone. Second-gen cars are still depreciating into interesting territory.",
    "generations": [
     {
      "code": "NA1/NA2",
@@ -195,7 +195,7 @@
      "years": "2004–2009"
     }
    ],
-   "intro": "A 9,000 rpm love letter to the naturally aspirated engine. The F20C made 120 hp per litre — a record for a production road car at launch — and the shifter is still the benchmark every manual is judged against.",
+   "intro": "A 9,000 rpm love letter to the naturally aspirated engine. The F20C made 120 hp per litre, a record for a production road car at launch, and the shifter is still the benchmark every manual is judged against.",
    "name": "S2000",
    "segment": "Sports car",
    "slug": "s2000",

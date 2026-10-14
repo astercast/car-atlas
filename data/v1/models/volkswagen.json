@@ -7,7 +7,7 @@
     "Convertible"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Split-window and oval-window early cars, and documented original convertibles, carry the original-Beetle market. The 1998-on cars are cheap used transport, not collectibles — yet.",
+   "collectorNote": "Split-window and oval-window early cars, and documented original convertibles, carry the original-Beetle market. The 1998-on cars are cheap used transport, not collectibles, yet.",
    "generations": [
     {
      "code": "Type 1",
@@ -43,7 +43,7 @@
      "years": "2011–2019"
     }
    ],
-   "intro": "The best-selling single design in car history — over 21 million originals. An air-cooled rear-engined economy car that outlived its century, then came back twice as nostalgia. The original is the one that matters.",
+   "intro": "The best-selling single design in car history, over 21 million originals. An air-cooled rear-engined economy car that outlived its century, then came back twice as nostalgia. The original is the one that matters.",
    "name": "Beetle",
    "photo": "assets/photos/volkswagen-beetle-classic.webp",
    "photoCaption": "Beetle 1965 sedan, rear 3/4",
@@ -112,7 +112,7 @@
      "years": "2020–present"
     }
    ],
-   "intro": "The Beetle's replacement and the car that defined the modern hatchback. The GTI variant invented the hot hatch in 1976 — a family car with a big engine and red trim that embarrassed sports cars — and every generation since has had to live up to it.",
+   "intro": "The Beetle's replacement and the car that defined the modern hatchback. The GTI variant invented the hot hatch in 1976, a family car with a big engine and red trim that embarrassed sports cars, and every generation since has had to live up to it.",
    "name": "Golf",
    "segment": "Compact car",
    "slug": "golf",
@@ -131,7 +131,7 @@
     "Pickup"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Samba prices detached years ago — six figures for the best. Honest Kombis and campers are the usable sweet spot; check the lower six inches for rust before anything else.",
+   "collectorNote": "Samba prices detached years ago, six figures for the best. Honest Kombis and campers are the usable sweet spot; check the lower six inches for rust before anything else.",
    "generations": [
     {
      "code": "T1",
@@ -156,7 +156,7 @@
      "years": "1967–1979"
     }
    ],
-   "intro": "A delivery van that became a cultural era. The Bus carried hippies, surfboards, families, and half of Brazil — production there ran until 2013. Few vehicles have ever meant as much to as many different people.",
+   "intro": "A delivery van that became a cultural era. The Bus carried hippies, surfboards, families, and half of Brazil, production there ran until 2013. Few vehicles have ever meant as much to as many different people.",
    "name": "Type 2 (Bus)",
    "segment": "Van",
    "slug": "type-2",
@@ -180,7 +180,7 @@
     {
      "code": "B5",
      "name": "Fifth generation",
-     "note": "Audi-shared platform, Audi-grade cabin, and from 2001 the 4.0 W8 — two narrow-angle V4s on one crank, in a family sedan. Gloriously unnecessary.",
+     "note": "Audi-shared platform, Audi-grade cabin, and from 2001 the 4.0 W8, two narrow-angle V4s on one crank, in a family sedan. Gloriously unnecessary.",
      "spec": {
       "drivetrain": "FWD / AWD",
       "engine": "1.8L turbo inline-4 / 4.0L W8",
@@ -211,7 +211,7 @@
      "years": "2014–2022"
     }
    ],
-   "intro": "Volkswagen's sensible family car for fifty years — which produced some genuinely odd highlights, including a W8 engine nobody asked for. The US sedan ended in 2022, but the nameplate continues in Europe as a wagon and in China as a sedan.",
+   "intro": "Volkswagen's sensible family car for fifty years, which produced some genuinely odd highlights, including a W8 engine nobody asked for. The US sedan ended in 2022, but the nameplate continues in Europe as a wagon and in China as a sedan.",
    "name": "Passat",
    "segment": "Midsize car",
    "slug": "passat",

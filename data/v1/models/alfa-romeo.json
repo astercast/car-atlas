@@ -6,7 +6,7 @@
     "Sedan"
    ],
    "buyingClass": "new",
-   "collectorNote": "Early Quadrifoglios are the value in fast sedans — budget for the Alfa tax: specialist maintenance and electrical patience. 2021-on cars are the sorted ones.",
+   "collectorNote": "Early Quadrifoglios are the value in fast sedans, budget for the Alfa tax: specialist maintenance and electrical patience. 2021-on cars are the sorted ones.",
    "generations": [
     {
      "code": "952",
@@ -20,7 +20,7 @@
      "years": "2016–present"
     }
    ],
-   "intro": "Project Giorgio: Alfa poached Ferrari engineers, spent billions, and produced a rear-drive sedan whose Quadrifoglio variant — with a Ferrari-derived twin-turbo V6 — reset the sports-sedan benchmark.",
+   "intro": "Project Giorgio: Alfa poached Ferrari engineers, spent billions, and produced a rear-drive sedan whose Quadrifoglio variant, with a Ferrari-derived twin-turbo V6, reset the sports-sedan benchmark.",
    "name": "Giulia",
    "segment": "Sports sedan",
    "slug": "giulia",
@@ -70,7 +70,7 @@
     "Convertible"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Duettos lead the market; Series 4 cars are the drive-it bargain. Rust in the sills and floors is the whole negotiation — the twin-cam is the easy part.",
+   "collectorNote": "Duettos lead the market; Series 4 cars are the drive-it bargain. Rust in the sills and floors is the whole negotiation, the twin-cam is the easy part.",
    "generations": [
     {
      "code": "Series 1",
@@ -95,7 +95,7 @@
      "years": "1990–1994"
     }
    ],
-   "intro": "The Duetto: Pininfarina's round-tail roadster, Dustin Hoffman's co-star in The Graduate, and one of the longest-lived sports car designs ever — 28 years with the same basic body.",
+   "intro": "The Duetto: Pininfarina's round-tail roadster, Dustin Hoffman's co-star in The Graduate, and one of the longest-lived sports car designs ever, 28 years with the same basic body.",
    "name": "Spider",
    "photo": "assets/photos/alfa-romeo-spider.webp",
    "photoCaption": "Spider 2000 Veloce (Series 2), on road",
@@ -124,7 +124,7 @@
     "Convertible"
    ],
    "buyingClass": "modern-classic",
-   "collectorNote": "Values have been firm since new. The Spider is rarer in practice — fewer were ordered — and the coupé is the design icon. Both are museum-grade already.",
+   "collectorNote": "Values have been firm since new. The Spider is rarer in practice, fewer were ordered, and the coupé is the design icon. Both are museum-grade already.",
    "generations": [
     {
      "code": "8C",
@@ -154,12 +154,12 @@
     "Coupe"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Genuine GTAs are seven-figure-adjacent in Europe and thick with replicas — verify chassis numbers against the register before anything else. A good 2000 GTV is the driver's sweet spot.",
+   "collectorNote": "Genuine GTAs are seven-figure-adjacent in Europe and thick with replicas, verify chassis numbers against the register before anything else. A good 2000 GTV is the driver's sweet spot.",
    "generations": [
     {
      "code": "105",
      "name": "Sprint GT / GTV",
-     "note": "The 'step front' came from the gap between bonnet and grille panel. All-alloy twin-cam engines from 1.3 to 2.0 litres, five-speed boxes, discs all round — a specification British rivals took a decade to match.",
+     "note": "The 'step front' came from the gap between bonnet and grille panel. All-alloy twin-cam engines from 1.3 to 2.0 litres, five-speed boxes, discs all round, a specification British rivals took a decade to match.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "1.3L–2.0L twin-cam I4",
@@ -170,7 +170,7 @@
     {
      "code": "GTA",
      "name": "GTA 1600",
-     "note": "The 'A' stands for alleggerita — lightened. Aluminium panels, magnesium wheels, 115 hp from 1.6 litres, and back-to-back European Touring Car titles.",
+     "note": "The 'A' stands for alleggerita, lightened. Aluminium panels, magnesium wheels, 115 hp from 1.6 litres, and back-to-back European Touring Car titles.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "1.6L twin-cam I4",
@@ -179,7 +179,7 @@
      "years": "1965–1969"
     }
    ],
-   "intro": "Bertone's stepped-nose coupé, styled by a young Giorgetto Giugiaro. The GTA variant — aluminium skin, twin-plug head — owned European touring car racing in the late 1960s.",
+   "intro": "Bertone's stepped-nose coupé, styled by a young Giorgetto Giugiaro. The GTA variant, aluminium skin, twin-plug head, owned European touring car racing in the late 1960s.",
    "name": "Giulia Sprint GT",
    "segment": "Sports coupe",
    "slug": "giulia-sprint-gt",

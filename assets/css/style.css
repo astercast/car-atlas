@@ -1,7 +1,12 @@
-/* Car Atlas — v2 restraint system.
-   Sleekest minimal modern: one grotesk, tabular numerals as imagery,
-   near-monochrome + one red accent, space (not borders/cards) separates.
-   Spec-sheet calm: data set like instrument readings. */
+/* Car Atlas, the issue system (identity pass, rotation 22).
+   One grotesk, tabular numerals as imagery, near-monochrome + one
+   red accent, space (not borders/cards) separates. The home is an
+   issue: masthead and folio line, one cover car with its price as
+   the display numeral, contents as department doors, departments
+   in the contents order. Listings everywhere print the five-field
+   unit; the car page is a record with a ruled price ledger.
+   The Atlas is print: nothing reveals, nothing animates; prices
+   and dates are present in residence. */
 
 /* Self-hosted type, hardened for iPhone Safari (Aesthetics ROUND-001
    section 5, all rules). Inter is the only voice and ships as ONE
@@ -63,7 +68,7 @@ a:hover { color: var(--accent-ink); }
 .small { font-size: 13.5px; }
 .center-note { color: var(--ink-3); padding: 32px 0; }
 
-/* Nav — wordmark + 4 destinations, nothing else */
+/* Nav, wordmark + 4 destinations, nothing else */
 .nav { position: sticky; top: 0; z-index: 50; background: color-mix(in srgb, var(--paper) 92%, transparent); backdrop-filter: blur(14px); }
 .nav-in { display: flex; align-items: center; gap: 28px; height: 60px; }
 .wordmark { font-weight: 800; letter-spacing: -0.03em; font-size: 19px; white-space: nowrap; }
@@ -71,12 +76,30 @@ a:hover { color: var(--accent-ink); }
 .nav-links { display: flex; gap: 26px; font-size: 14px; color: var(--ink-2); margin-left: auto; }
 .nav-links a[aria-current="page"] { color: var(--ink); box-shadow: inset 0 -2px 0 var(--accent); }
 
-/* Hero — headline, subline, one action (search), then real data */
-.hero { padding: 96px 0 0; }
-.hero h1 { font-size: clamp(42px, 6.8vw, 92px); line-height: 1.0; letter-spacing: -0.045em; font-weight: 800; max-width: 11ch; }
-.hero h1 .accent { color: var(--accent); }
-.hero .sub { margin-top: 24px; font-size: clamp(17px, 2vw, 20px); color: var(--ink-2); max-width: 52ch; }
-.searchbox { position: relative; margin-top: 44px; max-width: 680px; }
+/* Masthead + folio line, the issue's fixed furniture (P11) */
+.masthead { padding: 64px 0 0; }
+.mast-word { font-size: clamp(46px, 8.5vw, 108px); font-weight: 800; letter-spacing: -0.045em; line-height: 0.98; }
+.mast-word .dot { color: var(--accent); }
+.mast-tag { margin-top: 14px; font-size: clamp(16px, 2vw, 20px); color: var(--ink-2); max-width: 54ch; }
+.folio { margin-top: 28px; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--line); padding: 10px 0; font-size: 12.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.09em; color: var(--ink-2); display: flex; flex-wrap: wrap; gap: 6px 14px; }
+.folio b { color: var(--ink); font-weight: 750; }
+.folio .sep { color: var(--ink-3); }
+
+/* The cover, one car, dominant, price as the display numeral */
+.cover { display: grid; grid-template-columns: 1.55fr 1fr; gap: 40px; padding: 48px 0 0; align-items: start; }
+.cover .photo { margin: 0; }
+.cover-state { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent-ink); }
+.cover-title { margin-top: 10px; font-size: clamp(30px, 4.2vw, 52px); font-weight: 800; letter-spacing: -0.035em; line-height: 1.05; }
+.cover-price { margin-top: 18px; font-size: clamp(46px, 6.4vw, 92px); font-weight: 800; letter-spacing: -0.04em; line-height: 1; white-space: nowrap; }
+.cover-basis { margin-top: 8px; font-size: 13.5px; color: var(--ink-2); }
+.cover-standfirst { margin-top: 20px; font-size: 16.5px; color: var(--ink-2); max-width: 44ch; }
+.cover-date { margin-top: 20px; padding-top: 14px; border-top: 1px solid var(--line); font-size: 14px; color: var(--ink-2); }
+.cover-date b { color: var(--ink); }
+.cover-src { margin-top: 6px; font-size: 13px; color: var(--ink-3); }
+.cover-src a { text-decoration: underline; text-underline-offset: 3px; }
+
+/* Search, the front door's one action */
+.searchbox { position: relative; margin-top: 56px; max-width: 680px; }
 .searchbox input { width: 100%; font: inherit; font-size: 19px; padding: 14px 48px 14px 2px; background: transparent; color: var(--ink); border: 0; border-bottom: 2px solid var(--ink); border-radius: 0; outline: none; }
 .searchbox input:focus { border-bottom-color: var(--accent); }
 .searchbox .go { position: absolute; right: 0; top: 50%; transform: translateY(-50%); border: 0; background: none; color: var(--ink); width: 40px; height: 40px; font-size: 20px; cursor: pointer; }
@@ -89,28 +112,25 @@ a:hover { color: var(--accent-ink); }
 .results .r-meta { color: var(--ink-3); font-size: 13px; white-space: nowrap; font-family: var(--mono); }
 .results .empty { padding: 14px; color: var(--ink-2); font-size: 15px; }
 
-/* Ledger line — the atlas's numbers, set as one instrument reading */
-.ledger { margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--ink); display: flex; flex-wrap: wrap; gap: 8px 36px; font-size: 14px; color: var(--ink-2); }
-.ledger b { color: var(--ink); font-size: 20px; font-weight: 750; letter-spacing: -0.02em; margin-right: 7px; }
+/* Contents, the departments as doors, one-line contracts */
+.contents { padding: 72px 0 0; }
+.contents-head, .dept-word { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ink-3); }
+.doors { margin-top: 18px; border-top: 2px solid var(--ink); display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 40px; }
+.door { padding: 22px 0 26px; border-bottom: 1px solid var(--line); display: block; }
+.door .d-name { font-size: 23px; font-weight: 800; letter-spacing: -0.025em; }
+.door .d-contract { margin-top: 8px; font-size: 15px; color: var(--ink-2); max-width: 34ch; }
+.door .d-inside { margin-top: 14px; font-size: 13px; font-family: var(--mono); color: var(--ink-3); }
+a.door:hover .d-name { color: var(--accent-ink); }
 
-/* Specimen rows — data is the visual */
-.specimens { margin-top: 48px; }
-.specimens .spec-label, .kicker { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ink-3); }
-.spec-row { display: grid; grid-template-columns: 64px 1fr auto; gap: 6px 22px; align-items: baseline; padding: 18px 0; border-bottom: 1px solid var(--line); }
-.spec-row .yr { font-family: var(--mono); font-size: 14px; color: var(--ink-2); }
-.spec-row .car { font-size: clamp(19px, 2.4vw, 26px); font-weight: 750; letter-spacing: -0.025em; line-height: 1.2; }
-.spec-row .meta { grid-column: 2; color: var(--ink-2); font-size: 14px; }
-.spec-row .price { font-size: clamp(19px, 2.4vw, 26px); font-weight: 800; letter-spacing: -0.025em; white-space: nowrap; }
-.spec-row a:hover .car { color: var(--accent-ink); }
+/* Departments, in the contents order, each its own composition */
+.dept { padding: 88px 0 0; }
+.dept-head { border-top: 2px solid var(--ink); padding-top: 16px; margin-bottom: 8px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 24px; }
+.dept-head h2 { font-size: clamp(26px, 3.2vw, 36px); letter-spacing: -0.035em; font-weight: 800; line-height: 1.15; }
+.dept-head .dept-note { color: var(--ink-2); font-size: 15px; max-width: 58ch; }
+.rail-name { margin: 34px 0 4px; font-size: 15px; font-weight: 750; letter-spacing: -0.01em; }
+.rail-name .sort { color: var(--ink-3); font-weight: 600; font-size: 13px; margin-left: 8px; }
 
-/* Sections — separated by space alone */
-section.block { padding: 88px 0 0; }
-.block-head { margin-bottom: 28px; }
-.block-head h2 { font-size: clamp(26px, 3.2vw, 36px); letter-spacing: -0.035em; font-weight: 800; line-height: 1.15; }
-.block-head p { color: var(--ink-2); max-width: 56ch; margin-top: 8px; }
-.block-head .more { font-size: 14px; font-weight: 600; }
-
-/* Index rows — no cards, no clamp, full text */
+/* Index rows, no cards, no clamp, full text */
 .rows { border-top: 1px solid var(--line); }
 .row { display: grid; grid-template-columns: 1fr auto; gap: 4px 24px; padding: 20px 0; border-bottom: 1px solid var(--line); }
 .row h3 { font-size: 19px; letter-spacing: -0.02em; font-weight: 750; line-height: 1.3; }
@@ -126,6 +146,55 @@ a.row:hover h3 { color: var(--accent-ink); }
 .chip[aria-pressed="true"] { color: var(--ink); box-shadow: inset 0 -2px 0 var(--accent); }
 .pill { display: inline-block; font-size: 13px; padding: 2px 0; color: var(--ink-2); }
 .pill + .pill::before { content: "· "; color: var(--ink-3); }
+
+/* The listing unit, five fields, one order, everywhere:
+   state word; identity formula; date and freshness in words;
+   the price as the dominant numeral; sale type as the closing word.
+   Provenance rides as the unit's apparatus line, under the fields. */
+.listing { display: grid; grid-template-columns: 1fr auto auto; gap: 4px 28px; align-items: baseline; padding: 18px 0; border-bottom: 1px solid var(--line); }
+.listing .l-state { font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.11em; color: var(--accent-ink); display: block; }
+.listing .l-title { font-size: clamp(18px, 2.2vw, 24px); font-weight: 750; letter-spacing: -0.025em; line-height: 1.25; display: block; margin-top: 3px; }
+.listing .l-date { font-size: 13.5px; color: var(--ink-2); display: block; margin-top: 4px; }
+.listing .l-price { font-size: clamp(20px, 2.6vw, 30px); font-weight: 800; letter-spacing: -0.025em; white-space: nowrap; text-align: right; }
+.listing .l-basis { display: block; font-size: 12px; font-weight: 500; color: var(--ink-3); letter-spacing: 0; margin-top: 3px; white-space: normal; max-width: 24ch; }
+.listing .l-type { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.11em; color: var(--ink-2); white-space: nowrap; padding-top: 6px; }
+.listing .l-prov { grid-column: 1 / -1; font-size: 13px; color: var(--ink-3); }
+.listing .l-prov a { text-decoration: underline; text-underline-offset: 3px; }
+.listing a.l-title:hover { color: var(--accent-ink); }
+.listings { border-top: 1px solid var(--line); }
+
+/* Embedded photos: a car's sourced photograph rides inside its
+   row or unit, after the text, never leading it. The caption and
+   credit recorded with the photo render wherever it renders. */
+.thumb { margin: 0; }
+.thumb img { display: block; width: 100%; height: auto; background: #fff; }
+.thumb figcaption { margin-top: 6px; font-size: 11px; line-height: 1.45; color: var(--ink-3); }
+.row.has-thumb { grid-template-columns: 1fr auto 150px; }
+.row.has-thumb .thumb { grid-column: 3; grid-row: 1 / span 3; align-self: start; }
+.row.has-thumb p, .row.has-thumb .t-foot { grid-column: 1 / -2; }
+.listing .l-thumb { grid-column: 1 / -1; max-width: 230px; margin-top: 8px; }
+.journal-unit .thumb { max-width: 270px; margin-top: 12px; }
+@media (max-width: 700px) {
+  .row.has-thumb { grid-template-columns: 1fr auto; }
+  .row.has-thumb .thumb { grid-column: 1 / -1; grid-row: auto; max-width: 230px; margin-top: 10px; }
+  .row.has-thumb p, .row.has-thumb .t-foot { grid-column: 1 / -1; }
+}
+
+/* The journal river, department word, headline, one written line */
+.journal-unit { display: block; padding: 20px 0; border-bottom: 1px solid var(--line); }
+.journal-unit .j-dept { font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.11em; color: var(--ink-3); }
+.journal-unit h3 { margin-top: 5px; font-size: 21px; font-weight: 750; letter-spacing: -0.02em; line-height: 1.3; }
+.journal-unit .j-stand { margin-top: 5px; font-size: 15px; color: var(--ink-2); max-width: 68ch; }
+.journal-unit .j-meta { margin-top: 6px; font-size: 12.5px; font-family: var(--mono); color: var(--ink-3); }
+a.journal-unit:hover h3 { color: var(--accent-ink); }
+.journal-river { border-top: 1px solid var(--line); }
+
+/* Sections on the standing pages, separated by space alone */
+section.block { padding: 88px 0 0; }
+.block-head { margin-bottom: 28px; }
+.block-head h2 { font-size: clamp(26px, 3.2vw, 36px); letter-spacing: -0.035em; font-weight: 800; line-height: 1.15; }
+.block-head p { color: var(--ink-2); max-width: 56ch; margin-top: 8px; }
+.block-head .more { font-size: 14px; font-weight: 600; }
 
 /* Page heads */
 .page-head { padding: 72px 0 0; }
@@ -149,7 +218,32 @@ a.row:hover h3 { color: var(--accent-ink); }
 .note-box b { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: 0.09em; color: var(--accent-ink); margin-bottom: 6px; }
 .note-box p { color: var(--ink-2); font-size: 15px; margin-top: 6px; }
 
-/* Photos — the only colour on the page is the car's */
+/* The record's price ledger, dated results in date-and-price setting */
+.pw-ledger { border-top: 2px solid var(--ink); }
+.pw-lrow { display: grid; grid-template-columns: 104px 1fr auto; gap: 6px 24px; padding: 16px 0; border-bottom: 1px solid var(--line); align-items: baseline; }
+.pw-lrow .d { font-family: var(--mono); font-size: 12.5px; color: var(--ink-2); }
+.pw-lrow .car { font-weight: 700; font-size: 15.5px; letter-spacing: -0.015em; }
+.pw-lrow .facts { grid-column: 2; font-size: 13px; color: var(--ink-2); }
+.pw-lrow .src { grid-column: 2; font-size: 12.5px; color: var(--ink-3); }
+.pw-lrow .src a { text-decoration: underline; text-underline-offset: 3px; }
+.pw-lrow .price { font-weight: 800; letter-spacing: -0.02em; white-space: nowrap; font-size: 17px; text-align: right; }
+.pw-lrow .basis { grid-column: 3; font-size: 12px; color: var(--ink-3); text-align: right; }
+.pw-price { font-weight: 800; letter-spacing: -0.02em; white-space: nowrap; }
+.cert-line { margin-top: 16px; font-size: 13.5px; color: var(--ink-2); max-width: 74ch; }
+.cohort-line { margin-top: 10px; font-size: 14.5px; color: var(--ink-2); max-width: 74ch; }
+.cohort-line b { color: var(--ink); }
+
+/* Follow, local, in this browser only, labelled exactly that */
+.follow-row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 18px; margin-top: 22px; }
+.follow-btn { font: inherit; font-size: 14px; font-weight: 700; cursor: pointer; padding: 7px 0; border: 0; background: none; color: var(--accent-ink); box-shadow: inset 0 -2px 0 var(--accent); }
+.follow-note { font-size: 13px; color: var(--ink-3); max-width: 62ch; }
+
+/* Onward movement from a record, a department line in text */
+.dept-line { margin-top: 56px; padding-top: 18px; border-top: 2px solid var(--ink); font-size: 14.5px; display: flex; flex-wrap: wrap; gap: 8px 28px; }
+.dept-line .dl-word { font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.11em; color: var(--ink-3); width: 100%; }
+.dept-line a { font-weight: 650; }
+
+/* Photos, the only colour on the page is the car's */
 .photo { margin: 32px 0 8px; }
 .photo img { display: block; width: 100%; height: auto; background: #fff; }
 .photo-main img { max-height: 560px; object-fit: cover; }
@@ -157,25 +251,17 @@ a.row:hover h3 { color: var(--accent-ink); }
 .photo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
 .photo-grid .photo { margin: 16px 0 0; }
 
-/* Price Watch table — calm spec table, never cards */
-.pw-price { font-weight: 800; letter-spacing: -0.02em; white-space: nowrap; }
-table.pw { width: 100%; border-collapse: collapse; font-size: 14.5px; }
-table.pw th { text-align: left; font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.09em; color: var(--ink-3); font-weight: 700; padding: 10px 16px 10px 0; border-bottom: 1px solid var(--ink); }
-table.pw td { padding: 16px 16px 16px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
-table.pw td.car { font-weight: 700; font-size: 15.5px; letter-spacing: -0.015em; }
-table.pw .mono { font-family: var(--mono); font-size: 12.5px; color: var(--ink-2); }
-table.pw .sub { color: var(--ink-2); font-size: 13px; }
 .list-clean { list-style: none; }
 .list-clean li { display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--line); font-size: 15px; }
 
-/* Filters — text controls, counts shown, no fake facets */
+/* Filters, text controls, counts shown, no fake facets */
 .filters { display: flex; flex-wrap: wrap; gap: 10px 28px; align-items: baseline; margin: 20px 0 8px; }
 .filters label { font-size: 12px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.09em; font-weight: 700; }
 .filters select { font: inherit; font-size: 14.5px; padding: 6px 2px; border: 0; border-bottom: 1px solid var(--ink); background: none; color: var(--ink); cursor: pointer; border-radius: 0; }
 .filters .clear { font: inherit; font-size: 14px; font-weight: 650; background: none; border: 0; color: var(--accent-ink); cursor: pointer; padding: 6px 0; }
 .pw-count { font-family: var(--mono); font-size: 13px; color: var(--ink-2); margin: 14px 0 6px; }
 
-/* Closing link section — replaces the black CTA band */
+/* Closing link section, replaces the black CTA band */
 .closing { margin: 96px 0 0; padding-top: 32px; border-top: 1px solid var(--ink); }
 .closing h2 { font-size: clamp(26px, 3.4vw, 38px); letter-spacing: -0.03em; line-height: 1.12; max-width: 22ch; }
 .closing p { color: var(--ink-2); margin-top: 12px; max-width: 58ch; }
@@ -186,21 +272,21 @@ footer { margin-top: 96px; padding: 28px 0 48px; border-top: 1px solid var(--lin
 footer .f-in { display: flex; flex-wrap: wrap; gap: 14px 40px; justify-content: space-between; }
 footer nav { display: flex; gap: 20px; }
 
+@media (max-width: 900px) {
+  .cover { grid-template-columns: 1fr; gap: 26px; }
+  .doors { grid-template-columns: 1fr; gap: 0; }
+}
 @media (max-width: 700px) {
-  .hero { padding: 56px 0 0; }
+  .masthead { padding: 44px 0 0; }
+  .dept { padding: 64px 0 0; }
   section.block { padding: 64px 0 0; }
-  .spec-row { grid-template-columns: 52px 1fr; }
-  .spec-row .price { grid-column: 2; }
-  table.pw thead { display: none; }
-  table.pw, table.pw tbody, table.pw tr, table.pw td { display: block; width: 100%; }
-  table.pw tr { padding: 14px 0; border-bottom: 1px solid var(--line); }
-  table.pw td { border: 0; padding: 2px 0; }
+  .listing { grid-template-columns: 1fr auto; }
+  .listing .l-type { grid-column: 2; grid-row: 1; }
+  .listing .l-price { grid-column: 1 / -1; text-align: left; }
+  .listing .l-basis { max-width: none; }
+  .pw-lrow { grid-template-columns: 1fr auto; }
+  .pw-lrow .d { grid-column: 1 / -1; }
+  .pw-lrow .facts, .pw-lrow .src { grid-column: 1; }
+  .pw-lrow .basis { grid-column: 2; }
   .nav-links { gap: 16px; font-size: 13px; }
 }
-@media (prefers-reduced-motion: no-preference) {
-  @view-transition { navigation: auto; }
-  ::view-transition-old(root) { animation: vt-fade-out 0.22s ease-in both; }
-  ::view-transition-new(root) { animation: vt-fade-in 0.32s ease-out both; }
-}
-@keyframes vt-fade-out { to { opacity: 0; } }
-@keyframes vt-fade-in { from { opacity: 0; } }

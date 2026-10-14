@@ -20,7 +20,7 @@
      "years": "1953–1956"
     }
    ],
-   "intro": "The Healey 100 that Austin built: Donald Healey's Earls Court show car of 1952, adopted by Leonard Lord overnight and put into production at Longbridge with Austin's big four. A hundred miles an hour for a thousand pounds — the name is the spec sheet.",
+   "intro": "The Healey 100 that Austin built: Donald Healey's Earls Court show car of 1952, adopted by Leonard Lord overnight and put into production at Longbridge with Austin's big four. A hundred miles an hour for a thousand pounds, the name is the spec sheet.",
    "name": "100",
    "segment": "Sports car",
    "slug": "100",
@@ -68,7 +68,7 @@
     "Convertible"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "BJ8s lead the market on comfort and power; documented rally history leads everything. Chassis rails and outriggers rust — the car is bought underneath.",
+   "collectorNote": "BJ8s lead the market on comfort and power; documented rally history leads everything. Chassis rails and outriggers rust, the car is bought underneath.",
    "generations": [
     {
      "code": "3000-1",
@@ -84,7 +84,7 @@
     {
      "code": "3000-2",
      "name": "3000 Mk III",
-     "note": "The BJ8 Mk III is the most powerful and most comfortable Big Healey — walnut dash, wind-up windows, 148 hp — and the last: US safety and emissions rules ended production in 1967, with a handful of cars completed into 1968.",
+     "note": "The BJ8 Mk III is the most powerful and most comfortable Big Healey, walnut dash, wind-up windows, 148 hp, and the last: US safety and emissions rules ended production in 1967, with a handful of cars completed into 1968.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "2.9L inline-6",
@@ -93,7 +93,7 @@
      "years": "1964–1967"
     }
    ],
-   "intro": "The Big Healey at full size: 2.9 litres, disc brakes, and a rally record — Pat Moss, the Morley brothers, wins at the Liège and the Alpine — that made it the definitive British competition car of the sixties. The Mk III's wood dash and wind-up windows civilised it without softening it.",
+   "intro": "The Big Healey at full size: 2.9 litres, disc brakes, and a rally record, Pat Moss, the Morley brothers, wins at the Liège and the Alpine, that made it the definitive British competition car of the sixties. The Mk III's wood dash and wind-up windows civilised it without softening it.",
    "name": "3000",
    "segment": "Sports car",
    "slug": "3000",
@@ -111,12 +111,12 @@
     "Convertible"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Frogeyes are the collectors' car; later 1275 cars are the drivers'. Original steel bonnets on Mk Is matter — many were replaced in period accidents.",
+   "collectorNote": "Frogeyes are the collectors' car; later 1275 cars are the drivers'. Original steel bonnets on Mk Is matter, many were replaced in period accidents.",
    "generations": [
     {
      "code": "Sprite 1",
      "name": "Sprite Mk I (Frogeye)",
-     "note": "The A-series 948 cc engine and those lamps. No boot lid — luggage went behind the seats. Just under 49,000 Frogeyes were built.",
+     "note": "The A-series 948 cc engine and those lamps. No boot lid, luggage went behind the seats. Just under 49,000 Frogeyes were built.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "0.95L inline-4",

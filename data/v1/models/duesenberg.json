@@ -7,12 +7,12 @@
     "Convertible"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Survivors are museum-grade cars now. Provenance — which chassis, which body, which show history — is the entire valuation conversation.",
+   "collectorNote": "Survivors are museum-grade cars now. Provenance, which chassis, which body, which show history, is the entire valuation conversation.",
    "generations": [
     {
      "code": "Model A",
      "name": "Model A",
-     "note": "Built in Indianapolis and priced against Packard and Pierce-Arrow. Duesenberg's racing programme — the 1921 French Grand Prix win, Indianapolis 500 victories in 1924 and 1925 — sold the engineering; about 600 Model As were built.",
+     "note": "Built in Indianapolis and priced against Packard and Pierce-Arrow. Duesenberg's racing programme, the 1921 French Grand Prix win, Indianapolis 500 victories in 1924 and 1925, sold the engineering; about 600 Model As were built.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "4.3L straight-8 (260 cu in)",
@@ -45,7 +45,7 @@
     {
      "code": "Model J",
      "name": "Model J",
-     "note": "About 480 chassis were built, each bodied to order. The straight-eight's 265 hp made the J the most powerful American car of its day by a wide margin, and the ownership list — Clark Gable, Gary Cooper, royalty — became part of the legend.",
+     "note": "About 480 chassis were built, each bodied to order. The straight-eight's 265 hp made the J the most powerful American car of its day by a wide margin, and the ownership list, Clark Gable, Gary Cooper, royalty, became part of the legend.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "6.9L straight-8 (420 cu in)",
@@ -65,7 +65,7 @@
      "years": "1932–1937"
     }
    ],
-   "intro": "Unveiled at the 1928 New York show as a chassis alone costing more than a whole Cadillac: 265 hp when 100 was a lot, built to carry the greatest coachwork of the age — Murphy, LeBaron, Derham, Figoni. The definitive American classic.",
+   "intro": "Unveiled at the 1928 New York show as a chassis alone costing more than a whole Cadillac: 265 hp when 100 was a lot, built to carry the greatest coachwork of the age, Murphy, LeBaron, Derham, Figoni. The definitive American classic.",
    "name": "Model J",
    "photo": "assets/photos/duesenberg-model-j.webp",
    "photoCaption": "Model J 1934, front 3/4, museum",

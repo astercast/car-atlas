@@ -75,7 +75,7 @@
     "Saloon"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Rarity is total — most were worked to death as cheap cars. Any complete Arabella is a preservation candidate first and a project second.",
+   "collectorNote": "Rarity is total, most were worked to death as cheap cars. Any complete Arabella is a preservation candidate first and a project second.",
    "generations": [
     {
      "code": "Arabella",
@@ -89,7 +89,7 @@
      "years": "1959–1961"
     }
    ],
-   "intro": "The small Borgward, built to take the group downmarket against the Beetle and the Kadett — a water-cooled flat-four (a rarity then and now) in a neat two-door saloon. It arrived just as the money ran out, and barely 47,000 were built.",
+   "intro": "The small Borgward, built to take the group downmarket against the Beetle and the Kadett, a water-cooled flat-four (a rarity then and now) in a neat two-door saloon. It arrived just as the money ran out, and barely 47,000 were built.",
    "name": "Arabella",
    "segment": "Compact car",
    "slug": "arabella",
@@ -105,7 +105,7 @@
     "Saloon"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Air-suspension components are the ownership crux — club knowledge and NOS stock decide whether a car is a driver or a statue.",
+   "collectorNote": "Air-suspension components are the ownership crux, club knowledge and NOS stock decide whether a car is a driver or a statue.",
    "generations": [
     {
      "code": "P100",

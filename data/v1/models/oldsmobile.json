@@ -11,7 +11,7 @@
     {
      "code": "Curved Dash",
      "name": "Model R 'Curved Dash'",
-     "note": "About 19,000 were built across the run — unprecedented volume. A horizontal single-cylinder engine under the seat, tiller steering, and the curved dash that named it.",
+     "note": "About 19,000 were built across the run, unprecedented volume. A horizontal single-cylinder engine under the seat, tiller steering, and the curved dash that named it.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "Single-cylinder (95 cu in)",
@@ -20,7 +20,7 @@
      "years": "1901–1907"
     }
    ],
-   "intro": "The car that started mass production's story: a $650 single-cylinder runabout built in the thousands while rivals built dozens — the first Oldsmobile, and for a while the best-selling car in America.",
+   "intro": "The car that started mass production's story: a $650 single-cylinder runabout built in the thousands while rivals built dozens, the first Oldsmobile, and for a while the best-selling car in America.",
    "name": "Curved Dash Oldsmobile",
    "segment": "Runabout",
    "slug": "curved-dash",
@@ -37,7 +37,7 @@
     "Convertible"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Early Rocket 88s are the historically important buy — the later cars are cruise-night staples. Originality of the Rocket engine is the check.",
+   "collectorNote": "Early Rocket 88s are the historically important buy, the later cars are cruise-night staples. Originality of the Rocket engine is the check.",
    "generations": [
     {
      "code": "Rocket 88",
@@ -51,7 +51,7 @@
      "years": "1949–1953"
     }
    ],
-   "intro": "The 1949 Rocket 88 — a modern overhead-valve V8 in the lighter body — is a founding document of the muscle-car idea and the subject of what is often called the first rock-and-roll record. The 88 nameplate then ran for fifty years.",
+   "intro": "The 1949 Rocket 88, a modern overhead-valve V8 in the lighter body, is a founding document of the muscle-car idea and the subject of what is often called the first rock-and-roll record. The 88 nameplate then ran for fifty years.",
    "name": "88 / Rocket 88",
    "segment": "Full-size sedan",
    "slug": "rocket-88",
@@ -70,7 +70,7 @@
     "Convertible"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "W-30 convertibles are the summit; documentation is everything in a field full of tributes. The nameplate continued as a trim into the 1990s — the atlas covers the muscle-era cars.",
+   "collectorNote": "W-30 convertibles are the summit; documentation is everything in a field full of tributes. The nameplate continued as a trim into the 1990s, the atlas covers the muscle-era cars.",
    "generations": [
     {
      "code": "442 1",
@@ -95,7 +95,7 @@
      "years": "1968–1972"
     }
    ],
-   "intro": "Four-barrel, four-speed, dual exhausts — the name was the spec sheet. Born as a police-package option in the GTO's shadow, the 4-4-2 became its own model and, in 455 W-30 form, one of the era's fastest.",
+   "intro": "Four-barrel, four-speed, dual exhausts, the name was the spec sheet. Born as a police-package option in the GTO's shadow, the 4-4-2 became its own model and, in 455 W-30 form, one of the era's fastest.",
    "name": "4-4-2",
    "photo": "assets/photos/oldsmobile-442.webp",
    "photoCaption": "442 convertible 1967, hood open, show field",
@@ -168,7 +168,7 @@
      "years": "1978–1988"
     }
    ],
-   "intro": "For a time, the Cutlass was simply the best-selling car in America — the nameplate that carried Oldsmobile's volume from the muscle era through the G-body years, with the Supreme as the default upgrade buy of the suburbs.",
+   "intro": "For a time, the Cutlass was simply the best-selling car in America, the nameplate that carried Oldsmobile's volume from the muscle era through the G-body years, with the Supreme as the default upgrade buy of the suburbs.",
    "name": "Cutlass",
    "segment": "Mid-size family car",
    "slug": "cutlass",
@@ -190,7 +190,7 @@
     {
      "code": "Aurora",
      "name": "Aurora",
-     "note": "The 4.0 'Shortstar'-family V8 made 250 hp; the second generation (2001) added a V6 option and softened the design. Aurora pace cars led the Indy 500 — the engineering was real.",
+     "note": "The 4.0 'Shortstar'-family V8 made 250 hp; the second generation (2001) added a V6 option and softened the design. Aurora pace cars led the Indy 500, the engineering was real.",
      "spec": {
       "drivetrain": "FWD",
       "engine": "4.0L V8",
@@ -199,7 +199,7 @@
      "years": "1995–2003"
     }
    ],
-   "intro": "Oldsmobile's last flagship and its best car in decades: a Northstar-derived 4.0 V8, a rigid shell, and concept-car styling — the car that was meant to save the marque and instead became its elegant farewell.",
+   "intro": "Oldsmobile's last flagship and its best car in decades: a Northstar-derived 4.0 V8, a rigid shell, and concept-car styling, the car that was meant to save the marque and instead became its elegant farewell.",
    "name": "Aurora",
    "segment": "Luxury sedan",
    "slug": "aurora",

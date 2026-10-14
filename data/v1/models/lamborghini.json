@@ -6,12 +6,12 @@
     "Coupe"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Good cars trade in the millions; SVs are the top of the market. Nearly every Miura has been restored at least once — originality of details is where the money is.",
+   "collectorNote": "Good cars trade in the millions; SVs are the top of the market. Nearly every Miura has been restored at least once, originality of details is where the money is.",
    "generations": [
     {
      "code": "P400",
      "name": "Production run",
-     "note": "The engine was mounted transversely, mid-ship, with the gearbox sharing the sump — compact, clever and a nightmare to service. SV models got wider rear bodywork, more power and, finally, a separated oil supply.",
+     "note": "The engine was mounted transversely, mid-ship, with the gearbox sharing the sump, compact, clever and a nightmare to service. SV models got wider rear bodywork, more power and, finally, a separated oil supply.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "3.9L V12",
@@ -20,7 +20,7 @@
      "years": "1966–1973"
     }
    ],
-   "intro": "The car that invented the mid-engined supercar. Ferruccio Lamborghini's young engineers built it after hours, against his wishes — he wanted a grand tourer. The transverse V12 layout rewrote the rulebook permanently, and Gandini's styling has never been bettered at Sant'Agata.",
+   "intro": "The car that invented the mid-engined supercar. Ferruccio Lamborghini's young engineers built it after hours, against his wishes, he wanted a grand tourer. The transverse V12 layout rewrote the rulebook permanently, and Gandini's styling has never been bettered at Sant'Agata.",
    "name": "Miura",
    "photo": "assets/photos/lamborghini-miura.webp",
    "photoCaption": "Miura SV, front 3/4, showroom",
@@ -57,7 +57,7 @@
     {
      "code": "LP400",
      "name": "LP400 / LP400 S",
-     "note": "The pure original had no rear wing and narrow tyres. The famous optional wing on later cars added drag and nothing else — owners fitted it anyway, because it looked right.",
+     "note": "The pure original had no rear wing and narrow tyres. The famous optional wing on later cars added drag and nothing else, owners fitted it anyway, because it looked right.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "3.9L V12",
@@ -68,7 +68,7 @@
     {
      "code": "LP5000",
      "name": "LP5000 S / QV",
-     "note": "Displacement grew to 4.8, then 5.2 litres with four valves per cylinder in the Quattrovalvole — the fastest Countach, at around 455 hp in European tune.",
+     "note": "Displacement grew to 4.8, then 5.2 litres with four valves per cylinder in the Quattrovalvole, the fastest Countach, at around 455 hp in European tune.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "4.8L–5.2L V12",
@@ -88,7 +88,7 @@
      "years": "1988–1990"
     }
    ],
-   "intro": "The wedge. Gandini's scissor-doored V12 spent sixteen years as the definitive poster car, growing wider, wingier and faster the whole way. Impractical, cramped, nearly impossible to reverse — and completely untouchable as an object.",
+   "intro": "The wedge. Gandini's scissor-doored V12 spent sixteen years as the definitive poster car, growing wider, wingier and faster the whole way. Impractical, cramped, nearly impossible to reverse, and completely untouchable as an object.",
    "name": "Countach",
    "segment": "Supercar",
    "slug": "countach",
@@ -131,7 +131,7 @@
      "years": "2019–2024"
     }
    ],
-   "intro": "The Gallardo's successor and the last of the naturally aspirated V10s. Over two decades of production variants — Evo, Performante, STO, Tecnica, Sterrato — made it Lamborghini's best-selling sports car before the Temerario replaced it in 2024.",
+   "intro": "The Gallardo's successor and the last of the naturally aspirated V10s. Over two decades of production variants, Evo, Performante, STO, Tecnica, Sterrato, made it Lamborghini's best-selling sports car before the Temerario replaced it in 2024.",
    "name": "Huracán",
    "segment": "Supercar",
    "slug": "huracan",
@@ -156,7 +156,7 @@
     {
      "code": "LP 700-4",
      "name": "First generation",
-     "note": "A new carbon monocoque and a single-clutch ISR gearbox that shifted brutally fast — and felt it. The SV of 2015 sharpened everything and lapped the Nürburgring in under seven minutes.",
+     "note": "A new carbon monocoque and a single-clutch ISR gearbox that shifted brutally fast, and felt it. The SV of 2015 sharpened everything and lapped the Nürburgring in under seven minutes.",
      "spec": {
       "drivetrain": "AWD",
       "engine": "6.5L V12",

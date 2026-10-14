@@ -7,7 +7,7 @@
     "Wagon"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Two-stroke cars are the specialist's joy — freewheel, smoke and all. V4 96s are the usable classic; Monte Carlo and Safari rally trims are the prizes.",
+   "collectorNote": "Two-stroke cars are the specialist's joy, freewheel, smoke and all. V4 96s are the usable classic; Monte Carlo and Safari rally trims are the prizes.",
    "generations": [
     {
      "code": "92",
@@ -32,7 +32,7 @@
      "years": "1960–1980"
     }
    ],
-   "intro": "Saab's first three decades in one line: a teardrop two-stroke shaped by aircraft engineers, evolved from the 92 through the 93 to the long-lived 96 — rally winner, family staple, and the car that made front-wheel drive make sense in winter.",
+   "intro": "Saab's first three decades in one line: a teardrop two-stroke shaped by aircraft engineers, evolved from the 92 through the 93 to the long-lived 96, rally winner, family staple, and the car that made front-wheel drive make sense in winter.",
    "name": "92 / 93 / 96",
    "segment": "Compact family car",
    "slug": "92-96",
@@ -68,7 +68,7 @@
     {
      "code": "99 Turbo",
      "name": "99 Turbo",
-     "note": "145 hp from 2.0 litres when turbos were exotic — the template for every Saab that followed, and a Q-car landmark. The 99 line ended as the 90 in the mid-1980s.",
+     "note": "145 hp from 2.0 litres when turbos were exotic, the template for every Saab that followed, and a Q-car landmark. The 99 line ended as the 90 in the mid-1980s.",
      "spec": {
       "drivetrain": "FWD",
       "engine": "2.0L turbo inline-4",
@@ -77,7 +77,7 @@
      "years": "1978–1984"
     }
    ],
-   "intro": "The bigger, safer Saab: wraparound windscreen, ignition by the handbrake, and in 1978 the 99 Turbo — one of the first production cars to make turbocharging a road-car virtue rather than a racing trick.",
+   "intro": "The bigger, safer Saab: wraparound windscreen, ignition by the handbrake, and in 1978 the 99 Turbo, one of the first production cars to make turbocharging a road-car virtue rather than a racing trick.",
    "name": "99",
    "segment": "Compact executive car",
    "slug": "99",
@@ -112,7 +112,7 @@
     {
      "code": "NG900",
      "name": "900 (new generation)",
-     "note": "GM-era car on an Opel Vectra platform — transverse engines, including a 2.5 V6, and the talladega-challenge-proven turbo fours. Competent, and the hinge point between old Saab and new.",
+     "note": "GM-era car on an Opel Vectra platform, transverse engines, including a 2.5 V6, and the talladega-challenge-proven turbo fours. Competent, and the hinge point between old Saab and new.",
      "spec": {
       "drivetrain": "FWD",
       "engine": "2.0L turbo I4 / 2.5L V6",
@@ -165,7 +165,7 @@
      "years": "1985–1998"
     }
    ],
-   "intro": "Saab's big car, developed with Fiat, Lancia and Alfa Romeo on the shared Type Four programme — but characteristically Saabified, and in Aero form one of the great sleepers: mid-range punch that embarrassed period supercars.",
+   "intro": "Saab's big car, developed with Fiat, Lancia and Alfa Romeo on the shared Type Four programme, but characteristically Saabified, and in Aero form one of the great sleepers: mid-range punch that embarrassed period supercars.",
    "name": "9000",
    "segment": "Executive sedan / hatchback",
    "slug": "9000",
@@ -184,12 +184,12 @@
     "Wagon"
    ],
    "buyingClass": "modern-classic",
-   "collectorNote": "Turbo X and Viggen are the collector poles; convertibles are the summer buy. Everything is a parts-network car now — the Saab community is the infrastructure.",
+   "collectorNote": "Turbo X and Viggen are the collector poles; convertibles are the summer buy. Everything is a parts-network car now, the Saab community is the infrastructure.",
    "generations": [
     {
      "code": "OG 9-3",
      "name": "9-3 (first generation)",
-     "note": "Saab claimed 1,100 changes over the 900. The Viggen — named for the fighter jet — ran a 2.3 turbo at 225 hp and taught a generation about torque steer.",
+     "note": "Saab claimed 1,100 changes over the 900. The Viggen, named for the fighter jet, ran a 2.3 turbo at 225 hp and taught a generation about torque steer.",
      "spec": {
       "drivetrain": "FWD",
       "engine": "2.0L–2.3L turbo inline-4",
@@ -209,7 +209,7 @@
      "years": "2003–2011"
     }
    ],
-   "intro": "The 900's successor under GM, twice over: first a deep facelift of the old car — Viggen included — then the 2003 Sport Sedan, all-new, with the Aero V6 and the all-wheel-drive Turbo X as its peaks. NEVS briefly restarted the line in 2013.",
+   "intro": "The 900's successor under GM, twice over: first a deep facelift of the old car, Viggen included, then the 2003 Sport Sedan, all-new, with the Aero V6 and the all-wheel-drive Turbo X as its peaks. NEVS briefly restarted the line in 2013.",
    "name": "9-3",
    "segment": "Compact executive car",
    "slug": "9-3",
@@ -234,7 +234,7 @@
     {
      "code": "OG 9-5",
      "name": "9-5 (first generation)",
-     "note": "Aero models ran the 2.3 high-output turbo at up to 260 hp. Ventilated seats, night panel, and an estate that out-sold the saloon in some markets — peak Swedish wagon logic.",
+     "note": "Aero models ran the 2.3 high-output turbo at up to 260 hp. Ventilated seats, night panel, and an estate that out-sold the saloon in some markets, peak Swedish wagon logic.",
      "spec": {
       "drivetrain": "FWD",
       "engine": "2.0L–2.3L turbo inline-4",
@@ -245,7 +245,7 @@
     {
      "code": "NG 9-5",
      "name": "9-5 (second generation)",
-     "note": "The clean-sheet flagship: Epsilon II platform, available XWD and a 300 hp 2.8 turbo V6 in Aero trim. Production ended with Saab itself after roughly 11,000 cars — instant rarity.",
+     "note": "The clean-sheet flagship: Epsilon II platform, available XWD and a 300 hp 2.8 turbo V6 in Aero trim. Production ended with Saab itself after roughly 11,000 cars, instant rarity.",
      "spec": {
       "drivetrain": "FWD / AWD",
       "engine": "2.0L turbo I4 / 2.8L turbo V6",

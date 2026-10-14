@@ -42,7 +42,7 @@
      "years": "2020–present"
     }
    ],
-   "intro": "The car the rest of the industry copies five years later. Air suspension, massaging seats, night vision — if it debuts anywhere, it debuts here. The name is short for Sonderklasse: special class. It has earned it more often than not.",
+   "intro": "The car the rest of the industry copies five years later. Air suspension, massaging seats, night vision, if it debuts anywhere, it debuts here. The name is short for Sonderklasse: special class. It has earned it more often than not.",
    "name": "S-Class",
    "segment": "Full-size luxury sedan",
    "slug": "s-class",
@@ -98,7 +98,7 @@
      "years": "2016–2023"
     }
    ],
-   "intro": "The taxi in Stuttgart, the boardroom car everywhere else. The E-Class line — the W124 carried it before the name existed — is Mercedes at its most durable and least theatrical, which is exactly the point.",
+   "intro": "The taxi in Stuttgart, the boardroom car everywhere else. The E-Class line, the W124 carried it before the name existed, is Mercedes at its most durable and least theatrical, which is exactly the point.",
    "name": "E-Class",
    "segment": "Executive car",
    "slug": "e-class",
@@ -153,7 +153,7 @@
      "years": "2021–present"
     }
    ],
-   "intro": "It starts with the 300SL Gullwing — the fastest production car of its day and still the collector benchmark — and continues as seven decades of open-top grand touring. The current car is an AMG product; the early car is automotive royalty.",
+   "intro": "It starts with the 300SL Gullwing, the fastest production car of its day and still the collector benchmark, and continues as seven decades of open-top grand touring. The current car is an AMG product; the early car is automotive royalty.",
    "name": "SL",
    "photo": "assets/photos/mercedes-benz-300sl.webp",
    "photoCaption": "300 SL roadster, hood open, indoor show",
@@ -206,7 +206,7 @@
     {
      "code": "W463A",
      "name": "Third generation",
-     "note": "Wider, lighter, independent front suspension — and it still looks like 1979 and locks all three diffs. The G63 outsells everything else in the range.",
+     "note": "Wider, lighter, independent front suspension, and it still looks like 1979 and locks all three diffs. The G63 outsells everything else in the range.",
      "spec": {
       "drivetrain": "4WD",
       "engine": "4.0L twin-turbo V8",
@@ -215,7 +215,7 @@
      "years": "2018–present"
     }
    ],
-   "intro": "A military utility vehicle that became a luxury icon without changing its silhouette. Three locking differentials, a ladder frame, and door hinges on the outside — the shape is the substance, and Mercedes has wisely never messed with it.",
+   "intro": "A military utility vehicle that became a luxury icon without changing its silhouette. Three locking differentials, a ladder frame, and door hinges on the outside, the shape is the substance, and Mercedes has wisely never messed with it.",
    "name": "G-Class",
    "segment": "Luxury off-road SUV",
    "slug": "g-class",
@@ -247,7 +247,7 @@
     {
      "code": "C192",
      "name": "Second generation",
-     "note": "Bigger, heavier, all-wheel drive, and 2+2 seating — a GT in the true sense now. The GT 63's pace is not in question; the character changed.",
+     "note": "Bigger, heavier, all-wheel drive, and 2+2 seating, a GT in the true sense now. The GT 63's pace is not in question; the character changed.",
      "spec": {
       "drivetrain": "AWD",
       "engine": "4.0L twin-turbo V8",

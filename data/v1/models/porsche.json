@@ -12,7 +12,7 @@
    "generations": [
     {
      "code": "901",
-     "name": "901 — the original",
+     "name": "901, the original",
      "note": "The original: a 2.0-litre air-cooled flat-six behind the rear axle, torsion-bar suspension, and a silhouette drawn once and then never really changed again. The 911S and the featherweight 2.7 Carrera RS of 1973 are the blue chips.",
      "spec": {
       "drivetrain": "RWD",
@@ -23,8 +23,8 @@
     },
     {
      "code": "G",
-     "name": "G-Series — impact bumpers and the Turbo",
-     "note": "The long second act: impact bumpers, galvanised bodies from 1976, and in 1975 the 930 Turbo — the widowmaker that put forced induction on the map. The Carrera 3.2 of 1984 is the sweet spot the market keeps circling.",
+     "name": "G-Series, impact bumpers and the Turbo",
+     "note": "The long second act: impact bumpers, galvanised bodies from 1976, and in 1975 the 930 Turbo, the widowmaker that put forced induction on the map. The Carrera 3.2 of 1984 is the sweet spot the market keeps circling.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "3.2L flat-6 (Carrera 3.2)",
@@ -34,7 +34,7 @@
     },
     {
      "code": "964",
-     "name": "964 — the bridge car",
+     "name": "964, the bridge car",
      "note": "The bridge car: classic silhouette over modern underpinnings, with all-wheel drive available for the first time. The Turbo and Carrera RS are the blue chips.",
      "spec": {
       "drivetrain": "RWD / AWD",
@@ -45,7 +45,7 @@
     },
     {
      "code": "993",
-     "name": "993 — last of the air-cooled",
+     "name": "993, last of the air-cooled",
      "note": "The last air-cooled 911, and the market treats it accordingly. Multi-link rear suspension finally tamed the layout's worst habits.",
      "spec": {
       "drivetrain": "RWD / AWD",
@@ -56,7 +56,7 @@
     },
     {
      "code": "996",
-     "name": "996 — water-cooled, like it or not",
+     "name": "996, water-cooled, like it or not",
      "note": "The break with tradition: water cooling replaces air, the fried-egg headlights shared with the Boxster caused a decade of arguments, and underneath sat a superb chassis. The GT3 name debuts here; the Turbo is devastatingly fast for the money, then and now.",
      "spec": {
       "drivetrain": "RWD / AWD",
@@ -67,7 +67,7 @@
     },
     {
      "code": "997",
-     "name": "997 — the modern classic forms",
+     "name": "997, the modern classic forms",
      "note": "Round headlights return and the cabin grows up. The 2009 facelift adds direct injection and the PDK gearbox; the run closes with the GT3 RS 4.0, the largest-displacement 911 engine of its era and an instant collector car.",
      "spec": {
       "drivetrain": "RWD / AWD",
@@ -78,8 +78,8 @@
     },
     {
      "code": "991",
-     "name": "991 — bigger, faster, argued about",
-     "note": "A longer wheelbase, electric steering, and another leap in pace — purists grumbled, lap times answered. The 2016 facelift turbocharges the Carrera line, leaving the GT3 as the naturally aspirated holdout.",
+     "name": "991, bigger, faster, argued about",
+     "note": "A longer wheelbase, electric steering, and another leap in pace, purists grumbled, lap times answered. The 2016 facelift turbocharges the Carrera line, leaving the GT3 as the naturally aspirated holdout.",
      "spec": {
       "drivetrain": "RWD / AWD",
       "engine": "3.8L flat-6 (Carrera S)",
@@ -89,7 +89,7 @@
     },
     {
      "code": "992",
-     "name": "992 — the modern benchmark",
+     "name": "992, the modern benchmark",
      "note": "Wide-body for everyone, a proper digital cabin, and a Turbo S that out-accelerates most hypercars. The GT3 keeps a 9,000 rpm naturally aspirated flat-six alive.",
      "spec": {
       "drivetrain": "RWD / AWD",
@@ -99,7 +99,7 @@
      "years": "2019–present"
     }
    ],
-   "intro": "One car, perfected for sixty years. The engine is still in the wrong place, the silhouette is still a teardrop, and the 911 is still the sports car everything else is judged against — because Porsche never stopped developing it.",
+   "intro": "One car, perfected for sixty years. The engine is still in the wrong place, the silhouette is still a teardrop, and the 911 is still the sports car everything else is judged against, because Porsche never stopped developing it.",
    "name": "911",
    "photo": "assets/photos/porsche-911.webp",
    "photoCaption": "Porsche 911 (992), green, showroom",
@@ -164,7 +164,7 @@
      "years": "2017–present"
     }
    ],
-   "intro": "The SUV that saved Porsche — purists hated it in 2002 and the profits funded every GT car since. It also happened to be genuinely good: fast, capable off-road, and unmistakably a Porsche to drive.",
+   "intro": "The SUV that saved Porsche, purists hated it in 2002 and the profits funded every GT car since. It also happened to be genuinely good: fast, capable off-road, and unmistakably a Porsche to drive.",
    "name": "Cayenne",
    "segment": "Luxury SUV",
    "slug": "cayenne",
@@ -187,7 +187,7 @@
     {
      "code": "J1",
      "name": "First generation",
-     "note": "Launched as Turbo and Turbo S — no turbo anywhere, the names are trim levels now. The 2024 facelift brought more range, more power, and the 1,000 hp-class Turbo GT.",
+     "note": "Launched as Turbo and Turbo S, no turbo anywhere, the names are trim levels now. The 2024 facelift brought more range, more power, and the 1,000 hp-class Turbo GT.",
      "spec": {
       "drivetrain": "RWD / AWD",
       "engine": "Single- / dual-motor electric",
@@ -279,7 +279,7 @@
     {
      "code": "981",
      "name": "Cayman/Boxster (third generation)",
-     "note": "The six-cylinder peak before downsizing. The Cayman GT4 got the 911's 3.8 and a manual only — an instant classic.",
+     "note": "The six-cylinder peak before downsizing. The Cayman GT4 got the 911's 3.8 and a manual only, an instant classic.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "2.7L–3.8L flat-6",

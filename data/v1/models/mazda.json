@@ -22,7 +22,7 @@
     {
      "code": "NC",
      "name": "Third generation",
-     "note": "The biggest, softest Miata — which still means small and sharp by any other standard. The power retractable hardtop made it a year-round car for northern buyers.",
+     "note": "The biggest, softest Miata, which still means small and sharp by any other standard. The power retractable hardtop made it a year-round car for northern buyers.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "2.0L inline-4",
@@ -86,7 +86,7 @@
     {
      "code": "FC",
      "name": "Second generation",
-     "note": "The Porsche 944 of rotary cars — turbo models made up to 200 hp, and the convertible is now an underrated period piece. Handling first, straight-line speed second.",
+     "note": "The Porsche 944 of rotary cars, turbo models made up to 200 hp, and the convertible is now an underrated period piece. Handling first, straight-line speed second.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "1.3L rotary (13B Turbo)",
@@ -140,7 +140,7 @@
     {
      "code": "BM",
      "name": "Third generation",
-     "note": "Skyactiv efficiency, a proper interior, and handling that embarrassed German rivals. No fast version this time — the chassis always felt like it wanted one.",
+     "note": "Skyactiv efficiency, a proper interior, and handling that embarrassed German rivals. No fast version this time, the chassis always felt like it wanted one.",
      "spec": {
       "drivetrain": "FWD",
       "engine": "2.5L inline-4",
@@ -194,7 +194,7 @@
     {
      "code": "KF",
      "name": "Second generation",
-     "note": "Quieter, plusher, and eventually turbocharged — the 2.5T made it a genuinely quick family car. Eight model years is a long run; it earned it.",
+     "note": "Quieter, plusher, and eventually turbocharged, the 2.5T made it a genuinely quick family car. Eight model years is a long run; it earned it.",
      "spec": {
       "drivetrain": "FWD / AWD",
       "engine": "2.5L turbo inline-4",
@@ -209,7 +209,7 @@
      "years": "2025–present"
     }
    ],
-   "intro": "The crossover that proved family cars didn't have to steer like appliances. The CX-5 built Mazda's modern business — the profits from this car fund everything else the company makes.",
+   "intro": "The crossover that proved family cars didn't have to steer like appliances. The CX-5 built Mazda's modern business, the profits from this car fund everything else the company makes.",
    "name": "CX-5",
    "segment": "Compact SUV",
    "slug": "cx-5",

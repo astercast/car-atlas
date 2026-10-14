@@ -7,12 +7,12 @@
     "Convertible"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Spyder conversions pollute the market — verify against factory records. A documented SS coupé is the blue-chip Maserati of the era.",
+   "collectorNote": "Spyder conversions pollute the market, verify against factory records. A documented SS coupé is the blue-chip Maserati of the era.",
    "generations": [
     {
      "code": "AM115",
      "name": "Ghibli / Ghibli SS",
-     "note": "Dry-sump V8, pop-up lamps, and steel or alloy bodies. Faster in a straight line than a Daytona, more relaxed everywhere else — the connoisseur's Italian GT.",
+     "note": "Dry-sump V8, pop-up lamps, and steel or alloy bodies. Faster in a straight line than a Daytona, more relaxed everywhere else, the connoisseur's Italian GT.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "4.7L / 4.9L V8",
@@ -43,7 +43,7 @@
     {
      "code": "M157",
      "name": "Ghibli / Trofeo",
-     "note": "Chrysler-era platform, Ferrari F160 V6 built in Maranello, and ZF eight-speed. The 2020 Trofeo added the F154 V8 and a Corsa mode — the last V8 Maserati sedan.",
+     "note": "Chrysler-era platform, Ferrari F160 V6 built in Maranello, and ZF eight-speed. The 2020 Trofeo added the F154 V8 and a Corsa mode, the last V8 Maserati sedan.",
      "spec": {
       "drivetrain": "RWD / AWD",
       "engine": "3.0L twin-turbo V6 / 3.8L twin-turbo V8",
@@ -116,7 +116,7 @@
     {
      "code": "M145",
      "name": "GranTurismo",
-     "note": "The 4.7 in the S and MC Stradale is the soundtrack car — one of the great production V8 exhaust notes, wrapped in the era's prettiest coupé body.",
+     "note": "The 4.7 in the S and MC Stradale is the soundtrack car, one of the great production V8 exhaust notes, wrapped in the era's prettiest coupé body.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "4.2L / 4.7L V8",
@@ -166,7 +166,7 @@
     "Convertible"
    ],
    "buyingClass": "modern-classic",
-   "collectorNote": "Fifty cars and no casual market — MC12s lead Maserati values at auction, and provenance documentation is the entire conversation.",
+   "collectorNote": "Fifty cars and no casual market, MC12s lead Maserati values at auction, and provenance documentation is the entire conversation.",
    "generations": [
     {
      "code": "MC12",
@@ -180,7 +180,7 @@
      "years": "2004–2005"
     }
    ],
-   "intro": "Maserati's return to racing, built on the Enzo's bones to homologate a GT1 car. Bigger, rarer, and in race trim far more successful than the Ferrari it came from — five FIA GT titles.",
+   "intro": "Maserati's return to racing, built on the Enzo's bones to homologate a GT1 car. Bigger, rarer, and in race trim far more successful than the Ferrari it came from, five FIA GT titles.",
    "name": "MC12",
    "segment": "Supercar",
    "slug": "mc12",
@@ -210,7 +210,7 @@
      "years": "2021–present"
     }
    ],
-   "intro": "The Trident's clean-sheet supercar: a carbon tub, butterfly doors, and the Nettuno V6 with F1-style pre-chamber ignition — Maserati's own engine again, at last.",
+   "intro": "The Trident's clean-sheet supercar: a carbon tub, butterfly doors, and the Nettuno V6 with F1-style pre-chamber ignition, Maserati's own engine again, at last.",
    "name": "MC20",
    "segment": "Supercar",
    "slug": "mc20",

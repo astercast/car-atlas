@@ -13,7 +13,7 @@
     {
      "code": "E30",
      "name": "Second generation",
-     "note": "The boxy one everyone wants now. Light, simple, and honest — the 325i's straight-six and the first M3 both came from this shell.",
+     "note": "The boxy one everyone wants now. Light, simple, and honest, the 325i's straight-six and the first M3 both came from this shell.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "2.5L inline-6 (325i)",
@@ -98,7 +98,7 @@
      "years": "2016–2023"
     }
    ],
-   "intro": "The executive sedan done the BMW way: rear-drive balance, a proper straight-six up front, and just enough aggression. At its best — the E39 — it was possibly the finest sedan in the world.",
+   "intro": "The executive sedan done the BMW way: rear-drive balance, a proper straight-six up front, and just enough aggression. At its best, the E39, it was possibly the finest sedan in the world.",
    "name": "5 Series",
    "segment": "Executive car",
    "slug": "5-series",
@@ -146,7 +146,7 @@
     {
      "code": "G80 M3",
      "name": "Sixth generation",
-     "note": "Twin-turbo power, available all-wheel drive, and — finally, in the Touring — a wagon. The grille debate never touched the way it drives.",
+     "note": "Twin-turbo power, available all-wheel drive, and, finally, in the Touring, a wagon. The grille debate never touched the way it drives.",
      "spec": {
       "drivetrain": "RWD / AWD",
       "engine": "3.0L twin-turbo inline-6",
@@ -184,7 +184,7 @@
     "Convertible"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Rust is the whole negotiation. The tii and Turbo command serious premiums — verify numbers and injection hardware, because clones exist.",
+   "collectorNote": "Rust is the whole negotiation. The tii and Turbo command serious premiums, verify numbers and injection hardware, because clones exist.",
    "generations": [
     {
      "code": "02 Series",

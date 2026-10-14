@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Car Atlas — Every car ever made. One atlas.</title>
-<meta name="description" content="The all-in-one car atlas: every make, model, and generation ever built — specs, history, where to buy each one for the best price, and the clubs near you.">
+<title>Car Atlas · Every car ever made. One atlas.</title>
+<meta name="description" content="The all-in-one car atlas: every make, model, and generation ever built, with specs, history, certified auction results, and the clubs that keep them running.">
 <meta name="theme-color" content="#fafaf8">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -12,14 +12,14 @@
 <link rel="canonical" href="/">
 <!-- RELATIVE until deploy: absolutize og:image + twitter:image against the live domain at GO_LIVE (see GO_LIVE.md) -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="Car Atlas — Every car ever made. One atlas.">
-<meta property="og:description" content="The all-in-one car atlas: every make, model, and generation ever built — specs, history, where to buy each one for the best price, and the clubs near you.">
+<meta property="og:title" content="Car Atlas · Every car ever made. One atlas.">
+<meta property="og:description" content="The all-in-one car atlas: every make, model, and generation ever built, with specs, history, certified auction results, and the clubs that keep them running.">
 <meta property="og:image" content="assets/og-card.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Car Atlas — Every car ever made. One atlas.">
-<meta name="twitter:description" content="The all-in-one car atlas: every make, model, and generation ever built — specs, history, where to buy each one for the best price, and the clubs near you.">
+<meta name="twitter:title" content="Car Atlas · Every car ever made. One atlas.">
+<meta name="twitter:description" content="The all-in-one car atlas: every make, model, and generation ever built, with specs, history, certified auction results, and the clubs that keep them running.">
 <meta name="twitter:image" content="assets/og-card.png">
 <link rel="preload" href="assets/fonts/inter-latin-normal-var.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/css/style.css">
@@ -29,78 +29,147 @@
 <header class="nav"><div class="wrap nav-in">
   <a class="wordmark" href="index.html">CAR ATLAS<span class="dot">.</span></a>
   <nav class="nav-links">
-    <a href="#makes">Makes</a>
-    <a href="#eras">Eras</a>
+    <a href="#atlas">The Atlas</a>
+    <a href="#price-watch">Price Watch</a>
+    <a href="#journal">The Journal</a>
     <a href="buy.html">Buy</a>
     <a href="clubs.html">Clubs</a>
   </nav>
 </div></header>
 
 <main class="wrap">
-  <div class="hero">
-    <h1>Every car ever made. <span class="accent">One atlas.</span></h1>
-    <p class="sub">59 makes, 257 models, 469 generations — specifications, production history, certified auction results, and the clubs that keep them running. Search the atlas.</p>
-    <div class="searchbox">
-      <input id="q" type="search" placeholder="Try “911”, “Miata”, “Countach”…" autocomplete="off" aria-label="Search every make and model">
-      <button class="go" aria-label="Search" onclick="document.getElementById('q').focus()">→</button>
-      <div id="q-results" class="results hidden" role="listbox"></div>
+  <div class="masthead">
+    <p class="mast-word">CAR ATLAS<span class="dot">.</span></p>
+    <p class="mast-tag">Every car ever made. One atlas. An encyclopedia, a certified results record, and a journal, published as one issue.</p>
+    <p class="folio" id="folio"><span>The <b>October 2026</b> issue</span><span class="sep">·</span><span>Atlas data as of <b>14 October 2026</b></span><span class="sep">·</span><span><b>59</b> makes, <b>257</b> models, <b>469</b> generations</span><span class="sep">·</span><span>Price Watch: <b>56</b> certified auction results</span></p>
+  </div>
+
+  <section class="cover" aria-label="Cover car">
+    <figure class="photo">
+      <img src="assets/photos/ferrari-250-gto.webp" alt="Ferrari 250 GTO">
+      <figcaption>Ferrari 250 GTO · Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons</figcaption>
+    </figure>
+    <div>
+      <p class="cover-state">Sold</p>
+      <h1 class="cover-title">Ferrari 250 GTO (1962)</h1>
+      <p class="cover-price">$48,405,000</p>
+      <p class="cover-basis">Including buyer's premium (hammer $44,000,000)</p>
+      <p class="cover-standfirst">Thirty-six were built, and the 250 GTO became the car the whole hobby measures itself against. This example, chassis 3413 GT, is the most valuable car ever sold at auction in its day, and the cover of this issue because the market still starts here.</p>
+      <p class="cover-date"><b>RM Sotheby's Monterey</b> · 25 August 2018<span id="cover-age"></span></p>
+      <p class="cover-src">Certified result, Price Watch. Source: <a href="https://rmsothebys.com/media-center/press-releases/the-most-valuable-car-ever-sold-at-auction-rm-sotheby-s-sells-1962-ferrari-250-gto-for-484-million/" target="_blank" rel="noopener">RM Sotheby's press release ↗</a></p>
+      <p><a class="btn" href="make.html?make=ferrari">Ferrari in the atlas →</a></p>
     </div>
-    <div class="ledger">
-      <span><b id="stat-makes">–</b>makes</span>
-      <span><b id="stat-models">–</b>models</span>
-      <span><b id="stat-gens">–</b>generations</span>
-      <span><b id="stat-clubs">–</b>clubs</span>
-      <span><b id="stat-results">–</b>certified auction results</span>
-    </div>
-    <div class="specimens">
-      <p class="spec-label">Price Watch — latest certified results</p>
-      <div id="hero-specimens"></div>
-      <p class="small mut" style="margin-top:12px">Completed auction results, each certified against a published source. A result is one car on one day — context, not a valuation. <a href="buy.html">All results →</a></p>
-    </div>
+  </section>
+
+  <div class="searchbox">
+    <input id="q" type="search" placeholder="Try “911”, “Miata”, “Countach”…" autocomplete="off" aria-label="Search every make and model">
+    <button class="go" aria-label="Search" onclick="document.getElementById('q').focus()">→</button>
+    <div id="q-results" class="results hidden" role="listbox"></div>
   </div>
 
   <p id="js-error" class="note-box hidden" role="alert"></p>
 
-  <section class="block" id="featured">
-    <div class="block-head"><h2>Start with the icons</h2><p>Six cars that explain the whole hobby. Each one links to its full generation-by-generation record.</p></div>
+  <section class="contents" aria-label="Contents">
+    <p class="contents-head">Contents</p>
+    <div class="doors">
+      <a class="door" href="#atlas">
+        <p class="d-name">The Atlas</p>
+        <p class="d-contract">Every make, model and generation in the atlas, by marque and by era.</p>
+        <p class="d-inside" id="door-atlas">59 makes · 257 models · 469 generations</p>
+      </a>
+      <a class="door" href="#price-watch">
+        <p class="d-name">The Price Watch</p>
+        <p class="d-contract">Certified auction results, each one tied to its published source.</p>
+        <p class="d-inside" id="door-pw">56 certified results · newest sales below, all of them on the Buy page</p>
+      </a>
+      <a class="door" href="#journal">
+        <p class="d-name">The Journal</p>
+        <p class="d-contract">Collector notes and marque histories, drawn from the records themselves.</p>
+        <p class="d-inside">Notes on 182 models · the river below</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="dept" id="atlas">
+    <div class="dept-head"><p class="dept-word">Department</p><h2>The Atlas</h2><p class="dept-note">The encyclopedia: makes first, then the eras and shapes that cut across them.</p></div>
+
+    <p class="rail-name">Start with the icons</p>
     <div class="rows" id="featured-grid"></div>
-  </section>
 
-  <section class="block" id="makes">
-    <div class="block-head"><h2>Browse by make</h2><p>Every marque in the atlas so far. The registry grows each wave toward the full list — hundreds of makes, living and dead — tracked openly in the coverage notes.</p></div>
+    <p class="rail-name">By make</p>
     <div class="grid makes" id="makes-grid"></div>
-  </section>
 
-  <section class="block" id="eras">
-    <div class="block-head"><h2>Browse by era</h2><p>Cars wear their decade. Pick one and see what the atlas holds from it.</p></div>
+    <p class="rail-name">By era<span class="sort">the atlas by time</span></p>
     <div class="chips" id="era-chips" style="margin-bottom:18px"></div>
     <div class="rows" id="era-grid"></div>
-  </section>
 
-  <section class="block" id="styles">
-    <div class="block-head"><h2>Browse by shape</h2><p>Coupe, wagon, pickup, roadster — start from the silhouette you want.</p></div>
+    <p class="rail-name">By shape</p>
     <div class="chips" id="style-chips" style="margin-bottom:18px"></div>
     <div class="rows" id="style-grid"></div>
   </section>
 
+  <section class="dept" id="price-watch">
+    <div class="dept-head"><p class="dept-word">Department</p><h2>The Price Watch</h2><p class="dept-note">Completed auction results, each certified against a published source. A result is one car on one day: context, not a valuation.</p></div>
+    <p class="rail-name">Certified results<span class="sort">newly sold first</span></p>
+    <div class="listings" id="pw-rail"></div>
+    <p style="margin-top:18px"><a class="btn" href="buy.html">All 56 certified results, with filters →</a></p>
+  </section>
+
+  <section class="dept" id="journal">
+    <div class="dept-head"><p class="dept-word">Department</p><h2>The Journal</h2><p class="dept-note">The atlas writing about its own records: what the market does to the cars, and what to watch before buying one.</p></div>
+    <div class="journal-river">
+      <a class="journal-unit" href="model.html?make=ferrari&amp;model=f40">
+        <p class="j-dept">Collector note</p>
+        <h3>Ferrari F40 (1987–1992)</h3>
+        <p class="j-stand">Regularly trades in the $3M-plus range in recent years.</p>
+        <p class="j-meta">Supercar · Coupe · the record carries its full text</p>
+      </a>
+      <a class="journal-unit" href="model.html?make=mclaren&amp;model=f1">
+        <p class="j-dept">Collector note</p>
+        <h3>McLaren F1 (1992–1998)</h3>
+        <p class="j-stand">The centre of the modern collector market, eight-figure prices are the norm and the best cars trade privately.</p>
+        <p class="j-meta">Supercar · Coupe · the record carries its full text</p>
+        <figure class="thumb"><img src="assets/photos/mclaren-f1.webp" alt="F1 GTR Longtail (race car), rear view" loading="lazy"><figcaption>F1 GTR Longtail (race car), rear view · Photo: Ank Kumar, CC BY-SA 4.0, via Wikimedia Commons</figcaption></figure>
+      </a>
+      <a class="journal-unit" href="model.html?make=toyota&amp;model=2000gt">
+        <p class="j-dept">Collector note</p>
+        <h3>Toyota 2000GT (1967–1970)</h3>
+        <p class="j-stand">Seven-figure cars when they trade at all, most of the 351 sit in collections.</p>
+        <p class="j-meta">Grand tourer · Coupe · the record carries its full text</p>
+      </a>
+      <a class="journal-unit" href="model.html?make=lamborghini&amp;model=miura">
+        <p class="j-dept">Collector note</p>
+        <h3>Lamborghini Miura (1966–1973)</h3>
+        <p class="j-stand">Good cars trade in the millions; SVs are the top of the market.</p>
+        <p class="j-meta">Supercar · Coupe · the record carries its full text</p>
+        <figure class="thumb"><img src="assets/photos/lamborghini-miura.webp" alt="Miura SV, front 3/4, showroom" loading="lazy"><figcaption>Miura SV, front 3/4, showroom · Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons</figcaption></figure>
+      </a>
+      <a class="journal-unit" href="model.html?make=jaguar&amp;model=e-type">
+        <p class="j-dept">Collector note</p>
+        <h3>Jaguar E-Type (1961–1975)</h3>
+        <p class="j-stand">Early flat-floor, outside-bonnet-latch Series 1 cars top the market at auction.</p>
+        <p class="j-meta">Sports car · Coupe, Convertible · the record carries its full text</p>
+        <figure class="thumb"><img src="assets/photos/jaguar-e-type.webp" alt="E-Type roadster, front 3/4" loading="lazy"><figcaption>E-Type roadster, front 3/4 · Photo: Berthold Werner, CC BY-SA 4.0, via Wikimedia Commons</figcaption></figure>
+      </a>
+    </div>
+  </section>
+
   <div class="closing">
     <h2>Buying one? Start with where the market actually trades.</h2>
-    <p>The buying layer maps every model to the channels that set its price — auction results, marketplaces, and specialists — with a price-watch system designed in the open. No listings faked, no prices invented.</p>
+    <p>The buying layer maps every model to the channels that set its price: auction results, marketplaces, and specialists. No listings faked, no prices invented.</p>
     <a class="btn" href="buy.html">Open the buying layer →</a>
+    <h2 style="margin-top:44px">Find your people.</h2>
+    <p>Car culture is local. The clubs registry covers marque clubs, motorsport bodies, and meet networks by region, from the SCCA's autocross grids to the Goodwood Road Racing Club's period-correct paddocks.</p>
+    <a class="btn" href="clubs.html">All clubs →</a>
   </div>
-
-  <section class="block">
-    <div class="block-head"><h2>Find your people</h2><a class="more" href="clubs.html">All clubs →</a></div>
-    <p class="mut" style="max-width:62ch">Car culture is local. The clubs registry covers marque clubs, motorsport bodies, and meet networks by region — from the SCCA's autocross grids to the Goodwood Road Racing Club's period-correct paddocks.</p>
-  </section>
 </main>
 
 <footer><div class="wrap f-in">
-  <div><b>Car Atlas.</b> Every car ever made — a work in progress, built in the open, wave by wave.</div>
-  <nav><a href="#makes">Makes</a><a href="buy.html">Buy</a><a href="clubs.html">Clubs</a></nav>
+  <div><b>Car Atlas.</b> Every car ever made, a work in progress, built in the open, wave by wave.</div>
+  <nav><a href="#atlas">The Atlas</a><a href="buy.html">Buy</a><a href="clubs.html">Clubs</a></nav>
 </div></footer>
 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Car Atlas","description":"The all-in-one car atlas: every make, model, and generation ever built — specs, history, where to buy each one for the best price, and the clubs near you."}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Car Atlas","description":"The all-in-one car atlas: every make, model, and generation ever built, with specs, history, certified auction results, and the clubs that keep them running."}</script>
 <script src="assets/js/fetch_deadline.js"></script>
 <script src="assets/js/app.js"></script>
 </body>

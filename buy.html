@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Buy — where each car trades, and for how much · Car Atlas</title>
+<title>Buy, where each car trades, and for how much · Car Atlas</title>
 <meta name="description" content="The Car Atlas buying layer: the channels that set every model's price, by buying class, plus the Price Watch system designed in the open.">
 <meta name="theme-color" content="#fafaf8">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
@@ -12,13 +12,13 @@
 <link rel="canonical" href="/buy.html">
 <!-- RELATIVE until deploy: absolutize og:image + twitter:image against the live domain at GO_LIVE (see GO_LIVE.md) -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="Buy — where each car trades, and for how much · Car Atlas">
+<meta property="og:title" content="Buy, where each car trades, and for how much · Car Atlas">
 <meta property="og:description" content="The Car Atlas buying layer: the channels that set every model's price, by buying class, plus the Price Watch system designed in the open.">
 <meta property="og:image" content="assets/og-card.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Buy — where each car trades, and for how much · Car Atlas">
+<meta name="twitter:title" content="Buy, where each car trades, and for how much · Car Atlas">
 <meta name="twitter:description" content="The Car Atlas buying layer: the channels that set every model's price, by buying class, plus the Price Watch system designed in the open.">
 <meta name="twitter:image" content="assets/og-card.png">
 <link rel="preload" href="assets/fonts/inter-latin-normal-var.woff2" as="font" type="font/woff2" crossorigin>
@@ -35,7 +35,7 @@
   <div class="page-head">
     <div class="crumb"><a href="index.html">Atlas</a> / Buy</div>
     <h1>Where it trades. What it costs.</h1>
-    <p class="lede">Every model in the atlas is assigned a buying class. The class decides where its market actually clears — and where a fair price is hiding. These are the channels, with honest notes on each.</p>
+    <p class="lede">Every model in the atlas is assigned a buying class. The class decides where its market actually clears, and where a fair price is hiding. These are the channels, with honest notes on each.</p>
   </div>
   <p id="js-error" class="note-box hidden" role="alert"></p>
 
@@ -45,12 +45,12 @@
   </section>
 
   <section class="block">
-    <div class="block-head"><h2>The channels</h2><p>Curated destinations — auctions with public results first, because a market you can audit is a market you can trust.</p></div>
+    <div class="block-head"><h2>The channels</h2><p>Curated destinations, auctions with public results first, because a market you can audit is a market you can trust.</p></div>
     <div class="rows" id="channel-grid"></div>
   </section>
 
   <section class="block">
-    <div class="block-head"><h2>Price Watch — stage 6: certified auction results</h2></div>
+    <div class="block-head"><h2>Price Watch, stage 6: certified auction results</h2></div>
     <p class="mut" id="results-note" style="max-width:68ch">Certified auction results, each linked to its published source.</p>
     <div class="filters" id="pw-filters">
       <span><label for="f-make">Make</label> <select id="f-make"></select></span>
@@ -63,13 +63,18 @@
   </section>
 
   <section class="block">
-    <div class="block-head"><h2>Cohorts so far — ranges, not valuations</h2><p>The first rung of T-CARS-1: where two or more certified results share a model and a currency, the range they span — computed only from the certified records above, with the count shown. A range over two or three sales is context, not a benchmark: no median, no valuation, no condition tier is claimed until the certified set is far larger. See BENCHMARK.md for the priced road to a real cohort benchmark.</p></div>
+    <div class="block-head"><h2>Following, in this browser</h2><p>Models you follow from their record pages, with their newest certified result first. Following is stored in this browser only; it notifies nobody, and learning what is new means looking here.</p></div>
+    <div id="follow-list"></div>
+  </section>
+
+  <section class="block">
+    <div class="block-head"><h2>Cohorts so far, ranges, not valuations</h2><p>The first rung of T-CARS-1: where two or more certified results share a model and a currency, the range they span, computed only from the certified records above, with the count shown. A range over two or three sales is context, not a benchmark: no median, no valuation, no condition tier is claimed until the certified set is far larger. See BENCHMARK.md for the priced road to a real cohort benchmark.</p></div>
     <div class="rows" id="cohort-grid"></div>
   </section>
 
   <section class="block">
     <div class="block-head"><h2>Price Watch, designed in the open</h2></div>
-    <p class="mut" style="max-width:68ch">The results above are real: completed auction results, certified one by one against a published source. The later stages — listing ingest adapters per channel, normalized to one schema; price history per listing and per model-year cohort; drop detection against cohort medians; opt-in alerts — ship only when the data behind them is real. Until a stage is real, it doesn't appear on this site. Every record carries its date; a stale price will be labeled stale, never dressed up as live.</p>
+    <p class="mut" style="max-width:68ch">The results above are real: completed auction results, certified one by one against a published source. The later stages, listing ingest adapters per channel, normalized to one schema; price history per listing and per model-year cohort; drop detection against cohort medians; opt-in alerts, ship only when the data behind them is real. Until a stage is real, it doesn't appear on this site. Every record carries its date; a stale price will be labeled stale, never dressed up as live.</p>
     <div style="margin-top:20px;max-width:560px">
       <b class="small" style="text-transform:uppercase;letter-spacing:.08em;color:var(--ink-3)">Listing schema (v1)</b>
       <ul class="list-clean" id="watch-schema" style="margin-top:8px"></ul>
@@ -83,7 +88,7 @@
   </div>
 </main>
 <footer><div class="wrap f-in">
-  <div><b>Car Atlas.</b> Every car ever made — built in the open, wave by wave. Car Atlas does not sell cars.</div>
+  <div><b>Car Atlas.</b> Every car ever made, built in the open, wave by wave. Car Atlas does not sell cars.</div>
   <nav><a href="index.html#makes">Makes</a><a href="buy.html">Buy</a><a href="clubs.html">Clubs</a></nav>
 </div></footer>
 <script src="assets/js/fetch_deadline.js"></script>

@@ -6,7 +6,7 @@
     "Roadster"
    ],
    "buyingClass": "modern-classic",
-   "collectorNote": "About 2,450 built. The Roadster proved an EV could be a sports car at all, and its historical position keeps values strong — battery health and documentation matter more than mileage.",
+   "collectorNote": "About 2,450 built. The Roadster proved an EV could be a sports car at all, and its historical position keeps values strong, battery health and documentation matter more than mileage.",
    "generations": [
     {
      "code": "Gen 1",
@@ -51,7 +51,7 @@
     {
      "code": "Refresh",
      "name": "Facelift and Plaid",
-     "note": "The 2016 facelift dropped the black nose cone; the 2021 overhaul brought the tri-motor Plaid — 1,020 hp and a claimed 0–60 mph time under two seconds with rollout, the quickest production sedan ever tested.",
+     "note": "The 2016 facelift dropped the black nose cone; the 2021 overhaul brought the tri-motor Plaid, 1,020 hp and a claimed 0–60 mph time under two seconds with rollout, the quickest production sedan ever tested.",
      "spec": {
       "drivetrain": "AWD tri-motor",
       "engine": "Tri-motor electric",
@@ -60,7 +60,7 @@
      "years": "2016–present"
     }
    ],
-   "intro": "The car that forced every major maker to build an EV program. Launched in 2012 with range and acceleration no production EV had combined before, and still on sale — heavily revised underneath — more than a decade later.",
+   "intro": "The car that forced every major maker to build an EV program. Launched in 2012 with range and acceleration no production EV had combined before, and still on sale, heavily revised underneath, more than a decade later.",
    "name": "Model S",
    "segment": "Executive sedan",
    "slug": "model-s",
@@ -80,7 +80,7 @@
     {
      "code": "Gen 1",
      "name": "Original design",
-     "note": "A dashboard reduced to one 15-inch screen and almost no buttons — copied across the industry within five years. Production hell in 2017–2018 nearly broke the company; the car that came out the other side changed the market anyway.",
+     "note": "A dashboard reduced to one 15-inch screen and almost no buttons, copied across the industry within five years. Production hell in 2017–2018 nearly broke the company; the car that came out the other side changed the market anyway.",
      "spec": {
       "drivetrain": "RWD / AWD dual motor",
       "engine": "Single / dual electric motors",
@@ -91,7 +91,7 @@
     {
      "code": "Highland",
      "name": "Facelift (Highland)",
-     "note": "Quieter cabin, better materials, indicators moved to buttons on the wheel — the controversial part. The Performance version makes 510 hp and is the one keen drivers should stretch for.",
+     "note": "Quieter cabin, better materials, indicators moved to buttons on the wheel, the controversial part. The Performance version makes 510 hp and is the one keen drivers should stretch for.",
      "spec": {
       "drivetrain": "AWD dual motor",
       "engine": "Dual electric motors",
@@ -131,7 +131,7 @@
     {
      "code": "Gen 1",
      "name": "Original design",
-     "note": "Effectively a taller Model 3 with a hatch, sharing most of its parts — and it outsold the sedan by a wide margin. In 2023 it became the best-selling car in the world of any powertrain, the first EV to hold that title.",
+     "note": "Effectively a taller Model 3 with a hatch, sharing most of its parts, and it outsold the sedan by a wide margin. In 2023 it became the best-selling car in the world of any powertrain, the first EV to hold that title.",
      "spec": {
       "drivetrain": "RWD / AWD dual motor",
       "engine": "Single / dual electric motors",
@@ -142,7 +142,7 @@
     {
      "code": "Juniper",
      "name": "Facelift (Juniper)",
-     "note": "Full-width light bars, a quieter and better-finished cabin, and the indicator stalk restored after the Model 3 experiment. Same formula underneath — it didn't need changing.",
+     "note": "Full-width light bars, a quieter and better-finished cabin, and the indicator stalk restored after the Model 3 experiment. Same formula underneath, it didn't need changing.",
      "spec": {
       "drivetrain": "RWD / AWD dual motor",
       "engine": "Single / dual electric motors",
@@ -151,7 +151,7 @@
      "years": "2025–present"
     }
    ],
-   "intro": "The best-selling car in the world in 2023 — not the best-selling EV, the best-selling car, full stop. The Model Y is the Model 3's formula raised onto a crossover body, and it outsells everything Tesla makes combined.",
+   "intro": "The best-selling car in the world in 2023, not the best-selling EV, the best-selling car, full stop. The Model Y is the Model 3's formula raised onto a crossover body, and it outsells everything Tesla makes combined.",
    "name": "Model Y",
    "segment": "Compact crossover SUV",
    "slug": "model-y",
@@ -181,7 +181,7 @@
      "years": "2023–present"
     }
    ],
-   "intro": "Unveiled in 2019 with a smashed window on stage, delivered from late 2023. The Cybertruck's stainless wedge looks like a rendering error; underneath sit genuinely radical choices — steer-by-wire and a 48V architecture — wrapped in the most polarising truck ever sold.",
+   "intro": "Unveiled in 2019 with a smashed window on stage, delivered from late 2023. The Cybertruck's stainless wedge looks like a rendering error; underneath sit genuinely radical choices, steer-by-wire and a 48V architecture, wrapped in the most polarising truck ever sold.",
    "name": "Cybertruck",
    "segment": "Electric pickup",
    "slug": "cybertruck",

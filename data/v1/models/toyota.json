@@ -23,7 +23,7 @@
     {
      "code": "E70",
      "name": "Fourth generation",
-     "note": "The last rear-drive Corolla line — its AE86 coupe variant became the most famous drift car ever built.",
+     "note": "The last rear-drive Corolla line, its AE86 coupe variant became the most famous drift car ever built.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "1.6L inline-4 (4A-GE, AE86)",
@@ -43,7 +43,7 @@
      "years": "2018–present"
     }
    ],
-   "intro": "The best-selling nameplate in history — more than 50 million sold. The Corolla is the default answer to 'what car should I buy?' on every continent, and the GR Corolla proves the badge can still have a pulse.",
+   "intro": "The best-selling nameplate in history, more than 50 million sold. The Corolla is the default answer to 'what car should I buy?' on every continent, and the GR Corolla proves the badge can still have a pulse.",
    "name": "Corolla",
    "segment": "Compact car",
    "slug": "corolla",
@@ -97,7 +97,7 @@
      "years": "2024–present"
     }
    ],
-   "intro": "America's best-selling sedan for over two decades. The Camry is the car as appliance done perfectly — and since 2024, hybrid-only, which tells you where the whole segment went.",
+   "intro": "America's best-selling sedan for over two decades. The Camry is the car as appliance done perfectly, and since 2024, hybrid-only, which tells you where the whole segment went.",
    "name": "Camry",
    "segment": "Midsize sedan",
    "slug": "camry",
@@ -115,7 +115,7 @@
     "Coupe"
    ],
    "buyingClass": "modern-classic",
-   "collectorNote": "A80 prices detached from reality years ago — clean six-speed turbos are six-figure cars. Buy the best-documented car, not the cheapest.",
+   "collectorNote": "A80 prices detached from reality years ago, clean six-speed turbos are six-figure cars. Buy the best-documented car, not the cheapest.",
    "generations": [
     {
      "code": "A70",
@@ -142,7 +142,7 @@
     {
      "code": "A90",
      "name": "Fifth generation (GR Supra)",
-     "note": "Built with BMW around the B58 inline-six. Purists argued; the stopwatch disagreed — it's the fastest Supra Toyota has ever sold.",
+     "note": "Built with BMW around the B58 inline-six. Purists argued; the stopwatch disagreed, it's the fastest Supra Toyota has ever sold.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "3.0L turbo inline-6 (B58)",
@@ -250,7 +250,7 @@
     {
      "code": "J200",
      "name": "200 Series",
-     "note": "Bigger in every dimension, with the 5.7-litre V8 in US trim and KDSS hydraulic sway-bar control underneath. The final V8 Cruiser — values for clean late cars already reflect it.",
+     "note": "Bigger in every dimension, with the 5.7-litre V8 in US trim and KDSS hydraulic sway-bar control underneath. The final V8 Cruiser, values for clean late cars already reflect it.",
      "spec": {
       "drivetrain": "Full-time 4WD",
       "engine": "5.7L V8",
@@ -272,7 +272,7 @@
     {
      "code": "J250",
      "name": "250 Series",
-     "note": "The North American Land Cruiser returns as a smaller, retro-styled hybrid on the TNGA-F frame — round lights, a squared jaw, and a standard hybrid powertrain. Sold elsewhere as the Land Cruiser Prado; in the US it carries the nameplate alone.",
+     "note": "The North American Land Cruiser returns as a smaller, retro-styled hybrid on the TNGA-F frame, round lights, a squared jaw, and a standard hybrid powertrain. Sold elsewhere as the Land Cruiser Prado; in the US it carries the nameplate alone.",
      "spec": {
       "drivetrain": "Full-time 4WD",
       "engine": "2.4L turbo hybrid",
@@ -281,7 +281,7 @@
      "years": "2023–present"
     }
    ],
-   "intro": "The vehicle that goes where roads apologize. From the FJ40 to the 300 Series, the Land Cruiser is the expedition default on every continent — the car aid workers and armies trust when failure isn't an option.",
+   "intro": "The vehicle that goes where roads apologize. From the FJ40 to the 300 Series, the Land Cruiser is the expedition default on every continent, the car aid workers and armies trust when failure isn't an option.",
    "name": "Land Cruiser",
    "photo": "assets/photos/toyota-land-cruiser.webp",
    "photoCaption": "Land Cruiser 70 double-cab",
@@ -324,7 +324,7 @@
     {
      "code": "XW20",
      "name": "Second generation",
-     "note": "The wedge. 55 mpg combined and a silhouette that made efficiency visible — Hollywood's red-carpet car of choice.",
+     "note": "The wedge. 55 mpg combined and a silhouette that made efficiency visible, Hollywood's red-carpet car of choice.",
      "spec": {
       "drivetrain": "FWD",
       "engine": "1.5L hybrid inline-4",
@@ -418,12 +418,12 @@
     "Coupe"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Seven-figure cars when they trade at all — most of the 351 sit in collections. The 2020 sale of a Shelby-prepared example topped $2.5M.",
+   "collectorNote": "Seven-figure cars when they trade at all, most of the 351 sit in collections. The 2020 sale of a Shelby-prepared example topped $2.5M.",
    "generations": [
     {
      "code": "MF10",
      "name": "Production run",
-     "note": "Aluminium body, Yamaha-built twin-cam head on Toyota's M six, disc brakes at every corner — specification that embarrassed contemporary European GTs.",
+     "note": "Aluminium body, Yamaha-built twin-cam head on Toyota's M six, disc brakes at every corner, specification that embarrassed contemporary European GTs.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "2.0L twin-cam inline-6",
@@ -432,7 +432,7 @@
      "years": "1967–1970"
     }
    ],
-   "intro": "Japan's first supercar. Co-developed with Yamaha, hand-built in tiny numbers — 351 cars — and proof in 1967 that Japan could build a world-class GT. A Bond film made one a convertible because Sean Connery didn't fit.",
+   "intro": "Japan's first supercar. Co-developed with Yamaha, hand-built in tiny numbers, 351 cars, and proof in 1967 that Japan could build a world-class GT. A Bond film made one a convertible because Sean Connery didn't fit.",
    "name": "2000GT",
    "segment": "Grand tourer",
    "slug": "2000gt",

@@ -21,7 +21,7 @@
      "years": "1963–1965"
     }
    ],
-   "intro": "The Goldfinger car — though the DB4 did the engineering, the DB5 did the immortality. Tadek Marek's twin-cam six, a ZF five-speed, and the template for every Aston since.",
+   "intro": "The Goldfinger car, though the DB4 did the engineering, the DB5 did the immortality. Tadek Marek's twin-cam six, a ZF five-speed, and the template for every Aston since.",
    "name": "DB5",
    "photo": "assets/photos/aston-martin-db5.webp",
    "photoCaption": "DB5 Volante (convertible), front 3/4",
@@ -49,12 +49,12 @@
     "Convertible"
    ],
    "buyingClass": "modern-classic",
-   "collectorNote": "Manual 4.7s and any V12 Vantage are the holds. Budget for clutch and subframe corrosion checks — the cars reward owners who use specialists.",
+   "collectorNote": "Manual 4.7s and any V12 Vantage are the holds. Budget for clutch and subframe corrosion checks, the cars reward owners who use specialists.",
    "generations": [
     {
      "code": "VH",
      "name": "V8 Vantage (4.3)",
-     "note": "Launched as the 'baby Aston' against the 911 Carrera — bonded aluminium VH chassis, dry-sump V8 behind the front axle line.",
+     "note": "Launched as the 'baby Aston' against the 911 Carrera, bonded aluminium VH chassis, dry-sump V8 behind the front axle line.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "4.3L V8",
@@ -165,7 +165,7 @@
     "Coupe"
    ],
    "buyingClass": "new",
-   "collectorNote": "There is no casual Valkyrie market — cars trade privately at multiples of list. Provenance is everything; most will live in collections, not on roads.",
+   "collectorNote": "There is no casual Valkyrie market, cars trade privately at multiples of list. Provenance is everything; most will live in collections, not on roads.",
    "generations": [
     {
      "code": "Valkyrie",

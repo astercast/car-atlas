@@ -6,7 +6,7 @@
     "Coupe"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "The Sport Quattro is the seven-figure summit. For the standard car, rally provenance and an unmodified drivetrain matter — many were driven as hard as the badge promised.",
+   "collectorNote": "The Sport Quattro is the seven-figure summit. For the standard car, rally provenance and an unmodified drivetrain matter, many were driven as hard as the badge promised.",
    "generations": [
     {
      "code": "Typ 85",
@@ -22,7 +22,7 @@
     {
      "code": "Sport Quattro",
      "name": "Sport Quattro",
-     "note": "The short-wheelbase Group B homologation special — 24 cm cut from the wheelbase, Kevlar panels, and over 300 hp. Built in tiny numbers to go rallying, priced accordingly ever since.",
+     "note": "The short-wheelbase Group B homologation special, 24 cm cut from the wheelbase, Kevlar panels, and over 300 hp. Built in tiny numbers to go rallying, priced accordingly ever since.",
      "spec": {
       "drivetrain": "AWD",
       "engine": "2.1L turbo inline-5",
@@ -42,7 +42,7 @@
      "years": "1989–1991"
     }
    ],
-   "intro": "The original — Ur-Quattro in German, ur meaning ancestral. A turbocharged five-cylinder coupe with permanent all-wheel drive, launched in 1980 when that combination did not exist in a road car. It rewrote rallying, then rewrote what a fast road car was supposed to be. Every quattro-badged Audi since — the badge is lowercase for the system now — is this car's descendant.",
+   "intro": "The original, Ur-Quattro in German, ur meaning ancestral. A turbocharged five-cylinder coupe with permanent all-wheel drive, launched in 1980 when that combination did not exist in a road car. It rewrote rallying, then rewrote what a fast road car was supposed to be. Every quattro-badged Audi since, the badge is lowercase for the system now, is this car's descendant.",
    "name": "Quattro",
    "photo": "assets/photos/audi-quattro.webp",
    "photoCaption": "Sport quattro (Ur-Quattro family), museum display",
@@ -124,7 +124,7 @@
     "Convertible"
    ],
    "buyingClass": "modern-classic",
-   "collectorNote": "Gated-manual first-generation cars — V8 or V10 — are the collectible specification. The V10's Lamborghini-shared engine means parts exist; the manual gearbox is the scarce part of the car.",
+   "collectorNote": "Gated-manual first-generation cars, V8 or V10, are the collectible specification. The V10's Lamborghini-shared engine means parts exist; the manual gearbox is the scarce part of the car.",
    "generations": [
     {
      "code": "Typ 42",
@@ -149,7 +149,7 @@
      "years": "2015–2024"
     }
    ],
-   "intro": "Audi's supercar, built on Lamborghini bones and better for being the sensible one: a V8 — then a soaring naturally aspirated V10 — behind the seats, all-wheel drive, and usability no Italian rival matched. The first generation's gated manual is already legend.",
+   "intro": "Audi's supercar, built on Lamborghini bones and better for being the sensible one: a V8, then a soaring naturally aspirated V10, behind the seats, all-wheel drive, and usability no Italian rival matched. The first generation's gated manual is already legend.",
    "name": "R8",
    "segment": "Supercar",
    "slug": "r8",
@@ -169,7 +169,7 @@
     "Roadster"
    ],
    "buyingClass": "modern-classic",
-   "collectorNote": "First-generation cars are bought on design and condition — unmodified, low-mileage 225 coupes are the ones appreciating. The Mk3 TT RS is a future classic hiding in plain sight.",
+   "collectorNote": "First-generation cars are bought on design and condition, unmodified, low-mileage 225 coupes are the ones appreciating. The Mk3 TT RS is a future classic hiding in plain sight.",
    "generations": [
     {
      "code": "8N",
@@ -196,7 +196,7 @@
     {
      "code": "8S",
      "name": "Third generation",
-     "note": "The virtual cockpit debuted here. The final TT RS made 400 hp from its five cylinders — the right engine to end on.",
+     "note": "The virtual cockpit debuted here. The final TT RS made 400 hp from its five cylinders, the right engine to end on.",
      "spec": {
       "drivetrain": "FWD / AWD",
       "engine": "2.0L turbo inline-4 / 2.5L turbo inline-5 (TT RS)",
@@ -205,7 +205,7 @@
      "years": "2014–2023"
     }
    ],
-   "intro": "A design concept that escaped the motor show almost unchanged. The first TT was Bauhaus on wheels — a perfect geometric statement with a car underneath — and the line spent 25 years getting faster, peaking with the five-cylinder TT RS.",
+   "intro": "A design concept that escaped the motor show almost unchanged. The first TT was Bauhaus on wheels, a perfect geometric statement with a car underneath, and the line spent 25 years getting faster, peaking with the five-cylinder TT RS.",
    "name": "TT",
    "segment": "Sports car",
    "slug": "tt",

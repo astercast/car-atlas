@@ -11,7 +11,7 @@
     {
      "code": "C1",
      "name": "First generation",
-     "note": "Launched in 1953 with a six-cylinder and a two-speed automatic — the sports car part came later. The 1957 fuel-injected 283 made one horsepower per cubic inch, the number that made Corvette credible.",
+     "note": "Launched in 1953 with a six-cylinder and a two-speed automatic, the sports car part came later. The 1957 fuel-injected 283 made one horsepower per cubic inch, the number that made Corvette credible.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "4.6L V8 (283, fuel-injected)",
@@ -44,7 +44,7 @@
     {
      "code": "C4",
      "name": "Fourth generation",
-     "note": "A clean-sheet, aerodynamics-first redesign that made handling the headline. The 1990 ZR-1 answered with a Lotus-designed, quad-cam LT5 built by Mercury Marine — 405 hp by the end of the run and a 24-hour endurance record to prove it.",
+     "note": "A clean-sheet, aerodynamics-first redesign that made handling the headline. The 1990 ZR-1 answered with a Lotus-designed, quad-cam LT5 built by Mercury Marine, 405 hp by the end of the run and a 24-hour endurance record to prove it.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "5.7L V8 (LT5, ZR-1)",
@@ -66,7 +66,7 @@
     {
      "code": "C6",
      "name": "Sixth generation",
-     "note": "Exposed headlights for the first time since 1962, and performance that kept climbing: the 7.0-litre Z06 at 505 hp, then the supercharged ZR1 at 638 hp — the fastest production Corvette of the front-engine era.",
+     "note": "Exposed headlights for the first time since 1962, and performance that kept climbing: the 7.0-litre Z06 at 505 hp, then the supercharged ZR1 at 638 hp, the fastest production Corvette of the front-engine era.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "7.0L V8 (LS7, Z06)",
@@ -136,12 +136,12 @@
     "Convertible"
    ],
    "buyingClass": "modern-classic",
-   "collectorNote": "First-generation cars are the blue-chip end; a documented Z/28 or big-block SS is the one to own. Of the modern cars, the sixth-gen ZL1 1LE is the future collectible — low production, extreme aero, manual available.",
+   "collectorNote": "First-generation cars are the blue-chip end; a documented Z/28 or big-block SS is the one to own. Of the modern cars, the sixth-gen ZL1 1LE is the future collectible, low production, extreme aero, manual available.",
    "generations": [
     {
      "code": "Gen 1",
      "name": "First generation",
-     "note": "The 1969 model is the high-water mark — hidden headlights on the RS, the DZ 302 in the Z/28, and big-block SS cars that are still the reference for what a pony car should look like.",
+     "note": "The 1969 model is the high-water mark, hidden headlights on the RS, the DZ 302 in the Z/28, and big-block SS cars that are still the reference for what a pony car should look like.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "6.5L big-block V8 (SS 396)",
@@ -163,7 +163,7 @@
     {
      "code": "Gen 6",
      "name": "Sixth generation",
-     "note": "On the Alpha platform shared with Cadillac's sports sedans, and it showed — this is the best-handling Camaro ever built. The ZL1's 650 hp supercharged LT4 made it a supercar argument with a bowtie on it.",
+     "note": "On the Alpha platform shared with Cadillac's sports sedans, and it showed, this is the best-handling Camaro ever built. The ZL1's 650 hp supercharged LT4 made it a supercar argument with a bowtie on it.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "6.2L V8 (LT1)",
@@ -172,7 +172,7 @@
      "years": "2016–2024"
     }
    ],
-   "intro": "GM's answer to the Mustang, launched for 1967 and locked in the pony-car war for six generations. Production ended again in 2024 with no successor announced — the sixth generation went out as the best-driving Camaro ever made.",
+   "intro": "GM's answer to the Mustang, launched for 1967 and locked in the pony-car war for six generations. Production ended again in 2024 with no successor announced, the sixth generation went out as the best-driving Camaro ever made.",
    "name": "Camaro",
    "segment": "Pony car",
    "slug": "camaro",
@@ -216,7 +216,7 @@
     {
      "code": "T1XX",
      "name": "Fourth generation",
-     "note": "A turbo four-cylinder as the volume engine — unthinkable in a full-size truck a generation ago — with the 6.2L V8 and the 3.0L Duramax diesel at the top of the range.",
+     "note": "A turbo four-cylinder as the volume engine, unthinkable in a full-size truck a generation ago, with the 6.2L V8 and the 3.0L Duramax diesel at the top of the range.",
      "spec": {
       "drivetrain": "RWD / 4WD",
       "engine": "6.2L V8",
@@ -247,12 +247,12 @@
     "Wagon"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "The '57 is the icon and priced like it — fuel-injected cars and convertibles sit at the top. A '55 or '56 hardtop gives you the same Tri-Five experience for noticeably less money.",
+   "collectorNote": "The '57 is the icon and priced like it, fuel-injected cars and convertibles sit at the top. A '55 or '56 hardtop gives you the same Tri-Five experience for noticeably less money.",
    "generations": [
     {
      "code": "Tri-Five",
      "name": "Tri-Five (second generation)",
-     "note": "1955, '56, '57 — the cars that defined the era. The 1957 model's fins, gold anodised grille, and available fuel injection made it the most reproduced piece of 1950s Americana there is.",
+     "note": "1955, '56, '57, the cars that defined the era. The 1957 model's fins, gold anodised grille, and available fuel injection made it the most reproduced piece of 1950s Americana there is.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "4.6L V8 (283, fuel-injected)",
@@ -293,7 +293,7 @@
     "Wagon"
    ],
    "buyingClass": "used",
-   "collectorNote": "Two separate collector stories: the 1960s SS big-block cars, and the 1994–1996 Impala SS — a blacked-out, LT1-powered B-body that has been climbing steadily for a decade. The front-drive cars after 2000 are used cars, not collectibles.",
+   "collectorNote": "Two separate collector stories: the 1960s SS big-block cars, and the 1994–1996 Impala SS, a blacked-out, LT1-powered B-body that has been climbing steadily for a decade. The front-drive cars after 2000 are used cars, not collectibles.",
    "generations": [
     {
      "code": "Gen 2",
@@ -329,7 +329,7 @@
      "years": "2014–2020"
     }
    ],
-   "intro": "Chevrolet's flagship nameplate from 1958, and the best-selling car in America through the mid-1960s — over a million sold in 1965 alone. It lived three lives: the 1960s icon, the 1990s Impala SS sleeper, and a competent front-drive sedan until 2020.",
+   "intro": "Chevrolet's flagship nameplate from 1958, and the best-selling car in America through the mid-1960s, over a million sold in 1965 alone. It lived three lives: the 1960s icon, the 1990s Impala SS sleeper, and a competent front-drive sedan until 2020.",
    "name": "Impala",
    "segment": "Full-size sedan",
    "slug": "impala",

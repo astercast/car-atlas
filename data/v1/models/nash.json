@@ -8,7 +8,7 @@
     "Convertible"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Airflyte cars are the design icons; the 1957 V8 cars are the rarest. Nash's overhead-valve engineering is durable — neglect, not design, kills them.",
+   "collectorNote": "Airflyte cars are the design icons; the 1957 V8 cars are the rarest. Nash's overhead-valve engineering is durable, neglect, not design, kills them.",
    "generations": [
     {
      "code": "Ambassador 1",
@@ -33,7 +33,7 @@
      "years": "1949–1957"
     }
    ],
-   "intro": "Nash's flagship for a quarter century: overhead-valve engines when rivals ran flatheads, unit construction, reclining seats, and the bathtub Airflyte styling that defined post-war Nash. The nameplate outlived the company — AMC kept building Ambassadors after Nash itself was gone.",
+   "intro": "Nash's flagship for a quarter century: overhead-valve engines when rivals ran flatheads, unit construction, reclining seats, and the bathtub Airflyte styling that defined post-war Nash. The nameplate outlived the company, AMC kept building Ambassadors after Nash itself was gone.",
    "name": "Ambassador",
    "segment": "Full-size luxury car",
    "slug": "ambassador",
@@ -58,7 +58,7 @@
     {
      "code": "Rambler",
      "name": "Rambler (Nash)",
-     "note": "Launched as a convertible — the body engineering shortcut that let the unit body stay rigid — then a wagon and hardtop. The L-head six was modest; the idea was not.",
+     "note": "Launched as a convertible, the body engineering shortcut that let the unit body stay rigid, then a wagon and hardtop. The L-head six was modest; the idea was not.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "2.8L inline-6",
@@ -130,7 +130,7 @@
      "years": "1951–1954"
     }
    ],
-   "intro": "America's first post-war sports car beat the Corvette to market: Donald Healey's chassis, Nash's overhead-valve six, and from 1952 a Pininfarina body built in Turin. A Nash-Healey finished third overall at Le Mans in 1952 — the marque's finest hour, in a car almost nobody bought.",
+   "intro": "America's first post-war sports car beat the Corvette to market: Donald Healey's chassis, Nash's overhead-valve six, and from 1952 a Pininfarina body built in Turin. A Nash-Healey finished third overall at Le Mans in 1952, the marque's finest hour, in a car almost nobody bought.",
    "name": "Nash-Healey",
    "segment": "Sports car",
    "slug": "nash-healey",

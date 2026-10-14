@@ -43,7 +43,7 @@
      "years": "2024–present"
     }
    ],
-   "intro": "From the 1968 car that defined the muscle silhouette, through two decades as a four-door sedan with Hellcat power, to the electric-and-six-cylinder Charger of 2024 — the nameplate keeps reinventing the same idea.",
+   "intro": "From the 1968 car that defined the muscle silhouette, through two decades as a four-door sedan with Hellcat power, to the electric-and-six-cylinder Charger of 2024, the nameplate keeps reinventing the same idea.",
    "name": "Charger",
    "photo": "assets/photos/dodge-charger.webp",
    "photoCaption": "Charger (modern LD sedan), front 3/4",
@@ -76,7 +76,7 @@
     "Coupe"
    ],
    "buyingClass": "used",
-   "collectorNote": "Demons trade as collectibles already. The thinking buy is a manual Hellcat Widebody — the full experience at a third of Demon money.",
+   "collectorNote": "Demons trade as collectibles already. The thinking buy is a manual Hellcat Widebody, the full experience at a third of Demon money.",
    "generations": [
     {
      "code": "E-body",
@@ -92,7 +92,7 @@
     {
      "code": "LA",
      "name": "Challenger SRT Hellcat / Demon",
-     "note": "The Hellcat put 707 hp under $60k. The 2018 Demon — 840 hp, drag radials from the factory, banned by the NHRA for being too fast without a cage — and the 2023 Demon 170 closed the book.",
+     "note": "The Hellcat put 707 hp under $60k. The 2018 Demon, 840 hp, drag radials from the factory, banned by the NHRA for being too fast without a cage, and the 2023 Demon 170 closed the book.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "6.2L supercharged V8",
@@ -101,7 +101,7 @@
      "years": "2015–2023"
     }
    ],
-   "intro": "Late to the pony-car fight in 1970, gone by 1974, then reborn in 2008 as a full-size retro coupé that outlived its rivals — and ended with the 840 hp Demon and the 1,025 hp Demon 170.",
+   "intro": "Late to the pony-car fight in 1970, gone by 1974, then reborn in 2008 as a full-size retro coupé that outlived its rivals, and ended with the 840 hp Demon and the 1,025 hp Demon 170.",
    "name": "Challenger",
    "segment": "Muscle car",
    "slug": "challenger",
@@ -120,7 +120,7 @@
     "Convertible"
    ],
    "buyingClass": "modern-classic",
-   "collectorNote": "ACRs lead the market and Gen II GTS coupés are the rising value — the blue-and-white launch colours especially. All Vipers want a careful check for track and 'Viper tax' deferred maintenance.",
+   "collectorNote": "ACRs lead the market and Gen II GTS coupés are the rising value, the blue-and-white launch colours especially. All Vipers want a careful check for track and 'Viper tax' deferred maintenance.",
    "generations": [
     {
      "code": "SR I",
@@ -176,7 +176,7 @@
      "years": "2011–present"
     }
    ],
-   "intro": "Three rows and a Hemi for most of its life. The SRT Hellcat version — 710 hp, briefly the most powerful production SUV in the world — turned the school run into a drag strip.",
+   "intro": "Three rows and a Hemi for most of its life. The SRT Hellcat version, 710 hp, briefly the most powerful production SUV in the world, turned the school run into a drag strip.",
    "name": "Durango",
    "segment": "Full-size SUV",
    "slug": "durango",

@@ -8,7 +8,7 @@
     "Van"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "The market is deep and the club scene is the car's great strength — buy the best body you can, mechanical parts are plentiful and cheap by pre-war standards.",
+   "collectorNote": "The market is deep and the club scene is the car's great strength, buy the best body you can, mechanical parts are plentiful and cheap by pre-war standards.",
    "generations": [
     {
      "code": "Seven",
@@ -22,7 +22,7 @@
      "years": "1922–1939"
     }
    ],
-   "intro": "The car that motorised Britain. Herbert Austin's baby car put a real automobile — four cylinders, four wheels, brakes all round eventually — within reach of families who had managed with a motorcycle and sidecar, and licensed production spread the design from Munich (the first BMW) to Tokyo and New York.",
+   "intro": "The car that motorised Britain. Herbert Austin's baby car put a real automobile, four cylinders, four wheels, brakes all round eventually, within reach of families who had managed with a motorcycle and sidecar, and licensed production spread the design from Munich (the first BMW) to Tokyo and New York.",
    "name": "Seven",
    "segment": "City car",
    "slug": "seven",
@@ -44,7 +44,7 @@
     "Pickup"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Rust is the whole negotiation — sills, spring hangers and the boot floor. Racing has lifted good vans and pickups; saloons remain the affordable way in.",
+   "collectorNote": "Rust is the whole negotiation, sills, spring hangers and the boot floor. Racing has lifted good vans and pickups; saloons remain the affordable way in.",
    "generations": [
     {
      "code": "A30/A35",
@@ -58,7 +58,7 @@
      "years": "1951–1962"
     }
    ],
-   "intro": "Austin's first post-war small car and the A-series engine's debut. The A35 of 1956 sharpened it with the 948 cc engine, and A35s became unlikely giant-killers in saloon-car racing — they still race at Goodwood today, sideways and entirely serious.",
+   "intro": "Austin's first post-war small car and the A-series engine's debut. The A35 of 1956 sharpened it with the 948 cc engine, and A35s became unlikely giant-killers in saloon-car racing, they still race at Goodwood today, sideways and entirely serious.",
    "name": "A30 / A35",
    "segment": "Compact car",
    "slug": "a35",
@@ -79,7 +79,7 @@
     "Pickup"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Cooper S provenance is everything — replicas outnumber real cars. On any Mini, check the subframes and the shell they bolt to before the engine.",
+   "collectorNote": "Cooper S provenance is everything, replicas outnumber real cars. On any Mini, check the subframes and the shell they bolt to before the engine.",
    "generations": [
     {
      "code": "Mini 1",
@@ -124,7 +124,7 @@
     "Estate"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Survival is the story — these rusted eagerly and few were saved. A sound Vanden Plas or MG is now genuinely scarce.",
+   "collectorNote": "Survival is the story, these rusted eagerly and few were saved. A sound Vanden Plas or MG is now genuinely scarce.",
    "generations": [
     {
      "code": "ADO16",
@@ -138,7 +138,7 @@
      "years": "1962–1974"
     }
    ],
-   "intro": "Britain's best-selling car of the sixties: Issigonis's larger car, with Hydrolastic suspension, front-wheel drive and Pininfarina-influenced lines. Badged as Austin, Morris, MG, Riley, Vanden Plas and Wolseley — the 1300 GT and the MG 1300 are the sporting faces of the range.",
+   "intro": "Britain's best-selling car of the sixties: Issigonis's larger car, with Hydrolastic suspension, front-wheel drive and Pininfarina-influenced lines. Badged as Austin, Morris, MG, Riley, Vanden Plas and Wolseley, the 1300 GT and the MG 1300 are the sporting faces of the range.",
    "name": "1100 / 1300 (ADO16)",
    "segment": "Compact car",
    "slug": "1100",

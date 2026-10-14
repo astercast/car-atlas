@@ -44,7 +44,7 @@
     {
      "code": "Dyna Z",
      "name": "Dyna Z / Tigre",
-     "note": "Standard cars made 42 hp; the Tigre's twin-carburettor engine reached 50. Economy remained the headline — 40 mpg was routine.",
+     "note": "Standard cars made 42 hp; the Tigre's twin-carburettor engine reached 50. Economy remained the headline, 40 mpg was routine.",
      "spec": {
       "drivetrain": "FWD",
       "engine": "851 cc air-cooled flat-twin",
@@ -85,7 +85,7 @@
      "years": "1959–1965"
     }
    ],
-   "intro": "The Dyna Z evolved: named for Panhard-Levassor and its 17 tax-and-space formula, restyled with a droop snoot and eyelid headlamps, and crowned by a Monte Carlo Rally outright win in 1961 — three PL 17s in the top places, against the factories of Europe.",
+   "intro": "The Dyna Z evolved: named for Panhard-Levassor and its 17 tax-and-space formula, restyled with a droop snoot and eyelid headlamps, and crowned by a Monte Carlo Rally outright win in 1961, three PL 17s in the top places, against the factories of Europe.",
    "name": "PL 17",
    "segment": "Compact car",
    "slug": "pl17",
@@ -116,7 +116,7 @@
      "years": "1963–1967"
     }
    ],
-   "intro": "Panhard's last car: a steel-bodied coupé (and rare saloon) styled by Louis Bionier with the flat-twin behind a long, low nose — named for the 24 Hours its makers dreamed of, where the related CD coupés had already won the Index of Performance. Citroën, which had absorbed Panhard, ended car production in 1967.",
+   "intro": "Panhard's last car: a steel-bodied coupé (and rare saloon) styled by Louis Bionier with the flat-twin behind a long, low nose, named for the 24 Hours its makers dreamed of, where the related CD coupés had already won the Index of Performance. Citroën, which had absorbed Panhard, ended car production in 1967.",
    "name": "24 CT / BT",
    "segment": "Sports car",
    "slug": "24",

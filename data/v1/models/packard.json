@@ -22,7 +22,7 @@
      "years": "1933–1939"
     }
    ],
-   "intro": "Packard's V12 flagship — launched as the Twin Six in 1932, renamed Twelve a year later — was Detroit's answer to the great European chassis: silent, torquey, and bodied by the best shops in America.",
+   "intro": "Packard's V12 flagship, launched as the Twin Six in 1932, renamed Twelve a year later, was Detroit's answer to the great European chassis: silent, torquey, and bodied by the best shops in America.",
    "name": "Twelve",
    "segment": "Luxury flagship sedan",
    "slug": "twelve",
@@ -53,7 +53,7 @@
      "years": "1933–1950"
     }
    ],
-   "intro": "The straight-eight backbone of the Packard range for nearly two decades — the car most people meant by 'a Packard' — spanning the Classic era, the streamline years and the first postwar cars.",
+   "intro": "The straight-eight backbone of the Packard range for nearly two decades, the car most people meant by 'a Packard', spanning the Classic era, the streamline years and the first postwar cars.",
    "name": "Super Eight",
    "segment": "Luxury sedan",
    "slug": "super-eight",
@@ -116,7 +116,7 @@
     {
      "code": "Hawk",
      "name": "Packard Hawk",
-     "note": "Just 588 were built. Under the fibreglass nose sat Studebaker's supercharged 289 V8 at 275 hp — the fastest car wearing a Packard badge that year, and a poignant full stop.",
+     "note": "Just 588 were built. Under the fibreglass nose sat Studebaker's supercharged 289 V8 at 275 hp, the fastest car wearing a Packard badge that year, and a poignant full stop.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "4.7L supercharged V8 (289 cu in)",

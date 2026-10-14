@@ -21,7 +21,7 @@
     {
      "code": "L663",
      "name": "New Defender",
-     "note": "A unibody aluminium platform, independent suspension and air springs — nothing shared with the old car but the name and the silhouette, deliberately. 90, 110 and stretched 130 bodies, up to a supercharged V8.",
+     "note": "A unibody aluminium platform, independent suspension and air springs, nothing shared with the old car but the name and the silhouette, deliberately. 90, 110 and stretched 130 bodies, up to a supercharged V8.",
      "spec": {
       "drivetrain": "AWD",
       "engine": "3.0L inline-6 / 5.0L supercharged V8",
@@ -30,7 +30,7 @@
      "years": "2020–present"
     }
    ],
-   "intro": "Seventy years of farm, army and expedition service made the original Defender a British institution — and about as comfortable as one. The 2020 replacement kept the name and the look, replaced the ladder frame and live axles with a monocoque, and sold in numbers the original never approached.",
+   "intro": "Seventy years of farm, army and expedition service made the original Defender a British institution, and about as comfortable as one. The 2020 replacement kept the name and the look, replaced the ladder frame and live axles with a monocoque, and sold in numbers the original never approached.",
    "name": "Defender",
    "photo": "assets/photos/land-rover-defender.webp",
    "photoCaption": "Defender 110, Royal Brunei ceremonial vehicle",
@@ -62,7 +62,7 @@
     {
      "code": "Classic",
      "name": "Range Rover Classic",
-     "note": "Started with a 3.5-litre Rover V8, coil springs when rivals rode on leaves, and a two-door body. It invented the luxury SUV by accident — it was designed as a working estate car.",
+     "note": "Started with a 3.5-litre Rover V8, coil springs when rivals rode on leaves, and a two-door body. It invented the luxury SUV by accident, it was designed as a working estate car.",
      "spec": {
       "drivetrain": "4WD",
       "engine": "3.5L V8",
@@ -137,7 +137,7 @@
     {
      "code": "Discovery 5",
      "name": "Fifth generation",
-     "note": "Aluminium construction shed serious weight, and the styling split the faithful down the middle — offset rear plate and all. Still seats seven adults and still the tow-and-family pick of the range.",
+     "note": "Aluminium construction shed serious weight, and the styling split the faithful down the middle, offset rear plate and all. Still seats seven adults and still the tow-and-family pick of the range.",
      "spec": {
       "drivetrain": "AWD",
       "engine": "3.0L inline-6 / diesel",

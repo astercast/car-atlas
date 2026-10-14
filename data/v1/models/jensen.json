@@ -20,7 +20,7 @@
      "years": "1954–1963"
     }
    ],
-   "intro": "Jensen's fibreglass pioneer: a glass-bodied GT with Austin's four-litre six, a Perspex rear window and a drag figure that embarrassed steel cars. The 541R added disc brakes all round — a British first on a production four-seater — and the 541S finished the line in comfort.",
+   "intro": "Jensen's fibreglass pioneer: a glass-bodied GT with Austin's four-litre six, a Perspex rear window and a drag figure that embarrassed steel cars. The 541R added disc brakes all round, a British first on a production four-seater, and the 541S finished the line in comfort.",
    "name": "541",
    "segment": "Grand tourer",
    "slug": "541",
@@ -38,12 +38,12 @@
     "Coupe"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "About 500 were built and survival is low; originality of the fibreglass nose — often repaired, sometimes re-shaped — is the inspection's first item.",
+   "collectorNote": "About 500 were built and survival is low; originality of the fibreglass nose, often repaired, sometimes re-shaped, is the inspection's first item.",
    "generations": [
     {
      "code": "C-V8",
      "name": "C-V8 Mk I–III",
-     "note": "The 361 cu in engine of the first cars gave way to the 383. The FF experiment — Ferguson four-wheel drive and anti-lock brakes — was proven on a C-V8 before it reached the Interceptor.",
+     "note": "The 361 cu in engine of the first cars gave way to the 383. The FF experiment, Ferguson four-wheel drive and anti-lock brakes, was proven on a C-V8 before it reached the Interceptor.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "5.9L–6.3L V8 (Chrysler)",
@@ -70,12 +70,12 @@
     "Convertible"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "FFs and SPs sit at the top; rust in the sills and rear arches decides everything else. Chrysler mechanicals are the easy part — trim and that rear glass are not.",
+   "collectorNote": "FFs and SPs sit at the top; rust in the sills and rear arches decides everything else. Chrysler mechanicals are the easy part, trim and that rear glass are not.",
    "generations": [
     {
      "code": "Interceptor 1",
      "name": "Interceptor Mk I / Mk II (+ FF)",
-     "note": "The FF (1966–71) added Ferguson Formula four-wheel drive and Dunlop Maxaret anti-lock brakes — the first production car with either, let alone both. About 320 FFs were built.",
+     "note": "The FF (1966–71) added Ferguson Formula four-wheel drive and Dunlop Maxaret anti-lock brakes, the first production car with either, let alone both. About 320 FFs were built.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "6.3L V8 (Chrysler)",
@@ -115,7 +115,7 @@
     "Convertible"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Timing-belt history is the engine's whole file — the 907 is an interference engine. The shooting-brake Jensen GT is the rarity.",
+   "collectorNote": "Timing-belt history is the engine's whole file, the 907 is an interference engine. The shooting-brake Jensen GT is the rarity.",
    "generations": [
     {
      "code": "Jensen-Healey",

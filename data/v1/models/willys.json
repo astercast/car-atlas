@@ -6,7 +6,7 @@
     "Utility"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Matching-numbers military provenance is a researched field — data plates, frame numbers and Ford-vs-Willys production splits decide value.",
+   "collectorNote": "Matching-numbers military provenance is a researched field, data plates, frame numbers and Ford-vs-Willys production splits decide value.",
    "generations": [
     {
      "code": "MB",
@@ -37,7 +37,7 @@
     "Pickup"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "The market is enormous and so is the modification rate — original-spec early CJs are the appreciating minority. Frame rust at the rear crossmember is the classic check.",
+   "collectorNote": "The market is enormous and so is the modification rate, original-spec early CJs are the appreciating minority. Frame rust at the rear crossmember is the classic check.",
    "generations": [
     {
      "code": "CJ 1",
@@ -62,7 +62,7 @@
      "years": "1954–1986"
     }
    ],
-   "intro": "The Jeep comes home: the CJ-2A of 1945 put the wartime formula to farm and trail work, and the line ran for four decades — CJ-3B's high hood, the CJ-5's twenty-year production, the CJ-7's extra room and the Scrambler's pickup bed. Willys built them until 1963; Kaiser and AMC carried the line on.",
+   "intro": "The Jeep comes home: the CJ-2A of 1945 put the wartime formula to farm and trail work, and the line ran for four decades, CJ-3B's high hood, the CJ-5's twenty-year production, the CJ-7's extra room and the Scrambler's pickup bed. Willys built them until 1963; Kaiser and AMC carried the line on.",
    "name": "CJ (Civilian Jeep)",
    "segment": "Off-road vehicle",
    "slug": "cj",
@@ -83,7 +83,7 @@
     "Panel van"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "The Jeepster convertible cousin rides along in this record's trims — the phaeton experiment of 1948. Steel wagons survive well; wood-era trim does not exist here, which is the point of the design.",
+   "collectorNote": "The Jeepster convertible cousin rides along in this record's trims, the phaeton experiment of 1948. Steel wagons survive well; wood-era trim does not exist here, which is the point of the design.",
    "generations": [
     {
      "code": "Wagon",
@@ -97,7 +97,7 @@
      "years": "1946–1965"
     }
    ],
-   "intro": "America's first all-steel station wagon — Brooks Stevens's design sold the Jeep idea to families, and the same bones carried the pickup truck and panel delivery. Four-wheel drive from 1949 made it the original SUV in all but name, a decade and a half before the term.",
+   "intro": "America's first all-steel station wagon, Brooks Stevens's design sold the Jeep idea to families, and the same bones carried the pickup truck and panel delivery. Four-wheel drive from 1949 made it the original SUV in all but name, a decade and a half before the term.",
    "name": "Station Wagon / Pickup",
    "segment": "Utility vehicle",
    "slug": "wagon",

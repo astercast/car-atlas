@@ -22,7 +22,7 @@
     {
      "code": "4BA-R35",
      "name": "Facelift R35",
-     "note": "The 2017 refresh softened the cabin and sharpened the face, and output rose to 565 hp. The Nismo made 600 hp and cost supercar money — because by then, that was the competition.",
+     "note": "The 2017 refresh softened the cabin and sharpened the face, and output rose to 565 hp. The Nismo made 600 hp and cost supercar money, because by then, that was the competition.",
      "spec": {
       "drivetrain": "AWD",
       "engine": "3.8L twin-turbo V6 (VR38DETT)",
@@ -59,7 +59,7 @@
     "Roadster"
    ],
    "buyingClass": "new",
-   "collectorNote": "Clean S30s and twin-turbo Z32s are properly collectible now. The current Z is the sensible new buy — same engine, warranty, no 30-year-old rubber.",
+   "collectorNote": "Clean S30s and twin-turbo Z32s are properly collectible now. The current Z is the sensible new buy, same engine, warranty, no 30-year-old rubber.",
    "generations": [
     {
      "code": "S30",
@@ -75,7 +75,7 @@
     {
      "code": "Z32",
      "name": "300ZX",
-     "note": "Twin turbos, four-wheel steering on Turbo models, and a design so clean it shares its headlights with a Lamborghini Diablo. Still looks modern. It isn't — budget accordingly.",
+     "note": "Twin turbos, four-wheel steering on Turbo models, and a design so clean it shares its headlights with a Lamborghini Diablo. Still looks modern. It isn't, budget accordingly.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "3.0L twin-turbo V6 (Twin Turbo)",
@@ -112,12 +112,12 @@
     "Coupe"
    ],
    "buyingClass": "modern-classic",
-   "collectorNote": "The US 25-year import rule made R32s common and R34s legal in stages through the 2020s. Verify import paperwork and Japanese auction history carefully — R34 prices leave no room for surprises.",
+   "collectorNote": "The US 25-year import rule made R32s common and R34s legal in stages through the 2020s. Verify import paperwork and Japanese auction history carefully, R34 prices leave no room for surprises.",
    "generations": [
     {
      "code": "BNR32",
      "name": "R32 GT-R",
-     "note": "Group A rules built this car, and it won everything — 29 straight wins in Japanese touring cars. All-wheel drive, twin turbos, and the 'Godzilla' nickname, earned in Australia.",
+     "note": "Group A rules built this car, and it won everything, 29 straight wins in Japanese touring cars. All-wheel drive, twin turbos, and the 'Godzilla' nickname, earned in Australia.",
      "spec": {
       "drivetrain": "AWD",
       "engine": "2.6L twin-turbo inline-6 (RB26DETT)",
@@ -128,7 +128,7 @@
     {
      "code": "BCNR33",
      "name": "R33 GT-R",
-     "note": "The bigger, stiffer, less loved middle child — which makes it the value pick of the three. It was also the first production car to lap the Nürburgring in under eight minutes.",
+     "note": "The bigger, stiffer, less loved middle child, which makes it the value pick of the three. It was also the first production car to lap the Nürburgring in under eight minutes.",
      "spec": {
       "drivetrain": "AWD",
       "engine": "2.6L twin-turbo inline-6 (RB26DETT)",
@@ -148,7 +148,7 @@
      "years": "1999–2002"
     }
    ],
-   "intro": "Three generations of Skyline GT-R that never officially came to America — which only sharpened the legend. The RB26 engine's official 276 hp was a gentlemen's-agreement fiction everyone politely maintained.",
+   "intro": "Three generations of Skyline GT-R that never officially came to America, which only sharpened the legend. The RB26 engine's official 276 hp was a gentlemen's-agreement fiction everyone politely maintained.",
    "name": "Skyline GT-R",
    "segment": "Sports car",
    "slug": "skyline-gt-r",
@@ -171,7 +171,7 @@
     {
      "code": "ZE0",
      "name": "First generation",
-     "note": "The first mass-market modern EV, launched before most rivals had a programme. Early 24 kWh cars are now very cheap — because the range is what it is. Check the battery health bars, not the odometer.",
+     "note": "The first mass-market modern EV, launched before most rivals had a programme. Early 24 kWh cars are now very cheap, because the range is what it is. Check the battery health bars, not the odometer.",
      "spec": {
       "drivetrain": "FWD",
       "engine": "Electric motor, 24/30 kWh battery",
@@ -235,7 +235,7 @@
     {
      "code": "Y62",
      "name": "Y62",
-     "note": "Independent suspension and a 5.6L V8 moved the Patrol upmarket without losing the plot. Sold in the US as the Nissan Armada — same truck, different badge.",
+     "note": "Independent suspension and a 5.6L V8 moved the Patrol upmarket without losing the plot. Sold in the US as the Nissan Armada, same truck, different badge.",
      "spec": {
       "drivetrain": "4WD",
       "engine": "5.6L V8",
@@ -246,7 +246,7 @@
     {
      "code": "Y63",
      "name": "Current Patrol",
-     "note": "The V8 is gone, replaced by a twin-turbo V6 with more power and a nine-speed automatic. The formula — big frame, big cabin, desert-proof cooling — is unchanged.",
+     "note": "The V8 is gone, replaced by a twin-turbo V6 with more power and a nine-speed automatic. The formula, big frame, big cabin, desert-proof cooling, is unchanged.",
      "spec": {
       "drivetrain": "4WD",
       "engine": "3.5L twin-turbo V6",

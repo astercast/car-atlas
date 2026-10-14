@@ -20,7 +20,7 @@
      "years": "1958–1967"
     }
    ],
-   "intro": "The first production TVR: a glassfibre coupé on a backbone chassis, sold with whatever engine the decade offered — Climax, Ford, BMC, MG. Light, stark and quick, it set the template every TVR since has followed: minimum weight, maximum engine, no apologies.",
+   "intro": "The first production TVR: a glassfibre coupé on a backbone chassis, sold with whatever engine the decade offered, Climax, Ford, BMC, MG. Light, stark and quick, it set the template every TVR since has followed: minimum weight, maximum engine, no apologies.",
    "name": "Grantura",
    "segment": "Sports car",
    "slug": "grantura",
@@ -39,7 +39,7 @@
     "Coupe"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Original sixties cars are transatlantic blue-chip; nineties cars are valued on chassis condition — the backbone and outriggers are a known, expensive repair when neglected.",
+   "collectorNote": "Original sixties cars are transatlantic blue-chip; nineties cars are valued on chassis condition, the backbone and outriggers are a known, expensive repair when neglected.",
    "generations": [
     {
      "code": "Griffith 1",
@@ -97,7 +97,7 @@
      "years": "1992–2003"
     }
    ],
-   "intro": "TVR's best-seller: the Griffith's running gear in a softer, roomier roadster that sold over 6,000 copies and kept Blackpool busy for a decade. It is the usable TVR — which in TVR terms still means a Rover V8, a glassfibre body and no safety net.",
+   "intro": "TVR's best-seller: the Griffith's running gear in a softer, roomier roadster that sold over 6,000 copies and kept Blackpool busy for a decade. It is the usable TVR, which in TVR terms still means a Rover V8, a glassfibre body and no safety net.",
    "name": "Chimaera",
    "segment": "Sports car",
    "slug": "chimaera",
@@ -128,7 +128,7 @@
      "years": "1996–2003"
     }
    ],
-   "intro": "The 2+2 that took TVR racing: Peter Wheeler's brief was a Porsche 911 rival with TVR's own engines — the flat-plane AJP8 V8 and the Speed Six — designed in-house because Rover power wasn't enough anymore. The Cerbera Speed 12, its unhinged sibling, never reached customers. This one did, barely tamed.",
+   "intro": "The 2+2 that took TVR racing: Peter Wheeler's brief was a Porsche 911 rival with TVR's own engines, the flat-plane AJP8 V8 and the Speed Six, designed in-house because Rover power wasn't enough anymore. The Cerbera Speed 12, its unhinged sibling, never reached customers. This one did, barely tamed.",
    "name": "Cerbera",
    "segment": "Sports coupe",
    "slug": "cerbera",
@@ -146,7 +146,7 @@
     "Coupe"
    ],
    "buyingClass": "modern-classic",
-   "collectorNote": "Speed Six engine history is the file that matters — rebuild provenance from a recognised specialist transforms both value and ownership.",
+   "collectorNote": "Speed Six engine history is the file that matters, rebuild provenance from a recognised specialist transforms both value and ownership.",
    "generations": [
     {
      "code": "Tuscan",
@@ -160,7 +160,7 @@
      "years": "1999–2006"
     }
    ],
-   "intro": "The Speed Six engine in a body with a removable roof panel, no door handles and curves that owed nothing to a wind tunnel. The Tuscan was TVR's millennium flagship — the car from Swordfish, and the last of the Wheeler-era volume models.",
+   "intro": "The Speed Six engine in a body with a removable roof panel, no door handles and curves that owed nothing to a wind tunnel. The Tuscan was TVR's millennium flagship, the car from Swordfish, and the last of the Wheeler-era volume models.",
    "name": "Tuscan",
    "segment": "Sports car",
    "slug": "tuscan",
@@ -177,12 +177,12 @@
     "Coupe"
    ],
    "buyingClass": "modern-classic",
-   "collectorNote": "The rarest of the modern TVRs and priced as the era's peak; originality matters — many cars wear later cosmetic 'improvements' the market is learning to discount.",
+   "collectorNote": "The rarest of the modern TVRs and priced as the era's peak; originality matters, many cars wear later cosmetic 'improvements' the market is learning to discount.",
    "generations": [
     {
      "code": "Sagaris",
      "name": "Sagaris",
-     "note": "Around 200 cars were built. The louvred bodywork was designed to endurance-racing practice — the vents are functional, which at TVR counted as restraint.",
+     "note": "Around 200 cars were built. The louvred bodywork was designed to endurance-racing practice, the vents are functional, which at TVR counted as restraint.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "4.0L inline-6 (Speed Six)",

@@ -1,4 +1,4 @@
-/* Car Atlas — client engine.
+/* Car Atlas · client engine.
    One fetch of the search index powers the whole front door.
    Detail pages fetch only the make file they need. */
 
@@ -6,9 +6,15 @@ const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
+/* Display normalization for record-carried text (auction event
+   names, source names, club names): the stored record keeps the
+   name as published; the presented line sets it with a comma.
+   Stored records are never rewritten for presentation. */
+const disp = (s) => String(s ?? "").replace(/ \u2014 /g, ", ");
+
 /* Fleet Commons honest-fallback v1.0.0, Layer 2 (assets/js/
    fetch_deadline.js, copied verbatim): every load races a deadline.
-   A fetch that never settles — the VP-0003 hang — now rejects into
+   A fetch that never settles, the VP-0003 hang, now rejects into
    the normal failure chain instead of spinning forever. Canonical
    default 12000 ms applies unless a loader passes its own. */
 async function fetchJSON(path, opts) {
@@ -21,7 +27,30 @@ async function fetchJSON(path, opts) {
 const makeUrl = (slug) => `make.html?make=${encodeURIComponent(slug)}`;
 const modelUrl = (m, s) => `model.html?make=${encodeURIComponent(m)}&model=${encodeURIComponent(s)}`;
 
-/* ——— Instant search ——— */
+/* The identity formula, one order everywhere: make, model,
+   trim or generation, years. */
+const formula = (makeName, name, years) => `${makeName} ${name} (${years})`;
+
+const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const fmtDate = (iso) => { const [y, m, d] = String(iso).split("-").map(Number); return `${d} ${MONTHS[m - 1]} ${y}`; };
+const NUMWORDS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"];
+const numWord = (n) => (n < 20 ? NUMWORDS[n] : String(n));
+/* Freshness in words, derived from the record's own date. */
+function ageWords(iso) {
+  const then = new Date(`${iso}T00:00:00Z`);
+  const days = Math.floor((Date.now() - then.getTime()) / 86400000);
+  if (days <= 0) return "today";
+  if (days === 1) return "yesterday";
+  const years = Math.floor(days / 365.25);
+  if (years >= 1) return `${numWord(years)} year${years > 1 ? "s" : ""} ago`;
+  const months = Math.floor(days / 30.44);
+  if (months >= 1) return `${numWord(months)} month${months > 1 ? "s" : ""} ago`;
+  const weeks = Math.floor(days / 7);
+  if (weeks >= 1) return `${numWord(weeks)} week${weeks > 1 ? "s" : ""} ago`;
+  return `${numWord(days)} days ago`;
+}
+
+/* --- Instant search --- */
 function searchIndex(index, q, limit = 9) {
   q = q.trim().toLowerCase();
   if (!q) return [];
@@ -41,8 +70,8 @@ function searchIndex(index, q, limit = 9) {
 
 function resultRow(e) {
   const href = e.type === "make" ? makeUrl(e.make) : modelUrl(e.make, e.slug);
-  const name = e.type === "make" ? e.name : `${e.makeName} ${e.name}`;
-  const meta = e.type === "make" ? `${e.modelCount} models` : `${e.years} · ${e.segment}`;
+  const name = e.type === "make" ? e.name : formula(e.makeName, e.name, e.years);
+  const meta = e.type === "make" ? `${e.modelCount} models` : `${e.segment}`;
   return `<a href="${href}" role="option"><span class="r-name">${esc(name)}</span><span class="r-meta">${esc(meta)}</span></a>`;
 }
 
@@ -54,7 +83,7 @@ function wireSearch(input, box, index) {
     if (!input.value.trim()) return close();
     box.innerHTML = hits.length
       ? hits.map(resultRow).join("")
-      : `<div class="empty">No match in the atlas yet. Coverage grows every wave — see COVERAGE notes on the home page.</div>`;
+      : `<div class="empty">No match in the atlas yet. Coverage grows every wave; see the coverage notes in BENCHMARK and COVERAGE in the repo.</div>`;
     box.classList.remove("hidden");
     sel = -1;
   });
@@ -72,7 +101,7 @@ function wireSearch(input, box, index) {
   document.addEventListener("click", (ev) => { if (!box.contains(ev.target) && ev.target !== input) close(); });
 }
 
-/* ——— Photos (placement pass, wave 4) ———
+/* --- Photos (placement pass, wave 4) ---
    Sourced photography from the Foundry manifest, wired through the
    dataset's photo/photos fields. The caption states honestly what
    the photograph shows; the credit line is the licence attribution
@@ -89,34 +118,87 @@ const photosHTML = (rec) => {
   return photoFigure(list[0], "photo-main")
     + (list.length > 1 ? `<div class="photo-grid">${list.slice(1).map((p) => photoFigure(p)).join("")}</div>` : "");
 };
-const money = (r) => (r.currency === "EUR" ? "€" : r.currency === "GBP" ? "£" : "$") + Number(r.price).toLocaleString("en-US");
+const money2 = (amount, currency) => (currency === "EUR" ? "€" : currency === "GBP" ? "£" : "$") + Number(amount).toLocaleString("en-US");
+const money = (r) => money2(r.price, r.currency);
 
-/* ——— Tiles ——— */
+/* Embedded photo for index rows and listing units: the car's
+   sourced photograph (dataset photo fields, Foundry manifest
+   style: caption + credit with licence), placed after the text,
+   never leading it. In listing units the caption is prefixed
+   "Model photo" so the model's file photograph is never
+   mistaken for the specific car that sold. */
+const thumbFigure = (rec, modelPhoto = false, cls = "") => {
+  if (!rec || !rec.photo) return "";
+  const cap = `${modelPhoto ? "Model photo: " : ""}${rec.photoCaption} · ${rec.photoCredit}`;
+  return `<figure class="thumb ${cls}"><img src="${esc(rec.photo)}" alt="${esc(rec.photoCaption)}" loading="lazy"><figcaption>${esc(cap)}</figcaption></figure>`;
+};
+/* make/modelSlug -> search-index entry (carries the photo fields) */
+const photoMapFromIndex = (idx) => new Map(idx.filter((e) => e.type === "model" && e.photo).map((e) => [`${e.make}/${e.slug}`, e]));
+
+/* --- The listing unit ---
+   Five fields in fixed order on every listing, in every rail and
+   on every market page: state word; the identity formula as the
+   title line; listing date and freshness in words; the price as
+   the dominant numeral; sale type as the closing word. Auction
+   results carry their sale line in the date position. A missing
+   field prints as an honest word, never silently omitted. With
+   {prov:true} the unit also carries its provenance as an apparatus
+   line under the fields (the facts the record states, and its
+   source), which is the market page and marque ledger form. */
+function listingUnit(r, opts = {}) {
+  const href = r.modelSlug ? modelUrl(r.make, r.modelSlug) : makeUrl(r.make);
+  const state = r.status === "sold" ? "Sold" : (r.status || "Recorded");
+  let prov = "";
+  if (opts.prov) {
+    const repeats = (opts.all && r.chassis) ? opts.all.filter((x) => x !== r && x.chassis === r.chassis) : [];
+    const rep = repeats.map((x) => ` Same chassis also sold ${x.saleDate} for ${money(x)} at ${disp(x.event)}.`).join("");
+    prov = `
+    <span class="l-prov">${esc(resultFacts(r))}${esc(rep)} · Source: <a href="${esc(r.source.url)}" target="_blank" rel="noopener">${esc(disp(r.source.name))} ↗</a></span>`;
+  }
+  return `<div class="listing">
+    <span><span class="l-state">${esc(state)}</span><a class="l-title" href="${href}">${esc(formula(r.makeName, disp(r.model), r.year))}</a><span class="l-date">${esc(disp(r.event))} · ${esc(fmtDate(r.saleDate))} · sold ${esc(ageWords(r.saleDate))}</span></span>
+    <span class="l-price">${esc(money(r))}<span class="l-basis">${esc(r.priceBasis)}</span></span>
+    <span class="l-type">Auction</span>${prov}${opts.photo ? thumbFigure(opts.photo, true, "l-thumb") : ""}
+  </div>`;
+}
+/* The facts line of a certified record: every field the Price
+   Watch stages have certified prints, stated or as unrecorded. */
+function resultFacts(r) {
+  const facts = [
+    r.chassis ? `Chassis ${r.chassis}` : "Chassis unrecorded",
+    r.condition ? `Condition (per source): ${r.condition}` : "Condition unrecorded",
+    r.mileage ? `Mileage (per source): ${r.mileage}` : "Mileage unrecorded",
+  ];
+  return facts.join(" · ");
+}
+
+/* --- Tiles (atlas index rows) --- */
 const modelTile = (e) => `
-  <a class="row" href="${modelUrl(e.make, e.slug)}">
-    <h3>${esc(e.makeName)} ${esc(e.name)}</h3><span class="t-sub">${esc(e.years)}</span>
+  <a class="row${e.photo ? " has-thumb" : ""}" href="${modelUrl(e.make, e.slug)}">
+    <h3>${esc(formula(e.makeName, e.name, e.years))}</h3><span class="t-sub">${esc(e.segment)}</span>
     <p>${esc(e.intro)}</p>
-    <div class="t-foot">${esc(e.segment)} · ${esc((e.bodyStyles || []).join(" / "))}</div>
+    <div class="t-foot">${esc((e.bodyStyles || []).join(" / "))} · ${esc(e.status)}</div>${thumbFigure(e)}
   </a>`;
 
-/* ——— Home ——— */
+/* --- Home: the issue --- */
 async function initHome() {
   const idx = await fetchJSON("data/v1/search-index.json");
   const makes = idx.filter((e) => e.type === "make");
   const models = idx.filter((e) => e.type === "model");
+  const genCount = models.reduce((n, m) => n + (m.generationCount || 0), 0);
 
-  $("#stat-makes").textContent = makes.length;
-  $("#stat-models").textContent = models.length;
-  $("#stat-gens").textContent = models.reduce((n, m) => n + (m.generationCount || 0), 0);
-  fetchJSON("data/v1/clubs.json").then((d) => { $("#stat-clubs").textContent = d.clubs.length; }).catch(() => {});
-  fetchJSON("data/v1/price-watch.json").then((pw) => {
-    const el = $("#stat-results"); if (el) el.textContent = pw.results.length;
-    const box = $("#hero-specimens");
-    if (box) box.innerHTML = [...pw.results].sort((a, b) => b.saleDate.localeCompare(a.saleDate)).slice(0, 3).map((r) => {
-      const href = r.modelSlug ? modelUrl(r.make, r.modelSlug) : makeUrl(r.make);
-      return `<a class="spec-row" href="${href}"><span class="yr">${esc(r.year)}</span><span class="car">${esc(r.makeName)} ${esc(r.model)}</span><span class="price">${esc(money(r))}</span><span class="meta">${esc(r.event)} · ${esc(r.saleDate)}${r.chassis ? ` · chassis ${esc(r.chassis)}` : ""}</span></a>`;
-    }).join("");
-  }).catch(() => {});
+  const pw = await fetchJSON("data/v1/price-watch.json").catch(() => null);
+  if (pw) {
+    const d = new Date(`${pw.updatedAt}T00:00:00Z`);
+    const folio = $("#folio");
+    if (folio) folio.innerHTML = `<span>The <b>${MONTHS[d.getUTCMonth()]} ${d.getUTCFullYear()}</b> issue</span><span class="sep">·</span><span>Atlas data as of <b>${esc(fmtDate(pw.updatedAt))}</b></span><span class="sep">·</span><span><b>${makes.length}</b> makes, <b>${models.length}</b> models, <b>${genCount}</b> generations</span><span class="sep">·</span><span>Price Watch: <b>${pw.results.length}</b> certified auction results</span>`;
+    const doorAtlas = $("#door-atlas"); if (doorAtlas) doorAtlas.textContent = `${makes.length} makes · ${models.length} models · ${genCount} generations`;
+    const doorPw = $("#door-pw"); if (doorPw) doorPw.textContent = `${pw.results.length} certified results · newest sales below, all of them on the Buy page`;
+    const age = $("#cover-age"); if (age) age.textContent = ` · sold ${ageWords("2018-08-25")}`;
+    const rail = $("#pw-rail");
+    const photoMap = photoMapFromIndex(idx);
+    if (rail) rail.innerHTML = [...pw.results].sort((a, b) => b.saleDate.localeCompare(a.saleDate)).slice(0, 5).map((r) => listingUnit(r, { photo: r.modelSlug ? photoMap.get(`${r.make}/${r.modelSlug}`) : null })).join("");
+  }
 
   wireSearch($("#q"), $("#q-results"), idx);
   const q = new URLSearchParams(location.search).get("q");
@@ -129,7 +211,7 @@ async function initHome() {
       <div class="t-foot">${m.modelCount} models</div>
     </a>`).join("");
 
-  // Editorial picks — resolved by name so the list survives slug drift.
+  // Editorial picks, resolved by name so the list survives slug drift.
   const picks = [["porsche", "911"], ["toyota", "2000GT"], ["ferrari", "F40"], ["lamborghini", "Countach"], ["mazda", "MX-5"], ["ford", "Mustang"]];
   const featured = picks.map(([mk, nm]) => models.find((e) => e.make === mk && e.name.includes(nm))).filter(Boolean);
   $("#featured-grid").innerHTML = featured.map(modelTile).join("");
@@ -152,7 +234,7 @@ async function initHome() {
   const renderEra = (i) => {
     $$(".chip", eraChips).forEach((c, j) => c.setAttribute("aria-pressed", String(i === j)));
     const list = models.filter((e) => eras[i][1](startYear(e))).slice(0, 9);
-    eraGrid.innerHTML = list.length ? list.map(modelTile).join("") : `<p class="center-note">Nothing seeded from this era yet — it's on the coverage roadmap.</p>`;
+    eraGrid.innerHTML = list.length ? list.map(modelTile).join("") : `<p class="center-note">Nothing seeded from this era yet; it is on the coverage roadmap.</p>`;
   };
   eraChips.innerHTML = eras.map(([label], i) => `<button class="chip" data-era="${i}" aria-pressed="${i === 0}">${esc(label)}</button>`).join("");
   eraChips.addEventListener("click", (ev) => { const b = ev.target.closest("[data-era]"); if (b) renderEra(+b.dataset.era); });
@@ -170,13 +252,20 @@ async function initHome() {
   if (styles.length) renderStyle(styles[0]);
 }
 
-/* ——— Make page ——— */
+/* --- Make page --- */
 async function initMake() {
   const slug = new URLSearchParams(location.search).get("make");
-  const [makesData, file] = await Promise.all([fetchJSON("data/v1/makes.json"), fetchJSON(`data/v1/models/${slug}.json`)]);
+  const [makesData, file, priceWatch] = await Promise.all([
+    fetchJSON("data/v1/makes.json"),
+    fetchJSON(`data/v1/models/${slug}.json`),
+    fetchJSON("data/v1/price-watch.json").catch(() => null),
+  ]);
   const meta = makesData.makes.find((m) => m.slug === slug);
   if (!meta) { $("#make-root").innerHTML = `<p class="center-note">Make not found.</p>`; return; }
-  document.title = `${meta.name} — Car Atlas`;
+  document.title = `${meta.name} · Car Atlas`;
+  const marqueResults = (priceWatch?.results || []).filter((r) => r.make === slug)
+    .sort((a, b) => b.saleDate.localeCompare(a.saleDate));
+  const marquePhotos = new Map(file.models.filter((m) => m.photo).map((m) => [m.slug, m]));
   $("#make-root").innerHTML = `
     <div class="crumb"><a href="index.html">Atlas</a> / Makes / ${esc(meta.name)}</div>
     <h1>${esc(meta.name)}</h1>
@@ -192,6 +281,11 @@ async function initMake() {
     <section class="block"><div class="rows">
       ${file.models.map((m) => modelTile({ ...m, make: slug, makeName: meta.name, generationCount: m.generations.length })).join("")}
     </div></section>
+    <section class="block">
+      <div class="block-head"><h2>Price Watch, certified results for ${esc(meta.name)}</h2><p>Every certified result recorded for this marque, linked records to their model pages and make-level records to the full set on the Buy page. A result is one car on one day, not a valuation.</p></div>
+      ${marqueResults.length ? `<div class="listings">${marqueResults.map((r) => listingUnit(r, { prov: true, all: priceWatch?.results || [], photo: r.modelSlug ? marquePhotos.get(r.modelSlug) : null })).join("")}</div>`
+        : `<p class="center-note">No certified result for this marque yet; none is shown rather than one invented.</p>`}
+    </section>
     <script type="application/ld+json">${JSON.stringify({
       "@context": "https://schema.org", "@type": "Brand",
       name: meta.name, description: meta.blurb,
@@ -199,10 +293,10 @@ async function initMake() {
     }).replace(/</g, "\\u003c")}<\/script>`;
 }
 
-/* ——— Model page ———
-   honest-fallback (VP-0003): Layer 1 paints the baked snapshot —
+/* --- Model page: the record ---
+   honest-fallback (VP-0003): Layer 1 paints the baked snapshot,
    the record's genuine essentials, baked into model.html at build
-   time from the same dataset — synchronously, before any fetch.
+   time from the same dataset, synchronously, before any fetch.
    Layer 2 bounds the live load: 8 s per-loader deadline (the files
    are ~7 KB; a local load is milliseconds) plus the 12 s watchdog
    backstop. Terminal states: live record · labeled static snapshot
@@ -213,10 +307,10 @@ function renderBakedModel(root, mk, md) {
   const all = window.__CA_MODEL_ESSENTIALS__;
   const e = all && all[`${mk}/${md}`];
   if (!e) return false;
-  document.title = `${e.makeName} ${e.name} — Car Atlas`;
+  document.title = `${formula(e.makeName, e.name, e.years)} · Car Atlas`;
   root.innerHTML = `
     <div class="crumb"><a href="index.html">Atlas</a> / <a href="${makeUrl(mk)}">${esc(e.makeName)}</a> / ${esc(e.name)}</div>
-    <h1>${esc(e.makeName)} ${esc(e.name)}</h1>
+    <h1>${esc(formula(e.makeName, e.name, e.years))}</h1>
     <p class="lede">${esc(e.intro)}</p>
     <div class="factrow">
       <div class="fact"><span>Years</span><b>${esc(e.years)}</b></div>
@@ -226,7 +320,7 @@ function renderBakedModel(root, mk, md) {
       <div class="fact"><span>Generations</span><b>${e.generationCount}</b></div>
     </div>
     <div class="note-box"><b>Static snapshot</b>
-      <p>Atlas data as of ${esc(window.__CA_DATASET_UPDATED_AT__ || "")} · static snapshot — the full record (every generation, trims, where to buy) replaces this on load.</p>
+      <p>Atlas data as of ${esc(window.__CA_DATASET_UPDATED_AT__ || "")} · static snapshot; the full record (every generation, trims, the price ledger) replaces this on load.</p>
       <p id="model-load-status" aria-live="polite">Loading the full record…</p>
     </div>`;
   return true;
@@ -237,11 +331,26 @@ function modelStuck(root, baked, err) {
   const wire = () => { const b = $("#model-retry", root); if (b) b.addEventListener("click", () => initModel()); };
   const st = baked && $("#model-load-status", root);
   if (st) {
-    st.innerHTML = `${esc(msg)} You're reading the static snapshot above — this car's essentials, exactly as baked from the atlas data. <button class="chip" id="model-retry" type="button">Retry the full record</button>`;
+    st.innerHTML = `${esc(msg)} You're reading the static snapshot above, this car's essentials, exactly as baked from the atlas data. <button class="chip" id="model-retry" type="button">Retry the full record</button>`;
   } else {
     root.innerHTML = `<p class="center-note">${esc(msg)} <button class="chip" id="model-retry" type="button">Retry</button></p>`;
   }
   wire();
+}
+
+/* Local follow (T-CARS-5, rung 1 of BENCHMARK.md's priced closure):
+   followed models live in this browser's localStorage. The Buy
+   page surfaces their latest certified results first. It notifies
+   nobody off-site, and the surfaces say exactly that. */
+const FOLLOW_KEY = "car-atlas-follows:v1";
+const readFollows = () => { try { return JSON.parse(localStorage.getItem(FOLLOW_KEY)) || []; } catch { return []; } };
+const writeFollows = (list) => { try { localStorage.setItem(FOLLOW_KEY, JSON.stringify(list)); } catch { /* private mode: follow simply does not persist */ } };
+
+function decadeWord(years) {
+  const y = parseInt(String(years).match(/\d{4}/)?.[0] || "", 10);
+  if (!y) return "Browse by era in the atlas";
+  const words = { 1930: "The thirties", 1940: "The forties", 1950: "The fifties", 1960: "The sixties", 1970: "The seventies", 1980: "The eighties", 1990: "The nineties", 2000: "The 2000s", 2010: "The 2010s", 2020: "The 2020s" };
+  return words[Math.floor(y / 10) * 10] || "Browse by era in the atlas";
 }
 
 async function initModel() {
@@ -274,11 +383,10 @@ async function initModel() {
   const meta = makesData.makes.find((m) => m.slug === mk);
   const model = file.models.find((m) => m.slug === md);
   if (!meta || !model) { live = true; cancelWatchdog(); root.innerHTML = `<p class="center-note">Model not found in the atlas yet.</p>`; return; }
-  document.title = `${meta.name} ${model.name} — Car Atlas`;
+  document.title = `${formula(meta.name, model.name, model.years)} · Car Atlas`;
   const cls = buying.buyingClasses[model.buyingClass];
   const channels = (cls?.primaryChannels || [])
     .map((d) => buying.channels.find((c) => c.domain === d)).filter(Boolean);
-  const [firstGen, ...restGens] = model.generations;
   const genHTML = (g) => `
     <article class="gen">
       <div class="gen-head"><h3>${esc(g.name)}</h3><span class="yrs">${esc(g.years)}</span>${g.code ? `<span class="code">${esc(g.code)}</span>` : ""}</div>
@@ -289,9 +397,52 @@ async function initModel() {
         <div><span>Drivetrain</span><b>${esc(g.spec.drivetrain)}</b></div>
       </div>` : ""}
     </article>`;
+
+  /* The record's price ledger: this model's certified results as
+     ruled, dated rows, each figure carrying its source; repeat
+     sales of one chassis linked in the row (T-CARS-4 machinery). */
+  const hits = (priceWatch?.results || []).filter((r) => r.make === mk && r.modelSlug === md)
+    .sort((a, b) => b.saleDate.localeCompare(a.saleDate));
+  const repeatsOf = (r) => r.chassis ? (priceWatch?.results || []).filter((x) => x !== r && x.chassis === r.chassis) : [];
+  const ledgerHTML = hits.length ? `<div class="pw-ledger">${hits.map((r) => `
+    <div class="pw-lrow">
+      <span class="d">${esc(r.saleDate)}</span>
+      <span class="car">${esc(formula(r.makeName, disp(r.model), r.year))}</span>
+      <span class="price">${esc(money(r))}</span>
+      <span class="facts">${esc(resultFacts(r))} · ${esc(disp(r.event))}${repeatsOf(r).map((x) => ` · Same chassis also sold ${esc(x.saleDate)} for ${esc(money(x))} at ${esc(disp(x.event))}`).join("")}</span>
+      <span class="basis">${esc(r.priceBasis)}</span>
+      <span class="src">Source: <a href="${esc(r.source.url)}" target="_blank" rel="noopener">${esc(disp(r.source.name))} ↗</a></span>
+    </div>`).join("")}</div>`
+    : `<p class="center-note">Price Watch holds no certified result for this model yet, so none is shown.</p>`;
+  /* Cohort range lines (T-CARS-1 machinery rung): computed only
+     from this model's certified records, per currency, n shown. */
+  const cohortHTML = (() => {
+    if (!priceWatch || hits.length < 2) return "";
+    const byCur = {};
+    for (const r of hits) (byCur[r.currency] ||= []).push(r);
+    return Object.entries(byCur).filter(([, g]) => g.length >= 2).map(([cur, g]) => {
+      const prices = g.map((r) => r.price);
+      const dates = g.map((r) => r.saleDate).sort();
+      return `<p class="cohort-line"><b>${esc(money2(Math.min(...prices), cur))} – ${esc(money2(Math.max(...prices), cur))}</b> · ${numWord(g.length)} certified results in ${esc(cur)}, sales from ${esc(fmtDate(dates[0]))} to ${esc(fmtDate(dates[dates.length - 1]))}. A range over ${g.length} sales is context, not a valuation of any other example.</p>`;
+    }).join("");
+  })();
+  /* The certification counts print on the record page, computed
+     from the full certified set at render: stated honestly, never
+     inflated (Price Watch stage 6 counts at this build: condition
+     11/56, mileage 7/56, chassis 44/56, modelSlug 29/56). */
+  const certHTML = (() => {
+    if (!priceWatch) return "";
+    const all = priceWatch.results;
+    const n = (k) => all.filter((r) => r[k]).length;
+    const stage = (String(priceWatch.stage || "").match(/^Stage \d+/) || ["Price Watch"])[0];
+    return `<p class="cert-line">${esc(stage)} certification counts, across all ${all.length} certified results: condition is stated on ${n("condition")}, mileage on ${n("mileage")}, chassis on ${n("chassis")}. Each prints in the ledger where its source states it, and as unrecorded where none does. The full set, with filters, is on the <a href="buy.html">Buy page</a>.</p>`;
+  })();
+  const followKey = `${mk}/${md}`;
+  const isFollowing = readFollows().includes(followKey);
+
   root.innerHTML = `
     <div class="crumb"><a href="index.html">Atlas</a> / <a href="${makeUrl(mk)}">${esc(meta.name)}</a> / ${esc(model.name)}</div>
-    <h1>${esc(meta.name)} ${esc(model.name)}</h1>
+    <h1>${esc(formula(meta.name, model.name, model.years))}</h1>
     <p class="lede">${esc(model.intro)}</p>
     <div class="factrow">
       <div class="fact"><span>Years</span><b>${esc(model.years)}</b></div>
@@ -303,17 +454,25 @@ async function initModel() {
     ${photosHTML(model)}
     ${model.collectorNote ? `<div class="note-box"><b>Collector note</b><p>${esc(model.collectorNote)}</p></div>` : ""}
     <section class="block">
-      <div class="block-head"><h2>Generations</h2><p>Every generation in the atlas, flagship specs first.</p></div>
-      ${genHTML(firstGen)}
-      ${restGens.length ? `<div id="more-gens" class="hidden">${restGens.map(genHTML).join("")}</div>
-      <button class="chip" id="toggle-gens" aria-expanded="false">Show all ${model.generations.length} generations</button>` : ""}
+      <div class="block-head"><h2>Generations</h2><p>Every generation in the atlas, flagship specs first. Figures are the manufacturers' published ratings, as recorded by the atlas.</p></div>
+      ${model.generations.map(genHTML).join("")}
     </section>
     <section class="block">
       <div class="block-head"><h2>Trims &amp; variants</h2></div>
       <div class="chips">${model.trims.map((t) => `<span class="pill">${esc(t)}</span>`).join("")}</div>
     </section>
+    <section class="block" id="price-record">
+      <div class="block-head"><h2>Price Watch, the record</h2><p>Certified auction results for this model, newest first, as a dated ledger. A result is one specific car on one day, not a valuation of any other example.</p></div>
+      <div class="follow-row">
+        <button class="follow-btn" id="follow-btn" type="button" aria-pressed="${isFollowing}">${isFollowing ? "Following this model ✓" : "Follow this model"}</button>
+        <span class="follow-note">Following is stored in this browser only. It notifies nobody; followed models and their newest certified results surface first on the Buy page.</span>
+      </div>
+      ${ledgerHTML}
+      ${cohortHTML}
+      ${certHTML}
+    </section>
     <section class="block" id="buy">
-      <div class="block-head"><h2>Where to buy</h2><p>${esc(cls?.label || "")} — ${esc(cls?.description || "")}</p></div>
+      <div class="block-head"><h2>Where to buy</h2><p>${esc(cls?.label || "")} · ${esc(cls?.description || "")}</p></div>
       <div class="rows">
         ${channels.map((c) => `
           <a class="row" href="https://${esc(c.domain)}" target="_blank" rel="noopener">
@@ -322,16 +481,13 @@ async function initModel() {
             <div class="t-foot">${esc(c.domain)} ↗</div>
           </a>`).join("")}
       </div>
-      ${(() => {
-        const hits = (priceWatch?.results || []).filter((r) => r.make === mk && r.modelSlug === md);
-        /* T-CARS-4: repeat-sale linking by shared chassis key. */
-        const repeatsOf = (r) => r.chassis ? (priceWatch?.results || []).filter((x) => x !== r && x.chassis === r.chassis) : [];
-        return hits.length ? `<div class="note-box"><b>Price Watch — auction results</b>
-          ${hits.map((r) => `<p>${esc(r.year)} ${esc(r.model)} — sold for <b>${esc(money(r))}</b> at ${esc(r.event)}, ${esc(r.saleDate)}.${r.chassis ? ` Chassis ${esc(r.chassis)}.` : ""}${r.condition ? ` Condition (per source): ${esc(r.condition)}.` : ""}${r.mileage ? ` Mileage (per source): ${esc(r.mileage)}.` : ""}${repeatsOf(r).map((x) => ` Same chassis also sold ${esc(x.saleDate)} for ${esc(money(x))} at ${esc(x.event)}.`).join("")} <a href="${esc(r.source.url)}" target="_blank" rel="noopener">Source: ${esc(r.source.name)} ↗</a></p>`).join("")}
-          <p class="small">A result is one specific car on one day — not a valuation of any other example. The full results set is on the <a href="buy.html">Buy page</a>.</p></div>`
-        : `<div class="note-box"><b>Price Watch</b><p>Price Watch tracks certified auction results (on the <a href="buy.html">Buy page</a>); no certified result for this model yet, so none is shown. Listing aggregation and price-drop alerts remain later stages.</p></div>`;
-      })()}
     </section>
+    <nav class="dept-line" aria-label="Onward">
+      <span class="dl-word">Onward</span>
+      <a href="${makeUrl(mk)}">More ${esc(meta.name)} →</a>
+      <a href="index.html#atlas">${esc(decadeWord(model.years))} in the atlas →</a>
+      <a href="buy.html">Every certified result →</a>
+    </nav>
     <script type="application/ld+json">${JSON.stringify({
       "@context": "https://schema.org", "@type": "Car",
       name: `${meta.name} ${model.name}`, brand: { "@type": "Brand", name: meta.name },
@@ -339,15 +495,17 @@ async function initModel() {
       ...(model.photo ? { image: model.photo } : {}),
     }).replace(/</g, "\\u003c")}<\/script>`;
   live = true; cancelWatchdog();
-  const btn = $("#toggle-gens");
-  if (btn) btn.addEventListener("click", () => {
-    const box = $("#more-gens"), open = box.classList.toggle("hidden") === false;
-    btn.setAttribute("aria-expanded", String(open));
-    btn.textContent = open ? "Show fewer generations" : `Show all ${model.generations.length} generations`;
+  const fb = $("#follow-btn");
+  if (fb) fb.addEventListener("click", () => {
+    const list = readFollows();
+    const on = list.includes(followKey);
+    writeFollows(on ? list.filter((k) => k !== followKey) : [...list, followKey]);
+    fb.setAttribute("aria-pressed", String(!on));
+    fb.textContent = on ? "Follow this model" : "Following this model ✓";
   });
 }
 
-/* ——— Clubs ——— */
+/* --- Clubs --- */
 async function initClubs() {
   const data = await fetchJSON("data/v1/clubs.json");
   const regions = [...new Set(data.clubs.map((c) => c.region))].sort();
@@ -360,24 +518,25 @@ async function initClubs() {
     $("#club-count").textContent = `${list.length} clubs & networks`;
     $("#club-grid").innerHTML = list.length ? list.map((c) => `
       <article class="row">
-        <h3>${esc(c.name)}</h3><span class="t-sub">${esc(c.region)}</span>
+        <h3>${esc(disp(c.name))}</h3><span class="t-sub">${esc(c.region)}</span>
         <p>${esc(c.description)}</p>
         <div class="t-foot">${esc(c.type)} · ${esc(c.chapterModel)} · <a href="https://${esc(c.website)}" target="_blank" rel="noopener">${esc(c.website)} ↗</a></div>
-      </article>`).join("") : `<p class="center-note">No seeded club matches that filter yet — the registry grows every wave.</p>`;
+      </article>`).join("") : `<p class="center-note">No seeded club matches that filter yet; the registry grows every wave.</p>`;
   };
   $("#f-region").addEventListener("change", render);
   $("#f-marque").addEventListener("change", render);
   render();
 }
 
-/* ——— Buy ———
+/* --- Buy: the market page ---
    T-CARS-6 / DL-5: real client-side filters over the 56 certified
    Price Watch records. Facets reflect only what the records carry:
    make (16 present), stated-price band (counts computed from the
-   records, in each record's own currency — labelled "stated price"),
+   records, in each record's own currency, labelled "stated price"),
    and record completeness (chassis 44/56, condition 11/56,
    mileage 7/56 at stage 6). No facet is offered for a field the
-   data does not have. */
+   data does not have. Results print as five-field listing units
+   with their provenance lines. */
 async function initBuy() {
   const data = await fetchJSON("data/v1/buying.json");
   $("#class-grid").innerHTML = Object.values(data.buyingClasses).map((c) => `
@@ -396,6 +555,36 @@ async function initBuy() {
   try {
     const pw = await fetchJSON("data/v1/price-watch.json");
     const all = [...pw.results].sort((a, b) => b.saleDate.localeCompare(a.saleDate));
+    const idx = await fetchJSON("data/v1/search-index.json").catch(() => []);
+    const photoMap = photoMapFromIndex(idx);
+    const photoOf = (r) => (r.modelSlug ? photoMap.get(`${r.make}/${r.modelSlug}`) : null);
+
+    /* Following (T-CARS-5 rung 1): models followed in this browser
+       surface here with their newest certified result first. */
+    const fbox = $("#follow-list");
+    if (fbox) {
+      const follows = readFollows();
+      if (!follows.length) {
+        fbox.innerHTML = `<p class="center-note">You are not following any model yet. Open a model's record and choose Follow this model; its newest certified result will surface here, ahead of the full set.</p>`;
+      } else {
+        const nameOf = (mk, slug) => {
+          const e = idx.find((x) => x.type === "model" && x.make === mk && x.slug === slug);
+          return e ? formula(e.makeName, e.name, e.years) : slug;
+        };
+        const entries = follows.map((key) => {
+          const [mk, slug] = key.split("/");
+          const mine = all.filter((r) => r.make === mk && r.modelSlug === slug);
+          return { key, mk, slug, latest: mine[0] || null };
+        }).sort((a, b) => (b.latest?.saleDate || "").localeCompare(a.latest?.saleDate || ""));
+        fbox.innerHTML = `<div class="listings">${entries.map(({ mk, slug, latest }) => latest ? listingUnit(latest, { prov: true, all, photo: photoOf(latest) }) : `
+          <div class="listing">
+            <span><span class="l-state">Following</span><a class="l-title" href="${modelUrl(mk, slug)}">${esc(nameOf(mk, slug))}</a><span class="l-date">No certified result for this model yet</span></span>
+            <span class="l-price">Unrecorded</span>
+            <span class="l-type">Record</span>
+          </div>`).join("")}</div>`;
+      }
+    }
+
     const bands = [
       ["", "All prices"],
       ["u1", "Under 1,000,000", (r) => r.price < 1000000],
@@ -419,17 +608,7 @@ async function initBuy() {
       const mk = makeSel.value, band = bands.find((b) => b[0] === bandSel.value), rec = recordFacets.find((f) => f[0] === recSel.value);
       const list = all.filter((r) => (!mk || r.make === mk) && (!band || !band[2] || band[2](r)) && (!rec || !rec[2] || rec[2](r)));
       $("#pw-count").textContent = `Showing ${list.length} of ${all.length} certified results`;
-      $("#results-grid").innerHTML = list.length ? `<table class="pw"><thead><tr><th>Car</th><th>Result</th><th>Sale</th><th>Record</th></tr></thead><tbody>${list.map((r) => {
-        const href = r.modelSlug ? modelUrl(r.make, r.modelSlug) : makeUrl(r.make);
-        const repeats = r.chassis ? all.filter((x) => x !== r && x.chassis === r.chassis) : [];
-        const facts = [r.chassis ? `Chassis ${r.chassis}` : "Chassis not stated", r.condition ? `Condition (per source): ${r.condition}` : null, r.mileage ? `Mileage (per source): ${r.mileage}` : null].filter(Boolean).join(" · ");
-        return `<tr>
-          <td class="car"><a href="${href}">${esc(r.year)} ${esc(r.makeName)} ${esc(r.model)}</a></td>
-          <td><span class="pw-price">${esc(money(r))}</span><div class="sub">${esc(r.priceBasis)}</div></td>
-          <td>${esc(r.event)}<div class="sub mono">${esc(r.saleDate)}</div></td>
-          <td><span class="sub">${esc(facts)}</span>${repeats.map((x) => `<div class="sub">Same chassis also sold ${esc(x.saleDate)} for ${esc(money(x))} at ${esc(x.event)}.</div>`).join("")}<div class="sub"><a href="${esc(r.source.url)}" target="_blank" rel="noopener">Source: ${esc(r.source.name)} ↗</a></div></td>
-        </tr>`;
-      }).join("")}</tbody></table>` : `<p class="center-note">No certified result matches that combination. Clear the filters to see all ${all.length}.</p>`;
+      $("#results-grid").innerHTML = list.length ? `<div class="listings">${list.map((r) => listingUnit(r, { prov: true, all, photo: photoOf(r) })).join("")}</div>` : `<p class="center-note">No certified result matches that combination. Clear the filters to see all ${all.length}.</p>`;
     };
     [makeSel, bandSel, recSel].forEach((el) => el.addEventListener("change", renderResults));
     $("#f-clear").addEventListener("click", () => { makeSel.value = ""; bandSel.value = ""; recSel.value = ""; renderResults(); });
@@ -448,11 +627,12 @@ async function initBuy() {
         const prices = g.map((r) => r.price);
         const lo = g[prices.indexOf(Math.min(...prices))], hi = g[prices.indexOf(Math.max(...prices))];
         const years = g.map((r) => r.year);
+        const photo = photoOf(g[0]);
         return `
-      <article class="row">
+      <article class="row${photo ? " has-thumb" : ""}">
         <h3>${esc(g[0].makeName)} ${esc(g[0].model.split(" (")[0])}</h3><span class="t-sub">n=${g.length} certified</span>
-        <p><span class="pw-price">${esc(money(lo))} – ${esc(money(hi))}</span><br>Certified results span model years ${Math.min(...years)}–${Math.max(...years)}, sales ${esc(g.map((r) => r.saleDate).sort()[0])} to ${esc(g.map((r) => r.saleDate).sort().slice(-1)[0])}. Range over ${g.length} certified sales in ${esc(g[0].currency)} — context, not a valuation of any other example.</p>
-        <div class="t-foot"><a href="${modelUrl(g[0].make, g[0].modelSlug)}">Atlas record →</a></div>
+        <p><span class="pw-price" style="font-weight:800">${esc(money(lo))} – ${esc(money(hi))}</span><br>Certified results span model years ${Math.min(...years)}–${Math.max(...years)}, sales ${esc(g.map((r) => r.saleDate).sort()[0])} to ${esc(g.map((r) => r.saleDate).sort().slice(-1)[0])}. Range over ${g.length} certified sales in ${esc(g[0].currency)}: context, not a valuation of any other example.</p>
+        <div class="t-foot"><a href="${modelUrl(g[0].make, g[0].modelSlug)}">Atlas record →</a></div>${thumbFigure(photo, true)}
       </article>`;
       }).join("");
     }
@@ -465,6 +645,6 @@ const page = document.body.dataset.page;
 const boot = { home: initHome, make: initMake, model: initModel, clubs: initClubs, buy: initBuy }[page];
 if (boot) boot().catch((err) => {
   const el = $("#js-error");
-  if (el) { el.textContent = `Something failed to load (${err.message}). The atlas data may still be syncing — reload in a moment.`; el.classList.remove("hidden"); }
+  if (el) { el.textContent = `Something failed to load (${err.message}). The atlas data may still be syncing; reload in a moment.`; el.classList.remove("hidden"); }
   console.error(err);
 });

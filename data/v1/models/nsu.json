@@ -49,12 +49,12 @@
     "Saloon"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "TTS originality is easily faked from a 1000 shell — engine numbers and the model's specific fittings are the check. Hillclimb history adds real value.",
+   "collectorNote": "TTS originality is easily faked from a 1000 shell, engine numbers and the model's specific fittings are the check. Hillclimb history adds real value.",
    "generations": [
     {
      "code": "TT",
      "name": "1000 / 1000 TT / 1200 TT / TTS",
-     "note": "The 1000 made 43 hp, the TTs 55–65, and the TTS — with its oil cooler in the front panel — 70 hp and a competition career out of all proportion to its size.",
+     "note": "The 1000 made 43 hp, the TTs 55–65, and the TTS, with its oil cooler in the front panel, 70 hp and a competition career out of all proportion to its size.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "1.0L–1.2L air-cooled inline-4",
@@ -63,7 +63,7 @@
      "years": "1963–1972"
     }
    ],
-   "intro": "The Prinz grown up: a four-cylinder air-cooled saloon whose sporting derivatives — 1000 TT, 1200 TT and the twin-carburettor TTS — became the giant-killers of German hillclimbs and the car a generation of tuners (and the founders of Abt) learned on.",
+   "intro": "The Prinz grown up: a four-cylinder air-cooled saloon whose sporting derivatives, 1000 TT, 1200 TT and the twin-carburettor TTS, became the giant-killers of German hillclimbs and the car a generation of tuners (and the founders of Abt) learned on.",
    "name": "1000 / TT / TTS",
    "segment": "Compact car",
    "slug": "1000",
@@ -86,7 +86,7 @@
     {
      "code": "Spider",
      "name": "Wankel Spider",
-     "note": "The rotor displaced 498 cc and made 50 hp; apex-seal wear — the rotary's teething trouble — was covered by an NSU warranty generous enough to hurt.",
+     "note": "The rotor displaced 498 cc and made 50 hp; apex-seal wear, the rotary's teething trouble, was covered by an NSU warranty generous enough to hurt.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "498 cc single-rotor Wankel",
@@ -110,7 +110,7 @@
     "Saloon"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Buy the best engine you can find — rebuilt rotaries by the small specialist circle are the difference between a driver and a project. The rest of the car is durable, refined and undervalued.",
+   "collectorNote": "Buy the best engine you can find, rebuilt rotaries by the small specialist circle are the difference between a driver and a project. The rest of the car is durable, refined and undervalued.",
    "generations": [
     {
      "code": "Ro80",
@@ -124,7 +124,7 @@
      "years": "1967–1977"
     }
    ],
-   "intro": "European Car of the Year 1968 and the rotary's flagship: a twin-rotor saloon with front-wheel drive, a semi-automatic gearbox, inboard front discs and Claudio Luthe's wind-tunnel styling a decade ahead of the industry. The engine's seal problems bankrupted NSU into Volkswagen's arms — and the car itself was superb.",
+   "intro": "European Car of the Year 1968 and the rotary's flagship: a twin-rotor saloon with front-wheel drive, a semi-automatic gearbox, inboard front discs and Claudio Luthe's wind-tunnel styling a decade ahead of the industry. The engine's seal problems bankrupted NSU into Volkswagen's arms, and the car itself was superb.",
    "name": "Ro80",
    "segment": "Executive car",
    "slug": "ro80",

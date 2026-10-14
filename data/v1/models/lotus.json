@@ -21,7 +21,7 @@
      "years": "1962–1973"
     }
    ],
-   "intro": "The definitive Chapman road car: a steel backbone chassis, fibreglass body, twin-cam power, and 675 kg. The Elan's steering feel is still the reference other roadsters are measured against — Mazda benchmarked it for the MX-5.",
+   "intro": "The definitive Chapman road car: a steel backbone chassis, fibreglass body, twin-cam power, and 675 kg. The Elan's steering feel is still the reference other roadsters are measured against, Mazda benchmarked it for the MX-5.",
    "name": "Elan",
    "segment": "Roadster",
    "slug": "elan",
@@ -40,12 +40,12 @@
     "Coupe"
    ],
    "buyingClass": "modern-classic",
-   "collectorNote": "V8 cars are appreciating; buy on gearbox and manifold history. The S1 is a design object — purchase the best body, not the cheapest car.",
+   "collectorNote": "V8 cars are appreciating; buy on gearbox and manifold history. The S1 is a design object, purchase the best body, not the cheapest car.",
    "generations": [
     {
      "code": "S1",
      "name": "Esprit S1",
-     "note": "Pure origami styling over a 2.0-litre four. Light, delicate, and slow by modern measure — the shape is the point, and The Spy Who Loved Me made it eternal.",
+     "note": "Pure origami styling over a 2.0-litre four. Light, delicate, and slow by modern measure, the shape is the point, and The Spy Who Loved Me made it eternal.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "2.0L I4",
@@ -56,7 +56,7 @@
     {
      "code": "Type 105",
      "name": "Esprit V8",
-     "note": "Lotus's own 3.5 twin-turbo V8 — flat-plane crank, 350 hp, and a gearbox that was always the weak link. The Sport 350 is the hardcore farewell.",
+     "note": "Lotus's own 3.5 twin-turbo V8, flat-plane crank, 350 hp, and a gearbox that was always the weak link. The Sport 350 is the hardcore farewell.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "3.5L twin-turbo V8",
@@ -84,7 +84,7 @@
     "Convertible"
    ],
    "buyingClass": "modern-classic",
-   "collectorNote": "S1s are the collector grade — originality and the early MMC discs matter. Later Toyota-engined cars are the use-it-daily pick. Check the ali tub for accident damage; it is not repairable in the usual way.",
+   "collectorNote": "S1s are the collector grade, originality and the early MMC discs matter. Later Toyota-engined cars are the use-it-daily pick. Check the ali tub for accident damage; it is not repairable in the usual way.",
    "generations": [
     {
      "code": "S1",

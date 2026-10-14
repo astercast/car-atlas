@@ -34,7 +34,7 @@
      "years": "1958–1964"
     }
    ],
-   "intro": "The swallow (hirondelle — hence the badge) that made Simca France's second carmaker: a modern monocoque saloon with the Flash engine, sold in everything from taxi trim to the elegant Facel-built coupés. Over 1.4 million were made.",
+   "intro": "The swallow (hirondelle, hence the badge) that made Simca France's second carmaker: a modern monocoque saloon with the Flash engine, sold in everything from taxi trim to the elegant Facel-built coupés. Over 1.4 million were made.",
    "name": "Aronde",
    "segment": "Family car",
    "slug": "aronde",
@@ -68,7 +68,7 @@
      "years": "1954–1961"
     }
    ],
-   "intro": "Ford of France's V8, inherited whole when Simca bought the Poissy plant in 1954: a flathead 2.4-litre V8 in an American-styled saloon — Versailles, Trianon, Régence, then the Présidence and the Chambord. France's last V8-engined production car of its era, and the seed of Brazil's Simca do Brasil.",
+   "intro": "Ford of France's V8, inherited whole when Simca bought the Poissy plant in 1954: a flathead 2.4-litre V8 in an American-styled saloon, Versailles, Trianon, Régence, then the Présidence and the Chambord. France's last V8-engined production car of its era, and the seed of Brazil's Simca do Brasil.",
    "name": "Vedette",
    "segment": "Luxury car",
    "slug": "vedette",
@@ -87,7 +87,7 @@
     "Saloon"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Rallye 2/3 provenance is documented by the club registries — replicas exist. Rear-engined handling rewards respect and good dampers.",
+   "collectorNote": "Rallye 2/3 provenance is documented by the club registries, replicas exist. Rear-engined handling rewards respect and good dampers.",
    "generations": [
     {
      "code": "1000",
@@ -101,7 +101,7 @@
      "years": "1961–1978"
     }
    ],
-   "intro": "Simca's rear-engined answer to the Renault 4 and the Beetle era: a square-cut four-door with the Poissy engine behind the rear axle, built for seventeen years and rallied hard in its Rallye forms — the Rallye 2 and 3 are homologation-bred tarmac weapons with a cult following.",
+   "intro": "Simca's rear-engined answer to the Renault 4 and the Beetle era: a square-cut four-door with the Poissy engine behind the rear axle, built for seventeen years and rallied hard in its Rallye forms, the Rallye 2 and 3 are homologation-bred tarmac weapons with a cult following.",
    "name": "1000",
    "segment": "Compact car",
    "slug": "1000",

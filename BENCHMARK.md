@@ -67,6 +67,39 @@ expected gap; depth and live intelligence are.
   benchmark: no median, no condition tier, no per-model value is
   claimed.
 
+## Deltas in rotation 22 (identity pass)
+
+- **Composition (CAR-ATLAS-STUDY §5):** home rebuilt as an
+  issue (masthead + folio line, one cover car with its price as
+  the display numeral, contents as department doors, four
+  distinct compositions; the stat band is gone). One five-field
+  listing anatomy now prints on every rail and market page, and
+  the model page is a record with a ruled, dated price ledger.
+  Full record: `landing-car-atlas-r22.md` in the wave-engine
+  folder.
+- **T-CARS-2: CLOSED on the record surface.** The record page
+  prints certified condition and mileage per record, with the
+  figure's source, at the honest stage-6 counts (condition
+  11/56, mileage 7/56, chassis 44/56, printed on the page as the
+  certification counts). Unstated fields print as "unrecorded",
+  never omitted and never inferred.
+- **T-CARS-5: rung 1 SHIPPED (local follow).** Models can be
+  followed from their records (localStorage); followed models
+  and their newest certified results surface first on the Buy
+  page, labelled as browser-only and notifying nobody. Rung 2
+  (true notify) remains deploy-gated, as priced below.
+- **T-CARS-3: ADVANCED.** Model records carry their full result
+  archives as the ledger; marque pages now carry every certified
+  result for the marque, so no result is orphaned from its
+  marque's page. The 27 make-level records still have no model
+  record to attach to (the 250 GTO record remains the owner's
+  parked call), and no-sale / "bid to" lots remain absent by the
+  certification standard: 56/56 records are sold results.
+- **T-CARS-1: ADVANCED, not closed.** The cohort-range machinery
+  now prints on the model record itself (per currency, n shown),
+  joining the Buy page rung. The benchmark value itself remains
+  refused at cohort n≤2, per the priced closure below.
+
 ## Deferred, re-argued by name, with priced closures
 
 ### T-CARS-1 — benchmark / cohort value per model
@@ -96,9 +129,9 @@ machinery there and absent here.
 **Priced closure, two rungs:** (1) *Local follow* — watch a model
 in the browser (localStorage), Buy page surfaces watched models'
 latest certified results first: client-only, free-tier safe, no
-accounts, no server — **one wave**, and it is the next honest rung;
-it notifies nobody off-site and must be labelled exactly that.
-(2) *True notify* (email/push on a new result) — needs the deploy
+accounts, no server — **SHIPPED in rotation 22**, labelled exactly
+as priced (browser-only, notifies nobody). (2) *True notify*
+(email/push on a new result) — needs the deploy
 decision (a live target), a cron to diff the results file, and a
 mail/push sender inside free tiers, plus an accounts or
 double-opt-in story: **a deploy-gated project, est. 2–3 waves after
@@ -127,3 +160,15 @@ cohort rung (ranges, n shown) — while remaining BEHIND every named
 rival on live listings, true cohort benchmarks (T-CARS-1) and
 follow/notify (T-CARS-5), and BEHIND Wikipedia on encyclopedia
 breadth; design held at PARITY-or-AHEAD against the whole set.**
+
+## Benchmark standing line (rotation 22)
+
+**BENCHMARK STANDING — the atlas's presentation caught up with
+its record: one listing anatomy and one identity formula across
+every surface, results carried as dated ledgers with a source
+per figure, T-CARS-2 closed on the record surface and T-CARS-5's
+local-follow rung shipped, while remaining BEHIND every named
+rival on live listings, true cohort benchmarks (T-CARS-1: largest
+cohort is still n=2) and off-site notify, and BEHIND Wikipedia
+on encyclopedia breadth; design held at PARITY-or-AHEAD against
+the whole set.**

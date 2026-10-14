@@ -22,7 +22,7 @@
     {
      "code": "XF40",
      "name": "LS 460 / LS 600h",
-     "note": "The first eight-speed automatic in the class, and a hybrid flagship — the 600h paired a 5.0 V8 with electric motors when hybrids were still economy-car tech.",
+     "note": "The first eight-speed automatic in the class, and a hybrid flagship, the 600h paired a 5.0 V8 with electric motors when hybrids were still economy-car tech.",
      "spec": {
       "drivetrain": "RWD / AWD",
       "engine": "4.6L V8 / 5.0L V8 hybrid",
@@ -33,7 +33,7 @@
     {
      "code": "XF50",
      "name": "LS 500",
-     "note": "No V8 for the first time — a twin-turbo V6 on the GA-L platform shared with the LC coupé. The styling finally matched the engineering ambition.",
+     "note": "No V8 for the first time, a twin-turbo V6 on the GA-L platform shared with the LC coupé. The styling finally matched the engineering ambition.",
      "spec": {
       "drivetrain": "RWD / AWD",
       "engine": "3.4L twin-turbo V6 / hybrid V6",
@@ -75,7 +75,7 @@
      "years": "2010–2012"
     }
    ],
-   "intro": "A decade in development, a carbon tub, and a Yamaha-co-developed V10 that revs to 9,000 rpm faster than an analogue tach could follow — so the dial went digital. 500 built, each at a loss.",
+   "intro": "A decade in development, a carbon tub, and a Yamaha-co-developed V10 that revs to 9,000 rpm faster than an analogue tach could follow, so the dial went digital. 500 built, each at a loss.",
    "name": "LFA",
    "photo": "assets/photos/lexus-lfa.webp",
    "photoCaption": "LFA production coupe, side profile",
@@ -125,7 +125,7 @@
      "years": "2013–present"
     }
    ],
-   "intro": "Lexus's answer to the 3 Series, sold in Japan as the Toyota Altezza — chronograph-style instruments, a jewel of a straight six, and later the V8 IS 500 as a parting gift to the segment.",
+   "intro": "Lexus's answer to the 3 Series, sold in Japan as the Toyota Altezza, chronograph-style instruments, a jewel of a straight six, and later the V8 IS 500 as a parting gift to the segment.",
    "name": "IS",
    "segment": "Compact luxury sedan",
    "slug": "is",
@@ -169,7 +169,7 @@
     {
      "code": "ALA10",
      "name": "RX 350 / RX 500h",
-     "note": "Fifth generation went four-cylinder only — turbo, hybrid, and a plug-in — on the TNGA-K platform, with the 500h F Sport Performance as the quick one.",
+     "note": "Fifth generation went four-cylinder only, turbo, hybrid, and a plug-in, on the TNGA-K platform, with the 500h F Sport Performance as the quick one.",
      "spec": {
       "drivetrain": "AWD",
       "engine": "2.4L turbo I4 / hybrid / PHEV",
@@ -178,7 +178,7 @@
      "years": "2023–present"
     }
    ],
-   "intro": "The original luxury crossover — a car-based SUV before the industry had a name for it. The RX hybrid of 2005 also made electrification a luxury feature rather than a compromise.",
+   "intro": "The original luxury crossover, a car-based SUV before the industry had a name for it. The RX hybrid of 2005 also made electrification a luxury feature rather than a compromise.",
    "name": "RX",
    "segment": "Mid-size luxury crossover",
    "slug": "rx",
@@ -202,7 +202,7 @@
     {
      "code": "LC 500",
      "name": "LC 500 / LC 500h",
-     "note": "The 5.0-litre V8 is the one to have — the hybrid V6 is cleverer and slower-feeling. A convertible joined in 2021. Production winds down mid-decade, unreplaced.",
+     "note": "The 5.0-litre V8 is the one to have, the hybrid V6 is cleverer and slower-feeling. A convertible joined in 2021. Production winds down mid-decade, unreplaced.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "5.0L V8 / 3.5L hybrid V6",
@@ -211,7 +211,7 @@
      "years": "2017–present"
     }
    ],
-   "intro": "The LF-LC concept car made production almost unchanged — a V8 grand tourer with concept-car surfacing, a ten-speed automatic, and one of the great interiors of its decade.",
+   "intro": "The LF-LC concept car made production almost unchanged, a V8 grand tourer with concept-car surfacing, a ten-speed automatic, and one of the great interiors of its decade.",
    "name": "LC",
    "segment": "Grand tourer",
    "slug": "lc",

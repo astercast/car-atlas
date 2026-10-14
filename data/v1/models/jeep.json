@@ -41,7 +41,7 @@
      "years": "2018–present"
     }
    ],
-   "intro": "The direct descendant of the Willys MB that won a war, carried through the CJ line and renamed Wrangler in 1987. Solid axles, a folding windshield, doors that come off — the formula has survived four corporate owners because altering it would end the business.",
+   "intro": "The direct descendant of the Willys MB that won a war, carried through the CJ line and renamed Wrangler in 1987. Solid axles, a folding windshield, doors that come off, the formula has survived four corporate owners because altering it would end the business.",
    "name": "Wrangler",
    "photo": "assets/photos/jeep-wrangler.webp",
    "photoCaption": "Jeep Wrangler (JL)",
@@ -84,7 +84,7 @@
     {
      "code": "WK2",
      "name": "Fourth generation (WK2)",
-     "note": "Independent suspension all round and real interior quality. The range ran from a 290 hp V6 to the 707 hp supercharged Trackhawk — the WK2 covered more ground than any SUV line before or since.",
+     "note": "Independent suspension all round and real interior quality. The range ran from a 290 hp V6 to the 707 hp supercharged Trackhawk, the WK2 covered more ground than any SUV line before or since.",
      "spec": {
       "drivetrain": "RWD / 4WD",
       "engine": "3.6L V6",
@@ -104,7 +104,7 @@
      "years": "2021–present"
     }
    ],
-   "intro": "The SUV that took Jeep upmarket. The Grand Cherokee created the premium 4x4 niche in 1993 — proper off-road hardware under a vehicle you'd park at a hotel — and Range Rover has been answering it ever since.",
+   "intro": "The SUV that took Jeep upmarket. The Grand Cherokee created the premium 4x4 niche in 1993, proper off-road hardware under a vehicle you'd park at a hotel, and Range Rover has been answering it ever since.",
    "name": "Grand Cherokee",
    "segment": "Midsize SUV",
    "slug": "grand-cherokee",
@@ -122,12 +122,12 @@
     "SUV"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "CJ-5s and CJ-7s are the usable classics — parts are everywhere and values stay sane. Early CJ-2As in original condition are the historically significant ones. Rust in the tub decides value more than anything mechanical.",
+   "collectorNote": "CJ-5s and CJ-7s are the usable classics, parts are everywhere and values stay sane. Early CJ-2As in original condition are the historically significant ones. Rust in the tub decides value more than anything mechanical.",
    "generations": [
     {
      "code": "CJ-2A",
      "name": "CJ-2A",
-     "note": "The first civilian Jeep, sold from 1945 as a farm and work vehicle — PTO outputs, a drawbar, and the Go Devil four-cylinder carried straight over from the wartime MB.",
+     "note": "The first civilian Jeep, sold from 1945 as a farm and work vehicle, PTO outputs, a drawbar, and the Go Devil four-cylinder carried straight over from the wartime MB.",
      "spec": {
       "drivetrain": "4WD",
       "engine": "2.2L inline-4",
@@ -138,7 +138,7 @@
     {
      "code": "CJ-5",
      "name": "CJ-5",
-     "note": "Twenty-nine years in production with only detail changes — the longest run of any Jeep model. Rounder body over the same wartime bones, with V8 power available in the 1970s.",
+     "note": "Twenty-nine years in production with only detail changes, the longest run of any Jeep model. Rounder body over the same wartime bones, with V8 power available in the 1970s.",
      "spec": {
       "drivetrain": "4WD",
       "engine": "4.2L inline-6",
@@ -158,7 +158,7 @@
      "years": "1976–1986"
     }
    ],
-   "intro": "CJ stands for Civilian Jeep — the Willys MB demobbed in 1945 and sold to farmers, surveyors, and anyone who needed to get somewhere roads didn't go. The CJ-5 alone ran for 29 years, and every Wrangler since is this shape with better manners.",
+   "intro": "CJ stands for Civilian Jeep, the Willys MB demobbed in 1945 and sold to farmers, surveyors, and anyone who needed to get somewhere roads didn't go. The CJ-5 alone ran for 29 years, and every Wrangler since is this shape with better manners.",
    "name": "CJ (Civilian Jeep)",
    "segment": "Off-road utility",
    "slug": "cj",
@@ -181,7 +181,7 @@
     {
      "code": "SJ",
      "name": "First generation (SJ)",
-     "note": "Designed by Brooks Stevens, launched in 1963, and sold with detail updates until 1991. The wood-panelled Grand Wagoneer of 1984–1991 invented the luxury SUV before the term existed — it's why restored examples now clear six figures.",
+     "note": "Designed by Brooks Stevens, launched in 1963, and sold with detail updates until 1991. The wood-panelled Grand Wagoneer of 1984–1991 invented the luxury SUV before the term existed, it's why restored examples now clear six figures.",
      "spec": {
       "drivetrain": "4WD",
       "engine": "5.9L V8",

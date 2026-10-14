@@ -1054,3 +1054,67 @@ completed 3/3. The data was never the problem (per-make files ~7 KB).
   The Commons checker (`check_llms.py`) verdict: **PASS — 0 errors,
   0 warnings** (16/16 items canonical markdown-link, 16/16 targets
   exist on disk).
+
+---
+
+## Identity pass (rotation 22) — the issue, the listing unit, the record
+
+Built from `CAR-ATLAS-STUDY.md` §5 against its four teardowns
+(Classic.com, Hagerty, evo, Cars & Bids). Full record:
+`~/workspace/fleet-ops/wave-engine/landing-car-atlas-r22.md`.
+
+- **Home is an issue now.** Masthead + folio line (issue, data
+  date, the atlas's counts inside the line as words; the old
+  stat band is gone), one cover car (Ferrari 250 GTO, chassis
+  3413 GT) with its certified price as the display numeral,
+  contents as three department doors with one-line contracts,
+  then the departments in the contents order: the Atlas (icons,
+  by make, by era, by shape), the Price Watch (a rail named by
+  its time sort, newly sold), and the Journal (collector notes as
+  a river in evo's unit anatomy). Cover, contents, listing rail
+  and journal river are four different compositions; the five
+  identical `.block` sections are gone.
+- **One listing anatomy everywhere.** Home rail, marque pages
+  and the Buy page print the same five-field unit: state word,
+  identity formula (make, model, trim or generation, years),
+  date and freshness in words from the record's real date, the
+  price as the dominant numeral, sale type as the closing word.
+  Provenance rides as an apparatus line (facts + source) on the
+  market and marque forms.
+- **The car page is the record.** Identity formula as the title,
+  generations in residence (the show/hide toggle is removed),
+  and Price Watch as a ruled, dated ledger: every figure with
+  its source, certified condition/mileage/chassis printed per
+  record (stated, or "unrecorded"), the stage-6 certification
+  counts (11/56, 7/56, 44/56) printed on the record page, and
+  the per-model cohort range line where two or more certified
+  results share a currency. No related-cars grid; onward
+  movement is a department line in text. Marque pages now carry
+  every certified result for the marque, so no result is
+  orphaned from its marque's page.
+- **T-CARS-5, rung 1: local follow.** A model can be followed
+  from its record; followed models and their newest certified
+  results surface first on the Buy page. Stored in the browser
+  only, labelled exactly that; it notifies nobody. Rung 2 (true
+  notify) stays deploy-gated.
+- **Sweep.** Authored prose swept to zero em dashes at source
+  across the dataset and page copy (verified by raw byte scan
+  of rendered pages); Price Watch record fields (event and
+  source names) are record data, normalized at the display
+  layer only, stored records untouched. Range en dashes kept.
+- **Motion.** The generic navigation crossfade (the round-4
+  census's M6 hit) is removed; the Atlas is print, nothing
+  reveals, and the cover changes only when a new issue's data
+  lands.
+- **Photos, embedded (user order, mid-pass).** Every car that
+  is presented carries its sourced photograph where one is
+  recorded: the cover, record plates, marque headers, index
+  rows, journal units, and listing units (17 of 56 results
+  resolve to a photographed model; listing captions are
+  prefixed "Model photo" so a file photo is never mistaken for
+  the specific car that sold). Photos ride after the text,
+  never leading a unit. Coverage as it honestly stands: 40 of
+  257 models and 40 of 59 makes photographed, each with its
+  caption and credit (photographer + licence) recorded in the
+  dataset. The remaining 217 models are the Foundry lane's
+  sourcing follow-on, at the same standard.

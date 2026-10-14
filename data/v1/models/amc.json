@@ -6,7 +6,7 @@
     "Coupe"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Donohue editions and 401 cars lead; Pierre Cardin interiors are the conversation piece that keeps climbing. Undervalued next to Mustang and Camaro equivalents — for now.",
+   "collectorNote": "Donohue editions and 401 cars lead; Pierre Cardin interiors are the conversation piece that keeps climbing. Undervalued next to Mustang and Camaro equivalents, for now.",
    "generations": [
     {
      "code": "Javelin 1",
@@ -54,7 +54,7 @@
     {
      "code": "AMX",
      "name": "AMX",
-     "note": "About 19,000 built across three years. The 390 with the Go-Package — discs, handling kit, stripes — is the spec; Hurst's SS drag cars are the unicorns.",
+     "note": "About 19,000 built across three years. The 390 with the Go-Package, discs, handling kit, stripes, is the spec; Hurst's SS drag cars are the unicorns.",
      "spec": {
       "drivetrain": "RWD",
       "engine": "6.4L V8 (390 cu in, top option)",
@@ -104,7 +104,7 @@
      "years": "1970–1978"
     }
    ],
-   "intro": "Introduced on April Fool's Day, 1970 — a Rambler American with the back chopped off, styled on an air-sickness bag according to legend. Cheap, cheeky, and with the optional 304 V8, absurdly quick for a subcompact.",
+   "intro": "Introduced on April Fool's Day, 1970, a Rambler American with the back chopped off, styled on an air-sickness bag according to legend. Cheap, cheeky, and with the optional 304 V8, absurdly quick for a subcompact.",
    "name": "Gremlin",
    "segment": "Subcompact hatchback",
    "slug": "gremlin",
@@ -160,7 +160,7 @@
     {
      "code": "Eagle",
      "name": "Eagle / SX/4 / Kammback",
-     "note": "The wagon is the icon — woodgrain optional, dignity intact. The 4.2 six and full-time AWD made it the ski-town and rural-route default of the eighties; the line outlived AMC itself by a model year.",
+     "note": "The wagon is the icon, woodgrain optional, dignity intact. The 4.2 six and full-time AWD made it the ski-town and rural-route default of the eighties; the line outlived AMC itself by a model year.",
      "spec": {
       "drivetrain": "AWD",
       "engine": "4.2L inline-6",

@@ -79,7 +79,7 @@
     "Saloon"
    ],
    "buyingClass": "vintage",
-   "collectorNote": "Rarity is extreme and saloon values lag the coupés — the connoisseur's Iso, bought on body condition above all.",
+   "collectorNote": "Rarity is extreme and saloon values lag the coupés, the connoisseur's Iso, bought on body condition above all.",
    "generations": [
     {
      "code": "Fidia",
@@ -93,7 +93,7 @@
      "years": "1967–1975"
     }
    ],
-   "intro": "The four-door Iso — 'the fastest four seats in the world' in the advertising, and with a Corvette V8 up front the claim had substance. Ghia built the bodies; John Lennon bought one of the first. Fewer than 200 were made, first as the S4, then simply Fidia.",
+   "intro": "The four-door Iso, 'the fastest four seats in the world' in the advertising, and with a Corvette V8 up front the claim had substance. Ghia built the bodies; John Lennon bought one of the first. Fewer than 200 were made, first as the S4, then simply Fidia.",
    "name": "Fidia",
    "segment": "Luxury car",
    "slug": "fidia",
