@@ -376,4 +376,36 @@ footer nav { display: flex; gap: 20px; }
      (22px over at 320 on the F40 record before this line). */
   .pw-lrow > * { min-width: 0; }
   .pw-lrow .car, .pw-lrow .facts { overflow-wrap: anywhere; }
+  /* SUB-44 tap pass (rotation 29): the fleet audit counted 275
+     sub-44 targets at 320 and 326 at 390 on the 12 measured
+     surfaces. Every fix is phone-only (this block), so desktop
+     geometry is untouched. Two methods, by class: standalone
+     controls grow visibly to a true 44 (chips, selects, the
+     follow and clear buttons, the search go button, the .btn
+     and dept-line links); links that own their line grow
+     invisibly, padding cancelled by equal negative margins or
+     riding the inline box, so no ink moves and no row's layout
+     changes (wordmark, header and footer nav, the listing
+     title, the listing provenance link, the row footer links,
+     the crumb links, the 404 back link). The listing title
+     keeps its VP-0036 wrap: width and overflow-wrap are
+     unchanged, only its box's height grows. Links embedded in
+     prose sentences (the cert-line Buy page link, the caption
+     File page links, the cover source link) are named in the
+     landing record and left at their text height. */
+  .chip { min-height: 44px; min-width: 44px; padding-top: 11px; padding-bottom: 11px; }
+  .filters select { min-height: 44px; padding-top: 11px; padding-bottom: 11px; }
+  .filters .clear { min-height: 44px; padding-top: 11px; padding-bottom: 11px; }
+  .follow-btn { min-height: 44px; padding-top: 11px; padding-bottom: 11px; }
+  .searchbox .go { width: 44px; height: 44px; }
+  a.btn { display: inline-flex; align-items: center; min-height: 44px; }
+  .dept-line a { display: inline-flex; align-items: center; min-height: 44px; }
+  .wordmark { padding-top: 7px; padding-bottom: 7px; margin-top: -7px; margin-bottom: -7px; }
+  .nav-links a { padding: 12px 8.5px; margin: 0 -8.5px; min-width: 44px; text-align: center; }
+  footer nav a { display: inline-block; padding: 11px 9px; margin: -11px -9px; min-width: 44px; text-align: center; }
+  .listing .l-title { padding-top: 11px; padding-bottom: 11px; margin-top: -8px; margin-bottom: -11px; }
+  .listing .l-prov a { padding-top: 15px; padding-bottom: 15px; }
+  .t-foot a { padding-top: 15px; padding-bottom: 15px; }
+  .crumb a { padding-top: 15px; padding-bottom: 15px; }
+  a.chip { padding-top: 14px; padding-bottom: 14px; }
 }
