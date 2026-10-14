@@ -289,4 +289,12 @@ footer nav { display: flex; gap: 20px; }
   .pw-lrow .facts, .pw-lrow .src { grid-column: 1; }
   .pw-lrow .basis { grid-column: 2; }
   .nav-links { gap: 16px; font-size: 13px; }
+  /* Rotation 23 fitting: the one-row nav clipped at phone widths (the
+     home's five links squeezed until "Clubs" ran off the right edge:
+     14px overflow at 390, 83px at 320). The links now take their own
+     full row under the wordmark, never wrap mid-word, and carry real
+     tap padding. Desktop is untouched. */
+  .nav-in { flex-wrap: wrap; height: auto; padding-top: 10px; padding-bottom: 10px; row-gap: 2px; }
+  .nav-links { flex-basis: 100%; flex-wrap: wrap; margin-left: 0; gap: 2px 18px; }
+  .nav-links a { white-space: nowrap; padding: 12px 2px; }
 }
