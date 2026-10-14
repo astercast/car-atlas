@@ -197,6 +197,16 @@ a conversation.
   the n≥8 trigger as the third and fourth benchmark cohorts (10
   cohorts at n≥2 in `data/v1/cohorts.json`). Still no function,
   no cron, no external call — the audit above is unchanged.
+- **Rotation-28 addendum (2026-10-14):** Price Watch stage 10
+  extended the same static file to 107 certified results (11 added,
+  all linked to model records; linked 69 → 80 of 107, orphans
+  unchanged at 27, share 28% → 25%; condition 19/96 → 25/107,
+  mileage 21/96 → 27/107, chassis 72/96 → 81/107), and the DB5
+  dollar cohort (n=8), Miura dollar cohort (n=8) and Miura euro
+  cohort (n=8) reached the n≥8 trigger as the fifth, sixth and
+  seventh benchmark cohorts (10 cohorts at n≥2 in
+  `data/v1/cohorts.json`). Still no function, no cron, no external
+  call — the audit above is unchanged.
 
 - **Rotation-23 addendum (2026-10-14):** photography completed
   (257/257 models, 59/59 makes photographed from licensed Commons

@@ -39,6 +39,24 @@
    "median": 1655000
   },
   {
+   "make": "aston-martin",
+   "makeName": "Aston Martin",
+   "modelSlug": "db5",
+   "modelName": "DB5 Vantage",
+   "currency": "USD",
+   "n": 8,
+   "min": 715000,
+   "max": 6385000,
+   "firstSale": "2013-08-18",
+   "lastSale": "2025-10-31",
+   "modelYears": [
+    1965,
+    1965
+   ],
+   "benchmark": true,
+   "median": 1108000.0
+  },
+  {
    "make": "ferrari",
    "makeName": "Ferrari",
    "modelSlug": "f40",
@@ -75,21 +93,22 @@
    "median": 7020000.0
   },
   {
-   "make": "aston-martin",
-   "makeName": "Aston Martin",
-   "modelSlug": "db5",
-   "modelName": "DB5 Vantage",
-   "currency": "USD",
-   "n": 5,
-   "min": 715000,
-   "max": 6385000,
-   "firstSale": "2013-08-18",
-   "lastSale": "2025-10-31",
+   "make": "lamborghini",
+   "makeName": "Lamborghini",
+   "modelSlug": "miura",
+   "modelName": "Miura P400 S",
+   "currency": "EUR",
+   "n": 8,
+   "min": 520800,
+   "max": 2480000,
+   "firstSale": "2014-02-05",
+   "lastSale": "2024-02-01",
    "modelYears": [
-    1965,
-    1965
+    1968,
+    1971
    ],
-   "benchmark": false
+   "benchmark": true,
+   "median": 1347750.0
   },
   {
    "make": "lamborghini",
@@ -97,16 +116,17 @@
    "modelSlug": "miura",
    "modelName": "Miura P400 SV",
    "currency": "USD",
-   "n": 5,
+   "n": 8,
    "min": 1902500,
    "max": 3580000,
-   "firstSale": "2018-12-08",
+   "firstSale": "2015-03-14",
    "lastSale": "2023-08-19",
    "modelYears": [
     1968,
     1972
    ],
-   "benchmark": false
+   "benchmark": true,
+   "median": 2285000.0
   },
   {
    "make": "aston-martin",
@@ -122,23 +142,6 @@
    "modelYears": [
     1964,
     1965
-   ],
-   "benchmark": false
-  },
-  {
-   "make": "lamborghini",
-   "makeName": "Lamborghini",
-   "modelSlug": "miura",
-   "modelName": "Miura P400 S",
-   "currency": "EUR",
-   "n": 3,
-   "min": 520800,
-   "max": 2423750,
-   "firstSale": "2014-02-05",
-   "lastSale": "2023-02-01",
-   "modelYears": [
-    1969,
-    1971
    ],
    "benchmark": false
   },

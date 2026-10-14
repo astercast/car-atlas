@@ -1,5 +1,54 @@
 # WAVELOG — Car Atlas
 
+## Rotation 28 — PRICE WATCH STAGE 10: the two cohorts at five worked, and the euro Miura cohort with them (96 → 107), fifth, sixth and seventh T-CARS-1 benchmark cohorts (DB5/USD n=8, Miura/USD n=8, Miura/EUR n=8) (2026-10-14)
+
+**Headline (named before building):** certified results advance
+by an honest stage pass within the existing method — the
+cohorts that stand nearest the trigger are the targets (DB5/USD
+and Miura/USD at n=5, Miura/EUR at n=3), re-derived from the
+data first, and any cohort reaching n≥8 from certified records
+only becomes a benchmark cohort through the machinery shipped
+at stage 7.
+
+- **Price Watch stage 10:** **96 → 107 certified results**, each
+  certified at ingest on 2026-10-14 against a published source
+  naming car, price, house and day. Aston Martin DB5 ×3 in
+  dollars (Broad Arrow Amelia 2025, chassis DB5/2051/L,
+  $929,000; Gooding Amelia Island 2017 Vantage, chassis
+  DB5/2211/L, $1,100,000; RM Sotheby's Amelia Island 2017,
+  chassis DB5/2098/R, $990,000); Lamborghini Miura ×3 in dollars
+  (Bonhams Quail 2022 P400 S, chassis 4170, $1,957,500; RM
+  Sotheby's Monterey 2015 P400 SV, chassis 4906, $2,475,000; RM
+  Sotheby's Amelia Island 2015 P400 SV, chassis 4884,
+  $2,310,000) and ×5 in euros (RM Sotheby's Monaco 2022 P400 SV,
+  chassis 4884, €2,480,000; RM Sotheby's Villa Erba 2023 P400,
+  €1,608,125; Bonhams Zoute 2022 P400, €1,115,500; RM Sotheby's
+  Paris 2023 P400 S 'Jota Specification', chassis 4280,
+  €1,017,500; Bonhams Paris 2024 P400 S, chassis 4124,
+  €954,500). All 11 link to model pages. Condition **19/96 →
+  25/107**, mileage **21/96 → 27/107**, chassis **72/96 →
+  81/107**.
+- **T-CARS-1 machinery fired three more times:** DB5/USD
+  reached n=8 (build-computed median **$1,108,000**), Miura/USD
+  n=8 (median **$2,285,000**) and Miura/EUR n=8 (median
+  **€1,347,750**) — the fifth, sixth and seventh benchmark
+  cohorts, published in `data/v1/cohorts.json` beside the four
+  standing medians, and printed on the Buy page and the model
+  records.
+- **Three candidates skipped, recorded in the file:** a 1971
+  Miura P400 SV (chassis 4942, RM Sotheby's Monterey 2014) whose
+  sources disagree on the sale day; a 1971 Miura P400 S (Broad
+  Arrow online, January 2026) whose sources disagree on the
+  currency of the result; and a 1965 DB5 (chassis DB5/1990/L)
+  held to the pass's own corroboration standard. Skipped, never
+  averaged.
+- **T-CARS-3 audit:** 27 orphans re-audited; zero linkable
+  without inventing a model record; count unmoved, share
+  28% → 25% on the larger set; linked 69 → 80.
+- **Stated, not advanced:** T-CARS-5 rung 2 stays deploy-gated;
+  the 250 GTO model record stays the owner's call; no feed or
+  data licensed.
+
 ## Rotation 27 — PRICE WATCH STAGE 9: the near-threshold cohorts worked (83 → 96), third and fourth T-CARS-1 benchmark cohorts (Corvette/USD n=10, Model J/USD n=9) (2026-10-14)
 
 **Headline (named before building):** certified results advance

@@ -20,10 +20,10 @@ because the dataset changes in waves, not minutes.
 | `GET /api/search` | `q` | ranked make/model matches (server twin of the client instant search) |
 | `GET /api/clubs` | `region`, `marque` (optional) | filtered club registry |
 
-## Price Watch (stages 1–9 shipped — still not an endpoint)
+## Price Watch (stages 1–10 shipped — still not an endpoint)
 
 The results file is real and deliberately static: `data/v1/price-watch.json`
-holds 96 certified auction results (car, price, currency, basis,
+holds 107 certified auction results (car, price, currency, basis,
 house/event, sale date, linked published source, plus a chassis
 key and source-stated condition/mileage where a source gives them), rendered on the
 Buy page and on the matching model pages. No function serves it —
@@ -33,8 +33,10 @@ computes cohorts (model + single currency) from the certified set
 and publishes `data/v1/cohorts.json` — range and count at n ≥ 2,
 and the cohort median at n ≥ 8, the priced trigger; the benchmark
 cohorts are Ferrari F40 / EUR (n=8, stage 7), Ford GT / USD
-(n=8, stage 8), Chevrolet Corvette / USD (n=10, stage 9) and
-Duesenberg Model J / USD (n=9, stage 9). The listing stages
+(n=8, stage 8), Chevrolet Corvette / USD (n=10, stage 9),
+Duesenberg Model J / USD (n=9, stage 9), Aston Martin DB5 / USD
+(n=8, stage 10), Lamborghini Miura / USD (n=8, stage 10) and
+Lamborghini Miura / EUR (n=8, stage 10). The listing stages
 remain design:
 
 1. **Ingest** — one adapter per channel in `data/v1/buying.json`,

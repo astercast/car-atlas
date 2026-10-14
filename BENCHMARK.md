@@ -259,23 +259,61 @@ expected gap; depth and live intelligence are.
   stays an owner call. The Price Watch listings-ingest/cron
   question stays parked.
 
-## Benchmark standing line (rotation 27)
+## Deltas in rotation 28 (stage 10)
+
+- **Price Watch stage 10 (results scale):** 96 → **107 certified
+  results**, same stage-1 standard (house, day and a linked source
+  per record; three candidates skipped and recorded in the file —
+  a Miura SV whose sources disagree on the sale day, a Miura S
+  whose sources disagree on the currency of the result, and a DB5
+  held to the pass's own corroboration standard). The pass worked
+  the cohorts that stood nearest the trigger: Aston Martin DB5
+  **5 → 8** in dollars, Lamborghini Miura **5 → 8** in dollars and
+  **3 → 8** in euros. All 11 new records link to model pages the
+  atlas already carried. Condition **19/96 → 25/107**, mileage
+  **21/96 → 27/107**, chassis **72/96 → 81/107**, populated only
+  where the certifying source states the field.
+- **T-CARS-1: the fifth, sixth and seventh benchmark cohorts.**
+  The DB5/USD cohort reached **n=8**, the Miura/USD cohort
+  **n=8** and the Miura/EUR cohort **n=8**, all past the priced
+  n≥8 trigger, so the build-computed machinery now publishes
+  seven benchmark medians in `data/v1/cohorts.json` (10 cohorts
+  at n≥2): the four standing medians unchanged (F40/EUR
+  €1,508,000, Ford GT/USD $7,020,000, Corvette/USD $454,750,
+  Model J/USD $1,655,000), DB5/USD **$1,108,000** over eight
+  certified sales (2013–2025), Miura/USD **$2,285,000** over
+  eight certified sales (2015–2023) and Miura/EUR **€1,347,750**
+  over eight certified sales (2014–2024), printed on the Buy page
+  and the model records, n shown, in the one listing anatomy.
+- **T-CARS-3: audited, unmoved in count, moved in share.** All 27
+  orphans were re-audited against the model inventory: **zero**
+  can be linked without inventing a model record or misattributing
+  a car to a different model — the same named traps as stages 8
+  and 9 were re-checked and refused again. Orphan count 27 → 27;
+  orphan **share 28% → 25%** on the larger set; linked records
+  **69 → 80**.
+- **Stated, not advanced:** T-CARS-5 rung 2 (true notify) stays
+  deploy-gated — no live target exists and the deploy decision is
+  parked with the owner; rung 1 (local follow) stands shipped.
+  The Ferrari 250 GTO model record stays an owner call, not
+  created. No feed or data was licensed; the licensed-feed path
+  stays an owner call. The Price Watch listings-ingest/cron
+  question stays parked.
+
+## Benchmark standing line (rotation 28)
 
 **BENCHMARK STANDING — CLOSER on data depth, on evidence a
-visitor can see: the certified-results set grew 83 → 96, every
-new record linked to its model record (linked 56 → 69, orphan
-share 33% → 28% with the orphan count honestly unmoved at 27),
-the near-threshold cohorts named at rotation 26 all grew
-(Corvette n=10, Model J n=9, DB5 n=5 in dollars and n=3 in euros,
-Miura n=5 in dollars and n=3 in euros), and the atlas shipped its
-third and fourth true cohort benchmarks — the Corvette/USD and
-Model J/USD cohorts passed the priced n≥8 trigger and print
-their build-computed medians, $454,750 over ten certified sales
-and $1,655,000 over nine — while remaining BEHIND every named
-rival on live listings, cohort scale and condition tiers
-(T-CARS-1's full closure), off-site notify, and BEHIND Wikipedia
-on encyclopedia breadth; design held at PARITY-or-AHEAD against
-the whole set.**
+visitor can see: the certified-results set grew 96 → 107, every
+new record linked to its model record (linked 69 → 80, orphan
+share 28% → 25% with the orphan count honestly unmoved at 27),
+and the atlas shipped its fifth, sixth and seventh true cohort
+benchmarks — the DB5/USD, Miura/USD and Miura/EUR cohorts passed
+the priced n≥8 trigger and print their build-computed medians,
+$1,108,000, $2,285,000 and €1,347,750, each over eight certified
+sales — while remaining BEHIND every named rival on live
+listings, cohort scale and condition tiers (T-CARS-1's full
+closure), off-site notify, and BEHIND Wikipedia on encyclopedia
+breadth; design held at PARITY-or-AHEAD against the whole set.**
 
 ## Benchmark standing line (rotation 26)
 
@@ -365,6 +403,16 @@ the set stands at 96 certified, condition population 19/96,
 still short of the majority (c) requires, and (a) scale is still
 ~21 stage passes away at the demonstrated rate, or the same
 licensed-feed owner call.
+**Rotation 28 update:** stage 10 fired the machinery three more
+times — the DB5/USD cohort reached n=8 certified (median
+$1,108,000), the Miura/USD cohort n=8 (median $2,285,000) and
+the Miura/EUR cohort n=8 (median €1,347,750), joining the four
+standing medians in `data/v1/cohorts.json`; seven of the ten
+cohorts at n≥2 are now benchmarks. The set stands at 107
+certified, condition population 25/107, still short of the
+majority (c) requires, and (a) scale is still ~19 stage passes
+away at the demonstrated rate, or the same licensed-feed owner
+call.
 
 ### T-CARS-5 — follow / notify
 **Verdict: Bring a Trailer, Cars & Bids and Classic.com WIN

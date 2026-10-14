@@ -122,7 +122,18 @@ and took the Corvette dollar cohort to n=10 (median $454,750) and
 the Model J dollar cohort to n=9 (median $1,655,000), the third and
 fourth cohorts at the T-CARS-1 trigger. Three 1967 Corvette L88
 candidates were skipped and recorded: their sources disagree on
-the final price. The standing
+the final price. Stage 10
+(rotation 28) extended the set to 107 results — all 11 new results
+link to model pages (DB5 ×3 in dollars, Miura ×3 in dollars and
+×5 in euros); condition now stands at 25/107, mileage at 27/107,
+chassis at 81/107 — and took the DB5 dollar cohort to n=8 (median
+$1,108,000), the Miura dollar cohort to n=8 (median $2,285,000)
+and the Miura euro cohort to n=8 (median €1,347,750), the fifth,
+sixth and seventh cohorts at the T-CARS-1 trigger. Three further
+candidates were skipped and recorded: a Miura SV whose sources
+disagree on the sale day, a Miura S whose sources disagree on the
+currency of the result, and a DB5 held to the pass's corroboration
+standard. The standing
 benchmark against the top car sites in the world — the named set,
 the scorecard, and the priced T-CARS-1 / T-CARS-5 closures — lives
 in `BENCHMARK.md`. Still planned: listings ingest adapters for
