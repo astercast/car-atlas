@@ -1,0 +1,160 @@
+{
+ "note": "Cohorts computed by scripts/build.py from the certified Price Watch results only (model + single currency). n >= 2 publishes a range with its count; n >= 8 — the T-CARS-1 trigger priced in BENCHMARK.md — additionally publishes the cohort median as a benchmark. A median is a statistic of certified sales, not a valuation of any other example.",
+ "source": "data/v1/price-watch.json",
+ "cohorts": [
+  {
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "modelSlug": "f40",
+   "modelName": "F40",
+   "currency": "EUR",
+   "n": 8,
+   "min": 515200,
+   "max": 4842500,
+   "firstSale": "2014-02-05",
+   "lastSale": "2023-02-02",
+   "modelYears": [
+    1987,
+    1992
+   ],
+   "benchmark": true,
+   "median": 1508000.0
+  },
+  {
+   "make": "lamborghini",
+   "makeName": "Lamborghini",
+   "modelSlug": "miura",
+   "modelName": "Miura P400 SV",
+   "currency": "USD",
+   "n": 3,
+   "min": 1902500,
+   "max": 3580000,
+   "firstSale": "2021-08-13",
+   "lastSale": "2023-08-19",
+   "modelYears": [
+    1968,
+    1972
+   ],
+   "benchmark": false
+  },
+  {
+   "make": "aston-martin",
+   "makeName": "Aston Martin",
+   "modelSlug": "db5",
+   "modelName": "DB5 Convertible",
+   "currency": "USD",
+   "n": 2,
+   "min": 2205000,
+   "max": 6385000,
+   "firstSale": "2019-08-15",
+   "lastSale": "2023-08-19",
+   "modelYears": [
+    1965,
+    1965
+   ],
+   "benchmark": false
+  },
+  {
+   "make": "chevrolet",
+   "makeName": "Chevrolet",
+   "modelSlug": "corvette",
+   "modelName": "Corvette Split Window A/C Coupe",
+   "currency": "USD",
+   "n": 2,
+   "min": 434500,
+   "max": 3850000,
+   "firstSale": "2014-01-18",
+   "lastSale": "2023-01-13",
+   "modelYears": [
+    1963,
+    1967
+   ],
+   "benchmark": false
+  },
+  {
+   "make": "duesenberg",
+   "makeName": "Duesenberg",
+   "modelSlug": "model-j",
+   "modelName": "Model J Dual Cowl 'Barrelside' Phaeton",
+   "currency": "USD",
+   "n": 2,
+   "min": 1127000,
+   "max": 2975000,
+   "firstSale": "2023-08-18",
+   "lastSale": "2023-08-19",
+   "modelYears": [
+    1930,
+    1932
+   ],
+   "benchmark": false
+  },
+  {
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "modelSlug": "f40",
+   "modelName": "F40",
+   "currency": "USD",
+   "n": 2,
+   "min": 2892500,
+   "max": 3085000,
+   "firstSale": "2021-08-13",
+   "lastSale": "2023-08-19",
+   "modelYears": [
+    1991,
+    1992
+   ],
+   "benchmark": false
+  },
+  {
+   "make": "ford",
+   "makeName": "Ford",
+   "modelSlug": "gt",
+   "modelName": "GT40 Roadster Prototype",
+   "currency": "USD",
+   "n": 2,
+   "min": 7650000,
+   "max": 11000000,
+   "firstSale": "2012-08-17",
+   "lastSale": "2019-08-16",
+   "modelYears": [
+    1965,
+    1968
+   ],
+   "benchmark": false
+  },
+  {
+   "make": "lamborghini",
+   "makeName": "Lamborghini",
+   "modelSlug": "miura",
+   "modelName": "Miura P400 S",
+   "currency": "EUR",
+   "n": 2,
+   "min": 520800,
+   "max": 1580000,
+   "firstSale": "2014-02-05",
+   "lastSale": "2023-02-01",
+   "modelYears": [
+    1969,
+    1971
+   ],
+   "benchmark": false
+  },
+  {
+   "make": "mclaren",
+   "makeName": "McLaren",
+   "modelSlug": "f1",
+   "modelName": "F1",
+   "currency": "USD",
+   "n": 2,
+   "min": 19805000,
+   "max": 20465000,
+   "firstSale": "2019-08-16",
+   "lastSale": "2021-08-14",
+   "modelYears": [
+    1994,
+    1995
+   ],
+   "benchmark": false
+  }
+ ]
+}

@@ -130,6 +130,68 @@ expected gap; depth and live intelligence are.
   T-CARS-1's priced closure is unmet on the same evidence as
   rotation 22 (largest cohort still n=2).
 
+## Deltas in rotation 25 (rung-2 advance, stage 7)
+
+- **Price Watch stage 7 (results scale):** 56 → **66 certified
+  results**, same stage-1 standard (house, day and a linked source
+  per record; one candidate skipped and recorded in the file — an
+  Artcurial 2020 F40 whose sources disagree on the final price).
+  All ten new records link to model pages the atlas already
+  carried. Condition **11/56 → 13/66**, mileage **7/56 → 12/66**,
+  chassis **44/56 → 49/66**, populated only where the certifying
+  source states the field.
+- **T-CARS-1: the machinery rung FIRED and SHIPPED.** Six of the
+  ten new records are Ferrari F40 sales in euros (Paris 2014,
+  2015, 2016, 2018; Zoute 2021; Paris 2023), taking the F40/EUR
+  cohort from n=2 to **n=8 in one currency — the priced trigger**.
+  Cohorts are now computed in `scripts/build.py` from certified
+  records only and published in `data/v1/cohorts.json` (9 cohorts
+  at n≥2); the F40/EUR cohort prints its median — **€1,508,000**
+  over its eight certified sales, 2014–2023 — on the Buy page and
+  the F40 record, n shown, in the one listing anatomy. Every other
+  cohort remains a range, as before. This is the machinery rung,
+  not the full closure: the benchmark set still runs cohorts at a
+  scale (and with condition tiers) this atlas does not have.
+- **T-CARS-4: first genuine repeat.** Stage 7 certified the 2021
+  Gooding sale of Miura P400 chassis 3378 ($1,902,500, 13 Aug
+  2021) alongside its 2023 sale already in the set ($2,260,000) —
+  the first chassis to appear twice; the record ledger's
+  repeat-sale machinery now has a real repeat to print.
+- **T-CARS-3: audited, unmoved in count, moved in share.** All 27
+  orphans were re-audited against the model inventory: **zero**
+  can be linked without inventing a model record — the 27 are 16
+  Ferraris (250 GTO ×2 and 330 LM/250 GTO, 250 GT SWB Berlinetta,
+  412P, 410 Sport Spider, 335 Sport, 290 MM, two 250 GT SWB
+  California Spiders, 250 LM, 275 GTB/C Speciale, 275 GTB/4*S
+  N.A.R.T. Spider, 340/375 MM, 625 TRC, 250 Testa Rossa
+  Prototype), 3 Mercedes-Benz (W 196 R ×2, 300 SLR Uhlenhaut
+  Coupé), 3 Jaguars (XKSS, D-Type, C-Type), 2 Aston Martins
+  (DP215, DBR1), 2 Porsches (917K, 956) and 1 Alfa Romeo
+  (8C 2900B) — none of which the atlas carries as a model, and
+  the 250 GTO record stays the owner's parked call. Orphan count
+  27 → 27; orphan **share 48% → 41%** on the larger set; linked
+  records **29 → 39**.
+- **Stated, not advanced:** T-CARS-5 rung 2 (true notify) stays
+  deploy-gated — no live target exists and the deploy decision is
+  parked with the owner; rung 1 (local follow) stands shipped.
+  The Ferrari 250 GTO model record stays an owner call, not
+  created. The Price Watch listings-ingest/cron question stays
+  parked.
+
+## Benchmark standing line (rotation 25)
+
+**BENCHMARK STANDING — CLOSER on data depth, on evidence a
+visitor can see: the certified-results set grew 56 → 66, every
+new record linked to its model record (linked 29 → 39, orphan
+share 48% → 41% with the orphan count honestly unmoved at 27),
+and the atlas shipped its first true cohort benchmark — the
+F40/EUR cohort reached the priced n≥8 trigger and prints its
+build-computed median, €1,508,000 over eight certified sales —
+while remaining BEHIND every named rival on live listings,
+cohort scale and condition tiers (T-CARS-1's full closure),
+off-site notify, and BEHIND Wikipedia on encyclopedia breadth;
+design held at PARITY-or-AHEAD against the whole set.**
+
 ## Benchmark standing line (rotation 23)
 
 **BENCHMARK STANDING — CLOSER on presentation and photography,
@@ -164,6 +226,15 @@ already proves the shape; (c) condition tiers — only once T-CARS-2
 population is a majority of records. Realistic order: machinery
 when any priority model reaches n≥8 certified in one currency;
 today the largest is n=2–3.
+**Rotation 25 update:** the (b) machinery has now FIRED and
+SHIPPED exactly as priced — the F40/EUR cohort reached n=8
+certified in one currency at stage 7, and `scripts/build.py`
+computes the cohorts (published in `data/v1/cohorts.json`) with
+Buy and model-page rendering of the median, n shown. What remains
+of this closure is (a) scale — the ~300+ certified set at ≥8 per
+priority model is still ~24 stage passes away at the demonstrated
+rate, or the same licensed-feed owner call — and (c) condition
+tiers, with condition population at 13/66, short of a majority.
 
 ### T-CARS-5 — follow / notify
 **Verdict: Bring a Trailer, Cars & Bids and Classic.com WIN

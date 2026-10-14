@@ -169,6 +169,16 @@ a conversation.
   scorecard against the top car sites, with T-CARS-1 / T-CARS-5
   re-argued and priced there. Still no function, no cron, no
   external call — the audit above is unchanged.
+- **Rotation-25 addendum (2026-10-14):** Price Watch stage 7
+  extended the same static file to 66 certified results (10 added,
+  all linked to model records; linked 29 → 39 of 66, orphans
+  unchanged at 27, share 48% → 41%; condition 11/56 → 13/66,
+  mileage 7/56 → 12/66, chassis 44/56 → 49/66), and shipped the
+  T-CARS-1 cohort machinery: cohorts computed in `scripts/build.py`
+  into `data/v1/cohorts.json` (9 cohorts at n≥2; the F40/EUR cohort
+  reached the n≥8 trigger and publishes its median). Still no
+  function, no cron, no external call — the audit above is
+  unchanged.
 
 - **Rotation-23 addendum (2026-10-14):** photography completed
   (257/257 models, 59/59 makes photographed from licensed Commons

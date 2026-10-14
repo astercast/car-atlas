@@ -377,15 +377,19 @@ async function initModel() {
     isLive: () => live,
     onStuck: () => { if (!settled) { settled = true; modelStuck(root, baked); } },
   }) : () => {};
-  let makesData, file, buying, priceWatch;
+  let makesData, file, buying, priceWatch, cohortsDoc;
   try {
-    [makesData, file, buying, priceWatch] = await Promise.all([
+    [makesData, file, buying, priceWatch, cohortsDoc] = await Promise.all([
       fetchJSON("data/v1/makes.json", { ms: MODEL_DEADLINE_MS }),
       fetchJSON(`data/v1/models/${mk}.json`, { ms: MODEL_DEADLINE_MS }),
       fetchJSON("data/v1/buying.json", { ms: MODEL_DEADLINE_MS }),
       /* Price Watch is an enhancement, never a gate: its failure
          must not stall the record (VP-0003 discipline). */
       fetchJSON("data/v1/price-watch.json", { ms: MODEL_DEADLINE_MS }).catch(() => null),
+      /* T-CARS-1 cohorts are computed in the build (scripts/build.py)
+         and published as data/v1/cohorts.json; like Price Watch, the
+         file enhances the record and never gates it. */
+      fetchJSON("data/v1/cohorts.json", { ms: MODEL_DEADLINE_MS }).catch(() => null),
     ]);
   } catch (err) {
     if (!settled) { settled = true; cancelWatchdog(); modelStuck(root, baked, err); }
@@ -428,8 +432,13 @@ async function initModel() {
       <span class="src">Source: <a href="${esc(r.source.url)}" target="_blank" rel="noopener">${esc(disp(r.source.name))} ↗</a></span>
     </div>`).join("")}</div>`
     : `<p class="center-note">Price Watch holds no certified result for this model yet, so none is shown.</p>`;
-  /* Cohort range lines (T-CARS-1 machinery rung): computed only
-     from this model's certified records, per currency, n shown. */
+  /* Cohort lines (T-CARS-1 machinery): cohorts are computed in the
+     build from certified records only, per currency, n shown. A
+     cohort at the priced trigger (n >= 8) prints its build-computed
+     median as the cohort benchmark; below the trigger only the
+     range prints, as context. If the cohorts file did not load, the
+     range is recomputed here from the same certified records and
+     no median is claimed. */
   const cohortHTML = (() => {
     if (!priceWatch || hits.length < 2) return "";
     const byCur = {};
@@ -437,13 +446,18 @@ async function initModel() {
     return Object.entries(byCur).filter(([, g]) => g.length >= 2).map(([cur, g]) => {
       const prices = g.map((r) => r.price);
       const dates = g.map((r) => r.saleDate).sort();
-      return `<p class="cohort-line"><b>${esc(money2(Math.min(...prices), cur))} – ${esc(money2(Math.max(...prices), cur))}</b> · ${numWord(g.length)} certified results in ${esc(cur)}, sales from ${esc(fmtDate(dates[0]))} to ${esc(fmtDate(dates[dates.length - 1]))}. A range over ${g.length} sales is context, not a valuation of any other example.</p>`;
+      const built = (cohortsDoc?.cohorts || []).find((c) => c.make === mk && c.modelSlug === md && c.currency === cur);
+      const range = `<b>${esc(money2(Math.min(...prices), cur))} – ${esc(money2(Math.max(...prices), cur))}</b> · ${numWord(g.length)} certified results in ${esc(cur)}, sales from ${esc(fmtDate(dates[0]))} to ${esc(fmtDate(dates[dates.length - 1]))}.`;
+      if (built?.benchmark) {
+        return `<p class="cohort-line">${range} <b>Cohort median ${esc(money2(built.median, cur))}</b> over the ${numWord(built.n)} certified sales — the T-CARS-1 benchmark rung, computed in the build from certified records only. A median of past sales is context for this model, not a valuation of any other example.</p>`;
+      }
+      return `<p class="cohort-line">${range} A range over ${g.length} sales is context, not a valuation of any other example.</p>`;
     }).join("");
   })();
   /* The certification counts print on the record page, computed
      from the full certified set at render: stated honestly, never
-     inflated (Price Watch stage 6 counts at this build: condition
-     11/56, mileage 7/56, chassis 44/56, modelSlug 29/56). */
+     inflated (Price Watch stage 7 counts at this build: condition
+     13/66, mileage 12/66, chassis 49/66, modelSlug 39/66). */
   const certHTML = (() => {
     if (!priceWatch) return "";
     const all = priceWatch.results;
@@ -543,12 +557,12 @@ async function initClubs() {
 }
 
 /* --- Buy: the market page ---
-   T-CARS-6 / DL-5: real client-side filters over the 56 certified
+   T-CARS-6 / DL-5: real client-side filters over the 66 certified
    Price Watch records. Facets reflect only what the records carry:
    make (16 present), stated-price band (counts computed from the
    records, in each record's own currency, labelled "stated price"),
-   and record completeness (chassis 44/56, condition 11/56,
-   mileage 7/56 at stage 6). No facet is offered for a field the
+   and record completeness (chassis 49/66, condition 13/66,
+   mileage 12/66 at stage 7). No facet is offered for a field the
    data does not have. Results print as five-field listing units
    with their provenance lines. */
 async function initBuy() {
@@ -568,6 +582,7 @@ async function initBuy() {
   $("#watch-schema").innerHTML = data.priceWatch.schema.map((f) => `<li><span>${esc(f)}</span><span class="mut">field</span></li>`).join("");
   try {
     const pw = await fetchJSON("data/v1/price-watch.json");
+    const cohortsDoc = await fetchJSON("data/v1/cohorts.json").catch(() => null);
     const all = [...pw.results].sort((a, b) => b.saleDate.localeCompare(a.saleDate));
     const idx = await fetchJSON("data/v1/search-index.json").catch(() => []);
     const photoMap = photoMapFromIndex(idx);
@@ -644,10 +659,17 @@ async function initBuy() {
         const lo = g[prices.indexOf(Math.min(...prices))], hi = g[prices.indexOf(Math.max(...prices))];
         const years = g.map((r) => r.year);
         const photo = photoOf(g[0]);
+        /* T-CARS-1: figures come from the build-computed cohorts
+           file where it loaded; a cohort at the n>=8 trigger prints
+           its median as the benchmark rung, the rest print ranges. */
+        const built = (cohortsDoc?.cohorts || []).find((c) => c.make === g[0].make && c.modelSlug === g[0].modelSlug && c.currency === g[0].currency);
+        const benchLine = built?.benchmark
+          ? `<br><span class="pw-price" style="font-weight:800">Cohort median ${esc(money2(built.median, built.currency))}</span> over the ${built.n} certified sales — the T-CARS-1 benchmark rung, computed in the build from certified records only; a median of past sales, not a valuation of any other example.`
+          : `<br>Range over ${g.length} certified sales in ${esc(g[0].currency)}: context, not a valuation of any other example.`;
         return `
       <article class="row${photo ? " has-thumb" : ""}">
-        <h3>${esc(g[0].makeName)} ${esc(g[0].model.split(" (")[0])}</h3><span class="t-sub">n=${g.length} certified</span>
-        <p><span class="pw-price" style="font-weight:800">${esc(money(lo))} – ${esc(money(hi))}</span><br>Certified results span model years ${Math.min(...years)}–${Math.max(...years)}, sales ${esc(g.map((r) => r.saleDate).sort()[0])} to ${esc(g.map((r) => r.saleDate).sort().slice(-1)[0])}. Range over ${g.length} certified sales in ${esc(g[0].currency)}: context, not a valuation of any other example.</p>
+        <h3>${esc(g[0].makeName)} ${esc(g[0].model.split(" (")[0])}</h3><span class="t-sub">n=${g.length} certified${built?.benchmark ? " · benchmark cohort" : ""}</span>
+        <p><span class="pw-price" style="font-weight:800">${esc(money(lo))} – ${esc(money(hi))}</span><br>Certified results span model years ${Math.min(...years)}–${Math.max(...years)}, sales ${esc(g.map((r) => r.saleDate).sort()[0])} to ${esc(g.map((r) => r.saleDate).sort().slice(-1)[0])}.${benchLine}</p>
         <div class="t-foot"><a href="${modelUrl(g[0].make, g[0].modelSlug)}">Atlas record →</a></div>${thumbFigure(photo, true)}
       </article>`;
       }).join("");

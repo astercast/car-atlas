@@ -20,14 +20,20 @@ because the dataset changes in waves, not minutes.
 | `GET /api/search` | `q` | ranked make/model matches (server twin of the client instant search) |
 | `GET /api/clubs` | `region`, `marque` (optional) | filtered club registry |
 
-## Price Watch (stages 1–6 shipped — still not an endpoint)
+## Price Watch (stages 1–7 shipped — still not an endpoint)
 
 The results file is real and deliberately static: `data/v1/price-watch.json`
-holds 56 certified auction results (car, price, currency, basis,
+holds 66 certified auction results (car, price, currency, basis,
 house/event, sale date, linked published source, plus a chassis
 key and source-stated condition/mileage where a source gives them), rendered on the
 Buy page and on the matching model pages. No function serves it —
-the static file is the ingest. The listing stages remain design:
+the static file is the ingest. Stage 7 (rotation 25) also ships the
+T-CARS-1 cohort machinery for certified results: `scripts/build.py`
+computes cohorts (model + single currency) from the certified set
+and publishes `data/v1/cohorts.json` — range and count at n ≥ 2,
+and the cohort median at n ≥ 8, the priced trigger; the first
+benchmark cohort is Ferrari F40 / EUR (n=8). The listing stages
+remain design:
 
 1. **Ingest** — one adapter per channel in `data/v1/buying.json`,
    normalizing listings to the published schema: `modelSlug, year,

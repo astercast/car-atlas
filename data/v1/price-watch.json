@@ -1,5 +1,5 @@
 {
- "note": "Price Watch tracks completed auction results, not live listings. Every record below was certified at ingest against a published source naming the car, the price, the house, and the date; the source is linked on each record. Wave 4 certified 7 results (2026-10-13); wave 5 added 4 more to the same standard; wave 7 (stage 2) added 8 more; wave 8 (stage 3) added 9 more; wave 9 (stage 4) added 9 more; wave 10 (stage 5) added 9 more; wave 11 (stage 6) added 10 more, 56 certified results in all. Stage 5 gave every record a chassis key (populated where the source names the chassis, null otherwise) and condition and mileage fields (populated only where a source states them, null otherwise, never inferred); stage 6 populated those fields from its sources wherever they stated them, linked eight of its ten new records to model pages the atlas already carried, and added the Buy page's first cohort rung: per-model result ranges computed only from certified records in a single currency, with the count shown. Stage 6 extends the certified-results set only: the listings ingest described in earlier roadmaps is not built, and no listing, estimate or unsold lot appears here. Prices are historical facts about one specific car on one specific day, not asking prices, not estimates, and not a valuation of any other example. Results that could not be certified to that standard were skipped, not estimated (see skippedSources).",
+ "note": "Price Watch tracks completed auction results, not live listings. Every record below was certified at ingest against a published source naming the car, the price, the house, and the date; the source is linked on each record. Wave 4 certified 7 results (2026-10-13); wave 5 added 4 more to the same standard; wave 7 (stage 2) added 8 more; wave 8 (stage 3) added 9 more; wave 9 (stage 4) added 9 more; wave 10 (stage 5) added 9 more; wave 11 (stage 6) added 10 more, 56 certified results in all. Stage 5 gave every record a chassis key (populated where the source names the chassis, null otherwise) and condition and mileage fields (populated only where a source states them, null otherwise, never inferred); stage 6 populated those fields from its sources wherever they stated them, linked eight of its ten new records to model pages the atlas already carried, and added the Buy page's first cohort rung: per-model result ranges computed only from certified records in a single currency, with the count shown. Stage 6 extends the certified-results set only: the listings ingest described in earlier roadmaps is not built, and no listing, estimate or unsold lot appears here. Prices are historical facts about one specific car on one specific day, not asking prices, not estimates, and not a valuation of any other example. Rotation 25 (stage 7) added 10 more to the same standard, 66 certified results in all: six further F40 sales in euros took the F40/EUR cohort to eight certified results — the first cohort at the T-CARS-1 trigger — so stage 7 also ships the cohort machinery: cohort medians for cohorts of eight or more, computed in the build from certified records only and published in data/v1/cohorts.json, n shown wherever a figure prints. Stage 7 also certified the 2021 Gooding sale of Miura chassis 3378, the first chassis to appear twice in the certified set (T-CARS-4). Results that could not be certified to that standard were skipped, not estimated (see skippedSources).",
  "results": [
   {
    "chassis": "00009/54",
@@ -24,14 +24,13 @@
   {
    "chassis": "1021",
    "condition": null,
-   "mileage": null,
-   "modelSlug": "48",
-   "status": "sold",
    "currency": "USD",
    "event": "Mecum Kissimmee",
    "make": "tucker",
    "makeName": "Tucker",
+   "mileage": null,
    "model": "48 (chassis 1021)",
+   "modelSlug": "48",
    "price": 1870000,
    "priceBasis": "Including fees, as reported from the sale (Saturday session, 13 Jan 2024)",
    "saleDate": "2024-01-13",
@@ -39,19 +38,19 @@
     "name": "American Cars and Racing — Mecum Kissimmee 2024 sale report (13 Jan 2024; sale day cross-checked against CLASSIC.COM's Mecum Kissimmee 2024 lot record)",
     "url": "https://americancarsandracing.com/2024/01/13/tucker-48-sold-mecum-auction-1-87-million/"
    },
+   "status": "sold",
    "year": 1948
   },
   {
    "chassis": "BS27R0B305097",
    "condition": "Original & Highly Original",
-   "mileage": "26k mi TMU",
-   "modelSlug": "barracuda",
-   "status": "sold",
    "currency": "USD",
    "event": "Mecum Kissimmee",
    "make": "plymouth",
    "makeName": "Plymouth",
+   "mileage": "26k mi TMU",
    "model": "Hemi Cuda Convertible (chassis BS27R0B305097)",
+   "modelSlug": "barracuda",
    "price": 1950000,
    "priceBasis": "As recorded for the lot",
    "saleDate": "2024-01-12",
@@ -59,6 +58,7 @@
     "name": "CLASSIC.COM record of the Mecum Kissimmee 2024 result (lot F200)",
     "url": "https://www.classic.com/a/mecum-kissimmee-2024-8p6VGVp/lots/1970-plymouth-hemi-cuda-convertible-pG729Yp/?page=3"
    },
+   "status": "sold",
    "year": 1970
   },
   {
@@ -84,14 +84,13 @@
   {
    "chassis": "XKSS 707",
    "condition": "Original & Highly Original",
-   "mileage": "25k mi TMU",
-   "modelSlug": null,
-   "status": "sold",
    "currency": "USD",
    "event": "RM Sotheby's Monterey",
    "make": "jaguar",
    "makeName": "Jaguar",
+   "mileage": "25k mi TMU",
    "model": "XKSS (chassis XKSS 707)",
+   "modelSlug": null,
    "price": 13205000,
    "priceBasis": "As recorded for the lot",
    "saleDate": "2023-08-19",
@@ -99,19 +98,19 @@
     "name": "CLASSIC.COM record of the RM Sotheby's Monterey 2023 result (lot 351)",
     "url": "https://www.classic.com/a/rm-sothebys-monterey-2023-xpGORjp/lots/1957-jaguar-xkss-n1kOzqp/?page=2"
    },
+   "status": "sold",
    "year": 1957
   },
   {
    "chassis": "3507 GT",
    "condition": "Original & Highly Original",
-   "mileage": "53k km (32k mi)",
-   "modelSlug": null,
-   "status": "sold",
    "currency": "USD",
    "event": "Gooding & Company Pebble Beach",
    "make": "ferrari",
    "makeName": "Ferrari",
+   "mileage": "53k km (32k mi)",
    "model": "250 GT SWB Berlinetta (chassis 3507 GT)",
+   "modelSlug": null,
    "price": 9465000,
    "priceBasis": "As recorded for the lot",
    "saleDate": "2023-08-19",
@@ -119,19 +118,19 @@
     "name": "CLASSIC.COM record of the Gooding & Company Pebble Beach 2023 result (lot 40)",
     "url": "https://www.classic.com/a/gooding-company-pebble-beach-2023-knXMA5W/lots/1962-ferrari-250-gt-swb-berlinetta-nQY3VZn"
    },
+   "status": "sold",
    "year": 1962
   },
   {
    "chassis": "5066",
    "condition": "Original & Highly Original",
-   "mileage": "1k km (923 mi) TMU",
-   "modelSlug": "miura",
-   "status": "sold",
    "currency": "USD",
    "event": "Gooding & Company Pebble Beach",
    "make": "lamborghini",
    "makeName": "Lamborghini",
+   "mileage": "1k km (923 mi) TMU",
    "model": "Miura P400 SV (chassis 5066)",
+   "modelSlug": "miura",
    "price": 3580000,
    "priceBasis": "As recorded for the lot",
    "saleDate": "2023-08-19",
@@ -139,19 +138,19 @@
     "name": "CLASSIC.COM record of the Gooding & Company Pebble Beach 2023 result (lot 20)",
     "url": "https://Www.classic.com/a/gooding-company-pebble-beach-2023-knXMA5W/lots/1972-lamborghini-miura-p400-sv-4M6VDgn/"
    },
+   "status": "sold",
    "year": 1972
   },
   {
    "chassis": "ZFFMN34A5M0087568",
    "condition": "Original & Highly Original",
-   "mileage": "1k mi",
-   "modelSlug": "f40",
-   "status": "sold",
    "currency": "USD",
    "event": "Gooding & Company Pebble Beach",
    "make": "ferrari",
    "makeName": "Ferrari",
+   "mileage": "1k mi",
    "model": "F40 (chassis ZFFMN34A5M0087568)",
+   "modelSlug": "f40",
    "price": 3085000,
    "priceBasis": "As recorded for the lot",
    "saleDate": "2023-08-19",
@@ -159,19 +158,19 @@
     "name": "CLASSIC.COM record of the Gooding & Company Pebble Beach 2023 result (lot 34)",
     "url": "http://www.classic.com/a/gooding-company-pebble-beach-2023-knXMA5W/lots/1991-ferrari-f40-WqEK6EW/?page=2"
    },
+   "status": "sold",
    "year": 1991
   },
   {
    "chassis": "2323",
    "condition": "Original & Highly Original",
-   "mileage": null,
-   "modelSlug": "model-j",
-   "status": "sold",
    "currency": "USD",
    "event": "Gooding & Company Pebble Beach",
    "make": "duesenberg",
    "makeName": "Duesenberg",
+   "mileage": null,
    "model": "Model J Dual Cowl 'Barrelside' Phaeton (chassis 2323)",
+   "modelSlug": "model-j",
    "price": 2975000,
    "priceBasis": "As recorded for the lot",
    "saleDate": "2023-08-19",
@@ -179,19 +178,19 @@
     "name": "CLASSIC.COM record of the Gooding & Company Pebble Beach 2023 result (lot 45)",
     "url": "https://Www.classic.com/a/gooding-company-pebble-beach-2023-knXMA5W/lots/1930-duesenberg-model-j-dual-cowl-barrelside-phaet-4VboM54/"
    },
+   "status": "sold",
    "year": 1930
   },
   {
    "chassis": "ZAMDF33B000029629",
    "condition": null,
-   "mileage": null,
-   "modelSlug": "mc12",
-   "status": "sold",
    "currency": "USD",
    "event": "Gooding & Company Pebble Beach",
    "make": "maserati",
    "makeName": "Maserati",
+   "mileage": null,
    "model": "MC12 Versione Corsa (chassis ZAMDF33B000029629)",
+   "modelSlug": "mc12",
    "price": 2480000,
    "priceBasis": "As recorded for the lot",
    "saleDate": "2023-08-19",
@@ -199,19 +198,19 @@
     "name": "CLASSIC.COM record of the Gooding & Company Pebble Beach 2023 result (lot 57)",
     "url": "https://www.classic.com/a/gooding-company-pebble-beach-2023-knXMA5W/lots/2007-maserati-mc12-versione-corsa-WLQ6D6p/"
    },
+   "status": "sold",
    "year": 2007
   },
   {
    "chassis": "3378",
    "condition": null,
-   "mileage": null,
-   "modelSlug": "miura",
-   "status": "sold",
    "currency": "USD",
    "event": "Gooding & Company Pebble Beach",
    "make": "lamborghini",
    "makeName": "Lamborghini",
+   "mileage": null,
    "model": "Miura P400 (chassis 3378)",
+   "modelSlug": "miura",
    "price": 2260000,
    "priceBasis": "As recorded for the lot",
    "saleDate": "2023-08-19",
@@ -219,19 +218,19 @@
     "name": "Gooding & Company — Pebble Beach 2023 lot 157 record (sale day pinned by CLASSIC.COM's record of the same lot)",
     "url": "https://www.goodingco.com/lot/1968-lamborghini-miura-p400-1/"
    },
+   "status": "sold",
    "year": 1968
   },
   {
    "chassis": "DB5C/1903/L",
    "condition": "Original & Highly Original",
-   "mileage": "78k mi",
-   "modelSlug": "db5",
-   "status": "sold",
    "currency": "USD",
    "event": "Gooding & Company Pebble Beach",
    "make": "aston-martin",
    "makeName": "Aston Martin",
+   "mileage": "78k mi",
    "model": "DB5 Convertible (chassis DB5C/1903/L)",
+   "modelSlug": "db5",
    "price": 2205000,
    "priceBasis": "As recorded for the lot",
    "saleDate": "2023-08-19",
@@ -239,6 +238,7 @@
     "name": "CLASSIC.COM record of the Gooding & Company Pebble Beach 2023 result (lot 131)",
     "url": "http://www.classic.com/a/gooding-company-pebble-beach-2023-knXMA5W/lots/1965-aston-martin-db5-convertible-nw5VqYp/?page=1"
    },
+   "status": "sold",
    "year": 1965
   },
   {
@@ -300,6 +300,26 @@
    },
    "status": "sold",
    "year": 1932
+  },
+  {
+   "chassis": "ZFFGJ34B000077676",
+   "condition": "Original & Highly Original",
+   "currency": "EUR",
+   "event": "Bonhams — Les Grandes Marques du Monde à Paris",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "mileage": "30k km (18k mi)",
+   "model": "F40 (chassis ZFFGJ34B000077676)",
+   "modelSlug": "f40",
+   "price": 2185000,
+   "priceBasis": "Including buyer's premium",
+   "saleDate": "2023-02-02",
+   "source": {
+    "name": "CLASSIC.COM record of the Bonhams Paris 2023 result (lot 565)",
+    "url": "https://www.classic.com/a/bonhams-les-grandes-marques-du-monde-a-paris-2023-x4ybzan/lots/1988-ferrari-f40-pJK13k4/?page=3"
+   },
+   "status": "sold",
+   "year": 1988
   },
   {
    "chassis": null,
@@ -562,6 +582,26 @@
    "year": 1955
   },
   {
+   "chassis": null,
+   "condition": null,
+   "currency": "EUR",
+   "event": "Bonhams — The Zoute Sale, Knokke-Heist",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "mileage": "Under 1,800 km",
+   "model": "F40 Berlinetta",
+   "modelSlug": "f40",
+   "price": 1840000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2021-10-10",
+   "source": {
+    "name": "Bonhams — Zoute Sale 2021 results release (house press release; sale 10 Oct 2021)",
+    "url": "https://www.bonhams.com/press_release/33012/"
+   },
+   "status": "sold",
+   "year": 1989
+  },
+  {
    "chassis": "029",
    "condition": null,
    "currency": "USD",
@@ -580,6 +620,46 @@
    },
    "status": "sold",
    "year": 1995
+  },
+  {
+   "chassis": "ZFFMN34A7N0093518",
+   "condition": "Original & Highly Original",
+   "currency": "USD",
+   "event": "Gooding & Company Pebble Beach",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "mileage": "2k mi",
+   "model": "F40 (chassis ZFFMN34A7N0093518)",
+   "modelSlug": "f40",
+   "price": 2892500,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2021-08-13",
+   "source": {
+    "name": "CLASSIC.COM record of the Gooding & Company Pebble Beach 2021 result (lot 10)",
+    "url": "http://www.classic.com/a/gooding-pebble-beach-2021-N4AzoEn/lots/1992-ferrari-f40-4M35amW/?page=1"
+   },
+   "status": "sold",
+   "year": 1992
+  },
+  {
+   "chassis": "3378",
+   "condition": null,
+   "currency": "USD",
+   "event": "Gooding & Company Pebble Beach",
+   "make": "lamborghini",
+   "makeName": "Lamborghini",
+   "mileage": null,
+   "model": "Miura P400 (chassis 3378)",
+   "modelSlug": "miura",
+   "price": 1902500,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2021-08-13",
+   "source": {
+    "name": "Gooding & Company — Pebble Beach 2021 lot 26 record (sale day 13 Aug 2021 pinned by Hagerty's past-sale record for chassis 3378)",
+    "url": "https://www.goodingco.com/lot/1968-lamborghini-miura-p400/?pageNumber=0"
+   },
+   "status": "sold",
+   "year": 1968
   },
   {
    "chassis": "018",
@@ -725,6 +805,26 @@
    "chassis": null,
    "condition": null,
    "currency": "EUR",
+   "event": "RM Sotheby's Paris",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "mileage": null,
+   "model": "F40",
+   "modelSlug": "f40",
+   "price": 933125,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2018-02-07",
+   "source": {
+    "name": "Classic Car Auctions — 2018 RM Sotheby's Paris sale auction results (sale 7 Feb 2018; lot 123)",
+    "url": "https://www.classic-car-auctions.info/european/2018-rm-sothebys-paris-sale-auction-results/"
+   },
+   "status": "sold",
+   "year": 1992
+  },
+  {
+   "chassis": null,
+   "condition": null,
+   "currency": "EUR",
    "event": "RM Sotheby's — Ferrari Leggenda e Passione, Maranello",
    "make": "ferrari",
    "makeName": "Ferrari",
@@ -820,6 +920,26 @@
    },
    "status": "sold",
    "year": 1957
+  },
+  {
+   "chassis": null,
+   "condition": null,
+   "currency": "EUR",
+   "event": "RM Sotheby's Paris",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "mileage": "4,200 km",
+   "model": "F40",
+   "modelSlug": "f40",
+   "price": 1036000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2016-02-03",
+   "source": {
+    "name": "RM Sotheby's — Paris 2016 sale report (house press release; lot 145, sale 3 Feb 2016)",
+    "url": "https://rmsothebys.com/media-center/press-releases/rare-1955-porsche-550-spyder-steals-the-show-at-rm-sotheby-s-paris-sale/"
+   },
+   "status": "sold",
+   "year": 1989
   },
   {
    "chassis": "0626",
@@ -942,6 +1062,46 @@
    "year": 1961
   },
   {
+   "chassis": "87990",
+   "condition": null,
+   "currency": "EUR",
+   "event": "RM Auctions Paris",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "mileage": null,
+   "model": "F40 (chassis 87990)",
+   "modelSlug": "f40",
+   "price": 1176000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2015-02-04",
+   "source": {
+    "name": "Sports Car Digest — RM Auctions Paris 2015 auction results (sale held 4 February 2015 at Place Vauban)",
+    "url": "https://sportscardigest.com/rm-auctions-paris-2015-auction-results/"
+   },
+   "status": "sold",
+   "year": 1990
+  },
+  {
+   "chassis": "DB5/1741/L",
+   "condition": null,
+   "currency": "EUR",
+   "event": "RM Auctions Paris",
+   "make": "aston-martin",
+   "makeName": "Aston Martin",
+   "mileage": null,
+   "model": "DB5 (chassis DB5/1741/L)",
+   "modelSlug": "db5",
+   "price": 840000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2015-02-04",
+   "source": {
+    "name": "Sports Car Digest — RM Auctions Paris 2015 auction results (sale held 4 February 2015 at Place Vauban)",
+    "url": "https://sportscardigest.com/rm-auctions-paris-2015-auction-results/"
+   },
+   "status": "sold",
+   "year": 1964
+  },
+  {
    "chassis": "06701",
    "condition": null,
    "currency": "USD",
@@ -980,6 +1140,46 @@
    },
    "status": "sold",
    "year": 1962
+  },
+  {
+   "chassis": null,
+   "condition": null,
+   "currency": "EUR",
+   "event": "RM Auctions Paris",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "mileage": "50k km",
+   "model": "F40",
+   "modelSlug": "f40",
+   "price": 515200,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2014-02-05",
+   "source": {
+    "name": "Honest John Classics — report: RM Auctions, Paris, 5 February (2014 sale results, lot prices as recorded)",
+    "url": "https://classics.honestjohn.co.uk/news/auction-news/2014-02/report-rm-auctions-paris-5-february/"
+   },
+   "status": "sold",
+   "year": 1990
+  },
+  {
+   "chassis": null,
+   "condition": null,
+   "currency": "EUR",
+   "event": "RM Auctions Paris",
+   "make": "lamborghini",
+   "makeName": "Lamborghini",
+   "mileage": null,
+   "model": "Miura P400 S 'SV Specification'",
+   "modelSlug": "miura",
+   "price": 520800,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2014-02-05",
+   "source": {
+    "name": "Honest John Classics — report: RM Auctions, Paris, 5 February (2014 sale results, lot prices as recorded)",
+    "url": "https://classics.honestjohn.co.uk/news/auction-news/2014-02/report-rm-auctions-paris-5-february/"
+   },
+   "status": "sold",
+   "year": 1971
   },
   {
    "chassis": null,
@@ -1133,9 +1333,10 @@
   "Wave 8 pass: the 1960 Ferrari 250 GT SWB California Spider ($17,055,000 incl. premium, RM Sotheby's Monterey) — car, price and house are published, but the sources consulted date the sale only to the three-day event (15–17 August 2024), not to the day; skipped rather than dated by inference (the SSJ precedent).",
   "Wave 9 pass: the 1929 Bentley 4½-Litre Supercharged 'Blower' No.1 (£5,042,000 incl. premium, Bonhams, Goodwood Festival of Speed, June 2012) — car, price, house and sale are all published, but the atlas carries no Bentley marque record; certifying it would require a marque the atlas does not have, so it is skipped rather than misattributed (the CSX 2000 precedent).",
   "Wave 10 pass: the 1937 Bugatti Type 57 Atalante Coupé ($10,345,000, Gooding & Company, Pebble Beach, 2022) — car, price and house are published, but the atlas carries no Bugatti marque record; certifying it would require a marque the atlas does not have, so it is skipped rather than misattributed (the CSX 2000 / Blower precedent).",
-  "Wave 11 pass: the 2006 Bugatti Veyron 16.4 ($1,545,000, Gooding & Company Pebble Beach, 2023-08-19) — car, price, house and day are all published, but the atlas carries no Bugatti marque record; certifying it would require a marque the atlas does not have, so it is skipped rather than misattributed (the CSX 2000 / Blower / Atalante precedent)."
+  "Wave 11 pass: the 2006 Bugatti Veyron 16.4 ($1,545,000, Gooding & Company Pebble Beach, 2023-08-19) — car, price, house and day are all published, but the atlas carries no Bugatti marque record; certifying it would require a marque the atlas does not have, so it is skipped rather than misattributed (the CSX 2000 / Blower / Atalante precedent).",
+  "Stage 7 pass: the 1991 Ferrari F40 at Artcurial Rétromobile 2020 (lot 115, 7 February 2020) — car, house, day and lot are published, but the sources consulted disagree on the final price (€1,112,840 vs €1,112,800); skipped rather than certifying a figure the sources do not agree on."
  ],
- "stage": "Stage 6 — auction results, extended a fifth time",
+ "stage": "Stage 7 — auction results, extended a sixth time; first T-CARS-1 cohort at n≥8, machinery shipped",
  "updatedAt": "2026-10-14",
  "version": "1.0.0"
 }

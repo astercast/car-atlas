@@ -1,5 +1,60 @@
 # WAVELOG — Car Atlas
 
+## Rotation 25 — CARS RUNG-2 ADVANCE: Price Watch stage 7 (56 → 66), T-CARS-1 machinery fired (F40/EUR n=8), T-CARS-4 first repeat (2026-10-14)
+
+**Headline (named before building):** the certified-results set
+grows toward the cohort machinery's trigger, and more results
+join their model records — with the deploy-gated rung stated as
+gated, not claimed.
+
+- **Price Watch stage 7:** **56 → 66 certified results**, each
+  certified at ingest on 2026-10-14 against a published source
+  naming car, price, house and day: seven F40 sales (RM Auctions
+  Paris 2014, €515,200; RM Auctions Paris 2015, €1,176,000,
+  chassis 87990; RM Sotheby's Paris 2016, €1,036,000; RM
+  Sotheby's Paris 2018, €933,125; Gooding Pebble Beach 2021,
+  $2,892,500, chassis ZFFMN34A7N0093518; Bonhams Zoute 2021,
+  €1,840,000; Bonhams Paris 2023, €2,185,000, chassis
+  ZFFGJ34B000077676), the 2021 Gooding sale of Miura P400 chassis
+  3378 ($1,902,500), a 1971 Miura P400 S (RM Auctions Paris 2014,
+  €520,800), and a 1964 DB5 (RM Auctions Paris 2015, €840,000,
+  chassis DB5/1741/L). All ten link to model pages. Condition
+  **11/56 → 13/66**, mileage **7/56 → 12/66**, chassis
+  **44/56 → 49/66** — populated only where the certifying source
+  states the field. One candidate skipped and recorded in the
+  file (an Artcurial 2020 F40 whose sources disagree by €40 on
+  the final price).
+- **T-CARS-1 — MACHINERY FIRED AND SHIPPED:** the six EUR F40
+  sales took the F40/EUR cohort **n=2 → n=8 in one currency**,
+  the priced trigger in `BENCHMARK.md`. Cohorts are now computed
+  in `scripts/build.py` from certified records only and published
+  in `data/v1/cohorts.json` (9 cohorts at n≥2); the F40/EUR
+  cohort prints its median (**€1,508,000** over the eight sales,
+  2014–2023) on the Buy page and the F40 record, n shown, in the
+  one listing anatomy. All other cohorts remain ranges. The full
+  closure (scale ~300+, condition tiers) stays priced in
+  `BENCHMARK.md`.
+- **T-CARS-4 — FIRST GENUINE REPEAT:** chassis 3378 now appears
+  twice (2021: $1,902,500; 2023: $2,260,000, both Gooding Pebble
+  Beach) — the wave-11 note's planned certification, landed; the
+  ledger's repeat-sale line has a real repeat to print.
+- **T-CARS-3 — AUDITED:** all 27 orphans re-checked against the
+  model inventory; **zero** can be linked without inventing a
+  model record (16 Ferrari, 3 Mercedes-Benz, 3 Jaguar, 2 Aston
+  Martin, 2 Porsche, 1 Alfa Romeo one-offs and racers the atlas
+  does not carry as models; the 250 GTO record stays the owner's
+  parked call). Orphan count 27 → 27, share **48% → 41%**;
+  linked **29 → 39**.
+- **Stated, not advanced:** T-CARS-5 rung 2 (true notify) stays
+  deploy-gated, parked with the owner; the Ferrari 250 GTO model
+  record stays an owner call, not created; the listings-ingest /
+  cron question stays parked.
+- **Regression:** build passes (schema + counts + price-watch
+  source check: "66 certified auction results"; cohorts line
+  prints the F40/EUR benchmark; 59 / 257 / 469 unchanged) and
+  re-bakes idempotently. Render checks in the landing record
+  (`landing-cars-r25.md` in the wave-engine folder).
+
 ## Rotation 23 — THE ISSUE, ART-DIRECTED: photography completed, the serif two-voice system, ruled lots (2026-10-14)
 
 **Headline (named before building):** evolve the passed magazine

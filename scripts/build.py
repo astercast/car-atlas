@@ -112,6 +112,57 @@ def main():
             fail(f"price-watch: result for {r.get('model')} lacks a source URL")
     print(f"OK: price-watch holds {len(pw['results'])} certified auction results")
 
+    # T-CARS-1 cohort machinery (stage 7, rotation 25): cohorts are
+    # computed HERE, in the build, from certified records only —
+    # model + single currency. Every cohort of n >= 2 publishes its
+    # range and count; a cohort of n >= 8 (the priced trigger in
+    # BENCHMARK.md) additionally publishes its median as the atlas's
+    # cohort benchmark. No figure is computed from anything but the
+    # certified set, and no median exists below the trigger.
+    import statistics
+    groups = {}
+    for r in pw["results"]:
+        if not r.get("modelSlug"):
+            continue
+        key = (r["make"], r["modelSlug"], r["currency"])
+        groups.setdefault(key, []).append(r)
+    cohorts = []
+    for (mk, slug, cur), g in sorted(groups.items()):
+        if len(g) < 2:
+            continue
+        prices = sorted(r["price"] for r in g)
+        dates = sorted(r["saleDate"] for r in g)
+        cohort = {
+            "make": mk, "makeName": g[0]["makeName"], "modelSlug": slug,
+            "modelName": g[0]["model"].split(" (")[0], "currency": cur,
+            "n": len(g), "min": prices[0], "max": prices[-1],
+            "firstSale": dates[0], "lastSale": dates[-1],
+            "modelYears": [min(r["year"] for r in g), max(r["year"] for r in g)],
+            "benchmark": len(g) >= 8,
+        }
+        if cohort["benchmark"]:
+            cohort["median"] = statistics.median(prices)
+        cohorts.append(cohort)
+    cohorts.sort(key=lambda c: (-c["n"], c["makeName"], c["modelName"], c["currency"]))
+    bench = [c for c in cohorts if c["benchmark"]]
+    cohorts_doc = {
+        "note": ("Cohorts computed by scripts/build.py from the certified "
+                 "Price Watch results only (model + single currency). "
+                 "n >= 2 publishes a range with its count; n >= 8 — the "
+                 "T-CARS-1 trigger priced in BENCHMARK.md — additionally "
+                 "publishes the cohort median as a benchmark. A median is "
+                 "a statistic of certified sales, not a valuation of any "
+                 "other example."),
+        "source": "data/v1/price-watch.json",
+        "cohorts": cohorts,
+    }
+    cohorts_path = DATA / "cohorts.json"
+    cohorts_path.write_text(json.dumps(cohorts_doc, indent=1, ensure_ascii=False) + "\n")
+    print(f"OK: {len(cohorts)} cohorts (n>=2) → {cohorts_path.relative_to(ROOT)}; "
+          f"benchmark cohorts at n>=8: "
+          + (", ".join(f"{c['makeName']} {c['modelName']}/{c['currency']} n={c['n']} "
+                       f"median={c['median']:,.0f}" for c in bench) if bench else "none"))
+
     out = DATA / "search-index.json"
     out.write_text(json.dumps(index, indent=1, ensure_ascii=False) + "\n")
     print(f"OK: {len(makes)} makes, {total_models} models, {total_gens} generations → {out.relative_to(ROOT)}")

@@ -22,7 +22,8 @@ The dataset lives in `data/v1/` as plain JSON and is the single source of truth:
 - [Search index](data/v1/search-index.json): the single generated file the homepage loads; rebuilt by `scripts/build.py`, never edited by hand.
 - [Porsche model records](data/v1/models/porsche.json): the per-make model files, one JSON per make under `data/v1/models/`, each holding that make's models, generations, and specs.
 - [Buying data](data/v1/buying.json): the four buying classes, the 13 channels, and the Price Watch schema.
-- [Price Watch results](data/v1/price-watch.json): the certified auction results (stages 1–6), car, price, house, date, and a linked published source per record.
+- [Price Watch results](data/v1/price-watch.json): the certified auction results (stages 1–7), car, price, house, date, and a linked published source per record.
+- [Price Watch cohorts](data/v1/cohorts.json): cohorts computed in the build from the certified results only (model + single currency): range and count at n ≥ 2, cohort median at n ≥ 8.
 - [Clubs registry](data/v1/clubs.json): the 46 clubs and networks, with regions and chapter models.
 
 ## API

@@ -100,12 +100,20 @@ condition now stands at 11/56 and mileage at 7/56, and the Buy
 page gained the first cohort rung: ranges computed only from
 certified records sharing a model and a currency, count shown,
 labelled context not a valuation. One further skip was recorded
-(a Bugatti Veyron, which has no marque record here). The standing
+(a Bugatti Veyron, which has no marque record here). Stage 7
+(rotation 25) extended the set to 66 results — all ten new results
+link to model pages (F40 ×7, Miura ×2, DB5); condition now stands
+at 13/66, mileage at 12/66, chassis at 49/66 — and shipped the
+T-CARS-1 cohort machinery: six new F40 sales in euros took the
+F40/EUR cohort to n=8, the priced trigger, so cohorts are now
+computed in `scripts/build.py` and published in
+`data/v1/cohorts.json`, median printed at n≥8. Stage 7 also
+certified the 2021 sale of Miura chassis 3378, the first chassis
+to appear twice in the set. The standing
 benchmark against the top car sites in the world — the named set,
 the scorecard, and the priced T-CARS-1 / T-CARS-5 closures — lives
 in `BENCHMARK.md`. Still planned: listings ingest adapters for
-the channels in `buying.json` and cohort medians computed from
-certified records only.
+the channels in `buying.json`.
 
 ## Accuracy standard
 
