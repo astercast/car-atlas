@@ -21,6 +21,24 @@
    "median": 454750.0
   },
   {
+   "make": "aston-martin",
+   "makeName": "Aston Martin",
+   "modelSlug": "db5",
+   "modelName": "DB5 Vantage",
+   "currency": "USD",
+   "n": 9,
+   "min": 715000,
+   "max": 6385000,
+   "firstSale": "2013-08-18",
+   "lastSale": "2025-10-31",
+   "modelYears": [
+    1965,
+    1965
+   ],
+   "benchmark": true,
+   "median": 1100000
+  },
+  {
    "make": "duesenberg",
    "makeName": "Duesenberg",
    "modelSlug": "model-j",
@@ -42,19 +60,19 @@
    "make": "aston-martin",
    "makeName": "Aston Martin",
    "modelSlug": "db5",
-   "modelName": "DB5 Vantage",
-   "currency": "USD",
+   "modelName": "DB5 Sports Saloon",
+   "currency": "EUR",
    "n": 8,
-   "min": 715000,
-   "max": 6385000,
-   "firstSale": "2013-08-18",
-   "lastSale": "2025-10-31",
+   "min": 506000,
+   "max": 1897500,
+   "firstSale": "2015-02-04",
+   "lastSale": "2025-10-12",
    "modelYears": [
-    1965,
+    1963,
     1965
    ],
    "benchmark": true,
-   "median": 1108000.0
+   "median": 776588.0
   },
   {
    "make": "ferrari",
@@ -73,6 +91,24 @@
    ],
    "benchmark": true,
    "median": 1508000.0
+  },
+  {
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "modelSlug": "f40",
+   "modelName": "F40",
+   "currency": "USD",
+   "n": 8,
+   "min": 2892500,
+   "max": 3965000,
+   "firstSale": "2021-08-13",
+   "lastSale": "2025-08-15",
+   "modelYears": [
+    1990,
+    1992
+   ],
+   "benchmark": true,
+   "median": 3732500.0
   },
   {
    "make": "ford",
@@ -127,40 +163,6 @@
    ],
    "benchmark": true,
    "median": 2285000.0
-  },
-  {
-   "make": "aston-martin",
-   "makeName": "Aston Martin",
-   "modelSlug": "db5",
-   "modelName": "DB5 Sports Saloon",
-   "currency": "EUR",
-   "n": 3,
-   "min": 506000,
-   "max": 840000,
-   "firstSale": "2015-02-04",
-   "lastSale": "2025-10-12",
-   "modelYears": [
-    1964,
-    1965
-   ],
-   "benchmark": false
-  },
-  {
-   "make": "ferrari",
-   "makeName": "Ferrari",
-   "modelSlug": "f40",
-   "modelName": "F40",
-   "currency": "USD",
-   "n": 2,
-   "min": 2892500,
-   "max": 3085000,
-   "firstSale": "2021-08-13",
-   "lastSale": "2023-08-19",
-   "modelYears": [
-    1991,
-    1992
-   ],
-   "benchmark": false
   },
   {
    "make": "mclaren",

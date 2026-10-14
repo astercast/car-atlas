@@ -300,6 +300,77 @@ expected gap; depth and live intelligence are.
   stays an owner call. The Price Watch listings-ingest/cron
   question stays parked.
 
+## Deltas in rotation 29 (stage 11)
+
+- **Price Watch stage 11 (results scale):** 107 → **119 certified
+  results**, same stage-1 standard (house, day and a linked source
+  per record; two candidates skipped and recorded in the file —
+  two DB5 sales in euros whose sources date the sale only to a
+  two-day event, the SSJ precedent). The pass worked the two
+  cohorts that stood nearest the trigger below eight: Ferrari F40
+  **2 → 8** in dollars and Aston Martin DB5 **3 → 8** in euros,
+  with one more DB5 in dollars (**8 → 9**). The dollar DB5 is
+  chassis DB5/1990/L (RM Sotheby's Arizona, 19 January 2017,
+  $1,045,000), held at stage 10 to the pass's own corroboration
+  standard and certified here only because a second source
+  agreeing on the figure was found in this pass. All 12 new
+  records link to model pages the atlas already carried.
+  Condition **25/107 → 30/119**, mileage **27/107 → 33/119**,
+  chassis **81/107 → 90/119**, populated only where the
+  certifying source states the field.
+- **T-CARS-1: the eighth and ninth benchmark cohorts.** The
+  F40/USD cohort reached **n=8** and the DB5/EUR cohort **n=8**,
+  both past the priced n≥8 trigger, so the build-computed
+  machinery now publishes nine benchmark medians in
+  `data/v1/cohorts.json` (10 cohorts at n≥2): the seven standing
+  medians, with DB5/USD re-derived at **$1,100,000** over its
+  nine certified sales (2013–2025) after the DB5/1990/L record
+  joined it, F40/USD **$3,732,500** over eight certified sales
+  (2021–2025) and DB5/EUR **€776,588** over eight certified
+  sales (2015–2024), printed on the Buy page and the model
+  records, n shown, in the one listing anatomy.
+- **T-CARS-3: audited, unmoved in count, moved in share.** All 27
+  orphans were re-audited against the model inventory: **zero**
+  can be linked without inventing a model record or misattributing
+  a car to a different model — the same named traps as stages 8
+  and 9 were re-checked and refused again. Orphan count 27 → 27;
+  orphan **share 25% → 23%** on the larger set; linked records
+  **80 → 92**.
+- **Stated, not advanced:** T-CARS-5 rung 2 (true notify) stays
+  deploy-gated — no live target exists and the deploy decision is
+  parked with the owner; rung 1 (local follow) stands shipped.
+  The Ferrari 250 GTO model record stays an owner call, not
+  created. No feed or data was licensed; the licensed-feed path
+  stays an owner call. The Price Watch listings-ingest/cron
+  question stays parked.
+- **Foundry specificity restorations: attempted, none bound.**
+  The three photo upgrades named open at rotation 28 (a provable
+  badged Stutz Vertical Eight; a provable plain 720S or 765LT;
+  a provable Cord Westchester or Beverly sedan) were attempted
+  at the standing bar. Wikimedia Commons, the standing source,
+  returned 403 on every endpoint reached in this pass, so no
+  candidate image could be read firsthand and no licence
+  verified; per the bar, unclear rights never ship. All three
+  captions stay exactly as narrowed at rotation 28 and all three
+  items stay named open, with the candidate files the search
+  index surfaced recorded in the rotation-29 landing record.
+
+## Benchmark standing line (rotation 29)
+
+**BENCHMARK STANDING — CLOSER on data depth, on evidence a
+visitor can see: the certified-results set grew 107 → 119, every
+new record linked to its model record (linked 80 → 92, orphan
+share 25% → 23% with the orphan count honestly unmoved at 27),
+and the atlas shipped its eighth and ninth true cohort
+benchmarks — the F40/USD and DB5/EUR cohorts passed the priced
+n≥8 trigger and print their build-computed medians, $3,732,500
+and €776,588, each over eight certified sales, with the DB5/USD
+median re-derived at $1,100,000 over nine sales — while
+remaining BEHIND every named rival on live listings, cohort
+scale and condition tiers (T-CARS-1's full closure), off-site
+notify, and BEHIND Wikipedia on encyclopedia breadth; design
+held at PARITY-or-AHEAD against the whole set.**
+
 ## Benchmark standing line (rotation 28)
 
 **BENCHMARK STANDING — CLOSER on data depth, on evidence a
@@ -411,6 +482,18 @@ standing medians in `data/v1/cohorts.json`; seven of the ten
 cohorts at n≥2 are now benchmarks. The set stands at 107
 certified, condition population 25/107, still short of the
 majority (c) requires, and (a) scale is still ~19 stage passes
+away at the demonstrated rate, or the same licensed-feed owner
+call.
+**Rotation 29 update:** stage 11 fired the machinery two more
+times — the F40/USD cohort reached n=8 certified (median
+$3,732,500) and the DB5/EUR cohort n=8 (median €776,588),
+joining the seven standing medians in `data/v1/cohorts.json`;
+nine of the ten cohorts at n≥2 are now benchmarks (only
+McLaren F1/USD, n=2, remains a range). The DB5/USD median was
+re-derived at $1,100,000 over nine sales after the certified
+DB5/1990/L record joined the cohort. The set stands at 119
+certified, condition population 30/119, still short of the
+majority (c) requires, and (a) scale is still ~18 stage passes
 away at the demonstrated rate, or the same licensed-feed owner
 call.
 

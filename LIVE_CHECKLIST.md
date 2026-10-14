@@ -207,6 +207,16 @@ a conversation.
   seventh benchmark cohorts (10 cohorts at n≥2 in
   `data/v1/cohorts.json`). Still no function, no cron, no external
   call — the audit above is unchanged.
+- **Rotation-29 addendum (2026-10-14):** Price Watch stage 11
+  extended the same static file to 119 certified results (12 added,
+  all linked to model records; linked 80 → 92 of 119, orphans
+  unchanged at 27, share 25% → 23%; condition 25/107 → 30/119,
+  mileage 27/107 → 33/119, chassis 81/107 → 90/119), and the F40
+  dollar cohort (n=8) and DB5 euro cohort (n=8) reached the n≥8
+  trigger as the eighth and ninth benchmark cohorts (10 cohorts at
+  n≥2 in `data/v1/cohorts.json`; DB5 dollar median re-derived at
+  $1,100,000 over n=9). Still no function, no cron, no external
+  call — the audit above is unchanged.
 
 - **Rotation-23 addendum (2026-10-14):** photography completed
   (257/257 models, 59/59 makes photographed from licensed Commons

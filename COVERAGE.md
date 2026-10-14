@@ -133,7 +133,18 @@ sixth and seventh cohorts at the T-CARS-1 trigger. Three further
 candidates were skipped and recorded: a Miura SV whose sources
 disagree on the sale day, a Miura S whose sources disagree on the
 currency of the result, and a DB5 held to the pass's corroboration
-standard. The standing
+standard. Stage 11
+(rotation 29) extended the set to 119 results — all 12 new results
+link to model pages (F40 ×6 in dollars, DB5 ×5 in euros and ×1 in
+dollars); condition now stands at 30/119, mileage at 33/119,
+chassis at 90/119 — and took the F40 dollar cohort to n=8 (median
+$3,732,500) and the DB5 euro cohort to n=8 (median €776,588), the
+eighth and ninth cohorts at the T-CARS-1 trigger, re-deriving the
+DB5 dollar median at $1,100,000 over nine sales. The DB5 in
+dollars is chassis DB5/1990/L, certified in this pass on fresh
+corroboration after its stage-10 hold. Two further candidates
+were skipped and recorded: two DB5 sales in euros whose sources
+date the sale only to a two-day event. The standing
 benchmark against the top car sites in the world — the named set,
 the scorecard, and the priced T-CARS-1 / T-CARS-5 closures — lives
 in `BENCHMARK.md`. Still planned: listings ingest adapters for

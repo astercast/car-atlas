@@ -557,7 +557,7 @@ async function initClubs() {
 }
 
 /* --- Buy: the market page ---
-   T-CARS-6 / DL-5: real client-side filters over the 107 certified
+   T-CARS-6 / DL-5: real client-side filters over the 119 certified
    Price Watch records. Facets reflect only what the records carry:
    make (16 present), stated-price band (counts computed from the
    records, in each record's own currency, labelled "stated price"),

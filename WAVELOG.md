@@ -1,5 +1,68 @@
 # WAVELOG — Car Atlas
 
+## Rotation 29 — PRICE WATCH STAGE 11: the two cohorts nearest the trigger worked (107 → 119), eighth and ninth T-CARS-1 benchmark cohorts (F40/USD n=8, DB5/EUR n=8), DB5/1990/L certified on fresh corroboration (2026-10-14)
+
+**Headline (named before building):** certified results advance
+by an honest stage pass within the existing method — the
+cohorts that stand nearest the trigger are the targets (F40/USD
+at n=2 and DB5/EUR at n=3 re-derived from the data first), the
+held DB5/1990/L is worked first and certified only if fresh
+corroboration honestly exists, and any cohort reaching n≥8 from
+certified records only becomes a benchmark cohort through the
+machinery shipped at stage 7.
+
+- **Price Watch stage 11:** **107 → 119 certified results**, each
+  certified at ingest on 2026-10-14 against a published source
+  naming car, price, house and day. Ferrari F40 ×6 in dollars
+  (Gooding Pebble Beach 2022, chassis ZFFMN34A0L0087041,
+  $3,965,000; RM Sotheby's Monterey 2022, chassis
+  ZFFMN34AXN0091097, $3,855,000; RM Sotheby's Miami 2025,
+  chassis ZFFMN34A1M0089382, $3,580,000; Broad Arrow Amelia
+  2025, chassis ZFFMN34A0L0086620, $3,665,000; Gooding Pebble
+  Beach 2025, the same chassis again, $3,800,000; RM Sotheby's
+  Monterey 2025, chassis 84036, $3,855,000); Aston Martin DB5
+  ×5 in euros (Bonhams Grand Palais 2015 Convertible,
+  €1,897,500 including premium; Artcurial La Parisienne 2021
+  Vantage, chassis DB5/1767/L, €810,560; Artcurial Monaco 2021,
+  €506,600; Artcurial Rétromobile 2022, chassis DB5/1939/R,
+  €834,400; Aguttes Paris 2024, €742,616) and ×1 in dollars (RM
+  Sotheby's Arizona 2017, chassis DB5/1990/L, $1,045,000). All
+  12 link to model pages. Condition **25/107 → 30/119**,
+  mileage **27/107 → 33/119**, chassis **81/107 → 90/119**.
+- **DB5/1990/L verdict: certified.** The stage-10 hold was a
+  single-source hold; this pass found the corroboration: Hagerty's
+  past-sale record (RM Sotheby's Arizona, 19 January 2017, lot
+  149, $1,045,000) and Conceptcarz's sales history for the chassis
+  agree on the price and the house, and the house's own Arizona
+  2017 lot page is for the same car. The stage-10 hold entry is
+  removed from `skippedSources`; the record's source line carries
+  the corroboration.
+- **T-CARS-1 machinery fired two more times:** F40/USD reached
+  n=8 (build-computed median **$3,732,500**) and DB5/EUR n=8
+  (median **€776,588**) — the eighth and ninth benchmark cohorts,
+  published in `data/v1/cohorts.json` beside the seven standing
+  medians, and printed on the Buy page and the model records.
+  The DB5/USD median was re-derived at **$1,100,000** over n=9.
+- **Two candidates skipped, recorded in the file:** a 1964 DB5
+  at RM Sotheby's Paris 2025 (lot 113, €736,250) and a 1964 DB5
+  at Broad Arrow Villa d'Este 2025 (lot 244, €456,250) — car,
+  price and house published, but the sources date each sale only
+  to a two-day event, not the day. Skipped, never dated by
+  inference (the SSJ precedent).
+- **T-CARS-3 audit:** 27 orphans re-audited per car; zero
+  linkable without inventing a model record; count unmoved,
+  share 25% → 23% on the larger set; linked 80 → 92.
+- **Foundry specificity restorations: attempted, none bound.**
+  The three photo upgrades named open at rotation 28 were
+  attempted at the standing bar; Wikimedia Commons returned 403
+  on every endpoint reached, so no candidate image could be
+  read firsthand and no licence verified. The narrowed captions
+  stand; the items stay named open (see the rotation-29 landing
+  record for the candidate files the search index surfaced).
+- **Stated, not advanced:** T-CARS-5 rung 2 stays deploy-gated;
+  the 250 GTO model record stays the owner's call; no feed or
+  data licensed.
+
 ## Rotation 28 — PRICE WATCH STAGE 10: the two cohorts at five worked, and the euro Miura cohort with them (96 → 107), fifth, sixth and seventh T-CARS-1 benchmark cohorts (DB5/USD n=8, Miura/USD n=8, Miura/EUR n=8) (2026-10-14)
 
 **Headline (named before building):** certified results advance

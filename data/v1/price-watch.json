@@ -1,5 +1,5 @@
 {
- "note": "Price Watch tracks completed auction results, not live listings. Every record below was certified at ingest against a published source naming the car, the price, the house, and the date; the source is linked on each record. Wave 4 certified 7 results (2026-10-13); wave 5 added 4 more to the same standard; wave 7 (stage 2) added 8 more; wave 8 (stage 3) added 9 more; wave 9 (stage 4) added 9 more; wave 10 (stage 5) added 9 more; wave 11 (stage 6) added 10 more, 56 certified results in all. Stage 5 gave every record a chassis key (populated where the source names the chassis, null otherwise) and condition and mileage fields (populated only where a source states them, null otherwise, never inferred); stage 6 populated those fields from its sources wherever they stated them, linked eight of its ten new records to model pages the atlas already carried, and added the Buy page's first cohort rung: per-model result ranges computed only from certified records in a single currency, with the count shown. Stage 6 extends the certified-results set only: the listings ingest described in earlier roadmaps is not built, and no listing, estimate or unsold lot appears here. Prices are historical facts about one specific car on one specific day, not asking prices, not estimates, and not a valuation of any other example. Rotation 25 (stage 7) added 10 more to the same standard, 66 certified results in all: six further F40 sales in euros took the F40/EUR cohort to eight certified results, the first cohort at the T-CARS-1 trigger, so stage 7 also ships the cohort machinery: cohort medians for cohorts of eight or more, computed in the build from certified records only and published in data/v1/cohorts.json, n shown wherever a figure prints. Stage 7 also certified the 2021 Gooding sale of Miura chassis 3378, the first chassis to appear twice in the certified set (T-CARS-4). Results that could not be certified to that standard were skipped, not estimated (see skippedSources). Rotation 26 (stage 8) added 17 more to the same standard, 83 certified results in all: the pass re-broadened the four cohorts that stood at two: Corvette (five more sales, to seven in dollars), Ford GT (six more, to eight in dollars, the second cohort at the T-CARS-1 trigger, printing its build-computed median beside the F40's), Duesenberg Model J (three more, to five in dollars) and Aston Martin DB5 (three more: one each in dollars, euros and pounds, taking the dollar cohort to three and the euro cohort to two). Every new record links to a model record the atlas already carried; the orphan count is unmoved at 27. Two candidates were skipped and recorded (see skippedSources): a GT40 whose sources disagree on the sale day, and a GT40 whose sources disagree on the final price. Rotation 27 (stage 9) added 13 more to the same standard, 96 certified results in all: the pass worked the near-threshold cohorts: Corvette (three more sales, to ten in dollars, the third cohort at the T-CARS-1 trigger), Duesenberg Model J (four more, to nine in dollars, the fourth cohort at the trigger), Aston Martin DB5 (three more: two in dollars, to five, and one in euros, to three) and Lamborghini Miura (three more: two in dollars, to five, and one in euros, to three). Every new record links to a model record the atlas already carried; the orphan count is unmoved at 27. Three candidates were skipped and recorded (see skippedSources): three 1967 Corvette L88 sales whose sources disagree on the final price, on the Artcurial F40 precedent. Rotation 28 (stage 10) added 11 more to the same standard, 107 certified results in all: the pass worked the two cohorts that stood at five and the euro Miura cohort that stood at three: Aston Martin DB5 (three more in dollars, to eight, the fifth cohort at the T-CARS-1 trigger), Lamborghini Miura (three more in dollars, to eight, the sixth cohort at the trigger, and five more in euros, to eight, the seventh cohort at the trigger). Every new record links to a model record the atlas already carried; the orphan count is unmoved at 27. Three candidates were skipped and recorded (see skippedSources): a Miura SV whose sources disagree on the sale day, a Miura S whose sources disagree on the currency of the result, and a DB5 held to the pass's own corroboration standard.",
+ "note": "Price Watch tracks completed auction results, not live listings. Every record below was certified at ingest against a published source naming the car, the price, the house, and the date; the source is linked on each record. Wave 4 certified 7 results (2026-10-13); wave 5 added 4 more to the same standard; wave 7 (stage 2) added 8 more; wave 8 (stage 3) added 9 more; wave 9 (stage 4) added 9 more; wave 10 (stage 5) added 9 more; wave 11 (stage 6) added 10 more, 56 certified results in all. Stage 5 gave every record a chassis key (populated where the source names the chassis, null otherwise) and condition and mileage fields (populated only where a source states them, null otherwise, never inferred); stage 6 populated those fields from its sources wherever they stated them, linked eight of its ten new records to model pages the atlas already carried, and added the Buy page's first cohort rung: per-model result ranges computed only from certified records in a single currency, with the count shown. Stage 6 extends the certified-results set only: the listings ingest described in earlier roadmaps is not built, and no listing, estimate or unsold lot appears here. Prices are historical facts about one specific car on one specific day, not asking prices, not estimates, and not a valuation of any other example. Rotation 25 (stage 7) added 10 more to the same standard, 66 certified results in all: six further F40 sales in euros took the F40/EUR cohort to eight certified results, the first cohort at the T-CARS-1 trigger, so stage 7 also ships the cohort machinery: cohort medians for cohorts of eight or more, computed in the build from certified records only and published in data/v1/cohorts.json, n shown wherever a figure prints. Stage 7 also certified the 2021 Gooding sale of Miura chassis 3378, the first chassis to appear twice in the certified set (T-CARS-4). Results that could not be certified to that standard were skipped, not estimated (see skippedSources). Rotation 26 (stage 8) added 17 more to the same standard, 83 certified results in all: the pass re-broadened the four cohorts that stood at two: Corvette (five more sales, to seven in dollars), Ford GT (six more, to eight in dollars, the second cohort at the T-CARS-1 trigger, printing its build-computed median beside the F40's), Duesenberg Model J (three more, to five in dollars) and Aston Martin DB5 (three more: one each in dollars, euros and pounds, taking the dollar cohort to three and the euro cohort to two). Every new record links to a model record the atlas already carried; the orphan count is unmoved at 27. Two candidates were skipped and recorded (see skippedSources): a GT40 whose sources disagree on the sale day, and a GT40 whose sources disagree on the final price. Rotation 27 (stage 9) added 13 more to the same standard, 96 certified results in all: the pass worked the near-threshold cohorts: Corvette (three more sales, to ten in dollars, the third cohort at the T-CARS-1 trigger), Duesenberg Model J (four more, to nine in dollars, the fourth cohort at the trigger), Aston Martin DB5 (three more: two in dollars, to five, and one in euros, to three) and Lamborghini Miura (three more: two in dollars, to five, and one in euros, to three). Every new record links to a model record the atlas already carried; the orphan count is unmoved at 27. Three candidates were skipped and recorded (see skippedSources): three 1967 Corvette L88 sales whose sources disagree on the final price, on the Artcurial F40 precedent. Rotation 28 (stage 10) added 11 more to the same standard, 107 certified results in all: the pass worked the two cohorts that stood at five and the euro Miura cohort that stood at three: Aston Martin DB5 (three more in dollars, to eight, the fifth cohort at the T-CARS-1 trigger), Lamborghini Miura (three more in dollars, to eight, the sixth cohort at the trigger, and five more in euros, to eight, the seventh cohort at the trigger). Every new record links to a model record the atlas already carried; the orphan count is unmoved at 27. Three candidates were skipped and recorded (see skippedSources): a Miura SV whose sources disagree on the sale day, a Miura S whose sources disagree on the currency of the result, and a DB5 held to the pass's own corroboration standard. Rotation 29 (stage 11) added 12 more to the same standard, 119 certified results in all: the pass worked the two cohorts that stood nearest the trigger below eight: Ferrari F40 (six more in dollars, to eight, the eighth cohort at the T-CARS-1 trigger) and Aston Martin DB5 (five more in euros, to eight, the ninth cohort at the trigger, and one more in dollars, to nine). The DB5 in dollars is chassis DB5/1990/L, held at stage 10 to the pass's own corroboration standard and certified here only because a second source agreeing on the figure was found in this pass (see the record's source line). One F40 chassis (ZFFMN34A0L0086620) appears twice in this pass alone, sold at Amelia in March 2025 and again at Pebble Beach in August 2025. Every new record links to a model record the atlas already carried; the orphan count is unmoved at 27. Two candidates were skipped and recorded (see skippedSources): two DB5 sales in euros whose sources date the sale only to a two-day event, not to the day (the SSJ precedent).",
  "results": [
   {
    "chassis": "DB5/2136/L",
@@ -42,6 +42,46 @@
    "year": 1964
   },
   {
+   "chassis": "84036",
+   "condition": null,
+   "currency": "USD",
+   "event": "RM Sotheby's Monterey",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "mileage": null,
+   "model": "F40 (chassis 84036)",
+   "modelSlug": "f40",
+   "price": 3855000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2025-08-15",
+   "source": {
+    "name": "Hagerty past-sale record (RM Sotheby's Monterey, 15 August 2025; lot 132); the house's own Monterey 2025 results release agrees on the price",
+    "url": "https://www.hagerty.com/valuation-tools/past-sales/1990-ferrari-f40/ZFFGJ34B000084036/776480fc-4af3-43d2-ad1a-6911bc9ee91d"
+   },
+   "status": "sold",
+   "year": 1990
+  },
+  {
+   "chassis": "ZFFMN34A0L0086620",
+   "condition": null,
+   "currency": "USD",
+   "event": "Gooding & Company Pebble Beach",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "mileage": null,
+   "model": "F40 (chassis ZFFMN34A0L0086620)",
+   "modelSlug": "f40",
+   "price": 3800000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2025-08-15",
+   "source": {
+    "name": "Hagerty past-sale record (Gooding & Company Pebble Beach, 15 August 2025; lot 65); the house's published Pebble Beach 2025 results list agrees on the price",
+    "url": "https://www.hagerty.com/valuation-tools/past-sales/1990-ferrari-f40/ZFFMN34A0L0086620/3d6ea33d-92e6-446f-b7e1-ac2fc75169ba"
+   },
+   "status": "sold",
+   "year": 1990
+  },
+  {
    "chassis": "DB5/2051/L",
    "condition": "Original & Highly Original",
    "currency": "USD",
@@ -60,6 +100,46 @@
    },
    "status": "sold",
    "year": 1965
+  },
+  {
+   "chassis": "ZFFMN34A0L0086620",
+   "condition": null,
+   "currency": "USD",
+   "event": "Broad Arrow Auctions — The Amelia Auction",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "mileage": "1,249 mi",
+   "model": "F40 (chassis ZFFMN34A0L0086620)",
+   "modelSlug": "f40",
+   "price": 3665000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2025-03-08",
+   "source": {
+    "name": "Hagerty past-sale record (Broad Arrow Auctions, The Amelia Auction, 8 March 2025; lot 266); the house's own Amelia 2025 results release agrees on the price",
+    "url": "https://www.hagerty.com/valuation-tools/past-sales/1990-ferrari-f40/ZFFMN34A0L0086620/75fbb51e-0d34-404a-b205-a820ec71045f"
+   },
+   "status": "sold",
+   "year": 1990
+  },
+  {
+   "chassis": "ZFFMN34A1M0089382",
+   "condition": "Original & Highly Original",
+   "currency": "USD",
+   "event": "RM Sotheby's Miami",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "mileage": "3k mi",
+   "model": "F40 (chassis ZFFMN34A1M0089382)",
+   "modelSlug": "f40",
+   "price": 3580000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2025-02-28",
+   "source": {
+    "name": "CLASSIC.COM record of the RM Sotheby's Miami 2025 result (lot 258)",
+    "url": "https://Www.Classic.com/a/rm-sothebys-miami-2025-XnlwYQ4/lots/1991-ferrari-f40-WvGqQop/"
+   },
+   "status": "sold",
+   "year": 1991
   },
   {
    "chassis": "00009/54",
@@ -100,6 +180,26 @@
    },
    "status": "sold",
    "year": 1966
+  },
+  {
+   "chassis": null,
+   "condition": "Original & Highly Original",
+   "currency": "EUR",
+   "event": "Aguttes — Collector's Cars, The Autumn Sale, Paris",
+   "make": "aston-martin",
+   "makeName": "Aston Martin",
+   "mileage": "12k mi TMU",
+   "model": "DB5",
+   "modelSlug": "db5",
+   "price": 742616,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2024-12-01",
+   "source": {
+    "name": "CLASSIC.COM record of the Aguttes Autumn Sale 2024 result, Paris (lot 39)",
+    "url": "https://www.classic.com/a/aguttes-collectors-cars-the-autumn-sale-2024-M4DdNw4/lots/1964-aston-martin-db5-pEr5dN4/"
+   },
+   "status": "sold",
+   "year": 1964
   },
   {
    "chassis": "DB5/2072/L",
@@ -742,6 +842,26 @@
    "year": 1955
   },
   {
+   "chassis": "ZFFMN34AXN0091097",
+   "condition": null,
+   "currency": "USD",
+   "event": "RM Sotheby's Monterey",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "mileage": null,
+   "model": "F40 (chassis ZFFMN34AXN0091097)",
+   "modelSlug": "f40",
+   "price": 3855000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2022-08-20",
+   "source": {
+    "name": "Hagerty past-sale record (RM Sotheby's Monterey, 20 August 2022; lot 331)",
+    "url": "https://www.hagerty.com/valuation-tools/past-sales/1992-ferrari-f40/ZFFMN34AXN0091097/0d7484b8-62c9-4ede-99fc-b96a6cb0b71b"
+   },
+   "status": "sold",
+   "year": 1992
+  },
+  {
    "chassis": "4170",
    "condition": "Original & Highly Original",
    "currency": "USD",
@@ -760,6 +880,26 @@
    },
    "status": "sold",
    "year": 1969
+  },
+  {
+   "chassis": "ZFFMN34A0L0087041",
+   "condition": "Original & Highly Original",
+   "currency": "USD",
+   "event": "Gooding & Company Pebble Beach",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "mileage": "1k mi",
+   "model": "F40 (chassis ZFFMN34A0L0087041)",
+   "modelSlug": "f40",
+   "price": 3965000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2022-08-19",
+   "source": {
+    "name": "CLASSIC.COM record of the Gooding & Company Pebble Beach 2022 result (lot 20)",
+    "url": "https://www.classic.com/a/gooding-company-pebble-beach-2022-MWR01r4/lots/1990-ferrari-f40-pgNbMwW/"
+   },
+   "status": "sold",
+   "year": 1990
   },
   {
    "chassis": null,
@@ -820,6 +960,26 @@
    },
    "status": "sold",
    "year": 1955
+  },
+  {
+   "chassis": "DB5/1939/R",
+   "condition": "Modified",
+   "currency": "EUR",
+   "event": "Artcurial — Rétromobile, Paris",
+   "make": "aston-martin",
+   "makeName": "Aston Martin",
+   "mileage": "2k mi TMU",
+   "model": "DB5 (chassis DB5/1939/R)",
+   "modelSlug": "db5",
+   "price": 834400,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2022-03-18",
+   "source": {
+    "name": "CLASSIC.COM record of the Artcurial Rétromobile 2022 result, Paris (lot 181)",
+    "url": "http://www.classic.com/a/artcurial-eu-retromobile-2022-N4AzZ3n/lots/1963-aston-martin-db5-par-carrozzeria-touring-4a6Mwxn/?page=2"
+   },
+   "status": "sold",
+   "year": 1963
   },
   {
    "chassis": "90107",
@@ -962,6 +1122,26 @@
    "year": 1968
   },
   {
+   "chassis": null,
+   "condition": null,
+   "currency": "EUR",
+   "event": "Artcurial — Artcurial Motorcars, Monaco",
+   "make": "aston-martin",
+   "makeName": "Aston Martin",
+   "mileage": null,
+   "model": "DB5",
+   "modelSlug": "db5",
+   "price": 506600,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2021-07-19",
+   "source": {
+    "name": "Glenmarch auction-results record (Artcurial Motorcars, Monaco, 19 July 2021; lot 128)",
+    "url": "https://www.glenmarch.com/cars/results/quick/Aston_Martin/DB5"
+   },
+   "status": "sold",
+   "year": 1965
+  },
+  {
    "chassis": "2199",
    "condition": null,
    "currency": "USD",
@@ -1060,6 +1240,26 @@
    },
    "status": "sold",
    "year": 1971
+  },
+  {
+   "chassis": "DB5/1767/L",
+   "condition": "Original & Highly Original",
+   "currency": "EUR",
+   "event": "Artcurial — La Parisienne, Paris",
+   "make": "aston-martin",
+   "makeName": "Aston Martin",
+   "mileage": "10k mi TMU",
+   "model": "DB5 Vantage (chassis DB5/1767/L)",
+   "modelSlug": "db5",
+   "price": 810560,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2021-02-05",
+   "source": {
+    "name": "CLASSIC.COM record of the Artcurial La Parisienne 2021 result, Paris (lot 23); Hagerty's past-sale record for chassis DB5/1767/L agrees on price and day",
+    "url": "https://www.classic.com/a/artcurial-parisienne-in-partnership-with-retromobi-k4Z5oKp/lots/1965-aston-martin-db5-vantage-4VM5kVp/?page=1"
+   },
+   "status": "sold",
+   "year": 1965
   },
   {
    "chassis": "018",
@@ -1442,6 +1642,26 @@
    "year": 1965
   },
   {
+   "chassis": "DB5/1990/L",
+   "condition": null,
+   "currency": "USD",
+   "event": "RM Sotheby's Arizona",
+   "make": "aston-martin",
+   "makeName": "Aston Martin",
+   "mileage": null,
+   "model": "DB5 (chassis DB5/1990/L)",
+   "modelSlug": "db5",
+   "price": 1045000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2017-01-19",
+   "source": {
+    "name": "Hagerty past-sale record (RM Sotheby's Arizona, 19 January 2017; lot 149); Conceptcarz's sales history for chassis DB5/1990/L agrees on the price and the house, and the house's own Arizona 2017 lot page is for the same car",
+    "url": "https://www.hagerty.com/valuation-tools/past-sales/1965-aston_martin-db5/DB51990L/41e291c9-da40-4ab1-9082-2a38fc4e59c4"
+   },
+   "status": "sold",
+   "year": 1965
+  },
+  {
    "chassis": "XKD 501",
    "condition": null,
    "currency": "USD",
@@ -1700,6 +1920,26 @@
    },
    "status": "sold",
    "year": 1961
+  },
+  {
+   "chassis": null,
+   "condition": null,
+   "currency": "EUR",
+   "event": "Bonhams — Les Grandes Marques du Monde au Grand Palais, Paris",
+   "make": "aston-martin",
+   "makeName": "Aston Martin",
+   "mileage": null,
+   "model": "DB5 Convertible",
+   "modelSlug": "db5",
+   "price": 1897500,
+   "priceBasis": "Including buyer's premium",
+   "saleDate": "2015-02-05",
+   "source": {
+    "name": "Bonhams — house press release on the Grand Palais sale, Paris (5 February 2015): a 1965 DB5 Convertible made €1,897,500",
+    "url": "https://www.bonhams.com/press_release/18537/"
+   },
+   "status": "sold",
+   "year": 1965
   },
   {
    "chassis": "87990",
@@ -2162,9 +2402,10 @@
   "Stage 9 pass: the 1967 Chevrolet Corvette L88 Coupe, chassis 194377S115791 (Mecum Kissimmee 2024, lot S168) — CLASSIC.COM's lot record marks the car sold at $3,200,000, but American Cars and Racing reports the same Kissimmee 2024 offering drew a high bid of $2,700,000 and did not sell there; the sources disagree on the outcome and the figure, so it is skipped rather than certified.",
   "Stage 10 pass: the 1971 Lamborghini Miura P400 SV, chassis 4942 (RM Sotheby's Monterey 2014, lot 230) — car, house, lot and price ($2,090,000) are published and agreed, but the sources consulted disagree on the sale day: Hagerty's past-sale record dates the sale 15 August 2014, while CLASSIC.COM's lot record dates it 16 August 2014; skipped rather than certifying a day the sources do not agree on (the stage 8 GT40 precedent).",
   "Stage 10 pass: the 1971 Lamborghini Miura P400 S at Broad Arrow Auctions, Global Icons: Europe Online (lot 148, January 2026) — car, house and lot are published, but the sources consulted disagree on the currency of the result: the house's own lot page presents a sold price of $1,716,000, while Glenmarch records the same lot at €1,716,000; skipped rather than certifying a figure whose currency the sources do not agree on.",
-  "Stage 10 pass: the 1965 Aston Martin DB5, chassis DB5/1990/L (RM Sotheby's Arizona 2017, lot 149, $1,045,000) — researched but not certified: the only record within reach in this pass was a single Hagerty past-sale record, and no second source agreeing on the figure was found; held to the corroboration standard the pass set itself rather than certified on one unconfirmed record."
+  "Stage 11 pass: the 1964 Aston Martin DB5 at RM Sotheby's Paris 2025 (lot 113, €736,250) — car, price and house are published, but the sources consulted date the sale only to the two-day event (4–5 February 2025), not to the day; skipped rather than dated by inference (the SSJ precedent).",
+  "Stage 11 pass: the 1964 Aston Martin DB5 at Broad Arrow Auctions, The Villa d'Este Auction 2025 (lot 244, €456,250) — car, price and house are published, but the sources consulted date the sale only to the two-day event (24–25 May 2025), not to the day; skipped rather than dated by inference (the SSJ precedent)."
  ],
- "stage": "Stage 10 — auction results, extended a ninth time; fifth, sixth and seventh T-CARS-1 cohorts at n≥8 (DB5/USD, Miura/USD, Miura/EUR)",
+ "stage": "Stage 11 — auction results, extended a tenth time; eighth and ninth T-CARS-1 cohorts at n≥8 (F40/USD, DB5/EUR); DB5/1990/L certified on fresh corroboration",
  "updatedAt": "2026-10-14",
  "version": "1.0.0"
 }
