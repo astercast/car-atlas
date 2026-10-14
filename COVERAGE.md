@@ -109,7 +109,12 @@ F40/EUR cohort to n=8, the priced trigger, so cohorts are now
 computed in `scripts/build.py` and published in
 `data/v1/cohorts.json`, median printed at n≥8. Stage 7 also
 certified the 2021 sale of Miura chassis 3378, the first chassis
-to appear twice in the set. The standing
+to appear twice in the set. Stage 8 (rotation 26) extended the
+set to 83 results — all 17 new results link to model pages
+(Corvette ×5, Ford GT ×6, Model J ×3, DB5 ×3); condition now
+stands at 16/83, mileage at 17/83, chassis at 61/83 — and took
+the Ford GT dollar cohort to n=8, the second cohort at the
+T-CARS-1 trigger, printing its median beside the F40's. The standing
 benchmark against the top car sites in the world — the named set,
 the scorecard, and the priced T-CARS-1 / T-CARS-5 closures — lives
 in `BENCHMARK.md`. Still planned: listings ingest adapters for

@@ -21,6 +21,75 @@
    "median": 1508000.0
   },
   {
+   "make": "ford",
+   "makeName": "Ford",
+   "modelSlug": "gt",
+   "modelName": "GT40 Mk I Road Car",
+   "currency": "USD",
+   "n": 8,
+   "min": 255000,
+   "max": 11000000,
+   "firstSale": "2012-08-17",
+   "lastSale": "2025-01-18",
+   "modelYears": [
+    1964,
+    2005
+   ],
+   "benchmark": true,
+   "median": 7020000.0
+  },
+  {
+   "make": "chevrolet",
+   "makeName": "Chevrolet",
+   "modelSlug": "corvette",
+   "modelName": "Corvette Split Window A/C Coupe",
+   "currency": "USD",
+   "n": 7,
+   "min": 225500,
+   "max": 3850000,
+   "firstSale": "2013-09-07",
+   "lastSale": "2023-01-13",
+   "modelYears": [
+    1957,
+    1967
+   ],
+   "benchmark": false
+  },
+  {
+   "make": "duesenberg",
+   "makeName": "Duesenberg",
+   "modelSlug": "model-j",
+   "modelName": "Model J Dual Cowl 'Barrelside' Phaeton",
+   "currency": "USD",
+   "n": 5,
+   "min": 1127000,
+   "max": 10340000,
+   "firstSale": "2011-08-21",
+   "lastSale": "2023-08-19",
+   "modelYears": [
+    1930,
+    1933
+   ],
+   "benchmark": false
+  },
+  {
+   "make": "aston-martin",
+   "makeName": "Aston Martin",
+   "modelSlug": "db5",
+   "modelName": "DB5 Vantage",
+   "currency": "USD",
+   "n": 3,
+   "min": 1116000,
+   "max": 6385000,
+   "firstSale": "2019-08-15",
+   "lastSale": "2025-10-31",
+   "modelYears": [
+    1965,
+    1965
+   ],
+   "benchmark": false
+  },
+  {
    "make": "lamborghini",
    "makeName": "Lamborghini",
    "modelSlug": "miura",
@@ -41,50 +110,16 @@
    "make": "aston-martin",
    "makeName": "Aston Martin",
    "modelSlug": "db5",
-   "modelName": "DB5 Convertible",
-   "currency": "USD",
+   "modelName": "DB5 Sports Saloon",
+   "currency": "EUR",
    "n": 2,
-   "min": 2205000,
-   "max": 6385000,
-   "firstSale": "2019-08-15",
-   "lastSale": "2023-08-19",
+   "min": 506000,
+   "max": 840000,
+   "firstSale": "2015-02-04",
+   "lastSale": "2025-10-12",
    "modelYears": [
-    1965,
-    1965
-   ],
-   "benchmark": false
-  },
-  {
-   "make": "chevrolet",
-   "makeName": "Chevrolet",
-   "modelSlug": "corvette",
-   "modelName": "Corvette Split Window A/C Coupe",
-   "currency": "USD",
-   "n": 2,
-   "min": 434500,
-   "max": 3850000,
-   "firstSale": "2014-01-18",
-   "lastSale": "2023-01-13",
-   "modelYears": [
-    1963,
-    1967
-   ],
-   "benchmark": false
-  },
-  {
-   "make": "duesenberg",
-   "makeName": "Duesenberg",
-   "modelSlug": "model-j",
-   "modelName": "Model J Dual Cowl 'Barrelside' Phaeton",
-   "currency": "USD",
-   "n": 2,
-   "min": 1127000,
-   "max": 2975000,
-   "firstSale": "2023-08-18",
-   "lastSale": "2023-08-19",
-   "modelYears": [
-    1930,
-    1932
+    1964,
+    1964
    ],
    "benchmark": false
   },
@@ -102,23 +137,6 @@
    "modelYears": [
     1991,
     1992
-   ],
-   "benchmark": false
-  },
-  {
-   "make": "ford",
-   "makeName": "Ford",
-   "modelSlug": "gt",
-   "modelName": "GT40 Roadster Prototype",
-   "currency": "USD",
-   "n": 2,
-   "min": 7650000,
-   "max": 11000000,
-   "firstSale": "2012-08-17",
-   "lastSale": "2019-08-16",
-   "modelYears": [
-    1965,
-    1968
    ],
    "benchmark": false
   },

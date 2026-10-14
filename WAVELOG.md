@@ -1,5 +1,56 @@
 # WAVELOG — Car Atlas
 
+## Rotation 26 — PRICE WATCH STAGE 8: the n=2 cohorts re-broadened (66 → 83), second T-CARS-1 benchmark cohort (Ford GT/USD n=8) (2026-10-14)
+
+**Headline (named before building):** certified results advance
+by an honest stage pass within the existing method — the
+Corvette, DB5, Model J and Ford GT cohorts that stood at n=2
+are the targets, and any cohort reaching n≥8 from certified
+records only becomes a benchmark cohort through the machinery
+shipped at stage 7.
+
+- **Price Watch stage 8:** **66 → 83 certified results**, each
+  certified at ingest on 2026-10-14 against a published source
+  naming car, price, house and day. Corvette ×5 (Mecum Glendale
+  2021 L88 Coupe, $2,695,000; Mecum Dallas 2013 L88 Convertible,
+  $3,200,000, the 1957 'Airbox', $290,000, and the 1963 Z06,
+  $250,000; Mecum Glendale 2021 427/400 Coupe, $225,500); Ford GT
+  ×6 (Mecum Houston 2014 GT40 Prototype GT/104, $7,000,000;
+  Mecum Monterey 2024 GT40 Lightweight, $7,865,000; Mecum Dallas
+  2013 GT, $255,000; Gooding Amelia Island 2018 GT40 Mk IV J-12,
+  $1,925,000; Gooding Amelia Island 2016 GT40 Mk I P/1065,
+  $3,300,000; Mecum Kissimmee 2025 GT40 Mk I Road Car P/1034,
+  $7,040,000); Duesenberg Model J ×3 (Gooding Pebble Beach 2011
+  Whittell Coupe, $10,340,000; RM Sotheby's Amelia Island 2015
+  'Sweep Panel' Phaeton, $1,155,000; Bonhams Amelia Island 2021
+  'Sweep Panel' Phaeton, $1,655,000); Aston Martin DB5 ×3
+  (RM Auctions London 2010 'Goldfinger' film car, £2,912,000;
+  Broad Arrow Las Vegas 2025 Vantage, $1,116,000; Bonhams Zoute
+  2025 Sports Saloon, €506,000). All 17 link to model pages.
+  Condition **13/66 → 16/83**, mileage **12/66 → 17/83**,
+  chassis **49/66 → 61/83** — populated only where the
+  certifying source states the field. Two candidates skipped
+  and recorded in the file: a GT40 Mk II (P/1016) whose sources
+  disagree on the sale day, and a GT40 Mk I (P/1028) whose
+  sources disagree on the final price ($4,400,000 vs $4,840,000).
+- **T-CARS-1 — SECOND COHORT AT THE TRIGGER:** the six dollar
+  Ford GT sales took the Ford GT/USD cohort **n=2 → n=8**, so
+  `data/v1/cohorts.json` now publishes two benchmark medians —
+  F40/EUR €1,508,000 and Ford GT/USD **$7,020,000** — over 10
+  cohorts at n≥2. Corvette stands at n=7, Model J at n=5, DB5
+  at n=3 (USD) with a new euro cohort at n=2.
+- **T-CARS-3 — audited, zero linkable:** all 27 orphans
+  re-audited against the 257-model inventory; zero move. The
+  variant-naming traps are refused by name in the rotation-26
+  landing record (250 Testa Rossa Prototype vs the 1984-on
+  Testarossa record; 300 SLR vs the SL record; D-Type/C-Type
+  vs the E-Type/F-Type token match; the Alfa 8C refusal
+  stands). Orphan count 27 → 27; share 41% → 33% on the
+  larger set; linked 39 → 56.
+- **Stated, not advanced:** T-CARS-5 rung 2 stays deploy-gated;
+  the 250 GTO model record stays an owner call; nothing was
+  licensed; the listings-ingest/cron question stays parked.
+
 ## Rotation 25 — CARS RUNG-2 ADVANCE: Price Watch stage 7 (56 → 66), T-CARS-1 machinery fired (F40/EUR n=8), T-CARS-4 first repeat (2026-10-14)
 
 **Headline (named before building):** the certified-results set

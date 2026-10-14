@@ -179,6 +179,15 @@ a conversation.
   reached the n≥8 trigger and publishes its median). Still no
   function, no cron, no external call — the audit above is
   unchanged.
+- **Rotation-26 addendum (2026-10-14):** Price Watch stage 8
+  extended the same static file to 83 certified results (17 added,
+  all linked to model records; linked 39 → 56 of 83, orphans
+  unchanged at 27, share 41% → 33%; condition 13/66 → 16/83,
+  mileage 12/66 → 17/83, chassis 49/66 → 61/83), and the Ford GT
+  dollar cohort reached the n≥8 trigger as the second benchmark
+  cohort (10 cohorts at n≥2 in `data/v1/cohorts.json`). Still no
+  function, no cron, no external call — the audit above is
+  unchanged.
 
 - **Rotation-23 addendum (2026-10-14):** photography completed
   (257/257 models, 59/59 makes photographed from licensed Commons

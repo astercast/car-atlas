@@ -1,6 +1,46 @@
 {
- "note": "Price Watch tracks completed auction results, not live listings. Every record below was certified at ingest against a published source naming the car, the price, the house, and the date; the source is linked on each record. Wave 4 certified 7 results (2026-10-13); wave 5 added 4 more to the same standard; wave 7 (stage 2) added 8 more; wave 8 (stage 3) added 9 more; wave 9 (stage 4) added 9 more; wave 10 (stage 5) added 9 more; wave 11 (stage 6) added 10 more, 56 certified results in all. Stage 5 gave every record a chassis key (populated where the source names the chassis, null otherwise) and condition and mileage fields (populated only where a source states them, null otherwise, never inferred); stage 6 populated those fields from its sources wherever they stated them, linked eight of its ten new records to model pages the atlas already carried, and added the Buy page's first cohort rung: per-model result ranges computed only from certified records in a single currency, with the count shown. Stage 6 extends the certified-results set only: the listings ingest described in earlier roadmaps is not built, and no listing, estimate or unsold lot appears here. Prices are historical facts about one specific car on one specific day, not asking prices, not estimates, and not a valuation of any other example. Rotation 25 (stage 7) added 10 more to the same standard, 66 certified results in all: six further F40 sales in euros took the F40/EUR cohort to eight certified results — the first cohort at the T-CARS-1 trigger — so stage 7 also ships the cohort machinery: cohort medians for cohorts of eight or more, computed in the build from certified records only and published in data/v1/cohorts.json, n shown wherever a figure prints. Stage 7 also certified the 2021 Gooding sale of Miura chassis 3378, the first chassis to appear twice in the certified set (T-CARS-4). Results that could not be certified to that standard were skipped, not estimated (see skippedSources).",
+ "note": "Price Watch tracks completed auction results, not live listings. Every record below was certified at ingest against a published source naming the car, the price, the house, and the date; the source is linked on each record. Wave 4 certified 7 results (2026-10-13); wave 5 added 4 more to the same standard; wave 7 (stage 2) added 8 more; wave 8 (stage 3) added 9 more; wave 9 (stage 4) added 9 more; wave 10 (stage 5) added 9 more; wave 11 (stage 6) added 10 more, 56 certified results in all. Stage 5 gave every record a chassis key (populated where the source names the chassis, null otherwise) and condition and mileage fields (populated only where a source states them, null otherwise, never inferred); stage 6 populated those fields from its sources wherever they stated them, linked eight of its ten new records to model pages the atlas already carried, and added the Buy page's first cohort rung: per-model result ranges computed only from certified records in a single currency, with the count shown. Stage 6 extends the certified-results set only: the listings ingest described in earlier roadmaps is not built, and no listing, estimate or unsold lot appears here. Prices are historical facts about one specific car on one specific day, not asking prices, not estimates, and not a valuation of any other example. Rotation 25 (stage 7) added 10 more to the same standard, 66 certified results in all: six further F40 sales in euros took the F40/EUR cohort to eight certified results — the first cohort at the T-CARS-1 trigger — so stage 7 also ships the cohort machinery: cohort medians for cohorts of eight or more, computed in the build from certified records only and published in data/v1/cohorts.json, n shown wherever a figure prints. Stage 7 also certified the 2021 Gooding sale of Miura chassis 3378, the first chassis to appear twice in the certified set (T-CARS-4). Results that could not be certified to that standard were skipped, not estimated (see skippedSources). Rotation 26 (stage 8) added 17 more to the same standard, 83 certified results in all: the pass re-broadened the four cohorts that stood at two — Corvette (five more sales, to seven in dollars), Ford GT (six more, to eight in dollars — the second cohort at the T-CARS-1 trigger, printing its build-computed median beside the F40's), Duesenberg Model J (three more, to five in dollars) and Aston Martin DB5 (three more: one each in dollars, euros and pounds, taking the dollar cohort to three and the euro cohort to two). Every new record links to a model record the atlas already carried; the orphan count is unmoved at 27. Two candidates were skipped and recorded (see skippedSources): a GT40 whose sources disagree on the sale day, and a GT40 whose sources disagree on the final price.",
  "results": [
+  {
+   "chassis": "DB5/2136/L",
+   "condition": null,
+   "currency": "USD",
+   "event": "Broad Arrow Auctions — The Las Vegas Auction",
+   "make": "aston-martin",
+   "makeName": "Aston Martin",
+   "mileage": null,
+   "model": "DB5 Vantage (chassis DB5/2136/L)",
+   "modelSlug": "db5",
+   "price": 1116000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2025-10-31",
+   "source": {
+    "name": "Broad Arrow Auctions — The Las Vegas Auction 2025 results (house results release; single-day sale, 31 October 2025; lot 126)",
+    "url": "https://www.broadarrowauctions.com/events/event/The%20Las%20Vegas%20Auction%202025"
+   },
+   "status": "sold",
+   "year": 1965
+  },
+  {
+   "chassis": "DB5/1429/R",
+   "condition": "Modified",
+   "currency": "EUR",
+   "event": "Bonhams — The Zoute Sale",
+   "make": "aston-martin",
+   "makeName": "Aston Martin",
+   "mileage": "68k mi TMU",
+   "model": "DB5 Sports Saloon (chassis DB5/1429/R)",
+   "modelSlug": "db5",
+   "price": 506000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2025-10-12",
+   "source": {
+    "name": "Bonhams — The Zoute Sale 2025 lot record (lot 146; sale 12 October 2025)",
+    "url": "https://cars.bonhams.com/auction/31021/lot/146/1964-aston-martin-db5-sports-saloon-chassis-no-db51429r-engine-no-401405/"
+   },
+   "status": "sold",
+   "year": 1964
+  },
   {
    "chassis": "00009/54",
    "condition": null,
@@ -20,6 +60,46 @@
    },
    "status": "sold",
    "year": 1954
+  },
+  {
+   "chassis": "P/1034",
+   "condition": "Original & Highly Original",
+   "currency": "USD",
+   "event": "Mecum Kissimmee 2025",
+   "make": "ford",
+   "makeName": "Ford",
+   "mileage": "4k mi TMU",
+   "model": "GT40 Mk I Road Car (chassis P/1034)",
+   "modelSlug": "gt",
+   "price": 7040000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2025-01-18",
+   "source": {
+    "name": "CLASSIC.COM record of the Mecum Kissimmee 2025 result (lot S214)",
+    "url": "https://www.classic.com/a/mecum-kissimmee-2025-k4Zy1ap/lots/1966-ford-gt40-mki-road-car-nlxjYdn/"
+   },
+   "status": "sold",
+   "year": 1966
+  },
+  {
+   "chassis": "GT40P1080",
+   "condition": "Original & Highly Original",
+   "currency": "USD",
+   "event": "Mecum Monterey 2024",
+   "make": "ford",
+   "makeName": "Ford",
+   "mileage": "1k mi TMU",
+   "model": "GT40 Lightweight (chassis GT40P1080)",
+   "modelSlug": "gt",
+   "price": 7865000,
+   "priceBasis": "Including buyer's premium",
+   "saleDate": "2024-08-17",
+   "source": {
+    "name": "CLASSIC.COM record of the Mecum Monterey 2024 result (lot S90)",
+    "url": "https://www.classic.com/a/mecum-monterrey-2024-Z475GBW/lots/1969-ford-gt40-lightweight-pEaGNNp/?page=5"
+   },
+   "status": "sold",
+   "year": 1969
   },
   {
    "chassis": "1021",
@@ -662,6 +742,66 @@
    "year": 1968
   },
   {
+   "chassis": "2355",
+   "condition": null,
+   "currency": "USD",
+   "event": "Bonhams — The Amelia Island Auction",
+   "make": "duesenberg",
+   "makeName": "Duesenberg",
+   "mileage": null,
+   "model": "Model J 'Sweep Panel' Dual-Cowl Phaeton (chassis 2355)",
+   "modelSlug": "model-j",
+   "price": 1655000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2021-05-20",
+   "source": {
+    "name": "Bonhams — The Amelia Island Auction 2021 lot record (lot 143; sale 20 May 2021)",
+    "url": "https://cars.bonhams.com/auction/26618/lot/143/1933-duesenberg-model-j-sweep-panel-dual-cowl-phaeton-chassis-no-2355-see-catalog-engine-no-j-281-see-catalog-body-no-1007-see-catalog/"
+   },
+   "status": "sold",
+   "year": 1933
+  },
+  {
+   "chassis": null,
+   "condition": null,
+   "currency": "USD",
+   "event": "Mecum Glendale 2021",
+   "make": "chevrolet",
+   "makeName": "Chevrolet",
+   "mileage": null,
+   "model": "Corvette L88 Coupe (C2, lot S122.1)",
+   "modelSlug": "corvette",
+   "price": 2695000,
+   "priceBasis": "Including buyer's premium",
+   "saleDate": "2021-03-20",
+   "source": {
+    "name": "Sports Car Digest — Mecum Glendale 2021 auction results (sale held 18–20 March 2021; lot S122.1, Saturday session)",
+    "url": "https://sportscardigest.com/2021-mecum-glendale-auction-results/"
+   },
+   "status": "sold",
+   "year": 1967
+  },
+  {
+   "chassis": "194377S120207",
+   "condition": null,
+   "currency": "USD",
+   "event": "Mecum Glendale 2021",
+   "make": "chevrolet",
+   "makeName": "Chevrolet",
+   "mileage": "242 mi TMU",
+   "model": "Corvette 427/400 Coupe (C2, lot S95.1)",
+   "modelSlug": "corvette",
+   "price": 225500,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2021-03-20",
+   "source": {
+    "name": "CLASSIC.COM record of the Mecum Glendale 2021 result (lot S95.1)",
+    "url": "http://www.classic.com/a/mecum-glendale-2021-kpdw9NW/lots/1967-chevrolet-corvette-427400-coupe-n3yjkbp/"
+   },
+   "status": "sold",
+   "year": 1967
+  },
+  {
    "chassis": "018",
    "condition": null,
    "currency": "USD",
@@ -802,6 +942,26 @@
    "year": 1963
   },
   {
+   "chassis": "J-12",
+   "condition": null,
+   "currency": "USD",
+   "event": "Gooding & Company Amelia Island",
+   "make": "ford",
+   "makeName": "Ford",
+   "mileage": null,
+   "model": "GT40 Mk IV (chassis J-12)",
+   "modelSlug": "gt",
+   "price": 1925000,
+   "priceBasis": "Including buyer's premium",
+   "saleDate": "2018-03-09",
+   "source": {
+    "name": "Gooding & Company lot record — Amelia Island 2018 (lot 28; single-day sale, 9 March 2018)",
+    "url": "https://www.goodingco.com/lot/1967-ford-gt40-mk-iv/"
+   },
+   "status": "sold",
+   "year": 1967
+  },
+  {
    "chassis": null,
    "condition": null,
    "currency": "EUR",
@@ -900,6 +1060,26 @@
    },
    "status": "sold",
    "year": 1955
+  },
+  {
+   "chassis": "GT40 P/1065",
+   "condition": null,
+   "currency": "USD",
+   "event": "Gooding & Company Amelia Island",
+   "make": "ford",
+   "makeName": "Ford",
+   "mileage": null,
+   "model": "GT40 Mk I (chassis GT40 P/1065)",
+   "modelSlug": "gt",
+   "price": 3300000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2016-03-11",
+   "source": {
+    "name": "Gooding & Company lot record — Amelia Island 2016 (lot 62; single-day sale, 11 March 2016)",
+    "url": "https://www.goodingco.com/lot/1966-ford-gt40-mk1/"
+   },
+   "status": "sold",
+   "year": 1966
   },
   {
    "chassis": "0674",
@@ -1042,6 +1222,26 @@
    "year": 1964
   },
   {
+   "chassis": "2336",
+   "condition": null,
+   "currency": "USD",
+   "event": "RM Sotheby's Amelia Island",
+   "make": "duesenberg",
+   "makeName": "Duesenberg",
+   "mileage": null,
+   "model": "Model J 'Sweep Panel' Dual-Cowl Phaeton (chassis 2336)",
+   "modelSlug": "model-j",
+   "price": 1155000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2015-03-14",
+   "source": {
+    "name": "Hagerty past-sale record — RM Sotheby's Amelia Island 2015 (lot 136; sold 14 March 2015)",
+    "url": "https://www.hagerty.com/valuation-tools/past-sales/1930-duesenberg-model_j/2336/0dab03ca-f8d4-4239-b969-b131ff150834"
+   },
+   "status": "sold",
+   "year": 1930
+  },
+  {
    "chassis": null,
    "condition": null,
    "currency": "EUR",
@@ -1142,6 +1342,26 @@
    "year": 1962
   },
   {
+   "chassis": "GT/104",
+   "condition": null,
+   "currency": "USD",
+   "event": "Mecum Houston 2014",
+   "make": "ford",
+   "makeName": "Ford",
+   "mileage": null,
+   "model": "GT40 Prototype (chassis GT/104)",
+   "modelSlug": "gt",
+   "price": 7000000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2014-04-12",
+   "source": {
+    "name": "CLASSIC.COM record of the Mecum Houston 2014 result (lot S147.1)",
+    "url": "https://www.classic.com/a/mecum-houston-2014-3WkwlWV/lots/1964-ford-gt40-prototype-WbBYdmW/?page=41"
+   },
+   "status": "sold",
+   "year": 1964
+  },
+  {
    "chassis": null,
    "condition": null,
    "currency": "EUR",
@@ -1200,6 +1420,86 @@
    },
    "status": "sold",
    "year": 1967
+  },
+  {
+   "chassis": null,
+   "condition": null,
+   "currency": "USD",
+   "event": "Mecum Dallas 2013",
+   "make": "chevrolet",
+   "makeName": "Chevrolet",
+   "mileage": null,
+   "model": "Corvette L88 Convertible (C2, lot S123)",
+   "modelSlug": "corvette",
+   "price": 3200000,
+   "priceBasis": "As reported from the sale",
+   "saleDate": "2013-09-07",
+   "source": {
+    "name": "GM Authority — Mecum Dallas 2013 top-ten results (sale Saturday 7 September 2013)",
+    "url": "https://gmauthority.com/blog/2013/09/world-record-auction-price-set-for-a-corvette-at-3-2-million/"
+   },
+   "status": "sold",
+   "year": 1967
+  },
+  {
+   "chassis": null,
+   "condition": null,
+   "currency": "USD",
+   "event": "Mecum Dallas 2013",
+   "make": "chevrolet",
+   "makeName": "Chevrolet",
+   "mileage": null,
+   "model": "Corvette 'Airbox' (C1, lot S121)",
+   "modelSlug": "corvette",
+   "price": 290000,
+   "priceBasis": "As reported from the sale",
+   "saleDate": "2013-09-07",
+   "source": {
+    "name": "GM Authority — Mecum Dallas 2013 top-ten results (sale Saturday 7 September 2013)",
+    "url": "https://gmauthority.com/blog/2013/09/world-record-auction-price-set-for-a-corvette-at-3-2-million/"
+   },
+   "status": "sold",
+   "year": 1957
+  },
+  {
+   "chassis": null,
+   "condition": null,
+   "currency": "USD",
+   "event": "Mecum Dallas 2013",
+   "make": "chevrolet",
+   "makeName": "Chevrolet",
+   "mileage": null,
+   "model": "Corvette Z06 Coupe (C2, lot S125)",
+   "modelSlug": "corvette",
+   "price": 250000,
+   "priceBasis": "As reported from the sale",
+   "saleDate": "2013-09-07",
+   "source": {
+    "name": "GM Authority — Mecum Dallas 2013 top-ten results (sale Saturday 7 September 2013)",
+    "url": "https://gmauthority.com/blog/2013/09/world-record-auction-price-set-for-a-corvette-at-3-2-million/"
+   },
+   "status": "sold",
+   "year": 1963
+  },
+  {
+   "chassis": null,
+   "condition": null,
+   "currency": "USD",
+   "event": "Mecum Dallas 2013",
+   "make": "ford",
+   "makeName": "Ford",
+   "mileage": null,
+   "model": "GT (lot S107)",
+   "modelSlug": "gt",
+   "price": 255000,
+   "priceBasis": "As reported from the sale",
+   "saleDate": "2013-09-07",
+   "source": {
+    "name": "GM Authority — Mecum Dallas 2013 top-ten results (sale Saturday 7 September 2013)",
+    "url": "https://gmauthority.com/blog/2013/09/world-record-auction-price-set-for-a-corvette-at-3-2-million/"
+   },
+   "status": "sold",
+   "year": 2005
   },
   {
    "chassis": "10709",
@@ -1302,6 +1602,26 @@
    "year": 1957
   },
   {
+   "chassis": "2478",
+   "condition": null,
+   "currency": "USD",
+   "event": "Gooding & Company Pebble Beach",
+   "make": "duesenberg",
+   "makeName": "Duesenberg",
+   "mileage": "12,581 mi",
+   "model": "Model J Long-Wheelbase Coupe, the Whittell Coupe (chassis 2478)",
+   "modelSlug": "model-j",
+   "price": 10340000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2011-08-21",
+   "source": {
+    "name": "Hagerty past-sale record — Gooding & Company Pebble Beach 2011 (lot 123; sold 21 August 2011)",
+    "url": "https://hagerty.com/valuation-tools/past-sales/1931-duesenberg-model_j/2478/4b20deb6-9c50-42e6-9e30-190e80bcc226"
+   },
+   "status": "sold",
+   "year": 1931
+  },
+  {
    "chassis": "0666 TR",
    "condition": null,
    "currency": "USD",
@@ -1320,6 +1640,26 @@
    },
    "status": "sold",
    "year": 1957
+  },
+  {
+   "chassis": "DB5/1486/R",
+   "condition": null,
+   "currency": "GBP",
+   "event": "RM Auctions, London — Automobiles of London",
+   "make": "aston-martin",
+   "makeName": "Aston Martin",
+   "mileage": null,
+   "model": "DB5 'Goldfinger' Film Car (chassis DB5/1486/R)",
+   "modelSlug": "db5",
+   "price": 2912000,
+   "priceBasis": "Including buyer's premium",
+   "saleDate": "2010-10-27",
+   "source": {
+    "name": "Old Cars Weekly — RM Auctions London sale report (27 October 2010)",
+    "url": "https://www.oldcarsweekly.com/news/rm-sells-bond-db5-for-4-6m"
+   },
+   "status": "sold",
+   "year": 1964
   }
  ],
  "skippedSources": [
@@ -1334,9 +1674,11 @@
   "Wave 9 pass: the 1929 Bentley 4½-Litre Supercharged 'Blower' No.1 (£5,042,000 incl. premium, Bonhams, Goodwood Festival of Speed, June 2012) — car, price, house and sale are all published, but the atlas carries no Bentley marque record; certifying it would require a marque the atlas does not have, so it is skipped rather than misattributed (the CSX 2000 precedent).",
   "Wave 10 pass: the 1937 Bugatti Type 57 Atalante Coupé ($10,345,000, Gooding & Company, Pebble Beach, 2022) — car, price and house are published, but the atlas carries no Bugatti marque record; certifying it would require a marque the atlas does not have, so it is skipped rather than misattributed (the CSX 2000 / Blower precedent).",
   "Wave 11 pass: the 2006 Bugatti Veyron 16.4 ($1,545,000, Gooding & Company Pebble Beach, 2023-08-19) — car, price, house and day are all published, but the atlas carries no Bugatti marque record; certifying it would require a marque the atlas does not have, so it is skipped rather than misattributed (the CSX 2000 / Blower / Atalante precedent).",
-  "Stage 7 pass: the 1991 Ferrari F40 at Artcurial Rétromobile 2020 (lot 115, 7 February 2020) — car, house, day and lot are published, but the sources consulted disagree on the final price (€1,112,840 vs €1,112,800); skipped rather than certifying a figure the sources do not agree on."
+  "Stage 7 pass: the 1991 Ferrari F40 at Artcurial Rétromobile 2020 (lot 115, 7 February 2020) — car, house, day and lot are published, but the sources consulted disagree on the final price (€1,112,840 vs €1,112,800); skipped rather than certifying a figure the sources do not agree on.",
+  "Stage 8 pass: the 1966 Ford GT40 Mk II, chassis P/1016 ($9,795,000, RM Sotheby's Monterey, lot 124) — car, price and house are published and agreed, but the sources consulted disagree on the sale day: RM Sotheby's own results release (via Sports Car Digest) puts the car on Friday evening, 24 August 2018, while the CLASSIC.COM lot record dates it 25 August 2018; skipped rather than dating a record the sources do not agree on.",
+  "Stage 8 pass: the 1966 Ford GT40 Mk I, chassis P/1028 (Mecum Monterey 2016, lot S103) — car, house, lot and event are published, but the sources consulted disagree on the final price: Glenmarch records $4,400,000 while Hagerty's past-sale record and MotorTrend record $4,840,000 — the hammer and premium-inclusive figures both published as the result; skipped rather than certifying a figure the sources do not agree on (the Artcurial F40 precedent)."
  ],
- "stage": "Stage 7 — auction results, extended a sixth time; first T-CARS-1 cohort at n≥8, machinery shipped",
+ "stage": "Stage 8 — auction results, extended a seventh time; second T-CARS-1 cohort at n≥8 (Ford GT/USD); the n=2 cohorts re-broadened",
  "updatedAt": "2026-10-14",
  "version": "1.0.0"
 }
