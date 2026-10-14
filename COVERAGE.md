@@ -144,7 +144,18 @@ DB5 dollar median at $1,100,000 over nine sales. The DB5 in
 dollars is chassis DB5/1990/L, certified in this pass on fresh
 corroboration after its stage-10 hold. Two further candidates
 were skipped and recorded: two DB5 sales in euros whose sources
-date the sale only to a two-day event. The standing
+date the sale only to a two-day event. Stage 12
+(rotation 30) extended the set to 125 results — all 6 new results
+link to the McLaren F1 model page (sales in dollars from 2006 to
+2026, chassis 014, 062, 066, 073, 044 and the F1 GTR 10R);
+condition now stands at 32/125, mileage at 36/125, chassis at
+96/125 — and took the F1 dollar cohort to n=8 (median
+$14,685,000), the tenth cohort at the T-CARS-1 trigger, so every
+cohort of two or more is now a benchmark cohort. Five further
+candidates were skipped and recorded: three whose sources
+disagree on the figure or its basis, one sealed sale whose
+result was never published, and one whose house-published
+currency could not be established. The standing
 benchmark against the top car sites in the world — the named set,
 the scorecard, and the priced T-CARS-1 / T-CARS-5 closures — lives
 in `BENCHMARK.md`. Still planned: listings ingest adapters for

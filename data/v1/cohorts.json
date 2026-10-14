@@ -170,16 +170,17 @@
    "modelSlug": "f1",
    "modelName": "F1",
    "currency": "USD",
-   "n": 2,
-   "min": 19805000,
-   "max": 20465000,
-   "firstSale": "2019-08-16",
-   "lastSale": "2021-08-14",
+   "n": 8,
+   "min": 1705000,
+   "max": 34655000,
+   "firstSale": "2006-08-19",
+   "lastSale": "2026-08-15",
    "modelYears": [
     1994,
-    1995
+    1998
    ],
-   "benchmark": false
+   "benchmark": true,
+   "median": 14685000.0
   }
  ]
 }

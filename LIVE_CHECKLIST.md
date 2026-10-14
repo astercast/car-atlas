@@ -218,6 +218,17 @@ a conversation.
   $1,100,000 over n=9). Still no function, no cron, no external
   call — the audit above is unchanged.
 
+- **Rotation-30 addendum (2026-10-14):** Price Watch stage 12
+  extended the same static file to 125 certified results (6 added,
+  all linked to the McLaren F1 model record; linked 92 → 98 of
+  125, orphans unchanged at 27, share 23% → 22%; condition
+  30/119 → 32/125, mileage 33/119 → 36/125, chassis 90/119 →
+  96/125), and the McLaren F1 dollar cohort (n=8) reached the
+  n≥8 trigger as the tenth benchmark cohort (10 cohorts at n≥2
+  in `data/v1/cohorts.json`, all of them benchmarks; F1 dollar
+  median $14,685,000 over eight sales, 2006–2026). Still no
+  function, no cron, no external call — the audit above is
+  unchanged.
 - **Rotation-23 addendum (2026-10-14):** photography completed
   (257/257 models, 59/59 makes photographed from licensed Commons
   sources, per-photo credit + file-page URL in the dataset for the

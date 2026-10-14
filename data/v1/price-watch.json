@@ -1,6 +1,26 @@
 {
- "note": "Price Watch tracks completed auction results, not live listings. Every record below was certified at ingest against a published source naming the car, the price, the house, and the date; the source is linked on each record. Wave 4 certified 7 results (2026-10-13); wave 5 added 4 more to the same standard; wave 7 (stage 2) added 8 more; wave 8 (stage 3) added 9 more; wave 9 (stage 4) added 9 more; wave 10 (stage 5) added 9 more; wave 11 (stage 6) added 10 more, 56 certified results in all. Stage 5 gave every record a chassis key (populated where the source names the chassis, null otherwise) and condition and mileage fields (populated only where a source states them, null otherwise, never inferred); stage 6 populated those fields from its sources wherever they stated them, linked eight of its ten new records to model pages the atlas already carried, and added the Buy page's first cohort rung: per-model result ranges computed only from certified records in a single currency, with the count shown. Stage 6 extends the certified-results set only: the listings ingest described in earlier roadmaps is not built, and no listing, estimate or unsold lot appears here. Prices are historical facts about one specific car on one specific day, not asking prices, not estimates, and not a valuation of any other example. Rotation 25 (stage 7) added 10 more to the same standard, 66 certified results in all: six further F40 sales in euros took the F40/EUR cohort to eight certified results, the first cohort at the T-CARS-1 trigger, so stage 7 also ships the cohort machinery: cohort medians for cohorts of eight or more, computed in the build from certified records only and published in data/v1/cohorts.json, n shown wherever a figure prints. Stage 7 also certified the 2021 Gooding sale of Miura chassis 3378, the first chassis to appear twice in the certified set (T-CARS-4). Results that could not be certified to that standard were skipped, not estimated (see skippedSources). Rotation 26 (stage 8) added 17 more to the same standard, 83 certified results in all: the pass re-broadened the four cohorts that stood at two: Corvette (five more sales, to seven in dollars), Ford GT (six more, to eight in dollars, the second cohort at the T-CARS-1 trigger, printing its build-computed median beside the F40's), Duesenberg Model J (three more, to five in dollars) and Aston Martin DB5 (three more: one each in dollars, euros and pounds, taking the dollar cohort to three and the euro cohort to two). Every new record links to a model record the atlas already carried; the orphan count is unmoved at 27. Two candidates were skipped and recorded (see skippedSources): a GT40 whose sources disagree on the sale day, and a GT40 whose sources disagree on the final price. Rotation 27 (stage 9) added 13 more to the same standard, 96 certified results in all: the pass worked the near-threshold cohorts: Corvette (three more sales, to ten in dollars, the third cohort at the T-CARS-1 trigger), Duesenberg Model J (four more, to nine in dollars, the fourth cohort at the trigger), Aston Martin DB5 (three more: two in dollars, to five, and one in euros, to three) and Lamborghini Miura (three more: two in dollars, to five, and one in euros, to three). Every new record links to a model record the atlas already carried; the orphan count is unmoved at 27. Three candidates were skipped and recorded (see skippedSources): three 1967 Corvette L88 sales whose sources disagree on the final price, on the Artcurial F40 precedent. Rotation 28 (stage 10) added 11 more to the same standard, 107 certified results in all: the pass worked the two cohorts that stood at five and the euro Miura cohort that stood at three: Aston Martin DB5 (three more in dollars, to eight, the fifth cohort at the T-CARS-1 trigger), Lamborghini Miura (three more in dollars, to eight, the sixth cohort at the trigger, and five more in euros, to eight, the seventh cohort at the trigger). Every new record links to a model record the atlas already carried; the orphan count is unmoved at 27. Three candidates were skipped and recorded (see skippedSources): a Miura SV whose sources disagree on the sale day, a Miura S whose sources disagree on the currency of the result, and a DB5 held to the pass's own corroboration standard. Rotation 29 (stage 11) added 12 more to the same standard, 119 certified results in all: the pass worked the two cohorts that stood nearest the trigger below eight: Ferrari F40 (six more in dollars, to eight, the eighth cohort at the T-CARS-1 trigger) and Aston Martin DB5 (five more in euros, to eight, the ninth cohort at the trigger, and one more in dollars, to nine). The DB5 in dollars is chassis DB5/1990/L, held at stage 10 to the pass's own corroboration standard and certified here only because a second source agreeing on the figure was found in this pass (see the record's source line). One F40 chassis (ZFFMN34A0L0086620) appears twice in this pass alone, sold at Amelia in March 2025 and again at Pebble Beach in August 2025. Every new record links to a model record the atlas already carried; the orphan count is unmoved at 27. Two candidates were skipped and recorded (see skippedSources): two DB5 sales in euros whose sources date the sale only to a two-day event, not to the day (the SSJ precedent).",
+ "note": "Price Watch tracks completed auction results, not live listings. Every record below was certified at ingest against a published source naming the car, the price, the house, and the date; the source is linked on each record. Wave 4 certified 7 results (2026-10-13); wave 5 added 4 more to the same standard; wave 7 (stage 2) added 8 more; wave 8 (stage 3) added 9 more; wave 9 (stage 4) added 9 more; wave 10 (stage 5) added 9 more; wave 11 (stage 6) added 10 more, 56 certified results in all. Stage 5 gave every record a chassis key (populated where the source names the chassis, null otherwise) and condition and mileage fields (populated only where a source states them, null otherwise, never inferred); stage 6 populated those fields from its sources wherever they stated them, linked eight of its ten new records to model pages the atlas already carried, and added the Buy page's first cohort rung: per-model result ranges computed only from certified records in a single currency, with the count shown. Stage 6 extends the certified-results set only: the listings ingest described in earlier roadmaps is not built, and no listing, estimate or unsold lot appears here. Prices are historical facts about one specific car on one specific day, not asking prices, not estimates, and not a valuation of any other example. Rotation 25 (stage 7) added 10 more to the same standard, 66 certified results in all: six further F40 sales in euros took the F40/EUR cohort to eight certified results, the first cohort at the T-CARS-1 trigger, so stage 7 also ships the cohort machinery: cohort medians for cohorts of eight or more, computed in the build from certified records only and published in data/v1/cohorts.json, n shown wherever a figure prints. Stage 7 also certified the 2021 Gooding sale of Miura chassis 3378, the first chassis to appear twice in the certified set (T-CARS-4). Results that could not be certified to that standard were skipped, not estimated (see skippedSources). Rotation 26 (stage 8) added 17 more to the same standard, 83 certified results in all: the pass re-broadened the four cohorts that stood at two: Corvette (five more sales, to seven in dollars), Ford GT (six more, to eight in dollars, the second cohort at the T-CARS-1 trigger, printing its build-computed median beside the F40's), Duesenberg Model J (three more, to five in dollars) and Aston Martin DB5 (three more: one each in dollars, euros and pounds, taking the dollar cohort to three and the euro cohort to two). Every new record links to a model record the atlas already carried; the orphan count is unmoved at 27. Two candidates were skipped and recorded (see skippedSources): a GT40 whose sources disagree on the sale day, and a GT40 whose sources disagree on the final price. Rotation 27 (stage 9) added 13 more to the same standard, 96 certified results in all: the pass worked the near-threshold cohorts: Corvette (three more sales, to ten in dollars, the third cohort at the T-CARS-1 trigger), Duesenberg Model J (four more, to nine in dollars, the fourth cohort at the trigger), Aston Martin DB5 (three more: two in dollars, to five, and one in euros, to three) and Lamborghini Miura (three more: two in dollars, to five, and one in euros, to three). Every new record links to a model record the atlas already carried; the orphan count is unmoved at 27. Three candidates were skipped and recorded (see skippedSources): three 1967 Corvette L88 sales whose sources disagree on the final price, on the Artcurial F40 precedent. Rotation 28 (stage 10) added 11 more to the same standard, 107 certified results in all: the pass worked the two cohorts that stood at five and the euro Miura cohort that stood at three: Aston Martin DB5 (three more in dollars, to eight, the fifth cohort at the T-CARS-1 trigger), Lamborghini Miura (three more in dollars, to eight, the sixth cohort at the trigger, and five more in euros, to eight, the seventh cohort at the trigger). Every new record links to a model record the atlas already carried; the orphan count is unmoved at 27. Three candidates were skipped and recorded (see skippedSources): a Miura SV whose sources disagree on the sale day, a Miura S whose sources disagree on the currency of the result, and a DB5 held to the pass's own corroboration standard. Rotation 29 (stage 11) added 12 more to the same standard, 119 certified results in all: the pass worked the two cohorts that stood nearest the trigger below eight: Ferrari F40 (six more in dollars, to eight, the eighth cohort at the T-CARS-1 trigger) and Aston Martin DB5 (five more in euros, to eight, the ninth cohort at the trigger, and one more in dollars, to nine). The DB5 in dollars is chassis DB5/1990/L, held at stage 10 to the pass's own corroboration standard and certified here only because a second source agreeing on the figure was found in this pass (see the record's source line). One F40 chassis (ZFFMN34A0L0086620) appears twice in this pass alone, sold at Amelia in March 2025 and again at Pebble Beach in August 2025. Every new record links to a model record the atlas already carried; the orphan count is unmoved at 27. Two candidates were skipped and recorded (see skippedSources): two DB5 sales in euros whose sources date the sale only to a two-day event, not to the day (the SSJ precedent). Rotation 30 (stage 12) added 6 more to the same standard, 125 certified results in all, all six McLaren F1 sales in dollars: chassis 014 at RM Auctions Monterey in 2006 ($1,705,000), chassis 062 at Gooding & Company Pebble Beach in 2010 ($3,575,000), chassis 066 at Gooding & Company Pebble Beach in 2013 ($8,470,000), chassis 073, the LM-Specification car, at RM Sotheby's Monterey in 2015 ($13,750,000), chassis 044 at Bonhams Quail Lodge in 2017 ($15,620,000), and the F1 GTR chassis 10R at RM Sotheby's Monterey in 2026 ($34,655,000). The F1 GTR is carried on the F1 model record on the precedent of the F40 LM's record on the F40 record: a factory variant of the model, named as the variant on the record itself. With the two standing results the F1 dollar cohort reaches eight certified sales, the T-CARS-1 trigger, so stage 12 also fires the cohort machinery a tenth time and every cohort at n≥2 is now a benchmark cohort. Five further candidates were skipped and recorded (see skippedSources): three whose sources disagree on the figure or its basis, one sealed sale whose result was never published, and one whose house-published currency could not be established. Every new record links to a model record the atlas already carried; the orphan count is unmoved at 27.",
  "results": [
+  {
+   "chassis": "10R",
+   "condition": null,
+   "currency": "USD",
+   "event": "RM Sotheby's Monterey",
+   "make": "mclaren",
+   "makeName": "McLaren",
+   "mileage": null,
+   "model": "F1 (chassis 10R, the F1 GTR 'Pop Art' car)",
+   "modelSlug": "f1",
+   "price": 34655000,
+   "priceBasis": "Including buyer's premium",
+   "saleDate": "2026-08-15",
+   "source": {
+    "name": "duPont Registry — RM Sotheby's Monterey Auction 2026 top results (the 1996 F1 GTR, chassis 10R, factory Pop Art car, $34,655,000; Saturday session, 15 August 2026, lot 328)",
+    "url": "https://news.dupontregistry.com/blogs/auctions/rm-sothebys-the-monterey-auction-2026-top-10-results-highlights"
+   },
+   "status": "sold",
+   "year": 1996
+  },
   {
    "chassis": "DB5/2136/L",
    "condition": null,
@@ -1602,6 +1622,26 @@
    "year": 1970
   },
   {
+   "chassis": "044",
+   "condition": "Unrestored original",
+   "currency": "USD",
+   "event": "Bonhams, Quail Lodge",
+   "make": "mclaren",
+   "makeName": "McLaren",
+   "mileage": "9,600 mi",
+   "model": "F1 (chassis 044)",
+   "modelSlug": "f1",
+   "price": 15620000,
+   "priceBasis": "Including buyer's premium",
+   "saleDate": "2017-08-18",
+   "source": {
+    "name": "Sports Car Digest — Bonhams Quail Lodge 2017 auction results (held Friday, 18 August 2017; the 1995 F1 the top result at $15,620,000, lot 73; condition and 9,600 mi as reported from the sale)",
+    "url": "https://sportscardigest.com/bonhams-quail-lodge-2017-auction-results/"
+   },
+   "status": "sold",
+   "year": 1995
+  },
+  {
    "chassis": "DB5/2098/R",
    "condition": null,
    "currency": "USD",
@@ -1860,6 +1900,26 @@
    },
    "status": "sold",
    "year": 1971
+  },
+  {
+   "chassis": "073",
+   "condition": null,
+   "currency": "USD",
+   "event": "RM Sotheby's Monterey — The Pinnacle Portfolio",
+   "make": "mclaren",
+   "makeName": "McLaren",
+   "mileage": null,
+   "model": "F1 'LM-Specification' (chassis 073)",
+   "modelSlug": "f1",
+   "price": 13750000,
+   "priceBasis": "Including buyer's premium",
+   "saleDate": "2015-08-13",
+   "source": {
+    "name": "Hagerty past-sale record for VIN SA9AB5AC4W1048073 (RM Sotheby's Monterey, sold 13 August 2015, lot 107, $13,750,000)",
+    "url": "https://www.hagerty.com/valuation-tools/past-sales/1998-mclaren-f1_lm/SA9AB5AC4W1048073/ed69b30a-67bf-4ae6-89d9-de04f1038bd5"
+   },
+   "status": "sold",
+   "year": 1998
   },
   {
    "chassis": "2336",
@@ -2242,6 +2302,26 @@
    "year": 1967
   },
   {
+   "chassis": "066",
+   "condition": null,
+   "currency": "USD",
+   "event": "Gooding & Company, Pebble Beach",
+   "make": "mclaren",
+   "makeName": "McLaren",
+   "mileage": "13,904 mi",
+   "model": "F1 (chassis 066)",
+   "modelSlug": "f1",
+   "price": 8470000,
+   "priceBasis": "Including buyer's premium",
+   "saleDate": "2013-08-17",
+   "source": {
+    "name": "Hagerty past-sale record for VIN SA9AB5AC9V1048066 (Gooding & Company, Pebble Beach, sold 17 August 2013, lot 51, $8,470,000; odometer 13,904 mi as recorded)",
+    "url": "https://www.hagerty.com/valuation-tools/past-sales/1997-mclaren-f1/SA9AB5AC9V1048066/900f01fb-b6e6-4889-bedf-e2b57319f983"
+   },
+   "status": "sold",
+   "year": 1997
+  },
+  {
    "chassis": "00006/54",
    "condition": null,
    "currency": "GBP",
@@ -2380,6 +2460,46 @@
    },
    "status": "sold",
    "year": 1964
+  },
+  {
+   "chassis": "062",
+   "condition": "Unrestored original",
+   "currency": "USD",
+   "event": "Gooding & Company, Pebble Beach",
+   "make": "mclaren",
+   "makeName": "McLaren",
+   "mileage": "3,242 mi",
+   "model": "F1 (chassis 062)",
+   "modelSlug": "f1",
+   "price": 3575000,
+   "priceBasis": "Including buyer's premium",
+   "saleDate": "2010-08-15",
+   "source": {
+    "name": "Sports Car Digest — Monterey Auction Report 2010 (Gooding & Company, Pebble Beach, lot 146: 1995 F1, S/N 062, hammered at $3,250,000 plus 10% commission, final $3,575,000; 3,242 mi as reported; the house's sale announcement places the car in its Sunday auction, 15 August 2010)",
+    "url": "https://sportscardigest.com/monterey-auction-report-2010-massive-monterey-money/"
+   },
+   "status": "sold",
+   "year": 1995
+  },
+  {
+   "chassis": "014",
+   "condition": null,
+   "currency": "USD",
+   "event": "RM Auctions, Monterey Sports & Classic Car Auction",
+   "make": "mclaren",
+   "makeName": "McLaren",
+   "mileage": null,
+   "model": "F1 (chassis 014)",
+   "modelSlug": "f1",
+   "price": 1705000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2006-08-19",
+   "source": {
+    "name": "RM Sotheby's lot record, Monterey Sports & Classic Car Auction 2006 (1994 F1, identification no. SA9AB5AC4R1048014, lot 471, $1,705,000 USD, sold; the sale's Saturday session, 19 August 2006, per the contemporary MotorTrend results table)",
+    "url": "https://rmsothebys.com/auctions/mo06/lots/r352-1994-mclaren-f1/"
+   },
+   "status": "sold",
+   "year": 1994
   }
  ],
  "skippedSources": [
@@ -2403,9 +2523,14 @@
   "Stage 10 pass: the 1971 Lamborghini Miura P400 SV, chassis 4942 (RM Sotheby's Monterey 2014, lot 230) — car, house, lot and price ($2,090,000) are published and agreed, but the sources consulted disagree on the sale day: Hagerty's past-sale record dates the sale 15 August 2014, while CLASSIC.COM's lot record dates it 16 August 2014; skipped rather than certifying a day the sources do not agree on (the stage 8 GT40 precedent).",
   "Stage 10 pass: the 1971 Lamborghini Miura P400 S at Broad Arrow Auctions, Global Icons: Europe Online (lot 148, January 2026) — car, house and lot are published, but the sources consulted disagree on the currency of the result: the house's own lot page presents a sold price of $1,716,000, while Glenmarch records the same lot at €1,716,000; skipped rather than certifying a figure whose currency the sources do not agree on.",
   "Stage 11 pass: the 1964 Aston Martin DB5 at RM Sotheby's Paris 2025 (lot 113, €736,250) — car, price and house are published, but the sources consulted date the sale only to the two-day event (4–5 February 2025), not to the day; skipped rather than dated by inference (the SSJ precedent).",
-  "Stage 11 pass: the 1964 Aston Martin DB5 at Broad Arrow Auctions, The Villa d'Este Auction 2025 (lot 244, €456,250) — car, price and house are published, but the sources consulted date the sale only to the two-day event (24–25 May 2025), not to the day; skipped rather than dated by inference (the SSJ precedent)."
+  "Stage 11 pass: the 1964 Aston Martin DB5 at Broad Arrow Auctions, The Villa d'Este Auction 2025 (lot 244, €456,250) — car, price and house are published, but the sources consulted date the sale only to the two-day event (24–25 May 2025), not to the day; skipped rather than dated by inference (the SSJ precedent).",
+  "Stage 12 pass: the 1994 McLaren F1, chassis 014 (RM Sotheby's Abu Dhabi, 5 December 2025, lot 432) — car, house, day and lot are published, but the sources consulted disagree on the final price: the house-derived results lists (Glenmarch; Classic Car Auctions) record $25,317,500, while Hagerty Media's report of the same sale records $25,317,300; skipped rather than certifying a figure the sources do not agree on (the Artcurial F40 precedent). The same chassis is certified in this pass for its 2006 Monterey sale, where the sources agree.",
+  "Stage 12 pass: the 1995 McLaren F1 Stradale, Ameritech VIN 1A9MC99L3SA398042 (ISSIMI online, lot 459, 25 May 2021) — car, house, lot and day are published, but the sources consulted disagree on the final price: ISSIMI's own lot record and CLASSIC.COM's lot record record $16,550,000, the hammer, while Hagerty's past-sale record records $16,881,000, the premium-inclusive figure published as the result; skipped rather than certifying a figure the sources do not agree on (the GT40 P/1028 / L88 precedents).",
+  "Stage 12 pass: the 1997 McLaren F1, chassis 065 (RM Auctions, Automobiles of London, 29 October 2008) — car, house and day are published, but the sources consulted publish both the £2,300,000 hammer and the £2,530,000 figure without the house release stating the premium basis that separates them; skipped on the same hammer-versus-final precedent (the GT40 P/1028 / L88 precedents).",
+  "Stage 12 pass: the 1998 McLaren F1, chassis 059 (RM Sotheby's Sealed, August 2022) — the sealed format publishes neither an estimate nor a result, so no price can be certified; excluded like the private transactions above, not estimated.",
+  "Stage 12 pass: the 1994 McLaren F1, chassis 011 (Christie's, London, 11 June 2003, lot 87) — a past-sale index records the result converted to dollars ($998,386), but the figure as the house published it, in its own currency, could not be established from the sources consulted; skipped rather than certifying a converted figure."
  ],
- "stage": "Stage 11 — auction results, extended a tenth time; eighth and ninth T-CARS-1 cohorts at n≥8 (F40/USD, DB5/EUR); DB5/1990/L certified on fresh corroboration",
+ "stage": "Stage 12 — auction results, extended an eleventh time; tenth T-CARS-1 cohort at n≥8 (McLaren F1/USD, n=2 → n=8, the last range cohort) 2026-10-14",
  "updatedAt": "2026-10-14",
  "version": "1.0.0"
 }

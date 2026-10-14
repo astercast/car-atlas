@@ -355,6 +355,78 @@ expected gap; depth and live intelligence are.
   items stay named open, with the candidate files the search
   index surfaced recorded in the rotation-29 landing record.
 
+## Deltas in rotation 30 (stage 12)
+
+- **Price Watch stage 12 (results scale):** 119 → **125 certified
+  results**, same stage-1 standard (house, day and a linked source
+  per record; five candidates skipped and recorded in the file —
+  three whose sources disagree on the figure or its basis, one
+  sealed sale whose result was never published, one whose
+  house-published currency could not be established). The pass
+  worked the one cohort still below the trigger: McLaren F1 in
+  dollars, **2 → 8**, from the model's own public auction history
+  (RM Auctions Monterey 2006, chassis 014, $1,705,000; Gooding &
+  Company Pebble Beach 2010, chassis 062, $3,575,000, and 2013,
+  chassis 066, $8,470,000; RM Sotheby's Monterey 2015, the
+  LM-Specification chassis 073, $13,750,000; Bonhams Quail Lodge
+  2017, chassis 044, $15,620,000; RM Sotheby's Monterey 2026, the
+  F1 GTR chassis 10R, $34,655,000 — the GTR carried on the F1
+  record on the F40 LM precedent, named as the variant on the
+  record itself). All 6 new records link to a model page the
+  atlas already carried. Condition **30/119 → 32/125**, mileage
+  **33/119 → 36/125**, chassis **90/119 → 96/125**, populated
+  only where the certifying source states the field.
+- **T-CARS-1: the tenth benchmark cohort, and the last range.**
+  The F1/USD cohort reached **n=8**, past the priced n≥8
+  trigger, so the build-computed machinery now publishes ten
+  benchmark medians in `data/v1/cohorts.json` (10 cohorts at
+  n≥2) and **every cohort at n≥2 is a benchmark cohort** — no
+  range-only cohort remains. F1/USD median **$14,685,000** over
+  eight certified sales (2006–2026), printed on the Buy page and
+  the F1 record, n shown, in the one listing anatomy.
+- **T-CARS-3: audited, unmoved in count, moved in share.** All
+  27 orphans were re-audited car by car against the model
+  inventory: **zero** can be linked without inventing a model
+  record or misattributing a car to a different model — the same
+  named traps as stages 8–11 were re-checked and refused again.
+  Orphan count 27 → 27; orphan **share 23% → 22%** on the
+  larger set; linked records **92 → 98**.
+- **Stated, not advanced:** T-CARS-5 rung 2 (true notify) stays
+  deploy-gated — no live target exists and the deploy decision is
+  parked with the owner; rung 1 (local follow) stands shipped.
+  The Ferrari 250 GTO model record stays an owner call, not
+  created. No feed or data was licensed; the licensed-feed path
+  stays an owner call. The Price Watch listings-ingest/cron
+  question stays parked.
+- **Foundry specificity restorations: attempted on a new
+  endpoint, none bound.** Rotation 29 left Commons at a 403 hard
+  stop on the endpoints attempted there (API category queries,
+  file pages). This pass made exactly one probe of an endpoint
+  not previously attempted (the `Special:FilePath` redirect for
+  the named Cord candidate) and Commons answered **429 (rate
+  limited)**, which is likewise a hard stop for the provider:
+  no further Commons request was made, no candidate image could
+  be read firsthand and no licence verified. All three captions
+  stay exactly as narrowed at rotation 28 and all three items
+  stay named open; the attempt is logged in the rotation-30
+  landing record.
+
+## Benchmark standing line (rotation 30)
+
+**BENCHMARK STANDING — CLOSER on data depth, on evidence a
+visitor can see: the certified-results set grew 119 → 125, every
+new record linked to its model record (linked 92 → 98, orphan
+share 23% → 22% with the orphan count honestly unmoved at 27),
+and the atlas shipped its tenth true cohort benchmark — the
+McLaren F1/USD cohort passed the priced n≥8 trigger and prints
+its build-computed median, $14,685,000 over eight certified
+sales, so every cohort of two or more is now a benchmark and no
+range-only cohort remains — while remaining BEHIND every named
+rival on live listings, cohort scale and condition tiers
+(T-CARS-1's full closure), off-site notify, and BEHIND
+Wikipedia on encyclopedia breadth; design held at
+PARITY-or-AHEAD against the whole set.**
+
 ## Benchmark standing line (rotation 29)
 
 **BENCHMARK STANDING — CLOSER on data depth, on evidence a
@@ -493,6 +565,16 @@ McLaren F1/USD, n=2, remains a range). The DB5/USD median was
 re-derived at $1,100,000 over nine sales after the certified
 DB5/1990/L record joined the cohort. The set stands at 119
 certified, condition population 30/119, still short of the
+majority (c) requires, and (a) scale is still ~18 stage passes
+away at the demonstrated rate, or the same licensed-feed owner
+call.
+
+**Rotation 30 update:** stage 12 fired the machinery a tenth
+time — the McLaren F1/USD cohort reached n=8 certified (median
+$14,685,000), joining the nine standing medians in
+`data/v1/cohorts.json`; all ten of the cohorts at n≥2 are now
+benchmarks and no range-only cohort remains. The set stands at
+125 certified, condition population 32/125, still short of the
 majority (c) requires, and (a) scale is still ~18 stage passes
 away at the demonstrated rate, or the same licensed-feed owner
 call.

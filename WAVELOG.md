@@ -1,5 +1,44 @@
 # WAVELOG — Car Atlas
 
+## Rotation 30 — PRICE WATCH STAGE 12: the last range cohort worked (119 → 125), tenth T-CARS-1 benchmark cohort (McLaren F1/USD n=2 → n=8, median $14,685,000); Commons restoration probe answered 429, restorations stay open (2026-10-14)
+
+**Headline (named before building):** certified results advance
+by an honest stage pass within the existing method — the one
+cohort still below the trigger (McLaren F1/USD at n=2) is the
+target, worked from the model's own public auction history, and
+any cohort reaching n≥8 from certified records only becomes a
+benchmark cohort through the machinery shipped at stage 7.
+
+- **Price Watch stage 12:** **119 → 125 certified results**,
+  each certified at ingest on 2026-10-14 against a published
+  source naming car, price, house and day. McLaren F1 ×6 in
+  dollars (RM Auctions Monterey 2006, chassis 014, $1,705,000;
+  Gooding & Company Pebble Beach 2010, chassis 062, $3,575,000;
+  Gooding & Company Pebble Beach 2013, chassis 066, $8,470,000;
+  RM Sotheby's Monterey 2015, the LM-Specification chassis 073,
+  $13,750,000; Bonhams Quail Lodge 2017, chassis 044,
+  $15,620,000; RM Sotheby's Monterey 2026, the F1 GTR chassis
+  10R, $34,655,000). All 6 link to the F1 model page. Condition
+  **30/119 → 32/125**, mileage **33/119 → 36/125**, chassis
+  **90/119 → 96/125**.
+- **T-CARS-1 machinery fired a tenth time:** F1/USD reached
+  n=8, median **$14,685,000** over eight certified sales
+  (2006–2026) — and with it every cohort at n≥2 is a benchmark
+  cohort; no range-only cohort remains.
+- **Five candidates skipped and recorded:** the same chassis
+  014 at RM Sotheby's Abu Dhabi 2025, where consulted sources
+  disagree on the final figure ($25,317,500 vs $25,317,300); the
+  ISSIMI F1 Stradale of 2021 and the RM London F1 of 2008, where
+  sources publish both the hammer and the premium-inclusive
+  figure (the GT40 P/1028 / L88 precedents); the RM Sealed 2022
+  F1 chassis 059, whose result the sealed format never
+  published; and the Christie's London 2003 F1 chassis 011,
+  whose house-published currency could not be established.
+- **Restorations:** one probe of a Commons endpoint not
+  attempted in rotation 29 (`Special:FilePath`) answered 429;
+  a hard stop, not routed around. The three restorations stay
+  named open, captions unmoved.
+
 ## Rotation 29 — PRICE WATCH STAGE 11: the two cohorts nearest the trigger worked (107 → 119), eighth and ninth T-CARS-1 benchmark cohorts (F40/USD n=8, DB5/EUR n=8), DB5/1990/L certified on fresh corroboration (2026-10-14)
 
 **Headline (named before building):** certified results advance
