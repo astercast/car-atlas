@@ -138,7 +138,7 @@ a.door:hover .d-name { color: var(--accent-ink); }
 .row p { color: var(--ink-2); font-size: 14.5px; grid-column: 1 / -1; max-width: 74ch; }
 .row .t-foot { grid-column: 1 / -1; font-size: 12.5px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.07em; }
 a.row:hover h3 { color: var(--accent-ink); }
-.grid.makes { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0 48px; }
+.grid.makes { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); gap: 0 48px; }
 .grid.makes .row { grid-template-columns: 1fr auto; }
 .chips { display: flex; flex-wrap: wrap; gap: 4px 20px; margin-bottom: 24px; }
 .chip { font: inherit; font-size: 14px; font-weight: 600; cursor: pointer; padding: 6px 0; border: 0; background: none; color: var(--ink-2); }
@@ -297,4 +297,17 @@ footer nav { display: flex; gap: 20px; }
   .nav-in { flex-wrap: wrap; height: auto; padding-top: 10px; padding-bottom: 10px; row-gap: 2px; }
   .nav-links { flex-basis: 100%; flex-wrap: wrap; margin-left: 0; gap: 2px 18px; }
   .nav-links a { white-space: nowrap; padding: 12px 2px; }
+  /* 320px residue fitting (QA r71/r72): under a 300px floor the
+     makes grid forced a 300px column into the 272px phone measure
+     (home, 4px; the floor now yields via min() in the base rule).
+     The index rows' mono sub set nowrap held club and channel rows
+     open past the edge (clubs 6px, buy 4px): at phone widths the
+     sub wraps under its own column instead. The listing unit's
+     first column was held at min-content by the unbreakable
+     chassis tokens in its title and provenance lines (buy, 10px
+     more): listing columns may now shrink below min-content at
+     phone widths and the text reflows. Nothing is cut or hidden;
+     desktop is untouched. */
+  .row .t-sub { white-space: normal; }
+  .listing > * { min-width: 0; }
 }
