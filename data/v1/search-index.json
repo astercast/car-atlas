@@ -627,7 +627,7 @@
   "buyingClass": "new",
   "generationCount": 1,
   "photo": "assets/photos/hyundai-ioniq-5.webp",
-  "photoCaption": "Ioniq 5, rear 3/4, plugged in at a charger",
+  "photoCaption": "Hyundai Ioniq 5, rear 3/4, at a dealer",
   "photoCredit": "Photo: Alexander-93, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
@@ -679,7 +679,7 @@
   "buyingClass": "vintage",
   "generationCount": 1,
   "photo": "assets/photos/ford-model-t.webp",
-  "photoCaption": "1912 Ford Model T Torpedo",
+  "photoCaption": "Ford Model T touring car, brass-era example, museum display",
   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
   "photoSource": "https://commons.wikimedia.org/wiki/File:1912_Ford_Model_T_Torpedo.jpg"
  },
@@ -967,7 +967,7 @@
   "buyingClass": "new",
   "generationCount": 2,
   "photo": "assets/photos/jeep-wagoneer.webp",
-  "photoCaption": "1964 Jeep Grand Wagoneer (12670036305)",
+  "photoCaption": "Jeep Wagoneer (SJ), later example, front 3/4",
   "photoCredit": "Photo: Sicnag, CC BY 2.0, via Wikimedia Commons",
   "photoSource": "https://commons.wikimedia.org/wiki/File:1964_Jeep_Grand_Wagoneer_(12670036305).jpg"
  },
@@ -1340,7 +1340,7 @@
   "buyingClass": "new",
   "generationCount": 8,
   "photo": "assets/photos/porsche-911.webp",
-  "photoCaption": "Porsche 911 (992), green, showroom",
+  "photoCaption": "Porsche 911 Carrera S (991.2), the millionth 911, Irish Green, museum display",
   "photoCredit": "Photo: Matti Blume, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
@@ -1495,7 +1495,7 @@
   "buyingClass": "vintage",
   "generationCount": 2,
   "photo": "assets/photos/volkswagen-type-2.webp",
-  "photoCaption": "2022 Downtown West Allis Classic Car Show 060 (1974 Volkswagen Type 2 Bus)",
+  "photoCaption": "Volkswagen Type 2 (T1) Samba, split-window bus, show field",
   "photoCredit": "Photo: Michael Barera, CC BY-SA 4.0, via Wikimedia Commons",
   "photoSource": "https://commons.wikimedia.org/wiki/File:2022_Downtown_West_Allis_Classic_Car_Show_060_(1974_Volkswagen_Type_2_Bus).jpg"
  },
@@ -1566,9 +1566,9 @@
   "buyingClass": "new",
   "generationCount": 3,
   "photo": "assets/photos/audi-a4.webp",
-  "photoCaption": "DSC00875 Unmarked Audi A4, Polizia di Stato, Front Right",
-  "photoCredit": "Photo: Aciarium, CC BY 4.0, via Wikimedia Commons",
-  "photoSource": "https://commons.wikimedia.org/wiki/File:DSC00875_Unmarked_Audi_A4,_Polizia_di_Stato,_Front_Right.jpg"
+  "photoCaption": "Audi A4 sedan (B9 facelift), front 3/4",
+  "photoCredit": "Photo: Alexander-93, CC BY-SA 4.0, via Wikimedia Commons",
+  "photoSource": "https://commons.wikimedia.org/wiki/File:Audi_A4_B9_sedans_(FL)_1X7A6816.jpg"
  },
  {
   "type": "model",
@@ -2224,7 +2224,7 @@
   "buyingClass": "new",
   "generationCount": 1,
   "photo": "assets/photos/alfa-romeo-giulia.webp",
-  "photoCaption": "Alfa Romeo Giulia (2015) GT Junior 1X7A0336",
+  "photoCaption": "Alfa Romeo Giulia Veloce (952), front 3/4",
   "photoCredit": "Photo: Alexander Migl, CC BY-SA 4.0, via Wikimedia Commons",
   "photoSource": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_Giulia_(2015)_GT_Junior_1X7A0336.jpg"
  },
@@ -3050,7 +3050,7 @@
   "buyingClass": "modern-classic",
   "generationCount": 1,
   "photo": "assets/photos/mclaren-f1.webp",
-  "photoCaption": "F1 GTR Longtail (race car), rear view",
+  "photoCaption": "McLaren F1 GT longtail road car, rear view",
   "photoCredit": "Photo: Ank Kumar, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
@@ -3592,9 +3592,9 @@
   "buyingClass": "vintage",
   "generationCount": 2,
   "photo": "assets/photos/amc-javelin.webp",
-  "photoCaption": "1969 AMC Javelin SST finished in RWB at 2016 Mason-Dixon 1of4",
-  "photoCredit": "Photo: CZmarlin, CC BY-SA 4.0, via Wikimedia Commons",
-  "photoSource": "https://commons.wikimedia.org/wiki/File:1969_AMC_Javelin_SST_finished_in_RWB_at_2016_Mason-Dixon_1of4.jpg"
+  "photoCaption": "1969 AMC Javelin 343, front 3/4",
+  "photoCredit": "Photo: Xnatedawgx, CC BY-SA 4.0, via Wikimedia Commons",
+  "photoSource": "https://commons.wikimedia.org/wiki/File:1969_AMC_Javelin_343,_front_left_side,_Coffee_%26_Cars_%E2%80%93_Littleton_2026-10-03.jpg"
  },
  {
   "type": "model",
@@ -3882,7 +3882,7 @@
   "buyingClass": "vintage",
   "generationCount": 2,
   "photo": "assets/photos/oldsmobile-442.webp",
-  "photoCaption": "442 convertible 1967, hood open, show field",
+  "photoCaption": "1967 Oldsmobile 442 hardtop coupe, hood open, show field",
   "photoCredit": "Photo: Michael Barera, CC BY-SA 4.0, via Wikimedia Commons"
  },
  {
@@ -4108,7 +4108,7 @@
   "buyingClass": "vintage",
   "generationCount": 1,
   "photo": "assets/photos/cord-l-29.webp",
-  "photoCaption": "1929 Cord",
+  "photoCaption": "1931 Cord L-29 Phaeton Sedan",
   "photoCredit": "Photo: Wikimedia Commons contributor, CC BY-SA 2.5, via Wikimedia Commons",
   "photoSource": "https://commons.wikimedia.org/wiki/File:1929_Cord.jpg"
  },
@@ -4538,7 +4538,7 @@
   "buyingClass": "vintage",
   "generationCount": 2,
   "photo": "assets/photos/triumph-tr7-tr8.webp",
-  "photoCaption": "1975 Triumph TR7 3.5 Front",
+  "photoCaption": "1975 Triumph TR7, front 3/4",
   "photoCredit": "Photo: Vauxford, CC BY-SA 4.0, via Wikimedia Commons",
   "photoSource": "https://commons.wikimedia.org/wiki/File:1975_Triumph_TR7_3.5_Front.jpg"
  },

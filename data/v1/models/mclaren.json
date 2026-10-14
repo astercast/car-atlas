@@ -23,16 +23,16 @@
    "intro": "Gordon Murray's manifesto: a BMW V12, a carbon monocoque, a central driving seat, gold foil in the engine bay, and no turbos, no four-wheel drive, no compromise. Still the fastest naturally aspirated production car ever built.",
    "name": "F1",
    "photo": "assets/photos/mclaren-f1.webp",
-   "photoCaption": "F1 GTR Longtail (race car), rear view",
+   "photoCaption": "McLaren F1 GT longtail road car, rear view",
    "photoCredit": "Photo: Ank Kumar, CC BY-SA 4.0, via Wikimedia Commons",
    "photos": [
     {
-     "caption": "F1 GTR Longtail (race car), rear view",
+     "caption": "McLaren F1 GT longtail road car, rear view",
      "credit": "Photo: Ank Kumar, CC BY-SA 4.0, via Wikimedia Commons",
      "src": "assets/photos/mclaren-f1.webp"
     },
     {
-     "caption": "F1 engine bay detail",
+     "caption": "Detail: McLaren F1 engine bay, gold heat shielding",
      "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
      "src": "assets/photos/mclaren-f1-engine.webp"
     }

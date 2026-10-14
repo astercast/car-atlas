@@ -73,7 +73,7 @@
    "knownFor": "Ioniq 5, N performance cars, value engineering",
    "name": "Hyundai",
    "photo": "assets/photos/hyundai-ioniq-5.webp",
-   "photoCaption": "Ioniq 5, rear 3/4, plugged in at a charger",
+   "photoCaption": "Hyundai Ioniq 5, rear 3/4, at a dealer",
    "photoCredit": "Photo: Alexander-93, CC BY-SA 4.0, via Wikimedia Commons",
    "slug": "hyundai",
    "status": "Active"
@@ -164,7 +164,7 @@
    "knownFor": "911, motorsport dominance, engineering discipline",
    "name": "Porsche",
    "photo": "assets/photos/porsche-911.webp",
-   "photoCaption": "Porsche 911 (992), green, showroom",
+   "photoCaption": "Porsche 911 Carrera S (991.2), the millionth 911, Irish Green, museum display",
    "photoCredit": "Photo: Matti Blume, CC BY-SA 4.0, via Wikimedia Commons",
    "slug": "porsche",
    "status": "Active"
@@ -386,7 +386,7 @@
    "knownFor": "Formula 1, carbon tubs, the F1 road car",
    "name": "McLaren",
    "photo": "assets/photos/mclaren-f1.webp",
-   "photoCaption": "F1 GTR Longtail (race car), rear view",
+   "photoCaption": "McLaren F1 GT longtail road car, rear view",
    "photoCredit": "Photo: Ank Kumar, CC BY-SA 4.0, via Wikimedia Commons",
    "slug": "mclaren",
    "status": "Active"
@@ -503,7 +503,7 @@
    "knownFor": "The Curved Dash, Rocket 88, Toronado, 4-4-2",
    "name": "Oldsmobile",
    "photo": "assets/photos/oldsmobile-442.webp",
-   "photoCaption": "442 convertible 1967, hood open, show field",
+   "photoCaption": "1967 Oldsmobile 442 hardtop coupe, hood open, show field",
    "photoCredit": "Photo: Michael Barera, CC BY-SA 4.0, via Wikimedia Commons",
    "slug": "oldsmobile",
    "status": "Defunct"
@@ -529,7 +529,7 @@
    "knownFor": "Front-wheel drive, the 810/812, E.L. Cord's empire",
    "name": "Cord",
    "photo": "assets/photos/cord-l-29.webp",
-   "photoCaption": "1929 Cord",
+   "photoCaption": "1931 Cord L-29 Phaeton Sedan",
    "photoCredit": "Photo: Wikimedia Commons contributor, CC BY-SA 2.5, via Wikimedia Commons",
    "photoSource": "https://commons.wikimedia.org/wiki/File:1929_Cord.jpg",
    "slug": "cord",
