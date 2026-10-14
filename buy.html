@@ -41,23 +41,30 @@
 
   <section class="block">
     <div class="block-head"><h2>Buying classes</h2><p>Find a model page and you'll see its class, plus the channels that matter for it.</p></div>
-    <div class="grid two" id="class-grid"></div>
+    <div class="rows" id="class-grid"></div>
   </section>
 
   <section class="block">
     <div class="block-head"><h2>The channels</h2><p>Curated destinations — auctions with public results first, because a market you can audit is a market you can trust.</p></div>
-    <div class="grid two" id="channel-grid"></div>
+    <div class="rows" id="channel-grid"></div>
   </section>
 
   <section class="block">
     <div class="block-head"><h2>Price Watch — stage 6: certified auction results</h2></div>
     <p class="mut" id="results-note" style="max-width:68ch">Certified auction results, each linked to its published source.</p>
-    <div class="grid two" id="results-grid" style="margin-top:20px"></div>
+    <div class="filters" id="pw-filters">
+      <span><label for="f-make">Make</label> <select id="f-make"></select></span>
+      <span><label for="f-band">Stated price</label> <select id="f-band"></select></span>
+      <span><label for="f-record">Record</label> <select id="f-record"></select></span>
+      <button class="clear" id="f-clear" type="button">Clear filters</button>
+    </div>
+    <p class="pw-count" id="pw-count" aria-live="polite"></p>
+    <div id="results-grid"></div>
   </section>
 
   <section class="block">
     <div class="block-head"><h2>Cohorts so far — ranges, not valuations</h2><p>The first rung of T-CARS-1: where two or more certified results share a model and a currency, the range they span — computed only from the certified records above, with the count shown. A range over two or three sales is context, not a benchmark: no median, no valuation, no condition tier is claimed until the certified set is far larger. See BENCHMARK.md for the priced road to a real cohort benchmark.</p></div>
-    <div class="grid two" id="cohort-grid" style="margin-top:20px"></div>
+    <div class="rows" id="cohort-grid"></div>
   </section>
 
   <section class="block">
@@ -69,7 +76,7 @@
     </div>
   </section>
 
-  <div class="band">
+  <div class="closing">
     <h2>Pick the car first. The atlas will walk you to the market.</h2>
     <p>Every model page ends with its buying class and the channels that set its price.</p>
     <a class="btn" href="index.html#makes">Browse the makes →</a>

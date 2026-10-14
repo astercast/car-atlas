@@ -93,8 +93,8 @@ const money = (r) => (r.currency === "EUR" ? "€" : r.currency === "GBP" ? "£"
 
 /* ——— Tiles ——— */
 const modelTile = (e) => `
-  <a class="tile" href="${modelUrl(e.make, e.slug)}">
-    <div class="t-top"><h3>${esc(e.makeName)} ${esc(e.name)}</h3><span class="t-sub">${esc(e.years)}</span></div>
+  <a class="row" href="${modelUrl(e.make, e.slug)}">
+    <h3>${esc(e.makeName)} ${esc(e.name)}</h3><span class="t-sub">${esc(e.years)}</span>
     <p>${esc(e.intro)}</p>
     <div class="t-foot">${esc(e.segment)} · ${esc((e.bodyStyles || []).join(" / "))}</div>
   </a>`;
@@ -109,16 +109,24 @@ async function initHome() {
   $("#stat-models").textContent = models.length;
   $("#stat-gens").textContent = models.reduce((n, m) => n + (m.generationCount || 0), 0);
   fetchJSON("data/v1/clubs.json").then((d) => { $("#stat-clubs").textContent = d.clubs.length; }).catch(() => {});
+  fetchJSON("data/v1/price-watch.json").then((pw) => {
+    const el = $("#stat-results"); if (el) el.textContent = pw.results.length;
+    const box = $("#hero-specimens");
+    if (box) box.innerHTML = [...pw.results].sort((a, b) => b.saleDate.localeCompare(a.saleDate)).slice(0, 3).map((r) => {
+      const href = r.modelSlug ? modelUrl(r.make, r.modelSlug) : makeUrl(r.make);
+      return `<a class="spec-row" href="${href}"><span class="yr">${esc(r.year)}</span><span class="car">${esc(r.makeName)} ${esc(r.model)}</span><span class="price">${esc(money(r))}</span><span class="meta">${esc(r.event)} · ${esc(r.saleDate)}${r.chassis ? ` · chassis ${esc(r.chassis)}` : ""}</span></a>`;
+    }).join("");
+  }).catch(() => {});
 
   wireSearch($("#q"), $("#q-results"), idx);
   const q = new URLSearchParams(location.search).get("q");
   if (q) { $("#q").value = q; $("#q").dispatchEvent(new Event("input")); }
 
   $("#makes-grid").innerHTML = makes.map((m) => `
-    <a class="tile" href="${makeUrl(m.make)}">
-      <div class="t-top"><h3>${esc(m.name)}</h3><span class="t-sub">${esc(m.country)}</span></div>
+    <a class="row" href="${makeUrl(m.make)}">
+      <h3>${esc(m.name)}</h3><span class="t-sub">${esc(m.country)} · ${m.founded}</span>
       <p>${esc(m.blurb)}</p>
-      <div class="t-foot">${m.modelCount} models · est. ${m.founded}</div>
+      <div class="t-foot">${m.modelCount} models</div>
     </a>`).join("");
 
   // Editorial picks — resolved by name so the list survives slug drift.
@@ -181,7 +189,7 @@ async function initMake() {
       <div class="fact"><span>Models in atlas</span><b>${file.models.length}</b></div>
     </div>
     ${photosHTML(meta)}
-    <section class="block"><div class="grid models">
+    <section class="block"><div class="rows">
       ${file.models.map((m) => modelTile({ ...m, make: slug, makeName: meta.name, generationCount: m.generations.length })).join("")}
     </div></section>
     <script type="application/ld+json">${JSON.stringify({
@@ -306,10 +314,10 @@ async function initModel() {
     </section>
     <section class="block" id="buy">
       <div class="block-head"><h2>Where to buy</h2><p>${esc(cls?.label || "")} — ${esc(cls?.description || "")}</p></div>
-      <div class="grid two">
+      <div class="rows">
         ${channels.map((c) => `
-          <a class="tile" href="https://${esc(c.domain)}" target="_blank" rel="noopener">
-            <div class="t-top"><h3>${esc(c.name)}</h3><span class="t-sub">${esc(c.kind)}</span></div>
+          <a class="row" href="https://${esc(c.domain)}" target="_blank" rel="noopener">
+            <h3>${esc(c.name)}</h3><span class="t-sub">${esc(c.kind)}</span>
             <p>${esc(c.blurb)}</p>
             <div class="t-foot">${esc(c.domain)} ↗</div>
           </a>`).join("")}
@@ -351,11 +359,10 @@ async function initClubs() {
     const list = data.clubs.filter((c) => (!r || c.region === r) && (!m || c.marque === m));
     $("#club-count").textContent = `${list.length} clubs & networks`;
     $("#club-grid").innerHTML = list.length ? list.map((c) => `
-      <article class="tile">
-        <div class="t-top"><h3>${esc(c.name)}</h3><span class="t-sub">${esc(c.region)}</span></div>
+      <article class="row">
+        <h3>${esc(c.name)}</h3><span class="t-sub">${esc(c.region)}</span>
         <p>${esc(c.description)}</p>
-        <div class="t-foot">${esc(c.type)} · ${esc(c.chapterModel)}</div>
-        <p class="small" style="margin-top:8px"><a href="https://${esc(c.website)}" target="_blank" rel="noopener">${esc(c.website)} ↗</a></p>
+        <div class="t-foot">${esc(c.type)} · ${esc(c.chapterModel)} · <a href="https://${esc(c.website)}" target="_blank" rel="noopener">${esc(c.website)} ↗</a></div>
       </article>`).join("") : `<p class="center-note">No seeded club matches that filter yet — the registry grows every wave.</p>`;
   };
   $("#f-region").addEventListener("change", render);
@@ -363,52 +370,70 @@ async function initClubs() {
   render();
 }
 
-/* ——— Buy ——— */
+/* ——— Buy ———
+   T-CARS-6 / DL-5: real client-side filters over the 56 certified
+   Price Watch records. Facets reflect only what the records carry:
+   make (16 present), stated-price band (counts computed from the
+   records, in each record's own currency — labelled "stated price"),
+   and record completeness (chassis 44/56, condition 11/56,
+   mileage 7/56 at stage 6). No facet is offered for a field the
+   data does not have. */
 async function initBuy() {
   const data = await fetchJSON("data/v1/buying.json");
   $("#class-grid").innerHTML = Object.values(data.buyingClasses).map((c) => `
-    <article class="tile">
-      <div class="t-top"><h3>${esc(c.label)}</h3></div>
+    <article class="row">
+      <h3>${esc(c.label)}</h3>
       <p>${esc(c.description)}</p>
       <div class="t-foot">${c.primaryChannels.length} primary channels</div>
     </article>`).join("");
   $("#channel-grid").innerHTML = data.channels.map((c) => `
-    <a class="tile" href="https://${esc(c.domain)}" target="_blank" rel="noopener">
-      <div class="t-top"><h3>${esc(c.name)}</h3><span class="t-sub">${esc(c.kind)}</span></div>
+    <a class="row" href="https://${esc(c.domain)}" target="_blank" rel="noopener">
+      <h3>${esc(c.name)}</h3><span class="t-sub">${esc(c.kind)}</span>
       <p>${esc(c.blurb)}</p>
       <div class="t-foot">${esc(c.era)} · ${esc(c.domain)} ↗</div>
     </a>`).join("");
   $("#watch-schema").innerHTML = data.priceWatch.schema.map((f) => `<li><span>${esc(f)}</span><span class="mut">field</span></li>`).join("");
-  /* Price Watch stage 1 (wave 4): certified auction results. A
-     failure here leaves the designed-in-open section standing —
-     results are an addition, never a gate. */
   try {
     const pw = await fetchJSON("data/v1/price-watch.json");
-    const grid = $("#results-grid");
-    if (grid) grid.innerHTML = [...pw.results]
-      .sort((a, b) => b.saleDate.localeCompare(a.saleDate))
-      .map((r) => {
+    const all = [...pw.results].sort((a, b) => b.saleDate.localeCompare(a.saleDate));
+    const bands = [
+      ["", "All prices"],
+      ["u1", "Under 1,000,000", (r) => r.price < 1000000],
+      ["1to5", "1,000,000 – 5,000,000", (r) => r.price >= 1000000 && r.price < 5000000],
+      ["5to20", "5,000,000 – 20,000,000", (r) => r.price >= 5000000 && r.price < 20000000],
+      ["o20", "Over 20,000,000", (r) => r.price >= 20000000],
+    ];
+    const recordFacets = [
+      ["", "All records"],
+      ["chassis", "Chassis recorded", (r) => !!r.chassis],
+      ["condition", "Condition stated", (r) => !!r.condition],
+      ["mileage", "Mileage stated", (r) => !!r.mileage],
+    ];
+    const makeSel = $("#f-make"), bandSel = $("#f-band"), recSel = $("#f-record");
+    const makeCounts = {};
+    for (const r of all) makeCounts[r.make] = (makeCounts[r.make] || 0) + 1;
+    makeSel.innerHTML = `<option value="">All makes (${all.length})</option>` + Object.keys(makeCounts).sort((a, b) => all.find((r) => r.make === a).makeName.localeCompare(all.find((r) => r.make === b).makeName)).map((mk) => `<option value="${esc(mk)}">${esc(all.find((r) => r.make === mk).makeName)} (${makeCounts[mk]})</option>`).join("");
+    bandSel.innerHTML = bands.map(([v, label, fn]) => `<option value="${v}">${esc(label)}${fn ? ` (${all.filter(fn).length})` : ""}</option>`).join("");
+    recSel.innerHTML = recordFacets.map(([v, label, fn]) => `<option value="${v}">${esc(label)}${fn ? ` (${all.filter(fn).length})` : ""}</option>`).join("");
+    const renderResults = () => {
+      const mk = makeSel.value, band = bands.find((b) => b[0] === bandSel.value), rec = recordFacets.find((f) => f[0] === recSel.value);
+      const list = all.filter((r) => (!mk || r.make === mk) && (!band || !band[2] || band[2](r)) && (!rec || !rec[2] || rec[2](r)));
+      $("#pw-count").textContent = `Showing ${list.length} of ${all.length} certified results`;
+      $("#results-grid").innerHTML = list.length ? `<table class="pw"><thead><tr><th>Car</th><th>Result</th><th>Sale</th><th>Record</th></tr></thead><tbody>${list.map((r) => {
         const href = r.modelSlug ? modelUrl(r.make, r.modelSlug) : makeUrl(r.make);
-        /* T-CARS-4: repeat-sale linking — records sharing a chassis
-           key name each other on the tile. T-CARS-2: condition and
-           mileage render only where a source stated them. */
-        const repeats = r.chassis ? pw.results.filter((x) => x !== r && x.chassis === r.chassis) : [];
-        const facts = [r.chassis ? `Chassis ${r.chassis}` : null,
-          r.condition ? `Condition (per source): ${r.condition}` : null,
-          r.mileage ? `Mileage (per source): ${r.mileage}` : null].filter(Boolean).join(" · ");
-        return `
-      <article class="tile">
-        <div class="t-top"><h3>${esc(r.year)} ${esc(r.makeName)} ${esc(r.model)}</h3></div>
-        <p class="pw-price">${esc(money(r))}</p>
-        <p>${esc(r.event)} · ${esc(r.saleDate)}<br><span class="small mut">${esc(r.priceBasis)}</span></p>
-        ${facts ? `<p class="small">${esc(facts)}</p>` : ""}
-        ${repeats.map((x) => `<p class="small">Same chassis also sold ${esc(x.saleDate)} for ${esc(money(x))} at ${esc(x.event)}.</p>`).join("")}
-        <div class="t-foot"><a href="${href}">Atlas record →</a> · <a href="${esc(r.source.url)}" target="_blank" rel="noopener">Source ↗</a></div>
-      </article>`;
-      }).join("");
-    /* T-CARS-1, first rung (stage 6): cohort ranges computed only
-       from certified records sharing a model AND a currency, n>=2.
-       A range with its count — never a median or a valuation. */
+        const repeats = r.chassis ? all.filter((x) => x !== r && x.chassis === r.chassis) : [];
+        const facts = [r.chassis ? `Chassis ${r.chassis}` : "Chassis not stated", r.condition ? `Condition (per source): ${r.condition}` : null, r.mileage ? `Mileage (per source): ${r.mileage}` : null].filter(Boolean).join(" · ");
+        return `<tr>
+          <td class="car"><a href="${href}">${esc(r.year)} ${esc(r.makeName)} ${esc(r.model)}</a></td>
+          <td><span class="pw-price">${esc(money(r))}</span><div class="sub">${esc(r.priceBasis)}</div></td>
+          <td>${esc(r.event)}<div class="sub mono">${esc(r.saleDate)}</div></td>
+          <td><span class="sub">${esc(facts)}</span>${repeats.map((x) => `<div class="sub">Same chassis also sold ${esc(x.saleDate)} for ${esc(money(x))} at ${esc(x.event)}.</div>`).join("")}<div class="sub"><a href="${esc(r.source.url)}" target="_blank" rel="noopener">Source: ${esc(r.source.name)} ↗</a></div></td>
+        </tr>`;
+      }).join("")}</tbody></table>` : `<p class="center-note">No certified result matches that combination. Clear the filters to see all ${all.length}.</p>`;
+    };
+    [makeSel, bandSel, recSel].forEach((el) => el.addEventListener("change", renderResults));
+    $("#f-clear").addEventListener("click", () => { makeSel.value = ""; bandSel.value = ""; recSel.value = ""; renderResults(); });
+    renderResults();
     const cgrid = $("#cohort-grid");
     if (cgrid) {
       const groups = {};
@@ -424,10 +449,9 @@ async function initBuy() {
         const lo = g[prices.indexOf(Math.min(...prices))], hi = g[prices.indexOf(Math.max(...prices))];
         const years = g.map((r) => r.year);
         return `
-      <article class="tile">
-        <div class="t-top"><h3>${esc(g[0].makeName)} ${esc(g[0].model.split(" (")[0])}</h3><span class="t-sub">n=${g.length} certified</span></div>
-        <p class="pw-price">${esc(money(lo))} – ${esc(money(hi))}</p>
-        <p>Certified results span model years ${Math.min(...years)}–${Math.max(...years)}, sales ${esc(g.map((r) => r.saleDate).sort()[0])} to ${esc(g.map((r) => r.saleDate).sort().slice(-1)[0])}.<br><span class="small mut">Range over ${g.length} certified sales in ${esc(g[0].currency)} — context, not a valuation of any other example.</span></p>
+      <article class="row">
+        <h3>${esc(g[0].makeName)} ${esc(g[0].model.split(" (")[0])}</h3><span class="t-sub">n=${g.length} certified</span>
+        <p><span class="pw-price">${esc(money(lo))} – ${esc(money(hi))}</span><br>Certified results span model years ${Math.min(...years)}–${Math.max(...years)}, sales ${esc(g.map((r) => r.saleDate).sort()[0])} to ${esc(g.map((r) => r.saleDate).sort().slice(-1)[0])}. Range over ${g.length} certified sales in ${esc(g[0].currency)} — context, not a valuation of any other example.</p>
         <div class="t-foot"><a href="${modelUrl(g[0].make, g[0].modelSlug)}">Atlas record →</a></div>
       </article>`;
       }).join("");

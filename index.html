@@ -40,17 +40,23 @@
 <main class="wrap">
   <div class="hero">
     <h1>Every car ever made. <span class="accent">One atlas.</span></h1>
-    <p class="sub">Every make, model, and generation — the specs, the story, where to buy each one for the best price, and the people near you who love them. Start typing.</p>
+    <p class="sub">59 makes, 257 models, 469 generations — specifications, production history, certified auction results, and the clubs that keep them running. Search the atlas.</p>
     <div class="searchbox">
       <input id="q" type="search" placeholder="Try “911”, “Miata”, “Countach”…" autocomplete="off" aria-label="Search every make and model">
       <button class="go" aria-label="Search" onclick="document.getElementById('q').focus()">→</button>
       <div id="q-results" class="results hidden" role="listbox"></div>
     </div>
-    <div class="stats">
-      <div class="stat"><b id="stat-makes">–</b><span>Makes</span></div>
-      <div class="stat"><b id="stat-models">–</b><span>Models</span></div>
-      <div class="stat"><b id="stat-gens">–</b><span>Generations</span></div>
-      <div class="stat"><b id="stat-clubs">–</b><span>Clubs seeded</span></div>
+    <div class="ledger">
+      <span><b id="stat-makes">–</b>makes</span>
+      <span><b id="stat-models">–</b>models</span>
+      <span><b id="stat-gens">–</b>generations</span>
+      <span><b id="stat-clubs">–</b>clubs</span>
+      <span><b id="stat-results">–</b>certified auction results</span>
+    </div>
+    <div class="specimens">
+      <p class="spec-label">Price Watch — latest certified results</p>
+      <div id="hero-specimens"></div>
+      <p class="small mut" style="margin-top:12px">Completed auction results, each certified against a published source. A result is one car on one day — context, not a valuation. <a href="buy.html">All results →</a></p>
     </div>
   </div>
 
@@ -58,7 +64,7 @@
 
   <section class="block" id="featured">
     <div class="block-head"><h2>Start with the icons</h2><p>Six cars that explain the whole hobby. Each one links to its full generation-by-generation record.</p></div>
-    <div class="grid models" id="featured-grid"></div>
+    <div class="rows" id="featured-grid"></div>
   </section>
 
   <section class="block" id="makes">
@@ -69,16 +75,16 @@
   <section class="block" id="eras">
     <div class="block-head"><h2>Browse by era</h2><p>Cars wear their decade. Pick one and see what the atlas holds from it.</p></div>
     <div class="chips" id="era-chips" style="margin-bottom:18px"></div>
-    <div class="grid models" id="era-grid"></div>
+    <div class="rows" id="era-grid"></div>
   </section>
 
   <section class="block" id="styles">
     <div class="block-head"><h2>Browse by shape</h2><p>Coupe, wagon, pickup, roadster — start from the silhouette you want.</p></div>
     <div class="chips" id="style-chips" style="margin-bottom:18px"></div>
-    <div class="grid models" id="style-grid"></div>
+    <div class="rows" id="style-grid"></div>
   </section>
 
-  <div class="band">
+  <div class="closing">
     <h2>Buying one? Start with where the market actually trades.</h2>
     <p>The buying layer maps every model to the channels that set its price — auction results, marketplaces, and specialists — with a price-watch system designed in the open. No listings faked, no prices invented.</p>
     <a class="btn" href="buy.html">Open the buying layer →</a>
