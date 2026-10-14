@@ -22,6 +22,18 @@
    ],
    "intro": "The 1953 coupes designed under Raymond Loewy, Robert Bourke's clean, low, European line, are regularly called the most beautiful American cars of the fifties. They became the foundation of the Hawk line that followed.",
    "name": "Loewy Coupes (Starlight / Starliner)",
+   "photo": "assets/photos/studebaker-loewy-coupes.webp",
+   "photoCaption": "1952 Studebaker Commander Starliner Hardtop Coupe - fvl (5446952891)",
+   "photoCredit": "Photo: Rex Gray, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1952_Studebaker_Commander_Starliner_Hardtop_Coupe_-_fvl_(5446952891).jpg",
+   "photos": [
+    {
+     "caption": "1952 Studebaker Commander Starliner Hardtop Coupe - fvl (5446952891)",
+     "credit": "Photo: Rex Gray, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1952_Studebaker_Commander_Starliner_Hardtop_Coupe_-_fvl_(5446952891).jpg",
+     "src": "assets/photos/studebaker-loewy-coupes.webp"
+    }
+   ],
    "segment": "Personal coupe",
    "slug": "loewy-coupes",
    "status": "Discontinued",
@@ -54,6 +66,18 @@
    ],
    "intro": "The compact that saved Studebaker for a while: launched in 1959 just as America discovered small cars, it briefly returned the company to profit, and with the optional V8s, it was quietly quick.",
    "name": "Lark",
+   "photo": "assets/photos/studebaker-lark.webp",
+   "photoCaption": "1959 Studebaker Lark VIII hardtop, front left, 08-27-2023",
+   "photoCredit": "Photo: MercurySable99, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1959_Studebaker_Lark_VIII_hardtop,_front_left,_08-27-2023.jpg",
+   "photos": [
+    {
+     "caption": "1959 Studebaker Lark VIII hardtop, front left, 08-27-2023",
+     "credit": "Photo: MercurySable99, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1959_Studebaker_Lark_VIII_hardtop,_front_left,_08-27-2023.jpg",
+     "src": "assets/photos/studebaker-lark.webp"
+    }
+   ],
    "segment": "Compact family car",
    "slug": "lark",
    "status": "Discontinued",
@@ -85,6 +109,18 @@
    ],
    "intro": "Brooks Stevens restyled the Loewy coupe's bones into a formal, Mercedes-tinged GT for 1962, the last Studebaker with real money spent on it, and a credible grand tourer at a Chevrolet price.",
    "name": "Gran Turismo Hawk",
+   "photo": "assets/photos/studebaker-gran-turismo-hawk.webp",
+   "photoCaption": "1962 Studebaker Gran Turismo Hawk, front left, 07-04-2025",
+   "photoCredit": "Photo: MercurySable99, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1962_Studebaker_Gran_Turismo_Hawk,_front_left,_07-04-2025.jpg",
+   "photos": [
+    {
+     "caption": "1962 Studebaker Gran Turismo Hawk, front left, 07-04-2025",
+     "credit": "Photo: MercurySable99, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1962_Studebaker_Gran_Turismo_Hawk,_front_left,_07-04-2025.jpg",
+     "src": "assets/photos/studebaker-gran-turismo-hawk.webp"
+    }
+   ],
    "segment": "Grand tourer",
    "slug": "gran-turismo-hawk",
    "status": "Discontinued",

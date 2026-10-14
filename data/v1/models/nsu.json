@@ -34,6 +34,18 @@
    ],
    "intro": "NSU's return to cars: a rear-engined two-cylinder runabout that grew, in the Prinz 4 of 1961, into the sharp-edged 'bathtub' saloon half of Germany learned to drive in. The Sport Prinz coupé (Bertone, styled by Franco Scaglione) proved the little chassis had glamour in it.",
    "name": "Prinz",
+   "photo": "assets/photos/nsu-prinz.webp",
+   "photoCaption": "1959 NSU Prinz BCM",
+   "photoCredit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1959_NSU_Prinz_BCM.jpg",
+   "photos": [
+    {
+     "caption": "1959 NSU Prinz BCM",
+     "credit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1959_NSU_Prinz_BCM.jpg",
+     "src": "assets/photos/nsu-prinz.webp"
+    }
+   ],
    "segment": "City car",
    "slug": "prinz",
    "status": "Discontinued",
@@ -65,6 +77,18 @@
    ],
    "intro": "The Prinz grown up: a four-cylinder air-cooled saloon whose sporting derivatives, 1000 TT, 1200 TT and the twin-carburettor TTS, became the giant-killers of German hillclimbs and the car a generation of tuners (and the founders of Abt) learned on.",
    "name": "1000 / TT / TTS",
+   "photo": "assets/photos/nsu-1000.webp",
+   "photoCaption": "NSU Prinz 1000 (1966) 01",
+   "photoCredit": "Photo: Rolf Heinrich, Köln, CC BY 3.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:NSU_Prinz_1000_(1966)_01.JPG",
+   "photos": [
+    {
+     "caption": "NSU Prinz 1000 (1966) 01",
+     "credit": "Photo: Rolf Heinrich, Köln, CC BY 3.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:NSU_Prinz_1000_(1966)_01.JPG",
+     "src": "assets/photos/nsu-1000.webp"
+    }
+   ],
    "segment": "Compact car",
    "slug": "1000",
    "status": "Discontinued",
@@ -97,6 +121,18 @@
    ],
    "intro": "The first production car in the world with a Wankel rotary engine: a Bertone-bodied roadster on the Sport Prinz chassis, its single-rotor engine spinning to speeds no piston twin could match. About 2,400 were built, and every rotary Mazda descends from the bet NSU placed here.",
    "name": "Spider (Wankel Spider)",
+   "photo": "assets/photos/nsu-spider.webp",
+   "photoCaption": "NSU Wankel Spider (1964-67) (49532889933)",
+   "photoCredit": "Photo: Andrew Bone from Weymouth, England, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:NSU_Wankel_Spider_(1964-67)_(49532889933).jpg",
+   "photos": [
+    {
+     "caption": "NSU Wankel Spider (1964-67) (49532889933)",
+     "credit": "Photo: Andrew Bone from Weymouth, England, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:NSU_Wankel_Spider_(1964-67)_(49532889933).jpg",
+     "src": "assets/photos/nsu-spider.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "spider",
    "status": "Discontinued",
@@ -126,6 +162,18 @@
    ],
    "intro": "European Car of the Year 1968 and the rotary's flagship: a twin-rotor saloon with front-wheel drive, a semi-automatic gearbox, inboard front discs and Claudio Luthe's wind-tunnel styling a decade ahead of the industry. The engine's seal problems bankrupted NSU into Volkswagen's arms, and the car itself was superb.",
    "name": "Ro80",
+   "photo": "assets/photos/nsu-ro80.webp",
+   "photoCaption": "1976 or 1977 NSU Ro80 front 3q touchup",
+   "photoCredit": "Photo: Rudolf Stricker, CC BY-SA 3.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1976_or_1977_NSU_Ro80_front_3q_touchup.jpg",
+   "photos": [
+    {
+     "caption": "1976 or 1977 NSU Ro80 front 3q touchup",
+     "credit": "Photo: Rudolf Stricker, CC BY-SA 3.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1976_or_1977_NSU_Ro80_front_3q_touchup.jpg",
+     "src": "assets/photos/nsu-ro80.webp"
+    }
+   ],
    "segment": "Executive car",
    "slug": "ro80",
    "status": "Discontinued",

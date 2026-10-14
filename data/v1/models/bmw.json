@@ -46,6 +46,18 @@
    ],
    "intro": "The sports sedan benchmark for fifty years. Other brands build rivals; BMW builds the car they are measured against. The recipe has swollen and softened at times, but a straight-six 3 Series driven hard is still the reference.",
    "name": "3 Series",
+   "photo": "assets/photos/bmw-3-series.webp",
+   "photoCaption": "BMW 3 SERIES (E46) China",
+   "photoCredit": "Photo: Dinkun Chen, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:BMW_3_SERIES_(E46)_China.jpg",
+   "photos": [
+    {
+     "caption": "BMW 3 SERIES (E46) China",
+     "credit": "Photo: Dinkun Chen, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:BMW_3_SERIES_(E46)_China.jpg",
+     "src": "assets/photos/bmw-3-series.webp"
+    }
+   ],
    "segment": "Compact executive car",
    "slug": "3-series",
    "status": "In production",
@@ -100,6 +112,18 @@
    ],
    "intro": "The executive sedan done the BMW way: rear-drive balance, a proper straight-six up front, and just enough aggression. At its best, the E39, it was possibly the finest sedan in the world.",
    "name": "5 Series",
+   "photo": "assets/photos/bmw-5-series.webp",
+   "photoCaption": "BMW 5 SERIES LWB SEDAN (BMW G38) China",
+   "photoCredit": "Photo: Dinkun Chen, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:BMW_5_SERIES_LWB_SEDAN_(BMW_G38)_China.jpg",
+   "photos": [
+    {
+     "caption": "BMW 5 SERIES LWB SEDAN (BMW G38) China",
+     "credit": "Photo: Dinkun Chen, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:BMW_5_SERIES_LWB_SEDAN_(BMW_G38)_China.jpg",
+     "src": "assets/photos/bmw-5-series.webp"
+    }
+   ],
    "segment": "Executive car",
    "slug": "5-series",
    "status": "In production",
@@ -200,6 +224,18 @@
    ],
    "intro": "The car that saved BMW in America and invented the sports sedan formula: a boxy two-door, a willing four-cylinder, and handling that made contemporary Detroit iron feel broken. Every 3 Series since is an apology for, or a tribute to, this car.",
    "name": "2002",
+   "photo": "assets/photos/bmw-2002.webp",
+   "photoCaption": "BMW-2002-tii Front",
+   "photoCredit": "Photo: Wikimedia Commons contributor, Public domain, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:BMW-2002-tii_Front.JPG",
+   "photos": [
+    {
+     "caption": "BMW-2002-tii Front",
+     "credit": "Photo: Wikimedia Commons contributor, Public domain, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:BMW-2002-tii_Front.JPG",
+     "src": "assets/photos/bmw-2002.webp"
+    }
+   ],
    "segment": "Compact sports sedan",
    "slug": "2002",
    "status": "Discontinued",
@@ -253,6 +289,18 @@
    ],
    "intro": "BMW insisted on calling it a Sports Activity Vehicle, and for once the marketing was honest: the X5 drove like a tall 5 Series when every rival drove like a truck. It built the performance-SUV segment the whole industry now lives in.",
    "name": "X5",
+   "photo": "assets/photos/bmw-x5.webp",
+   "photoCaption": "2019 BMW X5 M50d Automatic 3.0",
+   "photoCredit": "Photo: Vauxford, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2019_BMW_X5_M50d_Automatic_3.0.jpg",
+   "photos": [
+    {
+     "caption": "2019 BMW X5 M50d Automatic 3.0",
+     "credit": "Photo: Vauxford, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2019_BMW_X5_M50d_Automatic_3.0.jpg",
+     "src": "assets/photos/bmw-x5.webp"
+    }
+   ],
    "segment": "Luxury SUV",
    "slug": "x5",
    "status": "In production",

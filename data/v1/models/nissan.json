@@ -97,6 +97,18 @@
    ],
    "intro": "The people's sports car, running since 1969 with a long nap in the middle. The 240Z made performance democratic; the current car keeps the twin-turbo, rear-drive, manual-gearbox faith alive when most rivals dropped it.",
    "name": "Z",
+   "photo": "assets/photos/nissan-z.webp",
+   "photoCaption": "1991 Nissan Fairlady Z 300ZX 2by2 Twin Turbo in Platinum Mist Metallic, front right (Queen Street 2023)",
+   "photoCredit": "Photo: Elise240SX, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1991_Nissan_Fairlady_Z_300ZX_2by2_Twin_Turbo_in_Platinum_Mist_Metallic,_front_right_(Queen_Street_2023).jpg",
+   "photos": [
+    {
+     "caption": "1991 Nissan Fairlady Z 300ZX 2by2 Twin Turbo in Platinum Mist Metallic, front right (Queen Street 2023)",
+     "credit": "Photo: Elise240SX, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1991_Nissan_Fairlady_Z_300ZX_2by2_Twin_Turbo_in_Platinum_Mist_Metallic,_front_right_(Queen_Street_2023).jpg",
+     "src": "assets/photos/nissan-z.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "z",
    "status": "In production",
@@ -150,6 +162,18 @@
    ],
    "intro": "Three generations of Skyline GT-R that never officially came to America, which only sharpened the legend. The RB26 engine's official 276 hp was a gentlemen's-agreement fiction everyone politely maintained.",
    "name": "Skyline GT-R",
+   "photo": "assets/photos/nissan-skyline-gt-r.webp",
+   "photoCaption": "1991 Nissan Skyline GT-R",
+   "photoCredit": "Photo: User3204, CC BY 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1991_Nissan_Skyline_GT-R.jpeg",
+   "photos": [
+    {
+     "caption": "1991 Nissan Skyline GT-R",
+     "credit": "Photo: User3204, CC BY 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1991_Nissan_Skyline_GT-R.jpeg",
+     "src": "assets/photos/nissan-skyline-gt-r.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "skyline-gt-r",
    "status": "Discontinued",
@@ -204,6 +228,18 @@
    ],
    "intro": "The car that proved ordinary people would buy an electric car if it was priced like a car. First-generation cars depreciate like dropped phones, which makes a healthy-battery example one of the cheapest ways to run a second car there is.",
    "name": "Leaf",
+   "photo": "assets/photos/nissan-leaf.webp",
+   "photoCaption": "Nissan Leaf - Mondial de l'Automobile de Paris 2012 - 006",
+   "photoCredit": "Photo: Thesupermat, CC BY-SA 3.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Nissan_Leaf_-_Mondial_de_l%27Automobile_de_Paris_2012_-_006.jpg",
+   "photos": [
+    {
+     "caption": "Nissan Leaf - Mondial de l'Automobile de Paris 2012 - 006",
+     "credit": "Photo: Thesupermat, CC BY-SA 3.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Nissan_Leaf_-_Mondial_de_l%27Automobile_de_Paris_2012_-_006.jpg",
+     "src": "assets/photos/nissan-leaf.webp"
+    }
+   ],
    "segment": "Electric hatchback",
    "slug": "leaf",
    "status": "In production",
@@ -257,6 +293,18 @@
    ],
    "intro": "Land Cruiser's oldest rival, and in much of the Middle East and Australia, the preferred one. The Patrol is what UN fleets and desert drivers buy when a breakdown is not a survivable option.",
    "name": "Patrol",
+   "photo": "assets/photos/nissan-patrol.webp",
+   "photoCaption": "2014 Nissan Patrol (Y62) ST-L wagon (2015-08-07) 01",
+   "photoCredit": "Photo: OSX, Public domain, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2014_Nissan_Patrol_(Y62)_ST-L_wagon_(2015-08-07)_01.jpg",
+   "photos": [
+    {
+     "caption": "2014 Nissan Patrol (Y62) ST-L wagon (2015-08-07) 01",
+     "credit": "Photo: OSX, Public domain, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2014_Nissan_Patrol_(Y62)_ST-L_wagon_(2015-08-07)_01.jpg",
+     "src": "assets/photos/nissan-patrol.webp"
+    }
+   ],
    "segment": "Off-road SUV",
    "slug": "patrol",
    "status": "In production",

@@ -44,6 +44,18 @@
    ],
    "intro": "The car that launched a marque. Toyota's secret Flagship One project produced a V8 saloon quieter and cheaper than a Mercedes S-Class, and German boardrooms have respected Lexus ever since.",
    "name": "LS",
+   "photo": "assets/photos/lexus-ls.webp",
+   "photoCaption": "LEXUS LS (XF40) China",
+   "photoCredit": "Photo: Dinkun Chen, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:LEXUS_LS_(XF40)_China.jpg",
+   "photos": [
+    {
+     "caption": "LEXUS LS (XF40) China",
+     "credit": "Photo: Dinkun Chen, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:LEXUS_LS_(XF40)_China.jpg",
+     "src": "assets/photos/lexus-ls.webp"
+    }
+   ],
    "segment": "Full-size luxury sedan",
    "slug": "ls",
    "status": "In production",
@@ -127,6 +139,18 @@
    ],
    "intro": "Lexus's answer to the 3 Series, sold in Japan as the Toyota Altezza, chronograph-style instruments, a jewel of a straight six, and later the V8 IS 500 as a parting gift to the segment.",
    "name": "IS",
+   "photo": "assets/photos/lexus-is.webp",
+   "photoCaption": "2021 Lexus IS 300 AWD, front 3.26.21",
+   "photoCredit": "Photo: Kevauto, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2021_Lexus_IS_300_AWD,_front_3.26.21.jpg",
+   "photos": [
+    {
+     "caption": "2021 Lexus IS 300 AWD, front 3.26.21",
+     "credit": "Photo: Kevauto, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2021_Lexus_IS_300_AWD,_front_3.26.21.jpg",
+     "src": "assets/photos/lexus-is.webp"
+    }
+   ],
    "segment": "Compact luxury sedan",
    "slug": "is",
    "status": "In production",
@@ -180,6 +204,18 @@
    ],
    "intro": "The original luxury crossover, a car-based SUV before the industry had a name for it. The RX hybrid of 2005 also made electrification a luxury feature rather than a compromise.",
    "name": "RX",
+   "photo": "assets/photos/lexus-rx.webp",
+   "photoCaption": "2026 Lexus RX 450h+ Luxury (3)",
+   "photoCredit": "Photo: Szeremeta, CC BY 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2026_Lexus_RX_450h%2B_Luxury_(3).jpg",
+   "photos": [
+    {
+     "caption": "2026 Lexus RX 450h+ Luxury (3)",
+     "credit": "Photo: Szeremeta, CC BY 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2026_Lexus_RX_450h%2B_Luxury_(3).jpg",
+     "src": "assets/photos/lexus-rx.webp"
+    }
+   ],
    "segment": "Mid-size luxury crossover",
    "slug": "rx",
    "status": "In production",
@@ -213,6 +249,18 @@
    ],
    "intro": "The LF-LC concept car made production almost unchanged, a V8 grand tourer with concept-car surfacing, a ten-speed automatic, and one of the great interiors of its decade.",
    "name": "LC",
+   "photo": "assets/photos/lexus-lc.webp",
+   "photoCaption": "Lexus LC 500h, IAA 2017, Frankfurt (1Y7A3199)",
+   "photoCredit": "Photo: Matti Blume, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Lexus_LC_500h,_IAA_2017,_Frankfurt_(1Y7A3199).jpg",
+   "photos": [
+    {
+     "caption": "Lexus LC 500h, IAA 2017, Frankfurt (1Y7A3199)",
+     "credit": "Photo: Matti Blume, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Lexus_LC_500h,_IAA_2017,_Frankfurt_(1Y7A3199).jpg",
+     "src": "assets/photos/lexus-lc.webp"
+    }
+   ],
    "segment": "Grand tourer",
    "slug": "lc",
    "status": "In production",

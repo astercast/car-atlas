@@ -111,6 +111,18 @@
    ],
    "intro": "The wagon that out-SUV'd the SUVs. Subaru jacked up a Legacy, added cladding, and accidentally created the blueprint for half the cars on American roads today, while never giving up the wagon part.",
    "name": "Outback",
+   "photo": "assets/photos/subaru-outback.webp",
+   "photoCaption": "2018 Subaru Outback SE Premium Symmetrical CVT 2.5 Front",
+   "photoCredit": "Photo: Vauxford, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2018_Subaru_Outback_SE_Premium_Symmetrical_CVT_2.5_Front.jpg",
+   "photos": [
+    {
+     "caption": "2018 Subaru Outback SE Premium Symmetrical CVT 2.5 Front",
+     "credit": "Photo: Vauxford, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2018_Subaru_Outback_SE_Premium_Symmetrical_CVT_2.5_Front.jpg",
+     "src": "assets/photos/subaru-outback.webp"
+    }
+   ],
    "segment": "Wagon / crossover",
    "slug": "outback",
    "status": "In production",
@@ -154,6 +166,18 @@
    ],
    "intro": "Proof a sports car doesn't need power, it needs balance. Subaru built the flat-four and the chassis; Toyota handled much of the rest. The result is the car driving instructors and racers agree on.",
    "name": "BRZ",
+   "photo": "assets/photos/subaru-brz.webp",
+   "photoCaption": "Subaru BRZ S (3BA-ZD8) front",
+   "photoCredit": "Photo: Tokumeigakarinoaoshima, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Subaru_BRZ_S_(3BA-ZD8)_front.jpg",
+   "photos": [
+    {
+     "caption": "Subaru BRZ S (3BA-ZD8) front",
+     "credit": "Photo: Tokumeigakarinoaoshima, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Subaru_BRZ_S_(3BA-ZD8)_front.jpg",
+     "src": "assets/photos/subaru-brz.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "brz",
    "status": "In production",
@@ -206,6 +230,18 @@
    ],
    "intro": "The tall, boxy, all-weather wagon-SUV that Vermont runs on. Early turbo XTs are cult cars; later ones are simply the sensible answer for snow-belt families who refuse to buy a crossover that looks like an egg.",
    "name": "Forester",
+   "photo": "assets/photos/subaru-forester.webp",
+   "photoCaption": "2015-2018 Subaru Forester XT rear",
+   "photoCredit": "Photo: TTTNIS, CC0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2015-2018_Subaru_Forester_XT_rear.jpg",
+   "photos": [
+    {
+     "caption": "2015-2018 Subaru Forester XT rear",
+     "credit": "Photo: TTTNIS, CC0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2015-2018_Subaru_Forester_XT_rear.jpg",
+     "src": "assets/photos/subaru-forester.webp"
+    }
+   ],
    "segment": "Compact SUV",
    "slug": "forester",
    "status": "In production",

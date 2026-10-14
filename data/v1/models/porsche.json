@@ -166,6 +166,18 @@
    ],
    "intro": "The SUV that saved Porsche, purists hated it in 2002 and the profits funded every GT car since. It also happened to be genuinely good: fast, capable off-road, and unmistakably a Porsche to drive.",
    "name": "Cayenne",
+   "photo": "assets/photos/porsche-cayenne.webp",
+   "photoCaption": "2023 Porsche Cayenne Coupé IAA 2023 1X7A0021",
+   "photoCredit": "Photo: Alexander-93, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2023_Porsche_Cayenne_Coup%C3%A9_IAA_2023_1X7A0021.jpg",
+   "photos": [
+    {
+     "caption": "2023 Porsche Cayenne Coupé IAA 2023 1X7A0021",
+     "credit": "Photo: Alexander-93, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2023_Porsche_Cayenne_Coup%C3%A9_IAA_2023_1X7A0021.jpg",
+     "src": "assets/photos/porsche-cayenne.webp"
+    }
+   ],
    "segment": "Luxury SUV",
    "slug": "cayenne",
    "status": "In production",
@@ -198,6 +210,18 @@
    ],
    "intro": "Porsche's first EV, built to answer one question: can an electric car feel like a Porsche? Two-speed rear gearbox, repeatable launch control, and steering that talks. The answer held up.",
    "name": "Taycan",
+   "photo": "assets/photos/porsche-taycan.webp",
+   "photoCaption": "Porsche Taycan 2021021201",
+   "photoCredit": "Photo: Evnerd, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Porsche_Taycan_2021021201.jpg",
+   "photos": [
+    {
+     "caption": "Porsche Taycan 2021021201",
+     "credit": "Photo: Evnerd, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Porsche_Taycan_2021021201.jpg",
+     "src": "assets/photos/porsche-taycan.webp"
+    }
+   ],
    "segment": "Electric sports sedan",
    "slug": "taycan",
    "status": "In production",
@@ -244,6 +268,18 @@
    ],
    "intro": "The first production Porsche: a Beetle-derived aluminium coupe built in a sawmill in Gmünd, Austria, that became the template for everything after. Light, slippery, and quicker than cars with twice the power.",
    "name": "356",
+   "photo": "assets/photos/porsche-356.webp",
+   "photoCaption": "Porsche 356 2014-09-07 13-51-26",
+   "photoCredit": "Photo: Berthold Werner, CC BY-SA 3.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Porsche_356_2014-09-07_13-51-26.jpg",
+   "photos": [
+    {
+     "caption": "Porsche 356 2014-09-07 13-51-26",
+     "credit": "Photo: Berthold Werner, CC BY-SA 3.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Porsche_356_2014-09-07_13-51-26.jpg",
+     "src": "assets/photos/porsche-356.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "356",
    "status": "Discontinued",
@@ -301,6 +337,18 @@
    ],
    "intro": "The Boxster saved Porsche in the 1990s; the Cayman coupe followed in 2005, and the pair became the handling benchmark money could buy. Renamed 718 in 2016 for the turbo flat-four era, then redeemed by the 4.0-litre sixes. Production of the petrol cars ended in 2025, with an electric successor planned.",
    "name": "718 Cayman/Boxster",
+   "photo": "assets/photos/porsche-718-cayman-boxster.webp",
+   "photoCaption": "2018 Porsche Cayman 718 Boxster 2.0 Front",
+   "photoCredit": "Photo: Vauxford, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2018_Porsche_Cayman_718_Boxster_2.0_Front.jpg",
+   "photos": [
+    {
+     "caption": "2018 Porsche Cayman 718 Boxster 2.0 Front",
+     "credit": "Photo: Vauxford, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2018_Porsche_Cayman_718_Boxster_2.0_Front.jpg",
+     "src": "assets/photos/porsche-718-cayman-boxster.webp"
+    }
+   ],
    "segment": "Mid-engine sports car",
    "slug": "718-cayman-boxster",
    "status": "Discontinued",

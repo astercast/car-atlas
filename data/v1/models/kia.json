@@ -22,6 +22,18 @@
    ],
    "intro": "Kia's gran turismo: rear-drive, a twin-turbo V6, and chassis tuning by BMW M's former engineering chief Albert Biermann. It never sold like a 4 Series, which is why the good ones are bargains.",
    "name": "Stinger",
+   "photo": "assets/photos/kia-stinger.webp",
+   "photoCaption": "20200924 Kia Stinger Front Side",
+   "photoCredit": "Photo: Ki hoon, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:20200924_Kia_Stinger_Front_Side.jpg",
+   "photos": [
+    {
+     "caption": "20200924 Kia Stinger Front Side",
+     "credit": "Photo: Ki hoon, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:20200924_Kia_Stinger_Front_Side.jpg",
+     "src": "assets/photos/kia-stinger.webp"
+    }
+   ],
    "segment": "Sports sedan",
    "slug": "stinger",
    "status": "Discontinued",
@@ -94,6 +106,18 @@
    ],
    "intro": "The three-row that swept the 2020 awards, World Car of the Year, MotorTrend SUV of the Year, North American Utility of the Year, by being honest, handsome, and priced under the Germans it out-finished.",
    "name": "Telluride",
+   "photo": "assets/photos/kia-telluride.webp",
+   "photoCaption": "2020 Kia Telluride front view 1 (United States)",
+   "photoCredit": "Photo: Gold Pony, CC BY 3.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2020_Kia_Telluride_front_view_1_(United_States).png",
+   "photos": [
+    {
+     "caption": "2020 Kia Telluride front view 1 (United States)",
+     "credit": "Photo: Gold Pony, CC BY 3.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2020_Kia_Telluride_front_view_1_(United_States).png",
+     "src": "assets/photos/kia-telluride.webp"
+    }
+   ],
    "segment": "Mid-size SUV",
    "slug": "telluride",
    "status": "In production",
@@ -136,6 +160,18 @@
    ],
    "intro": "The box the hamsters sold: a tall hatchback with genuine design wit that became Kia's American breakthrough car. Three generations over 16 years before the market moved to crossovers proper.",
    "name": "Soul",
+   "photo": "assets/photos/kia-soul.webp",
+   "photoCaption": "2012 Kia Soul 1 1.6 (Front)",
+   "photoCredit": "Photo: DieselFordMondeo, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2012_Kia_Soul_1_1.6_(Front).jpg",
+   "photos": [
+    {
+     "caption": "2012 Kia Soul 1 1.6 (Front)",
+     "credit": "Photo: DieselFordMondeo, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2012_Kia_Soul_1_1.6_(Front).jpg",
+     "src": "assets/photos/kia-soul.webp"
+    }
+   ],
    "segment": "Compact crossover",
    "slug": "soul",
    "status": "Discontinued",

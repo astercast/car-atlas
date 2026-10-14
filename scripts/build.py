@@ -21,8 +21,8 @@ MODEL_KEYS = {"slug", "name", "years", "status", "bodyStyles", "segment",
               # Placement pass (wave 4): sourced photography, wired by
               # build-time data edits from the Foundry manifest. Every
               # photo carries its caption + CC attribution line.
-              "photo", "photoCaption", "photoCredit", "photos"}
-PHOTO_KEYS = {"src", "caption", "credit"}
+              "photo", "photoCaption", "photoCredit", "photoSource", "photos"}
+PHOTO_KEYS = {"src", "caption", "credit", "source"}
 GEN_KEYS = {"code", "name", "years", "note", "spec"}
 SPEC_KEYS = {"engine", "power", "drivetrain"}
 
@@ -71,8 +71,8 @@ def main():
                 if "spec" in gen and set(gen["spec"]) != SPEC_KEYS:
                     fail(f"{make['slug']}/{model['slug']}: spec keys must be {SPEC_KEYS}")
             for ph in model.get("photos", []):
-                if set(ph) != PHOTO_KEYS:
-                    fail(f"{make['slug']}/{model['slug']}: photo keys must be {PHOTO_KEYS}")
+                if not {"src", "caption", "credit"} <= set(ph) <= PHOTO_KEYS:
+                    fail(f"{make['slug']}/{model['slug']}: photo keys must be src/caption/credit (+source)")
             if "photos" in model and model.get("photo") != model["photos"][0]["src"]:
                 fail(f"{make['slug']}/{model['slug']}: photo must mirror photos[0]")
             total_models += 1
@@ -88,7 +88,8 @@ def main():
                 # carried so index rows and listing units can embed
                 # the model's photo where one is recorded.
                 **({"photo": model["photo"], "photoCaption": model["photoCaption"],
-                    "photoCredit": model["photoCredit"]} if model.get("photo") else {}),
+                    "photoCredit": model["photoCredit"],
+                    **({"photoSource": model["photoSource"]} if model.get("photoSource") else {})} if model.get("photo") else {}),
             })
             # honest-fallback Layer 1 input: the record's static
             # essentials, baked into model.html below so a stalled

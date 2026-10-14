@@ -90,6 +90,18 @@
    ],
    "intro": "The wedge. Gandini's scissor-doored V12 spent sixteen years as the definitive poster car, growing wider, wingier and faster the whole way. Impractical, cramped, nearly impossible to reverse, and completely untouchable as an object.",
    "name": "Countach",
+   "photo": "assets/photos/lamborghini-countach.webp",
+   "photoCaption": "1975 Lamborghini Countach LP400 Periscopo",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1975_Lamborghini_Countach_LP400_Periscopo.jpg",
+   "photos": [
+    {
+     "caption": "1975 Lamborghini Countach LP400 Periscopo",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1975_Lamborghini_Countach_LP400_Periscopo.jpg",
+     "src": "assets/photos/lamborghini-countach.webp"
+    }
+   ],
    "segment": "Supercar",
    "slug": "countach",
    "status": "Discontinued",
@@ -133,6 +145,18 @@
    ],
    "intro": "The Gallardo's successor and the last of the naturally aspirated V10s. Over two decades of production variants, Evo, Performante, STO, Tecnica, Sterrato, made it Lamborghini's best-selling sports car before the Temerario replaced it in 2024.",
    "name": "Huracán",
+   "photo": "assets/photos/lamborghini-huracan.webp",
+   "photoCaption": "Lamborghini Huracan 20150525 7811",
+   "photoCredit": "Photo: Jakub Hałun, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Lamborghini_Huracan_20150525_7811.jpg",
+   "photos": [
+    {
+     "caption": "Lamborghini Huracan 20150525 7811",
+     "credit": "Photo: Jakub Hałun, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Lamborghini_Huracan_20150525_7811.jpg",
+     "src": "assets/photos/lamborghini-huracan.webp"
+    }
+   ],
    "segment": "Supercar",
    "slug": "huracan",
    "status": "Discontinued",
@@ -178,6 +202,18 @@
    ],
    "intro": "The V12 flagship for a decade: carbon monocoque, pushrod suspension, scissor doors, and a 6.5-litre V12 that outlived three generations of rivals. Replaced by the hybrid Revuelto, which makes the Aventador the last pure-V12 Lamborghini flagship.",
    "name": "Aventador",
+   "photo": "assets/photos/lamborghini-aventador.webp",
+   "photoCaption": "2016 Lamborghini Aventador SV 6",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2016_Lamborghini_Aventador_SV_6.jpg",
+   "photos": [
+    {
+     "caption": "2016 Lamborghini Aventador SV 6",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2016_Lamborghini_Aventador_SV_6.jpg",
+     "src": "assets/photos/lamborghini-aventador.webp"
+    }
+   ],
    "segment": "Supercar",
    "slug": "aventador",
    "status": "Discontinued",
@@ -221,6 +257,18 @@
    ],
    "intro": "The 'Super SUV' that doubled Lamborghini's sales and paid for everything else in the catalogue. Purists scoffed in 2018; the order books answered. Genuinely fast, genuinely usable, and the reason Lamborghini can still afford V12 flagships.",
    "name": "Urus",
+   "photo": "assets/photos/lamborghini-urus.webp",
+   "photoCaption": "Lamborghini Urus 20180306 Genf 2018",
+   "photoCredit": "Photo: Alexander Migl, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Lamborghini_Urus_20180306_Genf_2018.jpg",
+   "photos": [
+    {
+     "caption": "Lamborghini Urus 20180306 Genf 2018",
+     "credit": "Photo: Alexander Migl, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Lamborghini_Urus_20180306_Genf_2018.jpg",
+     "src": "assets/photos/lamborghini-urus.webp"
+    }
+   ],
    "segment": "Luxury SUV",
    "slug": "urus",
    "status": "In production",

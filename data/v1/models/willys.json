@@ -22,6 +22,18 @@
    ],
    "intro": "The Jeep: Willys-Overland's MB (built alongside Ford's near-identical GPW) put over 360,000 Willys examples into every theatre of the Second World War on the 60 hp Go Devil four. It is the most consequential utility vehicle ever made, and the ancestor of everything in this atlas with seven grille slots.",
    "name": "MB (Willys Jeep)",
+   "photo": "assets/photos/willys-mb.webp",
+   "photoCaption": "41 Willys Jeep MB (8937385278)",
+   "photoCredit": "Photo: Greg Gjerdingen from Willmar, USA, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:41_Willys_Jeep_MB_(8937385278).jpg",
+   "photos": [
+    {
+     "caption": "41 Willys Jeep MB (8937385278)",
+     "credit": "Photo: Greg Gjerdingen from Willmar, USA, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:41_Willys_Jeep_MB_(8937385278).jpg",
+     "src": "assets/photos/willys-mb.webp"
+    }
+   ],
    "segment": "Off-road vehicle",
    "slug": "mb",
    "status": "Discontinued",
@@ -64,6 +76,18 @@
    ],
    "intro": "The Jeep comes home: the CJ-2A of 1945 put the wartime formula to farm and trail work, and the line ran for four decades, CJ-3B's high hood, the CJ-5's twenty-year production, the CJ-7's extra room and the Scrambler's pickup bed. Willys built them until 1963; Kaiser and AMC carried the line on.",
    "name": "CJ (Civilian Jeep)",
+   "photo": "assets/photos/willys-cj.webp",
+   "photoCaption": "1949-1953 Willys Jeep CJ-3A",
+   "photoCredit": "Photo: Medium69, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1949-1953_Willys_Jeep_CJ-3A.jpg",
+   "photos": [
+    {
+     "caption": "1949-1953 Willys Jeep CJ-3A",
+     "credit": "Photo: Medium69, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1949-1953_Willys_Jeep_CJ-3A.jpg",
+     "src": "assets/photos/willys-cj.webp"
+    }
+   ],
    "segment": "Off-road vehicle",
    "slug": "cj",
    "status": "Discontinued",
@@ -99,6 +123,18 @@
    ],
    "intro": "America's first all-steel station wagon, Brooks Stevens's design sold the Jeep idea to families, and the same bones carried the pickup truck and panel delivery. Four-wheel drive from 1949 made it the original SUV in all but name, a decade and a half before the term.",
    "name": "Station Wagon / Pickup",
+   "photo": "assets/photos/willys-wagon.webp",
+   "photoCaption": "1948 Willys Jeep Station Wagon",
+   "photoCredit": "Photo: kalacaw, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1948_Willys_Jeep_Station_Wagon.jpg",
+   "photos": [
+    {
+     "caption": "1948 Willys Jeep Station Wagon",
+     "credit": "Photo: kalacaw, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1948_Willys_Jeep_Station_Wagon.jpg",
+     "src": "assets/photos/willys-wagon.webp"
+    }
+   ],
    "segment": "Utility vehicle",
    "slug": "wagon",
    "status": "Discontinued",
@@ -131,6 +167,18 @@
    ],
    "intro": "Willys's post-war passenger car: a light, efficient unitary saloon (Aero Lark, Wing, Ace and the Eagle hardtop) that handled well, sipped fuel and sold against the full weight of the Big Three. Production moved to Brazil, where the Aero Willys lived on into the 1970s.",
    "name": "Aero",
+   "photo": "assets/photos/willys-aero.webp",
+   "photoCaption": "1954 Willys Aero Eagle Hardtop, front right (Hershey 2019)",
+   "photoCredit": "Photo: Mr.choppers, CC BY-SA 3.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1954_Willys_Aero_Eagle_Hardtop,_front_right_(Hershey_2019).jpg",
+   "photos": [
+    {
+     "caption": "1954 Willys Aero Eagle Hardtop, front right (Hershey 2019)",
+     "credit": "Photo: Mr.choppers, CC BY-SA 3.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1954_Willys_Aero_Eagle_Hardtop,_front_right_(Hershey_2019).jpg",
+     "src": "assets/photos/willys-aero.webp"
+    }
+   ],
    "segment": "Family car",
    "slug": "aero",
    "status": "Discontinued",

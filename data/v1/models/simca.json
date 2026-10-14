@@ -36,6 +36,18 @@
    ],
    "intro": "The swallow (hirondelle, hence the badge) that made Simca France's second carmaker: a modern monocoque saloon with the Flash engine, sold in everything from taxi trim to the elegant Facel-built coupés. Over 1.4 million were made.",
    "name": "Aronde",
+   "photo": "assets/photos/simca-aronde.webp",
+   "photoCaption": "(MAD) SIMCA Aronde P60 - 5",
+   "photoCredit": "Photo: Philmarin, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:(MAD)_SIMCA_Aronde_P60_-_5.jpg",
+   "photos": [
+    {
+     "caption": "(MAD) SIMCA Aronde P60 - 5",
+     "credit": "Photo: Philmarin, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:(MAD)_SIMCA_Aronde_P60_-_5.jpg",
+     "src": "assets/photos/simca-aronde.webp"
+    }
+   ],
    "segment": "Family car",
    "slug": "aronde",
    "status": "Discontinued",
@@ -70,6 +82,18 @@
    ],
    "intro": "Ford of France's V8, inherited whole when Simca bought the Poissy plant in 1954: a flathead 2.4-litre V8 in an American-styled saloon, Versailles, Trianon, Régence, then the Présidence and the Chambord. France's last V8-engined production car of its era, and the seed of Brazil's Simca do Brasil.",
    "name": "Vedette",
+   "photo": "assets/photos/simca-vedette.webp",
+   "photoCaption": "1956 Simca Vedette Versailles 2400",
+   "photoCredit": "Photo: Rutger van der Maar, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1956_Simca_Vedette_Versailles_2400.jpg",
+   "photos": [
+    {
+     "caption": "1956 Simca Vedette Versailles 2400",
+     "credit": "Photo: Rutger van der Maar, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1956_Simca_Vedette_Versailles_2400.jpg",
+     "src": "assets/photos/simca-vedette.webp"
+    }
+   ],
    "segment": "Luxury car",
    "slug": "vedette",
    "status": "Discontinued",
@@ -103,6 +127,18 @@
    ],
    "intro": "Simca's rear-engined answer to the Renault 4 and the Beetle era: a square-cut four-door with the Poissy engine behind the rear axle, built for seventeen years and rallied hard in its Rallye forms, the Rallye 2 and 3 are homologation-bred tarmac weapons with a cult following.",
    "name": "1000",
+   "photo": "assets/photos/simca-1000.webp",
+   "photoCaption": "Simca 1000 (1962, 39 PS)",
+   "photoCredit": "Photo: Wleiter, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Simca_1000_(1962,_39_PS).jpg",
+   "photos": [
+    {
+     "caption": "Simca 1000 (1962, 39 PS)",
+     "credit": "Photo: Wleiter, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Simca_1000_(1962,_39_PS).jpg",
+     "src": "assets/photos/simca-1000.webp"
+    }
+   ],
    "segment": "Compact car",
    "slug": "1000",
    "status": "Discontinued",
@@ -138,6 +174,18 @@
    ],
    "intro": "One of the first true hatchbacks: transverse engine, front-wheel drive, a folding rear seat and a hatch, years before the Golf defined the class. The 1100 Ti and the Matra-Simca Rancho (the leisure off-roader it sired) show the range's reach; nearly 2.9 million were built.",
    "name": "1100",
+   "photo": "assets/photos/simca-1100.webp",
+   "photoCaption": "Simca 1100 Oviedo Hillside",
+   "photoCredit": "Photo: Charles01, CC BY-SA 3.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Simca_1100_Oviedo_Hillside.jpg",
+   "photos": [
+    {
+     "caption": "Simca 1100 Oviedo Hillside",
+     "credit": "Photo: Charles01, CC BY-SA 3.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Simca_1100_Oviedo_Hillside.jpg",
+     "src": "assets/photos/simca-1100.webp"
+    }
+   ],
    "segment": "Compact car",
    "slug": "1100",
    "status": "Discontinued",

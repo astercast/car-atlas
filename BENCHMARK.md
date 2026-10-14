@@ -100,6 +100,49 @@ expected gap; depth and live intelligence are.
   joining the Buy page rung. The benchmark value itself remains
   refused at cohort n≤2, per the priced closure below.
 
+## Deltas in rotation 23 (the issue, art-directed)
+
+- **Photography, completed as a census (all rivals):** the photo
+  programme the rotation-22 record named as follow-on debt is
+  closed on the model census: **models photographed 40 → 257 of
+  257**, makes **40 → 59 of 59**, every photograph a real car from
+  Wikimedia Commons under a free licence (CC BY / CC BY-SA / CC0 /
+  public domain), each carrying its caption, photographer, licence
+  and (for the 217 rotation-23 photos) its Commons file-page URL in
+  the dataset. No generated imagery; no unclear rights. Certified
+  results resolving to a photographed model **17 → 29 of 56**; the
+  27 make-level records carry no model photo because no model
+  record exists for their cars, and none was attached by guess.
+- **Cover discipline (design vs the whole set):** the cover photo
+  is now chosen and cropped to a cover standard (one car, still,
+  no crowd intrusion): the 1964 Goodwood still of the 250 GTO
+  replaces the paddock snapshot, cropped 4/3 in the plate rule.
+- **Type (design):** the editorial two-voice system the benchmark
+  set runs: the masthead grotesk (Inter) stays as the instrument;
+  a self-hosted serif (Newsreader) now sets record and lot titles,
+  standfirsts and prose, so entries read as lots and notes, not UI
+  rows. Price Watch records take auction-catalogue furniture:
+  ruled lots under a double rule, lot numbers from the certified
+  set's own order (newest first), stable on every surface.
+- **Data depth: unchanged by design.** This was a presentation and
+  photography pass; the certified set stands at 56 (condition
+  11/56, mileage 7/56, chassis 44/56, re-verified from data), and
+  T-CARS-1's priced closure is unmet on the same evidence as
+  rotation 22 (largest cohort still n=2).
+
+## Benchmark standing line (rotation 23)
+
+**BENCHMARK STANDING — CLOSER on presentation and photography,
+FLAT on data depth, by design: the atlas now photographs every
+one of its 257 models and 59 makes from sourced, licensed real
+photography with per-photo credit and source on the record, its
+cover meets the cover standard of the benchmark set, and its
+records and lots are set in the two-voice editorial system those
+sites run, while remaining BEHIND every named rival on live
+listings, true cohort benchmarks (T-CARS-1) and off-site notify,
+and BEHIND Wikipedia on encyclopedia breadth; design held at
+PARITY-or-AHEAD against the whole set.**
+
 ## Deferred, re-argued by name, with priced closures
 
 ### T-CARS-1 — benchmark / cohort value per model

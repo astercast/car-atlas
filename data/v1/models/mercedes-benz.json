@@ -44,6 +44,18 @@
    ],
    "intro": "The car the rest of the industry copies five years later. Air suspension, massaging seats, night vision, if it debuts anywhere, it debuts here. The name is short for Sonderklasse: special class. It has earned it more often than not.",
    "name": "S-Class",
+   "photo": "assets/photos/mercedes-benz-s-class.webp",
+   "photoCaption": "MERCEDES-BENZ S-CLASS (V221) China",
+   "photoCredit": "Photo: Dinkun Chen, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:MERCEDES-BENZ_S-CLASS_(V221)_China.jpg",
+   "photos": [
+    {
+     "caption": "MERCEDES-BENZ S-CLASS (V221) China",
+     "credit": "Photo: Dinkun Chen, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:MERCEDES-BENZ_S-CLASS_(V221)_China.jpg",
+     "src": "assets/photos/mercedes-benz-s-class.webp"
+    }
+   ],
    "segment": "Full-size luxury sedan",
    "slug": "s-class",
    "status": "In production",
@@ -100,6 +112,18 @@
    ],
    "intro": "The taxi in Stuttgart, the boardroom car everywhere else. The E-Class line, the W124 carried it before the name existed, is Mercedes at its most durable and least theatrical, which is exactly the point.",
    "name": "E-Class",
+   "photo": "assets/photos/mercedes-benz-e-class.webp",
+   "photoCaption": "MERCEDES-BENZ E-CLASS (W213) China",
+   "photoCredit": "Photo: Dinkun Chen, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:MERCEDES-BENZ_E-CLASS_(W213)_China.jpg",
+   "photos": [
+    {
+     "caption": "MERCEDES-BENZ E-CLASS (W213) China",
+     "credit": "Photo: Dinkun Chen, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:MERCEDES-BENZ_E-CLASS_(W213)_China.jpg",
+     "src": "assets/photos/mercedes-benz-e-class.webp"
+    }
+   ],
    "segment": "Executive car",
    "slug": "e-class",
    "status": "In production",
@@ -217,6 +241,18 @@
    ],
    "intro": "A military utility vehicle that became a luxury icon without changing its silhouette. Three locking differentials, a ladder frame, and door hinges on the outside, the shape is the substance, and Mercedes has wisely never messed with it.",
    "name": "G-Class",
+   "photo": "assets/photos/mercedes-benz-g-class.webp",
+   "photoCaption": "1979 Mercedes-Benz G-Class",
+   "photoCredit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1979_Mercedes-Benz_G-Class.jpg",
+   "photos": [
+    {
+     "caption": "1979 Mercedes-Benz G-Class",
+     "credit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1979_Mercedes-Benz_G-Class.jpg",
+     "src": "assets/photos/mercedes-benz-g-class.webp"
+    }
+   ],
    "segment": "Luxury off-road SUV",
    "slug": "g-class",
    "status": "In production",
@@ -258,6 +294,18 @@
    ],
    "intro": "AMG's own car, not a tuned Mercedes: a front-mid V8, a transaxle at the back, and a long bonnet with the cabin sitting nearly over the rear wheels. The second generation shares its bones with the SL and got more civilised; the first one is the purist's pick.",
    "name": "AMG GT",
+   "photo": "assets/photos/mercedes-benz-amg-gt.webp",
+   "photoCaption": "Dülmen, Automeile auf dem Kartoffelmarkt, Mercedes AMG GT -- 2019 -- 9884",
+   "photoCredit": "Photo: Dietmar Rabich, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Automeile_auf_dem_Kartoffelmarkt,_Mercedes_AMG_GT_--_2019_--_9884.jpg",
+   "photos": [
+    {
+     "caption": "Dülmen, Automeile auf dem Kartoffelmarkt, Mercedes AMG GT -- 2019 -- 9884",
+     "credit": "Photo: Dietmar Rabich, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Automeile_auf_dem_Kartoffelmarkt,_Mercedes_AMG_GT_--_2019_--_9884.jpg",
+     "src": "assets/photos/mercedes-benz-amg-gt.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "amg-gt",
    "status": "In production",

@@ -22,6 +22,18 @@
    ],
    "intro": "The car that started mass production's story: a $650 single-cylinder runabout built in the thousands while rivals built dozens, the first Oldsmobile, and for a while the best-selling car in America.",
    "name": "Curved Dash Oldsmobile",
+   "photo": "assets/photos/oldsmobile-curved-dash.webp",
+   "photoCaption": "1904 Oldsmobile Model 6 'Curved Dash'",
+   "photoCredit": "Photo: Rutger van der Maar, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1904_Oldsmobile_Model_6_%27Curved_Dash%27.jpg",
+   "photos": [
+    {
+     "caption": "1904 Oldsmobile Model 6 'Curved Dash'",
+     "credit": "Photo: Rutger van der Maar, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1904_Oldsmobile_Model_6_%27Curved_Dash%27.jpg",
+     "src": "assets/photos/oldsmobile-curved-dash.webp"
+    }
+   ],
    "segment": "Runabout",
    "slug": "curved-dash",
    "status": "Discontinued",
@@ -53,6 +65,18 @@
    ],
    "intro": "The 1949 Rocket 88, a modern overhead-valve V8 in the lighter body, is a founding document of the muscle-car idea and the subject of what is often called the first rock-and-roll record. The 88 nameplate then ran for fifty years.",
    "name": "88 / Rocket 88",
+   "photo": "assets/photos/oldsmobile-rocket-88.webp",
+   "photoCaption": "1950 Oldsmobile Rocket 88 DE-93-36 p1",
+   "photoCredit": "Photo: Alfvanbeem, CC0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1950_Oldsmobile_Rocket_88_DE-93-36_p1.jpg",
+   "photos": [
+    {
+     "caption": "1950 Oldsmobile Rocket 88 DE-93-36 p1",
+     "credit": "Photo: Alfvanbeem, CC0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1950_Oldsmobile_Rocket_88_DE-93-36_p1.jpg",
+     "src": "assets/photos/oldsmobile-rocket-88.webp"
+    }
+   ],
    "segment": "Full-size sedan",
    "slug": "rocket-88",
    "status": "Discontinued",
@@ -138,6 +162,18 @@
    ],
    "intro": "The car that brought front-wheel drive back to America: a 7-litre V8 driving the front wheels through a chain-driven transaxle, styled like a jet-age sculpture. It worked, it sold, and it changed GM's engineering map.",
    "name": "Toronado",
+   "photo": "assets/photos/oldsmobile-toronado.webp",
+   "photoCaption": "1966 Oldsmobile Toronado Deluxe, front right, 06-16-2024",
+   "photoCredit": "Photo: MercurySable99, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1966_Oldsmobile_Toronado_Deluxe,_front_right,_06-16-2024.jpg",
+   "photos": [
+    {
+     "caption": "1966 Oldsmobile Toronado Deluxe, front right, 06-16-2024",
+     "credit": "Photo: MercurySable99, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1966_Oldsmobile_Toronado_Deluxe,_front_right,_06-16-2024.jpg",
+     "src": "assets/photos/oldsmobile-toronado.webp"
+    }
+   ],
    "segment": "Personal luxury coupe",
    "slug": "toronado",
    "status": "Discontinued",
@@ -170,6 +206,18 @@
    ],
    "intro": "For a time, the Cutlass was simply the best-selling car in America, the nameplate that carried Oldsmobile's volume from the muscle era through the G-body years, with the Supreme as the default upgrade buy of the suburbs.",
    "name": "Cutlass",
+   "photo": "assets/photos/oldsmobile-cutlass.webp",
+   "photoCaption": "1985 Oldsmobile Cutlass Supreme sedan in Dark Chestnut Metallic, front left, 1-11-2021",
+   "photoCredit": "Photo: BlueCrabRedCrab, CC0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1985_Oldsmobile_Cutlass_Supreme_sedan_in_Dark_Chestnut_Metallic,_front_left,_1-11-2021.jpg",
+   "photos": [
+    {
+     "caption": "1985 Oldsmobile Cutlass Supreme sedan in Dark Chestnut Metallic, front left, 1-11-2021",
+     "credit": "Photo: BlueCrabRedCrab, CC0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1985_Oldsmobile_Cutlass_Supreme_sedan_in_Dark_Chestnut_Metallic,_front_left,_1-11-2021.jpg",
+     "src": "assets/photos/oldsmobile-cutlass.webp"
+    }
+   ],
    "segment": "Mid-size family car",
    "slug": "cutlass",
    "status": "Discontinued",
@@ -201,6 +249,18 @@
    ],
    "intro": "Oldsmobile's last flagship and its best car in decades: a Northstar-derived 4.0 V8, a rigid shell, and concept-car styling, the car that was meant to save the marque and instead became its elegant farewell.",
    "name": "Aurora",
+   "photo": "assets/photos/oldsmobile-aurora.webp",
+   "photoCaption": "1996 Oldsmobile Aurora in Silver Teal (front left side)",
+   "photoCredit": "Photo: Flybrian at English Wikipedia, Public domain, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1996_Oldsmobile_Aurora_in_Silver_Teal_(front_left_side).jpg",
+   "photos": [
+    {
+     "caption": "1996 Oldsmobile Aurora in Silver Teal (front left side)",
+     "credit": "Photo: Flybrian at English Wikipedia, Public domain, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1996_Oldsmobile_Aurora_in_Silver_Teal_(front_left_side).jpg",
+     "src": "assets/photos/oldsmobile-aurora.webp"
+    }
+   ],
    "segment": "Luxury sedan",
    "slug": "aurora",
    "status": "Discontinued",

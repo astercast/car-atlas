@@ -24,6 +24,18 @@
    ],
    "intro": "The car that motorised Britain. Herbert Austin's baby car put a real automobile, four cylinders, four wheels, brakes all round eventually, within reach of families who had managed with a motorcycle and sidecar, and licensed production spread the design from Munich (the first BMW) to Tokyo and New York.",
    "name": "Seven",
+   "photo": "assets/photos/austin-seven.webp",
+   "photoCaption": "Austin Seven 1959 - rear",
+   "photoCredit": "Photo: DeFacto, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Austin_Seven_1959_-_rear.jpg",
+   "photos": [
+    {
+     "caption": "Austin Seven 1959 - rear",
+     "credit": "Photo: DeFacto, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Austin_Seven_1959_-_rear.jpg",
+     "src": "assets/photos/austin-seven.webp"
+    }
+   ],
    "segment": "City car",
    "slug": "seven",
    "status": "Discontinued",
@@ -60,6 +72,18 @@
    ],
    "intro": "Austin's first post-war small car and the A-series engine's debut. The A35 of 1956 sharpened it with the 948 cc engine, and A35s became unlikely giant-killers in saloon-car racing, they still race at Goodwood today, sideways and entirely serious.",
    "name": "A30 / A35",
+   "photo": "assets/photos/austin-a35.webp",
+   "photoCaption": "Austin A35 (1957) & A30 (1955) (32760763102)",
+   "photoCredit": "Photo: Andrew Bone from Weymouth, England, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Austin_A35_(1957)_%26_A30_(1955)_(32760763102).jpg",
+   "photos": [
+    {
+     "caption": "Austin A35 (1957) & A30 (1955) (32760763102)",
+     "credit": "Photo: Andrew Bone from Weymouth, England, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Austin_A35_(1957)_%26_A30_(1955)_(32760763102).jpg",
+     "src": "assets/photos/austin-a35.webp"
+    }
+   ],
    "segment": "Compact car",
    "slug": "a35",
    "status": "Discontinued",
@@ -106,6 +130,18 @@
    ],
    "intro": "Alec Issigonis's transverse-engine, front-drive rethink of the small car: ten feet long, room for four, and a layout the whole industry eventually copied. Sold as an Austin (Seven, then Mini) and a Morris, it won Monte Carlo rallies, carried the sixties, and stayed in production for 41 years.",
    "name": "Mini",
+   "photo": "assets/photos/austin-mini.webp",
+   "photoCaption": "1959 Austin Mini St. Mary's Trophy 1",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1959_Austin_Mini_St._Mary%27s_Trophy_1.jpg",
+   "photos": [
+    {
+     "caption": "1959 Austin Mini St. Mary's Trophy 1",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1959_Austin_Mini_St._Mary%27s_Trophy_1.jpg",
+     "src": "assets/photos/austin-mini.webp"
+    }
+   ],
    "segment": "City car",
    "slug": "mini",
    "status": "Discontinued",
@@ -140,6 +176,18 @@
    ],
    "intro": "Britain's best-selling car of the sixties: Issigonis's larger car, with Hydrolastic suspension, front-wheel drive and Pininfarina-influenced lines. Badged as Austin, Morris, MG, Riley, Vanden Plas and Wolseley, the 1300 GT and the MG 1300 are the sporting faces of the range.",
    "name": "1100 / 1300 (ADO16)",
+   "photo": "assets/photos/austin-1100.webp",
+   "photoCaption": "1965 Austin 1100",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1965_Austin_1100.jpg",
+   "photos": [
+    {
+     "caption": "1965 Austin 1100",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1965_Austin_1100.jpg",
+     "src": "assets/photos/austin-1100.webp"
+    }
+   ],
    "segment": "Compact car",
    "slug": "1100",
    "status": "Discontinued",
@@ -173,6 +221,18 @@
    ],
    "intro": "The 'British car to beat the world', launched to replace the Mini and instead sold alongside it for seventeen years. The MG Metro and the turbocharged MG Metro Turbo carried the sporting brief; the late Rover-badged cars (from 1990, as the Rover 100) gained the K-series engine.",
    "name": "Metro",
+   "photo": "assets/photos/austin-metro.webp",
+   "photoCaption": "1983 Austin Metro",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1983_Austin_Metro.jpg",
+   "photos": [
+    {
+     "caption": "1983 Austin Metro",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1983_Austin_Metro.jpg",
+     "src": "assets/photos/austin-metro.webp"
+    }
+   ],
    "segment": "Supermini",
    "slug": "metro",
    "status": "Discontinued",

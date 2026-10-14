@@ -1,12 +1,16 @@
-/* Car Atlas, the issue system (identity pass, rotation 22).
-   One grotesk, tabular numerals as imagery, near-monochrome + one
-   red accent, space (not borders/cards) separates. The home is an
-   issue: masthead and folio line, one cover car with its price as
-   the display numeral, contents as department doors, departments
-   in the contents order. Listings everywhere print the five-field
-   unit; the car page is a record with a ruled price ledger.
-   The Atlas is print: nothing reveals, nothing animates; prices
-   and dates are present in residence. */
+/* Car Atlas, the issue system (identity pass, rotation 22;
+   art-directed, rotation 23). TWO voices: the grotesk (Inter) is
+   the instrument, masthead, folio, labels, prices and chrome; the
+   serif (Newsreader) is the objects and the notes, record titles,
+   lot titles, standfirsts and prose, so entries read as lots and
+   notes, not UI rows. Tabular numerals as imagery, near-monochrome
+   + one red accent, space (not borders/cards) separates. The home
+   is an issue: masthead and folio line, one cover car with its
+   price as the display numeral, contents as department doors,
+   departments in the contents order. Listings everywhere print
+   the five-field unit as a ruled lot; the car page is a record
+   with a ruled price ledger. The Atlas is print: nothing reveals,
+   nothing animates; prices and dates are present in residence. */
 
 /* Self-hosted type, hardened for iPhone Safari (Aesthetics ROUND-001
    section 5, all rules). Inter is the only voice and ships as ONE
@@ -42,6 +46,34 @@
   ascent-override: 93.76%; descent-override: 23.34%;
   line-gap-override: 0%; size-adjust: 103.33%;
 }
+/* The serif partner (rotation 23): Newsreader, self-hosted the
+   same way, one variable file per style (opsz + wght axes),
+   font-display: swap, weight set only with font-weight, nothing
+   synthesized. It is NOT preloaded: the grotesk carries the first
+   paint and the metric-adjusted fallback below (measured from the
+   shipped file with fontTools against Liberation Serif, the Times
+   proxy: Newsreader upm 2000, x-height 852, ascent 1470, descent
+   530; Liberation Serif x-height 940 at upm 2048, normalized 918;
+   size-adjust 852/918 = 92.81%; ascent 73.50/0.9281 = 79.19%;
+   descent 26.50/0.9281 = 28.55%) keeps a swap from shifting
+   layout. Provenance: assets/fonts/FONTS.md. */
+@font-face {
+  font-family: "Newsreader";
+  src: url("../fonts/newsreader-latin-normal-var.woff2") format("woff2-variations");
+  font-weight: 200 800; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Newsreader";
+  src: url("../fonts/newsreader-latin-italic-var.woff2") format("woff2-variations");
+  font-weight: 200 800; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Newsreader Fallback";
+  src: local("Georgia"), local("Times New Roman"), local("Liberation Serif"), local("Times");
+  font-weight: 200 800; font-style: normal;
+  ascent-override: 79.19%; descent-override: 28.55%;
+  line-gap-override: 0%; size-adjust: 92.81%;
+}
 
 :root {
   --paper: #fbfbf9;
@@ -54,7 +86,21 @@
   --radius: 2px;
   --maxw: 1240px;
   --font: "Inter", "Inter Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --serif: "Newsreader", "Newsreader Fallback", Georgia, "Times New Roman", serif;
   --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+/* The serif voice: the objects and the notes. Optical sizing is
+   the face's own; titles take a mid weight the grotesk never uses,
+   so a record reads as print, not as a louder UI row. */
+.cover-title, .page-head h1, .row h3, .journal-unit h3, .gen-head h3,
+.listing .l-title, .pw-lrow .car {
+  font-family: var(--serif); font-optical-sizing: auto; font-weight: 600;
+}
+.mast-tag, .cover-standfirst, .lede, .row p, .door .d-contract,
+.dept-head .dept-note, .block-head p, .journal-unit .j-stand, .gen p,
+.note-box p, .listing .l-date, .listing .l-prov, .pw-lrow .facts,
+.cert-line, .cohort-line, .closing p {
+  font-family: var(--serif); font-optical-sizing: auto;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; font-synthesis-weight: none; }
@@ -80,7 +126,7 @@ a:hover { color: var(--accent-ink); }
 .masthead { padding: 64px 0 0; }
 .mast-word { font-size: clamp(46px, 8.5vw, 108px); font-weight: 800; letter-spacing: -0.045em; line-height: 0.98; }
 .mast-word .dot { color: var(--accent); }
-.mast-tag { margin-top: 14px; font-size: clamp(16px, 2vw, 20px); color: var(--ink-2); max-width: 54ch; }
+.mast-tag { margin-top: 14px; font-size: clamp(17px, 2.1vw, 21px); line-height: 1.5; color: var(--ink-2); max-width: 50ch; }
 .folio { margin-top: 28px; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--line); padding: 10px 0; font-size: 12.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.09em; color: var(--ink-2); display: flex; flex-wrap: wrap; gap: 6px 14px; }
 .folio b { color: var(--ink); font-weight: 750; }
 .folio .sep { color: var(--ink-3); }
@@ -89,10 +135,10 @@ a:hover { color: var(--accent-ink); }
 .cover { display: grid; grid-template-columns: 1.55fr 1fr; gap: 40px; padding: 48px 0 0; align-items: start; }
 .cover .photo { margin: 0; }
 .cover-state { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent-ink); }
-.cover-title { margin-top: 10px; font-size: clamp(30px, 4.2vw, 52px); font-weight: 800; letter-spacing: -0.035em; line-height: 1.05; }
+.cover-title { margin-top: 10px; font-size: clamp(32px, 4.4vw, 56px); font-weight: 600; letter-spacing: -0.015em; line-height: 1.06; }
 .cover-price { margin-top: 18px; font-size: clamp(46px, 6.4vw, 92px); font-weight: 800; letter-spacing: -0.04em; line-height: 1; white-space: nowrap; }
 .cover-basis { margin-top: 8px; font-size: 13.5px; color: var(--ink-2); }
-.cover-standfirst { margin-top: 20px; font-size: 16.5px; color: var(--ink-2); max-width: 44ch; }
+.cover-standfirst { margin-top: 20px; font-size: 18px; line-height: 1.58; color: var(--ink-2); max-width: 40ch; }
 .cover-date { margin-top: 20px; padding-top: 14px; border-top: 1px solid var(--line); font-size: 14px; color: var(--ink-2); }
 .cover-date b { color: var(--ink); }
 .cover-src { margin-top: 6px; font-size: 13px; color: var(--ink-3); }
@@ -118,7 +164,7 @@ a:hover { color: var(--accent-ink); }
 .doors { margin-top: 18px; border-top: 2px solid var(--ink); display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 40px; }
 .door { padding: 22px 0 26px; border-bottom: 1px solid var(--line); display: block; }
 .door .d-name { font-size: 23px; font-weight: 800; letter-spacing: -0.025em; }
-.door .d-contract { margin-top: 8px; font-size: 15px; color: var(--ink-2); max-width: 34ch; }
+.door .d-contract { margin-top: 8px; font-size: 16px; line-height: 1.5; color: var(--ink-2); max-width: 32ch; }
 .door .d-inside { margin-top: 14px; font-size: 13px; font-family: var(--mono); color: var(--ink-3); }
 a.door:hover .d-name { color: var(--accent-ink); }
 
@@ -133,9 +179,9 @@ a.door:hover .d-name { color: var(--accent-ink); }
 /* Index rows, no cards, no clamp, full text */
 .rows { border-top: 1px solid var(--line); }
 .row { display: grid; grid-template-columns: 1fr auto; gap: 4px 24px; padding: 20px 0; border-bottom: 1px solid var(--line); }
-.row h3 { font-size: 19px; letter-spacing: -0.02em; font-weight: 750; line-height: 1.3; }
+.row h3 { font-size: 20.5px; letter-spacing: -0.01em; font-weight: 600; line-height: 1.28; }
 .row .t-sub { color: var(--ink-3); font-size: 13px; font-family: var(--mono); white-space: nowrap; padding-top: 4px; }
-.row p { color: var(--ink-2); font-size: 14.5px; grid-column: 1 / -1; max-width: 74ch; }
+.row p { color: var(--ink-2); font-size: 15.5px; line-height: 1.55; grid-column: 1 / -1; max-width: 68ch; }
 .row .t-foot { grid-column: 1 / -1; font-size: 12.5px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.07em; }
 a.row:hover h3 { color: var(--accent-ink); }
 .grid.makes { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); gap: 0 48px; }
@@ -153,15 +199,16 @@ a.row:hover h3 { color: var(--accent-ink); }
    Provenance rides as the unit's apparatus line, under the fields. */
 .listing { display: grid; grid-template-columns: 1fr auto auto; gap: 4px 28px; align-items: baseline; padding: 18px 0; border-bottom: 1px solid var(--line); }
 .listing .l-state { font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.11em; color: var(--accent-ink); display: block; }
-.listing .l-title { font-size: clamp(18px, 2.2vw, 24px); font-weight: 750; letter-spacing: -0.025em; line-height: 1.25; display: block; margin-top: 3px; }
-.listing .l-date { font-size: 13.5px; color: var(--ink-2); display: block; margin-top: 4px; }
+.listing .l-lot { font-family: var(--mono); font-weight: 500; color: var(--ink-3); letter-spacing: 0.06em; margin-right: 10px; }
+.listing .l-title { font-size: clamp(19px, 2.3vw, 25px); font-weight: 600; letter-spacing: -0.01em; line-height: 1.25; display: block; margin-top: 3px; }
+.listing .l-date { font-size: 14.5px; color: var(--ink-2); display: block; margin-top: 4px; }
 .listing .l-price { font-size: clamp(20px, 2.6vw, 30px); font-weight: 800; letter-spacing: -0.025em; white-space: nowrap; text-align: right; }
 .listing .l-basis { display: block; font-size: 12px; font-weight: 500; color: var(--ink-3); letter-spacing: 0; margin-top: 3px; white-space: normal; max-width: 24ch; }
 .listing .l-type { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.11em; color: var(--ink-2); white-space: nowrap; padding-top: 6px; }
-.listing .l-prov { grid-column: 1 / -1; font-size: 13px; color: var(--ink-3); }
+.listing .l-prov { grid-column: 1 / -1; font-size: 14px; color: var(--ink-3); }
 .listing .l-prov a { text-decoration: underline; text-underline-offset: 3px; }
 .listing a.l-title:hover { color: var(--accent-ink); }
-.listings { border-top: 1px solid var(--line); }
+.listings { border-top: 3px double var(--ink); }
 
 /* Embedded photos: a car's sourced photograph rides inside its
    row or unit, after the text, never leading it. The caption and
@@ -183,8 +230,8 @@ a.row:hover h3 { color: var(--accent-ink); }
 /* The journal river, department word, headline, one written line */
 .journal-unit { display: block; padding: 20px 0; border-bottom: 1px solid var(--line); }
 .journal-unit .j-dept { font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.11em; color: var(--ink-3); }
-.journal-unit h3 { margin-top: 5px; font-size: 21px; font-weight: 750; letter-spacing: -0.02em; line-height: 1.3; }
-.journal-unit .j-stand { margin-top: 5px; font-size: 15px; color: var(--ink-2); max-width: 68ch; }
+.journal-unit h3 { margin-top: 5px; font-size: 22.5px; font-weight: 600; letter-spacing: -0.01em; line-height: 1.28; }
+.journal-unit .j-stand { margin-top: 5px; font-size: 16.5px; line-height: 1.55; color: var(--ink-2); max-width: 62ch; }
 .journal-unit .j-meta { margin-top: 6px; font-size: 12.5px; font-family: var(--mono); color: var(--ink-3); }
 a.journal-unit:hover h3 { color: var(--accent-ink); }
 .journal-river { border-top: 1px solid var(--line); }
@@ -199,8 +246,8 @@ section.block { padding: 88px 0 0; }
 /* Page heads */
 .page-head { padding: 72px 0 0; }
 .crumb { font-size: 12px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 16px; }
-.page-head h1 { font-size: clamp(36px, 5.4vw, 64px); letter-spacing: -0.04em; line-height: 1.02; font-weight: 800; }
-.page-head .lede { margin-top: 18px; font-size: 18px; color: var(--ink-2); max-width: 60ch; }
+.page-head h1 { font-size: clamp(38px, 5.6vw, 68px); letter-spacing: -0.015em; line-height: 1.04; font-weight: 600; }
+.page-head .lede { margin-top: 18px; font-size: 19.5px; line-height: 1.55; color: var(--ink-2); max-width: 56ch; }
 .factrow { display: flex; flex-wrap: wrap; gap: 12px 40px; margin-top: 32px; border-top: 1px solid var(--ink); padding-top: 18px; }
 .fact b { display: block; font-size: 16px; }
 .fact span { font-size: 11.5px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.09em; }
@@ -210,20 +257,21 @@ section.block { padding: 88px 0 0; }
 .gen-head h3 { font-size: 20px; letter-spacing: -0.02em; }
 .gen-head .yrs { font-family: var(--mono); font-size: 13px; color: var(--accent-ink); }
 .gen-head .code { font-family: var(--mono); font-size: 12px; color: var(--ink-3); }
-.gen p { color: var(--ink-2); margin-top: 8px; max-width: 74ch; }
+.gen p { color: var(--ink-2); margin-top: 8px; font-size: 16.5px; line-height: 1.6; max-width: 66ch; }
 .spec { display: flex; flex-wrap: wrap; gap: 10px 36px; margin-top: 16px; }
 .spec div b { display: block; font-size: 14.5px; }
 .spec div span { font-size: 11.5px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.08em; }
 .note-box { border-left: 2px solid var(--accent); padding: 4px 0 4px 20px; margin: 36px 0; }
 .note-box b { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: 0.09em; color: var(--accent-ink); margin-bottom: 6px; }
-.note-box p { color: var(--ink-2); font-size: 15px; margin-top: 6px; }
+.note-box p { color: var(--ink-2); font-size: 16px; line-height: 1.55; margin-top: 6px; }
 
 /* The record's price ledger, dated results in date-and-price setting */
-.pw-ledger { border-top: 2px solid var(--ink); }
+.pw-ledger { border-top: 3px double var(--ink); }
 .pw-lrow { display: grid; grid-template-columns: 104px 1fr auto; gap: 6px 24px; padding: 16px 0; border-bottom: 1px solid var(--line); align-items: baseline; }
 .pw-lrow .d { font-family: var(--mono); font-size: 12.5px; color: var(--ink-2); }
-.pw-lrow .car { font-weight: 700; font-size: 15.5px; letter-spacing: -0.015em; }
-.pw-lrow .facts { grid-column: 2; font-size: 13px; color: var(--ink-2); }
+.pw-lrow .lot { display: block; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 3px; }
+.pw-lrow .car { font-weight: 600; font-size: 16.5px; letter-spacing: -0.01em; }
+.pw-lrow .facts { grid-column: 2; font-size: 14px; line-height: 1.5; color: var(--ink-2); }
 .pw-lrow .src { grid-column: 2; font-size: 12.5px; color: var(--ink-3); }
 .pw-lrow .src a { text-decoration: underline; text-underline-offset: 3px; }
 .pw-lrow .price { font-weight: 800; letter-spacing: -0.02em; white-space: nowrap; font-size: 17px; text-align: right; }
@@ -248,6 +296,8 @@ section.block { padding: 88px 0 0; }
 .photo img { display: block; width: 100%; height: auto; background: #fff; }
 .photo-main img { max-height: 560px; object-fit: cover; }
 .photo figcaption { margin-top: 8px; font-size: 12.5px; color: var(--ink-3); }
+.photo figcaption a { text-decoration: underline; text-underline-offset: 3px; }
+.cover .photo img { aspect-ratio: 4 / 3; object-fit: cover; object-position: 50% 58%; }
 .photo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
 .photo-grid .photo { margin: 16px 0 0; }
 
@@ -310,4 +360,9 @@ footer nav { display: flex; gap: 20px; }
      desktop is untouched. */
   .row .t-sub { white-space: normal; }
   .listing > * { min-width: 0; }
+  /* Rotation 23: the same shrink discipline for the record's price
+     ledger, whose serif facts carry unbreakable chassis tokens
+     (22px over at 320 on the F40 record before this line). */
+  .pw-lrow > * { min-width: 0; }
+  .pw-lrow .car, .pw-lrow .facts { overflow-wrap: anywhere; }
 }

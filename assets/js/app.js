@@ -109,11 +109,11 @@ function wireSearch(input, box, index) {
 const photoFigure = (p, cls = "") => `
   <figure class="photo ${cls}">
     <img src="${esc(p.src)}" alt="${esc(p.caption)}" loading="lazy">
-    <figcaption>${esc(p.caption)} · ${esc(p.credit)}</figcaption>
+    <figcaption>${esc(p.caption)} · ${esc(p.credit)}${p.source ? ` · <a href="${esc(p.source)}" target="_blank" rel="noopener">File page ↗</a>` : ""}</figcaption>
   </figure>`;
 const photosHTML = (rec) => {
   const list = rec.photos && rec.photos.length ? rec.photos
-    : (rec.photo ? [{ src: rec.photo, caption: rec.photoCaption, credit: rec.photoCredit }] : []);
+    : (rec.photo ? [{ src: rec.photo, caption: rec.photoCaption, credit: rec.photoCredit, source: rec.photoSource }] : []);
   if (!list.length) return "";
   return photoFigure(list[0], "photo-main")
     + (list.length > 1 ? `<div class="photo-grid">${list.slice(1).map((p) => photoFigure(p)).join("")}</div>` : "");
@@ -134,6 +134,18 @@ const thumbFigure = (rec, modelPhoto = false, cls = "") => {
 };
 /* make/modelSlug -> search-index entry (carries the photo fields) */
 const photoMapFromIndex = (idx) => new Map(idx.filter((e) => e.type === "model" && e.photo).map((e) => [`${e.make}/${e.slug}`, e]));
+
+/* Lot numbers (rotation 23, auction-catalogue furniture): a
+   result's lot is its position in the full certified set, newest
+   sale first, so a lot keeps its number on every surface, the
+   home rail, the marque ledger, the Buy page, Following. */
+const lotKey = (r) => `${r.saleDate}|${r.model}|${r.price}|${r.chassis || ""}`;
+const lotMapOf = (results) => {
+  const m = new Map();
+  [...results].sort((a, b) => b.saleDate.localeCompare(a.saleDate)).forEach((r, i) => m.set(lotKey(r), i + 1));
+  return m;
+};
+const lotLabel = (n) => (n ? `Lot ${String(n).padStart(2, "0")}` : "");
 
 /* --- The listing unit ---
    Five fields in fixed order on every listing, in every rail and
@@ -156,7 +168,7 @@ function listingUnit(r, opts = {}) {
     <span class="l-prov">${esc(resultFacts(r))}${esc(rep)} · Source: <a href="${esc(r.source.url)}" target="_blank" rel="noopener">${esc(disp(r.source.name))} ↗</a></span>`;
   }
   return `<div class="listing">
-    <span><span class="l-state">${esc(state)}</span><a class="l-title" href="${href}">${esc(formula(r.makeName, disp(r.model), r.year))}</a><span class="l-date">${esc(disp(r.event))} · ${esc(fmtDate(r.saleDate))} · sold ${esc(ageWords(r.saleDate))}</span></span>
+    <span><span class="l-state">${opts.lot ? `<span class="l-lot">${esc(lotLabel(opts.lot))}</span>` : ""}${esc(state)}</span><a class="l-title" href="${href}">${esc(formula(r.makeName, disp(r.model), r.year))}</a><span class="l-date">${esc(disp(r.event))} · ${esc(fmtDate(r.saleDate))} · sold ${esc(ageWords(r.saleDate))}</span></span>
     <span class="l-price">${esc(money(r))}<span class="l-basis">${esc(r.priceBasis)}</span></span>
     <span class="l-type">Auction</span>${prov}${opts.photo ? thumbFigure(opts.photo, true, "l-thumb") : ""}
   </div>`;
@@ -197,7 +209,8 @@ async function initHome() {
     const age = $("#cover-age"); if (age) age.textContent = ` · sold ${ageWords("2018-08-25")}`;
     const rail = $("#pw-rail");
     const photoMap = photoMapFromIndex(idx);
-    if (rail) rail.innerHTML = [...pw.results].sort((a, b) => b.saleDate.localeCompare(a.saleDate)).slice(0, 5).map((r) => listingUnit(r, { photo: r.modelSlug ? photoMap.get(`${r.make}/${r.modelSlug}`) : null })).join("");
+    const lots = lotMapOf(pw.results);
+    if (rail) rail.innerHTML = [...pw.results].sort((a, b) => b.saleDate.localeCompare(a.saleDate)).slice(0, 5).map((r) => listingUnit(r, { lot: lots.get(lotKey(r)), photo: r.modelSlug ? photoMap.get(`${r.make}/${r.modelSlug}`) : null })).join("");
   }
 
   wireSearch($("#q"), $("#q-results"), idx);
@@ -283,7 +296,7 @@ async function initMake() {
     </div></section>
     <section class="block">
       <div class="block-head"><h2>Price Watch, certified results for ${esc(meta.name)}</h2><p>Every certified result recorded for this marque, linked records to their model pages and make-level records to the full set on the Buy page. A result is one car on one day, not a valuation.</p></div>
-      ${marqueResults.length ? `<div class="listings">${marqueResults.map((r) => listingUnit(r, { prov: true, all: priceWatch?.results || [], photo: r.modelSlug ? marquePhotos.get(r.modelSlug) : null })).join("")}</div>`
+      ${marqueResults.length ? `<div class="listings">${marqueResults.map((r) => listingUnit(r, { prov: true, lot: lotMapOf(priceWatch?.results || []).get(lotKey(r)), all: priceWatch?.results || [], photo: r.modelSlug ? marquePhotos.get(r.modelSlug) : null })).join("")}</div>`
         : `<p class="center-note">No certified result for this marque yet; none is shown rather than one invented.</p>`}
     </section>
     <script type="application/ld+json">${JSON.stringify({
@@ -404,9 +417,10 @@ async function initModel() {
   const hits = (priceWatch?.results || []).filter((r) => r.make === mk && r.modelSlug === md)
     .sort((a, b) => b.saleDate.localeCompare(a.saleDate));
   const repeatsOf = (r) => r.chassis ? (priceWatch?.results || []).filter((x) => x !== r && x.chassis === r.chassis) : [];
+  const lotsM = priceWatch ? lotMapOf(priceWatch.results) : new Map();
   const ledgerHTML = hits.length ? `<div class="pw-ledger">${hits.map((r) => `
     <div class="pw-lrow">
-      <span class="d">${esc(r.saleDate)}</span>
+      <span class="d"><span class="lot">${esc(lotLabel(lotsM.get(lotKey(r))))}</span>${esc(r.saleDate)}</span>
       <span class="car">${esc(formula(r.makeName, disp(r.model), r.year))}</span>
       <span class="price">${esc(money(r))}</span>
       <span class="facts">${esc(resultFacts(r))} · ${esc(disp(r.event))}${repeatsOf(r).map((x) => ` · Same chassis also sold ${esc(x.saleDate)} for ${esc(money(x))} at ${esc(disp(x.event))}`).join("")}</span>
@@ -576,7 +590,8 @@ async function initBuy() {
           const mine = all.filter((r) => r.make === mk && r.modelSlug === slug);
           return { key, mk, slug, latest: mine[0] || null };
         }).sort((a, b) => (b.latest?.saleDate || "").localeCompare(a.latest?.saleDate || ""));
-        fbox.innerHTML = `<div class="listings">${entries.map(({ mk, slug, latest }) => latest ? listingUnit(latest, { prov: true, all, photo: photoOf(latest) }) : `
+        const lotsF = lotMapOf(all);
+        fbox.innerHTML = `<div class="listings">${entries.map(({ mk, slug, latest }) => latest ? listingUnit(latest, { prov: true, lot: lotsF.get(lotKey(latest)), all, photo: photoOf(latest) }) : `
           <div class="listing">
             <span><span class="l-state">Following</span><a class="l-title" href="${modelUrl(mk, slug)}">${esc(nameOf(mk, slug))}</a><span class="l-date">No certified result for this model yet</span></span>
             <span class="l-price">Unrecorded</span>
@@ -604,11 +619,12 @@ async function initBuy() {
     makeSel.innerHTML = `<option value="">All makes (${all.length})</option>` + Object.keys(makeCounts).sort((a, b) => all.find((r) => r.make === a).makeName.localeCompare(all.find((r) => r.make === b).makeName)).map((mk) => `<option value="${esc(mk)}">${esc(all.find((r) => r.make === mk).makeName)} (${makeCounts[mk]})</option>`).join("");
     bandSel.innerHTML = bands.map(([v, label, fn]) => `<option value="${v}">${esc(label)}${fn ? ` (${all.filter(fn).length})` : ""}</option>`).join("");
     recSel.innerHTML = recordFacets.map(([v, label, fn]) => `<option value="${v}">${esc(label)}${fn ? ` (${all.filter(fn).length})` : ""}</option>`).join("");
+    const lotsAll = lotMapOf(all);
     const renderResults = () => {
       const mk = makeSel.value, band = bands.find((b) => b[0] === bandSel.value), rec = recordFacets.find((f) => f[0] === recSel.value);
       const list = all.filter((r) => (!mk || r.make === mk) && (!band || !band[2] || band[2](r)) && (!rec || !rec[2] || rec[2](r)));
       $("#pw-count").textContent = `Showing ${list.length} of ${all.length} certified results`;
-      $("#results-grid").innerHTML = list.length ? `<div class="listings">${list.map((r) => listingUnit(r, { prov: true, all, photo: photoOf(r) })).join("")}</div>` : `<p class="center-note">No certified result matches that combination. Clear the filters to see all ${all.length}.</p>`;
+      $("#results-grid").innerHTML = list.length ? `<div class="listings">${list.map((r) => listingUnit(r, { prov: true, lot: lotsAll.get(lotKey(r)), all, photo: photoOf(r) })).join("")}</div>` : `<p class="center-note">No certified result matches that combination. Clear the filters to see all ${all.length}.</p>`;
     };
     [makeSel, bandSel, recSel].forEach((el) => el.addEventListener("change", renderResults));
     $("#f-clear").addEventListener("click", () => { makeSel.value = ""; bandSel.value = ""; recSel.value = ""; renderResults(); });

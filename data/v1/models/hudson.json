@@ -24,6 +24,18 @@
    ],
    "intro": "Hudson's budget line that outsold its parent: the Essex made closed cars affordable, put a six-cylinder engine in reach of ordinary buyers, and carried Hudson through the 1920s. The Super Six name above it said everything about the formula, more cylinders, less money.",
    "name": "Essex",
+   "photo": "assets/photos/hudson-essex.webp",
+   "photoCaption": "1933 Hudson Essex Terraplane 6 black front",
+   "photoCredit": "Photo: Тимба, CC BY 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1933_Hudson_Essex_Terraplane_6_black_front.jpg",
+   "photos": [
+    {
+     "caption": "1933 Hudson Essex Terraplane 6 black front",
+     "credit": "Photo: Тимба, CC BY 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1933_Hudson_Essex_Terraplane_6_black_front.jpg",
+     "src": "assets/photos/hudson-essex.webp"
+    }
+   ],
    "segment": "Mid-size car",
    "slug": "essex",
    "status": "Discontinued",
@@ -58,6 +70,18 @@
    ],
    "intro": "Launched off the Essex County Airport runway in 1932, the name is the point, the Terraplane was Hudson's volume fighter: steel-bodied, quick for its price, and famous enough that bluesman Robert Johnson sang about one. It became simply 'Hudson' after 1938.",
    "name": "Terraplane",
+   "photo": "assets/photos/hudson-terraplane.webp",
+   "photoCaption": "1933 Hudson built Terraplane Convertible --Hostetlers (6929574731)",
+   "photoCredit": "Photo: Joe Ross from Lansing, Michigan, CC BY-SA 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1933_Hudson_built_Terraplane_Convertible_--Hostetlers_(6929574731).jpg",
+   "photos": [
+    {
+     "caption": "1933 Hudson built Terraplane Convertible --Hostetlers (6929574731)",
+     "credit": "Photo: Joe Ross from Lansing, Michigan, CC BY-SA 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1933_Hudson_built_Terraplane_Convertible_--Hostetlers_(6929574731).jpg",
+     "src": "assets/photos/hudson-terraplane.webp"
+    }
+   ],
    "segment": "Mid-size car",
    "slug": "terraplane",
    "status": "Discontinued",
@@ -90,6 +114,18 @@
    ],
    "intro": "Hudson's compact gamble: a small, tall, well-equipped sedan launched into the teeth of the horsepower war. It was a good car in the wrong year, and its development cost is part of why Hudson merged into AMC in 1954.",
    "name": "Jet",
+   "photo": "assets/photos/hudson-jet.webp",
+   "photoCaption": "1953 Hudson Super Jet 4-Door Sedan, front left (Cruisin' the River Lowellville Car Show, June 19th, 2023)",
+   "photoCredit": "Photo: MercurySable99, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1953_Hudson_Super_Jet_4-Door_Sedan,_front_left_(Cruisin%27_the_River_Lowellville_Car_Show,_June_19th,_2023).jpg",
+   "photos": [
+    {
+     "caption": "1953 Hudson Super Jet 4-Door Sedan, front left (Cruisin' the River Lowellville Car Show, June 19th, 2023)",
+     "credit": "Photo: MercurySable99, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1953_Hudson_Super_Jet_4-Door_Sedan,_front_left_(Cruisin%27_the_River_Lowellville_Car_Show,_June_19th,_2023).jpg",
+     "src": "assets/photos/hudson-jet.webp"
+    }
+   ],
    "segment": "Compact car",
    "slug": "jet",
    "status": "Discontinued",
@@ -134,6 +170,18 @@
    ],
    "intro": "The step-down Hudson at its peak: a low, unit-body sedan whose big six humiliated V8s on the early NASCAR circuit, 'Fabulous Hudson Hornet' was a results sheet before it was a cartoon. The last true Hudsons before the AMC years turned it into a badge.",
    "name": "Hornet",
+   "photo": "assets/photos/hudson-hornet.webp",
+   "photoCaption": "Hudson Hornet 1952 RSideRear Lake Mirror Cassic 16Oct2010 (14876876262)",
+   "photoCredit": "Photo: Valder137, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Hudson_Hornet_1952_RSideRear_Lake_Mirror_Cassic_16Oct2010_(14876876262).jpg",
+   "photos": [
+    {
+     "caption": "Hudson Hornet 1952 RSideRear Lake Mirror Cassic 16Oct2010 (14876876262)",
+     "credit": "Photo: Valder137, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Hudson_Hornet_1952_RSideRear_Lake_Mirror_Cassic_16Oct2010_(14876876262).jpg",
+     "src": "assets/photos/hudson-hornet.webp"
+    }
+   ],
    "segment": "Full-size car",
    "slug": "hornet",
    "status": "Discontinued",

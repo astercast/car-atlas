@@ -103,6 +103,18 @@
    ],
    "intro": "Late to the pony-car fight in 1970, gone by 1974, then reborn in 2008 as a full-size retro coupé that outlived its rivals, and ended with the 840 hp Demon and the 1,025 hp Demon 170.",
    "name": "Challenger",
+   "photo": "assets/photos/dodge-challenger.webp",
+   "photoCaption": "White Dodge Challenger SRT side view",
+   "photoCredit": "Photo: Renée Kools, CC BY 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:White_Dodge_Challenger_SRT_side_view.jpg",
+   "photos": [
+    {
+     "caption": "White Dodge Challenger SRT side view",
+     "credit": "Photo: Renée Kools, CC BY 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:White_Dodge_Challenger_SRT_side_view.jpg",
+     "src": "assets/photos/dodge-challenger.webp"
+    }
+   ],
    "segment": "Muscle car",
    "slug": "challenger",
    "status": "Discontinued",
@@ -147,6 +159,18 @@
    ],
    "intro": "A V10, a tube frame, and no apology: no ABS, no traction control, no side windows on the first cars. Five generations of America's most honest sports car.",
    "name": "Viper",
+   "photo": "assets/photos/dodge-viper.webp",
+   "photoCaption": "1994 Dodge Viper",
+   "photoCredit": "Photo: ArildV, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1994_Dodge_Viper.jpg",
+   "photos": [
+    {
+     "caption": "1994 Dodge Viper",
+     "credit": "Photo: ArildV, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1994_Dodge_Viper.jpg",
+     "src": "assets/photos/dodge-viper.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "viper",
    "status": "Discontinued",
@@ -178,6 +202,18 @@
    ],
    "intro": "Three rows and a Hemi for most of its life. The SRT Hellcat version, 710 hp, briefly the most powerful production SUV in the world, turned the school run into a drag strip.",
    "name": "Durango",
+   "photo": "assets/photos/dodge-durango.webp",
+   "photoCaption": "Dodge Durango USDM front",
+   "photoCredit": "Photo: Rutger van der Maar, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Dodge_Durango_USDM_front.jpg",
+   "photos": [
+    {
+     "caption": "Dodge Durango USDM front",
+     "credit": "Photo: Rutger van der Maar, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Dodge_Durango_USDM_front.jpg",
+     "src": "assets/photos/dodge-durango.webp"
+    }
+   ],
    "segment": "Full-size SUV",
    "slug": "durango",
    "status": "In production",

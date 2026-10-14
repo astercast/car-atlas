@@ -85,6 +85,18 @@
    ],
    "intro": "A Yukon Denali in a tuxedo that became a cultural fixture, and Cadillac's profit engine. The current car added a 38-inch curved OLED and a 682 hp V-Series.",
    "name": "Escalade",
+   "photo": "assets/photos/cadillac-escalade.webp",
+   "photoCaption": "2021 Cadillac Escalade rear",
+   "photoCredit": "Photo: Baron Maddock, CC BY 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2021_Cadillac_Escalade_rear.jpg",
+   "photos": [
+    {
+     "caption": "2021 Cadillac Escalade rear",
+     "credit": "Photo: Baron Maddock, CC BY 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2021_Cadillac_Escalade_rear.jpg",
+     "src": "assets/photos/cadillac-escalade.webp"
+    }
+   ],
    "segment": "Full-size luxury SUV",
    "slug": "escalade",
    "status": "In production",
@@ -129,6 +141,18 @@
    ],
    "intro": "Corvette engines in a Cadillac sedan, three generations running. The second-gen wagon with a manual gearbox is one of the most collectible American cars of the 2010s.",
    "name": "CTS-V",
+   "photo": "assets/photos/cadillac-cts-v.webp",
+   "photoCaption": "2009 Cadillac CTS-V in Black, front left (08-25-2009)",
+   "photoCredit": "Photo: IFCAR, Public domain, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2009_Cadillac_CTS-V_in_Black,_front_left_(08-25-2009).jpg",
+   "photos": [
+    {
+     "caption": "2009 Cadillac CTS-V in Black, front left (08-25-2009)",
+     "credit": "Photo: IFCAR, Public domain, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2009_Cadillac_CTS-V_in_Black,_front_left_(08-25-2009).jpg",
+     "src": "assets/photos/cadillac-cts-v.webp"
+    }
+   ],
    "segment": "Sports sedan",
    "slug": "cts-v",
    "status": "Discontinued",
@@ -160,6 +184,18 @@
    ],
    "intro": "The last of its kind: a supercharged V8, rear-wheel drive, and a six-speed manual with no-lift shift, in a segment that went hybrid and all-wheel drive. Cadillac kept it in production because demand refused to die.",
    "name": "CT5-V Blackwing",
+   "photo": "assets/photos/cadillac-ct5-v-blackwing.webp",
+   "photoCaption": "Cadillac CT5-V Blackwing 6DC79 Black Raven (12)",
+   "photoCredit": "Photo: Damian B Oh, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Cadillac_CT5-V_Blackwing_6DC79_Black_Raven_(12).jpg",
+   "photos": [
+    {
+     "caption": "Cadillac CT5-V Blackwing 6DC79 Black Raven (12)",
+     "credit": "Photo: Damian B Oh, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Cadillac_CT5-V_Blackwing_6DC79_Black_Raven_(12).jpg",
+     "src": "assets/photos/cadillac-ct5-v-blackwing.webp"
+    }
+   ],
    "segment": "Sports sedan",
    "slug": "ct5-v-blackwing",
    "status": "In production",

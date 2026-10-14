@@ -23,6 +23,18 @@
    ],
    "intro": "The Duesenberg brothers' first production car, and a technical landmark: a straight-eight with an overhead cam in an era of flatheads, and four-wheel hydraulic brakes when rivals braked the rear wheels only.",
    "name": "Model A",
+   "photo": "assets/photos/duesenberg-model-a.webp",
+   "photoCaption": "1921 Duesenberg Model A by Bender Body, front right, Greenwich 2021",
+   "photoCredit": "Photo: Mr.choppers, CC BY-SA 3.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1921_Duesenberg_Model_A_by_Bender_Body,_front_right,_Greenwich_2021.jpg",
+   "photos": [
+    {
+     "caption": "1921 Duesenberg Model A by Bender Body, front right, Greenwich 2021",
+     "credit": "Photo: Mr.choppers, CC BY-SA 3.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1921_Duesenberg_Model_A_by_Bender_Body,_front_right,_Greenwich_2021.jpg",
+     "src": "assets/photos/duesenberg-model-a.webp"
+    }
+   ],
    "segment": "Luxury touring car",
    "slug": "model-a",
    "status": "Discontinued",

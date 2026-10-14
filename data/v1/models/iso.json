@@ -22,6 +22,18 @@
    ],
    "intro": "Renzo Rivolta's move from Isetta bubble cars to a Corvette-engined GT: Bertone styling (by the young Giugiaro), a pressed-steel monocoque, De Dion rear suspension and Chevrolet's 327. The IR 340 raised the tune; about 800 Rivoltas were built.",
    "name": "Rivolta IR 300",
+   "photo": "assets/photos/iso-rivolta.webp",
+   "photoCaption": "Iso Rivolta IR 300 (1964) (53771531287)",
+   "photoCredit": "Photo: Charles from Port Chester, New York, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Iso_Rivolta_IR_300_(1964)_(53771531287).jpg",
+   "photos": [
+    {
+     "caption": "Iso Rivolta IR 300 (1964) (53771531287)",
+     "credit": "Photo: Charles from Port Chester, New York, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Iso_Rivolta_IR_300_(1964)_(53771531287).jpg",
+     "src": "assets/photos/iso-rivolta.webp"
+    }
+   ],
    "segment": "Grand tourer",
    "slug": "rivolta",
    "status": "Discontinued",
@@ -63,6 +75,18 @@
    ],
    "intro": "The Rivolta formula turned up to supercar: Giotto Bizzarrini's chassis engineering, Bertone's most muscular coupé shape, and a ladder of Chevrolet and Ford V8s ending in the 7-litre big-block cars. The Grifo 7 Litri is Italy's answer to the Cobra question.",
    "name": "Grifo",
+   "photo": "assets/photos/iso-grifo.webp",
+   "photoCaption": "1966 Iso Grifo GL350",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1966_Iso_Grifo_GL350.jpg",
+   "photos": [
+    {
+     "caption": "1966 Iso Grifo GL350",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1966_Iso_Grifo_GL350.jpg",
+     "src": "assets/photos/iso-grifo.webp"
+    }
+   ],
    "segment": "Grand tourer",
    "slug": "grifo",
    "status": "Discontinued",
@@ -95,6 +119,18 @@
    ],
    "intro": "The four-door Iso, 'the fastest four seats in the world' in the advertising, and with a Corvette V8 up front the claim had substance. Ghia built the bodies; John Lennon bought one of the first. Fewer than 200 were made, first as the S4, then simply Fidia.",
    "name": "Fidia",
+   "photo": "assets/photos/iso-fidia.webp",
+   "photoCaption": "1970 Iso Rivolta Fidia (15783893431)",
+   "photoCredit": "Photo: Riley from Christchurch, New Zealand, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1970_Iso_Rivolta_Fidia_(15783893431).jpg",
+   "photos": [
+    {
+     "caption": "1970 Iso Rivolta Fidia (15783893431)",
+     "credit": "Photo: Riley from Christchurch, New Zealand, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1970_Iso_Rivolta_Fidia_(15783893431).jpg",
+     "src": "assets/photos/iso-fidia.webp"
+    }
+   ],
    "segment": "Luxury car",
    "slug": "fidia",
    "status": "Discontinued",
@@ -125,6 +161,18 @@
    ],
    "intro": "Iso's seventies GT, named for Renzo Rivolta's wife: a Marcello Gandini-penned 2+2 that began with Chevrolet power, moved to Ford's Cleveland, and carried the marque through its final decade. About 285 were built, including the Marlboro-sponsored Lele Sport specials.",
    "name": "Lele",
+   "photo": "assets/photos/iso-lele.webp",
+   "photoCaption": "1970 Iso Lele, front left (Greenwich 2019)",
+   "photoCredit": "Photo: Mr.choppers, CC BY-SA 3.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1970_Iso_Lele,_front_left_(Greenwich_2019).jpg",
+   "photos": [
+    {
+     "caption": "1970 Iso Lele, front left (Greenwich 2019)",
+     "credit": "Photo: Mr.choppers, CC BY-SA 3.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1970_Iso_Lele,_front_left_(Greenwich_2019).jpg",
+     "src": "assets/photos/iso-lele.webp"
+    }
+   ],
    "segment": "Grand tourer",
    "slug": "lele",
    "status": "Discontinued",

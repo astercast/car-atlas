@@ -44,6 +44,18 @@
    ],
    "intro": "Hyundai's compact started as transport for people who couldn't afford a Civic and ended up producing the Elantra N, one of the best performance bargains on sale. That arc is Hyundai's last 30 years in miniature.",
    "name": "Elantra",
+   "photo": "assets/photos/hyundai-elantra.webp",
+   "photoCaption": "2017 Hyundai Elantra, Windsor, Ontario, 2025-07-01",
+   "photoCredit": "Photo: Crisco 1492, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2017_Hyundai_Elantra,_Windsor,_Ontario,_2025-07-01.jpg",
+   "photos": [
+    {
+     "caption": "2017 Hyundai Elantra, Windsor, Ontario, 2025-07-01",
+     "credit": "Photo: Crisco 1492, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2017_Hyundai_Elantra,_Windsor,_Ontario,_2025-07-01.jpg",
+     "src": "assets/photos/hyundai-elantra.webp"
+    }
+   ],
    "segment": "Compact car",
    "slug": "elantra",
    "status": "In production",
@@ -98,6 +110,18 @@
    ],
    "intro": "The car that announced Hyundai could design. The 2011 Sonata's swooping styling forced every midsize rival to follow, and the current car splits its personality between efficient hybrids and a properly quick N Line.",
    "name": "Sonata",
+   "photo": "assets/photos/hyundai-sonata.webp",
+   "photoCaption": "0 Hyundai Sonata (DN8)fl 1",
+   "photoCredit": "Photo: Benespit, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:0_Hyundai_Sonata_(DN8)fl_1.jpg",
+   "photos": [
+    {
+     "caption": "0 Hyundai Sonata (DN8)fl 1",
+     "credit": "Photo: Benespit, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:0_Hyundai_Sonata_(DN8)fl_1.jpg",
+     "src": "assets/photos/hyundai-sonata.webp"
+    }
+   ],
    "segment": "Midsize sedan",
    "slug": "sonata",
    "status": "In production",
@@ -192,6 +216,18 @@
    ],
    "intro": "Hyundai's RAV4 and CR-V rival, and the model that shows how far the mainstream range has come: the current hybrid is efficient, quick enough, and styled like it escaped from a motor show stand.",
    "name": "Tucson",
+   "photo": "assets/photos/hyundai-tucson.webp",
+   "photoCaption": "2022 Hyundai Tucson Hybrid",
+   "photoCredit": "Photo: UltraTech66, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2022_Hyundai_Tucson_Hybrid.jpg",
+   "photos": [
+    {
+     "caption": "2022 Hyundai Tucson Hybrid",
+     "credit": "Photo: UltraTech66, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2022_Hyundai_Tucson_Hybrid.jpg",
+     "src": "assets/photos/hyundai-tucson.webp"
+    }
+   ],
    "segment": "Compact SUV",
    "slug": "tucson",
    "status": "In production",

@@ -35,6 +35,18 @@
    ],
    "intro": "The brick. Nearly three million built over nineteen years, and a significant number are still running, the 240 is the car that made Volvo's safety-and-durability reputation permanent. Slow, upright, honest, and close to immortal when maintained.",
    "name": "240",
+   "photo": "assets/photos/volvo-240.webp",
+   "photoCaption": "Volvo 240 front 20080218",
+   "photoCredit": "Photo: Rudolf Stricker, CC BY-SA 3.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Volvo_240_front_20080218.jpg",
+   "photos": [
+    {
+     "caption": "Volvo 240 front 20080218",
+     "credit": "Photo: Rudolf Stricker, CC BY-SA 3.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Volvo_240_front_20080218.jpg",
+     "src": "assets/photos/volvo-240.webp"
+    }
+   ],
    "segment": "Midsize car",
    "slug": "240",
    "status": "Discontinued",
@@ -78,6 +90,18 @@
    ],
    "intro": "Volvo's bestseller and the car that proved a seven-seat SUV could be about safety instead of size. The second-generation car's interior, open-pore wood, a portrait touchscreen, seats like armchairs, embarrassed German rivals at launch.",
    "name": "XC90",
+   "photo": "assets/photos/volvo-xc90.webp",
+   "photoCaption": "2018 Volvo XC90 2.0",
+   "photoCredit": "Photo: Vauxford, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2018_Volvo_XC90_2.0.jpg",
+   "photos": [
+    {
+     "caption": "2018 Volvo XC90 2.0",
+     "credit": "Photo: Vauxford, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2018_Volvo_XC90_2.0.jpg",
+     "src": "assets/photos/volvo-xc90.webp"
+    }
+   ],
    "segment": "Midsize luxury SUV",
    "slug": "xc90",
    "status": "In production",
@@ -173,6 +197,18 @@
    ],
    "intro": "The modern Volvo wagon done properly: long roof, low stance, and in T8 Polestar Engineered form, 455 hp nobody asked for and everybody wants. America's wagon drought made it a cult car here; in Sweden it was just a car.",
    "name": "V60",
+   "photo": "assets/photos/volvo-v60.webp",
+   "photoCaption": "Volvo V60 Polestar 2016 left front view",
+   "photoCredit": "Photo: ITakePhotosOfCars, CC0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Volvo_V60_Polestar_2016_left_front_view.jpg",
+   "photos": [
+    {
+     "caption": "Volvo V60 Polestar 2016 left front view",
+     "credit": "Photo: ITakePhotosOfCars, CC0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Volvo_V60_Polestar_2016_left_front_view.jpg",
+     "src": "assets/photos/volvo-v60.webp"
+    }
+   ],
    "segment": "Midsize wagon",
    "slug": "v60",
    "status": "Discontinued",

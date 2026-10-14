@@ -25,6 +25,18 @@
    ],
    "intro": "The car that put the world on wheels. Ford built over 15 million of them, cut the price from $850 to under $300, and in doing so invented the moving assembly line's reason to exist. By the early 1920s, roughly half the cars on Earth were Model Ts.",
    "name": "Model T",
+   "photo": "assets/photos/ford-model-t.webp",
+   "photoCaption": "1912 Ford Model T Torpedo",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1912_Ford_Model_T_Torpedo.jpg",
+   "photos": [
+    {
+     "caption": "1912 Ford Model T Torpedo",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1912_Ford_Model_T_Torpedo.jpg",
+     "src": "assets/photos/ford-model-t.webp"
+    }
+   ],
    "segment": "Mass-market car",
    "slug": "model-t",
    "status": "Discontinued",
@@ -186,6 +198,18 @@
    ],
    "intro": "America's best-selling vehicle line for over four decades. The F-Series is less a model than an economy, work truck, family hauler, off-road toy, and status symbol, all on the same ladder frame.",
    "name": "F-Series (F-150)",
+   "photo": "assets/photos/ford-f-series.webp",
+   "photoCaption": "Ford F-Series XII SVT Raptor Crew Cab China 2012-04-15",
+   "photoCredit": "Photo: Navigator84, CC BY-SA 3.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Ford_F-Series_XII_SVT_Raptor_Crew_Cab_China_2012-04-15.jpg",
+   "photos": [
+    {
+     "caption": "Ford F-Series XII SVT Raptor Crew Cab China 2012-04-15",
+     "credit": "Photo: Navigator84, CC BY-SA 3.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Ford_F-Series_XII_SVT_Raptor_Crew_Cab_China_2012-04-15.jpg",
+     "src": "assets/photos/ford-f-series.webp"
+    }
+   ],
    "segment": "Full-size pickup",
    "slug": "f-series",
    "status": "In production",
@@ -242,6 +266,18 @@
    ],
    "intro": "One nameplate, three separate vendettas against physics. The GT40 was built to beat Ferrari at Le Mans after Enzo walked away from selling to Ford, and did it four years straight, 1966 to 1969. Both modern revivals exist because that grudge never cooled.",
    "name": "GT (GT40 lineage)",
+   "photo": "assets/photos/ford-gt.webp",
+   "photoCaption": "2018 Ford GT Gen2",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2018_Ford_GT_Gen2.jpg",
+   "photos": [
+    {
+     "caption": "2018 Ford GT Gen2",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2018_Ford_GT_Gen2.jpg",
+     "src": "assets/photos/ford-gt.webp"
+    }
+   ],
    "segment": "Supercar",
    "slug": "gt",
    "status": "Discontinued",
@@ -295,6 +331,18 @@
    ],
    "intro": "Ford's answer to the Jeep CJ in 1966, a full-size truck-based SUV by the 1980s, dead in 1996, and revived in 2021 as a removable-roof Wrangler rival. The first-generation trucks are the collector sweet spot; the new one is the one you can actually use daily.",
    "name": "Bronco",
+   "photo": "assets/photos/ford-bronco.webp",
+   "photoCaption": "Ford Bronco, Front, Reykjahlid, Iceland",
+   "photoCredit": "Photo: AHHNiewohner, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Ford_Bronco,_Front,_Reykjahlid,_Iceland.jpg",
+   "photos": [
+    {
+     "caption": "Ford Bronco, Front, Reykjahlid, Iceland",
+     "credit": "Photo: AHHNiewohner, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Ford_Bronco,_Front,_Reykjahlid,_Iceland.jpg",
+     "src": "assets/photos/ford-bronco.webp"
+    }
+   ],
    "segment": "Off-road SUV",
    "slug": "bronco",
    "status": "In production",

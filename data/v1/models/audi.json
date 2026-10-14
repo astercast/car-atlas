@@ -46,11 +46,11 @@
    "name": "Quattro",
    "photo": "assets/photos/audi-quattro.webp",
    "photoCaption": "Sport quattro (Ur-Quattro family), museum display",
-   "photoCredit": "Photo: Anna (Grassau), CC BY-SA 2.0, via Wikimedia Commons",
+   "photoCredit": "Photo: Anna, CC BY-SA 2.0, via Wikimedia Commons",
    "photos": [
     {
      "caption": "Sport quattro (Ur-Quattro family), museum display",
-     "credit": "Photo: Anna (Grassau), CC BY-SA 2.0, via Wikimedia Commons",
+     "credit": "Photo: Anna, CC BY-SA 2.0, via Wikimedia Commons",
      "src": "assets/photos/audi-quattro.webp"
     }
    ],
@@ -107,6 +107,18 @@
    ],
    "intro": "Audi's 3 Series rival and the car that made its interiors the industry benchmark. The formula has been consistent for thirty years: restrained styling, a cabin a class above, and quattro all-wheel drive as the calling card.",
    "name": "A4",
+   "photo": "assets/photos/audi-a4.webp",
+   "photoCaption": "DSC00875 Unmarked Audi A4, Polizia di Stato, Front Right",
+   "photoCredit": "Photo: Aciarium, CC BY 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:DSC00875_Unmarked_Audi_A4,_Polizia_di_Stato,_Front_Right.jpg",
+   "photos": [
+    {
+     "caption": "DSC00875 Unmarked Audi A4, Polizia di Stato, Front Right",
+     "credit": "Photo: Aciarium, CC BY 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:DSC00875_Unmarked_Audi_A4,_Polizia_di_Stato,_Front_Right.jpg",
+     "src": "assets/photos/audi-a4.webp"
+    }
+   ],
    "segment": "Compact executive car",
    "slug": "a4",
    "status": "In production",
@@ -151,6 +163,18 @@
    ],
    "intro": "Audi's supercar, built on Lamborghini bones and better for being the sensible one: a V8, then a soaring naturally aspirated V10, behind the seats, all-wheel drive, and usability no Italian rival matched. The first generation's gated manual is already legend.",
    "name": "R8",
+   "photo": "assets/photos/audi-r8.webp",
+   "photoCaption": "2007 Audi R8",
+   "photoCredit": "Photo: Hatsukari715, Public domain, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2007_Audi_R8.jpg",
+   "photos": [
+    {
+     "caption": "2007 Audi R8",
+     "credit": "Photo: Hatsukari715, Public domain, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2007_Audi_R8.jpg",
+     "src": "assets/photos/audi-r8.webp"
+    }
+   ],
    "segment": "Supercar",
    "slug": "r8",
    "status": "Discontinued",
@@ -207,6 +231,18 @@
    ],
    "intro": "A design concept that escaped the motor show almost unchanged. The first TT was Bauhaus on wheels, a perfect geometric statement with a car underneath, and the line spent 25 years getting faster, peaking with the five-cylinder TT RS.",
    "name": "TT",
+   "photo": "assets/photos/audi-tt.webp",
+   "photoCaption": "2007 Audi TT (8J) 2.0 TFSI coupe (2010-07-10) 01",
+   "photoCredit": "Photo: OSX, Public domain, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2007_Audi_TT_(8J)_2.0_TFSI_coupe_(2010-07-10)_01.jpg",
+   "photos": [
+    {
+     "caption": "2007 Audi TT (8J) 2.0 TFSI coupe (2010-07-10) 01",
+     "credit": "Photo: OSX, Public domain, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2007_Audi_TT_(8J)_2.0_TFSI_coupe_(2010-07-10)_01.jpg",
+     "src": "assets/photos/audi-tt.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "tt",
    "status": "Discontinued",

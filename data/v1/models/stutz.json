@@ -33,6 +33,18 @@
    ],
    "intro": "The brass-age sports car in its purest form: two bucket seats, a fuel tank, a huge four-cylinder engine and nothing else. The Bearcat made Stutz's name at Indianapolis in 1911, 'the car that made good in a day', and the name returned on the supercharged DV-32 cars of the thirties.",
    "name": "Bearcat",
+   "photo": "assets/photos/stutz-bearcat.webp",
+   "photoCaption": "1912 Stutz Bearcat Speedster front quarter (7704047066)",
+   "photoCredit": "Photo: Katherine Tompkins, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1912_Stutz_Bearcat_Speedster_front_quarter_(7704047066).jpg",
+   "photos": [
+    {
+     "caption": "1912 Stutz Bearcat Speedster front quarter (7704047066)",
+     "credit": "Photo: Katherine Tompkins, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1912_Stutz_Bearcat_Speedster_front_quarter_(7704047066).jpg",
+     "src": "assets/photos/stutz-bearcat.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "bearcat",
    "status": "Discontinued",
@@ -66,6 +78,18 @@
    ],
    "intro": "Stutz reinvented itself as a luxury marque: the Vertical Eight brought an overhead-cam straight-eight, hydraulic brakes and safety glass to a company built on speed, and the Weymann fabric-body cars gave it Parisian style. The Blackhawk speed records of 1928 were the proof of speed.",
    "name": "Vertical Eight (Safety Stutz)",
+   "photo": "assets/photos/stutz-vertical-eight.webp",
+   "photoCaption": "1927 Stutz Vertical Eight AA (21006235774)",
+   "photoCredit": "Photo: Tekniska museet, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1927_Stutz_Vertical_Eight_AA_(21006235774).jpg",
+   "photos": [
+    {
+     "caption": "1927 Stutz Vertical Eight AA (21006235774)",
+     "credit": "Photo: Tekniska museet, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1927_Stutz_Vertical_Eight_AA_(21006235774).jpg",
+     "src": "assets/photos/stutz-vertical-eight.webp"
+    }
+   ],
    "segment": "Luxury car",
    "slug": "vertical-eight",
    "status": "Discontinued",

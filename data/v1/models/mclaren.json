@@ -69,6 +69,18 @@
    ],
    "intro": "The hybrid holy-trinity car from Woking: a twin-turbo V8 plus an electric motor filling every torque gap, active aero, and a Race mode that drops the car 50 mm. 375 built.",
    "name": "P1",
+   "photo": "assets/photos/mclaren-p1.webp",
+   "photoCaption": "2014 McLaren P1 HDK Side",
+   "photoCredit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2014_McLaren_P1_HDK_Side.jpg",
+   "photos": [
+    {
+     "caption": "2014 McLaren P1 HDK Side",
+     "credit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2014_McLaren_P1_HDK_Side.jpg",
+     "src": "assets/photos/mclaren-p1.webp"
+    }
+   ],
    "segment": "Hybrid hypercar",
    "slug": "p1",
    "status": "Discontinued",
@@ -100,6 +112,18 @@
    ],
    "intro": "The second-generation Super Series car that humiliated everything at the drag strip: lighter, faster, and more usable than the class it redefined. Replaced by the 750S.",
    "name": "720S",
+   "photo": "assets/photos/mclaren-720s.webp",
+   "photoCaption": "2017 McLaren 720S 4",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2017_McLaren_720S_4.jpg",
+   "photos": [
+    {
+     "caption": "2017 McLaren 720S 4",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2017_McLaren_720S_4.jpg",
+     "src": "assets/photos/mclaren-720s.webp"
+    }
+   ],
    "segment": "Supercar",
    "slug": "720s",
    "status": "Discontinued",
@@ -131,6 +155,18 @@
    ],
    "intro": "Named for Ayrton, built for lap time: 800 kg of downforce, a door you can see the road through, and styling dictated entirely by the wind. 500 cars, all sold before the reveal.",
    "name": "Senna",
+   "photo": "assets/photos/mclaren-senna.webp",
+   "photoCaption": "2019 McLaren Senna 10",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2019_McLaren_Senna_10.jpg",
+   "photos": [
+    {
+     "caption": "2019 McLaren Senna 10",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2019_McLaren_Senna_10.jpg",
+     "src": "assets/photos/mclaren-senna.webp"
+    }
+   ],
    "segment": "Track hypercar",
    "slug": "senna",
    "status": "Discontinued",
@@ -162,6 +198,18 @@
    ],
    "intro": "McLaren's reset: an all-new carbon architecture, a 120-degree V6 hybrid, and the electric-only running a supercar needs for the 2020s. The Spider is the pick of the range.",
    "name": "Artura",
+   "photo": "assets/photos/mclaren-artura.webp",
+   "photoCaption": "McLaren Artura MSO in purple (front view) at Japan Mobility Show Kansai 2025",
+   "photoCredit": "Photo: Aos.1905, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:McLaren_Artura_MSO_in_purple_(front_view)_at_Japan_Mobility_Show_Kansai_2025.jpg",
+   "photos": [
+    {
+     "caption": "McLaren Artura MSO in purple (front view) at Japan Mobility Show Kansai 2025",
+     "credit": "Photo: Aos.1905, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:McLaren_Artura_MSO_in_purple_(front_view)_at_Japan_Mobility_Show_Kansai_2025.jpg",
+     "src": "assets/photos/mclaren-artura.webp"
+    }
+   ],
    "segment": "Hybrid supercar",
    "slug": "artura",
    "status": "In production",

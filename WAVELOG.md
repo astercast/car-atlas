@@ -1,5 +1,59 @@
 # WAVELOG — Car Atlas
 
+## Rotation 23 — THE ISSUE, ART-DIRECTED: photography completed, the serif two-voice system, ruled lots (2026-10-14)
+
+**Headline (named before building):** evolve the passed magazine
+direction (FINDINGS §5.9, direction A; the user's "looks better,
+keep improving" stands) — cover-grade photography, a serif partner
+for the grotesk, auction-catalogue furniture for Price Watch, and
+the photo-completion programme worked to zero on the model census.
+
+- **Photography:** models photographed **40 → 257 of 257**; makes
+  **40 → 59 of 59**. Every new photo is a real car sourced from
+  Wikimedia Commons under a free licence, chosen by strict title /
+  licence / composition filters and passed through a visual QA of
+  every frame (montage review; 24 first picks rejected and replaced
+  across four rounds — interiors, badge close-ups, race action, a
+  sculpture, a wrong-model Evoque). Each record carries caption,
+  photographer, licence and the Commons file-page URL
+  (`photoSource`, `photos[].source`). Price Watch results resolving
+  to a photographed model **17 → 29 of 56**; the 27 make-level
+  records stay without a model photo by the certification honesty
+  rule (no model record exists for their cars). Photo payload:
+  267 files, ~69 MB under `assets/photos/`, lazy-loaded as before.
+- **Cover:** the paddock snapshot is replaced by a cover-standard
+  still (1964, Goodwood: one GTO, still, on grass; Calreyn88,
+  CC BY-SA 4.0, file page linked in the caption), cropped 4/3 by
+  the cover plate rule. The old paddock frame remains the Ferrari
+  marque header only through the new file: Ferrari's make photo
+  now uses the cover still too.
+- **Type:** Newsreader (OFL, self-hosted variable, normal + italic,
+  metric-adjusted Liberation Serif fallback, not preloaded) joins
+  Inter as the second voice: serif for record and lot titles,
+  standfirsts, journal and generation prose; Inter/mono keep the
+  masthead, folio, prices, labels and chrome. The red period
+  remains the only accent.
+- **Price Watch as lots:** every listing unit and ledger row now
+  carries its lot number (position in the certified set, newest
+  first; stable across home rail, marque ledgers, Buy and
+  Following), listings sit under a double rule, and the record
+  ledger takes the same rule. Presentation only: the certified set
+  is byte-identical (56 results; condition 11, mileage 7, chassis
+  44, re-verified from data).
+- **Fittings held:** the rotation-23 nav fix (cd5ffb3) and the QA
+  r71/r72 residue fix (f835a6a) re-measured after all changes:
+  zero horizontal overflow at 320 and 390 on home, Buy, Clubs,
+  make and model pages (before: 4px / 14px / 6px at 320 in the
+  fittings record); nav tap rows 44.8px at phone widths. One
+  regression found and fixed in-pass: the serif ledger's chassis
+  tokens overflowed the F40 record by 22px at 320; the ledger now
+  takes the same shrink-and-wrap fitting as the listing unit.
+- **Free-tier shape unchanged:** 5 functions, `vercel.json`
+  untouched (explicit paths, `{"maxDuration": 10}`, no runtime
+  pin), static data in `data/v1/`. Full record:
+  `landing-cars-r23.md` in the wave-engine folder.
+
+
 ## Wave 11 — THE WORLD-BENCHMARK DELTA PASS: BENCHMARK.md, Price Watch stage 6 (46 → 56), T-CARS-1 first rung (2026-10-13)
 
 **Headline (named before building, owner order):** Car Atlas

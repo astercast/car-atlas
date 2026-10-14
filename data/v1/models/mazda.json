@@ -108,6 +108,18 @@
    ],
    "intro": "The rotary engine's masterpiece. Three generations, one idea: light weight and an engine that revs like a motorcycle. The FD is the famous one; the earlier cars are the honest bargains.",
    "name": "RX-7",
+   "photo": "assets/photos/mazda-rx-7.webp",
+   "photoCaption": "1981 Mazda Savanna RX-7 GT rear",
+   "photoCredit": "Photo: TTTNIS, CC0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1981_Mazda_Savanna_RX-7_GT_rear.jpg",
+   "photos": [
+    {
+     "caption": "1981 Mazda Savanna RX-7 GT rear",
+     "credit": "Photo: TTTNIS, CC0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1981_Mazda_Savanna_RX-7_GT_rear.jpg",
+     "src": "assets/photos/mazda-rx-7.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "rx-7",
    "status": "Discontinued",
@@ -162,6 +174,18 @@
    ],
    "intro": "The compact for people who notice steering feel. Mazda kept giving the 3 a better interior and sharper chassis than the segment required, and the current turbo AWD car is nearly a luxury product wearing a mainstream badge.",
    "name": "Mazda3",
+   "photo": "assets/photos/mazda-mazda3.webp",
+   "photoCaption": "Mazda3 Fastback e-SKYACTIV X AWD (front three-quarter view) at Mazda Museum",
+   "photoCredit": "Photo: Aos.1905, CC BY 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Mazda3_Fastback_e-SKYACTIV_X_AWD_(front_three-quarter_view)_at_Mazda_Museum.jpg",
+   "photos": [
+    {
+     "caption": "Mazda3 Fastback e-SKYACTIV X AWD (front three-quarter view) at Mazda Museum",
+     "credit": "Photo: Aos.1905, CC BY 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Mazda3_Fastback_e-SKYACTIV_X_AWD_(front_three-quarter_view)_at_Mazda_Museum.jpg",
+     "src": "assets/photos/mazda-mazda3.webp"
+    }
+   ],
    "segment": "Compact car",
    "slug": "mazda3",
    "status": "In production",
@@ -211,6 +235,18 @@
    ],
    "intro": "The crossover that proved family cars didn't have to steer like appliances. The CX-5 built Mazda's modern business, the profits from this car fund everything else the company makes.",
    "name": "CX-5",
+   "photo": "assets/photos/mazda-cx-5.webp",
+   "photoCaption": "Mazda CX-5 - Mondial de l'Automobile de Paris 2012 - 001",
+   "photoCredit": "Photo: Thesupermat, CC BY-SA 3.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Mazda_CX-5_-_Mondial_de_l%27Automobile_de_Paris_2012_-_001.jpg",
+   "photos": [
+    {
+     "caption": "Mazda CX-5 - Mondial de l'Automobile de Paris 2012 - 001",
+     "credit": "Photo: Thesupermat, CC BY-SA 3.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Mazda_CX-5_-_Mondial_de_l%27Automobile_de_Paris_2012_-_001.jpg",
+     "src": "assets/photos/mazda-cx-5.webp"
+    }
+   ],
    "segment": "Compact SUV",
    "slug": "cx-5",
    "status": "In production",

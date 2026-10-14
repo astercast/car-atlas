@@ -22,6 +22,18 @@
    ],
    "intro": "The Healey 100 that Austin built: Donald Healey's Earls Court show car of 1952, adopted by Leonard Lord overnight and put into production at Longbridge with Austin's big four. A hundred miles an hour for a thousand pounds, the name is the spec sheet.",
    "name": "100",
+   "photo": "assets/photos/austin-healey-100.webp",
+   "photoCaption": "1954 Austin-Healey 100-4 BN1 (Simeone) 01front",
+   "photoCredit": "Photo: Peter &amp; Laila, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1954_Austin-Healey_100-4_BN1_(Simeone)_01front.jpg",
+   "photos": [
+    {
+     "caption": "1954 Austin-Healey 100-4 BN1 (Simeone) 01front",
+     "credit": "Photo: Peter &amp; Laila, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1954_Austin-Healey_100-4_BN1_(Simeone)_01front.jpg",
+     "src": "assets/photos/austin-healey-100.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "100",
    "status": "Discontinued",
@@ -54,6 +66,18 @@
    ],
    "intro": "The six-cylinder Healey: BMC's C-series engine replaced the four, the wheelbase stretched for occasional rear seats, and the car grew from sports car toward grand tourer. The 1958 cars, built at Abingdon alongside the MGs, are the sweet spot of the line.",
    "name": "100-6",
+   "photo": "assets/photos/austin-healey-100-6.webp",
+   "photoCaption": "1958 Austin-Healey 100-6 \"Goldie\" - 10",
+   "photoCredit": "Photo: Pierre,Sami &amp; Roxi Cola, CC0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1958_Austin-Healey_100-6_%22Goldie%22_-_10.jpg",
+   "photos": [
+    {
+     "caption": "1958 Austin-Healey 100-6 \"Goldie\" - 10",
+     "credit": "Photo: Pierre,Sami &amp; Roxi Cola, CC0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1958_Austin-Healey_100-6_%22Goldie%22_-_10.jpg",
+     "src": "assets/photos/austin-healey-100-6.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "100-6",
    "status": "Discontinued",
@@ -95,6 +119,18 @@
    ],
    "intro": "The Big Healey at full size: 2.9 litres, disc brakes, and a rally record, Pat Moss, the Morley brothers, wins at the Liège and the Alpine, that made it the definitive British competition car of the sixties. The Mk III's wood dash and wind-up windows civilised it without softening it.",
    "name": "3000",
+   "photo": "assets/photos/austin-healey-3000.webp",
+   "photoCaption": "Austin-Healey 3000 Mk II BN7 (1962) Solitude Revival 2022 1X7A0090",
+   "photoCredit": "Photo: Alexander Migl, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Austin-Healey_3000_Mk_II_BN7_(1962)_Solitude_Revival_2022_1X7A0090.jpg",
+   "photos": [
+    {
+     "caption": "Austin-Healey 3000 Mk II BN7 (1962) Solitude Revival 2022 1X7A0090",
+     "credit": "Photo: Alexander Migl, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Austin-Healey_3000_Mk_II_BN7_(1962)_Solitude_Revival_2022_1X7A0090.jpg",
+     "src": "assets/photos/austin-healey-3000.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "3000",
    "status": "Discontinued",
@@ -138,6 +174,18 @@
    ],
    "intro": "The Frogeye: a Healey sports car for £669, its headlamps perched on the bonnet because the flip-up mechanism cost too much. The Sprite democratised the sports car a second time and raced everywhere; its MG Midget twin kept the shape alive to 1979.",
    "name": "Sprite",
+   "photo": "assets/photos/austin-healey-sprite.webp",
+   "photoCaption": "1959 Austin-Healey Sprite Frogeye",
+   "photoCredit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1959_Austin-Healey_Sprite_Frogeye.jpg",
+   "photos": [
+    {
+     "caption": "1959 Austin-Healey Sprite Frogeye",
+     "credit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1959_Austin-Healey_Sprite_Frogeye.jpg",
+     "src": "assets/photos/austin-healey-sprite.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "sprite",
    "status": "Discontinued",

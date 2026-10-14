@@ -34,6 +34,18 @@
    ],
    "intro": "Saab's first three decades in one line: a teardrop two-stroke shaped by aircraft engineers, evolved from the 92 through the 93 to the long-lived 96, rally winner, family staple, and the car that made front-wheel drive make sense in winter.",
    "name": "92 / 93 / 96",
+   "photo": "assets/photos/saab-92-96.webp",
+   "photoCaption": "Saab 96 front",
+   "photoCredit": "Photo: Lukasz19930915, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Saab_96_front.jpg",
+   "photos": [
+    {
+     "caption": "Saab 96 front",
+     "credit": "Photo: Lukasz19930915, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Saab_96_front.jpg",
+     "src": "assets/photos/saab-92-96.webp"
+    }
+   ],
    "segment": "Compact family car",
    "slug": "92-96",
    "status": "Discontinued",
@@ -79,6 +91,18 @@
    ],
    "intro": "The bigger, safer Saab: wraparound windscreen, ignition by the handbrake, and in 1978 the 99 Turbo, one of the first production cars to make turbocharging a road-car virtue rather than a racing trick.",
    "name": "99",
+   "photo": "assets/photos/saab-99.webp",
+   "photoCaption": "1969-SAAB99",
+   "photoCredit": "Photo: Liftarn, CC BY-SA 3.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1969-SAAB99.jpg",
+   "photos": [
+    {
+     "caption": "1969-SAAB99",
+     "credit": "Photo: Liftarn, CC BY-SA 3.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1969-SAAB99.jpg",
+     "src": "assets/photos/saab-99.webp"
+    }
+   ],
    "segment": "Compact executive car",
    "slug": "99",
    "status": "Discontinued",
@@ -167,6 +191,18 @@
    ],
    "intro": "Saab's big car, developed with Fiat, Lancia and Alfa Romeo on the shared Type Four programme, but characteristically Saabified, and in Aero form one of the great sleepers: mid-range punch that embarrassed period supercars.",
    "name": "9000",
+   "photo": "assets/photos/saab-9000.webp",
+   "photoCaption": "Saab 9000 CS (ver.3 bumper) - front quarter",
+   "photoCredit": "Photo: Indie102, CC0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Saab_9000_CS_(ver.3_bumper)_-_front_quarter.jpg",
+   "photos": [
+    {
+     "caption": "Saab 9000 CS (ver.3 bumper) - front quarter",
+     "credit": "Photo: Indie102, CC0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Saab_9000_CS_(ver.3_bumper)_-_front_quarter.jpg",
+     "src": "assets/photos/saab-9000.webp"
+    }
+   ],
    "segment": "Executive sedan / hatchback",
    "slug": "9000",
    "status": "Discontinued",
@@ -211,6 +247,18 @@
    ],
    "intro": "The 900's successor under GM, twice over: first a deep facelift of the old car, Viggen included, then the 2003 Sport Sedan, all-new, with the Aero V6 and the all-wheel-drive Turbo X as its peaks. NEVS briefly restarted the line in 2013.",
    "name": "9-3",
+   "photo": "assets/photos/saab-9-3.webp",
+   "photoCaption": "1998-2000 Saab 9-3 S convertible 01",
+   "photoCredit": "Photo: OSX, Public domain, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1998-2000_Saab_9-3_S_convertible_01.jpg",
+   "photos": [
+    {
+     "caption": "1998-2000 Saab 9-3 S convertible 01",
+     "credit": "Photo: OSX, Public domain, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1998-2000_Saab_9-3_S_convertible_01.jpg",
+     "src": "assets/photos/saab-9-3.webp"
+    }
+   ],
    "segment": "Compact executive car",
    "slug": "9-3",
    "status": "Discontinued",
@@ -256,6 +304,18 @@
    ],
    "intro": "The 9000's replacement and Saab's flagship for fifteen years: the thinking driver's E-Class alternative, with the Aero estate as the connoisseur's express. Its handsome 2010 successor arrived just in time for the bankruptcy, and production stayed tiny.",
    "name": "9-5",
+   "photo": "assets/photos/saab-9-5.webp",
+   "photoCaption": "Saab 9-5 Aero front",
+   "photoCredit": "Photo: Rutger van der Maar, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Saab_9-5_Aero_front.jpg",
+   "photos": [
+    {
+     "caption": "Saab 9-5 Aero front",
+     "credit": "Photo: Rutger van der Maar, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Saab_9-5_Aero_front.jpg",
+     "src": "assets/photos/saab-9-5.webp"
+    }
+   ],
    "segment": "Executive sedan / wagon",
    "slug": "9-5",
    "status": "Discontinued",

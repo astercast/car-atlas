@@ -30,3 +30,29 @@ stylesheet asks for.
   wght axis 100 to 900. The metric-adjusted fallback face in
   assets/css/style.css is derived from these against Liberation Sans
   (the Arial proxy): x-height 1082 at 2048 units per em.
+
+## Rotation 23 addition: the serif partner
+
+| file | family | style | weight | role here |
+|---|---|---|---|---|
+| newsreader-latin-normal-var.woff2 | Newsreader | normal | 200 to 800 variable (wght + opsz axes, one file) | the objects and the notes: record and lot titles, standfirsts, prose |
+| newsreader-latin-italic-var.woff2 | Newsreader | italic | 200 to 800 variable (wght + opsz axes, one file) | italic in serif contexts |
+
+- Source: the latin subset files served by the Google Fonts css2 request
+  `family=Newsreader:ital,opsz,wght@0,6..72,400..800;1,6..72,400..800`
+  (file names cY9AfjOCX1hbuyalUrK4397yjIJFJpc.woff2 normal,
+  cY9CfjOCX1hbuyalUrK439vCjohCBJWxZA.woff2 italic, Newsreader v26).
+  The css2 response declares weight 400 800 for these files; the files'
+  own fvar axes run 200 to 800, and the @font-face declarations in
+  style.css declare the full range the files contain, as with Inter.
+- License: SIL Open Font License 1.1 (Newsreader is an OFL family).
+- SHA-256: normal 01817351be3edfc1714fe6d60ddea6a22a169a5ebd033b50c7f9495e5d9c386a;
+  italic a99fb127682b9af538780d21420037452197b0d37dfd273eb108f8a3665d5501.
+- Metrics measured from the shipped normal file with fontTools: units
+  per em 2000, hhea ascent 1470, hhea descent -530, line gap 0,
+  x-height 852, wght axis 200 to 800, opsz axis 6 to 72. The
+  metric-adjusted fallback face in style.css is derived from these
+  against Liberation Serif (x-height 940 at 2048 upm, normalized 918
+  at 2000 upm): size-adjust 852/918 = 92.81%; ascent override
+  73.50/0.9281 = 79.19%; descent override 26.50/0.9281 = 28.55%.
+  Newsreader is not preloaded: Inter carries first paint.

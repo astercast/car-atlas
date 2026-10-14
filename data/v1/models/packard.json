@@ -24,6 +24,18 @@
    ],
    "intro": "Packard's V12 flagship, launched as the Twin Six in 1932, renamed Twelve a year later, was Detroit's answer to the great European chassis: silent, torquey, and bodied by the best shops in America.",
    "name": "Twelve",
+   "photo": "assets/photos/packard-twelve.webp",
+   "photoCaption": "Packard Twelve 1937 Phaeton RSideFront FOSSP 7April2013 (14400388278)",
+   "photoCredit": "Photo: Valder137, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Packard_Twelve_1937_Phaeton_RSideFront_FOSSP_7April2013_(14400388278).jpg",
+   "photos": [
+    {
+     "caption": "Packard Twelve 1937 Phaeton RSideFront FOSSP 7April2013 (14400388278)",
+     "credit": "Photo: Valder137, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Packard_Twelve_1937_Phaeton_RSideFront_FOSSP_7April2013_(14400388278).jpg",
+     "src": "assets/photos/packard-twelve.webp"
+    }
+   ],
    "segment": "Luxury flagship sedan",
    "slug": "twelve",
    "status": "Discontinued",
@@ -55,6 +67,18 @@
    ],
    "intro": "The straight-eight backbone of the Packard range for nearly two decades, the car most people meant by 'a Packard', spanning the Classic era, the streamline years and the first postwar cars.",
    "name": "Super Eight",
+   "photo": "assets/photos/packard-super-eight.webp",
+   "photoCaption": "1938 Packard Super Eight Club Sedan, front left (2022 Portersville Summer Steam Show)",
+   "photoCredit": "Photo: MercurySable99, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1938_Packard_Super_Eight_Club_Sedan,_front_left_(2022_Portersville_Summer_Steam_Show).jpg",
+   "photos": [
+    {
+     "caption": "1938 Packard Super Eight Club Sedan, front left (2022 Portersville Summer Steam Show)",
+     "credit": "Photo: MercurySable99, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1938_Packard_Super_Eight_Club_Sedan,_front_left_(2022_Portersville_Summer_Steam_Show).jpg",
+     "src": "assets/photos/packard-super-eight.webp"
+    }
+   ],
    "segment": "Luxury sedan",
    "slug": "super-eight",
    "status": "Discontinued",
@@ -127,6 +151,18 @@
    ],
    "intro": "The last real Packard, built for one year on Studebaker bones in South Bend: a supercharged Golden Hawk in Packard dress, with padded armrests on the outside of the doors and the marque's final flourish of fins.",
    "name": "Hawk",
+   "photo": "assets/photos/packard-hawk.webp",
+   "photoCaption": "1958 Packard Hawk (14354920172)",
+   "photoCredit": "Photo: GPS 56 from New Zealand, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1958_Packard_Hawk_(14354920172).jpg",
+   "photos": [
+    {
+     "caption": "1958 Packard Hawk (14354920172)",
+     "credit": "Photo: GPS 56 from New Zealand, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1958_Packard_Hawk_(14354920172).jpg",
+     "src": "assets/photos/packard-hawk.webp"
+    }
+   ],
    "segment": "Personal luxury coupe",
    "slug": "hawk",
    "status": "Discontinued",

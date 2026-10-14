@@ -22,6 +22,18 @@
    ],
    "intro": "France's last great luxury GT at full strength: Jean Daninos's Facel Vega with a 6.3-litre Chrysler V8, a tubular chassis, and an interior finished like a Parisian salon, including the famous painted faux-wood dashboard, done by hand. Stirling Moss drove his across Europe between races.",
    "name": "HK500",
+   "photo": "assets/photos/facel-vega-hk500.webp",
+   "photoCaption": "1958 Facel Vega HK500",
+   "photoCredit": "Photo: Calreyn88, CC BY 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1958_Facel_Vega_HK500.jpg",
+   "photos": [
+    {
+     "caption": "1958 Facel Vega HK500",
+     "credit": "Photo: Calreyn88, CC BY 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1958_Facel_Vega_HK500.jpg",
+     "src": "assets/photos/facel-vega-hk500.webp"
+    }
+   ],
    "segment": "Grand tourer",
    "slug": "hk500",
    "status": "Discontinued",
@@ -51,6 +63,18 @@
    ],
    "intro": "A pillarless four-door hardtop on the grand scale, suicide rear doors, a Chrysler V8, and a price that bought several Citroën DSs. About 230 were built for kings, ambassadors and Ava Gardner; it remains the only French post-war car built to true American-limousine scale.",
    "name": "Excellence",
+   "photo": "assets/photos/facel-vega-excellence.webp",
+   "photoCaption": "1961 Facel Vega Excellence EX1, front left (Greenwich 2019)",
+   "photoCredit": "Photo: Mr.choppers, CC BY-SA 3.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1961_Facel_Vega_Excellence_EX1,_front_left_(Greenwich_2019).jpg",
+   "photos": [
+    {
+     "caption": "1961 Facel Vega Excellence EX1, front left (Greenwich 2019)",
+     "credit": "Photo: Mr.choppers, CC BY-SA 3.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1961_Facel_Vega_Excellence_EX1,_front_left_(Greenwich_2019).jpg",
+     "src": "assets/photos/facel-vega-excellence.webp"
+    }
+   ],
    "segment": "Luxury car",
    "slug": "excellence",
    "status": "Discontinued",
@@ -82,6 +106,18 @@
    ],
    "intro": "The little Facel, built to sell in volume with a twin-cam four designed by Carlo Marchisio, a jewel of an engine that proved fatally fragile in service and sank the company under warranty claims. Its successors (Facel III, with a Volvo engine, and the six-cylinder Facel 6) were the rescue attempt.",
    "name": "Facellia",
+   "photo": "assets/photos/facel-vega-facellia.webp",
+   "photoCaption": "1961 Facel Vega Facellia - fvl",
+   "photoCredit": "Photo: Rex Gray from Southern California, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1961_Facel_Vega_Facellia_-_fvl.jpg",
+   "photos": [
+    {
+     "caption": "1961 Facel Vega Facellia - fvl",
+     "credit": "Photo: Rex Gray from Southern California, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1961_Facel_Vega_Facellia_-_fvl.jpg",
+     "src": "assets/photos/facel-vega-facellia.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "facellia",
    "status": "Discontinued",
@@ -113,6 +149,18 @@
    ],
    "intro": "Daninos called it the finest Facel of all, and the styling backs him: the HK500's successor cleaned the lines, stacked the headlamps, and kept the Chrysler power and the hand-finished cabin. Only 184 were built before Facel closed in October 1964.",
    "name": "Facel II",
+   "photo": "assets/photos/facel-vega-facel-ii.webp",
+   "photoCaption": "1963 Facel Vega Facel II from rear",
+   "photoCredit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1963_Facel_Vega_Facel_II_from_rear.jpg",
+   "photos": [
+    {
+     "caption": "1963 Facel Vega Facel II from rear",
+     "credit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1963_Facel_Vega_Facel_II_from_rear.jpg",
+     "src": "assets/photos/facel-vega-facel-ii.webp"
+    }
+   ],
    "segment": "Grand tourer",
    "slug": "facel-ii",
    "status": "Discontinued",

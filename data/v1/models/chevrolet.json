@@ -174,6 +174,18 @@
    ],
    "intro": "GM's answer to the Mustang, launched for 1967 and locked in the pony-car war for six generations. Production ended again in 2024 with no successor announced, the sixth generation went out as the best-driving Camaro ever made.",
    "name": "Camaro",
+   "photo": "assets/photos/chevrolet-camaro.webp",
+   "photoCaption": "2019 Chevrolet Camaro base, front 11.9.19",
+   "photoCredit": "Photo: Kevauto, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2019_Chevrolet_Camaro_base,_front_11.9.19.jpg",
+   "photos": [
+    {
+     "caption": "2019 Chevrolet Camaro base, front 11.9.19",
+     "credit": "Photo: Kevauto, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2019_Chevrolet_Camaro_base,_front_11.9.19.jpg",
+     "src": "assets/photos/chevrolet-camaro.webp"
+    }
+   ],
    "segment": "Pony car",
    "slug": "camaro",
    "status": "Discontinued",
@@ -227,6 +239,18 @@
    ],
    "intro": "Chevrolet's full-size truck and Ford's oldest argument. Chevrolet pickups go back to 1918, but the Silverado nameplate dates to 1999, when it replaced the C/K line. The 3.0L Duramax diesel is the connoisseur's pick; the 6.2L V8 is the loud one.",
    "name": "Silverado",
+   "photo": "assets/photos/chevrolet-silverado.webp",
+   "photoCaption": "2000 Chevrolet Silverado 1500",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2000_Chevrolet_Silverado_1500.jpg",
+   "photos": [
+    {
+     "caption": "2000 Chevrolet Silverado 1500",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2000_Chevrolet_Silverado_1500.jpg",
+     "src": "assets/photos/chevrolet-silverado.webp"
+    }
+   ],
    "segment": "Full-size pickup",
    "slug": "silverado",
    "status": "In production",
@@ -274,6 +298,18 @@
    ],
    "intro": "Chevrolet's top trim line through the 1950s, and the 1955–1957 'Tri-Five' cars are about as close as American design gets to universal agreement. The '57 Bel Air is shorthand for the whole decade.",
    "name": "Bel Air",
+   "photo": "assets/photos/chevrolet-bel-air.webp",
+   "photoCaption": "Chevrolet Bel Air (1953).- Carmel by the sea, California USA",
+   "photoCredit": "Photo: Pierre André Leclercq, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Chevrolet_Bel_Air_(1953).-_Carmel_by_the_sea,_California_USA.jpg",
+   "photos": [
+    {
+     "caption": "Chevrolet Bel Air (1953).- Carmel by the sea, California USA",
+     "credit": "Photo: Pierre André Leclercq, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Chevrolet_Bel_Air_(1953).-_Carmel_by_the_sea,_California_USA.jpg",
+     "src": "assets/photos/chevrolet-bel-air.webp"
+    }
+   ],
    "segment": "Full-size car",
    "slug": "bel-air",
    "status": "Discontinued",
@@ -331,6 +367,18 @@
    ],
    "intro": "Chevrolet's flagship nameplate from 1958, and the best-selling car in America through the mid-1960s, over a million sold in 1965 alone. It lived three lives: the 1960s icon, the 1990s Impala SS sleeper, and a competent front-drive sedan until 2020.",
    "name": "Impala",
+   "photo": "assets/photos/chevrolet-impala.webp",
+   "photoCaption": "Chevrolet Impala Convertible (BJ.1959) 6170006",
+   "photoCredit": "Photo: Ermell, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Chevrolet_Impala_Convertible_(BJ.1959)_6170006.jpg",
+   "photos": [
+    {
+     "caption": "Chevrolet Impala Convertible (BJ.1959) 6170006",
+     "credit": "Photo: Ermell, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Chevrolet_Impala_Convertible_(BJ.1959)_6170006.jpg",
+     "src": "assets/photos/chevrolet-impala.webp"
+    }
+   ],
    "segment": "Full-size sedan",
    "slug": "impala",
    "status": "Discontinued",

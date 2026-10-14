@@ -24,6 +24,18 @@
    ],
    "intro": "The first new German car design after the war: a ponton-bodied saloon from Carl Borgward's Bremen works, shown at Geneva in 1949 when most rivals were still selling pre-war shapes. The Hansa name came from Borgward's pre-war marque.",
    "name": "Hansa 1500 / 1800",
+   "photo": "assets/photos/borgward-hansa-1500.webp",
+   "photoCaption": "Borgward Hansa 1500Kombi,Bj.1952",
+   "photoCredit": "Photo: User Spurzem on de.wikipedia, CC BY-SA 2.0 de, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Borgward_Hansa_1500Kombi,Bj.1952.jpg",
+   "photos": [
+    {
+     "caption": "Borgward Hansa 1500Kombi,Bj.1952",
+     "credit": "Photo: User Spurzem on de.wikipedia, CC BY-SA 2.0 de, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Borgward_Hansa_1500Kombi,Bj.1952.jpg",
+     "src": "assets/photos/borgward-hansa-1500.webp"
+    }
+   ],
    "segment": "Family car",
    "slug": "hansa-1500",
    "status": "Discontinued",
@@ -58,6 +70,18 @@
    ],
    "intro": "Borgward's masterpiece and its best-seller: a clean-lined monocoque saloon named, the story goes, because Carl Borgward told his staff to write 'Isabella' on the test reports so rivals would not know what was coming. The coupé is one of the prettiest German cars of the fifties.",
    "name": "Isabella",
+   "photo": "assets/photos/borgward-isabella.webp",
+   "photoCaption": "Borgward Isabella, Bj. 1957-58 (2014-08-31 6793)",
+   "photoCredit": "Photo: Lothar Spurzem, CC BY-SA 2.0 de, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Borgward_Isabella,_Bj._1957-58_(2014-08-31_6793).JPG",
+   "photos": [
+    {
+     "caption": "Borgward Isabella, Bj. 1957-58 (2014-08-31 6793)",
+     "credit": "Photo: Lothar Spurzem, CC BY-SA 2.0 de, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Borgward_Isabella,_Bj._1957-58_(2014-08-31_6793).JPG",
+     "src": "assets/photos/borgward-isabella.webp"
+    }
+   ],
    "segment": "Family car",
    "slug": "isabella",
    "status": "Discontinued",
@@ -91,6 +115,18 @@
    ],
    "intro": "The small Borgward, built to take the group downmarket against the Beetle and the Kadett, a water-cooled flat-four (a rarity then and now) in a neat two-door saloon. It arrived just as the money ran out, and barely 47,000 were built.",
    "name": "Arabella",
+   "photo": "assets/photos/borgward-arabella.webp",
+   "photoCaption": "Borgward Arabella de Luxe (1962) (52569612388)",
+   "photoCredit": "Photo: Charles from Port Chester, New York, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Borgward_Arabella_de_Luxe_(1962)_(52569612388).jpg",
+   "photos": [
+    {
+     "caption": "Borgward Arabella de Luxe (1962) (52569612388)",
+     "credit": "Photo: Charles from Port Chester, New York, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Borgward_Arabella_de_Luxe_(1962)_(52569612388).jpg",
+     "src": "assets/photos/borgward-arabella.webp"
+    }
+   ],
    "segment": "Compact car",
    "slug": "arabella",
    "status": "Discontinued",
@@ -121,6 +157,18 @@
    ],
    "intro": "Borgward's flagship and Germany's first production car with air suspension: a 2.3-litre six in a formal ponton body, aimed squarely at Mercedes. Fewer than 2,600 were built before the 1961 collapse, making it the rarest route into the marque's top drawer.",
    "name": "P100",
+   "photo": "assets/photos/borgward-p100.webp",
+   "photoCaption": "Borgward P100 registered February 1961 2240cc",
+   "photoCredit": "Photo: Charles01, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Borgward_P100_registered_February_1961_2240cc.jpg",
+   "photos": [
+    {
+     "caption": "Borgward P100 registered February 1961 2240cc",
+     "credit": "Photo: Charles01, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Borgward_P100_registered_February_1961_2240cc.jpg",
+     "src": "assets/photos/borgward-p100.webp"
+    }
+   ],
    "segment": "Luxury car",
    "slug": "p100",
    "status": "Discontinued",

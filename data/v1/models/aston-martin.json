@@ -76,6 +76,18 @@
    ],
    "intro": "The Gaydon-era entry Aston: hand-assembled Jaguar-derived V8, a proper manual gearbox for most of its life, and styling that aged better than anything else in its class.",
    "name": "V8 Vantage",
+   "photo": "assets/photos/aston-martin-v8-vantage.webp",
+   "photoCaption": "2006 Aston Martin V8 Vantage 1",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2006_Aston_Martin_V8_Vantage_1.jpg",
+   "photos": [
+    {
+     "caption": "2006 Aston Martin V8 Vantage 1",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2006_Aston_Martin_V8_Vantage_1.jpg",
+     "src": "assets/photos/aston-martin-v8-vantage.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "v8-vantage",
    "status": "Discontinued",
@@ -119,6 +131,18 @@
    ],
    "intro": "The first car of Aston's 'second century' plan: new bonded structure, a twin-turbo V12 of Aston's own, then an AMG V8 that many testers preferred for its lighter nose.",
    "name": "DB11",
+   "photo": "assets/photos/aston-martin-db11.webp",
+   "photoCaption": "2016 Aston Martin DB11 Auto",
+   "photoCredit": "Photo: Calreyn88, CC0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2016_Aston_Martin_DB11_Auto.jpg",
+   "photos": [
+    {
+     "caption": "2016 Aston Martin DB11 Auto",
+     "credit": "Photo: Calreyn88, CC0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2016_Aston_Martin_DB11_Auto.jpg",
+     "src": "assets/photos/aston-martin-db11.webp"
+    }
+   ],
    "segment": "Grand tourer",
    "slug": "db11",
    "status": "Discontinued",
@@ -150,6 +174,18 @@
    ],
    "intro": "The SUV that saved Aston Martin, built in a new Welsh factory. The DBX707 briefly held the title of most powerful production SUV in the world.",
    "name": "DBX",
+   "photo": "assets/photos/aston-martin-dbx.webp",
+   "photoCaption": "2021 Aston Martin DBX Auto 2",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2021_Aston_Martin_DBX_Auto_2.jpg",
+   "photos": [
+    {
+     "caption": "2021 Aston Martin DBX Auto 2",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2021_Aston_Martin_DBX_Auto_2.jpg",
+     "src": "assets/photos/aston-martin-dbx.webp"
+    }
+   ],
    "segment": "Luxury SUV",
    "slug": "dbx",
    "status": "In production",
@@ -181,6 +217,18 @@
    ],
    "intro": "Adrian Newey's road car: a Cosworth V12 revving to 11,000 rpm, a hybrid system filling the torque gaps, and downforce figures from a Formula 1 wind tunnel. 150 coupés, all spoken for.",
    "name": "Valkyrie",
+   "photo": "assets/photos/aston-martin-valkyrie.webp",
+   "photoCaption": "2019 Aston Martin Valkyrie AMR Pro 6.5 Front",
+   "photoCredit": "Photo: Vauxford, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2019_Aston_Martin_Valkyrie_AMR_Pro_6.5_Front.jpg",
+   "photos": [
+    {
+     "caption": "2019 Aston Martin Valkyrie AMR Pro 6.5 Front",
+     "credit": "Photo: Vauxford, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2019_Aston_Martin_Valkyrie_AMR_Pro_6.5_Front.jpg",
+     "src": "assets/photos/aston-martin-valkyrie.webp"
+    }
+   ],
    "segment": "Hypercar",
    "slug": "valkyrie",
    "status": "In production",

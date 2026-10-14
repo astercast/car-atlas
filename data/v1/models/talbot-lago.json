@@ -23,6 +23,18 @@
    ],
    "intro": "Anthony Lago's Talbot at its zenith: the T150C chassis with Wilson pre-selector gearbox and a 4.0-litre six, clothed by Figoni & Falaschi in the famous 'goutte d'eau' teardrop coupés, the most valuable French cars of the thirties, and regular concours Best-of-Show winners today.",
    "name": "T150C-SS",
+   "photo": "assets/photos/talbot-lago-t150.webp",
+   "photoCaption": "1937 Talbot-Lago T150C SS (699757107)",
+   "photoCredit": "Photo: Joe Ross from Lansing, Michigan, CC BY-SA 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1937_Talbot-Lago_T150C_SS_(699757107).jpg",
+   "photos": [
+    {
+     "caption": "1937 Talbot-Lago T150C SS (699757107)",
+     "credit": "Photo: Joe Ross from Lansing, Michigan, CC BY-SA 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1937_Talbot-Lago_T150C_SS_(699757107).jpg",
+     "src": "assets/photos/talbot-lago-t150.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "t150",
    "status": "Discontinued",
@@ -67,6 +79,18 @@
    ],
    "intro": "Post-war Talbot-Lago: the 4.5-litre twin-cam six in the Record saloon and the short-chassis Grand Sport, one of the fastest road cars of its day and a Le Mans winner in 1950 (a T26 GS, father and son Rosier driving). Grand Sport chassis went to the great coachbuilders, Saoutchik, Figoni, Franay.",
    "name": "T26 Record / Grand Sport",
+   "photo": "assets/photos/talbot-lago-t26.webp",
+   "photoCaption": "1947 Talbot-Lago T26 Worblaufen Cabrio",
+   "photoCredit": "Photo: Rutger van der Maar, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1947_Talbot-Lago_T26_Worblaufen_Cabrio.jpg",
+   "photos": [
+    {
+     "caption": "1947 Talbot-Lago T26 Worblaufen Cabrio",
+     "credit": "Photo: Rutger van der Maar, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1947_Talbot-Lago_T26_Worblaufen_Cabrio.jpg",
+     "src": "assets/photos/talbot-lago-t26.webp"
+    }
+   ],
    "segment": "Grand tourer",
    "slug": "t26",
    "status": "Discontinued",
@@ -97,6 +121,18 @@
    ],
    "intro": "The last Talbot-Lago: a small coupé that began with Talbot's own 2.5-litre four and ended, as money ran out, with BMW's 2.6-litre V8 and the America name. About 120 were built; Simca bought the company in 1959 and the marque slept until the name resurfaced under Peugeot in 1979.",
    "name": "T14 America",
+   "photo": "assets/photos/talbot-lago-america.webp",
+   "photoCaption": "1957 Talbot-Lago T14 America Coupe",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1957_Talbot-Lago_T14_America_Coupe.jpg",
+   "photos": [
+    {
+     "caption": "1957 Talbot-Lago T14 America Coupe",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1957_Talbot-Lago_T14_America_Coupe.jpg",
+     "src": "assets/photos/talbot-lago-america.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "america",
    "status": "Discontinued",

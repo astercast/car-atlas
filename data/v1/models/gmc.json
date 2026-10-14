@@ -84,6 +84,18 @@
    ],
    "intro": "The Tahoe's plusher twin since 1992. Yukon Denali became so dominant that 'Denali' is effectively GMC's luxury sub-brand, and the current XL is a genuine Escalade alternative.",
    "name": "Yukon",
+   "photo": "assets/photos/gmc-yukon.webp",
+   "photoCaption": "2021 GMC Yukon Denali in Hunter Metallic, front left",
+   "photoCredit": "Photo: Mr.choppers, CC BY-SA 3.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2021_GMC_Yukon_Denali_in_Hunter_Metallic,_front_left.jpg",
+   "photos": [
+    {
+     "caption": "2021 GMC Yukon Denali in Hunter Metallic, front left",
+     "credit": "Photo: Mr.choppers, CC BY-SA 3.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2021_GMC_Yukon_Denali_in_Hunter_Metallic,_front_left.jpg",
+     "src": "assets/photos/gmc-yukon.webp"
+    }
+   ],
    "segment": "Full-size SUV",
    "slug": "yukon",
    "status": "In production",
@@ -116,6 +128,18 @@
    ],
    "intro": "The Hummer name reborn as a 4-tonne electric flagship: three motors, 1,000 hp, four-wheel steering with CrabWalk, and an open-air roof. Absurd, deliberate, and a genuine halo.",
    "name": "Hummer EV",
+   "photo": "assets/photos/gmc-hummer-ev.webp",
+   "photoCaption": "2022 GMC Hummer EV front",
+   "photoCredit": "Photo: UltraTech66, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2022_GMC_Hummer_EV_front.jpg",
+   "photos": [
+    {
+     "caption": "2022 GMC Hummer EV front",
+     "credit": "Photo: UltraTech66, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2022_GMC_Hummer_EV_front.jpg",
+     "src": "assets/photos/gmc-hummer-ev.webp"
+    }
+   ],
    "segment": "Electric off-roader",
    "slug": "hummer-ev",
    "status": "In production",
@@ -147,6 +171,18 @@
    ],
    "intro": "A turbocharged, all-wheel-drive S-10 that out-accelerated a Ferrari 348 in a famous 1991 comparison test. 2,995 built, all black, and the original American sport truck.",
    "name": "Syclone",
+   "photo": "assets/photos/gmc-syclone.webp",
+   "photoCaption": "1991 GMC Syclone in Black, front right (Saratoga)",
+   "photoCredit": "Photo: Mr.choppers, CC BY-SA 3.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1991_GMC_Syclone_in_Black,_front_right_(Saratoga).jpg",
+   "photos": [
+    {
+     "caption": "1991 GMC Syclone in Black, front right (Saratoga)",
+     "credit": "Photo: Mr.choppers, CC BY-SA 3.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1991_GMC_Syclone_in_Black,_front_right_(Saratoga).jpg",
+     "src": "assets/photos/gmc-syclone.webp"
+    }
+   ],
    "segment": "Sport truck",
    "slug": "syclone",
    "status": "Discontinued",

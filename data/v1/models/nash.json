@@ -35,6 +35,18 @@
    ],
    "intro": "Nash's flagship for a quarter century: overhead-valve engines when rivals ran flatheads, unit construction, reclining seats, and the bathtub Airflyte styling that defined post-war Nash. The nameplate outlived the company, AMC kept building Ambassadors after Nash itself was gone.",
    "name": "Ambassador",
+   "photo": "assets/photos/nash-ambassador.webp",
+   "photoCaption": "1931 Nash Ambassador Sedan Front",
+   "photoCredit": "Photo: CZmarlin, Public domain, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1931_Nash_Ambassador_Sedan_Front.jpg",
+   "photos": [
+    {
+     "caption": "1931 Nash Ambassador Sedan Front",
+     "credit": "Photo: CZmarlin, Public domain, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1931_Nash_Ambassador_Sedan_Front.jpg",
+     "src": "assets/photos/nash-ambassador.webp"
+    }
+   ],
    "segment": "Full-size luxury car",
    "slug": "ambassador",
    "status": "Discontinued",
@@ -69,6 +81,18 @@
    ],
    "intro": "The car that started the American compact era: George Romney's bet that a smaller, cheaper, well-equipped Nash could beat the Big Three's bulk. It could. The Rambler name went on to anchor AMC, and this little Airflyte convertible is where it began.",
    "name": "Rambler",
+   "photo": "assets/photos/nash-rambler.webp",
+   "photoCaption": "1952 Nash Rambler blue wagon front",
+   "photoCredit": "Photo: Christopher Ziemnowicz, Public domain, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1952_Nash_Rambler_blue_wagon_front.jpg",
+   "photos": [
+    {
+     "caption": "1952 Nash Rambler blue wagon front",
+     "credit": "Photo: Christopher Ziemnowicz, Public domain, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1952_Nash_Rambler_blue_wagon_front.jpg",
+     "src": "assets/photos/nash-rambler.webp"
+    }
+   ],
    "segment": "Compact car",
    "slug": "rambler",
    "status": "Discontinued",
@@ -101,6 +125,18 @@
    ],
    "intro": "An American idea built in England: Nash commissioned Austin to build its tiny Metropolitan in Birmingham, sold it as a Nash and then a Hudson, and proved a market for small cars existed a decade before Detroit admitted it. Two-tone paint and a continental spare were standard charm.",
    "name": "Metropolitan",
+   "photo": "assets/photos/nash-metropolitan.webp",
+   "photoCaption": "1957 & 1958 Nash Metropolitan (21204717946)",
+   "photoCredit": "Photo: Greg Gjerdingen from Willmar, USA, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1957_%26_1958_Nash_Metropolitan_(21204717946).jpg",
+   "photos": [
+    {
+     "caption": "1957 & 1958 Nash Metropolitan (21204717946)",
+     "credit": "Photo: Greg Gjerdingen from Willmar, USA, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1957_%26_1958_Nash_Metropolitan_(21204717946).jpg",
+     "src": "assets/photos/nash-metropolitan.webp"
+    }
+   ],
    "segment": "Subcompact car",
    "slug": "metropolitan",
    "status": "Discontinued",
@@ -132,6 +168,18 @@
    ],
    "intro": "America's first post-war sports car beat the Corvette to market: Donald Healey's chassis, Nash's overhead-valve six, and from 1952 a Pininfarina body built in Turin. A Nash-Healey finished third overall at Le Mans in 1952, the marque's finest hour, in a car almost nobody bought.",
    "name": "Nash-Healey",
+   "photo": "assets/photos/nash-nash-healey.webp",
+   "photoCaption": "1950 Nash-Healey Le Mans 3.85",
+   "photoCredit": "Photo: Vauxford, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1950_Nash-Healey_Le_Mans_3.85.jpg",
+   "photos": [
+    {
+     "caption": "1950 Nash-Healey Le Mans 3.85",
+     "credit": "Photo: Vauxford, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1950_Nash-Healey_Le_Mans_3.85.jpg",
+     "src": "assets/photos/nash-nash-healey.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "nash-healey",
    "status": "Discontinued",

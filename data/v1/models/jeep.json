@@ -106,6 +106,18 @@
    ],
    "intro": "The SUV that took Jeep upmarket. The Grand Cherokee created the premium 4x4 niche in 1993, proper off-road hardware under a vehicle you'd park at a hotel, and Range Rover has been answering it ever since.",
    "name": "Grand Cherokee",
+   "photo": "assets/photos/jeep-grand-cherokee.webp",
+   "photoCaption": "2011 Jeep Grand Cherokee Limited -- 07-03-2010",
+   "photoCredit": "Photo: IFCAR, Public domain, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2011_Jeep_Grand_Cherokee_Limited_--_07-03-2010.jpg",
+   "photos": [
+    {
+     "caption": "2011 Jeep Grand Cherokee Limited -- 07-03-2010",
+     "credit": "Photo: IFCAR, Public domain, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2011_Jeep_Grand_Cherokee_Limited_--_07-03-2010.jpg",
+     "src": "assets/photos/jeep-grand-cherokee.webp"
+    }
+   ],
    "segment": "Midsize SUV",
    "slug": "grand-cherokee",
    "status": "In production",
@@ -160,6 +172,18 @@
    ],
    "intro": "CJ stands for Civilian Jeep, the Willys MB demobbed in 1945 and sold to farmers, surveyors, and anyone who needed to get somewhere roads didn't go. The CJ-5 alone ran for 29 years, and every Wrangler since is this shape with better manners.",
    "name": "CJ (Civilian Jeep)",
+   "photo": "assets/photos/jeep-cj.webp",
+   "photoCaption": "Blue open Jeep CJ",
+   "photoCredit": "Photo: dave_7 from Lethbridge, Canada, CC BY-SA 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Blue_open_Jeep_CJ.jpg",
+   "photos": [
+    {
+     "caption": "Blue open Jeep CJ",
+     "credit": "Photo: dave_7 from Lethbridge, Canada, CC BY-SA 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Blue_open_Jeep_CJ.jpg",
+     "src": "assets/photos/jeep-cj.webp"
+    }
+   ],
    "segment": "Off-road utility",
    "slug": "cj",
    "status": "Discontinued",
@@ -203,6 +227,18 @@
    ],
    "intro": "The original luxury SUV. The SJ Wagoneer arrived in 1963, predating the Range Rover by seven years, and its wood-sided Grand Wagoneer finale became the Hamptons driveway default. Jeep revived the name in 2022 as a three-row flagship.",
    "name": "Wagoneer",
+   "photo": "assets/photos/jeep-wagoneer.webp",
+   "photoCaption": "1964 Jeep Grand Wagoneer (12670036305)",
+   "photoCredit": "Photo: Sicnag, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1964_Jeep_Grand_Wagoneer_(12670036305).jpg",
+   "photos": [
+    {
+     "caption": "1964 Jeep Grand Wagoneer (12670036305)",
+     "credit": "Photo: Sicnag, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1964_Jeep_Grand_Wagoneer_(12670036305).jpg",
+     "src": "assets/photos/jeep-wagoneer.webp"
+    }
+   ],
    "segment": "Full-size SUV",
    "slug": "wagoneer",
    "status": "In production",

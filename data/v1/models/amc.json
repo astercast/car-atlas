@@ -33,6 +33,18 @@
    ],
    "intro": "AMC's pony car, and a good one: styled by Dick Teague, raced by Penske, and armed with engines up to the 401. The second-generation car won the Trans-Am championship outright in 1971 and 1972.",
    "name": "Javelin",
+   "photo": "assets/photos/amc-javelin.webp",
+   "photoCaption": "1969 AMC Javelin SST finished in RWB at 2016 Mason-Dixon 1of4",
+   "photoCredit": "Photo: CZmarlin, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1969_AMC_Javelin_SST_finished_in_RWB_at_2016_Mason-Dixon_1of4.jpg",
+   "photos": [
+    {
+     "caption": "1969 AMC Javelin SST finished in RWB at 2016 Mason-Dixon 1of4",
+     "credit": "Photo: CZmarlin, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1969_AMC_Javelin_SST_finished_in_RWB_at_2016_Mason-Dixon_1of4.jpg",
+     "src": "assets/photos/amc-javelin.webp"
+    }
+   ],
    "segment": "Pony car",
    "slug": "javelin",
    "status": "Discontinued",
@@ -106,6 +118,18 @@
    ],
    "intro": "Introduced on April Fool's Day, 1970, a Rambler American with the back chopped off, styled on an air-sickness bag according to legend. Cheap, cheeky, and with the optional 304 V8, absurdly quick for a subcompact.",
    "name": "Gremlin",
+   "photo": "assets/photos/amc-gremlin.webp",
+   "photoCaption": "1970-71 AMC Gremlin front 6-17-23",
+   "photoCredit": "Photo: Captainpisslord, CC0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1970-71_AMC_Gremlin_front_6-17-23.png",
+   "photos": [
+    {
+     "caption": "1970-71 AMC Gremlin front 6-17-23",
+     "credit": "Photo: Captainpisslord, CC0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1970-71_AMC_Gremlin_front_6-17-23.png",
+     "src": "assets/photos/amc-gremlin.webp"
+    }
+   ],
    "segment": "Subcompact hatchback",
    "slug": "gremlin",
    "status": "Discontinued",
@@ -138,6 +162,18 @@
    ],
    "intro": "The wide small car: as broad as a full-size sedan, glass everywhere, and one door longer than the other so rear passengers could climb in. Designed for a rotary engine GM cancelled, immortalised by Wayne's World.",
    "name": "Pacer",
+   "photo": "assets/photos/amc-pacer.webp",
+   "photoCaption": "1975 AMC Pacer base model frontleftside",
+   "photoCredit": "Photo: CZmarlin, CC BY-SA 3.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1975_AMC_Pacer_base_model_frontleftside.jpg",
+   "photos": [
+    {
+     "caption": "1975 AMC Pacer base model frontleftside",
+     "credit": "Photo: CZmarlin, CC BY-SA 3.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1975_AMC_Pacer_base_model_frontleftside.jpg",
+     "src": "assets/photos/amc-pacer.webp"
+    }
+   ],
    "segment": "Compact wide-body car",
    "slug": "pacer",
    "status": "Discontinued",
@@ -171,6 +207,18 @@
    ],
    "intro": "The crossover, invented fifteen years early: a Concord body on full-time all-wheel drive with raised suspension, in wagon, sedan, coupe and the SX/4 hatch. Subaru and every modern crossover owe it a footnote at least.",
    "name": "Eagle",
+   "photo": "assets/photos/amc-eagle.webp",
+   "photoCaption": "1981-1984 AMC Eagle 4-door sedan, front left view",
+   "photoCredit": "Photo: MercurySable99, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1981-1984_AMC_Eagle_4-door_sedan,_front_left_view.jpg",
+   "photos": [
+    {
+     "caption": "1981-1984 AMC Eagle 4-door sedan, front left view",
+     "credit": "Photo: MercurySable99, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1981-1984_AMC_Eagle_4-door_sedan,_front_left_view.jpg",
+     "src": "assets/photos/amc-eagle.webp"
+    }
+   ],
    "segment": "All-wheel-drive family car",
    "slug": "eagle",
    "status": "Discontinued",

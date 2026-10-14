@@ -22,6 +22,18 @@
    ],
    "intro": "Project Giorgio: Alfa poached Ferrari engineers, spent billions, and produced a rear-drive sedan whose Quadrifoglio variant, with a Ferrari-derived twin-turbo V6, reset the sports-sedan benchmark.",
    "name": "Giulia",
+   "photo": "assets/photos/alfa-romeo-giulia.webp",
+   "photoCaption": "Alfa Romeo Giulia (2015) GT Junior 1X7A0336",
+   "photoCredit": "Photo: Alexander Migl, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_Giulia_(2015)_GT_Junior_1X7A0336.jpg",
+   "photos": [
+    {
+     "caption": "Alfa Romeo Giulia (2015) GT Junior 1X7A0336",
+     "credit": "Photo: Alexander Migl, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_Giulia_(2015)_GT_Junior_1X7A0336.jpg",
+     "src": "assets/photos/alfa-romeo-giulia.webp"
+    }
+   ],
    "segment": "Sports sedan",
    "slug": "giulia",
    "status": "In production",
@@ -54,6 +66,18 @@
    ],
    "intro": "The Giulia's platform under an SUV body, named for the pass with 48 hairpins. The Quadrifoglio version held the Nürburgring SUV lap record on launch.",
    "name": "Stelvio",
+   "photo": "assets/photos/alfa-romeo-stelvio.webp",
+   "photoCaption": "2017 Alfa-Romeo Stelvio Kragujevac",
+   "photoCredit": "Photo: KGC626, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2017_Alfa-Romeo_Stelvio_Kragujevac.png",
+   "photos": [
+    {
+     "caption": "2017 Alfa-Romeo Stelvio Kragujevac",
+     "credit": "Photo: KGC626, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2017_Alfa-Romeo_Stelvio_Kragujevac.png",
+     "src": "assets/photos/alfa-romeo-stelvio.webp"
+    }
+   ],
    "segment": "Luxury crossover",
    "slug": "stelvio",
    "status": "In production",
@@ -140,6 +164,18 @@
    ],
    "intro": "A concept car Alfa actually built: carbon body over a Maserati-derived chassis with Ferrari's 4.7 V8 up front. 500 coupés, then 500 Spiders, all sold before production began.",
    "name": "8C Competizione",
+   "photo": "assets/photos/alfa-romeo-8c-competizione.webp",
+   "photoCaption": "2009 Alfa Romeo 8C Competizione",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2009_Alfa_Romeo_8C_Competizione.jpg",
+   "photos": [
+    {
+     "caption": "2009 Alfa Romeo 8C Competizione",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2009_Alfa_Romeo_8C_Competizione.jpg",
+     "src": "assets/photos/alfa-romeo-8c-competizione.webp"
+    }
+   ],
    "segment": "Grand tourer",
    "slug": "8c-competizione",
    "status": "Discontinued",
@@ -181,6 +217,18 @@
    ],
    "intro": "Bertone's stepped-nose coupé, styled by a young Giorgetto Giugiaro. The GTA variant, aluminium skin, twin-plug head, owned European touring car racing in the late 1960s.",
    "name": "Giulia Sprint GT",
+   "photo": "assets/photos/alfa-romeo-giulia-sprint-gt.webp",
+   "photoCaption": "1964 Alfa Romeo Giulia Sprint GT",
+   "photoCredit": "Photo: Calreyn88, CC0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1964_Alfa_Romeo_Giulia_Sprint_GT.jpg",
+   "photos": [
+    {
+     "caption": "1964 Alfa Romeo Giulia Sprint GT",
+     "credit": "Photo: Calreyn88, CC0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1964_Alfa_Romeo_Giulia_Sprint_GT.jpg",
+     "src": "assets/photos/alfa-romeo-giulia-sprint-gt.webp"
+    }
+   ],
    "segment": "Sports coupe",
    "slug": "giulia-sprint-gt",
    "status": "Discontinued",

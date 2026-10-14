@@ -22,6 +22,18 @@
    ],
    "intro": "The post-war British sports car distilled: a twin-carburettor twin-seater with cut-down doors, a 100 mph top speed and a price Detroit couldn't touch. The TR line started here, and so did a generation of American sports-car racing.",
    "name": "TR2 / TR3",
+   "photo": "assets/photos/triumph-tr2-tr3.webp",
+   "photoCaption": "1957 Triumph TR3 - Front",
+   "photoCredit": "Photo: Daniel Milner, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1957_Triumph_TR3_-_Front.jpg",
+   "photos": [
+    {
+     "caption": "1957 Triumph TR3 - Front",
+     "credit": "Photo: Daniel Milner, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1957_Triumph_TR3_-_Front.jpg",
+     "src": "assets/photos/triumph-tr2-tr3.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "tr2-tr3",
    "status": "Discontinued",
@@ -66,6 +78,18 @@
    ],
    "intro": "Michelotti civilised the TR: wind-up windows, a proper boot, and an optional Surrey top, then the TR5 added fuel injection and six cylinders' worth of pace. America got carburettors and the TR250 name instead, which is why the injected cars are the legend.",
    "name": "TR4 / TR5 / TR250",
+   "photo": "assets/photos/triumph-tr4-tr5.webp",
+   "photoCaption": "1962 Triumph TR4 (54803)",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1962_Triumph_TR4_(54803).jpg",
+   "photos": [
+    {
+     "caption": "1962 Triumph TR4 (54803)",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1962_Triumph_TR4_(54803).jpg",
+     "src": "assets/photos/triumph-tr4-tr5.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "tr4-tr5",
    "status": "Discontinued",
@@ -98,6 +122,18 @@
    ],
    "intro": "Karmann sharpened the TR5's suit and Triumph kept the recipe: a big six, a separate chassis, and 150,000 buyers, nearly all of them American. The last of the traditional hairy-chested TRs before the wedge arrived.",
    "name": "TR6",
+   "photo": "assets/photos/triumph-tr6.webp",
+   "photoCaption": "1971 Triumph TR6 (15638)",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1971_Triumph_TR6_(15638).jpg",
+   "photos": [
+    {
+     "caption": "1971 Triumph TR6 (15638)",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1971_Triumph_TR6_(15638).jpg",
+     "src": "assets/photos/triumph-tr6.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "tr6",
    "status": "Discontinued",
@@ -140,6 +176,18 @@
    ],
    "intro": "'The shape of things to come': Harris Mann's wedge replaced a decade of tradition with pop-up lamps and a fixed head, and the launch quality troubles wrote the headlines. The TR8's Rover V8 fixed the pace problem just as production ended, which is why it is the one everyone wants now.",
    "name": "TR7 / TR8",
+   "photo": "assets/photos/triumph-tr7-tr8.webp",
+   "photoCaption": "1975 Triumph TR7 3.5 Front",
+   "photoCredit": "Photo: Vauxford, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1975_Triumph_TR7_3.5_Front.jpg",
+   "photos": [
+    {
+     "caption": "1975 Triumph TR7 3.5 Front",
+     "credit": "Photo: Vauxford, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1975_Triumph_TR7_3.5_Front.jpg",
+     "src": "assets/photos/triumph-tr7-tr8.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "tr7-tr8",
    "status": "Discontinued",
@@ -182,6 +230,18 @@
    ],
    "intro": "Michelotti's small sports car on Herald bones: a flip-forward bonnet, swing axles with opinions, and 315,000 buyers over eighteen years. The Spitfire was the sports car students could afford and the one half the paddock started in.",
    "name": "Spitfire",
+   "photo": "assets/photos/triumph-spitfire.webp",
+   "photoCaption": "White Triumph Spitfire Mk3 with hardtop - side",
+   "photoCredit": "Photo: Akela NDE, CC BY-SA 2.0 fr, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:White_Triumph_Spitfire_Mk3_with_hardtop_-_side.jpeg",
+   "photos": [
+    {
+     "caption": "White Triumph Spitfire Mk3 with hardtop - side",
+     "credit": "Photo: Akela NDE, CC BY-SA 2.0 fr, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:White_Triumph_Spitfire_Mk3_with_hardtop_-_side.jpeg",
+     "src": "assets/photos/triumph-spitfire.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "spitfire",
    "status": "Discontinued",
@@ -215,6 +275,18 @@
    ],
    "intro": "Triumph's grand idea: a four-seat convertible with a home-grown 3.0 V8, a T-bar roof and Michelotti styling aimed squarely at Mercedes' SL. The engine's cooling troubles wrote its reputation; the survivors, mostly cured by forty years of club knowledge, are the grand tourers the car always meant to be.",
    "name": "Stag",
+   "photo": "assets/photos/triumph-stag.webp",
+   "photoCaption": "1972 Triumph Stag (51249)",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1972_Triumph_Stag_(51249).jpg",
+   "photos": [
+    {
+     "caption": "1972 Triumph Stag (51249)",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1972_Triumph_Stag_(51249).jpg",
+     "src": "assets/photos/triumph-stag.webp"
+    }
+   ],
    "segment": "Grand tourer",
    "slug": "stag",
    "status": "Discontinued",
@@ -245,6 +317,18 @@
    ],
    "intro": "The Sprint is the headline: a 2.0-litre sixteen-valve head, the first mass-produced multi-valve engine, on a Michelotti sedan that embarrassed bigger cars in touring-car racing. The ordinary Dolomites were worthy family cars; the Sprint was a factory hot rod in a cardigan.",
    "name": "Dolomite",
+   "photo": "assets/photos/triumph-dolomite.webp",
+   "photoCaption": "1974 Triumph Dolomite",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1974_Triumph_Dolomite.jpg",
+   "photos": [
+    {
+     "caption": "1974 Triumph Dolomite",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1974_Triumph_Dolomite.jpg",
+     "src": "assets/photos/triumph-dolomite.webp"
+    }
+   ],
    "segment": "Sports sedan",
    "slug": "dolomite",
    "status": "Discontinued",

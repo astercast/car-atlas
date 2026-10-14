@@ -23,6 +23,18 @@
    ],
    "intro": "The definitive Chapman road car: a steel backbone chassis, fibreglass body, twin-cam power, and 675 kg. The Elan's steering feel is still the reference other roadsters are measured against, Mazda benchmarked it for the MX-5.",
    "name": "Elan",
+   "photo": "assets/photos/lotus-elan.webp",
+   "photoCaption": "Lotus Elan S4 drop head coupe (front flank)",
+   "photoCredit": "Photo: Grenadille, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Lotus_Elan_S4_drop_head_coupe_(front_flank).jpg",
+   "photos": [
+    {
+     "caption": "Lotus Elan S4 drop head coupe (front flank)",
+     "credit": "Photo: Grenadille, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Lotus_Elan_S4_drop_head_coupe_(front_flank).jpg",
+     "src": "assets/photos/lotus-elan.webp"
+    }
+   ],
    "segment": "Roadster",
    "slug": "elan",
    "status": "Discontinued",
@@ -67,6 +79,18 @@
    ],
    "intro": "Giugiaro's wedge, Bond's submarine, and 28 years of evolution from a 160 hp four to a twin-turbo V8. The last hand-built Lotus flagship and a study in keeping one design alive.",
    "name": "Esprit",
+   "photo": "assets/photos/lotus-esprit.webp",
+   "photoCaption": "Lotus Esprit Turbo sideview",
+   "photoCredit": "Photo: Corvesprit, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Lotus_Esprit_Turbo_sideview.jpg",
+   "photos": [
+    {
+     "caption": "Lotus Esprit Turbo sideview",
+     "credit": "Photo: Corvesprit, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Lotus_Esprit_Turbo_sideview.jpg",
+     "src": "assets/photos/lotus-esprit.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "esprit",
    "status": "Discontinued",
@@ -152,6 +176,18 @@
    ],
    "intro": "The last petrol Lotus: AMG's turbo four or Toyota's supercharged V6, hydraulic steering feel, and supercar surfacing at sports-car money. A farewell written with unusual care.",
    "name": "Emira",
+   "photo": "assets/photos/lotus-emira.webp",
+   "photoCaption": "2022 Lotus Emira",
+   "photoCredit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2022_Lotus_Emira.jpg",
+   "photos": [
+    {
+     "caption": "2022 Lotus Emira",
+     "credit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2022_Lotus_Emira.jpg",
+     "src": "assets/photos/lotus-emira.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "emira",
    "status": "In production",
@@ -182,6 +218,18 @@
    ],
    "intro": "Lotus's electric reset: four motors, a 2,000 PS target, and Venturi tunnels through the rear bodywork. Eight customer cars a year make it the rarest thing Hethel has built.",
    "name": "Evija",
+   "photo": "assets/photos/lotus-evija.webp",
+   "photoCaption": "2020 Lotus Evija",
+   "photoCredit": "Photo: Liam Walker, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2020_Lotus_Evija.jpg",
+   "photos": [
+    {
+     "caption": "2020 Lotus Evija",
+     "credit": "Photo: Liam Walker, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2020_Lotus_Evija.jpg",
+     "src": "assets/photos/lotus-evija.webp"
+    }
+   ],
    "segment": "Electric hypercar",
    "slug": "evija",
    "status": "In production",

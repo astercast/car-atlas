@@ -45,6 +45,18 @@
    ],
    "intro": "The best-selling nameplate in history, more than 50 million sold. The Corolla is the default answer to 'what car should I buy?' on every continent, and the GR Corolla proves the badge can still have a pulse.",
    "name": "Corolla",
+   "photo": "assets/photos/toyota-corolla.webp",
+   "photoCaption": "1969 Toyota Corolla 1200",
+   "photoCredit": "Photo: TTTNIS, CC0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1969_Toyota_Corolla_1200.jpg",
+   "photos": [
+    {
+     "caption": "1969 Toyota Corolla 1200",
+     "credit": "Photo: TTTNIS, CC0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1969_Toyota_Corolla_1200.jpg",
+     "src": "assets/photos/toyota-corolla.webp"
+    }
+   ],
    "segment": "Compact car",
    "slug": "corolla",
    "status": "In production",
@@ -99,6 +111,18 @@
    ],
    "intro": "America's best-selling sedan for over two decades. The Camry is the car as appliance done perfectly, and since 2024, hybrid-only, which tells you where the whole segment went.",
    "name": "Camry",
+   "photo": "assets/photos/toyota-camry.webp",
+   "photoCaption": "2020 Toyota Camry S-Edition front",
+   "photoCredit": "Photo: Throwawayacc222, CC0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2020_Toyota_Camry_S-Edition_front.jpg",
+   "photos": [
+    {
+     "caption": "2020 Toyota Camry S-Edition front",
+     "credit": "Photo: Throwawayacc222, CC0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2020_Toyota_Camry_S-Edition_front.jpg",
+     "src": "assets/photos/toyota-camry.webp"
+    }
+   ],
    "segment": "Midsize sedan",
    "slug": "camry",
    "status": "In production",
@@ -346,6 +370,18 @@
    ],
    "intro": "The car that made 'hybrid' a word your parents knew. The second generation became a cultural symbol; the fifth became, improbably, genuinely good-looking.",
    "name": "Prius",
+   "photo": "assets/photos/toyota-prius.webp",
+   "photoCaption": "2015-2018 Toyota Prius S rear",
+   "photoCredit": "Photo: TTTNIS, CC0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2015-2018_Toyota_Prius_S_rear.jpg",
+   "photos": [
+    {
+     "caption": "2015-2018 Toyota Prius S rear",
+     "credit": "Photo: TTTNIS, CC0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2015-2018_Toyota_Prius_S_rear.jpg",
+     "src": "assets/photos/toyota-prius.webp"
+    }
+   ],
    "segment": "Hybrid",
    "slug": "prius",
    "status": "In production",
@@ -399,6 +435,18 @@
    ],
    "intro": "The midsize truck benchmark for resale value and trail credibility. Tacomas are bought, used hard for a decade, and sold for embarrassing fractions of their original price.",
    "name": "Tacoma",
+   "photo": "assets/photos/toyota-tacoma.webp",
+   "photoCaption": "2024 Toyota Tacoma TRD Off Road black rear",
+   "photoCredit": "Photo: Throwawayacc222, CC0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2024_Toyota_Tacoma_TRD_Off_Road_black_rear.jpg",
+   "photos": [
+    {
+     "caption": "2024 Toyota Tacoma TRD Off Road black rear",
+     "credit": "Photo: Throwawayacc222, CC0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2024_Toyota_Tacoma_TRD_Off_Road_black_rear.jpg",
+     "src": "assets/photos/toyota-tacoma.webp"
+    }
+   ],
    "segment": "Midsize pickup",
    "slug": "tacoma",
    "status": "In production",
@@ -434,6 +482,18 @@
    ],
    "intro": "Japan's first supercar. Co-developed with Yamaha, hand-built in tiny numbers, 351 cars, and proof in 1967 that Japan could build a world-class GT. A Bond film made one a convertible because Sean Connery didn't fit.",
    "name": "2000GT",
+   "photo": "assets/photos/toyota-2000gt.webp",
+   "photoCaption": "1968 Toyota 2000GT Rear",
+   "photoCredit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1968_Toyota_2000GT_Rear.jpg",
+   "photos": [
+    {
+     "caption": "1968 Toyota 2000GT Rear",
+     "credit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1968_Toyota_2000GT_Rear.jpg",
+     "src": "assets/photos/toyota-2000gt.webp"
+    }
+   ],
    "segment": "Grand tourer",
    "slug": "2000gt",
    "status": "Discontinued",

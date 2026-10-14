@@ -78,6 +78,18 @@
    ],
    "intro": "Plymouth paid Warner Bros. for the cartoon bird and spent the savings on speed: a stripped B-body, a 383 with magnum internals, and a 'meep meep' horn. The 1970 Superbird wore a nose cone and a wing for NASCAR, and for immortality.",
    "name": "Road Runner",
+   "photo": "assets/photos/plymouth-road-runner.webp",
+   "photoCaption": "1971 Plymouth Road Runner, front left, 08-24-2024",
+   "photoCredit": "Photo: MercurySable99, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1971_Plymouth_Road_Runner,_front_left,_08-24-2024.jpg",
+   "photos": [
+    {
+     "caption": "1971 Plymouth Road Runner, front left, 08-24-2024",
+     "credit": "Photo: MercurySable99, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1971_Plymouth_Road_Runner,_front_left,_08-24-2024.jpg",
+     "src": "assets/photos/plymouth-road-runner.webp"
+    }
+   ],
    "segment": "Muscle car",
    "slug": "road-runner",
    "status": "Discontinued",
@@ -110,6 +122,18 @@
    ],
    "intro": "The gentleman's muscle car: Plymouth's upscale B-body with the 440 Super Commando standard and the Hemi on the option list, pitched at buyers who wanted the pace without the stripper spec.",
    "name": "GTX",
+   "photo": "assets/photos/plymouth-gtx.webp",
+   "photoCaption": "1969 Plymouth GTX (27395328272)",
+   "photoCredit": "Photo: Greg Gjerdingen from Willmar, USA, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1969_Plymouth_GTX_(27395328272).jpg",
+   "photos": [
+    {
+     "caption": "1969 Plymouth GTX (27395328272)",
+     "credit": "Photo: Greg Gjerdingen from Willmar, USA, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1969_Plymouth_GTX_(27395328272).jpg",
+     "src": "assets/photos/plymouth-gtx.webp"
+    }
+   ],
    "segment": "Muscle car",
    "slug": "gtx",
    "status": "Discontinued",
@@ -140,6 +164,18 @@
    ],
    "intro": "The budget bruiser: a Valiant fastback coupe that, with the 340 small-block, outran cars twice its price and embarrassed its own stablemates. The Twister trim sold the look; the 340 sold the legend.",
    "name": "Duster",
+   "photo": "assets/photos/plymouth-duster.webp",
+   "photoCaption": "1970 Plymouth Duster (25479007000)",
+   "photoCredit": "Photo: Jeremy from Sydney, Australia, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1970_Plymouth_Duster_(25479007000).jpg",
+   "photos": [
+    {
+     "caption": "1970 Plymouth Duster (25479007000)",
+     "credit": "Photo: Jeremy from Sydney, Australia, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1970_Plymouth_Duster_(25479007000).jpg",
+     "src": "assets/photos/plymouth-duster.webp"
+    }
+   ],
    "segment": "Compact muscle / coupe",
    "slug": "duster",
    "status": "Discontinued",
@@ -172,6 +208,18 @@
    ],
    "intro": "A factory hot rod in 1997: aluminium-intensive, open-wheeled retro styling, and a concept car Chrysler actually built. The V6-only powertrain was the compromise; the look was not.",
    "name": "Prowler",
+   "photo": "assets/photos/plymouth-prowler.webp",
+   "photoCaption": "1999 Plymouth Prowler (26881656113)",
+   "photoCredit": "Photo: Greg Gjerdingen from Willmar, USA, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1999_Plymouth_Prowler_(26881656113).jpg",
+   "photos": [
+    {
+     "caption": "1999 Plymouth Prowler (26881656113)",
+     "credit": "Photo: Greg Gjerdingen from Willmar, USA, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1999_Plymouth_Prowler_(26881656113).jpg",
+     "src": "assets/photos/plymouth-prowler.webp"
+    }
+   ],
    "segment": "Retro roadster",
    "slug": "prowler",
    "status": "Discontinued",
@@ -202,6 +250,18 @@
    ],
    "intro": "With the Dodge Caravan, the 1984 Voyager invented the modern minivan: front-wheel drive, a car floor height, and a sliding door, selling families out of station wagons by the millions. Lee Iacocca's second act saved Chrysler.",
    "name": "Voyager",
+   "photo": "assets/photos/plymouth-voyager.webp",
+   "photoCaption": "1984-86 Plymouth Voyager LE in Garnet Red Pearl Coat, front right",
+   "photoCredit": "Photo: Ethan Llamas, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1984-86_Plymouth_Voyager_LE_in_Garnet_Red_Pearl_Coat,_front_right.jpg",
+   "photos": [
+    {
+     "caption": "1984-86 Plymouth Voyager LE in Garnet Red Pearl Coat, front right",
+     "credit": "Photo: Ethan Llamas, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1984-86_Plymouth_Voyager_LE_in_Garnet_Red_Pearl_Coat,_front_right.jpg",
+     "src": "assets/photos/plymouth-voyager.webp"
+    }
+   ],
    "segment": "Minivan",
    "slug": "voyager",
    "status": "Discontinued",

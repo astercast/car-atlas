@@ -22,6 +22,18 @@
    ],
    "intro": "The first production TVR: a glassfibre coupé on a backbone chassis, sold with whatever engine the decade offered, Climax, Ford, BMC, MG. Light, stark and quick, it set the template every TVR since has followed: minimum weight, maximum engine, no apologies.",
    "name": "Grantura",
+   "photo": "assets/photos/tvr-grantura.webp",
+   "photoCaption": "1961 TVR Grantura Mark IIA, front left (Hershey 2019)",
+   "photoCredit": "Photo: Mr.choppers, CC BY-SA 3.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1961_TVR_Grantura_Mark_IIA,_front_left_(Hershey_2019).jpg",
+   "photos": [
+    {
+     "caption": "1961 TVR Grantura Mark IIA, front left (Hershey 2019)",
+     "credit": "Photo: Mr.choppers, CC BY-SA 3.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1961_TVR_Grantura_Mark_IIA,_front_left_(Hershey_2019).jpg",
+     "src": "assets/photos/tvr-grantura.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "grantura",
    "status": "Discontinued",
@@ -66,6 +78,18 @@
    ],
    "intro": "Two cars, one idea, thirty years apart. Jack Griffith stuffed a Ford 289 into a Grantura in New York and built America's Cobra rival; Peter Wheeler stuffed Rover's V8 into a nineties roadster and built Britain's. Both are light, loud and entirely serious about power-to-weight.",
    "name": "Griffith",
+   "photo": "assets/photos/tvr-griffith.webp",
+   "photoCaption": "TVR Griffith 400 (1966) 001",
+   "photoCredit": "Photo: SG2012, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:TVR_Griffith_400_(1966)_001.jpg",
+   "photos": [
+    {
+     "caption": "TVR Griffith 400 (1966) 001",
+     "credit": "Photo: SG2012, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:TVR_Griffith_400_(1966)_001.jpg",
+     "src": "assets/photos/tvr-griffith.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "griffith",
    "status": "Discontinued",
@@ -99,6 +123,18 @@
    ],
    "intro": "TVR's best-seller: the Griffith's running gear in a softer, roomier roadster that sold over 6,000 copies and kept Blackpool busy for a decade. It is the usable TVR, which in TVR terms still means a Rover V8, a glassfibre body and no safety net.",
    "name": "Chimaera",
+   "photo": "assets/photos/tvr-chimaera.webp",
+   "photoCaption": "1993 TVR Chimaera 4.0",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1993_TVR_Chimaera_4.0.jpg",
+   "photos": [
+    {
+     "caption": "1993 TVR Chimaera 4.0",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1993_TVR_Chimaera_4.0.jpg",
+     "src": "assets/photos/tvr-chimaera.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "chimaera",
    "status": "Discontinued",
@@ -130,6 +166,18 @@
    ],
    "intro": "The 2+2 that took TVR racing: Peter Wheeler's brief was a Porsche 911 rival with TVR's own engines, the flat-plane AJP8 V8 and the Speed Six, designed in-house because Rover power wasn't enough anymore. The Cerbera Speed 12, its unhinged sibling, never reached customers. This one did, barely tamed.",
    "name": "Cerbera",
+   "photo": "assets/photos/tvr-cerbera.webp",
+   "photoCaption": "1996 TVR Cerbera 4.2",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1996_TVR_Cerbera_4.2.jpg",
+   "photos": [
+    {
+     "caption": "1996 TVR Cerbera 4.2",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1996_TVR_Cerbera_4.2.jpg",
+     "src": "assets/photos/tvr-cerbera.webp"
+    }
+   ],
    "segment": "Sports coupe",
    "slug": "cerbera",
    "status": "Discontinued",
@@ -162,6 +210,18 @@
    ],
    "intro": "The Speed Six engine in a body with a removable roof panel, no door handles and curves that owed nothing to a wind tunnel. The Tuscan was TVR's millennium flagship, the car from Swordfish, and the last of the Wheeler-era volume models.",
    "name": "Tuscan",
+   "photo": "assets/photos/tvr-tuscan.webp",
+   "photoCaption": "2000 TVR Tuscan 4.0 (19483)",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2000_TVR_Tuscan_4.0_(19483).jpg",
+   "photos": [
+    {
+     "caption": "2000 TVR Tuscan 4.0 (19483)",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2000_TVR_Tuscan_4.0_(19483).jpg",
+     "src": "assets/photos/tvr-tuscan.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "tuscan",
    "status": "Discontinued",
@@ -193,6 +253,18 @@
    ],
    "intro": "The last Wheeler TVR and the most extreme: a Tuscan underneath, endurance-racer vents cut into every panel, a clear rear spoiler and a 400 hp Speed Six. Built for two years before the factory closed; it reads now as the marque's full stop, exclamation included.",
    "name": "Sagaris",
+   "photo": "assets/photos/tvr-sagaris.webp",
+   "photoCaption": "2005 TVR Sagaris (12795)",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2005_TVR_Sagaris_(12795).jpg",
+   "photos": [
+    {
+     "caption": "2005 TVR Sagaris (12795)",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2005_TVR_Sagaris_(12795).jpg",
+     "src": "assets/photos/tvr-sagaris.webp"
+    }
+   ],
    "segment": "Sports coupe",
    "slug": "sagaris",
    "status": "Discontinued",

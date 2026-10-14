@@ -45,6 +45,18 @@
    ],
    "intro": "Started as a fuel-crisis runabout and grew into the compact benchmark. Every generation has had a version worth caring about, and the Type R versions are among the best front-drive cars ever made.",
    "name": "Civic",
+   "photo": "assets/photos/honda-civic.webp",
+   "photoCaption": "2022 Honda Civic LX Sedan, front right, 11-02-2022",
+   "photoCredit": "Photo: MercurySable99, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2022_Honda_Civic_LX_Sedan,_front_right,_11-02-2022.jpg",
+   "photos": [
+    {
+     "caption": "2022 Honda Civic LX Sedan, front right, 11-02-2022",
+     "credit": "Photo: MercurySable99, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2022_Honda_Civic_LX_Sedan,_front_right,_11-02-2022.jpg",
+     "src": "assets/photos/honda-civic.webp"
+    }
+   ],
    "segment": "Compact car",
    "slug": "civic",
    "status": "In production",
@@ -102,6 +114,18 @@
    ],
    "intro": "The family sedan for people who actually read reviews. The Accord spent decades trading best-in-class wins with the Camry, and usually won on steering and feel rather than on price.",
    "name": "Accord",
+   "photo": "assets/photos/honda-accord.webp",
+   "photoCaption": "2007 Honda Accord Euro R with Mugen tuning front",
+   "photoCredit": "Photo: Throwawayacc222, CC0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2007_Honda_Accord_Euro_R_with_Mugen_tuning_front.jpg",
+   "photos": [
+    {
+     "caption": "2007 Honda Accord Euro R with Mugen tuning front",
+     "credit": "Photo: Throwawayacc222, CC0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2007_Honda_Accord_Euro_R_with_Mugen_tuning_front.jpg",
+     "src": "assets/photos/honda-accord.webp"
+    }
+   ],
    "segment": "Midsize sedan",
    "slug": "accord",
    "status": "In production",
@@ -197,6 +221,18 @@
    ],
    "intro": "A 9,000 rpm love letter to the naturally aspirated engine. The F20C made 120 hp per litre, a record for a production road car at launch, and the shifter is still the benchmark every manual is judged against.",
    "name": "S2000",
+   "photo": "assets/photos/honda-s2000.webp",
+   "photoCaption": "2001 Honda S2000 3",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2001_Honda_S2000_3.jpg",
+   "photos": [
+    {
+     "caption": "2001 Honda S2000 3",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2001_Honda_S2000_3.jpg",
+     "src": "assets/photos/honda-s2000.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "s2000",
    "status": "Discontinued",
@@ -248,6 +284,18 @@
    ],
    "intro": "One of the original car-based crossovers, and still the sensible default in the segment. It has never been exciting. It has also never really been beaten at the job it was built for.",
    "name": "CR-V",
+   "photo": "assets/photos/honda-cr-v.webp",
+   "photoCaption": "2023 Honda CR-V EX-L 4WD in Radiant Red Metallic, rear right",
+   "photoCredit": "Photo: Mr.choppers, CC BY-SA 3.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2023_Honda_CR-V_EX-L_4WD_in_Radiant_Red_Metallic,_rear_right.jpg",
+   "photos": [
+    {
+     "caption": "2023 Honda CR-V EX-L 4WD in Radiant Red Metallic, rear right",
+     "credit": "Photo: Mr.choppers, CC BY-SA 3.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2023_Honda_CR-V_EX-L_4WD_in_Radiant_Red_Metallic,_rear_right.jpg",
+     "src": "assets/photos/honda-cr-v.webp"
+    }
+   ],
    "segment": "Compact SUV",
    "slug": "cr-v",
    "status": "In production",

@@ -114,6 +114,18 @@
    ],
    "intro": "The Beetle's replacement and the car that defined the modern hatchback. The GTI variant invented the hot hatch in 1976, a family car with a big engine and red trim that embarrassed sports cars, and every generation since has had to live up to it.",
    "name": "Golf",
+   "photo": "assets/photos/volkswagen-golf.webp",
+   "photoCaption": "2020 Volkswagen Golf Style 1.5 Front",
+   "photoCredit": "Photo: Vauxford, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2020_Volkswagen_Golf_Style_1.5_Front.jpg",
+   "photos": [
+    {
+     "caption": "2020 Volkswagen Golf Style 1.5 Front",
+     "credit": "Photo: Vauxford, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2020_Volkswagen_Golf_Style_1.5_Front.jpg",
+     "src": "assets/photos/volkswagen-golf.webp"
+    }
+   ],
    "segment": "Compact car",
    "slug": "golf",
    "status": "In production",
@@ -158,6 +170,18 @@
    ],
    "intro": "A delivery van that became a cultural era. The Bus carried hippies, surfboards, families, and half of Brazil, production there ran until 2013. Few vehicles have ever meant as much to as many different people.",
    "name": "Type 2 (Bus)",
+   "photo": "assets/photos/volkswagen-type-2.webp",
+   "photoCaption": "2022 Downtown West Allis Classic Car Show 060 (1974 Volkswagen Type 2 Bus)",
+   "photoCredit": "Photo: Michael Barera, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2022_Downtown_West_Allis_Classic_Car_Show_060_(1974_Volkswagen_Type_2_Bus).jpg",
+   "photos": [
+    {
+     "caption": "2022 Downtown West Allis Classic Car Show 060 (1974 Volkswagen Type 2 Bus)",
+     "credit": "Photo: Michael Barera, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2022_Downtown_West_Allis_Classic_Car_Show_060_(1974_Volkswagen_Type_2_Bus).jpg",
+     "src": "assets/photos/volkswagen-type-2.webp"
+    }
+   ],
    "segment": "Van",
    "slug": "type-2",
    "status": "Discontinued",
@@ -213,6 +237,18 @@
    ],
    "intro": "Volkswagen's sensible family car for fifty years, which produced some genuinely odd highlights, including a W8 engine nobody asked for. The US sedan ended in 2022, but the nameplate continues in Europe as a wagon and in China as a sedan.",
    "name": "Passat",
+   "photo": "assets/photos/volkswagen-passat.webp",
+   "photoCaption": "2010 Volkswagen Passat Highline TDi 140 2.0 Front",
+   "photoCredit": "Photo: Vauxford, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2010_Volkswagen_Passat_Highline_TDi_140_2.0_Front.jpg",
+   "photos": [
+    {
+     "caption": "2010 Volkswagen Passat Highline TDi 140 2.0 Front",
+     "credit": "Photo: Vauxford, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2010_Volkswagen_Passat_Highline_TDi_140_2.0_Front.jpg",
+     "src": "assets/photos/volkswagen-passat.webp"
+    }
+   ],
    "segment": "Midsize car",
    "slug": "passat",
    "status": "In production",

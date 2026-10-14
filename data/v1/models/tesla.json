@@ -22,6 +22,18 @@
    ],
    "intro": "The car that started it. Tesla's first product took a Lotus Elise chassis, replaced the running gear with batteries and a single electric motor, and proved in 2008 that an electric car could be the fast one. A successor has been promised for years and has not reached production.",
    "name": "Roadster",
+   "photo": "assets/photos/tesla-roadster.webp",
+   "photoCaption": "2011-2012 Tesla Roadster convertible (24365003106)",
+   "photoCredit": "Photo: Jeremy from Sydney, Australia, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2011-2012_Tesla_Roadster_convertible_(24365003106).jpg",
+   "photos": [
+    {
+     "caption": "2011-2012 Tesla Roadster convertible (24365003106)",
+     "credit": "Photo: Jeremy from Sydney, Australia, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2011-2012_Tesla_Roadster_convertible_(24365003106).jpg",
+     "src": "assets/photos/tesla-roadster.webp"
+    }
+   ],
    "segment": "Electric sports car",
    "slug": "roadster",
    "status": "Discontinued",
@@ -62,6 +74,18 @@
    ],
    "intro": "The car that forced every major maker to build an EV program. Launched in 2012 with range and acceleration no production EV had combined before, and still on sale, heavily revised underneath, more than a decade later.",
    "name": "Model S",
+   "photo": "assets/photos/tesla-model-s.webp",
+   "photoCaption": "20180630 Tesla Model S 70D 2015 midnight blue left front",
+   "photoCredit": "Photo: Granada, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:20180630_Tesla_Model_S_70D_2015_midnight_blue_left_front.jpg",
+   "photos": [
+    {
+     "caption": "20180630 Tesla Model S 70D 2015 midnight blue left front",
+     "credit": "Photo: Granada, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:20180630_Tesla_Model_S_70D_2015_midnight_blue_left_front.jpg",
+     "src": "assets/photos/tesla-model-s.webp"
+    }
+   ],
    "segment": "Executive sedan",
    "slug": "model-s",
    "status": "In production",
@@ -153,6 +177,18 @@
    ],
    "intro": "The best-selling car in the world in 2023, not the best-selling EV, the best-selling car, full stop. The Model Y is the Model 3's formula raised onto a crossover body, and it outsells everything Tesla makes combined.",
    "name": "Model Y",
+   "photo": "assets/photos/tesla-model-y.webp",
+   "photoCaption": "Tesla Model Y front passenger side view",
+   "photoCredit": "Photo: Daniel.Cardenas, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Tesla_Model_Y_front_passenger_side_view.jpg",
+   "photos": [
+    {
+     "caption": "Tesla Model Y front passenger side view",
+     "credit": "Photo: Daniel.Cardenas, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Tesla_Model_Y_front_passenger_side_view.jpg",
+     "src": "assets/photos/tesla-model-y.webp"
+    }
+   ],
    "segment": "Compact crossover SUV",
    "slug": "model-y",
    "status": "In production",
@@ -183,6 +219,18 @@
    ],
    "intro": "Unveiled in 2019 with a smashed window on stage, delivered from late 2023. The Cybertruck's stainless wedge looks like a rendering error; underneath sit genuinely radical choices, steer-by-wire and a 48V architecture, wrapped in the most polarising truck ever sold.",
    "name": "Cybertruck",
+   "photo": "assets/photos/tesla-cybertruck.webp",
+   "photoCaption": "2024 Tesla Cybertruck, Moab 02",
+   "photoCredit": "Photo: A1C6, CC0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2024_Tesla_Cybertruck,_Moab_02.jpg",
+   "photos": [
+    {
+     "caption": "2024 Tesla Cybertruck, Moab 02",
+     "credit": "Photo: A1C6, CC0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2024_Tesla_Cybertruck,_Moab_02.jpg",
+     "src": "assets/photos/tesla-cybertruck.webp"
+    }
+   ],
    "segment": "Electric pickup",
    "slug": "cybertruck",
    "status": "In production",

@@ -169,3 +169,15 @@ a conversation.
   scorecard against the top car sites, with T-CARS-1 / T-CARS-5
   re-argued and priced there. Still no function, no cron, no
   external call — the audit above is unchanged.
+
+- **Rotation-23 addendum (2026-10-14):** photography completed
+  (257/257 models, 59/59 makes photographed from licensed Commons
+  sources, per-photo credit + file-page URL in the dataset for the
+  217 rotation-23 photos; ~69 MB under `assets/photos/`, still
+  lazy-loaded under the existing `/assets/*` SWR policy, so the
+  invocation model above is unchanged). A second self-hosted font
+  (Newsreader, OFL variable, normal + italic) joins Inter under
+  `assets/fonts/` with provenance in `assets/fonts/FONTS.md`; it is
+  not preloaded. Function count still 5; `vercel.json` unchanged;
+  no cron; no external call at runtime (fonts and photos are
+  same-origin static files).

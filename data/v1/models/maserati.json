@@ -23,6 +23,18 @@
    ],
    "intro": "Giugiaro's masterpiece for Ghia: a long-bonnet GT with a quad-cam V8 and the longest, lowest silhouette of its era. The SS with the 4.9 is the one that matters.",
    "name": "Ghibli (AM115)",
+   "photo": "assets/photos/maserati-ghibli-am115.webp",
+   "photoCaption": "Maserati AM115／S49 Ghibli Spyder SS (No.15) (24091413294)",
+   "photoCredit": "Photo: 先従隗始, CC0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Maserati_AM115%EF%BC%8FS49_Ghibli_Spyder_SS_(No.15)_(24091413294).jpg",
+   "photos": [
+    {
+     "caption": "Maserati AM115／S49 Ghibli Spyder SS (No.15) (24091413294)",
+     "credit": "Photo: 先従隗始, CC0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Maserati_AM115%EF%BC%8FS49_Ghibli_Spyder_SS_(No.15)_(24091413294).jpg",
+     "src": "assets/photos/maserati-ghibli-am115.webp"
+    }
+   ],
    "segment": "Grand tourer",
    "slug": "ghibli-am115",
    "status": "Discontinued",
@@ -54,6 +66,18 @@
    ],
    "intro": "The modern Ghibli took the fight to the 5 Series with Ferrari-built twin-turbo engines and proper Italian drama. The Trofeo's 580 hp V8 made it a Q-car of the first order.",
    "name": "Ghibli (M157)",
+   "photo": "assets/photos/maserati-ghibli-m157.webp",
+   "photoCaption": "Maserati Ghibli M157 01 China 2014-04-20",
+   "photoCredit": "Photo: Navigator84, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Maserati_Ghibli_M157_01_China_2014-04-20.jpg",
+   "photos": [
+    {
+     "caption": "Maserati Ghibli M157 01 China 2014-04-20",
+     "credit": "Photo: Navigator84, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Maserati_Ghibli_M157_01_China_2014-04-20.jpg",
+     "src": "assets/photos/maserati-ghibli-m157.webp"
+    }
+   ],
    "segment": "Luxury sports sedan",
    "slug": "ghibli-m157",
    "status": "Discontinued",
@@ -96,6 +120,18 @@
    ],
    "intro": "The original sports saloon: Maserati put racing V8s in four-door bodies in 1963 and kept the nameplate alive for six generations until 2024.",
    "name": "Quattroporte",
+   "photo": "assets/photos/maserati-quattroporte.webp",
+   "photoCaption": "2015 Maserati Quattroporte DV6 Automatic 3.0 Front",
+   "photoCredit": "Photo: Vauxford, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2015_Maserati_Quattroporte_DV6_Automatic_3.0_Front.jpg",
+   "photos": [
+    {
+     "caption": "2015 Maserati Quattroporte DV6 Automatic 3.0 Front",
+     "credit": "Photo: Vauxford, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2015_Maserati_Quattroporte_DV6_Automatic_3.0_Front.jpg",
+     "src": "assets/photos/maserati-quattroporte.webp"
+    }
+   ],
    "segment": "Luxury sports sedan",
    "slug": "quattroporte",
    "status": "Discontinued",
@@ -182,6 +218,18 @@
    ],
    "intro": "Maserati's return to racing, built on the Enzo's bones to homologate a GT1 car. Bigger, rarer, and in race trim far more successful than the Ferrari it came from, five FIA GT titles.",
    "name": "MC12",
+   "photo": "assets/photos/maserati-mc12.webp",
+   "photoCaption": "2004 Maserati MC12 HCC23",
+   "photoCredit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2004_Maserati_MC12_HCC23.jpg",
+   "photos": [
+    {
+     "caption": "2004 Maserati MC12 HCC23",
+     "credit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2004_Maserati_MC12_HCC23.jpg",
+     "src": "assets/photos/maserati-mc12.webp"
+    }
+   ],
    "segment": "Supercar",
    "slug": "mc12",
    "status": "Discontinued",
@@ -212,6 +260,18 @@
    ],
    "intro": "The Trident's clean-sheet supercar: a carbon tub, butterfly doors, and the Nettuno V6 with F1-style pre-chamber ignition, Maserati's own engine again, at last.",
    "name": "MC20",
+   "photo": "assets/photos/maserati-mc20.webp",
+   "photoCaption": "2023 Maserati MC20 Black HCC23",
+   "photoCredit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2023_Maserati_MC20_Black_HCC23.jpg",
+   "photos": [
+    {
+     "caption": "2023 Maserati MC20 Black HCC23",
+     "credit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2023_Maserati_MC20_Black_HCC23.jpg",
+     "src": "assets/photos/maserati-mc20.webp"
+    }
+   ],
    "segment": "Supercar",
    "slug": "mc20",
    "status": "In production",

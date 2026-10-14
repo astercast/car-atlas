@@ -107,6 +107,18 @@
    ],
    "intro": "Jaguar's flagship saloon for half a century, from William Lyons' Series I to Ian Callum's radical X351. The XJ was always the driver's luxury car, lighter, lower and keener than the German default, when it wasn't being let down by 1970s build quality.",
    "name": "XJ",
+   "photo": "assets/photos/jaguar-xj.webp",
+   "photoCaption": "2011 Jaguar XJ-L -- 05-05-2010",
+   "photoCredit": "Photo: IFCAR, Public domain, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:2011_Jaguar_XJ-L_--_05-05-2010.jpg",
+   "photos": [
+    {
+     "caption": "2011 Jaguar XJ-L -- 05-05-2010",
+     "credit": "Photo: IFCAR, Public domain, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:2011_Jaguar_XJ-L_--_05-05-2010.jpg",
+     "src": "assets/photos/jaguar-xj.webp"
+    }
+   ],
    "segment": "Full-size luxury sedan",
    "slug": "xj",
    "status": "Discontinued",
@@ -152,6 +164,18 @@
    ],
    "intro": "The E-Type's self-appointed heir: an aluminium two-seater with supercharged V6 and V8 engines and a crackling exhaust that became its signature. The facelift cleaned up the styling; the SVR turned it into a genuine supercar-baiter.",
    "name": "F-Type",
+   "photo": "assets/photos/jaguar-f-type.webp",
+   "photoCaption": "Jaguar F-Type, GIMS 2014 02",
+   "photoCredit": "Photo: Ank Kumar, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Jaguar_F-Type,_GIMS_2014_02.jpg",
+   "photos": [
+    {
+     "caption": "Jaguar F-Type, GIMS 2014 02",
+     "credit": "Photo: Ank Kumar, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Jaguar_F-Type,_GIMS_2014_02.jpg",
+     "src": "assets/photos/jaguar-f-type.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "f-type",
    "status": "Discontinued",
@@ -186,6 +210,18 @@
    ],
    "intro": "A show car that escaped. Jaguar built the XK120 for the 1948 London Motor Show as a showcase for its new XK engine, took hundreds of orders, and had to put it into production. It defined the British sports car for a generation and launched Jaguar's Le Mans era.",
    "name": "XK120",
+   "photo": "assets/photos/jaguar-xk120.webp",
+   "photoCaption": "1950 Jaguar XK120 HCC22",
+   "photoCredit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1950_Jaguar_XK120_HCC22.jpg",
+   "photos": [
+    {
+     "caption": "1950 Jaguar XK120 HCC22",
+     "credit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1950_Jaguar_XK120_HCC22.jpg",
+     "src": "assets/photos/jaguar-xk120.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "xk120",
    "status": "Discontinued",

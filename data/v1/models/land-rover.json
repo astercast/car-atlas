@@ -95,6 +95,18 @@
    ],
    "intro": "The original luxury SUV, from 1970: coil springs, a V8, and a design so right that one sat in the Louvre. Every generation since has traded a little more mud-plugging honesty for a lot more polish, and the fifth is now a full-scale limousine that can still wade nearly a metre of water.",
    "name": "Range Rover",
+   "photo": "assets/photos/land-rover-range-rover.webp",
+   "photoCaption": "1995 Land Rover Range Rover Vogue TDi 2.5 Front",
+   "photoCredit": "Photo: Makizox, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1995_Land_Rover_Range_Rover_Vogue_TDi_2.5_Front.jpg",
+   "photos": [
+    {
+     "caption": "1995 Land Rover Range Rover Vogue TDi 2.5 Front",
+     "credit": "Photo: Makizox, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1995_Land_Rover_Range_Rover_Vogue_TDi_2.5_Front.jpg",
+     "src": "assets/photos/land-rover-range-rover.webp"
+    }
+   ],
    "segment": "Full-size luxury SUV",
    "slug": "range-rover",
    "status": "In production",
@@ -148,6 +160,18 @@
    ],
    "intro": "The middle child done right: seven seats, real off-road hardware and a stepped roof you can spot a mile away. The Discovery has always been the Land Rover for families who actually leave tarmac, even if the fifth generation dresses like it doesn't.",
    "name": "Discovery",
+   "photo": "assets/photos/land-rover-discovery.webp",
+   "photoCaption": "Land Rover Discovery front 20071231",
+   "photoCredit": "Photo: Rudolf Stricker, CC BY-SA 3.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Land_Rover_Discovery_front_20071231.jpg",
+   "photos": [
+    {
+     "caption": "Land Rover Discovery front 20071231",
+     "credit": "Photo: Rudolf Stricker, CC BY-SA 3.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Land_Rover_Discovery_front_20071231.jpg",
+     "src": "assets/photos/land-rover-discovery.webp"
+    }
+   ],
    "segment": "Midsize luxury SUV",
    "slug": "discovery",
    "status": "In production",

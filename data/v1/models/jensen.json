@@ -22,6 +22,18 @@
    ],
    "intro": "Jensen's fibreglass pioneer: a glass-bodied GT with Austin's four-litre six, a Perspex rear window and a drag figure that embarrassed steel cars. The 541R added disc brakes all round, a British first on a production four-seater, and the 541S finished the line in comfort.",
    "name": "541",
+   "photo": "assets/photos/jensen-541.webp",
+   "photoCaption": "1956 Jensen 541",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1956_Jensen_541.jpg",
+   "photos": [
+    {
+     "caption": "1956 Jensen 541",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1956_Jensen_541.jpg",
+     "src": "assets/photos/jensen-541.webp"
+    }
+   ],
    "segment": "Grand tourer",
    "slug": "541",
    "status": "Discontinued",
@@ -54,6 +66,18 @@
    ],
    "intro": "Before the Interceptor, the formula: Chrysler V8 power in a West Bromwich fibreglass body, with the canted quad headlamps that half the press hated and the other half never forgot. One of the fastest four-seaters of its day, full stop.",
    "name": "C-V8",
+   "photo": "assets/photos/jensen-c-v8.webp",
+   "photoCaption": "1964 Jensen C-V8",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1964_Jensen_C-V8.jpg",
+   "photos": [
+    {
+     "caption": "1964 Jensen C-V8",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1964_Jensen_C-V8.jpg",
+     "src": "assets/photos/jensen-c-v8.webp"
+    }
+   ],
    "segment": "Grand tourer",
    "slug": "c-v8",
    "status": "Discontinued",
@@ -97,6 +121,18 @@
    ],
    "intro": "The definitive Jensen: Touring of Milan's steel body, that vast curved rear window, Chrysler V8 torque, and in the FF, four-wheel drive and anti-lock brakes years before Audi made the quattro famous. It was the car rock stars bought instead of an Aston, and it has never stopped looking like money.",
    "name": "Interceptor",
+   "photo": "assets/photos/jensen-interceptor.webp",
+   "photoCaption": "Jensen Interceptor 1969",
+   "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Jensen_Interceptor_1969.jpg",
+   "photos": [
+    {
+     "caption": "Jensen Interceptor 1969",
+     "credit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Jensen_Interceptor_1969.jpg",
+     "src": "assets/photos/jensen-interceptor.webp"
+    }
+   ],
    "segment": "Grand tourer",
    "slug": "interceptor",
    "status": "Discontinued",
@@ -131,6 +167,18 @@
    ],
    "intro": "Jensen's bid for the American sports-car market after the Big Healey ended: Donald Healey's name, a Lotus twin-cam engine, and styling built for California. Engine teething troubles hurt it early; sorted cars are the quick, comfortable classic the spec sheet always promised.",
    "name": "Jensen-Healey",
+   "photo": "assets/photos/jensen-jensen-healey.webp",
+   "photoCaption": "Rear of 1975 Jensen-Healey (2875267471)",
+   "photoCredit": "Photo: ozzadavies, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Rear_of_1975_Jensen-Healey_(2875267471).jpg",
+   "photos": [
+    {
+     "caption": "Rear of 1975 Jensen-Healey (2875267471)",
+     "credit": "Photo: ozzadavies, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Rear_of_1975_Jensen-Healey_(2875267471).jpg",
+     "src": "assets/photos/jensen-jensen-healey.webp"
+    }
+   ],
    "segment": "Sports car",
    "slug": "jensen-healey",
    "status": "Discontinued",
