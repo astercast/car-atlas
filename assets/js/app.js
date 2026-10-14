@@ -449,7 +449,7 @@ async function initModel() {
       const built = (cohortsDoc?.cohorts || []).find((c) => c.make === mk && c.modelSlug === md && c.currency === cur);
       const range = `<b>${esc(money2(Math.min(...prices), cur))} – ${esc(money2(Math.max(...prices), cur))}</b> · ${numWord(g.length)} certified results in ${esc(cur)}, sales from ${esc(fmtDate(dates[0]))} to ${esc(fmtDate(dates[dates.length - 1]))}.`;
       if (built?.benchmark) {
-        return `<p class="cohort-line">${range} <b>Cohort median ${esc(money2(built.median, cur))}</b> over the ${numWord(built.n)} certified sales — the T-CARS-1 benchmark rung, computed in the build from certified records only. A median of past sales is context for this model, not a valuation of any other example.</p>`;
+        return `<p class="cohort-line">${range} <b>Cohort median ${esc(money2(built.median, cur))}</b> over the ${numWord(built.n)} certified sales: the T-CARS-1 benchmark rung, computed in the build from certified records only. A median of past sales is context for this model, not a valuation of any other example.</p>`;
       }
       return `<p class="cohort-line">${range} A range over ${g.length} sales is context, not a valuation of any other example.</p>`;
     }).join("");
@@ -664,7 +664,7 @@ async function initBuy() {
            its median as the benchmark rung, the rest print ranges. */
         const built = (cohortsDoc?.cohorts || []).find((c) => c.make === g[0].make && c.modelSlug === g[0].modelSlug && c.currency === g[0].currency);
         const benchLine = built?.benchmark
-          ? `<br><span class="pw-price" style="font-weight:800">Cohort median ${esc(money2(built.median, built.currency))}</span> over the ${built.n} certified sales — the T-CARS-1 benchmark rung, computed in the build from certified records only; a median of past sales, not a valuation of any other example.`
+          ? `<br><span class="pw-price" style="font-weight:800">Cohort median ${esc(money2(built.median, built.currency))}</span> over the ${built.n} certified sales: the T-CARS-1 benchmark rung, computed in the build from certified records only; a median of past sales, not a valuation of any other example.`
           : `<br>Range over ${g.length} certified sales in ${esc(g[0].currency)}: context, not a valuation of any other example.`;
         return `
       <article class="row${photo ? " has-thumb" : ""}">
