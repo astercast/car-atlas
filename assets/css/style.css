@@ -3,6 +3,41 @@
    near-monochrome + one red accent, space (not borders/cards) separates.
    Spec-sheet calm: data set like instrument readings. */
 
+/* Self-hosted type, hardened for iPhone Safari (Aesthetics ROUND-001
+   section 5, all rules). Inter is the only voice and ships as ONE
+   variable file: the Google Fonts stylesheet this site used to load
+   returned this same file for all four requested weights (400, 600,
+   700, 800), so the four declarations collapse into one face that
+   declares the full range the file contains, 100 to 900, in the
+   variations format. Weight is set only with the font-weight
+   property, never with variation settings for the weight axis, and
+   nothing synthesizes weight (see the html rule). The face doubles as the display face (headlines and
+   the wordmark set in it at 800) and is preloaded in every page head.
+   Rule 5, all parts: font-display: swap; the display face preloaded;
+   and the metric-adjusted fallback below, measured from the shipped
+   file with fontTools against Liberation Sans (the Arial proxy):
+   Inter (upm 2048) x-height 1118, ascent 1984, descent 494, line
+   gap 0; Liberation Sans x-height 1082 at the same upm. size-adjust
+   aligns x-height (1118 / 1082 = 103.33%); ascent and descent
+   overrides carry the shipped face's ratios normalized by that
+   size-adjust (96.88 / 1.0333 = 93.76%; 24.12 / 1.0333 = 23.34%),
+   so a swap does not shift layout. The fallback declares the same
+   weight range, so it stands in for every weight the face serves.
+   Rule 6: no weight under 400 is used anywhere on the site.
+   Provenance: assets/fonts/FONTS.md. */
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/inter-latin-normal-var.woff2") format("woff2-variations");
+  font-weight: 100 900; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Inter Fallback";
+  src: local("Arial"), local("Helvetica Neue"), local("Helvetica"), local("Liberation Sans");
+  font-weight: 100 900; font-style: normal;
+  ascent-override: 93.76%; descent-override: 23.34%;
+  line-gap-override: 0%; size-adjust: 103.33%;
+}
+
 :root {
   --paper: #fbfbf9;
   --ink: #0b0b0c;
@@ -13,11 +48,11 @@
   --accent-ink: #b92408;
   --radius: 2px;
   --maxw: 1240px;
-  --font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --font: "Inter", "Inter Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; font-synthesis-weight: none; }
 body { background: var(--paper); color: var(--ink); font-family: var(--font); font-size: 16px; line-height: 1.6; -webkit-font-smoothing: antialiased; font-variant-numeric: tabular-nums; }
 a { color: inherit; text-decoration: none; }
 a:hover { color: var(--accent-ink); }
