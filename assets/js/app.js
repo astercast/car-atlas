@@ -557,12 +557,12 @@ async function initClubs() {
 }
 
 /* --- Buy: the market page ---
-   T-CARS-6 / DL-5: real client-side filters over the 83 certified
+   T-CARS-6 / DL-5: real client-side filters over the 96 certified
    Price Watch records. Facets reflect only what the records carry:
    make (16 present), stated-price band (counts computed from the
    records, in each record's own currency, labelled "stated price"),
-   and record completeness (chassis 61/83, condition 16/83,
-   mileage 17/83 at stage 8). No facet is offered for a field the
+   and record completeness (chassis 72/96, condition 19/96,
+   mileage 21/96 at stage 9). No facet is offered for a field the
    data does not have. Results print as five-field listing units
    with their provenance lines. */
 async function initBuy() {

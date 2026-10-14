@@ -188,6 +188,15 @@ a conversation.
   cohort (10 cohorts at n≥2 in `data/v1/cohorts.json`). Still no
   function, no cron, no external call — the audit above is
   unchanged.
+- **Rotation-27 addendum (2026-10-14):** Price Watch stage 9
+  extended the same static file to 96 certified results (13 added,
+  all linked to model records; linked 56 → 69 of 96, orphans
+  unchanged at 27, share 33% → 28%; condition 16/83 → 19/96,
+  mileage 17/83 → 21/96, chassis 61/83 → 72/96), and the Corvette
+  dollar cohort (n=10) and Model J dollar cohort (n=9) reached
+  the n≥8 trigger as the third and fourth benchmark cohorts (10
+  cohorts at n≥2 in `data/v1/cohorts.json`). Still no function,
+  no cron, no external call — the audit above is unchanged.
 
 - **Rotation-23 addendum (2026-10-14):** photography completed
   (257/257 models, 59/59 makes photographed from licensed Commons

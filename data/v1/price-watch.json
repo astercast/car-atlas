@@ -1,5 +1,5 @@
 {
- "note": "Price Watch tracks completed auction results, not live listings. Every record below was certified at ingest against a published source naming the car, the price, the house, and the date; the source is linked on each record. Wave 4 certified 7 results (2026-10-13); wave 5 added 4 more to the same standard; wave 7 (stage 2) added 8 more; wave 8 (stage 3) added 9 more; wave 9 (stage 4) added 9 more; wave 10 (stage 5) added 9 more; wave 11 (stage 6) added 10 more, 56 certified results in all. Stage 5 gave every record a chassis key (populated where the source names the chassis, null otherwise) and condition and mileage fields (populated only where a source states them, null otherwise, never inferred); stage 6 populated those fields from its sources wherever they stated them, linked eight of its ten new records to model pages the atlas already carried, and added the Buy page's first cohort rung: per-model result ranges computed only from certified records in a single currency, with the count shown. Stage 6 extends the certified-results set only: the listings ingest described in earlier roadmaps is not built, and no listing, estimate or unsold lot appears here. Prices are historical facts about one specific car on one specific day, not asking prices, not estimates, and not a valuation of any other example. Rotation 25 (stage 7) added 10 more to the same standard, 66 certified results in all: six further F40 sales in euros took the F40/EUR cohort to eight certified results — the first cohort at the T-CARS-1 trigger — so stage 7 also ships the cohort machinery: cohort medians for cohorts of eight or more, computed in the build from certified records only and published in data/v1/cohorts.json, n shown wherever a figure prints. Stage 7 also certified the 2021 Gooding sale of Miura chassis 3378, the first chassis to appear twice in the certified set (T-CARS-4). Results that could not be certified to that standard were skipped, not estimated (see skippedSources). Rotation 26 (stage 8) added 17 more to the same standard, 83 certified results in all: the pass re-broadened the four cohorts that stood at two — Corvette (five more sales, to seven in dollars), Ford GT (six more, to eight in dollars — the second cohort at the T-CARS-1 trigger, printing its build-computed median beside the F40's), Duesenberg Model J (three more, to five in dollars) and Aston Martin DB5 (three more: one each in dollars, euros and pounds, taking the dollar cohort to three and the euro cohort to two). Every new record links to a model record the atlas already carried; the orphan count is unmoved at 27. Two candidates were skipped and recorded (see skippedSources): a GT40 whose sources disagree on the sale day, and a GT40 whose sources disagree on the final price.",
+ "note": "Price Watch tracks completed auction results, not live listings. Every record below was certified at ingest against a published source naming the car, the price, the house, and the date; the source is linked on each record. Wave 4 certified 7 results (2026-10-13); wave 5 added 4 more to the same standard; wave 7 (stage 2) added 8 more; wave 8 (stage 3) added 9 more; wave 9 (stage 4) added 9 more; wave 10 (stage 5) added 9 more; wave 11 (stage 6) added 10 more, 56 certified results in all. Stage 5 gave every record a chassis key (populated where the source names the chassis, null otherwise) and condition and mileage fields (populated only where a source states them, null otherwise, never inferred); stage 6 populated those fields from its sources wherever they stated them, linked eight of its ten new records to model pages the atlas already carried, and added the Buy page's first cohort rung: per-model result ranges computed only from certified records in a single currency, with the count shown. Stage 6 extends the certified-results set only: the listings ingest described in earlier roadmaps is not built, and no listing, estimate or unsold lot appears here. Prices are historical facts about one specific car on one specific day, not asking prices, not estimates, and not a valuation of any other example. Rotation 25 (stage 7) added 10 more to the same standard, 66 certified results in all: six further F40 sales in euros took the F40/EUR cohort to eight certified results — the first cohort at the T-CARS-1 trigger — so stage 7 also ships the cohort machinery: cohort medians for cohorts of eight or more, computed in the build from certified records only and published in data/v1/cohorts.json, n shown wherever a figure prints. Stage 7 also certified the 2021 Gooding sale of Miura chassis 3378, the first chassis to appear twice in the certified set (T-CARS-4). Results that could not be certified to that standard were skipped, not estimated (see skippedSources). Rotation 26 (stage 8) added 17 more to the same standard, 83 certified results in all: the pass re-broadened the four cohorts that stood at two — Corvette (five more sales, to seven in dollars), Ford GT (six more, to eight in dollars — the second cohort at the T-CARS-1 trigger, printing its build-computed median beside the F40's), Duesenberg Model J (three more, to five in dollars) and Aston Martin DB5 (three more: one each in dollars, euros and pounds, taking the dollar cohort to three and the euro cohort to two). Every new record links to a model record the atlas already carried; the orphan count is unmoved at 27. Two candidates were skipped and recorded (see skippedSources): a GT40 whose sources disagree on the sale day, and a GT40 whose sources disagree on the final price. Rotation 27 (stage 9) added 13 more to the same standard, 96 certified results in all: the pass worked the near-threshold cohorts — Corvette (three more sales, to ten in dollars — the third cohort at the T-CARS-1 trigger), Duesenberg Model J (four more, to nine in dollars — the fourth cohort at the trigger), Aston Martin DB5 (three more: two in dollars, to five, and one in euros, to three) and Lamborghini Miura (three more: two in dollars, to five, and one in euros, to three). Every new record links to a model record the atlas already carried; the orphan count is unmoved at 27. Three candidates were skipped and recorded (see skippedSources): three 1967 Corvette L88 sales whose sources disagree on the final price, on the Artcurial F40 precedent.",
  "results": [
   {
    "chassis": "DB5/2136/L",
@@ -80,6 +80,26 @@
    },
    "status": "sold",
    "year": 1966
+  },
+  {
+   "chassis": "DB5/2072/L",
+   "condition": "Original & Highly Original",
+   "currency": "EUR",
+   "event": "RM Sotheby's Munich",
+   "make": "aston-martin",
+   "makeName": "Aston Martin",
+   "mileage": "63k mi TMU",
+   "model": "DB5 (chassis DB5/2072/L)",
+   "modelSlug": "db5",
+   "price": 702500,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2024-11-23",
+   "source": {
+    "name": "CLASSIC.COM record of the RM Sotheby's Munich 2024 result (lot 150)",
+    "url": "https://www.classic.com/a/rm-sothebys-munich-2024-8pJJxVp/lots/1965-aston-martin-db5-pPZN3jn/"
+   },
+   "status": "sold",
+   "year": 1965
   },
   {
    "chassis": "GT40P1080",
@@ -382,6 +402,26 @@
    "year": 1932
   },
   {
+   "chassis": "2414",
+   "condition": "Original & Highly Original",
+   "currency": "USD",
+   "event": "RM Sotheby's Amelia Island",
+   "make": "duesenberg",
+   "makeName": "Duesenberg",
+   "mileage": null,
+   "model": "Model J 'Disappearing Top' Convertible Coupe by Murphy (chassis 2414)",
+   "modelSlug": "model-j",
+   "price": 4295000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2023-03-03",
+   "source": {
+    "name": "CLASSIC.COM record of the RM Sotheby's Amelia Island 2023 result (lot 135)",
+    "url": "https://Www.classic.com/a/rm-sothebys-amelia-island-2023-OpzNxxp/lots/1931-duesenberg-model-j-disappearing-top-convertib-n25Dgo4/"
+   },
+   "status": "sold",
+   "year": 1931
+  },
+  {
    "chassis": "ZFFGJ34B000077676",
    "condition": "Original & Highly Original",
    "currency": "EUR",
@@ -480,6 +520,46 @@
    },
    "status": "sold",
    "year": 2015
+  },
+  {
+   "chassis": "194679S710209",
+   "condition": null,
+   "currency": "USD",
+   "event": "RM Sotheby's Arizona",
+   "make": "chevrolet",
+   "makeName": "Chevrolet",
+   "mileage": "3,046 mi",
+   "model": "Corvette ZL1 Convertible, chassis 194679S710209 (C3, lot 144)",
+   "modelSlug": "corvette",
+   "price": 3140000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2023-01-26",
+   "source": {
+    "name": "Hagerty past-sale record (RM Sotheby's Arizona, 26 January 2023; lot 144)",
+    "url": "https://www.hagerty.com/valuation-tools/past-sales/1969-chevrolet-corvette/194679S710209/a5e21e63-836b-41aa-ada7-4022282941c0"
+   },
+   "status": "sold",
+   "year": 1969
+  },
+  {
+   "chassis": "4912",
+   "condition": null,
+   "currency": "USD",
+   "event": "RM Sotheby's Arizona",
+   "make": "lamborghini",
+   "makeName": "Lamborghini",
+   "mileage": null,
+   "model": "Miura P400 SV (chassis 4912)",
+   "modelSlug": "miura",
+   "price": 3580000,
+   "priceBasis": "Including buyer's premium",
+   "saleDate": "2023-01-26",
+   "source": {
+    "name": "Sports Car Market profile of the RM Sotheby's Arizona 2023 result (lot 164)",
+    "url": "https://www.sportscarmarket.com/profile/1971-lamborghini-miura-p400-sv-2"
+   },
+   "status": "sold",
+   "year": 1971
   },
   {
    "chassis": null,
@@ -742,6 +822,26 @@
    "year": 1968
   },
   {
+   "chassis": "2199",
+   "condition": null,
+   "currency": "USD",
+   "event": "RM Sotheby's Amelia Island",
+   "make": "duesenberg",
+   "makeName": "Duesenberg",
+   "mileage": null,
+   "model": "Model J 'Disappearing Top' Torpedo Convertible Coupe by Murphy (chassis 2199)",
+   "modelSlug": "model-j",
+   "price": 5725000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2021-05-22",
+   "source": {
+    "name": "Hagerty past-sale record (RM Sotheby's Amelia Island, 22 May 2021; lot 156)",
+    "url": "https://www.hagerty.com/valuation-tools/past-sales/1929-duesenberg-model_j/2199/0eda445f-3792-4919-86dd-61a5e0e1c90e"
+   },
+   "status": "sold",
+   "year": 1929
+  },
+  {
    "chassis": "2355",
    "condition": null,
    "currency": "USD",
@@ -800,6 +900,26 @@
    },
    "status": "sold",
    "year": 1967
+  },
+  {
+   "chassis": null,
+   "condition": null,
+   "currency": "EUR",
+   "event": "RM Sotheby's Paris",
+   "make": "lamborghini",
+   "makeName": "Lamborghini",
+   "mileage": null,
+   "model": "Miura P400 SV",
+   "modelSlug": "miura",
+   "price": 2423750,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2021-02-13",
+   "source": {
+    "name": "Glenmarch record of the RM Sotheby's Paris 2021 result (lot 126)",
+    "url": "https://www.glenmarch.com/cars/results/quick/Lamborghini/Miura_SV?unsold=0&only_online=0"
+   },
+   "status": "sold",
+   "year": 1971
   },
   {
    "chassis": "018",
@@ -862,6 +982,26 @@
    "year": 1965
   },
   {
+   "chassis": "DB5/2273/L",
+   "condition": null,
+   "currency": "USD",
+   "event": "RM Sotheby's Monterey — An Evening with Aston Martin",
+   "make": "aston-martin",
+   "makeName": "Aston Martin",
+   "mileage": null,
+   "model": "DB5 Shooting Brake by Radford (chassis DB5/2273/L)",
+   "modelSlug": "db5",
+   "price": 1765000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2019-08-15",
+   "source": {
+    "name": "CLASSIC.COM record of the RM Sotheby's Monterey 2019 result (lot 108)",
+    "url": "https://www.classic.com/a/rm-sothebys-monterey-2019-v4oMvWA/lots/1965-aston-martin-db5-shooting-brake-by-radford-WNkGMPp/"
+   },
+   "status": "sold",
+   "year": 1965
+  },
+  {
    "chassis": "412024",
    "condition": null,
    "currency": "EUR",
@@ -900,6 +1040,46 @@
    },
    "status": "sold",
    "year": 1987
+  },
+  {
+   "chassis": "30837S115727",
+   "condition": null,
+   "currency": "USD",
+   "event": "Mecum Kissimmee 2019",
+   "make": "chevrolet",
+   "makeName": "Chevrolet",
+   "mileage": null,
+   "model": "Corvette Z06/N03 Coupe, chassis 30837S115727 (C2, lot S184)",
+   "modelSlug": "corvette",
+   "price": 275000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2019-01-12",
+   "source": {
+    "name": "CLASSIC.COM record of the Mecum Kissimmee 2019 result (lot S184)",
+    "url": "https://www.classic.com/a/mecum-kissimmee-2019-MWRN3Wl/lots/1963-chevrolet-corvette-z06n03-N4AYe54/"
+   },
+   "status": "sold",
+   "year": 1963
+  },
+  {
+   "chassis": null,
+   "condition": "Original & Highly Original",
+   "currency": "USD",
+   "event": "RM Sotheby's — The Petersen Automotive Museum Auction",
+   "make": "lamborghini",
+   "makeName": "Lamborghini",
+   "mileage": "28k mi",
+   "model": "Miura P400 SV",
+   "modelSlug": "miura",
+   "price": 2205000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2018-12-08",
+   "source": {
+    "name": "CLASSIC.COM record of the RM Sotheby's Petersen Museum 2018 result (lot 200)",
+    "url": "http://www.classic.com/a/rm-sothebys-the-petersen-automotive-museum-2018-v4oAPWA/lots/1971-lamborghini-miura-p400-sv-by-bertone-gWNgGqp"
+   },
+   "status": "sold",
+   "year": 1971
   },
   {
    "chassis": "3413 GT",
@@ -980,6 +1160,46 @@
    },
    "status": "sold",
    "year": 1992
+  },
+  {
+   "chassis": "2548",
+   "condition": null,
+   "currency": "USD",
+   "event": "RM Sotheby's Hershey",
+   "make": "duesenberg",
+   "makeName": "Duesenberg",
+   "mileage": null,
+   "model": "Model J Cabriolet by d'Ieteren (chassis 2548)",
+   "modelSlug": "model-j",
+   "price": 1485000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2017-10-06",
+   "source": {
+    "name": "Hagerty past-sale record (RM Sotheby's Hershey, 6 October 2017; lot 262)",
+    "url": "https://www.hagerty.com/valuation-tools/past-sales/1935-Duesenberg-Model%20J/2548/7595660c-4254-43d6-81ad-c1a465fba7cd"
+   },
+   "status": "sold",
+   "year": 1935
+  },
+  {
+   "chassis": "2514",
+   "condition": null,
+   "currency": "USD",
+   "event": "RM Sotheby's Hershey",
+   "make": "duesenberg",
+   "makeName": "Duesenberg",
+   "mileage": null,
+   "model": "Model J Town Car (chassis 2514)",
+   "modelSlug": "model-j",
+   "price": 594000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2017-10-06",
+   "source": {
+    "name": "Hagerty past-sale record (RM Sotheby's Hershey, 6 October 2017; lot 259)",
+    "url": "https://www.hagerty.com/valuation-tools/past-sales/1932-Duesenberg-Model%20J/2514/42564cdb-8b95-4a12-a9cd-04e1e35a5042"
+   },
+   "status": "sold",
+   "year": 1932
   },
   {
    "chassis": null,
@@ -1402,6 +1622,26 @@
    "year": 1971
   },
   {
+   "chassis": "30837S108848",
+   "condition": null,
+   "currency": "USD",
+   "event": "Mecum Kissimmee 2014",
+   "make": "chevrolet",
+   "makeName": "Chevrolet",
+   "mileage": null,
+   "model": "Corvette Z06 Tanker Coupe, chassis 30837S108848 (C2, lot S150.1)",
+   "modelSlug": "corvette",
+   "price": 475000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2014-01-25",
+   "source": {
+    "name": "CLASSIC.COM record of the Mecum Kissimmee 2014 result (lot S150.1)",
+    "url": "https://Www.classic.com/a/mecum-kissimmee-2014-JWbgvpK/lots/1963-chevrolet-corvette-z06-tanker-3n2Rv6n/"
+   },
+   "status": "sold",
+   "year": 1963
+  },
+  {
    "chassis": null,
    "condition": null,
    "currency": "USD",
@@ -1500,6 +1740,26 @@
    },
    "status": "sold",
    "year": 2005
+  },
+  {
+   "chassis": "DB5/2227/L",
+   "condition": null,
+   "currency": "USD",
+   "event": "Gooding & Company Pebble Beach",
+   "make": "aston-martin",
+   "makeName": "Aston Martin",
+   "mileage": "81,698 mi",
+   "model": "DB5 (chassis DB5/2227/L)",
+   "modelSlug": "db5",
+   "price": 715000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2013-08-18",
+   "source": {
+    "name": "Hagerty past-sale record (Gooding & Company Pebble Beach, 18 August 2013; lot 109)",
+    "url": "https://www.hagerty.com/valuation-tools/past-sales/1965-aston_martin-db5/DB52227L/d6f67c5a-c534-46c1-9bd3-ecb9735a43d4"
+   },
+   "status": "sold",
+   "year": 1965
   },
   {
    "chassis": "10709",
@@ -1676,9 +1936,12 @@
   "Wave 11 pass: the 2006 Bugatti Veyron 16.4 ($1,545,000, Gooding & Company Pebble Beach, 2023-08-19) — car, price, house and day are all published, but the atlas carries no Bugatti marque record; certifying it would require a marque the atlas does not have, so it is skipped rather than misattributed (the CSX 2000 / Blower / Atalante precedent).",
   "Stage 7 pass: the 1991 Ferrari F40 at Artcurial Rétromobile 2020 (lot 115, 7 February 2020) — car, house, day and lot are published, but the sources consulted disagree on the final price (€1,112,840 vs €1,112,800); skipped rather than certifying a figure the sources do not agree on.",
   "Stage 8 pass: the 1966 Ford GT40 Mk II, chassis P/1016 ($9,795,000, RM Sotheby's Monterey, lot 124) — car, price and house are published and agreed, but the sources consulted disagree on the sale day: RM Sotheby's own results release (via Sports Car Digest) puts the car on Friday evening, 24 August 2018, while the CLASSIC.COM lot record dates it 25 August 2018; skipped rather than dating a record the sources do not agree on.",
-  "Stage 8 pass: the 1966 Ford GT40 Mk I, chassis P/1028 (Mecum Monterey 2016, lot S103) — car, house, lot and event are published, but the sources consulted disagree on the final price: Glenmarch records $4,400,000 while Hagerty's past-sale record and MotorTrend record $4,840,000 — the hammer and premium-inclusive figures both published as the result; skipped rather than certifying a figure the sources do not agree on (the Artcurial F40 precedent)."
+  "Stage 8 pass: the 1966 Ford GT40 Mk I, chassis P/1028 (Mecum Monterey 2016, lot S103) — car, house, lot and event are published, but the sources consulted disagree on the final price: Glenmarch records $4,400,000 while Hagerty's past-sale record and MotorTrend record $4,840,000 — the hammer and premium-inclusive figures both published as the result; skipped rather than certifying a figure the sources do not agree on (the Artcurial F40 precedent).",
+  "Stage 9 pass: the 1967 Chevrolet Corvette L88 Coupe, chassis 194377S119136 (Mecum Glendale 2024, lot S143) — car, house, lot and day are published, but the sources consulted disagree on the final price: CLASSIC.COM's lot record and Mecum's own lot headline record $1,650,000, while American Cars and Racing reports the car sold at $1,815,000, the premium-inclusive figure published as the result; skipped rather than certifying a figure the sources do not agree on (the Artcurial F40 precedent).",
+  "Stage 9 pass: the 1967 Chevrolet Corvette L88 Convertible, chassis 194677S109097 — the first L88 built (Mecum Monterey 2024, lot S96) — car, house, lot and day are published, but the sources consulted disagree on the final price: CLASSIC.COM's lot record records $2,100,000, while American Cars and Racing reports the sale at $2,310,000; skipped on the same precedent.",
+  "Stage 9 pass: the 1967 Chevrolet Corvette L88 Coupe, chassis 194377S115791 (Mecum Kissimmee 2024, lot S168) — CLASSIC.COM's lot record marks the car sold at $3,200,000, but American Cars and Racing reports the same Kissimmee 2024 offering drew a high bid of $2,700,000 and did not sell there; the sources disagree on the outcome and the figure, so it is skipped rather than certified."
  ],
- "stage": "Stage 8 — auction results, extended a seventh time; second T-CARS-1 cohort at n≥8 (Ford GT/USD); the n=2 cohorts re-broadened",
+ "stage": "Stage 9 — auction results, extended an eighth time; third and fourth T-CARS-1 cohorts at n≥8 (Corvette/USD, Duesenberg Model J/USD)",
  "updatedAt": "2026-10-14",
  "version": "1.0.0"
 }

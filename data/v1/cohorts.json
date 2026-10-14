@@ -3,6 +3,42 @@
  "source": "data/v1/price-watch.json",
  "cohorts": [
   {
+   "make": "chevrolet",
+   "makeName": "Chevrolet",
+   "modelSlug": "corvette",
+   "modelName": "Corvette ZL1 Convertible, chassis 194679S710209",
+   "currency": "USD",
+   "n": 10,
+   "min": 225500,
+   "max": 3850000,
+   "firstSale": "2013-09-07",
+   "lastSale": "2023-01-26",
+   "modelYears": [
+    1957,
+    1969
+   ],
+   "benchmark": true,
+   "median": 454750.0
+  },
+  {
+   "make": "duesenberg",
+   "makeName": "Duesenberg",
+   "modelSlug": "model-j",
+   "modelName": "Model J Dual Cowl 'Barrelside' Phaeton",
+   "currency": "USD",
+   "n": 9,
+   "min": 594000,
+   "max": 10340000,
+   "firstSale": "2011-08-21",
+   "lastSale": "2023-08-19",
+   "modelYears": [
+    1929,
+    1935
+   ],
+   "benchmark": true,
+   "median": 1655000
+  },
+  {
    "make": "ferrari",
    "makeName": "Ferrari",
    "modelSlug": "f40",
@@ -39,49 +75,15 @@
    "median": 7020000.0
   },
   {
-   "make": "chevrolet",
-   "makeName": "Chevrolet",
-   "modelSlug": "corvette",
-   "modelName": "Corvette Split Window A/C Coupe",
-   "currency": "USD",
-   "n": 7,
-   "min": 225500,
-   "max": 3850000,
-   "firstSale": "2013-09-07",
-   "lastSale": "2023-01-13",
-   "modelYears": [
-    1957,
-    1967
-   ],
-   "benchmark": false
-  },
-  {
-   "make": "duesenberg",
-   "makeName": "Duesenberg",
-   "modelSlug": "model-j",
-   "modelName": "Model J Dual Cowl 'Barrelside' Phaeton",
-   "currency": "USD",
-   "n": 5,
-   "min": 1127000,
-   "max": 10340000,
-   "firstSale": "2011-08-21",
-   "lastSale": "2023-08-19",
-   "modelYears": [
-    1930,
-    1933
-   ],
-   "benchmark": false
-  },
-  {
    "make": "aston-martin",
    "makeName": "Aston Martin",
    "modelSlug": "db5",
    "modelName": "DB5 Vantage",
    "currency": "USD",
-   "n": 3,
-   "min": 1116000,
+   "n": 5,
+   "min": 715000,
    "max": 6385000,
-   "firstSale": "2019-08-15",
+   "firstSale": "2013-08-18",
    "lastSale": "2025-10-31",
    "modelYears": [
     1965,
@@ -95,10 +97,10 @@
    "modelSlug": "miura",
    "modelName": "Miura P400 SV",
    "currency": "USD",
-   "n": 3,
+   "n": 5,
    "min": 1902500,
    "max": 3580000,
-   "firstSale": "2021-08-13",
+   "firstSale": "2018-12-08",
    "lastSale": "2023-08-19",
    "modelYears": [
     1968,
@@ -112,14 +114,31 @@
    "modelSlug": "db5",
    "modelName": "DB5 Sports Saloon",
    "currency": "EUR",
-   "n": 2,
+   "n": 3,
    "min": 506000,
    "max": 840000,
    "firstSale": "2015-02-04",
    "lastSale": "2025-10-12",
    "modelYears": [
     1964,
-    1964
+    1965
+   ],
+   "benchmark": false
+  },
+  {
+   "make": "lamborghini",
+   "makeName": "Lamborghini",
+   "modelSlug": "miura",
+   "modelName": "Miura P400 S",
+   "currency": "EUR",
+   "n": 3,
+   "min": 520800,
+   "max": 2423750,
+   "firstSale": "2014-02-05",
+   "lastSale": "2023-02-01",
+   "modelYears": [
+    1969,
+    1971
    ],
    "benchmark": false
   },
@@ -137,23 +156,6 @@
    "modelYears": [
     1991,
     1992
-   ],
-   "benchmark": false
-  },
-  {
-   "make": "lamborghini",
-   "makeName": "Lamborghini",
-   "modelSlug": "miura",
-   "modelName": "Miura P400 S",
-   "currency": "EUR",
-   "n": 2,
-   "min": 520800,
-   "max": 1580000,
-   "firstSale": "2014-02-05",
-   "lastSale": "2023-02-01",
-   "modelYears": [
-    1969,
-    1971
    ],
    "benchmark": false
   },

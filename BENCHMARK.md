@@ -219,6 +219,64 @@ expected gap; depth and live intelligence are.
   stays an owner call. The Price Watch listings-ingest/cron
   question stays parked.
 
+## Deltas in rotation 27 (stage 9)
+
+- **Price Watch stage 9 (results scale):** 83 → **96 certified
+  results**, same stage-1 standard (house, day and a linked source
+  per record; three candidates skipped and recorded in the file —
+  three 1967 Corvette L88 sales whose sources disagree on the
+  final price, the Artcurial F40 precedent). The pass worked the
+  near-threshold cohorts named at rotation 26: Corvette **7 → 10**
+  in dollars, Duesenberg Model J **5 → 9** in dollars, Aston
+  Martin DB5 **3 → 5** in dollars and **2 → 3** in euros,
+  Lamborghini Miura **3 → 5** in dollars and **2 → 3** in euros.
+  All 13 new records link to model pages the atlas already
+  carried. Condition **16/83 → 19/96**, mileage **17/83 → 21/96**,
+  chassis **61/83 → 72/96**, populated only where the certifying
+  source states the field.
+- **T-CARS-1: the third and fourth benchmark cohorts.** The
+  Corvette/USD cohort reached **n=10** and the Model J/USD cohort
+  **n=9**, both past the priced n≥8 trigger, so the build-computed
+  machinery now publishes four benchmark medians in
+  `data/v1/cohorts.json` (10 cohorts at n≥2): Ferrari F40/EUR
+  **€1,508,000** and Ford GT/USD **$7,020,000** (unchanged),
+  Corvette/USD **$454,750** over ten certified sales (2013–2023)
+  and Model J/USD **$1,655,000** over nine certified sales
+  (2011–2023), printed on the Buy page and the model records,
+  n shown, in the one listing anatomy.
+- **T-CARS-3: audited, unmoved in count, moved in share.** All 27
+  orphans were re-audited against the model inventory: **zero**
+  can be linked without inventing a model record or misattributing
+  a car to a different model — the same named traps as stage 8
+  were re-checked and refused again. Orphan count 27 → 27; orphan
+  **share 33% → 28%** on the larger set; linked records
+  **56 → 69**.
+- **Stated, not advanced:** T-CARS-5 rung 2 (true notify) stays
+  deploy-gated — no live target exists and the deploy decision is
+  parked with the owner; rung 1 (local follow) stands shipped.
+  The Ferrari 250 GTO model record stays an owner call, not
+  created. No feed or data was licensed; the licensed-feed path
+  stays an owner call. The Price Watch listings-ingest/cron
+  question stays parked.
+
+## Benchmark standing line (rotation 27)
+
+**BENCHMARK STANDING — CLOSER on data depth, on evidence a
+visitor can see: the certified-results set grew 83 → 96, every
+new record linked to its model record (linked 56 → 69, orphan
+share 33% → 28% with the orphan count honestly unmoved at 27),
+the near-threshold cohorts named at rotation 26 all grew
+(Corvette n=10, Model J n=9, DB5 n=5 in dollars and n=3 in euros,
+Miura n=5 in dollars and n=3 in euros), and the atlas shipped its
+third and fourth true cohort benchmarks — the Corvette/USD and
+Model J/USD cohorts passed the priced n≥8 trigger and print
+their build-computed medians, $454,750 over ten certified sales
+and $1,655,000 over nine — while remaining BEHIND every named
+rival on live listings, cohort scale and condition tiers
+(T-CARS-1's full closure), off-site notify, and BEHIND Wikipedia
+on encyclopedia breadth; design held at PARITY-or-AHEAD against
+the whole set.**
+
 ## Benchmark standing line (rotation 26)
 
 **BENCHMARK STANDING — CLOSER on data depth, on evidence a
@@ -299,6 +357,14 @@ stands at 83 certified, condition population 16/83, still short
 of the majority (c) requires, and (a) scale is still ~22 stage
 passes away at the demonstrated rate, or the same licensed-feed
 owner call.
+**Rotation 27 update:** stage 9 fired the machinery twice more
+— the Corvette/USD cohort reached n=10 certified (median
+$454,750) and the Model J/USD cohort n=9 (median $1,655,000),
+joining the F40 and Ford GT medians in `data/v1/cohorts.json`;
+the set stands at 96 certified, condition population 19/96,
+still short of the majority (c) requires, and (a) scale is still
+~21 stage passes away at the demonstrated rate, or the same
+licensed-feed owner call.
 
 ### T-CARS-5 — follow / notify
 **Verdict: Bring a Trailer, Cars & Bids and Classic.com WIN

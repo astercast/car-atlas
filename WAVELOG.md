@@ -1,5 +1,53 @@
 # WAVELOG — Car Atlas
 
+## Rotation 27 — PRICE WATCH STAGE 9: the near-threshold cohorts worked (83 → 96), third and fourth T-CARS-1 benchmark cohorts (Corvette/USD n=10, Model J/USD n=9) (2026-10-14)
+
+**Headline (named before building):** certified results advance
+by an honest stage pass within the existing method — the
+near-threshold cohorts named at rotation 26 are the targets
+(Corvette/USD at n=7 first, then Model J/USD at n=5, DB5 and
+Miura where genuine sales exist), and any cohort reaching n≥8
+from certified records only becomes a benchmark cohort through
+the machinery shipped at stage 7.
+
+- **Price Watch stage 9:** **83 → 96 certified results**, each
+  certified at ingest on 2026-10-14 against a published source
+  naming car, price, house and day. Corvette ×3 (RM Sotheby's
+  Arizona 2023 ZL1 Convertible, $3,140,000; Mecum Kissimmee 2019
+  Z06/N03, $275,000; Mecum Kissimmee 2014 Z06 Tanker, $475,000);
+  Duesenberg Model J ×4 (RM Sotheby's Amelia Island 2021
+  'Disappearing Top' Torpedo, chassis 2199, $5,725,000; RM
+  Sotheby's Amelia Island 2023 'Disappearing Top' Coupe, chassis
+  2414, $4,295,000; RM Sotheby's Hershey 2017 Cabriolet by
+  d'Ieteren, chassis 2548, $1,485,000; RM Sotheby's Hershey 2017
+  Town Car, chassis 2514, $594,000); Aston Martin DB5 ×3 (RM
+  Sotheby's Monterey 2019 Shooting Brake, $1,765,000; Gooding
+  Pebble Beach 2013, chassis DB5/2227/L, $715,000; RM Sotheby's
+  Munich 2024, chassis DB5/2072/L, €702,500); Lamborghini Miura
+  ×3 (RM Sotheby's Arizona 2023 P400 SV, chassis 4912,
+  $3,580,000; RM Sotheby's Petersen Museum 2018 P400 SV,
+  $2,205,000; RM Sotheby's Paris 2021 P400 SV, €2,423,750). All
+  13 link to model pages. Condition **16/83 → 19/96**, mileage
+  **17/83 → 21/96**, chassis **61/83 → 72/96**.
+- **T-CARS-1 machinery fired twice more:** Corvette/USD reached
+  n=10 (build-computed median **$454,750**) and Model J/USD n=9
+  (median **$1,655,000**) — the third and fourth benchmark
+  cohorts, published in `data/v1/cohorts.json` beside the F40/EUR
+  and Ford GT/USD medians, and printed on the Buy page and the
+  model records.
+- **Three candidates skipped, recorded in the file:** three 1967
+  Corvette L88 sales from 2024 (Mecum Glendale, Monterey and
+  Kissimmee) whose sources disagree on the final price — the
+  premium-inclusive figure published as the result against the
+  lot-record figure — skipped on the Artcurial F40 precedent,
+  never averaged.
+- **T-CARS-3 audit:** 27 orphans re-audited; zero linkable
+  without inventing a model record; count unmoved, share
+  33% → 28% on the larger set; linked 56 → 69.
+- **Stated, not advanced:** T-CARS-5 rung 2 stays deploy-gated;
+  the 250 GTO model record stays the owner's call; no feed or
+  data licensed.
+
 ## Rotation 26 — PRICE WATCH STAGE 8: the n=2 cohorts re-broadened (66 → 83), second T-CARS-1 benchmark cohort (Ford GT/USD n=8) (2026-10-14)
 
 **Headline (named before building):** certified results advance

@@ -114,7 +114,15 @@ set to 83 results — all 17 new results link to model pages
 (Corvette ×5, Ford GT ×6, Model J ×3, DB5 ×3); condition now
 stands at 16/83, mileage at 17/83, chassis at 61/83 — and took
 the Ford GT dollar cohort to n=8, the second cohort at the
-T-CARS-1 trigger, printing its median beside the F40's. The standing
+T-CARS-1 trigger, printing its median beside the F40's. Stage 9
+(rotation 27) extended the set to 96 results — all 13 new results
+link to model pages (Corvette ×3, Model J ×4, DB5 ×3, Miura ×3);
+condition now stands at 19/96, mileage at 21/96, chassis at 72/96 —
+and took the Corvette dollar cohort to n=10 (median $454,750) and
+the Model J dollar cohort to n=9 (median $1,655,000), the third and
+fourth cohorts at the T-CARS-1 trigger. Three 1967 Corvette L88
+candidates were skipped and recorded: their sources disagree on
+the final price. The standing
 benchmark against the top car sites in the world — the named set,
 the scorecard, and the priced T-CARS-1 / T-CARS-5 closures — lives
 in `BENCHMARK.md`. Still planned: listings ingest adapters for
