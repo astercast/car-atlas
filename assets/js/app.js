@@ -134,7 +134,13 @@ const money = (r) => money2(r.price, r.currency);
    on the Buy page's provenanced units; the credit never sheds. */
 const thumbFigure = (rec, modelPhoto = false, cls = "", creditOnly = false) => {
   if (!rec || !rec.photo) return "";
-  const cap = `${modelPhoto ? "Model photo: " : ""}${creditOnly ? rec.photoCredit : `${rec.photoCaption} · ${rec.photoCredit}`}`;
+  /* Professional rework (2026-10-15): the credit string itself
+     opens "Photo: …", so the "Model photo" prefix composed a
+     doubled "Model photo: Photo: …" on every lead unit. The
+     prefix keeps its honesty job (the model's file photograph,
+     never the specific car that sold); the doubled word goes. */
+  const creditPart = creditOnly ? String(rec.photoCredit) : `${rec.photoCaption} · ${rec.photoCredit}`;
+  const cap = modelPhoto ? `Model photo: ${creditPart.replace(/^Photo: /, "").replace(/ · Photo: /, " · ")}` : creditPart;
   return `<figure class="thumb ${cls}"><img src="${esc(rec.photo)}" alt="${esc(rec.photoCaption)}" loading="lazy"><figcaption>${esc(cap)}</figcaption></figure>`;
 };
 /* make/modelSlug -> search-index entry (carries the photo fields) */
@@ -173,7 +179,7 @@ function listingUnit(r, opts = {}) {
     <span class="l-prov">${esc(resultFacts(r))}${esc(rep)} · Source: <a href="${esc(r.source.url)}" target="_blank" rel="noopener">${esc(disp(r.source.name))} ↗</a></span>`;
   }
   const fig = opts.photo ? thumbFigure(opts.photo, true, "l-thumb", !!opts.creditOnly) : "";
-  return `<div class="listing${opts.lead && fig ? " has-lead" : ""}">${opts.lead ? fig : ""}
+  return `<div class="listing${fig ? (opts.lead ? " has-lead" : " has-photo") : ""}">${opts.lead ? fig : ""}
     <span><span class="l-state">${opts.lot ? `<span class="l-lot">${esc(lotLabel(opts.lot))}</span>` : ""}${esc(state)}</span><a class="l-title" href="${href}">${esc(formula(r.makeName, disp(r.model), r.year))}</a><span class="l-date">${esc(disp(r.event))} · ${esc(fmtDate(r.saleDate))} · sold ${esc(ageWords(r.saleDate))}</span></span>
     <span class="l-price">${esc(money(r))}<span class="l-basis">${esc(r.priceBasis)}</span></span>
     <span class="l-type">Auction</span>${prov}${opts.lead ? "" : fig}
@@ -365,6 +371,16 @@ async function initMake() {
   document.title = `${meta.name} · Car Atlas`;
   const marqueResults = (priceWatch?.results || []).filter((r) => r.make === slug)
     .sort((a, b) => b.saleDate.localeCompare(a.saleDate));
+  /* Professional rework (2026-10-15): the home cover photograph
+     is the issue's face. A marque whose hero is that same frame
+     would show a visitor one photograph twice in a single
+     visit, so its hero becomes the marque's first catalogued
+     model's photograph instead, caption and credit in full. */
+  const COVER_PHOTO = "assets/photos/ferrari-250-gto-cover.webp";
+  const firstModelPhoto = file.models.find((m) => m.photo);
+  const heroRec = meta.photo === COVER_PHOTO && firstModelPhoto
+    ? { photo: firstModelPhoto.photo, photoCaption: firstModelPhoto.photoCaption, photoCredit: firstModelPhoto.photoCredit, photoSource: firstModelPhoto.photoSource }
+    : meta;
   const marquePhotos = new Map(file.models.filter((m) => m.photo).map((m) => [m.slug, m]));
   const sigMap = resultByModel(priceWatch);
   $("#make-root").innerHTML = `
@@ -378,7 +394,7 @@ async function initMake() {
       <div class="fact"><span>Known for</span><b>${esc(meta.knownFor)}</b></div>
       <div class="fact"><span>Models in atlas</span><b>${file.models.length}</b></div>
     </div>
-    ${photosHTML(meta)}
+    ${photosHTML(heroRec)}
     <section class="block"><div class="plates-grid">
       ${file.models.map((m) => plateHTML({ ...m, make: slug, makeName: meta.name, flagshipPower: flagshipPowerOf(m) }, sigMap)).join("")}
     </div></section>

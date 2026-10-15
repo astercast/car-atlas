@@ -128,15 +128,19 @@ a:hover { color: var(--accent-ink); }
 .nav-search input { width: 100%; font: inherit; font-size: 14px; padding: 7px 2px; background: transparent; color: var(--ink); border: 0; border-bottom: 1px solid var(--line); border-radius: 0; outline: none; }
 .nav-search input:focus { border-bottom-color: var(--ink); }
 .nav-results { left: auto; right: 0; width: 300px; max-width: 86vw; }
-/* Buy picker go-link (VP-0041): inert until a car is chosen. */
-.pick-go[aria-disabled="true"] { opacity: 0.45; }
+/* Buy picker go-link (VP-0041): inert until a car is chosen.
+   Professional rework (2026-10-15): the inert state used to be
+   the accent red at 45% opacity, which read as a washed-out
+   error. Inert is now a neutral grey; the accent returns only
+   when the link is armed. */
+.pick-go[aria-disabled="true"] { color: var(--ink-3); }
 
 /* Masthead + folio line, the issue's fixed furniture (P11) */
 .masthead { padding: 64px 0 0; }
 .mast-word { font-size: clamp(46px, 8.5vw, 108px); font-weight: 800; letter-spacing: -0.045em; line-height: 0.98; }
 .mast-word .dot { color: var(--accent); }
 .mast-tag { margin-top: 14px; font-size: clamp(17px, 2.1vw, 21px); line-height: 1.5; color: var(--ink-2); max-width: 50ch; }
-.folio { margin-top: 28px; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--line); padding: 10px 0; font-size: 12.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.09em; color: var(--ink-2); display: flex; flex-wrap: wrap; gap: 6px 14px; }
+.folio { margin-top: 28px; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--line); padding: 10px 0; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-2); display: flex; flex-wrap: wrap; gap: 6px 12px; }
 .folio b { color: var(--ink); font-weight: 750; }
 .folio .sep { color: var(--ink-3); }
 
@@ -157,7 +161,7 @@ a:hover { color: var(--accent-ink); }
 .cover-src a { text-decoration: underline; text-underline-offset: 3px; }
 
 /* Search, the front door's one action */
-.searchbox { position: relative; margin-top: 56px; max-width: 680px; }
+.searchbox { position: relative; margin-top: 44px; max-width: 680px; }
 .searchbox input { width: 100%; font: inherit; font-size: 19px; padding: 14px 48px 14px 2px; background: transparent; color: var(--ink); border: 0; border-bottom: 2px solid var(--ink); border-radius: 0; outline: none; }
 .searchbox input:focus { border-bottom-color: var(--accent); }
 .searchbox .go { position: absolute; right: 0; top: 50%; transform: translateY(-50%); border: 0; background: none; color: var(--ink); width: 40px; height: 40px; font-size: 20px; cursor: pointer; }
@@ -596,4 +600,103 @@ body[data-page="buy"] .row { content-visibility: auto; contain-intrinsic-size: a
   .folio { margin-top: 20px; }
   .rail-scroll { padding-bottom: 6px; }
   .closing { margin-top: 64px; }
+}
+
+/* ============================================================
+   PROFESSIONAL REWORK (2026-10-15). The elevation pass over
+   the Showroom build, from a cold re-grade of its captures.
+   The Showroom composed the browse layer; this chapter gives
+   its units their finished alignment: the Price Watch listing
+   becomes one composition with its photograph instead of a
+   photograph stacked on a lot (or trailing under one), the
+   featured grid closes on a wide plate instead of a void, and
+   the small furniture (folio, phone nav, focus, inert states)
+   is finished to the same standard as the large. One accent,
+   still; nothing published moves; no fact changes.
+   ============================================================ */
+
+/* The lead listing, one composition: the photograph takes the
+   left column at a fixed measure, the five fields keep their
+   ruled order beside it, the price stays on the title's row,
+   and provenance runs under the fields. On the Buy page and
+   Following the same unit used to trail its photograph under
+   the apparatus; it leads there now too (the has-photo form),
+   so a listing reads the same way on every surface. */
+@media (min-width: 901px) {
+  .listing.has-lead, .listing.has-photo {
+    grid-template-columns: 296px minmax(0, 1fr) auto auto;
+  }
+  .listing.has-lead .l-thumb, .listing.has-photo .l-thumb {
+    grid-column: 1; grid-row: 1 / span 2; max-width: none;
+    margin: 0; align-self: start;
+  }
+  .listing.has-lead .l-thumb img, .listing.has-photo .l-thumb img {
+    aspect-ratio: 16 / 10; object-fit: cover;
+  }
+  .listing.has-lead .l-prov, .listing.has-photo .l-prov { grid-column: 2 / -1; }
+  body[data-page="buy"] .listing.has-photo,
+  body[data-page="make"] .listing.has-lead { contain-intrinsic-size: auto 264px; }
+}
+/* Phone: a photographed unit leads with its photograph on the
+   market surfaces too, the same reading order as the rail. The
+   sale-type word is also unpinned here: the phone fitting pins
+   it to the grid's first row, which on a photographed unit is
+   the photograph's row, so the word floated alone above the
+   photo, detached from the lot it closes. Given the fields
+   row instead, it closes the lot line at the top right of the
+   fields, where a ledger puts its classification. */
+@media (max-width: 900px) {
+  .listing.has-photo .l-thumb { order: -1; grid-column: 1 / -1; max-width: 260px; margin: 2px 0 10px; }
+  .listing.has-photo .l-thumb img { aspect-ratio: 16 / 10; object-fit: cover; }
+  .listing.has-lead .l-type, .listing.has-photo .l-type { grid-column: 2; grid-row: 2; }
+}
+
+/* The featured closer: the featured set is six plates and the
+   span pattern left the last one alone in an unfinished row.
+   The last plate now closes the set across the full row, its
+   photograph cropped wide by the plate's own frame, the way
+   a magazine closes a spread. */
+.plates-grid.featured .plate-cell:last-child { grid-column: 1 / -1; }
+.plates-grid.featured .plate-cell:last-child .plate-photo img { aspect-ratio: 21 / 9; }
+
+/* The folio holds together: on the desktop each statement is
+   one unbroken line. On the phone the folio stacks one
+   statement per line and the separators retire: statements
+   read as a clean list instead of a wrapped ribbon trailing
+   separator dots at the line ends. (Two statements run wider
+   than a 320px measure even alone, so phone statements wrap
+   within their own line rather than never wrapping.) */
+.folio > span { white-space: nowrap; }
+@media (max-width: 700px) {
+  .folio { flex-direction: column; gap: 3px; }
+  .folio > span { white-space: normal; }
+  .folio .sep { display: none; }
+}
+
+/* The phone nav takes one line: the destinations run in a
+   single scrollable row under the wordmark instead of
+   wrapping four-and-one with an orphaned Clubs. Targets keep
+   their 44px measure; the row scrolls, the page does not. */
+@media (max-width: 700px) {
+  .nav-links { flex-wrap: nowrap; overflow-x: auto; min-width: 0; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .nav-links::-webkit-scrollbar { display: none; }
+  .nav-links a { flex: 0 0 auto; }
+}
+
+/* Keyboard focus, visible everywhere: the issue's chrome was
+   mouse-finished only. One ink outline, offset, on any
+   interactive element reached by keyboard. */
+:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+input:focus-visible, select:focus-visible { outline-offset: 0; }
+
+/* Display titles balance their lines instead of stranding a
+   year or a short word on the second line. */
+.cover-title, .page-head h1, .closing h2 { text-wrap: balance; }
+
+/* The first department on a standing page sits closer to its
+   head: the full department measure is for departments that
+   follow departments, not for the first step into the page. */
+.page-head ~ section.block:first-of-type { padding-top: 52px; }
+@media (max-width: 700px) {
+  .page-head ~ section.block:first-of-type { padding-top: 40px; }
 }

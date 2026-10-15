@@ -34,12 +34,12 @@
   <div class="page-head">
     <div class="crumb"><a href="index.html">Atlas</a> / Buy</div>
     <h1>Where it trades. What it costs.</h1>
-    <p class="lede">Every model in the atlas is assigned a buying class. The class decides where its market actually clears, and where a fair price is hiding. These are the channels, with honest notes on each.</p>
+    <p class="lede">Every model carries a buying class: where that kind of car actually clears, and where a fair price hides. The channels are below, with honest notes on each.</p>
   </div>
   <p id="js-error" class="note-box hidden" role="alert"></p>
 
   <section class="block" id="pick">
-    <div class="block-head"><h2>Pick the car</h2><p>Choose a make and a model here. The atlas takes you straight to that car's own buying channels, the list its record ends with. No trip back to a model page to start over.</p></div>
+    <div class="block-head"><h2>Pick the car</h2><p>Choose a make and a model. The atlas takes you straight to that car's own buying channels.</p></div>
     <div class="filters">
       <span><label for="p-make">Make</label> <select id="p-make"></select></span>
       <span><label for="p-model">Model</label> <select id="p-model"></select></span>
@@ -48,7 +48,7 @@
   </section>
 
   <section class="block">
-    <div class="block-head"><h2>Buying classes</h2><p>Each class is a market shape: where that kind of car actually clears. Pick the car above and its record shows its class with the channels that matter for it.</p></div>
+    <div class="block-head"><h2>Buying classes</h2><p>Each class is a market shape. A car's record shows its class, with the channels that matter for it.</p></div>
     <div class="rows" id="class-grid"></div>
   </section>
 
@@ -59,7 +59,7 @@
 
   <section class="block">
     <div class="block-head"><h2>Price Watch: certified auction results</h2></div>
-    <p class="mut" id="results-note" style="max-width:68ch">Price Watch tracks completed auction results, not live listings. Every record below was certified at ingest against a published source naming the car, the price, the house, and the date; the source is linked on each record.</p>
+    <p class="mut" id="results-note" style="max-width:68ch">Completed results, not live listings. Each was certified against a published source naming the car, the price, the house, and the date, and the source is linked on the record.</p>
     <div class="filters" id="pw-filters">
       <span><label for="f-make">Make</label> <select id="f-make"></select></span>
       <span><label for="f-band">Stated price</label> <select id="f-band"></select></span>
@@ -77,7 +77,7 @@
   </section>
 
   <section class="block">
-    <div class="block-head"><h2>Cohorts: ranges, and thirteen benchmarks</h2><p>T-CARS-1, two rungs. Where two or more certified results share a model and a currency, the range they span prints below, with the count: a range is context, not a valuation. Where a cohort reaches eight certified results in one currency, the trigger priced in BENCHMARK.md, it also prints its median, computed in the build from the certified records alone: a benchmark of what examples have done, not a valuation of any other example, and no condition tier is claimed. Thirteen cohorts print benchmarks; two, the Ferrari Enzo in euros and in dollars, print ranges only, six sales short of the trigger. The stage-by-stage history of the board is in BENCHMARK.md and the WAVELOG.</p></div>
+    <div class="block-head"><h2>Cohorts: ranges, and thirteen benchmarks</h2><p>Where two or more certified results share a model and a currency, the range they span prints below, with the count: a range is context, not a valuation. At eight certified results in one currency a cohort also prints its median, computed from the certified records alone: a benchmark of what examples have done, not a valuation of any other example, and no condition tier is claimed. Thirteen cohorts print benchmarks; two, the Ferrari Enzo in euros and in dollars, print ranges only, six sales short of the trigger. The stage-by-stage history is in BENCHMARK.md and the WAVELOG.</p></div>
     <div class="rows" id="cohort-grid"></div>
   </section>
 
