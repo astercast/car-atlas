@@ -1,5 +1,81 @@
 # WAVELOG — Car Atlas
 
+## Layout rework — THE SHOWROOM (2026-10-15)
+
+- **The browse layer rebuilt** to the filed plan
+  (plan-cars-layout-rework-2026-10-15, aesthetics review R55):
+  the site is browsed by looking and read on the car's own
+  page. The index row is replaced everywhere by **the Plate**:
+  the photograph first and large (4:3), the name as a serif
+  cover line, years and segment as one microline, and ONE
+  signal, the car's newest certified result or, absent a
+  result, its flagship generation's power figure. No intro
+  paragraph on any browse surface; every intro, blurb and
+  caption prints in full on the car's own page, unmoved in
+  the data. Licence credits are not shed: each plate carries
+  its credit as a microline, and listing thumbnails carry
+  credit-only captions on browse surfaces (full caption and
+  credit on the Buy page's provenanced units and the record).
+- **Home:** the cover is one full-width art-directed crop of
+  the sourced 250 GTO frame (wide anchor, crowd band cropped
+  to the venue line), standfirst cut to 29 words, price
+  numeral kept as the headline. Featured six are plates, the
+  first spanning two columns; era and shape are scroll-snap
+  photographic rails bleeding to the screen's right edge;
+  the makes list is a ruled typographic directory (name,
+  country, model count, zero blurbs); Price Watch thumbnails
+  now LEAD their units; the Journal keeps its prose and loses
+  its filler meta line. Two seeded SVG contour dividers
+  (deterministic generator) sit between departments.
+- **Make page:** blurb stays as the lede, models are plates,
+  and the marque ledger is the compact five-field unit
+  (provenance lives on the Buy page and the records),
+  batched at 10 behind a show-more step.
+- **Buy page:** the certified set stays complete and fully
+  provenanced, rendered in batches of 10 behind a show-more
+  step. Cohort rows shed their prose paragraph to a
+  hand-rolled SVG range bar (span plus median tick, drawn
+  from the cohort's own certified prices) with its figures
+  and the record link; the "context, not a valuation"
+  sentence stands once, in the section head, whose stage
+  diary is compressed to the board's operative facts (the
+  full history stands in BENCHMARK.md and this log). The
+  dataset's 2,204-word note field no longer renders
+  wholesale: its method claim stands as the section note in
+  its own opening words; the diary stays in the dataset.
+  The stale "stage 6" heading is corrected.
+- **Model page:** unchanged in text (verified 1,455 words
+  on the F40 record, identical to the pre-build count) and
+  gains the cohort range bar above each cohort line, plus
+  the View Transition hero name. Clubs: a two-column
+  editorial grid, descriptions in full.
+- **Technology, per the plan's evaluation:** cross-document
+  View Transitions (plate photo carries into the record
+  hero; no-support browsers navigate normally, reduced
+  motion gets no carry, nothing gates the record), container
+  queries sizing the Plate, content-visibility scoped to
+  the two long-list pages, native scroll-driven photo
+  settle with an IntersectionObserver fallback (photographs
+  only; published values never animate), seeded contours,
+  the hand-rolled range bar. The rejected list stays
+  rejected. `scripts/build.py` gains one generated field,
+  `flagshipPower`, on search-index model entries (additive
+  only; the index keeps its full corpus).
+- **Side fix:** the static folio fallback's stale "66
+  certified auction results" now reads the true count, 157.
+- **Measured** (the plan's measure.py, before → after):
+  home 4,917 → 1,507 words and 29,379 → 11,937 px phone
+  scroll; Ferrari make 2,677 → 245 words (564 by DOM text
+  count), 18,333 → 6,167 px; Buy 16,416 → 808 words (2,109
+  by DOM text count), 84,669 → 13,385 px; F40 record 1,455
+  → 1,455 words exactly; clubs 2,149 → 2,149. The home
+  word target (≤900) is the one miss, named with its
+  arithmetic in the landing record: the plan's own section
+  5.2 contents plus the never-shed credit microline floor
+  at roughly 1,320 words. Jumble: zero document overflow
+  at 320 and 390 on every surface. Landing record:
+  fleet-ops/wave-engine/landing-cars-layout-rework-2026-10-15.md.
+
 ## Rotation 40 — PRICE WATCH STAGE 22 (154 → 157, two new Enzo range cohorts open) (2026-10-15)
 
 - **Price Watch stage 22:** **154 → 157 certified results**,

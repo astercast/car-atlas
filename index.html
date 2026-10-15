@@ -38,23 +38,27 @@
   <div class="masthead">
     <p class="mast-word">CAR ATLAS<span class="dot">.</span></p>
     <p class="mast-tag">Every car ever made. One atlas. An encyclopedia, a certified results record, and a journal, published as one issue.</p>
-    <p class="folio" id="folio"><span>The <b>October 2026</b> issue</span><span class="sep">·</span><span>Atlas data as of <b>14 October 2026</b></span><span class="sep">·</span><span><b>59</b> makes, <b>257</b> models, <b>469</b> generations</span><span class="sep">·</span><span>Price Watch: <b>66</b> certified auction results</span></p>
+    <p class="folio" id="folio"><span>The <b>October 2026</b> issue</span><span class="sep">·</span><span>Atlas data as of <b>14 October 2026</b></span><span class="sep">·</span><span><b>59</b> makes, <b>257</b> models, <b>469</b> generations</span><span class="sep">·</span><span>Price Watch: <b>157</b> certified auction results</span></p>
   </div>
 
   <section class="cover" aria-label="Cover car">
-    <figure class="photo">
+    <figure class="photo cover-photo">
       <img src="assets/photos/ferrari-250-gto-cover.webp" alt="Ferrari 250 GTO">
       <figcaption>Ferrari 250 GTO (Series I body), front 3/4 · Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:1964_Ferrari_250_GTO_1.jpg" target="_blank" rel="noopener">File page ↗</a></figcaption>
     </figure>
-    <div>
-      <p class="cover-state">Sold</p>
-      <h1 class="cover-title">Ferrari 250 GTO (1962)</h1>
-      <p class="cover-price">$48,405,000</p>
-      <p class="cover-basis">Including buyer's premium (hammer $44,000,000)</p>
-      <p class="cover-standfirst">Thirty-six were built, and the 250 GTO became the car the whole hobby measures itself against. This example, chassis 3413 GT, is the most valuable car ever sold at auction in its day, and the cover of this issue because the market still starts here.</p>
-      <p class="cover-date"><b>RM Sotheby's Monterey</b> · 25 August 2018<span id="cover-age"></span></p>
-      <p class="cover-src">Certified result, Price Watch. Source: <a href="https://rmsothebys.com/media-center/press-releases/the-most-valuable-car-ever-sold-at-auction-rm-sotheby-s-sells-1962-ferrari-250-gto-for-484-million/" target="_blank" rel="noopener">RM Sotheby's press release ↗</a></p>
-      <p><a class="btn" href="make.html?make=ferrari">Ferrari in the atlas →</a></p>
+    <div class="cover-lines">
+      <div class="cover-main">
+        <p class="cover-state">Sold</p>
+        <h1 class="cover-title">Ferrari 250 GTO (1962)</h1>
+        <p class="cover-standfirst">Thirty-six were built, and the 250 GTO became the car the whole hobby measures itself against. This example, chassis 3413 GT, is the cover: the market still starts here.</p>
+      </div>
+      <div class="cover-side">
+        <p class="cover-price">$48,405,000</p>
+        <p class="cover-basis">Including buyer's premium (hammer $44,000,000)</p>
+        <p class="cover-date"><b>RM Sotheby's Monterey</b> · 25 August 2018<span id="cover-age"></span></p>
+        <p class="cover-src">Certified result, Price Watch. Source: <a href="https://rmsothebys.com/media-center/press-releases/the-most-valuable-car-ever-sold-at-auction-rm-sotheby-s-sells-1962-ferrari-250-gto-for-484-million/" target="_blank" rel="noopener">RM Sotheby's press release ↗</a></p>
+        <p><a class="btn" href="make.html?make=ferrari">Ferrari in the atlas →</a></p>
+      </div>
     </div>
   </section>
 
@@ -91,19 +95,20 @@
     <div class="dept-head"><p class="dept-word">Department</p><h2>The Atlas</h2><p class="dept-note">The encyclopedia: makes first, then the eras and shapes that cut across them.</p></div>
 
     <p class="rail-name">Start with the icons</p>
-    <div class="rows" id="featured-grid"></div>
+    <div class="plates-grid featured" id="featured-grid"></div>
 
     <p class="rail-name">By make</p>
-    <div class="grid makes" id="makes-grid"></div>
+    <div class="dir" id="makes-grid"></div>
 
     <p class="rail-name">By era<span class="sort">the atlas by time</span></p>
     <div class="chips" id="era-chips" style="margin-bottom:18px"></div>
-    <div class="rows" id="era-grid"></div>
+    <div class="rail-scroll" id="era-grid"></div>
 
     <p class="rail-name">By shape</p>
     <div class="chips" id="style-chips" style="margin-bottom:18px"></div>
-    <div class="rows" id="style-grid"></div>
+    <div class="rail-scroll" id="style-grid"></div>
   </section>
+  <div class="contour-slot" aria-hidden="true"></div>
 
   <section class="dept" id="price-watch">
     <div class="dept-head"><p class="dept-word">Department</p><h2>The Price Watch</h2><p class="dept-note">Completed auction results, each certified against a published source. A result is one car on one day: context, not a valuation.</p></div>
@@ -111,43 +116,44 @@
     <div class="listings" id="pw-rail"></div>
     <p style="margin-top:18px"><a class="btn" href="buy.html">All 157 certified results, with filters →</a></p>
   </section>
+  <div class="contour-slot" aria-hidden="true"></div>
 
   <section class="dept" id="journal">
-    <div class="dept-head"><p class="dept-word">Department</p><h2>The Journal</h2><p class="dept-note">The atlas writing about its own records: what the market does to the cars, and what to watch before buying one.</p></div>
+    <div class="dept-head"><p class="dept-word">Department</p><h2>The Journal</h2><p class="dept-note">Notes from the record: prices, provenance, and the paper trail.</p></div>
     <div class="journal-river">
       <a class="journal-unit" href="model.html?make=ferrari&amp;model=f40">
         <p class="j-dept">Collector note</p>
         <h3>Ferrari F40 (1987–1992)</h3>
         <p class="j-stand">Regularly trades in the $3M-plus range in recent years.</p>
-        <p class="j-meta">Supercar · Coupe · the record carries its full text</p>
+        <p class="j-meta">Supercar · Coupe</p>
         <figure class="thumb"><img src="assets/photos/ferrari-f40.webp" alt="1990 Ferrari F40 front" loading="lazy"><figcaption>1990 Ferrari F40 front · Photo: TTTNIS, CC0, via Wikimedia Commons</figcaption></figure>
       </a>
       <a class="journal-unit" href="model.html?make=mclaren&amp;model=f1">
         <p class="j-dept">Collector note</p>
         <h3>McLaren F1 (1992–1998)</h3>
         <p class="j-stand">The centre of the modern collector market, eight-figure prices are the norm and the best cars trade privately.</p>
-        <p class="j-meta">Supercar · Coupe · the record carries its full text</p>
+        <p class="j-meta">Supercar · Coupe</p>
         <figure class="thumb"><img src="assets/photos/mclaren-f1.webp" alt="McLaren F1 GT longtail road car, rear view" loading="lazy"><figcaption>McLaren F1 GT longtail road car, rear view · Photo: Ank Kumar, CC BY-SA 4.0, via Wikimedia Commons</figcaption></figure>
       </a>
       <a class="journal-unit" href="model.html?make=toyota&amp;model=2000gt">
         <p class="j-dept">Collector note</p>
         <h3>Toyota 2000GT (1967–1970)</h3>
         <p class="j-stand">Seven-figure cars when they trade at all, most of the 351 sit in collections.</p>
-        <p class="j-meta">Grand tourer · Coupe · the record carries its full text</p>
+        <p class="j-meta">Grand tourer · Coupe</p>
         <figure class="thumb"><img src="assets/photos/toyota-2000gt.webp" alt="1968 Toyota 2000GT Rear" loading="lazy"><figcaption>1968 Toyota 2000GT Rear · Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons</figcaption></figure>
       </a>
       <a class="journal-unit" href="model.html?make=lamborghini&amp;model=miura">
         <p class="j-dept">Collector note</p>
         <h3>Lamborghini Miura (1966–1973)</h3>
         <p class="j-stand">Good cars trade in the millions; SVs are the top of the market.</p>
-        <p class="j-meta">Supercar · Coupe · the record carries its full text</p>
+        <p class="j-meta">Supercar · Coupe</p>
         <figure class="thumb"><img src="assets/photos/lamborghini-miura.webp" alt="Lamborghini Miura, yellow, front 3/4, showroom" loading="lazy"><figcaption>Lamborghini Miura, yellow, front 3/4, showroom · Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons</figcaption></figure>
       </a>
       <a class="journal-unit" href="model.html?make=jaguar&amp;model=e-type">
         <p class="j-dept">Collector note</p>
         <h3>Jaguar E-Type (1961–1975)</h3>
         <p class="j-stand">Early flat-floor, outside-bonnet-latch Series 1 cars top the market at auction.</p>
-        <p class="j-meta">Sports car · Coupe, Convertible · the record carries its full text</p>
+        <p class="j-meta">Sports car · Coupe, Convertible</p>
         <figure class="thumb"><img src="assets/photos/jaguar-e-type.webp" alt="E-Type roadster, front 3/4" loading="lazy"><figcaption>E-Type roadster, front 3/4 · Photo: Berthold Werner, CC BY-SA 4.0, via Wikimedia Commons</figcaption></figure>
       </a>
     </div>
@@ -155,10 +161,10 @@
 
   <div class="closing">
     <h2>Buying one? Start with where the market actually trades.</h2>
-    <p>The buying layer maps every model to the channels that set its price: auction results, marketplaces, and specialists. No listings faked, no prices invented.</p>
+    <p>The buying layer maps every model to the channels that set its price. No listings faked, no prices invented.</p>
     <a class="btn" href="buy.html">Open the buying layer →</a>
     <h2 style="margin-top:44px">Find your people.</h2>
-    <p>Car culture is local. The clubs registry covers marque clubs, motorsport bodies, and meet networks by region, from the SCCA's autocross grids to the Goodwood Road Racing Club's period-correct paddocks.</p>
+    <p>Car culture is local. The clubs registry covers marque clubs, motorsport bodies, and meet networks by region.</p>
     <a class="btn" href="clubs.html">All clubs →</a>
   </div>
 </main>

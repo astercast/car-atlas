@@ -140,8 +140,11 @@ a:hover { color: var(--accent-ink); }
 .folio b { color: var(--ink); font-weight: 750; }
 .folio .sep { color: var(--ink-3); }
 
-/* The cover, one car, dominant, price as the display numeral */
-.cover { display: grid; grid-template-columns: 1.55fr 1fr; gap: 40px; padding: 48px 0 0; align-items: start; }
+/* The cover, one car, dominant, price as the display numeral.
+   Layout rework (2026-10-15): the photograph runs the full width
+   of the page as one art-directed crop, and the cover lines set
+   under it (see the Showroom chapter at the end of this file). */
+.cover { padding: 40px 0 0; }
 .cover .photo { margin: 0; }
 .cover-state { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: var(--accent-ink); }
 .cover-title { margin-top: 10px; font-size: clamp(32px, 4.4vw, 56px); font-weight: 600; letter-spacing: -0.015em; line-height: 1.06; }
@@ -306,7 +309,7 @@ section.block { padding: 88px 0 0; }
 .photo-main img { max-height: 560px; object-fit: cover; }
 .photo figcaption { margin-top: 8px; font-size: 12.5px; color: var(--ink-3); }
 .photo figcaption a { text-decoration: underline; text-underline-offset: 3px; }
-.cover .photo img { aspect-ratio: 4 / 3; object-fit: cover; object-position: 50% 58%; }
+.cover .photo img { aspect-ratio: 1.85 / 1; object-fit: cover; object-position: 50% 85%; }
 .photo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
 .photo-grid .photo { margin: 16px 0 0; }
 
@@ -332,7 +335,6 @@ footer .f-in { display: flex; flex-wrap: wrap; gap: 14px 40px; justify-content: 
 footer nav { display: flex; gap: 20px; }
 
 @media (max-width: 900px) {
-  .cover { grid-template-columns: 1fr; gap: 26px; }
   .doors { grid-template-columns: 1fr; gap: 0; }
 }
 @media (max-width: 700px) {
@@ -427,4 +429,171 @@ footer nav { display: flex; gap: 20px; }
   .crumb a { padding-top: 15px; padding-bottom: 15px; }
   a.chip { padding-top: 14px; padding-bottom: 14px; }
   .cover-src a { padding: 5px 6px; margin: -5px -6px; }
+}
+
+/* ============================================================
+   THE SHOWROOM (layout rework, 2026-10-15). The browse layer of
+   the issue, per the filed plan (Concept A, "The Showroom") and
+   the R55 review's five gates. Visitors look first: big
+   photographs, cover-line names, one number that matters. Text
+   waits on the car's own page. Three different kinds of surface
+   carry the browsing, so the page never settles into card-grid
+   sameness: the asymmetric plate grid, the photographic rails
+   that bleed to the screen's right edge, and the ruled
+   typographic directory. One accent still: the red period and
+   the Sold state word. Nothing here animates a published value:
+   prices and counts are present instantly (fleet motion law);
+   only photographs settle, and only where motion is welcome.
+   ============================================================ */
+
+/* View Transitions, the signature carry: a plate's photograph
+   takes the shared name on click (app.js) and lands on the
+   record hero, which carries the name only on the model page.
+   No support: ordinary navigation. Reduced motion: no carry. */
+@view-transition { navigation: auto; }
+body[data-page="model"] .photo-main img { view-transition-name: ca-record-hero; }
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) { animation: none !important; }
+}
+
+/* The cover lines, set under the full-width photograph: title
+   and standfirst to the left, the price numeral to the right.
+   The alignment change is deliberate, the magazine's own. */
+.cover-lines { display: flex; flex-wrap: wrap; gap: 10px 56px; justify-content: space-between; align-items: flex-start; margin-top: 28px; }
+.cover-main { flex: 1 1 330px; max-width: 54ch; }
+.cover-main .cover-title { margin-top: 8px; }
+.cover-side { flex: 0 1 auto; text-align: right; }
+.cover-side .cover-price { margin-top: 0; }
+.cover-side .btn { margin-top: 16px; }
+@media (max-width: 700px) {
+  .cover .photo img { aspect-ratio: 1.3 / 1; }
+  .cover-side { text-align: left; }
+}
+
+/* The Plate. One component at every browse size: the cell is
+   the container, and the plate's typography answers its width,
+   so a wide featured plate sets its name at cover size and a
+   rail plate sets the same name compactly. */
+.plate-cell { container-type: inline-size; }
+.plate { display: block; }
+.plate-photo { display: block; overflow: hidden; background: #ececea; }
+.plate-photo img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.plate-name { display: block; margin-top: 12px; font-family: var(--serif); font-optical-sizing: auto; font-weight: 600; font-size: 19.5px; letter-spacing: -0.01em; line-height: 1.22; }
+.plate-micro { display: block; margin-top: 4px; font-size: 12px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-2); }
+.plate-signal { display: block; margin-top: 6px; font-size: 14.5px; font-weight: 650; }
+.plate-signal .sig-word { color: var(--accent-ink); }
+.plate-credit { margin-top: 7px; font-size: 11px; line-height: 1.45; color: var(--ink-3); }
+.plate-credit a { text-decoration: underline; text-underline-offset: 2px; }
+a.plate:hover .plate-name { color: var(--accent-ink); }
+@container (min-width: 430px) {
+  .plate-name { font-size: 29px; }
+  .plate-micro { font-size: 12.5px; }
+  .plate-signal { font-size: 16px; }
+}
+@container (max-width: 190px) {
+  .plate-name { font-size: 16.5px; margin-top: 9px; }
+  .plate-signal { font-size: 13px; }
+}
+.plates-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(250px, 100%), 1fr)); gap: 42px 28px; }
+@media (min-width: 901px) {
+  .plates-grid.featured { grid-template-columns: repeat(3, 1fr); }
+  .plates-grid.featured .plate-cell:first-child { grid-column: span 2; }
+}
+@media (max-width: 700px) {
+  .plates-grid { grid-template-columns: 1fr 1fr; gap: 30px 16px; }
+  .plates-grid.featured .plate-cell:first-child { grid-column: span 2; }
+  .plate-credit a { padding: 6px 4px; margin: -6px -4px; }
+}
+
+/* The photographic rails: scroll-snap rows that bleed to the
+   right edge of the screen, the showroom's one full-bleed
+   gesture besides the cover. */
+.rail-scroll { display: grid; grid-auto-flow: column; grid-auto-columns: min(74vw, 288px); gap: 26px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 12px; margin-right: calc(50% - 50vw); padding-right: 24px; scrollbar-width: thin; }
+.rail-scroll .plate-cell { scroll-snap-align: start; }
+.rail-scroll > .center-note { grid-column: 1 / -1; }
+
+/* The makes directory: ruled, typographic, three columns of
+   name · country · model count. No blurbs, no photographs. */
+.dir { border-top: 2px solid var(--ink); display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 44px; }
+.dir-row { display: flex; align-items: baseline; justify-content: space-between; gap: 14px; padding: 9px 0; border-bottom: 1px solid var(--line); min-width: 0; }
+.dir-name { font-weight: 700; font-size: 16.5px; letter-spacing: -0.015em; }
+.dir-meta { font-family: var(--mono); font-size: 12px; color: var(--ink-3); white-space: nowrap; }
+a.dir-row:hover .dir-name { color: var(--accent-ink); }
+@media (max-width: 700px) {
+  .dir { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 0 26px; }
+  /* Phone: the entry stacks, name over its meta line, so a long
+     marque name and a long country both keep their full width
+     inside the column instead of forcing the page open. */
+  .dir-row { flex-direction: column; align-items: flex-start; gap: 1px; padding: 7px 0; min-height: 44px; }
+  .dir-name { font-size: 15px; }
+  .dir-meta { font-size: 11px; }
+}
+
+/* Price Watch thumbnails lead their unit on browse surfaces. */
+.listing.has-lead .l-thumb { grid-column: 1 / -1; max-width: 300px; margin: 2px 0 12px; }
+.listing.has-lead .l-thumb img { aspect-ratio: 16 / 10; object-fit: cover; }
+
+/* Long record lists render offscreen work lazily, scoped to the
+   two pages that carry long lists (the Buy set, the marque
+   ledger). The home rail always renders in full. The initial
+   sizes are honest estimates and the browser remembers the true
+   ones after first paint (the `auto` keyword). */
+body[data-page="buy"] .listing, body[data-page="make"] .listing { content-visibility: auto; contain-intrinsic-size: auto 320px; }
+body[data-page="buy"] .row { content-visibility: auto; contain-intrinsic-size: auto 120px; }
+
+/* The cohort range bar and its blocks. */
+.range-bar { display: block; width: 100%; height: 12px; margin: 10px 0 2px; }
+.range-bar line { vector-effect: non-scaling-stroke; }
+.rb-track { stroke: var(--line); stroke-width: 1; }
+.rb-span { stroke: var(--ink); stroke-width: 3; }
+.rb-tick { stroke: var(--ink); stroke-width: 1.5; }
+.rb-median { stroke: var(--ink-2); stroke-width: 1.5; }
+.cohort-block { margin-top: 16px; }
+.cohort-block .cohort-line { margin-top: 4px; }
+.cohort-row .range-bar { grid-column: 1 / -1; }
+.cohort-figs b { font-weight: 750; }
+
+/* The Buy page's show-more step. */
+.more-btn { display: block; width: 100%; margin-top: 6px; padding: 16px 0; font: inherit; font-size: 15px; font-weight: 700; color: var(--accent-ink); background: none; border: 0; border-bottom: 1px solid var(--line); cursor: pointer; }
+.more-btn:hover { color: var(--ink); }
+
+/* Clubs, a two-column editorial grid; descriptions in full. */
+.club-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 48px; border-top: 1px solid var(--line); }
+@media (max-width: 700px) { .club-grid { grid-template-columns: 1fr; } }
+
+/* Contour furniture: seeded SVG rings (drawn by app.js), placed
+   between departments, sparse and silent. */
+.contour-slot { height: 92px; margin-top: 54px; color: var(--ink-3); opacity: 0.3; overflow: hidden; }
+.contour-slot svg { display: block; width: 100%; height: 100%; }
+.contour-slot path { fill: none; stroke: currentColor; stroke-width: 1; }
+
+/* The photo settle: scroll-driven where supported, the app.js
+   IntersectionObserver path otherwise. Photographs only. */
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    .plate-photo img { animation: plate-settle linear both; animation-timeline: view(); animation-range: entry 0% entry 55%; }
+  }
+}
+@keyframes plate-settle { from { transform: scale(1.045); } to { transform: scale(1); } }
+
+/* Phone tightening for the Showroom layer: spacing only, no
+   content moves. The lead thumbnail steps down a size, the
+   contour furniture sits quieter, departments breathe less. */
+@media (max-width: 700px) {
+  .contour-slot { height: 56px; margin-top: 22px; }
+  .listing.has-lead .l-thumb { max-width: 200px; }
+  .listing { padding-top: 14px; padding-bottom: 14px; }
+  .dept { padding-top: 40px; }
+  .searchbox { margin-top: 40px; }
+  .contents { padding-top: 48px; }
+  .plates-grid { gap: 24px 16px; }
+  .journal-unit { padding: 14px 0; }
+  .journal-unit .thumb { max-width: 160px; }
+  .cover-lines { margin-top: 20px; }
+  .masthead { padding-top: 36px; }
+  .door { padding: 18px 0 20px; }
+  .cover { padding-top: 32px; }
+  .folio { margin-top: 20px; }
+  .rail-scroll { padding-bottom: 6px; }
+  .closing { margin-top: 64px; }
 }

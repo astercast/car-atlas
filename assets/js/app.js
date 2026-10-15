@@ -121,15 +121,20 @@ const photosHTML = (rec) => {
 const money2 = (amount, currency) => (currency === "EUR" ? "€" : currency === "GBP" ? "£" : "$") + Number(amount).toLocaleString("en-US");
 const money = (r) => money2(r.price, r.currency);
 
-/* Embedded photo for index rows and listing units: the car's
-   sourced photograph (dataset photo fields, Foundry manifest
-   style: caption + credit with licence), placed after the text,
-   never leading it. In listing units the caption is prefixed
+/* Embedded photo for listing units: the car's sourced photograph
+   (dataset photo fields, Foundry manifest style: caption + credit
+   with licence). In listing units the caption is prefixed
    "Model photo" so the model's file photograph is never
-   mistaken for the specific car that sold. */
-const thumbFigure = (rec, modelPhoto = false, cls = "") => {
+   mistaken for the specific car that sold. Layout rework
+   (2026-10-15): the thumbnail now LEADS the unit on Price Watch
+   surfaces, and browse-adjacent units pass creditOnly so the
+   descriptive caption leaves the list and the licence credit
+   stays, compressed to a credit-only line (plan section 5.3).
+   The full caption and credit print on the car's own page and
+   on the Buy page's provenanced units; the credit never sheds. */
+const thumbFigure = (rec, modelPhoto = false, cls = "", creditOnly = false) => {
   if (!rec || !rec.photo) return "";
-  const cap = `${modelPhoto ? "Model photo: " : ""}${rec.photoCaption} · ${rec.photoCredit}`;
+  const cap = `${modelPhoto ? "Model photo: " : ""}${creditOnly ? rec.photoCredit : `${rec.photoCaption} · ${rec.photoCredit}`}`;
   return `<figure class="thumb ${cls}"><img src="${esc(rec.photo)}" alt="${esc(rec.photoCaption)}" loading="lazy"><figcaption>${esc(cap)}</figcaption></figure>`;
 };
 /* make/modelSlug -> search-index entry (carries the photo fields) */
@@ -167,10 +172,11 @@ function listingUnit(r, opts = {}) {
     prov = `
     <span class="l-prov">${esc(resultFacts(r))}${esc(rep)} · Source: <a href="${esc(r.source.url)}" target="_blank" rel="noopener">${esc(disp(r.source.name))} ↗</a></span>`;
   }
-  return `<div class="listing">
+  const fig = opts.photo ? thumbFigure(opts.photo, true, "l-thumb", !!opts.creditOnly) : "";
+  return `<div class="listing${opts.lead && fig ? " has-lead" : ""}">${opts.lead ? fig : ""}
     <span><span class="l-state">${opts.lot ? `<span class="l-lot">${esc(lotLabel(opts.lot))}</span>` : ""}${esc(state)}</span><a class="l-title" href="${href}">${esc(formula(r.makeName, disp(r.model), r.year))}</a><span class="l-date">${esc(disp(r.event))} · ${esc(fmtDate(r.saleDate))} · sold ${esc(ageWords(r.saleDate))}</span></span>
     <span class="l-price">${esc(money(r))}<span class="l-basis">${esc(r.priceBasis)}</span></span>
-    <span class="l-type">Auction</span>${prov}${opts.photo ? thumbFigure(opts.photo, true, "l-thumb") : ""}
+    <span class="l-type">Auction</span>${prov}${opts.lead ? "" : fig}
   </div>`;
 }
 /* The facts line of a certified record: every field the Price
@@ -184,13 +190,92 @@ function resultFacts(r) {
   return facts.join(" · ");
 }
 
-/* --- Tiles (atlas index rows) --- */
-const modelTile = (e) => `
-  <a class="row${e.photo ? " has-thumb" : ""}" href="${modelUrl(e.make, e.slug)}">
-    <h3>${esc(formula(e.makeName, e.name, e.years))}</h3><span class="t-sub">${esc(e.segment)}</span>
-    <p>${esc(e.intro)}</p>
-    <div class="t-foot">${esc((e.bodyStyles || []).join(" / "))} · ${esc(e.status)}</div>${thumbFigure(e)}
-  </a>`;
+/* --- The Plate (layout rework, 2026-10-15) ---
+   The browse unit, replacing the index row on every browse
+   surface: the photograph first and large, then the name set as
+   a cover line, years and segment as one microline, and ONE
+   signal: the car's newest certified result, or, absent a
+   result, its flagship generation's power figure. No intro
+   paragraph: the text waits on the car's own page, where it
+   prints in full. The licence credit stays as a microline under
+   every plate that shows the photograph; the descriptive
+   caption prints on the record page. Plates size by container
+   (see the stylesheet's plate chapter), so the same component
+   is the wide featured plate and the compact rail plate. */
+const resultByModel = (pw) => {
+  const m = new Map();
+  if (pw) for (const r of [...pw.results].sort((a, b) => b.saleDate.localeCompare(a.saleDate))) {
+    if (r.modelSlug && !m.has(`${r.make}/${r.modelSlug}`)) m.set(`${r.make}/${r.modelSlug}`, r);
+  }
+  return m;
+};
+const flagshipPowerOf = (m) => { const g = (m.generations || []).find((g) => g.spec && g.spec.power); return g ? g.spec.power : ""; };
+function plateSignal(e, sigMap) {
+  const r = sigMap ? sigMap.get(`${e.make}/${e.slug}`) : null;
+  if (r) return `<span class="sig-word">Sold</span> ${esc(money(r))} · ${esc(disp(r.event))} ${esc(String(r.saleDate).slice(0, 4))}`;
+  return e.flagshipPower ? esc(e.flagshipPower) : "";
+}
+const plateHTML = (e, sigMap) => {
+  const sig = plateSignal(e, sigMap);
+  return `<div class="plate-cell"><a class="plate" href="${modelUrl(e.make, e.slug)}">
+    ${e.photo ? `<span class="plate-photo"><img src="${esc(e.photo)}" alt="${esc(`${e.makeName} ${e.name}`)}" loading="lazy"></span>` : ""}
+    <span class="plate-name">${esc(e.makeName)} ${esc(e.name)}</span>
+    <span class="plate-micro">${esc(e.years)} · ${esc(e.segment)}</span>
+    ${sig ? `<span class="plate-signal">${sig}</span>` : ""}
+  </a>${e.photo ? `<p class="plate-credit">${esc(String(e.photoCredit).replace(/, via Wikimedia Commons$/, ""))}${e.photoSource ? ` · <a href="${esc(e.photoSource)}" target="_blank" rel="noopener">File page ↗</a>` : ""}</p>` : ""}</div>`;
+};
+
+/* The cohort range bar (layout rework): a hand-rolled SVG drawn
+   from a cohort's own certified prices: the span between its
+   lowest and highest certified results, the median ticked where
+   the cohort has met the benchmark trigger. Self-scaled to the
+   cohort it draws; the figures print beside it in words. One
+   ink, no second colour. */
+function rangeBarSVG(prices, median) {
+  const lo = Math.min(...prices), hi = Math.max(...prices);
+  const span = hi - lo || hi * 0.05 || 1;
+  const a = lo - span * 0.08, b = hi + span * 0.08;
+  const x = (v) => (4 + ((v - a) / (b - a)) * 92).toFixed(1);
+  return `<svg class="range-bar" viewBox="0 0 100 12" preserveAspectRatio="none" aria-hidden="true"><line x1="1" y1="6" x2="99" y2="6" class="rb-track"/><line x1="${x(lo)}" y1="6" x2="${x(hi)}" y2="6" class="rb-span"/><line x1="${x(lo)}" y1="2.5" x2="${x(lo)}" y2="9.5" class="rb-tick"/><line x1="${x(hi)}" y1="2.5" x2="${x(hi)}" y2="9.5" class="rb-tick"/>${median ? `<line x1="${x(median)}" y1="0.5" x2="${x(median)}" y2="11.5" class="rb-median"/>` : ""}</svg>`;
+}
+
+/* Seeded contour furniture (layout rework): atlas cartography,
+   drawn by a small deterministic generator (a mulberry-style
+   LCG seeded per slot, so every load draws the same lines).
+   Furniture only: sparse, placed between departments, silent.
+   It carries no data and says nothing. */
+function contourSVG(seed) {
+  let s = seed >>> 0;
+  const rnd = () => (s = (s * 1664525 + 1013904223) >>> 0) / 4294967296;
+  const cx = 1060, cy = 62, paths = [];
+  for (let ring = 0; ring < 6; ring++) {
+    const base = 24 + ring * 20, wob = 3.5 + rnd() * 5, ph = rnd() * Math.PI * 2, pts = [];
+    for (let i = 0; i <= 44; i++) {
+      const ang = (i / 44) * Math.PI * 2;
+      const r = base + Math.sin(ang * 3 + ph) * wob + Math.cos(ang * 5 + ph * 2) * wob * 0.55;
+      pts.push(`${(cx + Math.cos(ang) * r * 2.1).toFixed(1)},${(cy + Math.sin(ang) * r * 0.58).toFixed(1)}`);
+    }
+    paths.push(`<path d="M${pts.join("L")}Z"/>`);
+  }
+  return `<svg viewBox="0 0 1240 124" preserveAspectRatio="xMidYMid slice" aria-hidden="true">${paths.join("")}</svg>`;
+}
+
+/* Photo settle (layout rework): the one motion seasoning besides
+   the View Transition. Only photographs move, a small scale
+   settle as a plate enters; published values (prices, counts,
+   the folio) are present instantly and never animate (the fleet
+   motion law, Blacklist M5). The stylesheet carries the native
+   scroll-driven form; this IntersectionObserver path is the
+   fallback where that is unsupported, and reduced motion gets
+   neither. */
+function armPhotoSettle(scope = document) {
+  if (!window.matchMedia("(prefers-reduced-motion: no-preference)").matches) return;
+  if (CSS.supports("animation-timeline: view()") || !("IntersectionObserver" in window)) return;
+  const io = new IntersectionObserver((es) => es.forEach((en) => {
+    if (en.isIntersecting) { en.target.animate([{ transform: "scale(1.045)" }, { transform: "scale(1)" }], { duration: 650, easing: "cubic-bezier(.22,.61,.36,1)" }); io.unobserve(en.target); }
+  }), { threshold: 0.12 });
+  $$(".plate-photo img", scope).forEach((img) => io.observe(img));
+}
 
 /* --- Home: the issue --- */
 async function initHome() {
@@ -210,24 +295,24 @@ async function initHome() {
     const rail = $("#pw-rail");
     const photoMap = photoMapFromIndex(idx);
     const lots = lotMapOf(pw.results);
-    if (rail) rail.innerHTML = [...pw.results].sort((a, b) => b.saleDate.localeCompare(a.saleDate)).slice(0, 5).map((r) => listingUnit(r, { lot: lots.get(lotKey(r)), photo: r.modelSlug ? photoMap.get(`${r.make}/${r.modelSlug}`) : null })).join("");
+    if (rail) rail.innerHTML = [...pw.results].sort((a, b) => b.saleDate.localeCompare(a.saleDate)).slice(0, 5).map((r) => listingUnit(r, { lot: lots.get(lotKey(r)), lead: true, creditOnly: true, photo: r.modelSlug ? photoMap.get(`${r.make}/${r.modelSlug}`) : null })).join("");
   }
 
   wireSearch($("#q"), $("#q-results"), idx);
   const q = new URLSearchParams(location.search).get("q");
   if (q) { $("#q").value = q; $("#q").dispatchEvent(new Event("input")); }
 
+  /* The makes directory (layout rework): a ruled typographic
+     directory, name · country · model count. No blurbs, no
+     photos: the blurb is the make page's lede, and it waits there. */
   $("#makes-grid").innerHTML = makes.map((m) => `
-    <a class="row" href="${makeUrl(m.make)}">
-      <h3>${esc(m.name)}</h3><span class="t-sub">${esc(m.country)} · ${m.founded}</span>
-      <p>${esc(m.blurb)}</p>
-      <div class="t-foot">${m.modelCount} models</div>
-    </a>`).join("");
+    <a class="dir-row" href="${makeUrl(m.make)}"><span class="dir-name">${esc(m.name)}</span><span class="dir-meta">${esc(m.country)} · ${m.modelCount}</span></a>`).join("");
 
   // Editorial picks, resolved by name so the list survives slug drift.
+  const sigMap = resultByModel(pw);
   const picks = [["porsche", "911"], ["toyota", "2000GT"], ["ferrari", "F40"], ["lamborghini", "Countach"], ["mazda", "MX-5"], ["ford", "Mustang"]];
   const featured = picks.map(([mk, nm]) => models.find((e) => e.make === mk && e.name.includes(nm))).filter(Boolean);
-  $("#featured-grid").innerHTML = featured.map(modelTile).join("");
+  $("#featured-grid").innerHTML = featured.map((e) => plateHTML(e, sigMap)).join("");
 
   // Era browser
   const eras = [
@@ -247,7 +332,7 @@ async function initHome() {
   const renderEra = (i) => {
     $$(".chip", eraChips).forEach((c, j) => c.setAttribute("aria-pressed", String(i === j)));
     const list = models.filter((e) => eras[i][1](startYear(e))).slice(0, 9);
-    eraGrid.innerHTML = list.length ? list.map(modelTile).join("") : `<p class="center-note">Nothing seeded from this era yet; it is on the coverage roadmap.</p>`;
+    eraGrid.innerHTML = list.length ? list.map((e) => plateHTML(e, sigMap)).join("") : `<p class="center-note">Nothing seeded from this era yet; it is on the coverage roadmap.</p>`;
   };
   eraChips.innerHTML = eras.map(([label], i) => `<button class="chip" data-era="${i}" aria-pressed="${i === 0}">${esc(label)}</button>`).join("");
   eraChips.addEventListener("click", (ev) => { const b = ev.target.closest("[data-era]"); if (b) renderEra(+b.dataset.era); });
@@ -259,10 +344,12 @@ async function initHome() {
   styleChips.innerHTML = styles.map((s, i) => `<button class="chip" data-style="${esc(s)}" aria-pressed="${i === 0}">${esc(s)}</button>`).join("");
   const renderStyle = (s) => {
     $$(".chip", styleChips).forEach((c) => c.setAttribute("aria-pressed", String(c.dataset.style === s)));
-    styleGrid.innerHTML = models.filter((e) => (e.bodyStyles || []).includes(s)).slice(0, 9).map(modelTile).join("");
+    styleGrid.innerHTML = models.filter((e) => (e.bodyStyles || []).includes(s)).slice(0, 9).map((e) => plateHTML(e, sigMap)).join("");
   };
   styleChips.addEventListener("click", (ev) => { const b = ev.target.closest("[data-style]"); if (b) renderStyle(b.dataset.style); });
   if (styles.length) renderStyle(styles[0]);
+  $$(".contour-slot").forEach((el, i) => { el.innerHTML = contourSVG(1407 + i * 977); });
+  armPhotoSettle();
 }
 
 /* --- Make page --- */
@@ -279,6 +366,7 @@ async function initMake() {
   const marqueResults = (priceWatch?.results || []).filter((r) => r.make === slug)
     .sort((a, b) => b.saleDate.localeCompare(a.saleDate));
   const marquePhotos = new Map(file.models.filter((m) => m.photo).map((m) => [m.slug, m]));
+  const sigMap = resultByModel(priceWatch);
   $("#make-root").innerHTML = `
     <div class="crumb"><a href="index.html">Atlas</a> / Makes / ${esc(meta.name)}</div>
     <h1>${esc(meta.name)}</h1>
@@ -291,12 +379,12 @@ async function initMake() {
       <div class="fact"><span>Models in atlas</span><b>${file.models.length}</b></div>
     </div>
     ${photosHTML(meta)}
-    <section class="block"><div class="rows">
-      ${file.models.map((m) => modelTile({ ...m, make: slug, makeName: meta.name, generationCount: m.generations.length })).join("")}
+    <section class="block"><div class="plates-grid">
+      ${file.models.map((m) => plateHTML({ ...m, make: slug, makeName: meta.name, flagshipPower: flagshipPowerOf(m) }, sigMap)).join("")}
     </div></section>
     <section class="block">
       <div class="block-head"><h2>Price Watch, certified results for ${esc(meta.name)}</h2><p>Every certified result recorded for this marque, linked records to their model pages and make-level records to the full set on the Buy page. A result is one car on one day, not a valuation.</p></div>
-      ${marqueResults.length ? `<div class="listings">${marqueResults.map((r) => listingUnit(r, { prov: true, lot: lotMapOf(priceWatch?.results || []).get(lotKey(r)), all: priceWatch?.results || [], photo: r.modelSlug ? marquePhotos.get(r.modelSlug) : null })).join("")}</div>`
+      ${marqueResults.length ? `<div class="listings" id="marque-ledger"></div><button class="more-btn hidden" id="marque-more" type="button"></button>`
         : `<p class="center-note">No certified result for this marque yet; none is shown rather than one invented.</p>`}
     </section>
     <script type="application/ld+json">${JSON.stringify({
@@ -304,6 +392,25 @@ async function initMake() {
       name: meta.name, description: meta.blurb,
       ...(meta.photo ? { image: meta.photo } : {}),
     }).replace(/</g, "\\u003c")}<\/script>`;
+  /* The marque ledger batches like the Buy page's set (layout
+     rework): the full ledger is one show-more step away, and the
+     button states how much remains. */
+  const ledgerBox = $("#marque-ledger"), ledgerMore = $("#marque-more");
+  if (ledgerBox && marqueResults.length) {
+    const lotsAll = lotMapOf(priceWatch?.results || []);
+    let ledgerN = 10;
+    const renderLedger = () => {
+      ledgerBox.innerHTML = marqueResults.slice(0, ledgerN).map((r) => listingUnit(r, { lot: lotsAll.get(lotKey(r)), lead: true, creditOnly: true, photo: r.modelSlug ? marquePhotos.get(r.modelSlug) : null })).join("");
+      const left = marqueResults.length - ledgerN;
+      if (ledgerMore) {
+        ledgerMore.classList.toggle("hidden", left <= 0);
+        if (left > 0) ledgerMore.textContent = `Show more results (${left} remaining)`;
+      }
+    };
+    if (ledgerMore) ledgerMore.addEventListener("click", () => { ledgerN += 10; renderLedger(); });
+    renderLedger();
+  }
+  armPhotoSettle();
 }
 
 /* --- Model page: the record ---
@@ -448,10 +555,14 @@ async function initModel() {
       const dates = g.map((r) => r.saleDate).sort();
       const built = (cohortsDoc?.cohorts || []).find((c) => c.make === mk && c.modelSlug === md && c.currency === cur);
       const range = `<b>${esc(money2(Math.min(...prices), cur))} – ${esc(money2(Math.max(...prices), cur))}</b> · ${numWord(g.length)} certified results in ${esc(cur)}, sales from ${esc(fmtDate(dates[0]))} to ${esc(fmtDate(dates[dates.length - 1]))}.`;
+      /* Layout rework: the cohort's range bar (hand-rolled SVG from
+         the same certified prices) sits above its line. The line's
+         text is unchanged; the bar adds no words. */
+      const bar = rangeBarSVG(prices, built?.benchmark ? built.median : null);
       if (built?.benchmark) {
-        return `<p class="cohort-line">${range} <b>Cohort median ${esc(money2(built.median, cur))}</b> over the ${numWord(built.n)} certified sales: the T-CARS-1 benchmark rung, computed in the build from certified records only. A median of past sales is context for this model, not a valuation of any other example.</p>`;
+        return `<div class="cohort-block">${bar}<p class="cohort-line">${range} <b>Cohort median ${esc(money2(built.median, cur))}</b> over the ${numWord(built.n)} certified sales: the T-CARS-1 benchmark rung, computed in the build from certified records only. A median of past sales is context for this model, not a valuation of any other example.</p></div>`;
       }
-      return `<p class="cohort-line">${range} A range over ${g.length} sales is context, not a valuation of any other example.</p>`;
+      return `<div class="cohort-block">${bar}<p class="cohort-line">${range} A range over ${g.length} sales is context, not a valuation of any other example.</p></div>`;
     }).join("");
   })();
   /* The certification counts print on the record page, computed
@@ -661,14 +772,30 @@ async function initBuy() {
     bandSel.innerHTML = bands.map(([v, label, fn]) => `<option value="${v}">${esc(label)}${fn ? ` (${all.filter(fn).length})` : ""}</option>`).join("");
     recSel.innerHTML = recordFacets.map(([v, label, fn]) => `<option value="${v}">${esc(label)}${fn ? ` (${all.filter(fn).length})` : ""}</option>`).join("");
     const lotsAll = lotMapOf(all);
+    /* Layout rework: the certified set stays complete and fully
+       provenanced (this is a record surface), but renders in
+       batches of 10 behind a show-more step, so the page's first
+       render is a working market page instead of the whole set
+       stacked. Nothing is withheld: the count states what is
+       shown of what exists, and the step reveals the rest. */
+    let showN = 10;
+    const moreBtn = $("#results-more");
     const renderResults = () => {
       const mk = makeSel.value, band = bands.find((b) => b[0] === bandSel.value), rec = recordFacets.find((f) => f[0] === recSel.value);
       const list = all.filter((r) => (!mk || r.make === mk) && (!band || !band[2] || band[2](r)) && (!rec || !rec[2] || rec[2](r)));
-      $("#pw-count").textContent = `Showing ${list.length} of ${all.length} certified results`;
-      $("#results-grid").innerHTML = list.length ? `<div class="listings">${list.map((r) => listingUnit(r, { prov: true, lot: lotsAll.get(lotKey(r)), all, photo: photoOf(r) })).join("")}</div>` : `<p class="center-note">No certified result matches that combination. Clear the filters to see all ${all.length}.</p>`;
+      const shown = list.slice(0, showN);
+      $("#pw-count").textContent = `Showing ${shown.length} of ${list.length} certified results`;
+      $("#results-grid").innerHTML = list.length ? `<div class="listings">${shown.map((r) => listingUnit(r, { prov: true, lot: lotsAll.get(lotKey(r)), all, photo: photoOf(r) })).join("")}</div>` : `<p class="center-note">No certified result matches that combination. Clear the filters to see all ${all.length}.</p>`;
+      if (moreBtn) {
+        const left = list.length - shown.length;
+        moreBtn.classList.toggle("hidden", left <= 0);
+        if (left > 0) moreBtn.textContent = `Show more results (${left} remaining)`;
+      }
     };
-    [makeSel, bandSel, recSel].forEach((el) => el.addEventListener("change", renderResults));
-    $("#f-clear").addEventListener("click", () => { makeSel.value = ""; bandSel.value = ""; recSel.value = ""; renderResults(); });
+    const resetAndRender = () => { showN = 10; renderResults(); };
+    [makeSel, bandSel, recSel].forEach((el) => el.addEventListener("change", resetAndRender));
+    $("#f-clear").addEventListener("click", () => { makeSel.value = ""; bandSel.value = ""; recSel.value = ""; resetAndRender(); });
+    if (moreBtn) moreBtn.addEventListener("click", () => { showN += 25; renderResults(); });
     renderResults();
     const cgrid = $("#cohort-grid");
     if (cgrid) {
@@ -684,24 +811,30 @@ async function initBuy() {
         const prices = g.map((r) => r.price);
         const lo = g[prices.indexOf(Math.min(...prices))], hi = g[prices.indexOf(Math.max(...prices))];
         const years = g.map((r) => r.year);
-        const photo = photoOf(g[0]);
         /* T-CARS-1: figures come from the build-computed cohorts
            file where it loaded; a cohort at the n>=8 trigger prints
-           its median as the benchmark rung, the rest print ranges. */
+           its median as the benchmark rung, the rest print ranges.
+           Layout rework: the row's prose paragraph sheds to the
+           range bar plus its figures and the record link; the
+           "context, not a valuation" sentence stands once, in the
+           section head. Full cohort lines print on the model
+           record. */
         const built = (cohortsDoc?.cohorts || []).find((c) => c.make === g[0].make && c.modelSlug === g[0].modelSlug && c.currency === g[0].currency);
-        const benchLine = built?.benchmark
-          ? `<br><span class="pw-price" style="font-weight:800">Cohort median ${esc(money2(built.median, built.currency))}</span> over the ${built.n} certified sales: the T-CARS-1 benchmark rung, computed in the build from certified records only; a median of past sales, not a valuation of any other example.`
-          : `<br>Range over ${g.length} certified sales in ${esc(g[0].currency)}: context, not a valuation of any other example.`;
         return `
-      <article class="row${photo ? " has-thumb" : ""}">
-        <h3>${esc(g[0].makeName)} ${esc(g[0].model.split(" (")[0])}</h3><span class="t-sub">n=${g.length} certified${built?.benchmark ? " · benchmark cohort" : ""}</span>
-        <p><span class="pw-price" style="font-weight:800">${esc(money(lo))} – ${esc(money(hi))}</span><br>Certified results span model years ${Math.min(...years)}–${Math.max(...years)}, sales ${esc(g.map((r) => r.saleDate).sort()[0])} to ${esc(g.map((r) => r.saleDate).sort().slice(-1)[0])}.${benchLine}</p>
-        <div class="t-foot"><a href="${modelUrl(g[0].make, g[0].modelSlug)}">Atlas record →</a></div>${thumbFigure(photo, true)}
+      <article class="row cohort-row">
+        <h3><a href="${modelUrl(g[0].make, g[0].modelSlug)}">${esc(g[0].makeName)} ${esc(g[0].model.split(" (")[0])}</a></h3><span class="t-sub">${esc(g[0].currency)} · n=${g.length}${built?.benchmark ? " · benchmark" : ""}</span>
+        ${rangeBarSVG(prices, built?.benchmark ? built.median : null)}
+        <p class="cohort-figs"><b>${esc(money(lo))} – ${esc(money(hi))}</b>${built?.benchmark ? ` · median <b>${esc(money2(built.median, built.currency))}</b>` : ""} · model years ${Math.min(...years)}–${Math.max(...years)}</p>
+        <div class="t-foot"><a href="${modelUrl(g[0].make, g[0].modelSlug)}">Atlas record →</a></div>
       </article>`;
       }).join("");
     }
-    const note = $("#results-note");
-    if (note) note.textContent = pw.note;
+    /* Layout rework: the dataset's note field (a running stage
+       diary, 2,204 words at stage 22) no longer renders wholesale
+       as this section's note. Its method claim stands as the
+       section's note in buy.html, in the note's own opening words;
+       the diary itself stays in the dataset and the WAVELOG.
+       Rendering shed, data untouched. */
   } catch { /* results stay unpublished rather than guessed */ }
 }
 
@@ -716,6 +849,21 @@ async function initNavSearch() {
   wireSearch(input, box, idx);
 }
 initNavSearch().catch(() => { /* the header search stays inert rather than guessed */ });
+
+/* View Transitions (layout rework): the signature carry. When a
+   visitor opens a car from a plate (or a listing thumbnail), that
+   photograph takes the shared transition name and carries into
+   the record page's hero, which carries the same name in the
+   stylesheet. Pure progressive enhancement: browsers without
+   cross-document view transitions navigate normally, the record
+   is never delayed by the effect, and reduced motion disables
+   it in the stylesheet. */
+document.addEventListener("click", (ev) => {
+  const a = ev.target.closest('a[href*="model.html"]');
+  if (!a) return;
+  const img = a.querySelector("img") || a.closest(".listing, .journal-unit")?.querySelector("img");
+  if (img) img.style.viewTransitionName = "ca-record-hero";
+});
 
 const page = document.body.dataset.page;
 const boot = { home: initHome, make: initMake, model: initModel, clubs: initClubs, buy: initBuy }[page];

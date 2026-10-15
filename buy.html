@@ -58,8 +58,8 @@
   </section>
 
   <section class="block">
-    <div class="block-head"><h2>Price Watch, stage 6: certified auction results</h2></div>
-    <p class="mut" id="results-note" style="max-width:68ch">Certified auction results, each linked to its published source.</p>
+    <div class="block-head"><h2>Price Watch: certified auction results</h2></div>
+    <p class="mut" id="results-note" style="max-width:68ch">Price Watch tracks completed auction results, not live listings. Every record below was certified at ingest against a published source naming the car, the price, the house, and the date; the source is linked on each record.</p>
     <div class="filters" id="pw-filters">
       <span><label for="f-make">Make</label> <select id="f-make"></select></span>
       <span><label for="f-band">Stated price</label> <select id="f-band"></select></span>
@@ -68,6 +68,7 @@
     </div>
     <p class="pw-count" id="pw-count" aria-live="polite"></p>
     <div id="results-grid"></div>
+    <button class="more-btn hidden" id="results-more" type="button"></button>
   </section>
 
   <section class="block">
@@ -76,13 +77,13 @@
   </section>
 
   <section class="block">
-    <div class="block-head"><h2>Cohorts: ranges, and thirteen benchmarks</h2><p>T-CARS-1, two rungs. Where two or more certified results share a model and a currency, the range they span, computed only from the certified records above, with the count shown: a range is context, not a benchmark. Where a cohort reaches eight certified results in one currency, the trigger priced in BENCHMARK.md, the cohort also prints its median, computed in the build from the certified records alone and published in the dataset. Thirteen cohorts have met the trigger: the Ferrari F40 in euros at stage 7, the Ford GT in dollars at stage 8, the Corvette and the Duesenberg Model J in dollars at stage 9, the Aston Martin DB5 in dollars, and the Lamborghini Miura in dollars and in euros at stage 10, the Ferrari F40 in dollars and the Aston Martin DB5 in euros at stage 11, the McLaren F1 in dollars at stage 12, and the Toyota 2000GT in dollars at stage 14, and the Mercedes-Benz 300 SL in dollars at stage 16, and the Lamborghini Countach in dollars at stage 21. At stage 21 every cohort of two or more certified results had reached the eight a median needs, the 300 SL worked from four certified sales at stage 15 to eight at stage 16, and the Countach last, from two certified sales at stage 19 to eight at stage 21; stage 22 has since opened two new range-only cohorts, below. Stage 17 deepened three of the benchmark cohorts to nine certified sales each: the Ferrari F40 in dollars, the Lamborghini Miura in dollars and the Mercedes-Benz 300 SL in dollars. Stage 18 deepened two of them again: the Mercedes-Benz 300 SL in dollars to eleven certified sales, and the Lamborghini Miura in dollars to ten. Stage 19 opened a thirteenth cohort, the Lamborghini Countach in dollars, with two certified Periscopo sales at Gooding's Pebble Beach auctions (2014 and 2018); stage 20 added three more certified Countach sales at Gooding's auctions (Amelia Island 2018, and two at Pebble Beach 2021), taking the cohort to five; at five sales it printed its range only, the one range-only cohort on the board, three sales short of the median trigger; stage 21 added three more certified Countach sales (Gooding's Pebble Beach 2012 and Amelia Island 2010, and RM Sotheby's Monterey 2022), taking the cohort to eight, so it now prints its median as the board's thirteenth benchmark. Stage 22 opened two new cohorts, the Ferrari Enzo in euros and in dollars, at two certified sales each (Paris 2016 joining Paris 2023 in euros; Monterey 2015 and Pebble Beach 2022 in dollars), so two range-only cohorts stand on the board again, each six sales short of the median trigger; the thirteen benchmarks stand unchanged. A median of past sales is a benchmark of what examples have done, not a valuation of any other example, and no condition tier is claimed. See BENCHMARK.md for the priced road from here.</p></div>
+    <div class="block-head"><h2>Cohorts: ranges, and thirteen benchmarks</h2><p>T-CARS-1, two rungs. Where two or more certified results share a model and a currency, the range they span prints below, with the count: a range is context, not a valuation. Where a cohort reaches eight certified results in one currency, the trigger priced in BENCHMARK.md, it also prints its median, computed in the build from the certified records alone: a benchmark of what examples have done, not a valuation of any other example, and no condition tier is claimed. Thirteen cohorts print benchmarks; two, the Ferrari Enzo in euros and in dollars, print ranges only, six sales short of the trigger. The stage-by-stage history of the board is in BENCHMARK.md and the WAVELOG.</p></div>
     <div class="rows" id="cohort-grid"></div>
   </section>
 
   <section class="block">
     <div class="block-head"><h2>Price Watch, designed in the open</h2></div>
-    <p class="mut" style="max-width:68ch">The results above are real: completed auction results, certified one by one against a published source. The later stages, listing ingest adapters per channel, normalized to one schema; price history per listing and per model-year cohort; drop detection against cohort medians; opt-in alerts, ship only when the data behind them is real. Until a stage is real, it doesn't appear on this site. Every record carries its date; a stale price will be labeled stale, never dressed up as live.</p>
+    <p class="mut" style="max-width:68ch">The results above are real: completed auction results, certified one by one against a published source. Later stages (listing ingest, price history, drop detection, opt-in alerts) ship only when the data behind them is real; until a stage is real, it doesn't appear on this site. Every record carries its date; a stale price is labeled stale, never dressed up as live.</p>
     <div style="margin-top:20px;max-width:560px">
       <b class="small" style="text-transform:uppercase;letter-spacing:.08em;color:var(--ink-3)">Listing schema (v1)</b>
       <ul class="list-clean" id="watch-schema" style="margin-top:8px"></ul>

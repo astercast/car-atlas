@@ -84,6 +84,12 @@ def main():
                 "bodyStyles": model["bodyStyles"], "intro": model["intro"],
                 "buyingClass": model["buyingClass"],
                 "generationCount": len(model["generations"]),
+                # Layout rework (2026-10-15): the plate's fallback
+                # signal on browse surfaces, the flagship (first)
+                # generation's power figure, derived here from the
+                # record so no browse surface recomputes it.
+                "flagshipPower": next((g["spec"]["power"] for g in model["generations"]
+                                       if g.get("spec", {}).get("power")), ""),
                 # Sourced photography (wave 4 placement pass fields),
                 # carried so index rows and listing units can embed
                 # the model's photo where one is recorded.
