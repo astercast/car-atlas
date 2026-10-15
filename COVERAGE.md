@@ -207,7 +207,13 @@ to 148 results — 2 new results (two Lamborghini Countach
 LP400 Periscopo sales at Gooding & Company's Pebble Beach
 auctions, 2014 and 2018), opening the Countach dollar cohort
 at n=2; mileage now stands at 56/148, chassis at 117/148.
-One further candidate was skipped and recorded. The standing
+One further candidate was skipped and recorded. Stage 20
+(rotation 38) extended the set to 151 results — 3 new results
+(three Lamborghini Countach sales at Gooding & Company:
+Amelia Island 2018 and two at Pebble Beach 2021), deepening
+the Countach dollar cohort from n=2 to n=5; condition now
+stands at 39/151, mileage at 57/151, chassis at 120/151.
+Eight further candidates were skipped and recorded. The standing
 benchmark against the top car sites in the world — the named set,
 the scorecard, and the priced T-CARS-1 / T-CARS-5 closures — lives
 in `BENCHMARK.md`. Still planned: listings ingest adapters for

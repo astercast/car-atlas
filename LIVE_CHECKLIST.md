@@ -317,6 +317,16 @@ a conversation.
   115/146 → 117/148, condition unchanged at 36). A new Countach
   dollar cohort opens at n=2, range only; the twelve benchmark
   cohorts stand. Still no function, no cron, no external call.
+- **Rotation-38 addendum (2026-10-15):** Price Watch stage 20
+  extended the same static file to 151 certified results (3 added:
+  three Lamborghini Countach sales at Gooding & Company, Amelia
+  Island 2018 and Pebble Beach 2021, each linked to the standing
+  Countach model record; linked 121 → 124 of 151, orphans
+  unchanged at 27; condition 36/148 → 39/151, mileage
+  56/148 → 57/151, chassis 117/148 → 120/151). The Countach
+  dollar cohort deepens from n=2 to n=5, range only; the twelve
+  benchmark cohorts stand. Still no function, no cron, no
+  external call.
 - **Rotation-23 addendum (2026-10-14):** photography completed
   (257/257 models, 59/59 makes photographed from licensed Commons
   sources, per-photo credit + file-page URL in the dataset for the

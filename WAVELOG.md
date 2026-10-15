@@ -1,5 +1,35 @@
 # WAVELOG — Car Atlas
 
+## Rotation 38 — PRICE WATCH STAGE 20 (148 → 151, the Countach cohort deepens n=2 → n=5 at the honest rate) (2026-10-15)
+
+- **Price Watch stage 20:** **148 → 151 certified results**,
+  three records deepening the Lamborghini Countach/USD cohort
+  stage 19 opened: a 1984 Lamborghini Countach 5000S (chassis
+  ZA9C00500ELA12661) at Gooding & Company Amelia Island in
+  2018 ($258,500), a 1984 Lamborghini Countach 5000S (chassis
+  ZA9C00500ELA12730) at Gooding & Company Pebble Beach in
+  2021 ($720,000), and a 1989 Lamborghini Countach 25th
+  Anniversary Edition (chassis ZA9CA05A1KLA12678) at the same
+  house in 2021 ($368,000). At n=5 the cohort prints its range
+  only ($258,500 to $1,870,000), three sales short of the eight
+  a median needs; the twelve benchmark cohorts stand
+  unchanged. Each record certified against two independent
+  sources agreeing on car, house, sale day and price
+  (Gooding's own lot records against the CLASSIC.COM sale
+  records, with Hagerty, conceptcarz and the K500 results
+  sheet concurring where consulted). Condition
+  **36/148 → 39/151**, mileage **56/148 → 57/151**, chassis
+  **117/148 → 120/151**, linked **121 → 124**, orphans
+  unchanged at 27. Eight skips recorded in the file: the
+  seven carried named skips, each re-attempted on a fresh
+  search and each standing (MF1010219; the Arizona Gullwing
+  chassis conflict; the two Broad Arrow 2000GTs; the Minty
+  Forty F40; the 1990 F40; the 275 GTB year conflict), and
+  one new candidate, the 2015 Pebble Beach Countach
+  Anniversary car whose sources disagree on the sale day.
+  Restorations stay closed (rotation 31); the 250 GTO record
+  and T-CARS-5 rung 2 untouched, owner's calls.
+
 ## Rotation 37 — PRICE WATCH STAGE 19 (146 → 148, a new Countach cohort opens at n=2 at the honest rate) (2026-10-15)
 
 - **Price Watch stage 19:** **146 → 148 certified results**,

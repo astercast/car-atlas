@@ -224,14 +224,14 @@
    "modelSlug": "countach",
    "modelName": "Countach LP400 Periscopo",
    "currency": "USD",
-   "n": 2,
-   "min": 979000,
+   "n": 5,
+   "min": 258500,
    "max": 1870000,
    "firstSale": "2014-08-16",
-   "lastSale": "2018-08-25",
+   "lastSale": "2021-08-13",
    "modelYears": [
     1974,
-    1976
+    1989
    ],
    "benchmark": false
   }

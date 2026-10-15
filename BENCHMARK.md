@@ -747,6 +747,15 @@ n=2 (range only, below the trigger) from two Gooding Pebble
 Beach Periscopo sales (2014, $1,870,000; 2018, $979,000); the
 twelve benchmark medians stand unchanged in
 `data/v1/cohorts.json`.
+
+**Rotation 38 update:** stage 20 took the set to 151 certified
+(condition 39/151, mileage 57/151, chassis 120/151, linked 124,
+orphans 27), deepening the Lamborghini Countach/USD cohort from
+n=2 to n=5 (range only, still below the trigger; range now
+$258,500 to $1,870,000) from three Gooding sales (Amelia Island
+2018, $258,500; Pebble Beach 2021, $720,000 and $368,000); the
+twelve benchmark medians stand unchanged in
+`data/v1/cohorts.json`.
 majority (c) requires, and (a) scale is still ~18 stage passes
 away at the demonstrated rate, or the same licensed-feed owner
 call.

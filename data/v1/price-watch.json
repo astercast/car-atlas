@@ -2960,6 +2960,66 @@
    },
    "status": "sold",
    "year": 1976
+  },
+  {
+   "chassis": "ZA9C00500ELA12730",
+   "condition": "Original & Highly Original",
+   "currency": "USD",
+   "event": "Gooding & Company Pebble Beach",
+   "make": "lamborghini",
+   "makeName": "Lamborghini",
+   "mileage": "5k km (3k mi)",
+   "model": "Countach 5000S (chassis ZA9C00500ELA12730)",
+   "modelSlug": "countach",
+   "price": 720000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2021-08-13",
+   "source": {
+    "name": "Gooding & Company's own lot record and the CLASSIC.COM record of the sale, agreeing (1984 Lamborghini Countach 5000S, Gooding & Company Pebble Beach, lot 53, sold 13 August 2021, $720,000; chassis ZA9C00500ELA12730; 5k km (3k mi) and Original & Highly Original as recorded by CLASSIC.COM; Hagerty's past-sale record for the VIN and conceptcarz's sales table for the chassis concur on car, house, day and price)",
+    "url": "https://www.goodingco.com/lot/1984-lamborghini-countach-5000s-1/"
+   },
+   "status": "sold",
+   "year": 1984
+  },
+  {
+   "chassis": "ZA9CA05A1KLA12678",
+   "condition": "Original & Highly Original",
+   "currency": "USD",
+   "event": "Gooding & Company Pebble Beach",
+   "make": "lamborghini",
+   "makeName": "Lamborghini",
+   "mileage": null,
+   "model": "Countach 25th Anniversary Edition (chassis ZA9CA05A1KLA12678)",
+   "modelSlug": "countach",
+   "price": 368000,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2021-08-13",
+   "source": {
+    "name": "Gooding & Company's own lot record and the CLASSIC.COM record of the sale, agreeing (1989 Lamborghini Countach 25th Anniversary Edition, Gooding & Company Pebble Beach, lot 8, sold 13 August 2021, $368,000; chassis ZA9CA05A1KLA12678; Original & Highly Original as recorded by CLASSIC.COM; conceptcarz's sales table for the chassis concurs on car, house and price; the two records state the odometer differently, so no mileage is recorded)",
+    "url": "https://www.goodingco.com/lot/1989-lamborghini-countach-25th-anniversary-edition-1/"
+   },
+   "status": "sold",
+   "year": 1989
+  },
+  {
+   "chassis": "ZA9C00500ELA12661",
+   "condition": "Original & Highly Original",
+   "currency": "USD",
+   "event": "Gooding & Company Amelia Island",
+   "make": "lamborghini",
+   "makeName": "Lamborghini",
+   "mileage": null,
+   "model": "Countach 5000S (chassis ZA9C00500ELA12661)",
+   "modelSlug": "countach",
+   "price": 258500,
+   "priceBasis": "As recorded for the lot",
+   "saleDate": "2018-03-09",
+   "source": {
+    "name": "Gooding & Company's own lot record and the CLASSIC.COM record of the sale, agreeing (1984 Lamborghini Countach 5000S, Gooding & Company Amelia Island, lot 70, sold 9 March 2018, $258,500; chassis ZA9C00500ELA12661; Original & Highly Original as recorded by CLASSIC.COM, which records the odometer as TMU, so no mileage is recorded; the K500 Amelia Island 2018 results sheet concurs on house, lot, session day and price)",
+    "url": "https://www.goodingco.com/lot/1984-lamborghini-countach-5000s/"
+   },
+   "status": "sold",
+   "year": 1984
   }
  ],
  "skippedSources": [
@@ -3009,9 +3069,17 @@
   "Stage 18 pass: the 1967 Toyota 2000GT, chassis MF10-10110 (Broad Arrow Auctions, Radius at the Monterey Jet Center, lot 151, August 2023), carried from stage 17 \u2014 the sources consulted still disagree on the result (Glenmarch and Premier Financial Services record $940,000; the house's own lot page displays $850,000), and no converging source was found, so the record remains skipped rather than certified on a contested price.",
   "Stage 18 pass: the 1991 Ferrari F40 'Minty Forty', chassis ZFFGJ34B000088538 (RM Sotheby's Monterey, lot 362, 17 August 2024) \u2014 the CLASSIC.COM lot record and Hagerty's past-sale record for the VIN agree on $1,792,500, but a third source consulted (conceptcarz's sales table for the chassis) records $720,000 for the same sale; the sources do not agree on the final price, so the record is skipped rather than certified on a contested price (the Artcurial F40 precedent).",
   "Stage 18 pass: the 1990 Ferrari F40, chassis ZFFMN34A4L0087219 (Broad Arrow Auctions, Monterey Jet Center, lot 151, $2,425,000) \u2014 car, house, lot and price are published and agreed, but the sources consulted disagree on the sale day: Hagerty's past-sale record for the VIN dates the sale 14 August 2024, while the CLASSIC.COM lot record dates it 15 August 2024; skipped rather than certifying a day the sources do not agree on (the stage 8 GT40 precedent).",
-  "Stage 19 pass: the Ferrari 275 GTB sold by Broad Arrow Auctions at the Monterey Jet Center, lot 236, 2024 ($2,535,000, confirmed in Broad Arrow's own Monterey 2024 results release) \u2014 conceptcarz's sales table ties the sale to chassis 08465 as a 1965 car, while the CLASSIC.COM Monterey 2024 record of the same-priced 275 GTB sale lists a 1966 car; the sources do not agree on the car's year, so the record is skipped rather than certified on a contested identity."
+  "Stage 19 pass: the Ferrari 275 GTB sold by Broad Arrow Auctions at the Monterey Jet Center, lot 236, 2024 ($2,535,000, confirmed in Broad Arrow's own Monterey 2024 results release) \u2014 conceptcarz's sales table ties the sale to chassis 08465 as a 1965 car, while the CLASSIC.COM Monterey 2024 record of the same-priced 275 GTB sale lists a 1966 car; the sources do not agree on the car's year, so the record is skipped rather than certified on a contested identity.",
+  "Stage 20 pass: the 1968 Toyota 2000GT, chassis MF1010219 (Gooding & Company, Pebble Beach, lot 114, August 2012), carried from stages 14-19 \u2014 this pass's fresh search again surfaced only the Hagerty past-sale record for the VIN stating the $627,000 result and the sale day (19 August 2012) together; no independent second source stating both was found, so the record remains a named candidate, not certified from a single line.",
+  "Stage 20 pass: the 1956 Mercedes-Benz 300 SL Gullwing at RM Sotheby's Arizona, 24 January 2025 (lot 159, $2,040,000), carried from stages 15-19 \u2014 conceptcarz's sales table now ties the Arizona 2025 result to the house's chassis, 198.040.6500100, agreeing with the house's own lot page, but the CLASSIC.COM vehicle page's association of the result with chassis 198.040.6500280 stands unretracted, so a published disagreement on the car's chassis remains and, on the Minty Forty precedent, a siding source does not by itself resolve it; the record remains skipped rather than certified with a contested chassis.",
+  "Stage 20 pass: the 1967 Toyota 2000GT, chassis MF1010080 (Broad Arrow Auctions, The Monterey Jet Center Auction, lot 26, 18 August 2022), carried from stages 17-19 \u2014 Glenmarch's results index still publishes no result figure for the lot, only the pre-sale estimate, and the standing disagreement (CLASSIC.COM records $995,000; Rick Carey's auction report records a final price of $925,000) is unchanged, so the record remains skipped rather than certified on a contested price.",
+  "Stage 20 pass: the 1967 Toyota 2000GT, chassis MF10-10110 (Broad Arrow Auctions, Radius at the Monterey Jet Center, lot 151, August 2023), carried from stages 17-19 \u2014 the sources consulted still disagree on the result (Glenmarch and Premier Financial Services record $940,000; the house's own lot page displays $850,000), and no converging source was found, so the record remains skipped rather than certified on a contested price.",
+  "Stage 20 pass: the 1991 Ferrari F40 'Minty Forty', chassis ZFFGJ34B000088538 (RM Sotheby's Monterey, lot 362, 17 August 2024), carried from stage 18 \u2014 conceptcarz's sales table for the chassis still records $720,000 for the same sale against the $1,792,500 the CLASSIC.COM lot record and Hagerty's past-sale record agree on; a minority source disagreeing on the final price still stands, so on the standing precedent the record remains skipped rather than certified on a contested price.",
+  "Stage 20 pass: the 1990 Ferrari F40, chassis ZFFMN34A4L0087219 (Broad Arrow Auctions, Monterey Jet Center, lot 151, $2,425,000), carried from stage 18 \u2014 the sources consulted still disagree on the sale day: Hagerty's past-sale record for the VIN dates the sale 14 August 2024, while the CLASSIC.COM lot record dates it 15 August 2024, and the house's own event results list, which confirms the lot and the price, gives no per-lot day resolving the two; skipped rather than certifying a day the sources do not agree on (the stage 8 GT40 precedent).",
+  "Stage 20 pass: the Ferrari 275 GTB sold by Broad Arrow Auctions at the Monterey Jet Center, lot 236, 2024 ($2,535,000), carried from stage 19 \u2014 the year conflict stands and now runs through the house itself: Broad Arrow's own Monterey 2024 event results list the lot as a 1965 car, while Hagerty's past-sale record for chassis 08465 and the CLASSIC.COM record list a 1966 car; the sources do not agree on the car's year, so the record remains skipped rather than certified on a contested identity.",
+  "Stage 20 pass: the 1989 Lamborghini Countach 25th Anniversary Edition, chassis ZA9C005A0KLA12973 (Gooding & Company Pebble Beach, lot 107, $418,000) \u2014 Gooding's own lot record and the CLASSIC.COM record agree on car, house and price and CLASSIC.COM dates the sale 16 August 2015, but Hagerty's past-sale record for the VIN heads the same sale as sold 15 March 2015 while its own event dates read 15 to 16 August 2015; the sources consulted disagree on the sale day, so the record is skipped rather than certifying a day the sources do not agree on (the stage 8 GT40 precedent), and carried as a named candidate."
  ],
- "stage": "Stage 19 \u2014 auction results, extended an eighteenth time; two certified results open a new Lamborghini Countach/USD cohort at n=2 (1974 LP400 Periscopo, Pebble Beach 2014; 1976 LP400 'Periscopica', Pebble Beach 2018) 2026-10-15",
+ "stage": "Stage 20 \u2014 auction results, extended a nineteenth time; three certified Lamborghini Countach results deepen the Countach/USD cohort from n=2 to n=5 (1984 5000S, Amelia Island 2018; 1984 5000S, Pebble Beach 2021; 1989 25th Anniversary Edition, Pebble Beach 2021) 2026-10-15",
  "updatedAt": "2026-10-15",
  "version": "1.0.0"
 }
