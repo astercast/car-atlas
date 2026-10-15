@@ -3090,9 +3090,9 @@
   "buyingClass": "used",
   "generationCount": 1,
   "photo": "assets/photos/mclaren-720s.webp",
-  "photoCaption": "McLaren Super Series (720S family), front 3/4",
-  "photoCredit": "Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons",
-  "photoSource": "https://commons.wikimedia.org/wiki/File:2017_McLaren_720S_4.jpg"
+  "photoCaption": "McLaren 720S, rear 3/4",
+  "photoCredit": "Photo: Y.Leclercq, CC BY-SA 4.0, via Wikimedia Commons",
+  "photoSource": "https://commons.wikimedia.org/wiki/File:McLaren_720S_-_06.jpg"
  },
  {
   "type": "model",
@@ -4130,9 +4130,9 @@
   "buyingClass": "vintage",
   "generationCount": 2,
   "photo": "assets/photos/cord-810-812.webp",
-  "photoCaption": "Cord 810/812, front 3/4, museum",
-  "photoCredit": "Photo: Sicnag, CC BY 2.0, via Wikimedia Commons",
-  "photoSource": "https://commons.wikimedia.org/wiki/File:1936_Cord_810_Westchester_Sedan_(21559608830).jpg"
+  "photoCaption": "Cord 810/812 Westchester sedan, front 3/4, concours grass",
+  "photoCredit": "Photo: David Berry, CC BY 2.0, via Wikimedia Commons",
+  "photoSource": "https://commons.wikimedia.org/wiki/File:1937_Cord_810_Westchester_Sedan_(7562701240).jpg"
  },
  {
   "type": "make",
@@ -4446,9 +4446,9 @@
   "buyingClass": "vintage",
   "generationCount": 1,
   "photo": "assets/photos/stutz-vertical-eight.webp",
-  "photoCaption": "1920s luxury open tourer, period photo, snow",
-  "photoCredit": "Photo: Tekniska museet, CC BY 2.0, via Wikimedia Commons",
-  "photoSource": "https://commons.wikimedia.org/wiki/File:1927_Stutz_Vertical_Eight_AA_(21006235774).jpg"
+  "photoCaption": "1928 Stutz Blackhawk boattail speedster, museum display",
+  "photoCredit": "Photo: Alan Raine, CC BY 2.0, via Wikimedia Commons",
+  "photoSource": "https://commons.wikimedia.org/wiki/File:Stutz_2_(48853929822).jpg"
  },
  {
   "type": "make",

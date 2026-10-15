@@ -376,6 +376,25 @@ expected gap; depth and live intelligence are.
   atlas already carried. Condition **30/119 → 32/125**, mileage
   **33/119 → 36/125**, chassis **90/119 → 96/125**, populated
   only where the certifying source states the field.
+- **T-CARS-1: the tenth benchmark cohort, and the last range.**- **Price Watch stage 13 (rotation 31):** 125 → **130 certified
+  results**. The pass worked a new model from the atlas's own
+  records on the stage-12 precedent: the Toyota 2000GT, one
+  certified sale carried (BaT 2022, $2,535,000) → **six** (RM
+  Auctions Don Davis Fort Worth 2013, $1,155,000; Gooding Pebble
+  Beach 2014, $1,155,000; RM Sotheby's Arizona 2018, $665,000;
+  RM Sotheby's Petersen 2018, $511,000; RM Sotheby's Elkhart
+  2020, $912,500), a range cohort at n=6, two short of the n≥8
+  median trigger. Three candidates skipped and recorded in the
+  file: one sold result the house never published a figure for,
+  one whose two sources disagree on whether it sold, one dated
+  only to a two-day event. Condition **32/125 → 33/130**,
+  mileage **36/125 → 40/130**, chassis **96/125 → 100/130**,
+  linked **98 → 103**, orphans unchanged at 27. The restorations
+  item also closed this rotation (see WAVELOG): the Commons API
+  licence route, never attempted in rotations 29–30, verified
+  all three named candidates; a badged Stutz Blackhawk (a named
+  trim of the Vertical Eight record) replaces the unbadged
+  period photo.
 - **T-CARS-1: the tenth benchmark cohort, and the last range.**
   The F1/USD cohort reached **n=8**, past the priced n≥8
   trigger, so the build-computed machinery now publishes ten
@@ -584,6 +603,10 @@ $14,685,000), joining the nine standing medians in
 `data/v1/cohorts.json`; all ten of the cohorts at n≥2 are now
 benchmarks and no range-only cohort remains. The set stands at
 125 certified, condition population 32/125, still short of the
+**Rotation 31 update:** stage 13 took the set to 130 certified
+(condition 33/130, mileage 40/130, chassis 100/130, linked 103,
+orphans 27) and opened one new range-only cohort, the Toyota
+2000GT in dollars at n=6; the ten benchmark medians stand.
 majority (c) requires, and (a) scale is still ~18 stage passes
 away at the demonstrated rate, or the same licensed-feed owner
 call.

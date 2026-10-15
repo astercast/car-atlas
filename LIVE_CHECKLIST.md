@@ -252,6 +252,17 @@ a conversation.
   median $14,685,000 over eight sales, 2006–2026). Still no
   function, no cron, no external call — the audit above is
   unchanged.
+- **Rotation-31 addendum (2026-10-15):** Price Watch stage 13
+  extended the same static file to 130 certified results (5 added,
+  all linked to the Toyota 2000GT model record; linked 98 → 103 of
+  130, orphans unchanged at 27; condition 32/125 → 33/130, mileage
+  36/125 → 40/130, chassis 96/125 → 100/130). The 2000GT dollar
+  cohort (n=6) stands as a range-only cohort below the n≥8 trigger;
+  the ten benchmark cohorts are unchanged. The same rotation
+  restored three name-level photographs on Commons licence-verified
+  evidence (Cord Westchester sedan, plain McLaren 720S, badged
+  Stutz Blackhawk), closing the restorations item open since
+  rotation 29. Still no function, no cron, no external call.
 - **Rotation-23 addendum (2026-10-14):** photography completed
   (257/257 models, 59/59 makes photographed from licensed Commons
   sources, per-photo credit + file-page URL in the dataset for the

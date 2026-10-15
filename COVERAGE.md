@@ -155,7 +155,13 @@ cohort of two or more is now a benchmark cohort. Five further
 candidates were skipped and recorded: three whose sources
 disagree on the figure or its basis, one sealed sale whose
 result was never published, and one whose house-published
-currency could not be established. The standing
+currency could not be established. Stage 13
+(rotation 31) extended the set to 130 results — 5 new results
+link to the Toyota 2000GT model page (certified dollar sales
+2013–2020); condition now stands at 33/130, mileage at 40/130,
+chassis at 100/130 — and opened the 2000GT dollar cohort at n=6,
+a range-only cohort below the median trigger. Three further
+candidates were skipped and recorded. The standing
 benchmark against the top car sites in the world — the named set,
 the scorecard, and the priced T-CARS-1 / T-CARS-5 closures — lives
 in `BENCHMARK.md`. Still planned: listings ingest adapters for

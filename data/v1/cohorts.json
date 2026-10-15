@@ -181,6 +181,23 @@
    ],
    "benchmark": true,
    "median": 14685000.0
+  },
+  {
+   "make": "toyota",
+   "makeName": "Toyota",
+   "modelSlug": "2000gt",
+   "modelName": "2000GT",
+   "currency": "USD",
+   "n": 6,
+   "min": 511000,
+   "max": 2535000,
+   "firstSale": "2013-04-27",
+   "lastSale": "2022-03-04",
+   "modelYears": [
+    1967,
+    1967
+   ],
+   "benchmark": false
   }
  ]
 }

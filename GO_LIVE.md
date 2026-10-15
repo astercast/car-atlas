@@ -57,7 +57,7 @@ release track must never be improvised.
   it degrades the API only, never the static site.
 - **Price Watch stays inside this posture.** Stages 1–12 (waves 4–11,
   rotations 25–30)
-  are a static file, `data/v1/price-watch.json` (125 certified
+  are a static file, `data/v1/price-watch.json` (130 certified
   results), plus the build-computed `data/v1/cohorts.json` — no function, no cron, no external service. Any future ingest cron gets its own explicit
   `vercel.json` entry and its own audit line here *before* it ships;
   no stage may add a paid service.

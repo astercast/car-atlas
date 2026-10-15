@@ -1,5 +1,31 @@
 # WAVELOG — Car Atlas
 
+## Rotation 31 — PRICE WATCH STAGE 13 (125 → 130, Toyota 2000GT cohort opens at n=6) + RESTORATIONS CLOSED: all three name-level photographs restored on Commons API licence-verified evidence (2026-10-15)
+
+- **Restorations (open since rotation 29): CLOSED.** The route
+  rotations 29–30 never attempted, the Commons MediaWiki API
+  licence check, verified all three candidates. Bound: the 1937
+  Cord 810 Westchester sedan by David Berry (CC BY 2.0) on the
+  Cord 810/812 record, caption raised from the 810/812 family to
+  the Westchester sedan its frame proves; the plain McLaren
+  720S whole-car rear 3/4 by Y.Leclercq (CC BY-SA 4.0, the
+  photographer's "-06" frame; their "-07" frame is a badge
+  detail, which is what rotation 30's record mistook it for a
+  whole car on) replaces the 720S-family photo; and a badged
+  1928 Stutz Blackhawk boattail speedster by Alan Raine
+  (CC BY 2.0, "STUTZ" nameplate legible in frame; Blackhawk is a
+  named trim of this record) replaces the unbadged period photo
+  on the Vertical Eight record. One phantom warning: a search
+  listing surfaced several Stutz titles that do not exist on
+  Commons; every bound title was verified by direct API record.
+- **Price Watch stage 13:** **125 → 130 certified results**,
+  Toyota 2000GT dollars **1 → 6** (a new range cohort, n=6,
+  below the n≥8 trigger; ten benchmark cohorts unchanged).
+  Condition **32/125 → 33/130**, mileage **36/125 → 40/130**,
+  chassis **96/125 → 100/130**, linked **98 → 103**, orphans
+  unchanged at 27. Three skips recorded in the file.
+
+
 ## Rotation 30, stage 3 — S5 RESIDUE: the cover source link grown to a full target; 10 → 9 sub-44 targets at each phone width, the remaining 9 named and left with their arguments (2026-10-14)
 
 Reproduced first with the audit's own measure on its 12 surfaces, on the stage-2 tree: exactly 10 sub-44px targets at 320 and 10 at 390, jumble classes zero everywhere (no overlaps, no clipped text, no spill, no horizontal overflow). Composition as named at rotation 29: cert-line "Buy page" prose links ×5, caption "File page ↗" credit links ×4, cover source link ×1. One honest fix: the cover source link (the RM Sotheby's press-release link in the home cover's source line, measured 249×37 / 314×37) owns most of its own line and missed 44 by 7px of height; it now grows invisibly inside the ≤700px block (5px padding cancelled by equal negative margins, ink unmoved, verified by text-ink rects), measures 46.8px tall, hit-tests true on both its line fragments, and a real touch tap opened its URL. Totals after: 9 at 320, 9 at 390. The remaining two classes are named and left, argued in landing-cars-r30-residue.md: the cert-line links are inline prose inside a factual paragraph (their neighbours are the certification counts themselves; the destination, the rebuilt Buy page, now opens with the car picker the sentence's readers need), and the caption credit links carry licence attribution inside credit lines whose neighbouring targets are the models-grid links on make pages. Desktop proven unchanged: 1440px geometry dumps pre/post agree on all 736 home and 273 F40 elements (noise floor 0). Certified count untouched (125), presented em dashes still 0 (320-page crawl, 0 overflow, 0 errors).
