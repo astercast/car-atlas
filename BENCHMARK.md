@@ -412,6 +412,23 @@ expected gap; depth and live intelligence are.
   Condition **33/130 → 33/133**, mileage **40/130 → 41/133**,
   chassis **100/130 → 102/133**, linked **103 → 106**, orphans
   unchanged at 27.
+- **Price Watch stage 15 (rotation 33):** 133 → **136 certified
+  results**. The pass worked the certified set's breadth from
+  its single-record model pages: three Mercedes-Benz 300 SL
+  Gullwing dollar sales at RM Sotheby's Amelia Island (2022,
+  chassis 198.040.5500693, $2,040,000; 2018, chassis
+  198.040.6500292, $1,077,500; 2017, chassis 198.040.4500116,
+  $1,358,500), taking the SL/USD cohort from the standing
+  single record to **n=4** — a new range cohort below the
+  trigger; the eleven benchmark medians stand. Each record
+  was certified against two independent sources agreeing on
+  car, house, sale day and price. Skips recorded in the file:
+  a 2025 Arizona Gullwing whose sources attribute it to
+  different chassis, and the carried 2000GT candidate
+  MF1010219 (no second source stating price and day together,
+  this pass's fresh search included). Condition **33/133**,
+  mileage **41/133 → 44/136**, chassis **102/133 → 105/136**,
+  linked **106 → 109**, orphans unchanged at 27.
 - **T-CARS-1: the tenth benchmark cohort, and the last range.**
   The F1/USD cohort reached **n=8**, past the priced n≥8
   trigger, so the build-computed machinery now publishes ten
@@ -631,6 +648,12 @@ orphans 27) and worked the Toyota 2000GT dollar cohort from
 n=6 to n=9, past the trigger: eleven benchmark medians now
 stand in `data/v1/cohorts.json` (2000GT/USD median $880,000)
 and no range-only cohort remains.
+
+**Rotation 33 update:** stage 15 took the set to 136 certified
+(condition 33/136, mileage 44/136, chassis 105/136, linked 109,
+orphans 27) and opened one new range cohort, the Mercedes-Benz
+300 SL in dollars at n=4 on the SL record; the eleven
+benchmark medians stand.
 majority (c) requires, and (a) scale is still ~18 stage passes
 away at the demonstrated rate, or the same licensed-feed owner
 call.

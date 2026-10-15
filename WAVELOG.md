@@ -1,5 +1,26 @@
 # WAVELOG — Car Atlas
 
+## Rotation 33 — PRICE WATCH STAGE 15 (133 → 136, a new Mercedes-Benz 300 SL cohort opens at n=4 on the SL record) (2026-10-15)
+
+- **Price Watch stage 15:** **133 → 136 certified results**,
+  opening a new cohort from the certified set's single-record
+  model pages: the Mercedes-Benz 300 SL in dollars, **1 → 4**
+  on the SL model record (below the n≥8 T-CARS-1 trigger, so it
+  stands as a range cohort and the eleven benchmarks stand).
+  The three records, all 300 SL Gullwings at RM Sotheby's
+  Amelia Island: chassis 198.040.5500693 in 2022 ($2,040,000);
+  chassis 198.040.6500292 in 2018 ($1,077,500); chassis
+  198.040.4500116 in 2017 ($1,358,500). Each certified against
+  two independent sources agreeing on car, house, sale day
+  and price. Condition **33/133**, mileage **41/133 → 44/136**,
+  chassis **102/133 → 105/136**, linked **106 → 109**, orphans
+  unchanged at 27. Two skips recorded in the file (a 2025
+  Arizona Gullwing whose sources attribute it to different
+  chassis; the carried 2000GT candidate MF1010219, again with
+  no second source stating price and sale day together).
+  Restorations stay closed (rotation 31); the 250 GTO record
+  and T-CARS-5 rung 2 untouched, owner's calls.
+
 ## Rotation 32 — PRICE WATCH STAGE 14 (130 → 133, Toyota 2000GT cohort n=6 → n=9: the eleventh benchmark fires, no range-only cohort remains) (2026-10-15)
 
 - **Price Watch stage 14:** **130 → 133 certified results**,

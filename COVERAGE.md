@@ -169,7 +169,15 @@ certified sale of chassis MF1010088); condition now stands at
 2000GT dollar cohort from n=6 to n=9, past the median trigger
 (median $880,000), so every cohort of two or more is again a
 benchmark cohort and no range-only cohort remains. Three
-further candidates were skipped and recorded. The standing
+further candidates were skipped and recorded. Stage 15
+(rotation 33) extended the set to 136 results — 3 new results,
+all Mercedes-Benz 300 SL Gullwing dollar sales at RM Sotheby's
+Amelia Island (2017–2022), opening the SL dollar cohort at n=4
+on the standing SL record; condition now stands at 33/136,
+mileage at 44/136, chassis at 105/136. The eleven benchmark
+cohorts stand; the 300 SL cohort stands as the one range
+cohort, below the median trigger. Two further candidates were
+skipped and recorded. The standing
 benchmark against the top car sites in the world — the named set,
 the scorecard, and the priced T-CARS-1 / T-CARS-5 closures — lives
 in `BENCHMARK.md`. Still planned: listings ingest adapters for

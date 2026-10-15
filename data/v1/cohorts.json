@@ -199,6 +199,23 @@
    ],
    "benchmark": true,
    "median": 14685000.0
+  },
+  {
+   "make": "mercedes-benz",
+   "makeName": "Mercedes-Benz",
+   "modelSlug": "sl",
+   "modelName": "300 SL Gullwing",
+   "currency": "USD",
+   "n": 4,
+   "min": 1077500,
+   "max": 6825000,
+   "firstSale": "2017-03-11",
+   "lastSale": "2022-03-05",
+   "modelYears": [
+    1954,
+    1956
+   ],
+   "benchmark": false
   }
  ]
 }
