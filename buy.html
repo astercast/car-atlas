@@ -27,9 +27,8 @@
 <body data-page="buy">
 <header class="nav"><div class="wrap nav-in">
   <a class="wordmark" href="index.html">CAR ATLAS<span class="dot">.</span></a>
-  <nav class="nav-links">
-    <a href="index.html#makes">Makes</a><a href="index.html#eras">Eras</a><a href="buy.html" aria-current="page">Buy</a><a href="clubs.html">Clubs</a>
-  </nav>
+  <nav class="nav-links"><a href="index.html#atlas">The Atlas</a><a href="index.html#price-watch">Price Watch</a><a href="index.html#journal">The Journal</a><a href="buy.html" aria-current="page">Buy</a><a href="clubs.html">Clubs</a></nav>
+  <div class="nav-search"><input type="search" class="nav-q" placeholder="Search cars…" aria-label="Search every make and model" autocomplete="off"><div class="results nav-results hidden" role="listbox"></div></div>
 </div></header>
 <main class="wrap">
   <div class="page-head">
@@ -39,8 +38,17 @@
   </div>
   <p id="js-error" class="note-box hidden" role="alert"></p>
 
+  <section class="block" id="pick">
+    <div class="block-head"><h2>Pick the car</h2><p>Choose a make and a model here. The atlas takes you straight to that car's own buying channels, the list its record ends with. No trip back to a model page to start over.</p></div>
+    <div class="filters">
+      <span><label for="p-make">Make</label> <select id="p-make"></select></span>
+      <span><label for="p-model">Model</label> <select id="p-model"></select></span>
+      <a class="btn pick-go" id="p-go" href="#pick" aria-disabled="true">Pick a car first</a>
+    </div>
+  </section>
+
   <section class="block">
-    <div class="block-head"><h2>Buying classes</h2><p>Find a model page and you'll see its class, plus the channels that matter for it.</p></div>
+    <div class="block-head"><h2>Buying classes</h2><p>Each class is a market shape: where that kind of car actually clears. Pick the car above and its record shows its class with the channels that matter for it.</p></div>
     <div class="rows" id="class-grid"></div>
   </section>
 
@@ -83,13 +91,13 @@
 
   <div class="closing">
     <h2>Pick the car first. The atlas will walk you to the market.</h2>
-    <p>Every model page ends with its buying class and the channels that set its price.</p>
-    <a class="btn" href="index.html#makes">Browse the makes →</a>
+    <p>Every model record ends with its buying class and the channels that set its price, and the picker at the top of this page goes straight there.</p>
+    <a class="btn" href="#pick">Pick the car →</a>
   </div>
 </main>
 <footer><div class="wrap f-in">
   <div><b>Car Atlas.</b> Every car ever made, built in the open, wave by wave. Car Atlas does not sell cars.</div>
-  <nav><a href="index.html#makes">Makes</a><a href="buy.html">Buy</a><a href="clubs.html">Clubs</a></nav>
+  <nav><a href="index.html#atlas">The Atlas</a><a href="index.html#price-watch">Price Watch</a><a href="index.html#journal">The Journal</a><a href="buy.html">Buy</a><a href="clubs.html">Clubs</a></nav>
 </div></footer>
 <script src="assets/js/fetch_deadline.js"></script>
 <script src="assets/js/app.js"></script>

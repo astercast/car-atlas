@@ -1,5 +1,9 @@
 # WAVELOG — Car Atlas
 
+## Rotation 30, stage 2 — VP-0041 SITE CLARITY: one nav vocabulary, Buy takes the car choice, named-car search in every header, footer map completed (2026-10-14)
+
+Every page (home, Buy, Clubs, make, model, 404) now carries the same header: the wordmark, one label set (The Atlas, Price Watch, The Journal, Buy, Clubs, one label per destination; the old interior Makes/Eras vocabulary is retired, those being departments inside The Atlas section, not separate destinations), and the front door's instant search in the header, reaching a model page by name from anywhere. The Buy page opens with a Pick the car block (make picker, model picker, one go link) that lands on the chosen car's own record at its Where to buy channels; the copy that sent the visitor back to a model page is gone, and the closing block points at the picker. Every footer now maps the site's five real sections. Model-page breadcrumbs (ATLAS / FERRARI / F40) are untouched. Retest by the audit's own machinery (nav census re-run on the fixed tree from a scratch copy): one nav label set modal on 14/14 surfaces, search present in the nav on 14/14, footer carrying all five sections on every page that has one. Cold-read retest of the audit's failed task (find where to buy an F40, from the top nav): completed with zero wrong turns, against one wrong turn and a forced backtrack before. Certified count and the ten benchmark cohorts unchanged (125, stage 12 below); presented em dashes still 0 sitewide (320-page crawl, 0 overflow, 0 errors).
+
 ## Rotation 30 — PRICE WATCH STAGE 12: the last range cohort worked (119 → 125), tenth T-CARS-1 benchmark cohort (McLaren F1/USD n=2 → n=8, median $14,685,000); Commons restoration probe answered 429, restorations stay open (2026-10-14)
 
 **Headline (named before building):** certified results advance

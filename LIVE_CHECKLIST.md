@@ -218,6 +218,19 @@ a conversation.
   $1,100,000 over n=9). Still no function, no cron, no external
   call — the audit above is unchanged.
 
+- **Rotation-30 stage-2 addendum (2026-10-14, VP-0041):** one nav
+  vocabulary on every page (The Atlas / Price Watch / The Journal /
+  Buy / Clubs, plus the header search reaching a model page by
+  name); the Buy page takes a car choice itself (Pick the car) and
+  lands on that car's buying channels; footers map all five real
+  sections; breadcrumbs unchanged. If any template's header or
+  footer is edited, keep the label set, order and destinations
+  identical across all six templates (index, buy, clubs, make,
+  model, 404) and keep the header search wired (app.js
+  initNavSearch). Census retest and cold-read retest pass on the
+  stage-2 tree; see landing-cars-r30-nav.md in the wave-engine
+  records.
+
 - **Rotation-30 addendum (2026-10-14):** Price Watch stage 12
   extended the same static file to 125 certified results (6 added,
   all linked to the McLaren F1 model record; linked 92 → 98 of

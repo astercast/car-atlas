@@ -523,6 +523,7 @@ async function initModel() {
       ...(model.photo ? { image: model.photo } : {}),
     }).replace(/</g, "\\u003c")}<\/script>`;
   live = true; cancelWatchdog();
+  if (location.hash === "#buy") { const b = $("#buy"); if (b) b.scrollIntoView(); }
   const fb = $("#follow-btn");
   if (fb) fb.addEventListener("click", () => {
     const list = readFollows();
@@ -587,6 +588,31 @@ async function initBuy() {
     const idx = await fetchJSON("data/v1/search-index.json").catch(() => []);
     const photoMap = photoMapFromIndex(idx);
     const photoOf = (r) => (r.modelSlug ? photoMap.get(`${r.make}/${r.modelSlug}`) : null);
+
+    /* Buy picker (VP-0041): the Buy page takes a car choice itself and
+       lands on that car's own buying channels (its record's #buy
+       section), instead of sending the visitor back to a model page. */
+    const pMake = $("#p-make"), pModel = $("#p-model"), pGo = $("#p-go");
+    if (pMake && pModel && pGo) {
+      const makesIdx = idx.filter((e) => e.type === "make");
+      pMake.innerHTML = `<option value="">Choose a make</option>` + makesIdx.map((m) => `<option value="${esc(m.slug)}">${esc(m.name)}</option>`).join("");
+      const syncGo = () => {
+        const on = !!(pMake.value && pModel.value);
+        pGo.href = on ? `${modelUrl(pMake.value, pModel.value)}#buy` : "#pick";
+        pGo.textContent = on ? "See where it trades →" : "Pick a car first";
+        pGo.setAttribute("aria-disabled", String(!on));
+      };
+      const syncModels = () => {
+        const models = pMake.value ? idx.filter((e) => e.type === "model" && e.make === pMake.value) : [];
+        pModel.innerHTML = `<option value="">${pMake.value ? "Choose a model" : "Choose a make first"}</option>` + models.map((m) => `<option value="${esc(m.slug)}">${esc(m.name)} (${esc(m.years)})</option>`).join("");
+        pModel.disabled = !pMake.value;
+        syncGo();
+      };
+      pMake.addEventListener("change", syncModels);
+      pModel.addEventListener("change", syncGo);
+      pGo.addEventListener("click", (ev) => { if (pGo.getAttribute("aria-disabled") === "true") ev.preventDefault(); });
+      syncModels();
+    }
 
     /* Following (T-CARS-5 rung 1): models followed in this browser
        surface here with their newest certified result first. */
@@ -678,6 +704,18 @@ async function initBuy() {
     if (note) note.textContent = pw.note;
   } catch { /* results stay unpublished rather than guessed */ }
 }
+
+/* Nav search (VP-0041): the home front door's instant search, in the
+   header of every page, so a named car is reachable by name from
+   anywhere. Results land on the make or model page itself. */
+async function initNavSearch() {
+  const input = $(".nav-q");
+  if (!input) return;
+  const box = $(".nav-results");
+  const idx = await fetchJSON("data/v1/search-index.json");
+  wireSearch(input, box, idx);
+}
+initNavSearch().catch(() => { /* the header search stays inert rather than guessed */ });
 
 const page = document.body.dataset.page;
 const boot = { home: initHome, make: initMake, model: initModel, clubs: initClubs, buy: initBuy }[page];

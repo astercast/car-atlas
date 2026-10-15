@@ -114,13 +114,22 @@ a:hover { color: var(--accent-ink); }
 .small { font-size: 13.5px; }
 .center-note { color: var(--ink-3); padding: 32px 0; }
 
-/* Nav, wordmark + 4 destinations, nothing else */
+/* Nav, wordmark + 5 destinations + search, one vocabulary on every page (VP-0041) */
 .nav { position: sticky; top: 0; z-index: 50; background: color-mix(in srgb, var(--paper) 92%, transparent); backdrop-filter: blur(14px); }
 .nav-in { display: flex; align-items: center; gap: 28px; height: 60px; }
 .wordmark { font-weight: 800; letter-spacing: -0.03em; font-size: 19px; white-space: nowrap; }
 .wordmark .dot { color: var(--accent); }
 .nav-links { display: flex; gap: 26px; font-size: 14px; color: var(--ink-2); margin-left: auto; }
 .nav-links a[aria-current="page"] { color: var(--ink); box-shadow: inset 0 -2px 0 var(--accent); }
+/* Nav search (VP-0041): the front door's instant search in every
+   header, one vocabulary with the home search box. The results
+   panel reuses the .results anatomy, pinned to the header's edge. */
+.nav-search { position: relative; flex: 0 1 176px; min-width: 120px; }
+.nav-search input { width: 100%; font: inherit; font-size: 14px; padding: 7px 2px; background: transparent; color: var(--ink); border: 0; border-bottom: 1px solid var(--line); border-radius: 0; outline: none; }
+.nav-search input:focus { border-bottom-color: var(--ink); }
+.nav-results { left: auto; right: 0; width: 300px; max-width: 86vw; }
+/* Buy picker go-link (VP-0041): inert until a car is chosen. */
+.pick-go[aria-disabled="true"] { opacity: 0.45; }
 
 /* Masthead + folio line, the issue's fixed furniture (P11) */
 .masthead { padding: 64px 0 0; }
@@ -347,6 +356,10 @@ footer nav { display: flex; gap: 20px; }
   .nav-in { flex-wrap: wrap; height: auto; padding-top: 10px; padding-bottom: 10px; row-gap: 2px; }
   .nav-links { flex-basis: 100%; flex-wrap: wrap; margin-left: 0; gap: 2px 18px; }
   .nav-links a { white-space: nowrap; padding: 12px 2px; }
+  /* VP-0041: the header search takes its own full row under the nav
+     links at phone widths, a real 44px target, same wrap pattern. */
+  .nav-search { flex-basis: 100%; order: 3; }
+  .nav-search input { min-height: 44px; padding-top: 11px; padding-bottom: 11px; }
   /* 320px residue fitting (QA r71/r72): under a 300px floor the
      makes grid forced a 300px column into the 272px phone measure
      (home, 4px; the floor now yields via min() in the base rule).
