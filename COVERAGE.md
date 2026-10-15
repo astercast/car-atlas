@@ -228,7 +228,26 @@ opening the Enzo cohorts in euros and in dollars at n=2
 each, printing ranges only; condition now stands at
 43/157, mileage at 61/157, chassis at 125/157. The nine
 carried named skips stand on their standing conditions and
-were recorded again. The standing
+were recorded again.
+Completeness pass (2026-10-15) extended the set to 165
+results: 8 new results from an audit against the all-time
+record list and the 2025-2026 seasons (Ferrari Luce and
+Corvette Grand Sport at RM Sotheby's Monterey 2026; the
+250 GTO 3729 GT and Enzo 135262 at Mecum Kissimmee 2026;
+the Daytona SP3 and F40 LM 95448 at RM Sotheby's Monterey
+2025; the 250 LM 5893 at RM Sotheby's Paris 2025; the
+290 MM 0628 at RM Sotheby's Petersen Museum 2018); three
+of the eight link to model pages (Corvette, Enzo, F40) and
+five are orphans; condition now stands at 43/165, mileage
+at 62/165, chassis at 132/165. The Corvette dollar cohort
+deepens to n=11 (median $475,000), the F40 dollar cohort
+to n=10 (median $3,732,500) and the Enzo dollar cohort to
+n=3, ranges only. Three further candidates were skipped
+and recorded (a California Spider Competizione whose
+sources disagree on the sale day, a Shelby Daytona Coupe
+with no marque record here, and the Bachman Collection's
+remaining Kissimmee 2026 records, carried as named
+candidates). The standing
 benchmark against the top car sites in the world — the named set,
 the scorecard, and the priced T-CARS-1 / T-CARS-5 closures — lives
 in `BENCHMARK.md`. Still planned: listings ingest adapters for

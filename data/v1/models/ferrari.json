@@ -244,6 +244,59 @@
     "Roma Spider"
    ],
    "years": "2020–present"
+  },
+  {
+   "bodyStyles": [
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Chassis 3413 GT made $48,405,000 at RM Sotheby's Monterey in 2018, then the world auction record for a car. A 1963 car was reported sold privately the same year at around $70 million, a figure never confirmed by buyer or seller. Provenance is everything here.",
+   "generations": [
+    {
+     "code": "Tipo 151",
+     "name": "250 GTO (Series I)",
+     "note": "Thirty-six cars, each hand-finished and slightly different. The 3.0 litre Colombo V12 made 300 hp through a gated five-speed. GTOs won the International Championship for GT Manufacturers in 1962, 1963 and 1964, and beat Cobras and E-types doing it.",
+     "spec": {
+      "drivetrain": "RWD, 5-speed manual",
+      "engine": "3.0L Colombo V12",
+      "power": "300 hp"
+     },
+     "years": "1962–1964"
+    },
+    {
+     "code": "GTO/64",
+     "name": "250 GTO Series II (GTO/64)",
+     "note": "For 1964 Scaglietti gave a handful of cars a wider, lower body with a roof spoiler and a reshaped nose. The mechanical package carried over. Series II cars closed out the model's run at the front of GT racing before the mid-engined era arrived.",
+     "spec": {
+      "drivetrain": "RWD, 5-speed manual",
+      "engine": "3.0L Colombo V12",
+      "power": "300 hp"
+     },
+     "years": "1964"
+    }
+   ],
+   "intro": "The most valuable production car line in the world began as a homologation argument. Ferrari needed a GT racer for 1962, built 36 cars around the Colombo V12, and persuaded the FIA the GTO was a version of the 250 SWB. It then won the manufacturers' title three years straight.",
+   "name": "250 GTO",
+   "photo": "assets/photos/ferrari-250-gto-series2.webp",
+   "photoCaption": "1964 Ferrari 250 GTO (Series II body)",
+   "photoCredit": "Photo: Calreyn88, CC BY 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1964_Ferrari_250_GTO_Series_2.jpg",
+   "photos": [
+    {
+     "caption": "1964 Ferrari 250 GTO (Series II body)",
+     "credit": "Photo: Calreyn88, CC BY 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1964_Ferrari_250_GTO_Series_2.jpg",
+     "src": "assets/photos/ferrari-250-gto-series2.webp"
+    }
+   ],
+   "segment": "Grand tourer",
+   "slug": "250-gto",
+   "status": "Discontinued",
+   "trims": [
+    "250 GTO",
+    "250 GTO Series II (GTO/64)"
+   ],
+   "years": "1962–1964"
   }
  ]
 }

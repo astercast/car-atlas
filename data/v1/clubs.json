@@ -505,6 +505,72 @@
    "slug": "pantera-owners-club-of-america",
    "type": "Marque club",
    "website": "poca.com"
+  },
+  {
+   "chapterModel": "Single club, owns and runs Prescott",
+   "description": "Founded 1929. The world's oldest Bugatti club, formed over dinner at Simpson's in the Strand, London. It bought the Prescott estate in Gloucestershire in the 1930s and still owns and runs the Prescott Speed Hill Climb.",
+   "focus": "Bugatti ownership, Prescott Speed Hill Climb",
+   "marque": "Bugatti",
+   "name": "Bugatti Owners' Club",
+   "region": "United Kingdom",
+   "slug": "bugatti-owners-club",
+   "type": "Owners club",
+   "website": "prescotthillclimb.co.uk"
+  },
+  {
+   "chapterModel": "National club, regional centres",
+   "description": "Founded 1936. Started by Keston Pelmore with a first meeting in Sloane Avenue, London, and rooted in the Brooklands racing scene. The club for W.O. and Crewe Bentleys alike, with racing, tours and concours at its core.",
+   "focus": "Bentley ownership, tours and competition",
+   "marque": "Bentley",
+   "name": "Bentley Drivers Club",
+   "region": "United Kingdom",
+   "slug": "bentley-drivers-club",
+   "type": "Owners club",
+   "website": "bdcl.org"
+  },
+  {
+   "chapterModel": "National club, local sections",
+   "description": "Founded 1949. Formed by John Beresford-Layton in February 1949, months after the 2CV's launch. The British home of the marque, covering everything from Traction Avants to the DS and the hydropneumatic cars.",
+   "focus": "Citroën ownership and preservation",
+   "marque": "Citroën",
+   "name": "Citroën Car Club",
+   "region": "United Kingdom",
+   "slug": "citroen-car-club",
+   "type": "Owners club",
+   "website": "citroencarclub.org.uk"
+  },
+  {
+   "chapterModel": "National club, regional groups",
+   "description": "Founded 1947. Grew out of the pre-war Lancia Car Club and is described as the oldest and largest Lancia club in the world, keeping everything from Lambdas to Delta Integrales on the road and on rallies.",
+   "focus": "Lancia ownership, rally heritage",
+   "marque": "Lancia",
+   "name": "Lancia Motor Club",
+   "region": "United Kingdom",
+   "slug": "lancia-motor-club",
+   "type": "Owners club",
+   "website": "lanciamc.co.uk"
+  },
+  {
+   "chapterModel": "National club, regional chapters",
+   "description": "Founded 1975. The recognised registry authority for 1962 to 1970 Shelby cars since 1976, tracking Cobras, GT350s and GT500s chassis by chassis. Its registry is the reference when an original car changes hands.",
+   "focus": "Shelby registry, authenticity, conventions",
+   "marque": "Shelby",
+   "name": "Shelby American Automobile Club (SAAC)",
+   "region": "United States",
+   "slug": "shelby-american-automobile-club",
+   "type": "Owners club / registry",
+   "website": "saac.com"
+  },
+  {
+   "chapterModel": "National club, local centres and model registers",
+   "description": "Founded 1930. First met at the Roebuck Hotel near Stevenage on 12 October 1930. Based at Kimber House in Abingdon, beside the old factory site, with model registers and local centres for every era of MG.",
+   "focus": "MG ownership, registers and centres",
+   "marque": "MG",
+   "name": "MG Car Club",
+   "region": "United Kingdom",
+   "slug": "mg-car-club",
+   "type": "Owners club",
+   "website": "mgcc.co.uk"
   }
  ],
  "note": "Seed registry of real, established clubs and club networks. Waves 1–2: national-level entries for most marques, with chapter-level entries (regional chapters with their own calendars) beginning in wave 2. Wave 3 adds the marque clubs for the historic batch, Duesenberg (via the ACD Club), Packard, Saab, Studebaker, DeLorean, Pontiac and Oldsmobile. Wave 5 adds the historic batch 2 clubs, Hudson, Nash, Kaiser, Stutz, Triumph, Austin-Healey, Jensen and TVR; Cord is served by the Auburn Cord Duesenberg Club already listed. Location discovery filters by region and marque; chapter-level geo data (city, meeting cadence, member counts) expands in later waves. Club details were accurate as seeded, verify current membership terms on each club's own site before joining.",
@@ -519,6 +585,6 @@
   "United Kingdom",
   "Worldwide"
  ],
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-15",
  "version": "1.0.0"
 }

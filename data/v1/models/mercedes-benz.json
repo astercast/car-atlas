@@ -315,6 +315,60 @@
     "GT 63"
    ],
    "years": "2014–present"
+  },
+  {
+   "bodyStyles": [
+    "Roadster",
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Seven open cars and two coupés were built. One coupé is the most valuable car on Earth; the second stays in the Mercedes-Benz Museum in Stuttgart and is not expected to ever be offered for sale.",
+   "generations": [
+    {
+     "code": "W 196 S",
+     "name": "300 SLR roadster",
+     "note": "The open car won the 1955 World Sportscar Championship. At the Mille Miglia, Stirling Moss and navigator Denis Jenkinson, using Jenkinson's pioneering roller-map pace notes, set the fastest time in the event's history, averaging just under 98 mph for 1,000 miles.",
+     "spec": {
+      "drivetrain": "RWD, 5-speed manual",
+      "engine": "3.0L direct-injection straight-eight",
+      "power": "302–310 hp"
+     },
+     "years": "1955"
+    },
+    {
+     "code": "W 196 S",
+     "name": "300 SLR Uhlenhaut Coupé",
+     "note": "Two gullwing coupés were built for the 1956 season that never came, after Mercedes withdrew from racing at the end of 1955. Engineering chief Rudolf Uhlenhaut used one as his company car. In May 2022 the other sold for €135 million, a world record, to fund the Mercedes-Benz Fund.",
+     "spec": {
+      "drivetrain": "RWD, 5-speed manual",
+      "engine": "3.0L direct-injection straight-eight",
+      "power": "302–310 hp"
+     },
+     "years": "1955"
+    }
+   ],
+   "intro": "Nine cars, one season, and the fastest road racer of its age. The 300 SLR put a Grand Prix straight-eight into a sports car, won the 1955 World Sportscar Championship, and set a Mille Miglia record that still stands. Its coupé derivative became the most valuable car ever sold.",
+   "name": "300 SLR",
+   "photo": "assets/photos/mercedes-benz-300-slr.webp",
+   "photoCaption": "1955 Mercedes-Benz 300 SLR Uhlenhaut Coupé, Mercedes-Benz Museum",
+   "photoCredit": "Photo: Alexander Migl, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_300_SLR_Uhlenhaut-Coupe_IMG_0874.jpg",
+   "photos": [
+    {
+     "caption": "1955 Mercedes-Benz 300 SLR Uhlenhaut Coupé, Mercedes-Benz Museum",
+     "credit": "Photo: Alexander Migl, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_300_SLR_Uhlenhaut-Coupe_IMG_0874.jpg",
+     "src": "assets/photos/mercedes-benz-300-slr.webp"
+    }
+   ],
+   "segment": "Sports car",
+   "slug": "300-slr",
+   "status": "Discontinued",
+   "trims": [
+    "300 SLR roadster",
+    "300 SLR Uhlenhaut Coupé"
+   ],
+   "years": "1955"
   }
  ]
 }

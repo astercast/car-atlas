@@ -239,6 +239,60 @@
     "GTA"
    ],
    "years": "1963–1976"
+  },
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Spider"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "The 1939 Lungo Spider made $19,800,000 at RM Sotheby's Monterey in 2016, then the most expensive pre-war car ever sold at auction. A 1939 Touring Berlinetta made €16,745,000 at Artcurial in Paris in 2019.",
+   "generations": [
+    {
+     "code": "2900B",
+     "name": "8C 2900B Corto",
+     "note": "The short-chassis cars carried spider and berlinetta bodies, with independent suspension all round and a rear transaxle, technology no rival matched. Road tune gave 180 hp from the 2.9 litre twin-cam eight.",
+     "spec": {
+      "drivetrain": "RWD, 4-speed transaxle",
+      "engine": "2.9L twin-supercharged straight-eight",
+      "power": "180 hp"
+     },
+     "years": "1937–1939"
+    },
+    {
+     "code": "2900B",
+     "name": "8C 2900B Lungo",
+     "note": "The long-chassis Lungo was the grand tourer of the pair, and Touring's berlinettas and spiders on it are among the most admired pre-war bodies ever made. The 2900 family owned the Mille Miglia, winning in 1936, 1937, 1938 and again in 1947.",
+     "spec": {
+      "drivetrain": "RWD, 4-speed transaxle",
+      "engine": "2.9L twin-supercharged straight-eight",
+      "power": "180 hp"
+     },
+     "years": "1937–1939"
+    }
+   ],
+   "intro": "Vittorio Jano's masterpiece took the Grand Prix Tipo B's twin-supercharged straight-eight and dressed it in Touring's Superleggera aluminium. Around 30 chassis were built in short Corto and long Lungo forms. Nothing else of the 1930s combined this speed, this engineering and this beauty in one car.",
+   "name": "8C 2900B",
+   "photo": "assets/photos/alfa-romeo-8c-2900b.webp",
+   "photoCaption": "1938 Alfa Romeo 8C 2900B Lungo Berlinetta",
+   "photoCredit": "Photo: Neal Parish, CC BY-SA 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1938_Alfa_Romeo_8C_2900_B_Lungo.jpg",
+   "photos": [
+    {
+     "caption": "1938 Alfa Romeo 8C 2900B Lungo Berlinetta",
+     "credit": "Photo: Neal Parish, CC BY-SA 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1938_Alfa_Romeo_8C_2900_B_Lungo.jpg",
+     "src": "assets/photos/alfa-romeo-8c-2900b.webp"
+    }
+   ],
+   "segment": "Grand tourer",
+   "slug": "8c-2900b",
+   "status": "Discontinued",
+   "trims": [
+    "8C 2900B Corto",
+    "8C 2900B Lungo"
+   ],
+   "years": "1937–1939"
   }
  ]
 }

@@ -774,6 +774,16 @@ orphans 27), opening two new Ferrari Enzo cohorts at n=2 each
 2015, $6,050,000, and Pebble Beach 2022, $4,130,000), ranges
 only, six sales short of the trigger; the thirteen benchmark
 medians stand unchanged in `data/v1/cohorts.json`.
+**Completeness pass update (2026-10-15):** the audit against the
+all-time record list and the 2025-2026 seasons took the set to
+165 certified (condition 43/165, mileage 62/165, chassis 132/165,
+linked 133, orphans 32), deepening the Chevrolet Corvette/USD
+cohort from n=10 to n=11 (median $454,750 to $475,000) and the
+Ferrari F40/USD cohort from n=9 to n=10 (median $3,665,000 to
+$3,732,500), and the Ferrari Enzo/USD cohort from n=2 to n=3,
+ranges only, five sales short of the trigger; the other eleven
+benchmark medians stand unchanged in `data/v1/cohorts.json`.
+
 majority (c) requires, and (a) scale is still ~18 stage passes
 away at the demonstrated rate, or the same licensed-feed owner
 call.

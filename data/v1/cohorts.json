@@ -3,6 +3,24 @@
  "source": "data/v1/price-watch.json",
  "cohorts": [
   {
+   "make": "chevrolet",
+   "makeName": "Chevrolet",
+   "modelSlug": "corvette",
+   "modelName": "Corvette Grand Sport",
+   "currency": "USD",
+   "n": 11,
+   "min": 225500,
+   "max": 18705000,
+   "firstSale": "2013-09-07",
+   "lastSale": "2026-08-15",
+   "modelYears": [
+    1957,
+    1969
+   ],
+   "benchmark": true,
+   "median": 475000
+  },
+  {
    "make": "mercedes-benz",
    "makeName": "Mercedes-Benz",
    "modelSlug": "sl",
@@ -21,22 +39,22 @@
    "median": 1737500
   },
   {
-   "make": "chevrolet",
-   "makeName": "Chevrolet",
-   "modelSlug": "corvette",
-   "modelName": "Corvette ZL1 Convertible, chassis 194679S710209",
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "modelSlug": "f40",
+   "modelName": "F40 LM by Michelotto",
    "currency": "USD",
    "n": 10,
-   "min": 225500,
-   "max": 3850000,
-   "firstSale": "2013-09-07",
-   "lastSale": "2023-01-26",
+   "min": 1386000,
+   "max": 11005000,
+   "firstSale": "2020-08-15",
+   "lastSale": "2025-08-16",
    "modelYears": [
-    1957,
-    1969
+    1990,
+    1993
    ],
    "benchmark": true,
-   "median": 454750.0
+   "median": 3732500.0
   },
   {
    "make": "lamborghini",
@@ -91,24 +109,6 @@
    ],
    "benchmark": true,
    "median": 1655000
-  },
-  {
-   "make": "ferrari",
-   "makeName": "Ferrari",
-   "modelSlug": "f40",
-   "modelName": "F40",
-   "currency": "USD",
-   "n": 9,
-   "min": 1386000,
-   "max": 3965000,
-   "firstSale": "2020-08-15",
-   "lastSale": "2025-08-15",
-   "modelYears": [
-    1990,
-    1992
-   ],
-   "benchmark": true,
-   "median": 3665000
   },
   {
    "make": "toyota",
@@ -241,6 +241,23 @@
    "makeName": "Ferrari",
    "modelSlug": "enzo",
    "modelName": "Enzo",
+   "currency": "USD",
+   "n": 3,
+   "min": 4130000,
+   "max": 17875000,
+   "firstSale": "2015-08-13",
+   "lastSale": "2026-01-17",
+   "modelYears": [
+    2003,
+    2005
+   ],
+   "benchmark": false
+  },
+  {
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "modelSlug": "enzo",
+   "modelName": "Enzo",
    "currency": "EUR",
    "n": 2,
    "min": 1568000,
@@ -250,23 +267,6 @@
    "modelYears": [
     2003,
     2004
-   ],
-   "benchmark": false
-  },
-  {
-   "make": "ferrari",
-   "makeName": "Ferrari",
-   "modelSlug": "enzo",
-   "modelName": "Enzo",
-   "currency": "USD",
-   "n": 2,
-   "min": 4130000,
-   "max": 6050000,
-   "firstSale": "2015-08-13",
-   "lastSale": "2022-08-19",
-   "modelYears": [
-    2004,
-    2005
    ],
    "benchmark": false
   }

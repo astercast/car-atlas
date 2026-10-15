@@ -312,6 +312,65 @@
     "X5 M"
    ],
    "years": "1999–present"
+  },
+  {
+   "bodyStyles": [
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "The most collectible BMW ever made. Procars with period race history sit at the top of the market; road cars follow, with low-mileage originality prized over restoration.",
+   "generations": [
+    {
+     "code": "E26",
+     "name": "M1 road car",
+     "note": "453 cars were built in total, 399 of them road cars. The M88 3.5 litre straight-six, a development of the racing CSL engine, made 277 hp. When the Lamborghini deal collapsed, BMW took production back and Baur finished the cars.",
+     "spec": {
+      "drivetrain": "RWD, 5-speed manual",
+      "engine": "3.5L M88 straight-six",
+      "power": "277 hp"
+     },
+     "years": "1978–1981"
+    },
+    {
+     "code": "E26",
+     "name": "M1 Procar",
+     "note": "Homologation delays left the M1 with nowhere to race, so BMW invented the Procar Championship as a Grand Prix support series: privateers against the five fastest F1 qualifiers in identical 470 hp cars. Niki Lauda won in 1979, Nelson Piquet in 1980.",
+     "spec": {
+      "drivetrain": "RWD, 5-speed manual",
+      "engine": "3.5L M88/1 straight-six",
+      "power": "470 hp"
+     },
+     "years": "1979–1980"
+    }
+   ],
+   "intro": "BMW's first mid-engined car and the first product of BMW Motorsport. Giugiaro styled it, Lamborghini was meant to build it and could not, and the M1 ended up famous less for its road career than for Procar, the one-make series that put Grand Prix drivers in identical cars.",
+   "name": "M1",
+   "photo": "assets/photos/bmw-m1.webp",
+   "photoCaption": "BMW M1 (E26) road car",
+   "photoCredit": "Photo: Charles, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:BMW_M1_(E26,_1979)_(52560280442).jpg",
+   "photos": [
+    {
+     "caption": "BMW M1 (E26) road car",
+     "credit": "Photo: Charles, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:BMW_M1_(E26,_1979)_(52560280442).jpg",
+     "src": "assets/photos/bmw-m1.webp"
+    },
+    {
+     "caption": "BMW M1 Procar in Niki Lauda's colours",
+     "credit": "Photo: Thomas Vogt, CC BY 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:BMW_M1_Procar_(54566369588).jpg",
+     "src": "assets/photos/bmw-m1-procar.webp"
+    }
+   ],
+   "segment": "Mid-engine sports car",
+   "slug": "m1",
+   "status": "Discontinued",
+   "trims": [
+    "M1 road car",
+    "M1 Procar"
+   ],
+   "years": "1978–1981"
   }
  ]
 }

@@ -348,6 +348,18 @@ a conversation.
   cohorts open in euros and in dollars at n=2 each, ranges only;
   the thirteen benchmark cohorts stand. Still no function, no
   cron, no external call.
+- **Completeness pass addendum (2026-10-15):** Price Watch
+  extended the same static file to 165 certified results (8 added
+  by the completeness audit against the all-time record list and
+  the 2025-2026 seasons: Ferrari Luce, Corvette Grand Sport, 250
+  GTO 3729 GT, Enzo 135262, Daytona SP3, F40 LM 95448, 250 LM 5893,
+  290 MM 0628; linked 130 → 133 of 165, orphans 27 → 32; condition
+  43/157 → 43/165, mileage 61/157 → 62/165, chassis 125/157 →
+  132/165). The Corvette dollar cohort deepens to n=11 (median
+  $475,000) and the F40 dollar cohort to n=10 (median $3,732,500);
+  the Enzo dollar cohort stands at n=3, a range cohort still. The
+  stage 23 dossier is not part of this pass. Still no function, no
+  cron, no external call.
 - **Rotation-23 addendum (2026-10-14):** photography completed
   (257/257 models, 59/59 makes photographed from licensed Commons
   sources, per-photo credit + file-page URL in the dataset for the

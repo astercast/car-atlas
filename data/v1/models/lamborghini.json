@@ -278,6 +278,75 @@
     "SE"
    ],
    "years": "2018–present"
+  },
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Roadster"
+   ],
+   "buyingClass": "modern-classic",
+   "collectorNote": "Every Diablo is a manual V12 with scissor doors, which is exactly what the market now prizes. The GT and SE30 lead the range; early rear-drive cars are the purist's pick.",
+   "generations": [
+    {
+     "code": "Diablo",
+     "name": "Diablo and Diablo VT",
+     "note": "Marcello Gandini's design, softened under Chrysler, launched with 485 hp and rear drive. The VT added viscous-coupling all-wheel drive, and the SE30 marked thirty years of Lamborghini with 523 hp and a stripped interior.",
+     "spec": {
+      "drivetrain": "RWD or AWD, 5-speed manual",
+      "engine": "5.7L V12",
+      "power": "485 hp"
+     },
+     "years": "1990–1998"
+    },
+    {
+     "code": "Diablo SV",
+     "name": "Diablo SV and Diablo GT",
+     "note": "The SV returned to rear drive with 510 hp and a huge rear wing. The GT of 1999 was the racer for the road: a 6.0 litre engine with 575 hp, carbon bodywork and 80 numbered cars, the most extreme Diablo built.",
+     "spec": {
+      "drivetrain": "RWD, 5-speed manual",
+      "engine": "6.0L V12",
+      "power": "575 hp"
+     },
+     "years": "1995–2000"
+    },
+    {
+     "code": "Diablo 6.0",
+     "name": "Diablo VT 6.0",
+     "note": "The final Diablo paired the GT's 6.0 litre engine with all-wheel drive and an Audi-era attention to finish: revised nose, new interior, 550 PS. It held the line for one year until the Murciélago arrived.",
+     "spec": {
+      "drivetrain": "AWD, 5-speed manual",
+      "engine": "6.0L V12",
+      "power": "550 PS"
+     },
+     "years": "2000–2001"
+    }
+   ],
+   "intro": "The Countach's successor kept the scissor doors and the mid-mounted V12 and added manners. The Diablo was the first production Lamborghini past 200 mph, the last flagship developed before Audi ownership, and at 2,884 cars the best-selling V12 Lamborghini of its era.",
+   "name": "Diablo",
+   "photo": "assets/photos/lamborghini-diablo.webp",
+   "photoCaption": "1999 Lamborghini Diablo VT Roadster in Giallo",
+   "photoCredit": "Photo: Mr.choppers, CC BY-SA 3.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1999_Lamborghini_Diablo_VT_Roadster_in_Giallo,_front_right.jpg",
+   "photos": [
+    {
+     "caption": "1999 Lamborghini Diablo VT Roadster in Giallo",
+     "credit": "Photo: Mr.choppers, CC BY-SA 3.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1999_Lamborghini_Diablo_VT_Roadster_in_Giallo,_front_right.jpg",
+     "src": "assets/photos/lamborghini-diablo.webp"
+    }
+   ],
+   "segment": "Supercar",
+   "slug": "diablo",
+   "status": "Discontinued",
+   "trims": [
+    "Diablo",
+    "Diablo VT",
+    "Diablo SE30",
+    "Diablo SV",
+    "Diablo GT",
+    "Diablo VT 6.0"
+   ],
+   "years": "1990–2001"
   }
  ]
 }

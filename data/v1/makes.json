@@ -786,9 +786,87 @@
    "photoSource": "https://commons.wikimedia.org/wiki/File:41_Willys_Jeep_MB_(8937385278).jpg",
    "slug": "willys",
    "status": "Defunct"
+  },
+  {
+   "blurb": "Ettore Bugatti built cars as art first and engineering second, and won relentlessly doing it. The marque slept for decades after the war, was revived by Volkswagen in 1998, and now builds the world's fastest production cars at Molsheim again.",
+   "country": "France",
+   "founded": 1909,
+   "hq": "Molsheim, France",
+   "knownFor": "Grand Prix winners, the Type 57 Atlantic, 1,000 hp hypercars",
+   "name": "Bugatti",
+   "photo": "assets/photos/bugatti-chiron.webp",
+   "photoCaption": "Bugatti Chiron Sport at Geneva, 2018",
+   "photoCredit": "Photo: Matti Blume, CC BY-SA 4.0, via Wikimedia Commons",
+   "slug": "bugatti",
+   "status": "Active"
+  },
+  {
+   "blurb": "W. O. Bentley's cars won Le Mans five times in the 1920s on pace and durability. Rolls-Royce owned the name from 1931, Volkswagen from 1998, and the cars are still built at Crewe, where luxury and genuine speed remain the whole brief.",
+   "country": "United Kingdom",
+   "founded": 1919,
+   "hq": "Crewe, England",
+   "knownFor": "Le Mans winners and hand-built luxury grand tourers",
+   "name": "Bentley",
+   "photo": "assets/photos/bentley-continental-gt.webp",
+   "photoCaption": "Bentley Continental GT (first generation)",
+   "photoCredit": "Photo: Spanish Coches, CC BY 2.0, via Wikimedia Commons",
+   "slug": "bentley",
+   "status": "Active"
+  },
+  {
+   "blurb": "André Citroën brought American mass production to France and then out-innovated everyone: front-wheel drive, the unibody Traction Avant, hydropneumatic suspension, and two of the century's defining cars, the DS and the 2CV, at opposite ends of the same idea.",
+   "country": "France",
+   "founded": 1919,
+   "hq": "Paris, France",
+   "knownFor": "Traction Avant, hydropneumatic suspension, the DS and 2CV",
+   "name": "Citroën",
+   "photo": "assets/photos/citroen-traction-avant.webp",
+   "photoCaption": "Citroën Traction Avant in Madrid",
+   "photoCredit": "Photo: Javier Perez Montes, CC BY-SA 4.0, via Wikimedia Commons",
+   "slug": "citroen",
+   "status": "Active"
+  },
+  {
+   "blurb": "Lancia invented half the modern car: the unitary body, the production V6, the five-speed gearbox. Then it went rallying and became the most successful marque in World Rally Championship history, with the Stratos and Delta dynasties.",
+   "country": "Italy",
+   "founded": 1906,
+   "hq": "Turin, Italy",
+   "knownFor": "Engineering firsts and the most successful rally record in history",
+   "name": "Lancia",
+   "photo": "assets/photos/lancia-aurelia.webp",
+   "photoCaption": "1956 Lancia Aurelia B20 Coupé, rear view",
+   "photoCredit": "Photo: Charles, CC0, via Wikimedia Commons",
+   "slug": "lancia",
+   "status": "Active"
+  },
+  {
+   "blurb": "Carroll Shelby put Ford V8s in a light British chassis and beat the world with it. Shelby American built the Cobra, the GT350 and the Daytona Coupe, ran Ford's GT40 Le Mans effort, and still builds Cobras and Mustangs in Las Vegas.",
+   "country": "United States",
+   "founded": 1962,
+   "hq": "Las Vegas, Nevada",
+   "knownFor": "The Cobra, GT350, and Ford's Le Mans programme",
+   "name": "Shelby",
+   "photo": "assets/photos/shelby-cobra-427.webp",
+   "photoCaption": "Shelby Cobra 427 S/C on the road",
+   "photoCredit": "Photo: Ermell, CC BY-SA 4.0, via Wikimedia Commons",
+   "slug": "shelby",
+   "status": "Active"
+  },
+  {
+   "blurb": "Cecil Kimber turned Morris Garages' sensible cars into the sports cars Britain could afford, and Abingdon built them by the hundred thousand until 1980. The MGB alone sold over half a million. The octagon badge lives on today under SAIC.",
+   "country": "United Kingdom",
+   "founded": 1924,
+   "hq": "Abingdon, England",
+   "knownFor": "Affordable open sports cars: T-series, MGA and the MGB",
+   "name": "MG",
+   "photo": "assets/photos/mg-mgb-gt-v8.webp",
+   "photoCaption": "MGB GT V8 racing at Brands Hatch",
+   "photoCredit": "Photo: BWard 1997, CC BY 4.0, via Wikimedia Commons",
+   "slug": "mg",
+   "status": "Active"
   }
  ],
  "note": "Marque registry. Model counts are derived at build time into search-index.json; see COVERAGE.md for what is seeded and what is planned.",
- "updatedAt": "2026-10-14",
+ "updatedAt": "2026-10-15",
  "version": "1.0.0"
 }

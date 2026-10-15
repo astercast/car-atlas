@@ -232,6 +232,60 @@
     "SE"
    ],
    "years": "1948–1954"
+  },
+  {
+   "bodyStyles": [
+    "Roadster"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "XKD 501, the 1956 Le Mans winner run by Ecurie Ecosse, made $21,780,000 at RM Sotheby's Monterey in 2016, then a record for a British car and for any Jaguar.",
+   "generations": [
+    {
+     "code": "XK-D",
+     "name": "D-Type",
+     "note": "Seventy-one cars: 18 works entries and 53 customer cars. All-disc brakes, pioneered by Jaguar and Dunlop, were as big a weapon as the XK six. The 1957 race was the peak, an Ecurie Ecosse one-two with D-Types filling most of the top six places.",
+     "spec": {
+      "drivetrain": "RWD, 4-speed manual",
+      "engine": "3.4L XK straight-six",
+      "power": "250 hp"
+     },
+     "years": "1954–1957"
+    },
+    {
+     "code": "XKSS",
+     "name": "XKSS road car",
+     "note": "When Jaguar quit racing, 25 unsold D-Types were converted to road trim with a full windscreen, doors and a hood. A fire at Browns Lane in February 1957 destroyed nine, leaving 16 finished cars. Steve McQueen's XKSS is the most famous of them.",
+     "spec": {
+      "drivetrain": "RWD, 4-speed manual",
+      "engine": "3.4L XK straight-six",
+      "power": "250 hp"
+     },
+     "years": "1957"
+    }
+   ],
+   "intro": "Malcolm Sayer shaped the D-Type in a wind tunnel's logic before Jaguar had one to spare: an aviation-style monocoque, a dorsal fin, and disc brakes all round. It won Le Mans three years running, 1955, 1956 and 1957, and its unsold chassis became the XKSS, the first supercar in all but name.",
+   "name": "D-Type",
+   "photo": "assets/photos/jaguar-d-type.webp",
+   "photoCaption": "1956 Jaguar D-Type (long nose) at speed",
+   "photoCredit": "Photo: Brian Snelson, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1956JaguarD-TypeLongNose.jpg",
+   "photos": [
+    {
+     "caption": "1956 Jaguar D-Type (long nose) at speed",
+     "credit": "Photo: Brian Snelson, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1956JaguarD-TypeLongNose.jpg",
+     "src": "assets/photos/jaguar-d-type.webp"
+    }
+   ],
+   "segment": "Sports car",
+   "slug": "d-type",
+   "status": "Discontinued",
+   "trims": [
+    "D-Type 3.4",
+    "D-Type 3.8",
+    "XKSS"
+   ],
+   "years": "1954–1957"
   }
  ]
 }
