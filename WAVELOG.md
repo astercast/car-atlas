@@ -1,5 +1,34 @@
 # WAVELOG — Car Atlas
 
+## Rotation 36 — PRICE WATCH STAGE 18 (143 → 146, the 300 SL cohort deepens n=9 → n=11 and the Miura cohort n=9 → n=10 at the honest rate) (2026-10-15)
+
+- **Price Watch stage 18:** **143 → 146 certified results**,
+  three records deepening two standing benchmark cohorts:
+  a 1955 Mercedes-Benz 300 SL Gullwing (chassis
+  198.040.5500289) at RM Sotheby's Monterey in 2023
+  ($1,737,500) and a 1955 Mercedes-Benz 300 SL Gullwing
+  (chassis 198.040.5500666) at Gooding & Company Amelia
+  Island in 2024 ($1,765,000), taking the 300 SL/USD cohort
+  from n=9 to n=11 (median now $1,737,500); and a 1972
+  Lamborghini Miura P400 SV (chassis 5048) at Broad Arrow
+  Auctions' Monterey Jet Center sale in 2024 ($2,700,000),
+  taking the Miura/USD cohort from n=9 to n=10 (median now
+  $2,285,000). Each certified against two independent
+  sources agreeing on car, house, sale day and price.
+  Condition **33/143 → 36/146**, mileage **51/143 → 54/146**,
+  chassis **112/143 → 115/146**, linked **116 → 119**,
+  orphans unchanged at 27. Six skips recorded in the file
+  (the carried 2000GT candidate MF1010219, a fresh search
+  again finding no independent second source stating price
+  and sale day together; the 2025 Arizona Gullwing whose
+  sources still attribute it to different chassis; the two
+  Broad Arrow 2000GT sales whose sources still disagree on
+  the final price; a Ferrari F40 'Minty Forty' whose sources
+  disagree on the final price; and a Ferrari F40 whose
+  sources disagree on the sale day). Restorations stay closed
+  (rotation 31); the 250 GTO record and T-CARS-5 rung 2
+  untouched, owner's calls.
+
 ## Rotation 35 — PRICE WATCH STAGE 17 (140 → 143, three benchmark cohorts deepen n=8 → n=9 at the honest rate) (2026-10-15)
 
 - **Price Watch stage 17:** **140 → 143 certified results**,

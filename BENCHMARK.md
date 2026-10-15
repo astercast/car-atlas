@@ -396,6 +396,30 @@ expected gap; depth and live intelligence are.
   the final price. Condition **33/140**, mileage
   **48/140 → 51/143**, chassis **109/140 → 112/143**,
   linked **113 → 116**, orphans unchanged at 27.
+- **Price Watch stage 18 (rotation 36):** 143 → **146 certified
+  results**. Three records, each certified against two
+  independent sources agreeing on car, house, sale day and
+  price: a 1955 Mercedes-Benz 300 SL Gullwing (chassis
+  198.040.5500289, RM Sotheby's Monterey 2023, $1,737,500),
+  a 1955 Mercedes-Benz 300 SL Gullwing (chassis
+  198.040.5500666, Gooding & Company Amelia Island 2024,
+  $1,765,000) and a 1972 Lamborghini Miura P400 SV (chassis
+  5048, Broad Arrow Auctions, Monterey Jet Center 2024,
+  $2,700,000). The 300 SL dollar cohort deepens **n=9 → n=11**
+  (median now $1,737,500) and the Miura dollar cohort
+  **n=9 → n=10** (median now $2,285,000); the twelve
+  benchmarks stand and no range-only cohort remains. Skips
+  recorded in the file: the carried 2000GT candidate
+  MF1010219 (a fresh search again found no independent second
+  source stating price and sale day together), the
+  contested-chassis 2025 Arizona Gullwing, the two Broad
+  Arrow 2000GT sales whose sources still disagree on the
+  final price, a Ferrari F40 'Minty Forty' whose sources
+  disagree on the final price, and a Ferrari F40 whose
+  sources disagree on the sale day. Condition
+  **33/143 → 36/146**, mileage **51/143 → 54/146**, chassis
+  **112/143 → 115/146**, linked **116 → 119**, orphans
+  unchanged at 27.
 - **T-CARS-1: the tenth benchmark cohort, and the last range.**- **Price Watch stage 13 (rotation 31):** 125 → **130 certified
   results**. The pass worked a new model from the atlas's own
   records on the stage-12 precedent: the Toyota 2000GT, one
@@ -707,6 +731,14 @@ orphans 27), deepening the F40/USD, Miura/USD and 300 SL/USD
 benchmark cohorts from n=8 to n=9 each; the twelve benchmark
 medians stand in `data/v1/cohorts.json` and no range-only
 cohort remains.
+
+**Rotation 36 update:** stage 18 took the set to 146 certified
+(condition 36/146, mileage 54/146, chassis 115/146, linked 119,
+orphans 27), deepening the 300 SL/USD benchmark cohort from
+n=9 to n=11 (median $1,737,500) and the Miura/USD cohort from
+n=9 to n=10 (median $2,285,000); the twelve benchmark medians
+stand in `data/v1/cohorts.json` and no range-only cohort
+remains.
 majority (c) requires, and (a) scale is still ~18 stage passes
 away at the demonstrated rate, or the same licensed-feed owner
 call.

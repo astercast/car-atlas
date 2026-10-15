@@ -193,7 +193,16 @@ P400 S and a 1955 Mercedes-Benz 300 SL Gullwing, both at RM
 Sotheby's Elkhart Collection 2020), deepening the F40, Miura
 and 300 SL dollar cohorts from n=8 to n=9 each; condition
 now stands at 33/143, mileage at 51/143, chassis at 112/143.
-Four further candidates were skipped and recorded. The standing
+Four further candidates were skipped and recorded. Stage 18
+(rotation 36) extended the set to 146 results — 3 new results
+(two 1955 Mercedes-Benz 300 SL Gullwings, at RM Sotheby's
+Monterey 2023 and Gooding & Company Amelia Island 2024; a
+1972 Lamborghini Miura P400 SV at Broad Arrow Auctions'
+Monterey Jet Center sale 2024), deepening the 300 SL dollar
+cohort from n=9 to n=11 and the Miura dollar cohort from
+n=9 to n=10; condition now stands at 36/146, mileage at
+54/146, chassis at 115/146. Six further candidates were
+skipped and recorded. The standing
 benchmark against the top car sites in the world — the named set,
 the scorecard, and the priced T-CARS-1 / T-CARS-5 closures — lives
 in `BENCHMARK.md`. Still planned: listings ingest adapters for

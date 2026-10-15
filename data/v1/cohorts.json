@@ -3,6 +3,24 @@
  "source": "data/v1/price-watch.json",
  "cohorts": [
   {
+   "make": "mercedes-benz",
+   "makeName": "Mercedes-Benz",
+   "modelSlug": "sl",
+   "modelName": "300 SL Gullwing",
+   "currency": "USD",
+   "n": 11,
+   "min": 1077500,
+   "max": 6825000,
+   "firstSale": "2017-03-11",
+   "lastSale": "2024-03-01",
+   "modelYears": [
+    1954,
+    1956
+   ],
+   "benchmark": true,
+   "median": 1737500
+  },
+  {
    "make": "chevrolet",
    "makeName": "Chevrolet",
    "modelSlug": "corvette",
@@ -19,6 +37,24 @@
    ],
    "benchmark": true,
    "median": 454750.0
+  },
+  {
+   "make": "lamborghini",
+   "makeName": "Lamborghini",
+   "modelSlug": "miura",
+   "modelName": "Miura P400 SV",
+   "currency": "USD",
+   "n": 10,
+   "min": 1160000,
+   "max": 3580000,
+   "firstSale": "2015-03-14",
+   "lastSale": "2024-08-15",
+   "modelYears": [
+    1968,
+    1972
+   ],
+   "benchmark": true,
+   "median": 2285000.0
   },
   {
    "make": "aston-martin",
@@ -73,42 +109,6 @@
    ],
    "benchmark": true,
    "median": 3665000
-  },
-  {
-   "make": "lamborghini",
-   "makeName": "Lamborghini",
-   "modelSlug": "miura",
-   "modelName": "Miura P400 SV",
-   "currency": "USD",
-   "n": 9,
-   "min": 1160000,
-   "max": 3580000,
-   "firstSale": "2015-03-14",
-   "lastSale": "2023-08-19",
-   "modelYears": [
-    1968,
-    1972
-   ],
-   "benchmark": true,
-   "median": 2260000
-  },
-  {
-   "make": "mercedes-benz",
-   "makeName": "Mercedes-Benz",
-   "modelSlug": "sl",
-   "modelName": "300 SL Gullwing",
-   "currency": "USD",
-   "n": 9,
-   "min": 1077500,
-   "max": 6825000,
-   "firstSale": "2017-03-11",
-   "lastSale": "2023-03-03",
-   "modelYears": [
-    1954,
-    1956
-   ],
-   "benchmark": true,
-   "median": 1710000
   },
   {
    "make": "toyota",

@@ -298,6 +298,16 @@ a conversation.
   The F40, Miura and 300 SL dollar cohorts deepen to n=9 each;
   the twelve benchmark cohorts stand. Still no function, no
   cron, no external call.
+- **Rotation-36 addendum (2026-10-15):** Price Watch stage 18
+  extended the same static file to 146 certified results (3 added:
+  two Mercedes-Benz 300 SL Gullwings and a Lamborghini Miura
+  P400 SV, each linked to its standing model record; linked
+  116 → 119 of 146, orphans unchanged at 27; condition
+  33/143 → 36/146, mileage 51/143 → 54/146, chassis
+  112/143 → 115/146). The 300 SL dollar cohort deepens to
+  n=11 and the Miura dollar cohort to n=10; the twelve
+  benchmark cohorts stand. Still no function, no cron, no
+  external call.
 - **Rotation-23 addendum (2026-10-14):** photography completed
   (257/257 models, 59/59 makes photographed from licensed Commons
   sources, per-photo credit + file-page URL in the dataset for the
