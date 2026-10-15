@@ -403,13 +403,22 @@ expected gap; depth and live intelligence are.
   stop on the endpoints attempted there (API category queries,
   file pages). This pass made exactly one probe of an endpoint
   not previously attempted (the `Special:FilePath` redirect for
-  the named Cord candidate) and Commons answered **429 (rate
+  the named Cord candidate) and Commons answered ~~**429 (rate
   limited)**, which is likewise a hard stop for the provider:
   no further Commons request was made, no candidate image could
-  be read firsthand and no licence verified. All three captions
+  be read firsthand and no licence verified~~ **CORRECTION
+  (rotation-30 follow-up): HTTP 200, redirecting to
+  upload.wikimedia.org; 1,763,927 bytes of the Cord JPEG were
+  downloaded 2026-10-14T23:26:11Z and the image was read
+  firsthand in the follow-up pass (a four-door sedan, front 3/4,
+  concours grass). The 429 wording came from reading the
+  still-running probe's intermediate state; its terminal output
+  governs. No licence was verified in this pass, so nothing was
+  bound in it**. All three captions
   stay exactly as narrowed at rotation 28 and all three items
   stay named open; the attempt is logged in the rotation-30
-  landing record.
+  landing record **as corrected there, with the follow-up
+  attempts in landing-cars-r30-restorations.md**.
 
 ## Benchmark standing line (rotation 30)
 

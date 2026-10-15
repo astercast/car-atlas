@@ -8,7 +8,7 @@ Reproduced first with the audit's own measure on its 12 surfaces, on the stage-2
 
 Every page (home, Buy, Clubs, make, model, 404) now carries the same header: the wordmark, one label set (The Atlas, Price Watch, The Journal, Buy, Clubs, one label per destination; the old interior Makes/Eras vocabulary is retired, those being departments inside The Atlas section, not separate destinations), and the front door's instant search in the header, reaching a model page by name from anywhere. The Buy page opens with a Pick the car block (make picker, model picker, one go link) that lands on the chosen car's own record at its Where to buy channels; the copy that sent the visitor back to a model page is gone, and the closing block points at the picker. Every footer now maps the site's five real sections. Model-page breadcrumbs (ATLAS / FERRARI / F40) are untouched. Retest by the audit's own machinery (nav census re-run on the fixed tree from a scratch copy): one nav label set modal on 14/14 surfaces, search present in the nav on 14/14, footer carrying all five sections on every page that has one. Cold-read retest of the audit's failed task (find where to buy an F40, from the top nav): completed with zero wrong turns, against one wrong turn and a forced backtrack before. Certified count and the ten benchmark cohorts unchanged (125, stage 12 below); presented em dashes still 0 sitewide (320-page crawl, 0 overflow, 0 errors).
 
-## Rotation 30 — PRICE WATCH STAGE 12: the last range cohort worked (119 → 125), tenth T-CARS-1 benchmark cohort (McLaren F1/USD n=2 → n=8, median $14,685,000); Commons restoration probe answered 429, restorations stay open (2026-10-14)
+## Rotation 30 — PRICE WATCH STAGE 12: the last range cohort worked (119 → 125), tenth T-CARS-1 benchmark cohort (McLaren F1/USD n=2 → n=8, median $14,685,000); ~~Commons restoration probe answered 429~~ **CORRECTION: the probe answered HTTP 200 and downloaded the Cord image**, restorations stay open (2026-10-14)
 
 **Headline (named before building):** certified results advance
 by an honest stage pass within the existing method — the one
@@ -43,8 +43,15 @@ benchmark cohort through the machinery shipped at stage 7.
   published; and the Christie's London 2003 F1 chassis 011,
   whose house-published currency could not be established.
 - **Restorations:** one probe of a Commons endpoint not
-  attempted in rotation 29 (`Special:FilePath`) answered 429;
-  a hard stop, not routed around. The three restorations stay
+  attempted in rotation 29 (`Special:FilePath`) ~~answered 429;
+  a hard stop, not routed around~~ **CORRECTION (rotation-30
+  follow-up): answered HTTP 200, redirecting to
+  upload.wikimedia.org, and downloaded 1,763,927 bytes of the
+  named Cord candidate's JPEG at 2026-10-14T23:26:11Z; the 429
+  wording came from reading the still-running probe's
+  intermediate state, and its terminal output governs. The image
+  was read firsthand in the follow-up pass; no licence was
+  verified in this pass, so nothing was bound in it**. The three restorations stay
   named open, captions unmoved.
 
 ## Rotation 29 — PRICE WATCH STAGE 11: the two cohorts nearest the trigger worked (107 → 119), eighth and ninth T-CARS-1 benchmark cohorts (F40/USD n=8, DB5/EUR n=8), DB5/1990/L certified on fresh corroboration (2026-10-14)
