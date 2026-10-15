@@ -404,8 +404,13 @@ footer nav { display: flex; gap: 20px; }
      keeps its VP-0036 wrap: width and overflow-wrap are
      unchanged, only its box's height grows. Links embedded in
      prose sentences (the cert-line Buy page link, the caption
-     File page links, the cover source link) are named in the
-     landing record and left at their text height. */
+     File page links) are named in the landing record and left
+     at their text height. Rotation 30, stage 3: the cover
+     source link, which owns most of its own line and measured
+     37px tall, grows the last 7px the same invisible way
+     (padding cancelled by equal negative margins); its only
+     neighbours are the cover-date text above and open space
+     below, no other target within reach. */
   .chip { min-height: 44px; min-width: 44px; padding-top: 11px; padding-bottom: 11px; }
   .filters select { min-height: 44px; padding-top: 11px; padding-bottom: 11px; }
   .filters .clear { min-height: 44px; padding-top: 11px; padding-bottom: 11px; }
@@ -421,4 +426,5 @@ footer nav { display: flex; gap: 20px; }
   .t-foot a { padding-top: 15px; padding-bottom: 15px; }
   .crumb a { padding-top: 15px; padding-bottom: 15px; }
   a.chip { padding-top: 14px; padding-bottom: 14px; }
+  .cover-src a { padding: 5px 6px; margin: -5px -6px; }
 }

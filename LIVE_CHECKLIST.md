@@ -218,6 +218,16 @@ a conversation.
   $1,100,000 over n=9). Still no function, no cron, no external
   call — the audit above is unchanged.
 
+- **Rotation-30 stage-3 addendum (2026-10-14, S5 residue):** the
+  home cover source link grows to a 44px+ target at phone widths
+  inside the ≤700px block (.cover-src a, invisible growth); the
+  sub-44 residue stands at 9 per phone width (cert-line Buy page
+  prose links ×5, caption File page credit links ×4), named and
+  left with measured arguments in landing-cars-r30-residue.md. Do
+  not grow the two prose classes without re-arguing their
+  neighbours; any new prose-embedded link class gets the same
+  measure-and-argue treatment.
+
 - **Rotation-30 stage-2 addendum (2026-10-14, VP-0041):** one nav
   vocabulary on every page (The Atlas / Price Watch / The Journal /
   Buy / Clubs, plus the header search reaching a model page by
