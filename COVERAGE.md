@@ -177,6 +177,15 @@ on the standing SL record; condition now stands at 33/136,
 mileage at 44/136, chassis at 105/136. The eleven benchmark
 cohorts stand; the 300 SL cohort stands as the one range
 cohort, below the median trigger. Two further candidates were
+skipped and recorded. Stage 16 (rotation 34) extended the set
+to 140 results — 4 new results, all Mercedes-Benz 300 SL
+Gullwing dollar sales (Gooding & Company Amelia Island 2023;
+RM Sotheby's Arizona 2022; Bonhams' Quail Auction 2022; RM
+Sotheby's Monterey 2018), taking the SL dollar cohort from
+n=4 to n=8, past the median trigger (median $1,723,750);
+condition now stands at 33/140, mileage at 48/140, chassis
+at 109/140. Twelve benchmark cohorts now stand and no
+range-only cohort remains. Two further candidates were
 skipped and recorded. The standing
 benchmark against the top car sites in the world — the named set,
 the scorecard, and the priced T-CARS-1 / T-CARS-5 closures — lives

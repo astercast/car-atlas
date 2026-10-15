@@ -280,6 +280,15 @@ a conversation.
   range cohort below the n≥8 trigger; the eleven benchmark
   cohorts are unchanged. Still no function, no cron, no
   external call.
+- **Rotation-34 addendum (2026-10-15):** Price Watch stage 16
+  extended the same static file to 140 certified results (4 added,
+  all Mercedes-Benz 300 SL Gullwing dollar sales, linked to the
+  SL model record; linked 109 → 113 of 140, orphans unchanged
+  at 27; condition 33/136, mileage 44/136 → 48/140, chassis
+  105/136 → 109/140). The SL dollar cohort (n=8) passed the
+  n≥8 trigger and publishes its median ($1,723,750) as the
+  twelfth benchmark cohort; no range-only cohort remains.
+  Still no function, no cron, no external call.
 - **Rotation-23 addendum (2026-10-14):** photography completed
   (257/257 models, 59/59 makes photographed from licensed Commons
   sources, per-photo credit + file-page URL in the dataset for the

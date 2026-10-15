@@ -206,16 +206,17 @@
    "modelSlug": "sl",
    "modelName": "300 SL Gullwing",
    "currency": "USD",
-   "n": 4,
+   "n": 8,
    "min": 1077500,
    "max": 6825000,
    "firstSale": "2017-03-11",
-   "lastSale": "2022-03-05",
+   "lastSale": "2023-03-03",
    "modelYears": [
     1954,
     1956
    ],
-   "benchmark": false
+   "benchmark": true,
+   "median": 1723750.0
   }
  ]
 }

@@ -429,6 +429,25 @@ expected gap; depth and live intelligence are.
   this pass's fresh search included). Condition **33/133**,
   mileage **41/133 → 44/136**, chassis **102/133 → 105/136**,
   linked **106 → 109**, orphans unchanged at 27.
+- **Price Watch stage 16 (rotation 34):** 136 → **140 certified
+  results**. The pass deepened the cohort stage 15 opened:
+  four Mercedes-Benz 300 SL Gullwing dollar sales (Gooding &
+  Company Amelia Island 2023, chassis 198.040.5500031,
+  $1,737,500; RM Sotheby's Arizona 2022, chassis
+  198.040.5500243, $1,710,000; Bonhams' Quail Auction 2022,
+  chassis 198.040.6500146, $1,737,500; RM Sotheby's Monterey
+  2018, chassis 198.040.5500800, $1,435,000), taking the
+  SL/USD cohort from **n=4 to n=8** — past the priced trigger:
+  **the twelfth benchmark cohort fires, median $1,723,750**,
+  and no range-only cohort remains. Each record was certified
+  against two independent sources agreeing on car, house,
+  sale day and price. Skips recorded in the file: the carried
+  2000GT candidate MF1010219 (a fresh search this pass again
+  found no independent second source stating price and sale
+  day together), and the 2025 Arizona Gullwing whose sources
+  still attribute it to different chassis. Condition **33/136**,
+  mileage **44/136 → 48/140**, chassis **105/136 → 109/140**,
+  linked **109 → 113**, orphans unchanged at 27.
 - **T-CARS-1: the tenth benchmark cohort, and the last range.**
   The F1/USD cohort reached **n=8**, past the priced n≥8
   trigger, so the build-computed machinery now publishes ten
@@ -654,6 +673,13 @@ and no range-only cohort remains.
 orphans 27) and opened one new range cohort, the Mercedes-Benz
 300 SL in dollars at n=4 on the SL record; the eleven
 benchmark medians stand.
+
+**Rotation 34 update:** stage 16 took the set to 140 certified
+(condition 33/140, mileage 48/140, chassis 109/140, linked 113,
+orphans 27) and worked the Mercedes-Benz 300 SL dollar cohort
+from n=4 to n=8, past the trigger: twelve benchmark medians now
+stand in `data/v1/cohorts.json` (300 SL/USD median $1,723,750)
+and no range-only cohort remains.
 majority (c) requires, and (a) scale is still ~18 stage passes
 away at the demonstrated rate, or the same licensed-feed owner
 call.
