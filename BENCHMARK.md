@@ -766,6 +766,14 @@ fires the trigger and becomes the thirteenth benchmark, median
 $690,000 on the standing range of $258,500 to $1,870,000; the
 twelve earlier benchmark medians stand unchanged in
 `data/v1/cohorts.json`.
+
+**Rotation 40 update:** stage 22 took the set to 157 certified
+(condition 43/157, mileage 61/157, chassis 125/157, linked 130,
+orphans 27), opening two new Ferrari Enzo cohorts at n=2 each
+(EUR: Paris 2016, €1,568,000, joining Paris 2023; USD: Monterey
+2015, $6,050,000, and Pebble Beach 2022, $4,130,000), ranges
+only, six sales short of the trigger; the thirteen benchmark
+medians stand unchanged in `data/v1/cohorts.json`.
 majority (c) requires, and (a) scale is still ~18 stage passes
 away at the demonstrated rate, or the same licensed-feed owner
 call.

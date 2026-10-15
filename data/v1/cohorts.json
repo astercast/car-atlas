@@ -235,6 +235,40 @@
    ],
    "benchmark": true,
    "median": 14685000.0
+  },
+  {
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "modelSlug": "enzo",
+   "modelName": "Enzo",
+   "currency": "EUR",
+   "n": 2,
+   "min": 1568000,
+   "max": 4055000,
+   "firstSale": "2016-02-03",
+   "lastSale": "2023-02-01",
+   "modelYears": [
+    2003,
+    2004
+   ],
+   "benchmark": false
+  },
+  {
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "modelSlug": "enzo",
+   "modelName": "Enzo",
+   "currency": "USD",
+   "n": 2,
+   "min": 4130000,
+   "max": 6050000,
+   "firstSale": "2015-08-13",
+   "lastSale": "2022-08-19",
+   "modelYears": [
+    2004,
+    2005
+   ],
+   "benchmark": false
   }
  ]
 }

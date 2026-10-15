@@ -1,5 +1,42 @@
 # WAVELOG — Car Atlas
 
+## Rotation 40 — PRICE WATCH STAGE 22 (154 → 157, two new Enzo range cohorts open) (2026-10-15)
+
+- **Price Watch stage 22:** **154 → 157 certified results**,
+  three records on the Ferrari Enzo line, which carried a
+  single record before this stage: a 2005 Ferrari Enzo
+  (chassis ZFFCZ56B000141920) at RM Sotheby's Monterey in
+  2015 ($6,050,000), a 2004 Ferrari Enzo at RM Sotheby's
+  Paris in 2016 (€1,568,000), and a 2004 Ferrari Enzo
+  (chassis ZFFCZ56B000136089) at Gooding & Company Pebble
+  Beach in 2022 ($4,130,000). The Enzo cohorts open in both
+  currencies at n=2 (euros: Paris 2016 joining Paris 2023;
+  dollars: Monterey 2015 and Pebble Beach 2022), printing
+  their ranges only, six sales short of the median trigger;
+  the thirteen benchmark cohorts are unchanged. Each record
+  certified against two independent sources agreeing on
+  car, house, sale day and price (Hagerty's past-sale record
+  for the VIN against Glenmarch for Monterey 2015; the
+  house's own Paris 2016 sale report against Glenmarch,
+  with CLASSIC.COM concurring, for Paris 2016; Gooding's
+  own lot record against CLASSIC.COM for Pebble Beach
+  2022). Condition **40/154 → 43/157**, mileage
+  **59/154 → 61/157**, chassis **123/154 → 125/157**,
+  linked **127 → 130**, orphans unchanged at 27. Nine
+  skips recorded in the file: the nine carried named skips
+  stand on their standing conditions and were not
+  re-attempted this pass, the charge admitting a re-attempt
+  only on a genuinely second or resolving source, and none
+  was in hand (MF1010219; the Arizona Gullwing chassis
+  conflict; the two Broad Arrow 2000GTs; the Minty Forty
+  F40; the 1990 F40; the 275 GTB year conflict; the 2015
+  Pebble Beach Countach Anniversary day conflict; the 2025
+  Amelia Island Countach year conflict). The Paris 2016
+  record's mileage is omitted: the consulted sources state
+  different figures. Restorations stay closed (rotation
+  31); the 250 GTO record and T-CARS-5 rung 2 untouched,
+  owner's calls.
+
 ## Rotation 39 — PRICE WATCH STAGE 21 (151 → 154, the Countach cohort reaches n=8 and fires the median) (2026-10-15)
 
 - **Price Watch stage 21:** **151 → 154 certified results**,

@@ -220,7 +220,15 @@ Beach 2012 and Amelia Island 2010, and one at RM Sotheby's
 Monterey 2022), deepening the Countach dollar cohort from
 n=5 to n=8, which fires the median trigger; condition now
 stands at 40/154, mileage at 59/154, chassis at 123/154.
-Nine further candidates were skipped and recorded. The standing
+Nine further candidates were skipped and recorded. Stage 22
+(rotation 40) extended the set to 157 results — 3 new results
+(three Ferrari Enzo sales: RM Sotheby's Monterey 2015 and
+Paris 2016, and Gooding & Company Pebble Beach 2022),
+opening the Enzo cohorts in euros and in dollars at n=2
+each, printing ranges only; condition now stands at
+43/157, mileage at 61/157, chassis at 125/157. The nine
+carried named skips stand on their standing conditions and
+were recorded again. The standing
 benchmark against the top car sites in the world — the named set,
 the scorecard, and the priced T-CARS-1 / T-CARS-5 closures — lives
 in `BENCHMARK.md`. Still planned: listings ingest adapters for

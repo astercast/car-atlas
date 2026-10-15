@@ -338,6 +338,16 @@ a conversation.
   n=5 to n=8 and becomes the thirteenth benchmark cohort
   (median $690,000); no range-only cohort remains. Still no
   function, no cron, no external call.
+- **Rotation-40 addendum (2026-10-15):** Price Watch stage 22
+  extended the same static file to 157 certified results (3 added:
+  three Ferrari Enzo sales, RM Sotheby's Monterey 2015, RM
+  Sotheby's Paris 2016 and Gooding & Company Pebble Beach 2022,
+  each linked to the standing Enzo model record; linked 127 → 130
+  of 157, orphans unchanged at 27; condition 40/154 → 43/157,
+  mileage 59/154 → 61/157, chassis 123/154 → 125/157). The Enzo
+  cohorts open in euros and in dollars at n=2 each, ranges only;
+  the thirteen benchmark cohorts stand. Still no function, no
+  cron, no external call.
 - **Rotation-23 addendum (2026-10-14):** photography completed
   (257/257 models, 59/59 makes photographed from licensed Commons
   sources, per-photo credit + file-page URL in the dataset for the
