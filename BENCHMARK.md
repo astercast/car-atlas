@@ -376,6 +376,26 @@ expected gap; depth and live intelligence are.
   atlas already carried. Condition **30/119 → 32/125**, mileage
   **33/119 → 36/125**, chassis **90/119 → 96/125**, populated
   only where the certifying source states the field.
+- **Price Watch stage 17 (rotation 35):** 140 → **143 certified
+  results**. Three records, each certified against two
+  independent sources agreeing on car, house, sale day and
+  price: a 1991 Ferrari F40 (chassis ZFFMN34A6M0087627, RM
+  Sotheby's SHIFT/Monterey 2020, $1,386,000), a 1969
+  Lamborghini Miura P400 S (chassis 3874, RM Sotheby's
+  Elkhart Collection 2020, $1,160,000) and a 1955
+  Mercedes-Benz 300 SL Gullwing (chassis 198.040.5500533, RM
+  Sotheby's Elkhart Collection 2020, $1,495,500). The three
+  dollar cohorts deepen **n=8 → n=9** (F40/USD median now
+  $3,665,000; Miura/USD $2,260,000; 300 SL/USD $1,710,000);
+  the twelve benchmarks stand and no range-only cohort
+  remains. Skips recorded in the file: the carried 2000GT
+  candidate MF1010219 (a fresh search again found no
+  independent second source stating price and sale day
+  together), the contested-chassis 2025 Arizona Gullwing,
+  and two Broad Arrow 2000GT sales whose sources disagree on
+  the final price. Condition **33/140**, mileage
+  **48/140 → 51/143**, chassis **109/140 → 112/143**,
+  linked **113 → 116**, orphans unchanged at 27.
 - **T-CARS-1: the tenth benchmark cohort, and the last range.**- **Price Watch stage 13 (rotation 31):** 125 → **130 certified
   results**. The pass worked a new model from the atlas's own
   records on the stage-12 precedent: the Toyota 2000GT, one
@@ -680,6 +700,13 @@ orphans 27) and worked the Mercedes-Benz 300 SL dollar cohort
 from n=4 to n=8, past the trigger: twelve benchmark medians now
 stand in `data/v1/cohorts.json` (300 SL/USD median $1,723,750)
 and no range-only cohort remains.
+
+**Rotation 35 update:** stage 17 took the set to 143 certified
+(condition 33/143, mileage 51/143, chassis 112/143, linked 116,
+orphans 27), deepening the F40/USD, Miura/USD and 300 SL/USD
+benchmark cohorts from n=8 to n=9 each; the twelve benchmark
+medians stand in `data/v1/cohorts.json` and no range-only
+cohort remains.
 majority (c) requires, and (a) scale is still ~18 stage passes
 away at the demonstrated rate, or the same licensed-feed owner
 call.

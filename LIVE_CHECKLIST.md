@@ -289,6 +289,15 @@ a conversation.
   n≥8 trigger and publishes its median ($1,723,750) as the
   twelfth benchmark cohort; no range-only cohort remains.
   Still no function, no cron, no external call.
+- **Rotation-35 addendum (2026-10-15):** Price Watch stage 17
+  extended the same static file to 143 certified results (3 added:
+  a Ferrari F40, a Lamborghini Miura P400 S and a Mercedes-Benz
+  300 SL Gullwing, each linked to its standing model record;
+  linked 113 → 116 of 143, orphans unchanged at 27; condition
+  33/140, mileage 48/140 → 51/143, chassis 109/140 → 112/143).
+  The F40, Miura and 300 SL dollar cohorts deepen to n=9 each;
+  the twelve benchmark cohorts stand. Still no function, no
+  cron, no external call.
 - **Rotation-23 addendum (2026-10-14):** photography completed
   (257/257 models, 59/59 makes photographed from licensed Commons
   sources, per-photo credit + file-page URL in the dataset for the

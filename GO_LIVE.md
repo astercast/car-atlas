@@ -55,9 +55,9 @@ release track must never be improvised.
   `maxDuration` ceiling.
 - First degradation point: cache-busting `/api/search` traffic —
   it degrades the API only, never the static site.
-- **Price Watch stays inside this posture.** Stages 1–16 (waves 4–11,
-  rotations 25–34)
-  are a static file, `data/v1/price-watch.json` (140 certified
+- **Price Watch stays inside this posture.** Stages 1–17 (waves 4–11,
+  rotations 25–35)
+  are a static file, `data/v1/price-watch.json` (143 certified
   results), plus the build-computed `data/v1/cohorts.json` — no function, no cron, no external service. Any future ingest cron gets its own explicit
   `vercel.json` entry and its own audit line here *before* it ships;
   no stage may add a paid service.

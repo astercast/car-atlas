@@ -186,7 +186,14 @@ n=4 to n=8, past the median trigger (median $1,723,750);
 condition now stands at 33/140, mileage at 48/140, chassis
 at 109/140. Twelve benchmark cohorts now stand and no
 range-only cohort remains. Two further candidates were
-skipped and recorded. The standing
+skipped and recorded. Stage 17 (rotation 35) extended the set
+to 143 results — 3 new results (a 1991 Ferrari F40 at RM
+Sotheby's SHIFT/Monterey 2020; a 1969 Lamborghini Miura
+P400 S and a 1955 Mercedes-Benz 300 SL Gullwing, both at RM
+Sotheby's Elkhart Collection 2020), deepening the F40, Miura
+and 300 SL dollar cohorts from n=8 to n=9 each; condition
+now stands at 33/143, mileage at 51/143, chassis at 112/143.
+Four further candidates were skipped and recorded. The standing
 benchmark against the top car sites in the world — the named set,
 the scorecard, and the priced T-CARS-1 / T-CARS-5 closures — lives
 in `BENCHMARK.md`. Still planned: listings ingest adapters for

@@ -57,6 +57,60 @@
    "median": 1655000
   },
   {
+   "make": "ferrari",
+   "makeName": "Ferrari",
+   "modelSlug": "f40",
+   "modelName": "F40",
+   "currency": "USD",
+   "n": 9,
+   "min": 1386000,
+   "max": 3965000,
+   "firstSale": "2020-08-15",
+   "lastSale": "2025-08-15",
+   "modelYears": [
+    1990,
+    1992
+   ],
+   "benchmark": true,
+   "median": 3665000
+  },
+  {
+   "make": "lamborghini",
+   "makeName": "Lamborghini",
+   "modelSlug": "miura",
+   "modelName": "Miura P400 SV",
+   "currency": "USD",
+   "n": 9,
+   "min": 1160000,
+   "max": 3580000,
+   "firstSale": "2015-03-14",
+   "lastSale": "2023-08-19",
+   "modelYears": [
+    1968,
+    1972
+   ],
+   "benchmark": true,
+   "median": 2260000
+  },
+  {
+   "make": "mercedes-benz",
+   "makeName": "Mercedes-Benz",
+   "modelSlug": "sl",
+   "modelName": "300 SL Gullwing",
+   "currency": "USD",
+   "n": 9,
+   "min": 1077500,
+   "max": 6825000,
+   "firstSale": "2017-03-11",
+   "lastSale": "2023-03-03",
+   "modelYears": [
+    1954,
+    1956
+   ],
+   "benchmark": true,
+   "median": 1710000
+  },
+  {
    "make": "toyota",
    "makeName": "Toyota",
    "modelSlug": "2000gt",
@@ -111,24 +165,6 @@
    "median": 1508000.0
   },
   {
-   "make": "ferrari",
-   "makeName": "Ferrari",
-   "modelSlug": "f40",
-   "modelName": "F40",
-   "currency": "USD",
-   "n": 8,
-   "min": 2892500,
-   "max": 3965000,
-   "firstSale": "2021-08-13",
-   "lastSale": "2025-08-15",
-   "modelYears": [
-    1990,
-    1992
-   ],
-   "benchmark": true,
-   "median": 3732500.0
-  },
-  {
    "make": "ford",
    "makeName": "Ford",
    "modelSlug": "gt",
@@ -165,24 +201,6 @@
    "median": 1347750.0
   },
   {
-   "make": "lamborghini",
-   "makeName": "Lamborghini",
-   "modelSlug": "miura",
-   "modelName": "Miura P400 SV",
-   "currency": "USD",
-   "n": 8,
-   "min": 1902500,
-   "max": 3580000,
-   "firstSale": "2015-03-14",
-   "lastSale": "2023-08-19",
-   "modelYears": [
-    1968,
-    1972
-   ],
-   "benchmark": true,
-   "median": 2285000.0
-  },
-  {
    "make": "mclaren",
    "makeName": "McLaren",
    "modelSlug": "f1",
@@ -199,24 +217,6 @@
    ],
    "benchmark": true,
    "median": 14685000.0
-  },
-  {
-   "make": "mercedes-benz",
-   "makeName": "Mercedes-Benz",
-   "modelSlug": "sl",
-   "modelName": "300 SL Gullwing",
-   "currency": "USD",
-   "n": 8,
-   "min": 1077500,
-   "max": 6825000,
-   "firstSale": "2017-03-11",
-   "lastSale": "2023-03-03",
-   "modelYears": [
-    1954,
-    1956
-   ],
-   "benchmark": true,
-   "median": 1723750.0
   }
  ]
 }

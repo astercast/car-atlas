@@ -1,5 +1,31 @@
 # WAVELOG — Car Atlas
 
+## Rotation 35 — PRICE WATCH STAGE 17 (140 → 143, three benchmark cohorts deepen n=8 → n=9 at the honest rate) (2026-10-15)
+
+- **Price Watch stage 17:** **140 → 143 certified results**,
+  three records deepening three standing benchmark cohorts
+  from n=8 to n=9 each: a 1991 Ferrari F40 (chassis
+  ZFFMN34A6M0087627) at RM Sotheby's SHIFT/Monterey in 2020
+  ($1,386,000; F40/USD median now $3,665,000); a 1969
+  Lamborghini Miura P400 S (chassis 3874) at RM Sotheby's
+  Elkhart Collection in 2020 ($1,160,000; Miura/USD median
+  now $2,260,000); a 1955 Mercedes-Benz 300 SL Gullwing
+  (chassis 198.040.5500533) at the same Elkhart sale
+  ($1,495,500; 300 SL/USD median now $1,710,000). Each
+  certified against two independent sources agreeing on
+  car, house, sale day and price. Condition **33/140**,
+  mileage **48/140 → 51/143**, chassis **109/140 → 112/143**,
+  linked **113 → 116**, orphans unchanged at 27. Four skips
+  recorded in the file (the carried 2000GT candidate
+  MF1010219, a fresh search again finding no independent
+  second source stating price and sale day together; the
+  2025 Arizona Gullwing whose sources still attribute it to
+  different chassis; and two Broad Arrow 2000GT sales —
+  Monterey Jet Center 2022 and Radius 2023 — whose sources
+  disagree on the final price). Restorations stay closed
+  (rotation 31); the 250 GTO record and T-CARS-5 rung 2
+  untouched, owner's calls.
+
 ## Rotation 34 — PRICE WATCH STAGE 16 (136 → 140, the Mercedes-Benz 300 SL cohort deepens n=4 → n=8: the twelfth benchmark fires, no range-only cohort remains) (2026-10-15)
 
 - **Price Watch stage 16:** **136 → 140 certified results**,
