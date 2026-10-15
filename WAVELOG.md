@@ -1,5 +1,27 @@
 # WAVELOG — Car Atlas
 
+## Rotation 37 — PRICE WATCH STAGE 19 (146 → 148, a new Countach cohort opens at n=2 at the honest rate) (2026-10-15)
+
+- **Price Watch stage 19:** **146 → 148 certified results**,
+  two records opening a new Lamborghini Countach/USD cohort:
+  a 1974 Lamborghini Countach LP400 Periscopo (chassis
+  1120010) at Gooding & Company Pebble Beach in 2014
+  ($1,870,000) and a 1976 Lamborghini Countach LP400
+  'Periscopica' (chassis 1120182) at the same house in 2018
+  ($979,000). At n=2 the cohort prints its range only, six
+  sales short of the eight a median needs; the twelve
+  benchmark cohorts stand unchanged. Each record certified
+  against two independent sources agreeing on car, house,
+  sale day and price (Gooding's own lot records against the
+  CLASSIC.COM sale records, Hagerty's past-sale records
+  concurring). Condition **36/146 → 36/148**, mileage
+  **54/146 → 56/148**, chassis **115/146 → 117/148**, linked
+  **119 → 121**, orphans unchanged at 27. One skip recorded
+  in the file (the Broad Arrow Monterey 2024 Ferrari 275 GTB
+  whose sources disagree on the car's year, 1965 against
+  1966). Restorations stay closed (rotation 31); the 250 GTO
+  record and T-CARS-5 rung 2 untouched, owner's calls.
+
 ## Rotation 36 — PRICE WATCH STAGE 18 (143 → 146, the 300 SL cohort deepens n=9 → n=11 and the Miura cohort n=9 → n=10 at the honest rate) (2026-10-15)
 
 - **Price Watch stage 18:** **143 → 146 certified results**,

@@ -739,6 +739,14 @@ n=9 to n=11 (median $1,737,500) and the Miura/USD cohort from
 n=9 to n=10 (median $2,285,000); the twelve benchmark medians
 stand in `data/v1/cohorts.json` and no range-only cohort
 remains.
+
+**Rotation 37 update:** stage 19 took the set to 148 certified
+(condition 36/148, mileage 56/148, chassis 117/148, linked 121,
+orphans 27), opening a new Lamborghini Countach/USD cohort at
+n=2 (range only, below the trigger) from two Gooding Pebble
+Beach Periscopo sales (2014, $1,870,000; 2018, $979,000); the
+twelve benchmark medians stand unchanged in
+`data/v1/cohorts.json`.
 majority (c) requires, and (a) scale is still ~18 stage passes
 away at the demonstrated rate, or the same licensed-feed owner
 call.

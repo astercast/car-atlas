@@ -308,6 +308,15 @@ a conversation.
   n=11 and the Miura dollar cohort to n=10; the twelve
   benchmark cohorts stand. Still no function, no cron, no
   external call.
+- **Rotation-37 addendum (2026-10-15):** Price Watch stage 19
+  extended the same static file to 148 certified results (2 added:
+  two Lamborghini Countach LP400 Periscopo sales at Gooding &
+  Company's Pebble Beach auctions, 2014 and 2018, each linked to
+  the standing Countach model record; linked 119 → 121 of 148,
+  orphans unchanged at 27; mileage 54/146 → 56/148, chassis
+  115/146 → 117/148, condition unchanged at 36). A new Countach
+  dollar cohort opens at n=2, range only; the twelve benchmark
+  cohorts stand. Still no function, no cron, no external call.
 - **Rotation-23 addendum (2026-10-14):** photography completed
   (257/257 models, 59/59 makes photographed from licensed Commons
   sources, per-photo credit + file-page URL in the dataset for the

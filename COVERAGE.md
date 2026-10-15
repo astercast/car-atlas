@@ -202,7 +202,12 @@ Monterey Jet Center sale 2024), deepening the 300 SL dollar
 cohort from n=9 to n=11 and the Miura dollar cohort from
 n=9 to n=10; condition now stands at 36/146, mileage at
 54/146, chassis at 115/146. Six further candidates were
-skipped and recorded. The standing
+skipped and recorded. Stage 19 (rotation 37) extended the set
+to 148 results — 2 new results (two Lamborghini Countach
+LP400 Periscopo sales at Gooding & Company's Pebble Beach
+auctions, 2014 and 2018), opening the Countach dollar cohort
+at n=2; mileage now stands at 56/148, chassis at 117/148.
+One further candidate was skipped and recorded. The standing
 benchmark against the top car sites in the world — the named set,
 the scorecard, and the priced T-CARS-1 / T-CARS-5 closures — lives
 in `BENCHMARK.md`. Still planned: listings ingest adapters for

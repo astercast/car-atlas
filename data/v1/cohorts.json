@@ -217,6 +217,23 @@
    ],
    "benchmark": true,
    "median": 14685000.0
+  },
+  {
+   "make": "lamborghini",
+   "makeName": "Lamborghini",
+   "modelSlug": "countach",
+   "modelName": "Countach LP400 Periscopo",
+   "currency": "USD",
+   "n": 2,
+   "min": 979000,
+   "max": 1870000,
+   "firstSale": "2014-08-16",
+   "lastSale": "2018-08-25",
+   "modelYears": [
+    1974,
+    1976
+   ],
+   "benchmark": false
   }
  ]
 }
