@@ -379,7 +379,7 @@ expected gap; depth and live intelligence are.
 - **T-CARS-1: the tenth benchmark cohort, and the last range.**- **Price Watch stage 13 (rotation 31):** 125 → **130 certified
   results**. The pass worked a new model from the atlas's own
   records on the stage-12 precedent: the Toyota 2000GT, one
-  certified sale carried (BaT 2022, $2,535,000) → **six** (RM
+  certified sale carried (Gooding & Company, Amelia Island 2022, $2,535,000) → **six** (RM
   Auctions Don Davis Fort Worth 2013, $1,155,000; Gooding Pebble
   Beach 2014, $1,155,000; RM Sotheby's Arizona 2018, $665,000;
   RM Sotheby's Petersen 2018, $511,000; RM Sotheby's Elkhart
