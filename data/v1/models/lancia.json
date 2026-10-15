@@ -1,0 +1,125 @@
+{
+ "make": "lancia",
+ "models": [
+  {
+   "bodyStyles": [
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Fewer than 500 cars, a Ferrari engine and three world titles: genuine Stradales with documented history are among the most sought-after rally-era cars in the world. Works competition cars sit above even them.",
+   "generations": [
+    {
+     "code": "Stradale",
+     "name": "Stratos HF Stradale",
+     "note": "Around 492 cars were built to satisfy Group 4 homologation, road cars with 190 PS from the 2.4 litre Dino V6. Bertone built the bodies; Lancia finished the cars at Chivasso. Enzo Ferrari agreed, reluctantly, to supply the engines.",
+     "spec": {
+      "drivetrain": "RWD, 5-speed manual",
+      "engine": "2.4L Ferrari Dino V6",
+      "power": "190 PS"
+     },
+     "years": "1973–1978"
+    },
+    {
+     "code": "Group 4",
+     "name": "Stratos HF rally car",
+     "note": "In rally tune the V6 made about 275 hp, and 320 hp in 24-valve form. The Stratos won the manufacturers' championship in 1974, 1975 and 1976, the first of Lancia's record run of world titles, and changed rally car design permanently.",
+     "spec": {
+      "drivetrain": "RWD, 5-speed manual",
+      "engine": "2.4L Ferrari Dino V6",
+      "power": "275 hp"
+     },
+     "years": "1974–1978"
+    }
+   ],
+   "intro": "The first car designed from a clean sheet to win rallies, and it looked like it had landed from somewhere else: a wedge by Marcello Gandini at Bertone, a Ferrari Dino V6 behind the seats, and clamshells that lifted away in seconds. It won the World Rally Championship three years running.",
+   "name": "Stratos HF",
+   "photo": "assets/photos/lancia-stratos.webp",
+   "photoCaption": "Lancia Stratos HF Stradale",
+   "photoCredit": "Photo: Alexander Migl, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Lancia_Stratos_HF_Classic-Gala_2022_1X7A0376.jpg",
+   "photos": [
+    {
+     "caption": "Lancia Stratos HF Stradale",
+     "credit": "Photo: Alexander Migl, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Lancia_Stratos_HF_Classic-Gala_2022_1X7A0376.jpg",
+     "src": "assets/photos/lancia-stratos.webp"
+    }
+   ],
+   "segment": "Sports car",
+   "slug": "stratos",
+   "status": "Discontinued",
+   "trims": [
+    "Stratos HF Stradale",
+    "Stratos HF Group 4"
+   ],
+   "years": "1973–1978"
+  },
+  {
+   "bodyStyles": [
+    "Hatchback"
+   ],
+   "buyingClass": "modern-classic",
+   "collectorNote": "The Evoluzione cars are the blue chips, the Evo II most of all, and Martini-liveried history adds its own premium. Rust and tired turbos thin the herd yearly; a documented, unmodified car is the find.",
+   "generations": [
+    {
+     "code": "HF 4WD",
+     "name": "HF 4WD and Integrale 8v",
+     "note": "The HF 4WD arrived in 1986 with a 2.0 litre turbo four and permanent all-wheel drive, and won the 1987 title. The Integrale name followed with wider arches, 185 hp and a 56/44 torque split biased to the rear.",
+     "spec": {
+      "drivetrain": "AWD, 5-speed manual",
+      "engine": "2.0L turbocharged four-cylinder",
+      "power": "185 hp"
+     },
+     "years": "1986–1989"
+    },
+    {
+     "code": "16v",
+     "name": "Integrale 16v",
+     "note": "A sixteen-valve head took power to 200 hp and the rally car kept the titles coming, with drivers' championships in 1988, 1989 and 1991 for the Delta family. The road car gained the raised bonnet bulge that defines the silhouette.",
+     "spec": {
+      "drivetrain": "AWD, 5-speed manual",
+      "engine": "2.0L turbocharged four-cylinder",
+      "power": "200 hp"
+     },
+     "years": "1989–1991"
+    },
+    {
+     "code": "Evoluzione",
+     "name": "Evoluzione and Evoluzione II",
+     "note": "The Evo widened the track, blistered the arches further and made 210 hp; the Evo II of 1993 reached 215 hp with a catalytic converter fitted. Across the four-wheel-drive Delta family, 44,296 cars were built. Production ended in November 1994.",
+     "spec": {
+      "drivetrain": "AWD, 5-speed manual",
+      "engine": "2.0L turbocharged four-cylinder",
+      "power": "215 hp"
+     },
+     "years": "1991–1994"
+    }
+   ],
+   "intro": "A Giugiaro hatchback for the school run, turned by turbocharging and four-wheel drive into the most successful rally car line in history. The Delta HF family won six consecutive World Rally Championship manufacturers' titles from 1987 to 1992, a record that still stands, and 46 rallies outright.",
+   "name": "Delta HF Integrale",
+   "photo": "assets/photos/lancia-delta-integrale.webp",
+   "photoCaption": "Saby and Fauchille's Delta HF Integrale at the 1989 Monte Carlo Rally",
+   "photoCredit": "Photo: Zimpalaa, CC BY-SA 3.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1989_Rallye_Monte_Carlo,_Lalouvesc_-_Saby_and_Fauchille's_Lancia_Delta_HF_Integrale_(1).jpg",
+   "photos": [
+    {
+     "caption": "Saby and Fauchille's Delta HF Integrale at the 1989 Monte Carlo Rally",
+     "credit": "Photo: Zimpalaa, CC BY-SA 3.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1989_Rallye_Monte_Carlo,_Lalouvesc_-_Saby_and_Fauchille's_Lancia_Delta_HF_Integrale_(1).jpg",
+     "src": "assets/photos/lancia-delta-integrale.webp"
+    }
+   ],
+   "segment": "Compact car",
+   "slug": "delta-hf-integrale",
+   "status": "Discontinued",
+   "trims": [
+    "HF 4WD",
+    "Integrale 8v",
+    "Integrale 16v",
+    "Evoluzione",
+    "Evoluzione II"
+   ],
+   "years": "1988–1994"
+  }
+ ]
+}

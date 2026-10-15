@@ -1136,7 +1136,7 @@
   "country": "Germany",
   "founded": 1916,
   "blurb": "Started with aircraft engines, defined the sports sedan with the 3 Series, and built the M division into a byword for fast cars that still steer properly.",
-  "modelCount": 5
+  "modelCount": 6
  },
  {
   "type": "model",
@@ -1251,6 +1251,27 @@
   "photoSource": "https://commons.wikimedia.org/wiki/File:2019_BMW_X5_M50d_Automatic_3.0.jpg"
  },
  {
+  "type": "model",
+  "make": "bmw",
+  "makeName": "BMW",
+  "slug": "m1",
+  "name": "M1",
+  "years": "1978–1981",
+  "status": "Discontinued",
+  "segment": "Mid-engine sports car",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "BMW's first mid-engined car and the first product of BMW Motorsport. Giugiaro styled it, Lamborghini was meant to build it and could not, and the M1 ended up famous less for its road career than for Procar, the one-make series that put Grand Prix drivers in identical cars.",
+  "buyingClass": "vintage",
+  "generationCount": 2,
+  "flagshipPower": "277 hp",
+  "photo": "assets/photos/bmw-m1.webp",
+  "photoCaption": "BMW M1 (E26) road car",
+  "photoCredit": "Photo: Charles, CC BY 2.0, via Wikimedia Commons",
+  "photoSource": "https://commons.wikimedia.org/wiki/File:BMW_M1_(E26,_1979)_(52560280442).jpg"
+ },
+ {
   "type": "make",
   "make": "mercedes-benz",
   "slug": "mercedes-benz",
@@ -1258,7 +1279,7 @@
   "country": "Germany",
   "founded": 1926,
   "blurb": "Benz built the first automobile in 1886 and the company has been previewing the industry's future in the S-Class ever since. The 300SL is the collector benchmark.",
-  "modelCount": 5
+  "modelCount": 6
  },
  {
   "type": "model",
@@ -1371,6 +1392,28 @@
   "photoSource": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Automeile_auf_dem_Kartoffelmarkt,_Mercedes_AMG_GT_--_2019_--_9884.jpg"
  },
  {
+  "type": "model",
+  "make": "mercedes-benz",
+  "makeName": "Mercedes-Benz",
+  "slug": "300-slr",
+  "name": "300 SLR",
+  "years": "1955",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Roadster",
+   "Coupe"
+  ],
+  "intro": "Nine cars, one season, and the fastest road racer of its age. The 300 SLR put a Grand Prix straight-eight into a sports car, won the 1955 World Sportscar Championship, and set a Mille Miglia record that still stands. Its coupé derivative became the most valuable car ever sold.",
+  "buyingClass": "vintage",
+  "generationCount": 2,
+  "flagshipPower": "302–310 hp",
+  "photo": "assets/photos/mercedes-benz-300-slr.webp",
+  "photoCaption": "1955 Mercedes-Benz 300 SLR Uhlenhaut Coupé, Mercedes-Benz Museum",
+  "photoCredit": "Photo: Alexander Migl, CC BY-SA 4.0, via Wikimedia Commons",
+  "photoSource": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_300_SLR_Uhlenhaut-Coupe_IMG_0874.jpg"
+ },
+ {
   "type": "make",
   "make": "porsche",
   "slug": "porsche",
@@ -1378,7 +1421,7 @@
   "country": "Germany",
   "founded": 1931,
   "blurb": "One car, perfected for sixty years: the 911. Around it, Porsche built the most profitable sports-car company in the world without diluting the recipe.",
-  "modelCount": 5
+  "modelCount": 6
  },
  {
   "type": "model",
@@ -1489,6 +1532,27 @@
   "photoCaption": "2018 Porsche Cayman 718 Boxster 2.0 Front",
   "photoCredit": "Photo: Vauxford, CC BY-SA 4.0, via Wikimedia Commons",
   "photoSource": "https://commons.wikimedia.org/wiki/File:2018_Porsche_Cayman_718_Boxster_2.0_Front.jpg"
+ },
+ {
+  "type": "model",
+  "make": "porsche",
+  "makeName": "Porsche",
+  "slug": "959",
+  "name": "959",
+  "years": "1986–1993",
+  "status": "Discontinued",
+  "segment": "Supercar",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "The 959 was Porsche's technology flagship and the blueprint for every supercar since: sequential turbos, electronically controlled all-wheel drive, tyre-pressure monitoring, adjustable ride height. At launch it was the fastest production car in the world, and it won the Paris-Dakar rally outright before the road car reached a customer.",
+  "buyingClass": "vintage",
+  "generationCount": 3,
+  "flagshipPower": "450 PS",
+  "photo": "assets/photos/porsche-959.webp",
+  "photoCaption": "Porsche 959 S",
+  "photoCredit": "Photo: Alexander Migl, CC BY-SA 4.0, via Wikimedia Commons",
+  "photoSource": "https://commons.wikimedia.org/wiki/File:Porsche_959_S_1X7A7874.jpg"
  },
  {
   "type": "make",
@@ -1691,7 +1755,7 @@
   "country": "Italy",
   "founded": 1947,
   "blurb": "A racing team that sells road cars to fund itself, and has never once pretended otherwise. V12s, scarlet paint, and waiting lists measured in years.",
-  "modelCount": 5
+  "modelCount": 6
  },
  {
   "type": "model",
@@ -1801,6 +1865,27 @@
   "photoSource": "https://commons.wikimedia.org/wiki/File:2021_Ferrari_Roma_6.jpg"
  },
  {
+  "type": "model",
+  "make": "ferrari",
+  "makeName": "Ferrari",
+  "slug": "250-gto",
+  "name": "250 GTO",
+  "years": "1962–1964",
+  "status": "Discontinued",
+  "segment": "Grand tourer",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "The most valuable production car line in the world began as a homologation argument. Ferrari needed a GT racer for 1962, built 36 cars around the Colombo V12, and persuaded the FIA the GTO was a version of the 250 SWB. It then won the manufacturers' title three years straight.",
+  "buyingClass": "vintage",
+  "generationCount": 2,
+  "flagshipPower": "300 hp",
+  "photo": "assets/photos/ferrari-250-gto-series2.webp",
+  "photoCaption": "1964 Ferrari 250 GTO (Series II body)",
+  "photoCredit": "Photo: Calreyn88, CC BY 4.0, via Wikimedia Commons",
+  "photoSource": "https://commons.wikimedia.org/wiki/File:1964_Ferrari_250_GTO_Series_2.jpg"
+ },
+ {
   "type": "make",
   "make": "lamborghini",
   "slug": "lamborghini",
@@ -1808,7 +1893,7 @@
   "country": "Italy",
   "founded": 1963,
   "blurb": "Ferruccio built tractors, got insulted by Enzo Ferrari, and answered with the Miura. Lamborghini has been the loud answer ever since, Countach posters defined a generation's bedroom walls.",
-  "modelCount": 5
+  "modelCount": 6
  },
  {
   "type": "model",
@@ -1917,6 +2002,28 @@
   "photoSource": "https://commons.wikimedia.org/wiki/File:Lamborghini_Urus_20180306_Genf_2018.jpg"
  },
  {
+  "type": "model",
+  "make": "lamborghini",
+  "makeName": "Lamborghini",
+  "slug": "diablo",
+  "name": "Diablo",
+  "years": "1990–2001",
+  "status": "Discontinued",
+  "segment": "Supercar",
+  "bodyStyles": [
+   "Coupe",
+   "Roadster"
+  ],
+  "intro": "The Countach's successor kept the scissor doors and the mid-mounted V12 and added manners. The Diablo was the first production Lamborghini past 200 mph, the last flagship developed before Audi ownership, and at 2,884 cars the best-selling V12 Lamborghini of its era.",
+  "buyingClass": "modern-classic",
+  "generationCount": 3,
+  "flagshipPower": "485 hp",
+  "photo": "assets/photos/lamborghini-diablo.webp",
+  "photoCaption": "1999 Lamborghini Diablo VT Roadster in Giallo",
+  "photoCredit": "Photo: Mr.choppers, CC BY-SA 3.0, via Wikimedia Commons",
+  "photoSource": "https://commons.wikimedia.org/wiki/File:1999_Lamborghini_Diablo_VT_Roadster_in_Giallo,_front_right.jpg"
+ },
+ {
   "type": "make",
   "make": "volvo",
   "slug": "volvo",
@@ -2020,7 +2127,7 @@
   "country": "United Kingdom",
   "founded": 1922,
   "blurb": "The E-Type was called the most beautiful car ever made by Enzo Ferrari himself. Jaguar's history swings between genius and chaos, usually in the same decade.",
-  "modelCount": 4
+  "modelCount": 5
  },
  {
   "type": "model",
@@ -2107,6 +2214,27 @@
   "photoCaption": "1950 Jaguar XK120 HCC22",
   "photoCredit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
   "photoSource": "https://commons.wikimedia.org/wiki/File:1950_Jaguar_XK120_HCC22.jpg"
+ },
+ {
+  "type": "model",
+  "make": "jaguar",
+  "makeName": "Jaguar",
+  "slug": "d-type",
+  "name": "D-Type",
+  "years": "1954–1957",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Roadster"
+  ],
+  "intro": "Malcolm Sayer shaped the D-Type in a wind tunnel's logic before Jaguar had one to spare: an aviation-style monocoque, a dorsal fin, and disc brakes all round. It won Le Mans three years running, 1955, 1956 and 1957, and its unsold chassis became the XKSS, the first supercar in all but name.",
+  "buyingClass": "vintage",
+  "generationCount": 2,
+  "flagshipPower": "250 hp",
+  "photo": "assets/photos/jaguar-d-type.webp",
+  "photoCaption": "1956 Jaguar D-Type (long nose) at speed",
+  "photoCredit": "Photo: Brian Snelson, CC BY 2.0, via Wikimedia Commons",
+  "photoSource": "https://commons.wikimedia.org/wiki/File:1956JaguarD-TypeLongNose.jpg"
  },
  {
   "type": "make",
@@ -2303,7 +2431,7 @@
   "country": "Italy",
   "founded": 1910,
   "blurb": "Founded in Milan in 1910, Alfa won the first two Formula 1 world championships and employed a young Enzo Ferrari. The cars have always been emotional purchases, the Giulia Quadrifoglio is the current argument.",
-  "modelCount": 5
+  "modelCount": 6
  },
  {
   "type": "model",
@@ -2409,6 +2537,28 @@
   "photoCaption": "Alfa Romeo Giulia Sprint GT family coupe, white, front 3/4",
   "photoCredit": "Photo: Calreyn88, CC0, via Wikimedia Commons",
   "photoSource": "https://commons.wikimedia.org/wiki/File:1964_Alfa_Romeo_Giulia_Sprint_GT.jpg"
+ },
+ {
+  "type": "model",
+  "make": "alfa-romeo",
+  "makeName": "Alfa Romeo",
+  "slug": "8c-2900b",
+  "name": "8C 2900B",
+  "years": "1937–1939",
+  "status": "Discontinued",
+  "segment": "Grand tourer",
+  "bodyStyles": [
+   "Coupe",
+   "Spider"
+  ],
+  "intro": "Vittorio Jano's masterpiece took the Grand Prix Tipo B's twin-supercharged straight-eight and dressed it in Touring's Superleggera aluminium. Around 30 chassis were built in short Corto and long Lungo forms. Nothing else of the 1930s combined this speed, this engineering and this beauty in one car.",
+  "buyingClass": "vintage",
+  "generationCount": 2,
+  "flagshipPower": "180 hp",
+  "photo": "assets/photos/alfa-romeo-8c-2900b.webp",
+  "photoCaption": "1938 Alfa Romeo 8C 2900B Lungo Berlinetta",
+  "photoCredit": "Photo: Neal Parish, CC BY-SA 2.0, via Wikimedia Commons",
+  "photoSource": "https://commons.wikimedia.org/wiki/File:1938_Alfa_Romeo_8C_2900_B_Lungo.jpg"
  },
  {
   "type": "make",
@@ -6126,5 +6276,304 @@
   "photoCaption": "1954 Willys Aero Eagle Hardtop, front right (Hershey 2019)",
   "photoCredit": "Photo: Mr.choppers, CC BY-SA 3.0, via Wikimedia Commons",
   "photoSource": "https://commons.wikimedia.org/wiki/File:1954_Willys_Aero_Eagle_Hardtop,_front_right_(Hershey_2019).jpg"
+ },
+ {
+  "type": "make",
+  "make": "bugatti",
+  "slug": "bugatti",
+  "name": "Bugatti",
+  "country": "France",
+  "founded": 1909,
+  "blurb": "Ettore Bugatti built cars as art first and engineering second, and won relentlessly doing it. The marque slept for decades after the war, was revived by Volkswagen in 1998, and now builds the world's fastest production cars at Molsheim again.",
+  "modelCount": 3
+ },
+ {
+  "type": "model",
+  "make": "bugatti",
+  "makeName": "Bugatti",
+  "slug": "type-35",
+  "name": "Type 35",
+  "years": "1924–1931",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Roadster"
+  ],
+  "intro": "The most successful racing car of its era, and still the image of the pre-war Grand Prix car: horseshoe grille, cast alloy wheels, that French blue. The Type 35 won the 1926 World Championship and the Targa Florio five years in a row, and privateers could simply buy one and race it.",
+  "buyingClass": "vintage",
+  "generationCount": 2,
+  "flagshipPower": "90 hp",
+  "photo": "assets/photos/bugatti-type-35.webp",
+  "photoCaption": "Bugatti Type 35B, Cité de l'Automobile, Mulhouse",
+  "photoCredit": "Photo: Dontpanic, CC BY-SA 3.0, via Wikimedia Commons",
+  "photoSource": "https://commons.wikimedia.org/wiki/File:Bugatti_Type_35.jpg"
+ },
+ {
+  "type": "model",
+  "make": "bugatti",
+  "makeName": "Bugatti",
+  "slug": "type-57",
+  "name": "Type 57",
+  "years": "1934–1940",
+  "status": "Discontinued",
+  "segment": "Luxury car",
+  "bodyStyles": [
+   "Coupe",
+   "Cabriolet",
+   "Sedan"
+  ],
+  "intro": "Jean Bugatti's design and the definitive pre-war Bugatti: a silent 3.3 litre twin-cam eight under bodies named Galibier, Ventoux, Stelvio and Atalante. 710 were built. At its summit sits the 57SC Atlantic, four cars, a riveted fin down its spine, and a claim to be the most beautiful car ever made.",
+  "buyingClass": "vintage",
+  "generationCount": 2,
+  "flagshipPower": "135 hp",
+  "photo": "assets/photos/bugatti-type-57.webp",
+  "photoCaption": "1934 Bugatti Type 57C Stelvio Cabriolet",
+  "photoCredit": "Photo: Matti Blume, CC BY-SA 4.0, via Wikimedia Commons",
+  "photoSource": "https://commons.wikimedia.org/wiki/File:Bugatti_57C_Stelvio_Cabriolet,_Classic-Gala_2025,_Schwetzingen_(20250906-P1049422).jpg"
+ },
+ {
+  "type": "model",
+  "make": "bugatti",
+  "makeName": "Bugatti",
+  "slug": "veyron",
+  "name": "Veyron",
+  "years": "2005–2015",
+  "status": "Discontinued",
+  "segment": "Hypercar",
+  "bodyStyles": [
+   "Coupe",
+   "Roadster"
+  ],
+  "intro": "Volkswagen's moonshot: 1,001 PS, four turbochargers, sixteen cylinders, and a brief to be the fastest, finest car ever made regardless of cost. The Veyron 16.4 was the first production car past 1,000 PS and past 400 km/h, and it redrew what a hypercar was allowed to be.",
+  "buyingClass": "modern-classic",
+  "generationCount": 2,
+  "flagshipPower": "1,001 PS",
+  "photo": "assets/photos/bugatti-veyron.webp",
+  "photoCaption": "Bugatti Veyron 16.4 at the Greenwich Concours",
+  "photoCredit": "Photo: Jagvar, Public domain, via Wikimedia Commons",
+  "photoSource": "https://commons.wikimedia.org/wiki/File:Bugatti_Veyron.JPG"
+ },
+ {
+  "type": "make",
+  "make": "bentley",
+  "slug": "bentley",
+  "name": "Bentley",
+  "country": "United Kingdom",
+  "founded": 1919,
+  "blurb": "W. O. Bentley's cars won Le Mans five times in the 1920s on pace and durability. Rolls-Royce owned the name from 1931, Volkswagen from 1998, and the cars are still built at Crewe, where luxury and genuine speed remain the whole brief.",
+  "modelCount": 2
+ },
+ {
+  "type": "model",
+  "make": "bentley",
+  "makeName": "Bentley",
+  "slug": "blower",
+  "name": "4½ Litre 'Blower'",
+  "years": "1927–1931",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Tourer"
+  ],
+  "intro": "The most famous Bentley of all was the one W. O. Bentley never wanted built. Tim Birkin bolted an Amherst Villiers supercharger to the 4½ Litre against the founder's orders, Dorothy Paget paid for it, and the Blower became the thundering symbol of the Bentley Boys era.",
+  "buyingClass": "vintage",
+  "generationCount": 2,
+  "flagshipPower": "110 hp",
+  "photo": "assets/photos/bentley-blower.webp",
+  "photoCaption": "1931 Bentley 4½ Litre Blower",
+  "photoCredit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+  "photoSource": "https://commons.wikimedia.org/wiki/File:1931_Bentley_4.5_Litre_Blower.jpg"
+ },
+ {
+  "type": "model",
+  "make": "bentley",
+  "makeName": "Bentley",
+  "slug": "continental",
+  "name": "Continental",
+  "years": "1952–present",
+  "status": "In production",
+  "segment": "Grand tourer",
+  "bodyStyles": [
+   "Coupe",
+   "Convertible"
+  ],
+  "intro": "One name, two revolutions. The R-Type Continental of 1952 was the fastest four-seater in the world, a wind-tunnelled aluminium fastback for crossing continents at 100 mph. Half a century later the Continental GT did it again, turning Bentley from coachbuilt rarity into the modern luxury GT benchmark.",
+  "buyingClass": "modern-classic",
+  "generationCount": 2,
+  "flagshipPower": "150–160 hp (est.)",
+  "photo": "assets/photos/bentley-r-type-continental.webp",
+  "photoCaption": "1953 Bentley R-Type Continental by H.J. Mulliner",
+  "photoCredit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+  "photoSource": "https://commons.wikimedia.org/wiki/File:1953_Bentley_R-Type_Continental_HCC23.jpg"
+ },
+ {
+  "type": "make",
+  "make": "citroen",
+  "slug": "citroen",
+  "name": "Citroën",
+  "country": "France",
+  "founded": 1919,
+  "blurb": "André Citroën brought American mass production to France and then out-innovated everyone: front-wheel drive, the unibody Traction Avant, hydropneumatic suspension, and two of the century's defining cars, the DS and the 2CV, at opposite ends of the same idea.",
+  "modelCount": 2
+ },
+ {
+  "type": "model",
+  "make": "citroen",
+  "makeName": "Citroën",
+  "slug": "ds",
+  "name": "DS",
+  "years": "1955–1975",
+  "status": "Discontinued",
+  "segment": "Executive car",
+  "bodyStyles": [
+   "Sedan",
+   "Estate",
+   "Cabriolet"
+  ],
+  "intro": "Paris, October 1955: the DS landed like a spacecraft among cars that still had running boards. Hydropneumatic suspension, powered brakes and steering, disc brakes, a body by sculptor Flaminio Bertoni. By the end of the first day, Citroën had taken 12,000 orders. Production ran twenty years and 1,455,746 cars.",
+  "buyingClass": "vintage",
+  "generationCount": 2,
+  "flagshipPower": "75 hp",
+  "photo": "assets/photos/citroen-ds.webp",
+  "photoCaption": "1967 Citroën DS 21 Pallas, rear three-quarter",
+  "photoCredit": "Photo: Txemari, CC BY-SA 4.0, via Wikimedia Commons",
+  "photoSource": "https://commons.wikimedia.org/wiki/File:Citroën_DS_21_Pallas._(1967)._(55055234816).jpg"
+ },
+ {
+  "type": "model",
+  "make": "citroen",
+  "makeName": "Citroën",
+  "slug": "2cv",
+  "name": "2CV",
+  "years": "1948–1990",
+  "status": "Discontinued",
+  "segment": "City car",
+  "bodyStyles": [
+   "Sedan",
+   "Van"
+  ],
+  "intro": "The brief was an umbrella on four wheels: carry two farmers and 100 kilos of goods at 60 km/h across a ploughed field without breaking the eggs in the basket. The 2CV answered it for 42 years, selling 3,872,583 saloons and over a million vans with almost no change.",
+  "buyingClass": "vintage",
+  "generationCount": 2,
+  "flagshipPower": "9 hp",
+  "photo": "assets/photos/citroen-2cv.webp",
+  "photoCaption": "1950 Citroën 2CV A in Paris",
+  "photoCredit": "Photo: Thesupermat, CC BY-SA 3.0, via Wikimedia Commons",
+  "photoSource": "https://commons.wikimedia.org/wiki/File:Paris_-_Bonhams_2013_-_Citroën_2CV_A_-_1950_-_002.jpg"
+ },
+ {
+  "type": "make",
+  "make": "lancia",
+  "slug": "lancia",
+  "name": "Lancia",
+  "country": "Italy",
+  "founded": 1906,
+  "blurb": "Lancia invented half the modern car: the unitary body, the production V6, the five-speed gearbox. Then it went rallying and became the most successful marque in World Rally Championship history, with the Stratos and Delta dynasties.",
+  "modelCount": 2
+ },
+ {
+  "type": "model",
+  "make": "lancia",
+  "makeName": "Lancia",
+  "slug": "stratos",
+  "name": "Stratos HF",
+  "years": "1973–1978",
+  "status": "Discontinued",
+  "segment": "Sports car",
+  "bodyStyles": [
+   "Coupe"
+  ],
+  "intro": "The first car designed from a clean sheet to win rallies, and it looked like it had landed from somewhere else: a wedge by Marcello Gandini at Bertone, a Ferrari Dino V6 behind the seats, and clamshells that lifted away in seconds. It won the World Rally Championship three years running.",
+  "buyingClass": "vintage",
+  "generationCount": 2,
+  "flagshipPower": "190 PS",
+  "photo": "assets/photos/lancia-stratos.webp",
+  "photoCaption": "Lancia Stratos HF Stradale",
+  "photoCredit": "Photo: Alexander Migl, CC BY-SA 4.0, via Wikimedia Commons",
+  "photoSource": "https://commons.wikimedia.org/wiki/File:Lancia_Stratos_HF_Classic-Gala_2022_1X7A0376.jpg"
+ },
+ {
+  "type": "model",
+  "make": "lancia",
+  "makeName": "Lancia",
+  "slug": "delta-hf-integrale",
+  "name": "Delta HF Integrale",
+  "years": "1988–1994",
+  "status": "Discontinued",
+  "segment": "Compact car",
+  "bodyStyles": [
+   "Hatchback"
+  ],
+  "intro": "A Giugiaro hatchback for the school run, turned by turbocharging and four-wheel drive into the most successful rally car line in history. The Delta HF family won six consecutive World Rally Championship manufacturers' titles from 1987 to 1992, a record that still stands, and 46 rallies outright.",
+  "buyingClass": "modern-classic",
+  "generationCount": 3,
+  "flagshipPower": "185 hp",
+  "photo": "assets/photos/lancia-delta-integrale.webp",
+  "photoCaption": "Saby and Fauchille's Delta HF Integrale at the 1989 Monte Carlo Rally",
+  "photoCredit": "Photo: Zimpalaa, CC BY-SA 3.0, via Wikimedia Commons",
+  "photoSource": "https://commons.wikimedia.org/wiki/File:1989_Rallye_Monte_Carlo,_Lalouvesc_-_Saby_and_Fauchille's_Lancia_Delta_HF_Integrale_(1).jpg"
+ },
+ {
+  "type": "make",
+  "make": "shelby",
+  "slug": "shelby",
+  "name": "Shelby",
+  "country": "United States",
+  "founded": 1962,
+  "blurb": "Carroll Shelby put Ford V8s in a light British chassis and beat the world with it. Shelby American built the Cobra, the GT350 and the Daytona Coupe, ran Ford's GT40 Le Mans effort, and still builds Cobras and Mustangs in Las Vegas.",
+  "modelCount": 1
+ },
+ {
+  "type": "model",
+  "make": "shelby",
+  "makeName": "Shelby",
+  "slug": "cobra",
+  "name": "Cobra",
+  "years": "1962–1967",
+  "status": "Discontinued",
+  "segment": "Roadster",
+  "bodyStyles": [
+   "Roadster"
+  ],
+  "intro": "An English chassis, an American V8, and Carroll Shelby's nerve. The Cobra took AC's Ace, filled it with Ford power and beat Corvette at home and Ferrari abroad: 998 original cars, a world championship in Daytona Coupe form, and the most copied silhouette in the business.",
+  "buyingClass": "vintage",
+  "generationCount": 2,
+  "flagshipPower": "271 hp",
+  "photo": "assets/photos/shelby-cobra.webp",
+  "photoCaption": "AC Shelby Cobra, National Motor Museum, Beaulieu",
+  "photoCredit": "Photo: David Merrett, CC BY 2.0, via Wikimedia Commons",
+  "photoSource": "https://commons.wikimedia.org/wiki/File:1965_AC_Shelby_Cobra.jpg"
+ },
+ {
+  "type": "make",
+  "make": "mg",
+  "slug": "mg",
+  "name": "MG",
+  "country": "United Kingdom",
+  "founded": 1924,
+  "blurb": "Cecil Kimber turned Morris Garages' sensible cars into the sports cars Britain could afford, and Abingdon built them by the hundred thousand until 1980. The MGB alone sold over half a million. The octagon badge lives on today under SAIC.",
+  "modelCount": 1
+ },
+ {
+  "type": "model",
+  "make": "mg",
+  "makeName": "MG",
+  "slug": "mgb",
+  "name": "MGB",
+  "years": "1962–1980",
+  "status": "Discontinued",
+  "segment": "Roadster",
+  "bodyStyles": [
+   "Roadster",
+   "Coupe"
+  ],
+  "intro": "The best-selling sports car in the world for nearly twenty years, and the car that taught America what a British roadster was. The MGB got its formula right first time in 1962: monocoque body, wind-up windows, honest handling, and sold 523,836 cars including the GT, MGC and V8.",
+  "buyingClass": "vintage",
+  "generationCount": 2,
+  "flagshipPower": "95 hp",
+  "photo": "assets/photos/mg-mgb.webp",
+  "photoCaption": "1969 MGB roadster in British racing green",
+  "photoCredit": "Photo: DeFacto, CC BY-SA 4.0, via Wikimedia Commons",
+  "photoSource": "https://commons.wikimedia.org/wiki/File:MG_MGB_open_roadster_1969.jpg"
  }
 ]

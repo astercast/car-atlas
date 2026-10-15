@@ -7,7 +7,7 @@ isn't in the atlas — no silent gaps dressed up as completeness.
 
 ## Seeded (waves 1–6, 2026-10-12/13)
 
-**59 makes, 257 models, 469 generations** (exact counts are printed
+**65 makes, 275 models, 508 generations** (exact counts are printed
 by `scripts/build.py` and shown in the homepage stats strip).
 
 Wave 1 makes: Toyota, Honda, Nissan, Mazda, Subaru, Hyundai, Ford,
@@ -34,7 +34,7 @@ Kaiser, Stutz, Triumph, Austin-Healey, Jensen, TVR (36 models,
 48 generations — the 810/812 and the Hornet, the TR line and the
 Big Healeys, the Interceptor and the Bearcat).
 
-Also seeded: 46 clubs/networks — national level for most marques,
+Also seeded: 52 clubs/networks — national level for most marques,
 with chapter-level entries (regional chapters with their own
 calendars) beginning in wave 2, and marque clubs for the wave-3,
 wave-5 and wave-6 historic makes — plus 13 buying channels and 4 buying classes.
@@ -49,6 +49,26 @@ Commons are wired to 40 model records and all 40 make records, each
 with its honest caption and attribution line on the page. One
 exception, stated plainly: the Ferrari 250 GTO photograph sits on
 the Ferrari make page — there is no 250 GTO model record yet.
+
+Completeness wave (2026-10-15): a census against the canonical
+record-car list (the all-time auction record table, the marque
+heritage registers, and the atlas's own Price Watch gaps) found
+the atlas missing most of the cars that matter most. This wave
+adds six makes — Bugatti, Bentley, Citroën, Lancia, MG and
+Shelby — and eighteen models (39 generations): the Ferrari
+250 GTO (which now has its own model record, closing the wave-4
+exception above), Mercedes-Benz 300 SLR, Jaguar D-Type, Alfa
+Romeo 8C 2900B, Lamborghini Diablo, BMW M1, Porsche 959,
+Bugatti Type 35, Type 57 and Veyron, Bentley 4½ Litre Blower
+and Continental, Shelby Cobra, Citroën DS and 2CV, Lancia
+Stratos and Delta HF Integrale, and the MG MGB. Every new
+record carries a rights-checked Wikimedia Commons photograph
+read against the car before use (26 photographs in all,
+including the six marque headers), and each new make gains its
+national owners' club (52 clubs total). The ranked remainder —
+Rolls-Royce, the Ferrari 250 GT California and Daytona, the
+Porsche Carrera GT and 918, and more — is the named backlog in
+the fleet's completeness audit, not a silent gap.
 
 ## Not yet covered — the roadmap
 

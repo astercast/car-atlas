@@ -1,0 +1,60 @@
+{
+ "make": "shelby",
+ "models": [
+  {
+   "bodyStyles": [
+    "Roadster"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "CSX2000 made $13,750,000 at RM Sotheby's Monterey in 2016, then a record for an American car. With replicas everywhere, the SAAC registry entry is the first thing a buyer checks; documented original cars live in a different market entirely.",
+   "generations": [
+    {
+     "code": "Mk I / Mk II",
+     "name": "Cobra 260 and 289",
+     "note": "655 small-block cars on transverse leaf springs: 75 with the 260, then 580 with the 271 hp 289. CSX2000, the first Cobra, was built in February 1962 and Shelby kept it for life, repainting it repeatedly so one car looked like a production run in magazine tests.",
+     "spec": {
+      "drivetrain": "RWD, 4-speed manual",
+      "engine": "4.7L Ford V8 (289)",
+      "power": "271 hp"
+     },
+     "years": "1962–1965"
+    },
+    {
+     "code": "Mk III",
+     "name": "Cobra 427",
+     "note": "343 big-block cars on a new, wider coil-sprung chassis. The 427 side-oiler made 425 hp in a car weighing little more than a tonne, though many street cars quietly received the cheaper 428. Its Daytona Coupe offshoot won the FIA GT championship in 1965.",
+     "spec": {
+      "drivetrain": "RWD, 4-speed manual",
+      "engine": "7.0L Ford V8 (427)",
+      "power": "425 hp"
+     },
+     "years": "1965–1967"
+    }
+   ],
+   "intro": "An English chassis, an American V8, and Carroll Shelby's nerve. The Cobra took AC's Ace, filled it with Ford power and beat Corvette at home and Ferrari abroad: 998 original cars, a world championship in Daytona Coupe form, and the most copied silhouette in the business.",
+   "name": "Cobra",
+   "photo": "assets/photos/shelby-cobra.webp",
+   "photoCaption": "AC Shelby Cobra, National Motor Museum, Beaulieu",
+   "photoCredit": "Photo: David Merrett, CC BY 2.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1965_AC_Shelby_Cobra.jpg",
+   "photos": [
+    {
+     "caption": "AC Shelby Cobra, National Motor Museum, Beaulieu",
+     "credit": "Photo: David Merrett, CC BY 2.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1965_AC_Shelby_Cobra.jpg",
+     "src": "assets/photos/shelby-cobra.webp"
+    }
+   ],
+   "segment": "Roadster",
+   "slug": "cobra",
+   "status": "Discontinued",
+   "trims": [
+    "Cobra 260",
+    "Cobra 289",
+    "Cobra 427",
+    "Cobra 427 S/C"
+   ],
+   "years": "1962–1967"
+  }
+ ]
+}

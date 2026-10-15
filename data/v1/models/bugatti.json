@@ -1,0 +1,173 @@
+{
+ "make": "bugatti",
+ "models": [
+  {
+   "bodyStyles": [
+    "Roadster"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Originality is audited to the bolt: chassis, engine and even axle numbers are recorded by the registers, and a car with its numbers intact sits in a different market from one without. The Schlumpf cars at Mulhouse anchor the type's history.",
+   "generations": [
+    {
+     "code": "Type 35",
+     "name": "Type 35 and 35A",
+     "note": "Ettore Bugatti's 2.0 litre straight-eight made 90 hp with a three-valve head and a roller-bearing crank. The hollow front axle and cast alloy wheels were pure Bugatti, engineering as sculpture. The 35A was the softer road-going twin, with a plainer engine.",
+     "spec": {
+      "drivetrain": "RWD, 4-speed manual",
+      "engine": "2.0L straight-eight",
+      "power": "90 hp"
+     },
+     "years": "1924–1930"
+    },
+    {
+     "code": "Type 35B",
+     "name": "Type 35C and 35B (supercharged)",
+     "note": "Supercharging took the 35C to around 130 hp and the 2.3 litre 35B to roughly 138 hp. Across the family about 343 cars were built. Win totals are argued to this day: most counts say over 1,000 victories, Bugatti's own newsroom says over 2,000.",
+     "spec": {
+      "drivetrain": "RWD, 4-speed manual",
+      "engine": "2.3L supercharged straight-eight",
+      "power": "138 hp"
+     },
+     "years": "1926–1931"
+    }
+   ],
+   "intro": "The most successful racing car of its era, and still the image of the pre-war Grand Prix car: horseshoe grille, cast alloy wheels, that French blue. The Type 35 won the 1926 World Championship and the Targa Florio five years in a row, and privateers could simply buy one and race it.",
+   "name": "Type 35",
+   "photo": "assets/photos/bugatti-type-35.webp",
+   "photoCaption": "Bugatti Type 35B, Cité de l'Automobile, Mulhouse",
+   "photoCredit": "Photo: Dontpanic, CC BY-SA 3.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Bugatti_Type_35.jpg",
+   "photos": [
+    {
+     "caption": "Bugatti Type 35B, Cité de l'Automobile, Mulhouse",
+     "credit": "Photo: Dontpanic, CC BY-SA 3.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Bugatti_Type_35.jpg",
+     "src": "assets/photos/bugatti-type-35.webp"
+    }
+   ],
+   "segment": "Sports car",
+   "slug": "type-35",
+   "status": "Discontinued",
+   "trims": [
+    "Type 35",
+    "Type 35A",
+    "Type 35C",
+    "Type 35B"
+   ],
+   "years": "1924–1931"
+  },
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Cabriolet",
+    "Sedan"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "No Atlantic has ever been offered publicly, and the three survivors anchor the world's great collections. Atalante and Stelvio cars lead the rest of the range; a 57S chassis under any body is the connoisseur's car.",
+   "generations": [
+    {
+     "code": "Type 57",
+     "name": "Type 57 and 57C",
+     "note": "The standard car made 135 hp; the supercharged 57C made 160 hp. Coachwork came from Gangloff and the factory's own atelier in shapes from four-door Galibier to the Stelvio cabriolet. Tank-bodied derivatives won Le Mans in 1937 and 1939.",
+     "spec": {
+      "drivetrain": "RWD, 4-speed manual",
+      "engine": "3.3L DOHC straight-eight",
+      "power": "135 hp"
+     },
+     "years": "1934–1940"
+    },
+    {
+     "code": "Type 57S",
+     "name": "Type 57S and SC Atlantic",
+     "note": "The S sat lower on a shorter chassis; the SC added the supercharger and up to 200 hp. Four Atlantics were built in aluminium over the Aérolithe show car's riveted dorsal seam. Three survive. The fourth, Jean Bugatti's own black car, vanished during the Second World War.",
+     "spec": {
+      "drivetrain": "RWD, 4-speed manual",
+      "engine": "3.3L supercharged straight-eight",
+      "power": "200 hp"
+     },
+     "years": "1936–1938"
+    }
+   ],
+   "intro": "Jean Bugatti's design and the definitive pre-war Bugatti: a silent 3.3 litre twin-cam eight under bodies named Galibier, Ventoux, Stelvio and Atalante. 710 were built. At its summit sits the 57SC Atlantic, four cars, a riveted fin down its spine, and a claim to be the most beautiful car ever made.",
+   "name": "Type 57",
+   "photo": "assets/photos/bugatti-type-57.webp",
+   "photoCaption": "1934 Bugatti Type 57C Stelvio Cabriolet",
+   "photoCredit": "Photo: Matti Blume, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Bugatti_57C_Stelvio_Cabriolet,_Classic-Gala_2025,_Schwetzingen_(20250906-P1049422).jpg",
+   "photos": [
+    {
+     "caption": "1934 Bugatti Type 57C Stelvio Cabriolet",
+     "credit": "Photo: Matti Blume, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Bugatti_57C_Stelvio_Cabriolet,_Classic-Gala_2025,_Schwetzingen_(20250906-P1049422).jpg",
+     "src": "assets/photos/bugatti-type-57.webp"
+    }
+   ],
+   "segment": "Luxury car",
+   "slug": "type-57",
+   "status": "Discontinued",
+   "trims": [
+    "Type 57",
+    "Type 57C",
+    "Type 57S",
+    "Type 57SC Atlantic"
+   ],
+   "years": "1934–1940"
+  },
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Roadster"
+   ],
+   "buyingClass": "modern-classic",
+   "collectorNote": "Every one of the 450 cars was spoken for before the run ended, and the specials have only firmed since. Service history with Bugatti is the market's first question; the Super Sport is the blue-chip car.",
+   "generations": [
+    {
+     "code": "Veyron 16.4",
+     "name": "Veyron 16.4",
+     "note": "The W16 is two narrow-angle V8s on one crank, breathing through four turbos. At Ehra-Lessien in April 2005 it recorded 253.8 mph. It is named for Pierre Veyron, who won Le Mans for Bugatti in 1939. Coupés accounted for 300 of the 450 Veyrons built in total.",
+     "spec": {
+      "drivetrain": "AWD, 7-speed dual-clutch",
+      "engine": "8.0L quad-turbo W16",
+      "power": "1,001 PS"
+     },
+     "years": "2005–2011"
+    },
+    {
+     "code": "Veyron SS",
+     "name": "Super Sport and Grand Sport Vitesse",
+     "note": "Power rose to 1,200 PS. The Super Sport recorded 267.8 mph, a production-car record, and the open Vitesse brought the same pace without a roof. The 450th and final Veyron, a Grand Sport Vitesse named La Finale, closed the run in 2015.",
+     "spec": {
+      "drivetrain": "AWD, 7-speed dual-clutch",
+      "engine": "8.0L quad-turbo W16",
+      "power": "1,200 PS"
+     },
+     "years": "2010–2015"
+    }
+   ],
+   "intro": "Volkswagen's moonshot: 1,001 PS, four turbochargers, sixteen cylinders, and a brief to be the fastest, finest car ever made regardless of cost. The Veyron 16.4 was the first production car past 1,000 PS and past 400 km/h, and it redrew what a hypercar was allowed to be.",
+   "name": "Veyron",
+   "photo": "assets/photos/bugatti-veyron.webp",
+   "photoCaption": "Bugatti Veyron 16.4 at the Greenwich Concours",
+   "photoCredit": "Photo: Jagvar, Public domain, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Bugatti_Veyron.JPG",
+   "photos": [
+    {
+     "caption": "Bugatti Veyron 16.4 at the Greenwich Concours",
+     "credit": "Photo: Jagvar, Public domain, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Bugatti_Veyron.JPG",
+     "src": "assets/photos/bugatti-veyron.webp"
+    }
+   ],
+   "segment": "Hypercar",
+   "slug": "veyron",
+   "status": "Discontinued",
+   "trims": [
+    "Veyron 16.4",
+    "Veyron Super Sport",
+    "Grand Sport",
+    "Grand Sport Vitesse"
+   ],
+   "years": "2005–2015"
+  }
+ ]
+}

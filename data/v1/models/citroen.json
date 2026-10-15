@@ -1,0 +1,120 @@
+{
+ "make": "citroen",
+ "models": [
+  {
+   "bodyStyles": [
+    "Sedan",
+    "Estate",
+    "Cabriolet"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "The DS is rolling sculpture with an engineering degree, and the market treats early, correct cars that way. Hydraulics want specialists and regular use; the Chapron convertibles and the DS 23 Injection sit at the top of the range.",
+   "generations": [
+    {
+     "code": "DS 19",
+     "name": "DS 19",
+     "note": "The original car paired a modest 1.9 litre engine and 75 hp with Paul Magès' high-pressure hydraulics, which levelled the suspension, powered the brakes, steering and semi-automatic clutch, and let the driver raise the car for rough roads. It was the first mass-produced car with disc brakes.",
+     "spec": {
+      "drivetrain": "FWD, 4-speed semi-automatic",
+      "engine": "1.9L four-cylinder",
+      "power": "75 hp"
+     },
+     "years": "1955–1965"
+    },
+    {
+     "code": "DS 23",
+     "name": "DS 20, DS 21 and DS 23",
+     "note": "Engines grew through 2.0 and 2.2 litres to the 2.3 litre DS 23, whose fuel-injected version made 130 hp DIN, the most powerful production DS. The 1967 restyle added headlights that swivelled with the steering, behind glass, years before regulations elsewhere allowed them.",
+     "spec": {
+      "drivetrain": "FWD, 4 or 5-speed manual",
+      "engine": "2.3L four-cylinder",
+      "power": "115 hp"
+     },
+     "years": "1965–1975"
+    }
+   ],
+   "intro": "Paris, October 1955: the DS landed like a spacecraft among cars that still had running boards. Hydropneumatic suspension, powered brakes and steering, disc brakes, a body by sculptor Flaminio Bertoni. By the end of the first day, Citroën had taken 12,000 orders. Production ran twenty years and 1,455,746 cars.",
+   "name": "DS",
+   "photo": "assets/photos/citroen-ds.webp",
+   "photoCaption": "1967 Citroën DS 21 Pallas, rear three-quarter",
+   "photoCredit": "Photo: Txemari, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Citroën_DS_21_Pallas._(1967)._(55055234816).jpg",
+   "photos": [
+    {
+     "caption": "1967 Citroën DS 21 Pallas, rear three-quarter",
+     "credit": "Photo: Txemari, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Citroën_DS_21_Pallas._(1967)._(55055234816).jpg",
+     "src": "assets/photos/citroen-ds.webp"
+    }
+   ],
+   "segment": "Executive car",
+   "slug": "ds",
+   "status": "Discontinued",
+   "trims": [
+    "DS 19",
+    "DS 20",
+    "DS 21",
+    "DS 23",
+    "ID 19"
+   ],
+   "years": "1955–1975"
+  },
+  {
+   "bodyStyles": [
+    "Sedan",
+    "Van"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "France's Beetle, with the same rule: buy the best body you can find, because rust, not mechanics, is the enemy. Early ripple-bonnet cars and Charlestons lead the market; the twin-engine Sahara 4x4 is the unicorn.",
+   "generations": [
+    {
+     "code": "2CV A",
+     "name": "Early cars (375 and 425 cc)",
+     "note": "Pierre Boulanger's TPV prototypes were hidden from the occupying forces during the war. The production car launched in 1948 with a 375 cc flat-twin and 9 hp, corrugated panels, a full-length canvas roof and suspension soft enough to cross a field at speed.",
+     "spec": {
+      "drivetrain": "FWD, 4-speed manual",
+      "engine": "375 cc air-cooled flat-twin",
+      "power": "9 hp"
+     },
+     "years": "1948–1970"
+    },
+    {
+     "code": "2CV 6",
+     "name": "602 cc cars",
+     "note": "The 602 cc engine peaked at 33 hp in 1970 and settled at 29 hp for the final cars, which gained the Charleston's two-tone paint as a regular model. The last 2CV left Mangualde in Portugal on 27 July 1990, ending one of the longest production runs in history.",
+     "spec": {
+      "drivetrain": "FWD, 4-speed manual",
+      "engine": "602 cc air-cooled flat-twin",
+      "power": "29 hp"
+     },
+     "years": "1970–1990"
+    }
+   ],
+   "intro": "The brief was an umbrella on four wheels: carry two farmers and 100 kilos of goods at 60 km/h across a ploughed field without breaking the eggs in the basket. The 2CV answered it for 42 years, selling 3,872,583 saloons and over a million vans with almost no change.",
+   "name": "2CV",
+   "photo": "assets/photos/citroen-2cv.webp",
+   "photoCaption": "1950 Citroën 2CV A in Paris",
+   "photoCredit": "Photo: Thesupermat, CC BY-SA 3.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:Paris_-_Bonhams_2013_-_Citroën_2CV_A_-_1950_-_002.jpg",
+   "photos": [
+    {
+     "caption": "1950 Citroën 2CV A in Paris",
+     "credit": "Photo: Thesupermat, CC BY-SA 3.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:Paris_-_Bonhams_2013_-_Citroën_2CV_A_-_1950_-_002.jpg",
+     "src": "assets/photos/citroen-2cv.webp"
+    }
+   ],
+   "segment": "City car",
+   "slug": "2cv",
+   "status": "Discontinued",
+   "trims": [
+    "2CV A",
+    "2CV AZ",
+    "2CV 4",
+    "2CV 6",
+    "2CV Charleston"
+   ],
+   "years": "1948–1990"
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "make": "bentley",
+ "models": [
+  {
+   "bodyStyles": [
+    "Tourer"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Of the 55 supercharged cars, those with period racing history carry the deepest provenance and sit at the very top of the vintage Bentley market. A standard 4½ Litre is the more usable car, and the market knows it.",
+   "generations": [
+    {
+     "code": "4½ Litre",
+     "name": "4½ Litre",
+     "note": "720 cars in total. The big four made 110 hp in touring trim and 130 hp for racing, and the unsupercharged car won Le Mans in 1928 with Woolf Barnato and Bernard Rubin. It was the dependable half of the Bentley legend.",
+     "spec": {
+      "drivetrain": "RWD, 4-speed manual",
+      "engine": "4.4L four-cylinder",
+      "power": "110 hp"
+     },
+     "years": "1927–1931"
+    },
+    {
+     "code": "Blower",
+     "name": "4½ Litre Blower",
+     "note": "55 supercharged cars, 175 hp in touring tune and 240 hp in racing tune, with the blower spinning ahead of the radiator. Pace was never the problem; reliability was, and a Blower never won a major race. Birkin's single-seater set 137.96 mph at Brooklands in 1932. It is also James Bond's car in Fleming's early novels.",
+     "spec": {
+      "drivetrain": "RWD, 4-speed manual",
+      "engine": "4.4L supercharged four-cylinder",
+      "power": "175 hp"
+     },
+     "years": "1929–1931"
+    }
+   ],
+   "intro": "The most famous Bentley of all was the one W. O. Bentley never wanted built. Tim Birkin bolted an Amherst Villiers supercharger to the 4½ Litre against the founder's orders, Dorothy Paget paid for it, and the Blower became the thundering symbol of the Bentley Boys era.",
+   "name": "4½ Litre 'Blower'",
+   "photo": "assets/photos/bentley-blower.webp",
+   "photoCaption": "1931 Bentley 4½ Litre Blower",
+   "photoCredit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1931_Bentley_4.5_Litre_Blower.jpg",
+   "photos": [
+    {
+     "caption": "1931 Bentley 4½ Litre Blower",
+     "credit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1931_Bentley_4.5_Litre_Blower.jpg",
+     "src": "assets/photos/bentley-blower.webp"
+    }
+   ],
+   "segment": "Sports car",
+   "slug": "blower",
+   "status": "Discontinued",
+   "trims": [
+    "4½ Litre",
+    "4½ Litre Blower"
+   ],
+   "years": "1927–1931"
+  },
+  {
+   "bodyStyles": [
+    "Coupe",
+    "Convertible"
+   ],
+   "buyingClass": "modern-classic",
+   "collectorNote": "R-Type Continentals are blue-chip postwar Bentleys, and the Mulliner fastback is the one to have. First-generation GTs are the opposite trade: the full Crewe experience at modern-classic money, with running costs to match.",
+   "generations": [
+    {
+     "code": "R-Type Continental",
+     "name": "R-Type Continental",
+     "note": "207 production cars plus one prototype, most bodied by H. J. Mulliner in aluminium over ash. Bentley never quoted power; period estimates put the 4.6 litre six at 150 to 160 hp. At £6,928 it was among the most expensive cars in the world. Autocar called it a modern magic carpet.",
+     "spec": {
+      "drivetrain": "RWD, 4-speed manual or automatic",
+      "engine": "4.6L straight-six",
+      "power": "150–160 hp (est.)"
+     },
+     "years": "1952–1955"
+    },
+    {
+     "code": "Continental GT",
+     "name": "Continental GT (first generation)",
+     "note": "The first Bentley of the Volkswagen era and the first built in volume: a twin-turbo W12 with 560 PS, all-wheel drive and a cabin trimmed like a Savile Row suit, at half the price of the car it replaced. It transformed Bentley's fortunes, and the name has led the range ever since.",
+     "spec": {
+      "drivetrain": "AWD, 6-speed automatic",
+      "engine": "6.0L twin-turbo W12",
+      "power": "560 PS"
+     },
+     "years": "2003–2011"
+    }
+   ],
+   "intro": "One name, two revolutions. The R-Type Continental of 1952 was the fastest four-seater in the world, a wind-tunnelled aluminium fastback for crossing continents at 100 mph. Half a century later the Continental GT did it again, turning Bentley from coachbuilt rarity into the modern luxury GT benchmark.",
+   "name": "Continental",
+   "photo": "assets/photos/bentley-r-type-continental.webp",
+   "photoCaption": "1953 Bentley R-Type Continental by H.J. Mulliner",
+   "photoCredit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:1953_Bentley_R-Type_Continental_HCC23.jpg",
+   "photos": [
+    {
+     "caption": "1953 Bentley R-Type Continental by H.J. Mulliner",
+     "credit": "Photo: MrWalkr, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:1953_Bentley_R-Type_Continental_HCC23.jpg",
+     "src": "assets/photos/bentley-r-type-continental.webp"
+    }
+   ],
+   "segment": "Grand tourer",
+   "slug": "continental",
+   "status": "In production",
+   "trims": [
+    "R-Type Continental",
+    "Continental GT",
+    "Continental GT Speed",
+    "Continental GTC"
+   ],
+   "years": "1952–present"
+  }
+ ]
+}

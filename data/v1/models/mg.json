@@ -1,0 +1,61 @@
+{
+ "make": "mg",
+ "models": [
+  {
+   "bodyStyles": [
+    "Roadster",
+    "Coupe"
+   ],
+   "buyingClass": "vintage",
+   "collectorNote": "Half a million built means parts, knowledge and community forever: the MGB is the easiest classic sports car in the world to own. Chrome-bumper roadsters and the GT V8 lead values; originality beats specification.",
+   "generations": [
+    {
+     "code": "MGB",
+     "name": "MGB roadster",
+     "note": "The 1.8 litre B-series four made 95 bhp in early British tune. Unitary construction replaced the separate chassis of the MGA, with crumple zones engineered in. US emissions equipment trimmed power as the seventies went on, and rubber bumpers arrived in 1974.",
+     "spec": {
+      "drivetrain": "RWD, 4-speed manual",
+      "engine": "1.8L B-series four-cylinder",
+      "power": "95 hp"
+     },
+     "years": "1962–1980"
+    },
+    {
+     "code": "MGB GT",
+     "name": "MGB GT and GT V8",
+     "note": "The GT added a Pininfarina-influenced fastback roof and a hatch, inventing the affordable sporting estate-coupé. The MGC brought a 2.9 litre six-cylinder, and the GT V8 used Rover's light 3.5 litre V8, the engine the car had always deserved.",
+     "spec": {
+      "drivetrain": "RWD, 4-speed manual",
+      "engine": "1.8L B-series four-cylinder",
+      "power": "95 hp"
+     },
+     "years": "1965–1980"
+    }
+   ],
+   "intro": "The best-selling sports car in the world for nearly twenty years, and the car that taught America what a British roadster was. The MGB got its formula right first time in 1962: monocoque body, wind-up windows, honest handling, and sold 523,836 cars including the GT, MGC and V8.",
+   "name": "MGB",
+   "photo": "assets/photos/mg-mgb.webp",
+   "photoCaption": "1969 MGB roadster in British racing green",
+   "photoCredit": "Photo: DeFacto, CC BY-SA 4.0, via Wikimedia Commons",
+   "photoSource": "https://commons.wikimedia.org/wiki/File:MG_MGB_open_roadster_1969.jpg",
+   "photos": [
+    {
+     "caption": "1969 MGB roadster in British racing green",
+     "credit": "Photo: DeFacto, CC BY-SA 4.0, via Wikimedia Commons",
+     "source": "https://commons.wikimedia.org/wiki/File:MG_MGB_open_roadster_1969.jpg",
+     "src": "assets/photos/mg-mgb.webp"
+    }
+   ],
+   "segment": "Roadster",
+   "slug": "mgb",
+   "status": "Discontinued",
+   "trims": [
+    "MGB roadster",
+    "MGB GT",
+    "MGC",
+    "MGB GT V8"
+   ],
+   "years": "1962–1980"
+  }
+ ]
+}

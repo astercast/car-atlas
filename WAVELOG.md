@@ -1,5 +1,41 @@
 # WAVELOG — Car Atlas
 
+## Completeness wave — the record cars (2026-10-15)
+
+- **Census first.** The atlas was audited against the canonical
+  list (all-time auction records, marque heritage and registry
+  sources, the Price Watch gap list): 20 of the 22 record-table
+  entries, 26 canonical marques and roughly 45 marque-defining
+  models were missing. Full audit and ranking filed with the
+  fleet's research audits.
+- **Built, ranks 1–18.** Six new makes (Bugatti, Bentley,
+  Citroën, Lancia, MG, Shelby) with eleven models, plus seven
+  models added to existing makes: Ferrari 250 GTO,
+  Mercedes-Benz 300 SLR, Jaguar D-Type, Alfa Romeo 8C 2900B,
+  Lamborghini Diablo, BMW M1, Porsche 959. Totals now 65 makes,
+  275 models, 508 generations; homepage stats strip and folio
+  date updated to match.
+- **Facts verified, two corrections carried.** The supposed
+  2019 RM Paris Lungo Spider result does not exist (the car
+  sold at RM Monterey 2016; the Paris 2019 car was Artcurial's
+  Berlinetta), and the 8C 2900B is dated 1937–1939, not the
+  broader span often printed. Every figure in the new records
+  traces to a manufacturer, auction house or registry source.
+- **Photos at the bar.** 26 photographs sourced from Wikimedia
+  Commons with licence and artist verified through the MediaWiki
+  API (CC0, public domain, CC BY or CC BY-SA only) and each read
+  against its car before wiring, including the Uhlenhaut Coupé
+  itself for the 300 SLR and Saby's 1989 Monte Carlo Delta.
+  The in-tree orphan ferrari-250-gto.webp was left untouched:
+  its provenance is unrecorded, so the model record carries a
+  fresh, fully credited Series II photograph instead. The
+  crowd-free cover photograph remains a named Foundry carry,
+  not closed here.
+- **Clubs.** One national owners' club per new make (Bugatti
+  Owners' Club 1929, Bentley Drivers Club 1936, Citroën Car
+  Club 1949, Lancia Motor Club 1947, SAAC 1975, MG Car Club
+  1930): 52 clubs total.
+
 ## Layout rework — THE SHOWROOM (2026-10-15)
 
 - **The browse layer rebuilt** to the filed plan
