@@ -395,6 +395,23 @@ expected gap; depth and live intelligence are.
   all three named candidates; a badged Stutz Blackhawk (a named
   trim of the Vertical Eight record) replaces the unbadged
   period photo.
+- **Price Watch stage 14 (rotation 32):** 130 → **133 certified
+  results**. The pass worked the one range cohort stage 13
+  opened: the Toyota 2000GT in dollars, six certified sales →
+  **nine** (RM Sotheby's Amelia Island 2015, $880,000; RM
+  Sotheby's Amelia Island 2016, chassis MF1010088, $797,500 —
+  that car's second certified sale; Bring a Trailer 2021,
+  chassis MF10-10101, $850,000, 19,339 km), past the n≥8 median
+  trigger: **the eleventh benchmark cohort fires, median
+  $880,000**, and no range-only cohort remains. Each record was
+  certified against two independent sources agreeing on car,
+  house, sale day and price. Skips recorded in the file: one
+  candidate whose direct record read failed and lacked a second
+  source stating price and day together, one single-index
+  candidate, and four sales dated only to multi-day events.
+  Condition **33/130 → 33/133**, mileage **40/130 → 41/133**,
+  chassis **100/130 → 102/133**, linked **103 → 106**, orphans
+  unchanged at 27.
 - **T-CARS-1: the tenth benchmark cohort, and the last range.**
   The F1/USD cohort reached **n=8**, past the priced n≥8
   trigger, so the build-computed machinery now publishes ten
@@ -607,6 +624,13 @@ benchmarks and no range-only cohort remains. The set stands at
 (condition 33/130, mileage 40/130, chassis 100/130, linked 103,
 orphans 27) and opened one new range-only cohort, the Toyota
 2000GT in dollars at n=6; the ten benchmark medians stand.
+
+**Rotation 32 update:** stage 14 took the set to 133 certified
+(condition 33/133, mileage 41/133, chassis 102/133, linked 106,
+orphans 27) and worked the Toyota 2000GT dollar cohort from
+n=6 to n=9, past the trigger: eleven benchmark medians now
+stand in `data/v1/cohorts.json` (2000GT/USD median $880,000)
+and no range-only cohort remains.
 majority (c) requires, and (a) scale is still ~18 stage passes
 away at the demonstrated rate, or the same licensed-feed owner
 call.

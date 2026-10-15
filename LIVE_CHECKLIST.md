@@ -263,6 +263,14 @@ a conversation.
   evidence (Cord Westchester sedan, plain McLaren 720S, badged
   Stutz Blackhawk), closing the restorations item open since
   rotation 29. Still no function, no cron, no external call.
+- **Rotation-32 addendum (2026-10-15):** Price Watch stage 14
+  extended the same static file to 133 certified results (3 added,
+  all Toyota 2000GT dollar sales; linked 103 → 106 of 133, orphans
+  unchanged at 27; condition 33/130 → 33/133, mileage 40/130 →
+  41/133, chassis 100/130 → 102/133). The 2000GT dollar cohort
+  (n=9) passed the n≥8 trigger and publishes its median
+  ($880,000) as the eleventh benchmark cohort; no range-only
+  cohort remains. Still no function, no cron, no external call.
 - **Rotation-23 addendum (2026-10-14):** photography completed
   (257/257 models, 59/59 makes photographed from licensed Commons
   sources, per-photo credit + file-page URL in the dataset for the

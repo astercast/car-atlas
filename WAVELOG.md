@@ -1,5 +1,27 @@
 # WAVELOG — Car Atlas
 
+## Rotation 32 — PRICE WATCH STAGE 14 (130 → 133, Toyota 2000GT cohort n=6 → n=9: the eleventh benchmark fires, no range-only cohort remains) (2026-10-15)
+
+- **Price Watch stage 14:** **130 → 133 certified results**,
+  Toyota 2000GT dollars **6 → 9** — past the n≥8 T-CARS-1
+  trigger, so the build now publishes the cohort's median
+  (**$880,000**) as the programme's eleventh benchmark, and no
+  range-only cohort remains. The three records: chassis
+  MF10-10101 at Bring a Trailer 2021 ($850,000, 19,339 km);
+  chassis MF1010088 at RM Sotheby's Amelia Island 2016
+  ($797,500 — the same car's second certified sale, after its
+  2014 Gooding & Company result); an unnumbered-chassis car at
+  RM Sotheby's Amelia Island 2015 ($880,000). Each certified
+  against two independent sources agreeing on car, house, sale
+  day and price. Condition **33/130 → 33/133**, mileage
+  **40/130 → 41/133**, chassis **100/130 → 102/133**, linked
+  **103 → 106**, orphans unchanged at 27. Three skips recorded
+  in the file (one failed direct read without a second source
+  stating price and day together, one single-index candidate,
+  four sales dated only to multi-day events). Restorations stay
+  closed (rotation 31); the 250 GTO record and T-CARS-5 rung 2
+  untouched, owner's calls.
+
 ## Rotation 31 — PRICE WATCH STAGE 13 (125 → 130, Toyota 2000GT cohort opens at n=6) + RESTORATIONS CLOSED: all three name-level photographs restored on Commons API licence-verified evidence (2026-10-15)
 
 - **Restorations (open since rotation 29): CLOSED.** The route

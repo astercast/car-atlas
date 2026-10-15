@@ -161,7 +161,15 @@ link to the Toyota 2000GT model page (certified dollar sales
 2013–2020); condition now stands at 33/130, mileage at 40/130,
 chassis at 100/130 — and opened the 2000GT dollar cohort at n=6,
 a range-only cohort below the median trigger. Three further
-candidates were skipped and recorded. The standing
+candidates were skipped and recorded. Stage 14
+(rotation 32) extended the set to 133 results — 3 new results,
+all Toyota 2000GT dollar sales (2015–2021, one of them the second
+certified sale of chassis MF1010088); condition now stands at
+33/133, mileage at 41/133, chassis at 102/133 — and worked the
+2000GT dollar cohort from n=6 to n=9, past the median trigger
+(median $880,000), so every cohort of two or more is again a
+benchmark cohort and no range-only cohort remains. Three
+further candidates were skipped and recorded. The standing
 benchmark against the top car sites in the world — the named set,
 the scorecard, and the priced T-CARS-1 / T-CARS-5 closures — lives
 in `BENCHMARK.md`. Still planned: listings ingest adapters for
