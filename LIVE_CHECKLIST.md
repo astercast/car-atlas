@@ -327,6 +327,17 @@ a conversation.
   dollar cohort deepens from n=2 to n=5, range only; the twelve
   benchmark cohorts stand. Still no function, no cron, no
   external call.
+- **Rotation-39 addendum (2026-10-15):** Price Watch stage 21
+  extended the same static file to 154 certified results (3 added:
+  two Lamborghini Countach sales at Gooding & Company, Pebble
+  Beach 2012 and Amelia Island 2010, and one at RM Sotheby's
+  Monterey 2022, each linked to the standing Countach model
+  record; linked 124 → 127 of 154, orphans unchanged at 27;
+  condition 39/151 → 40/154, mileage 57/151 → 59/154, chassis
+  120/151 → 123/154). The Countach dollar cohort deepens from
+  n=5 to n=8 and becomes the thirteenth benchmark cohort
+  (median $690,000); no range-only cohort remains. Still no
+  function, no cron, no external call.
 - **Rotation-23 addendum (2026-10-14):** photography completed
   (257/257 models, 59/59 makes photographed from licensed Commons
   sources, per-photo credit + file-page URL in the dataset for the

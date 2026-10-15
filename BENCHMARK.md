@@ -756,6 +756,16 @@ $258,500 to $1,870,000) from three Gooding sales (Amelia Island
 2018, $258,500; Pebble Beach 2021, $720,000 and $368,000); the
 twelve benchmark medians stand unchanged in
 `data/v1/cohorts.json`.
+
+**Rotation 39 update:** stage 21 took the set to 154 certified
+(condition 40/154, mileage 59/154, chassis 123/154, linked 127,
+orphans 27), deepening the Lamborghini Countach/USD cohort from
+n=5 to n=8 (Pebble Beach 2012, $660,000; Amelia Island 2010,
+$330,000; RM Sotheby's Monterey 2022, $1,061,000), so the cohort
+fires the trigger and becomes the thirteenth benchmark, median
+$690,000 on the standing range of $258,500 to $1,870,000; the
+twelve earlier benchmark medians stand unchanged in
+`data/v1/cohorts.json`.
 majority (c) requires, and (a) scale is still ~18 stage passes
 away at the demonstrated rate, or the same licensed-feed owner
 call.

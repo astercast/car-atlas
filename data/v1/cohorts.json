@@ -185,6 +185,24 @@
   {
    "make": "lamborghini",
    "makeName": "Lamborghini",
+   "modelSlug": "countach",
+   "modelName": "Countach LP400 Periscopo",
+   "currency": "USD",
+   "n": 8,
+   "min": 258500,
+   "max": 1870000,
+   "firstSale": "2010-03-12",
+   "lastSale": "2022-08-19",
+   "modelYears": [
+    1974,
+    1989
+   ],
+   "benchmark": true,
+   "median": 690000.0
+  },
+  {
+   "make": "lamborghini",
+   "makeName": "Lamborghini",
    "modelSlug": "miura",
    "modelName": "Miura P400 S",
    "currency": "EUR",
@@ -217,23 +235,6 @@
    ],
    "benchmark": true,
    "median": 14685000.0
-  },
-  {
-   "make": "lamborghini",
-   "makeName": "Lamborghini",
-   "modelSlug": "countach",
-   "modelName": "Countach LP400 Periscopo",
-   "currency": "USD",
-   "n": 5,
-   "min": 258500,
-   "max": 1870000,
-   "firstSale": "2014-08-16",
-   "lastSale": "2021-08-13",
-   "modelYears": [
-    1974,
-    1989
-   ],
-   "benchmark": false
   }
  ]
 }

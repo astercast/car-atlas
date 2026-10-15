@@ -213,7 +213,14 @@ One further candidate was skipped and recorded. Stage 20
 Amelia Island 2018 and two at Pebble Beach 2021), deepening
 the Countach dollar cohort from n=2 to n=5; condition now
 stands at 39/151, mileage at 57/151, chassis at 120/151.
-Eight further candidates were skipped and recorded. The standing
+Eight further candidates were skipped and recorded. Stage 21
+(rotation 39) extended the set to 154 results — 3 new results
+(two Lamborghini Countach sales at Gooding & Company, Pebble
+Beach 2012 and Amelia Island 2010, and one at RM Sotheby's
+Monterey 2022), deepening the Countach dollar cohort from
+n=5 to n=8, which fires the median trigger; condition now
+stands at 40/154, mileage at 59/154, chassis at 123/154.
+Nine further candidates were skipped and recorded. The standing
 benchmark against the top car sites in the world — the named set,
 the scorecard, and the priced T-CARS-1 / T-CARS-5 closures — lives
 in `BENCHMARK.md`. Still planned: listings ingest adapters for

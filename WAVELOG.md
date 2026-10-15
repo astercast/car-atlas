@@ -1,5 +1,37 @@
 # WAVELOG — Car Atlas
 
+## Rotation 39 — PRICE WATCH STAGE 21 (151 → 154, the Countach cohort reaches n=8 and fires the median) (2026-10-15)
+
+- **Price Watch stage 21:** **151 → 154 certified results**,
+  three records deepening the Lamborghini Countach/USD cohort
+  first, as charged: a 1976 Lamborghini Countach LP400
+  'Periscopica' (chassis 1120200) at Gooding & Company Pebble
+  Beach in 2012 ($660,000), a 1976 Lamborghini Countach LP400
+  Periscopo (chassis 1120154) at Gooding & Company Amelia
+  Island in 2010 ($330,000), and a 1984 Lamborghini Countach
+  LP5000 S (chassis ZA9C00500ELA12729) at RM Sotheby's
+  Monterey in 2022 ($1,061,000). At n=8 the cohort reaches the
+  eight a median needs and becomes the board's thirteenth
+  benchmark cohort, median $690,000 on its range of $258,500
+  to $1,870,000; no range-only cohort remains, and the twelve
+  standing benchmark cohorts are unchanged. Each record
+  certified against two independent sources agreeing on car,
+  house, sale day and price (the houses' own lot records
+  against the CLASSIC.COM and Hagerty sale records, with
+  conceptcarz and Glenmarch concurring where consulted).
+  Condition **39/151 → 40/154**, mileage **57/151 → 59/154**,
+  chassis **120/151 → 123/154**, linked **124 → 127**, orphans
+  unchanged at 27. Nine skips recorded in the file: the eight
+  carried named skips, each re-attempted on a fresh search and
+  each standing (MF1010219; the Arizona Gullwing chassis
+  conflict; the two Broad Arrow 2000GTs; the Minty Forty F40;
+  the 1990 F40; the 275 GTB year conflict; the 2015 Pebble
+  Beach Countach Anniversary day conflict), and one new
+  candidate, the 2025 Amelia Island Countach 5000S whose
+  sources disagree on the car's year. Restorations stay
+  closed (rotation 31); the 250 GTO record and T-CARS-5
+  rung 2 untouched, owner's calls.
+
 ## Rotation 38 — PRICE WATCH STAGE 20 (148 → 151, the Countach cohort deepens n=2 → n=5 at the honest rate) (2026-10-15)
 
 - **Price Watch stage 20:** **148 → 151 certified results**,
