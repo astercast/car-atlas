@@ -269,6 +269,23 @@
     2004
    ],
    "benchmark": false
+  },
+  {
+   "make": "tucker",
+   "makeName": "Tucker",
+   "modelSlug": "48",
+   "modelName": "48",
+   "currency": "USD",
+   "n": 2,
+   "min": 1545000,
+   "max": 1870000,
+   "firstSale": "2024-01-13",
+   "lastSale": "2025-08-16",
+   "modelYears": [
+    1948,
+    1948
+   ],
+   "benchmark": false
   }
  ]
 }
