@@ -264,6 +264,31 @@ def main():
     else:
         print("BUILD WARN: model-essentials region not baked (marker missing in model.html)")
 
+    # Round 2 (Claude consultation extract): publish only the public
+    # files. vercel.json sets outputDirectory "site"; this step copies
+    # the pages, assets and data into site/ after every bake above,
+    # so the deploy no longer carries the whole repo (screenshots/,
+    # the .md notes, scripts/, api/, lib/ stay home). site/ is
+    # generated, never committed (see .gitignore).
+    import shutil
+    site = ROOT / "site"
+    if site.exists():
+        shutil.rmtree(site)
+    site.mkdir()
+    public_files = ["index.html", "make.html", "model.html", "buy.html",
+                    "clubs.html", "404.html", "favicon.ico", "favicon.svg",
+                    "apple-touch-icon.png", "icon-192.png", "icon-512.png",
+                    "robots.txt", "llms.txt"]
+    for name in public_files:
+        src = ROOT / name
+        if src.exists():
+            shutil.copy2(src, site / name)
+    for name in ("assets", "data"):
+        shutil.copytree(ROOT / name, site / name)
+    total = sum(p.stat().st_size for p in site.rglob("*") if p.is_file())
+    print(f"OK: published public files only → site/ ({total / 1e6:.1f} MB, "
+          f"screenshots/ and repo notes excluded)")
+
 
 if __name__ == "__main__":
     main()

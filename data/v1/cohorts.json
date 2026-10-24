@@ -239,6 +239,23 @@
   {
    "make": "ferrari",
    "makeName": "Ferrari",
+   "modelSlug": "250-gto",
+   "modelName": "250 GTO 'Bianco Speciale'",
+   "currency": "USD",
+   "n": 4,
+   "min": 38115000,
+   "max": 51705000,
+   "firstSale": "2014-08-15",
+   "lastSale": "2026-01-17",
+   "modelYears": [
+    1962,
+    1962
+   ],
+   "benchmark": false
+  },
+  {
+   "make": "ferrari",
+   "makeName": "Ferrari",
    "modelSlug": "enzo",
    "modelName": "Enzo",
    "currency": "USD",

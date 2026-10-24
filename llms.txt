@@ -1,6 +1,6 @@
 # Car Atlas
 
-> Car Atlas is an encyclopedia of every car ever made, makes, models, generations, and flagship specs, with a buying layer that routes each model to the channels where it actually changes hands, and a registry of the clubs that keep the marques alive. It is built in the open, wave by wave.
+> Car Atlas is a growing encyclopedia of cars, 275 models from 65 makes so far, with generations and flagship specs, with a buying layer that routes each model to the channels where it actually changes hands, and a registry of the clubs that keep the marques alive. It is built in the open, wave by wave.
 
 The dataset lives in `data/v1/` as plain JSON and is the single source of truth: the pages, the search index, and the API all read the same files, and functions never fabricate data, what they return is what the dataset holds, with its date on it. As of 2026-10-13 the atlas holds 59 makes, 257 models, and 469 generations, plus 46 clubs and networks. `python3 scripts/build.py` validates the schema and regenerates the search index and the model pages' baked snapshot; it fails loudly on drift. Prices are never invented: Price Watch publishes certified auction results, each with its source and date, in `data/v1/price-watch.json` and on the Buy page, and the listing schema is published alongside them.
 

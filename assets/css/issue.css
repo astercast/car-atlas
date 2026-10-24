@@ -1,8 +1,9 @@
 /* ================================================================
    THE OPENING SPREAD — the homepage issue layer (rotation 140,
    design consult "The Opening Spread", graded Round 368 CA1-CA3).
-   Loaded after style.css on index.html only; the departments below
-   the opener keep style.css. Fonts are self-hosted (see
+   Loaded after style.css on every page (round 2 extended it from
+   index.html to the inner pages so they carry the same issue
+   design). Fonts are self-hosted (see
    assets/fonts/FONTS.md): zero remote font requests.
    ================================================================ */
 @font-face {

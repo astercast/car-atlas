@@ -24,6 +24,16 @@ async function fetchJSON(path, opts) {
   return r.json();
 }
 
+/* Round 2: canonical addresses are absolute against the live
+   domain, and each make or model page points its canonical at its
+   own address (query included) once the record it loaded is known,
+   instead of every model sharing the one static /model.html. */
+const SITE_BASE = "https://car-atlas-live.vercel.app";
+const setCanonical = (path) => {
+  const el = document.querySelector('link[rel="canonical"]');
+  if (el) el.href = `${SITE_BASE}/${path}`;
+};
+
 const makeUrl = (slug) => `make.html?make=${encodeURIComponent(slug)}`;
 const modelUrl = (m, s) => `model.html?make=${encodeURIComponent(m)}&model=${encodeURIComponent(s)}`;
 
@@ -141,7 +151,7 @@ const thumbFigure = (rec, modelPhoto = false, cls = "", creditOnly = false) => {
      never the specific car that sold); the doubled word goes. */
   const creditPart = creditOnly ? String(rec.photoCredit) : `${rec.photoCaption} · ${rec.photoCredit}`;
   const cap = modelPhoto ? `Model photo: ${creditPart.replace(/^Photo: /, "").replace(/ · Photo: /, " · ")}` : creditPart;
-  return `<figure class="thumb ${cls}"><img src="${esc(rec.photo)}" alt="${esc(rec.photoCaption)}" loading="lazy"><figcaption>${esc(cap)}</figcaption></figure>`;
+  return `<figure class="thumb ${cls}"><img src="${esc(rec.photo.replace('.webp', '-640.webp'))}" srcset="${esc(rec.photo.replace('.webp', '-640.webp'))} 640w, ${esc(rec.photo)} 1600w" sizes="(min-width:900px) 290px, 90vw" alt="${esc(rec.photoCaption)}" loading="lazy"><figcaption>${esc(cap)}</figcaption></figure>`;
 };
 /* make/modelSlug -> search-index entry (carries the photo fields) */
 const photoMapFromIndex = (idx) => new Map(idx.filter((e) => e.type === "model" && e.photo).map((e) => [`${e.make}/${e.slug}`, e]));
@@ -224,7 +234,7 @@ function plateSignal(e, sigMap) {
 const plateHTML = (e, sigMap) => {
   const sig = plateSignal(e, sigMap);
   return `<div class="plate-cell"><a class="plate" href="${modelUrl(e.make, e.slug)}">
-    ${e.photo ? `<span class="plate-photo"><img src="${esc(e.photo)}" alt="${esc(`${e.makeName} ${e.name}`)}" loading="lazy"></span>` : ""}
+    ${e.photo ? `<span class="plate-photo"><img src="${esc(e.photo.replace('.webp', '-640.webp'))}" srcset="${esc(e.photo.replace('.webp', '-640.webp'))} 640w, ${esc(e.photo)} 1600w" sizes="(min-width:900px) 290px, 90vw" alt="${esc(`${e.makeName} ${e.name}`)}" loading="lazy"></span>` : ""}
     <span class="plate-name">${esc(e.makeName)} ${esc(e.name)}</span>
     <span class="plate-micro">${esc(e.years)} · ${esc(e.segment)}</span>
     ${sig ? `<span class="plate-signal">${sig}</span>` : ""}
@@ -367,8 +377,9 @@ async function initMake() {
     fetchJSON("data/v1/price-watch.json").catch(() => null),
   ]);
   const meta = makesData.makes.find((m) => m.slug === slug);
-  if (!meta) { $("#make-root").innerHTML = `<p class="center-note">Make not found.</p>`; return; }
+  if (!meta) { $("#make-root").innerHTML = `<p class="center-note">We do not have that page. <a href="index.html#atlas">Browse the atlas</a> or use the search above.</p>`; return; }
   document.title = `${meta.name} · Car Atlas`;
+  setCanonical(`make.html?make=${encodeURIComponent(slug)}`);
   const marqueResults = (priceWatch?.results || []).filter((r) => r.make === slug)
     .sort((a, b) => b.saleDate.localeCompare(a.saleDate));
   /* Professional rework (2026-10-15): the home cover photograph
@@ -444,6 +455,7 @@ function renderBakedModel(root, mk, md) {
   const e = all && all[`${mk}/${md}`];
   if (!e) return false;
   document.title = `${formula(e.makeName, e.name, e.years)} · Car Atlas`;
+  setCanonical(`model.html?make=${encodeURIComponent(mk)}&model=${encodeURIComponent(md)}`);
   root.innerHTML = `
     <div class="crumb"><a href="index.html">Atlas</a> / <a href="${makeUrl(mk)}">${esc(e.makeName)}</a> / ${esc(e.name)}</div>
     <h1>${esc(formula(e.makeName, e.name, e.years))}</h1>
@@ -463,7 +475,14 @@ function renderBakedModel(root, mk, md) {
 }
 
 function modelStuck(root, baked, err) {
-  const msg = `The full record didn't finish loading${err ? ` (${err.message})` : ""}.`;
+  /* Round 2: nothing baked means the atlas has no such car, so say
+     that plainly (the extract's tested wording) instead of calling
+     a missing car a loading problem and showing the file path. */
+  if (!baked) {
+    root.innerHTML = '<p class="center-note">We do not have that car yet. <a href="index.html#atlas">Browse the atlas</a> or use the search above.</p>';
+    return;
+  }
+  const msg = `The full record didn't finish loading.`;
   const wire = () => { const b = $("#model-retry", root); if (b) b.addEventListener("click", () => initModel()); };
   const st = baked && $("#model-load-status", root);
   if (st) {
@@ -522,8 +541,9 @@ async function initModel() {
   settled = true;
   const meta = makesData.makes.find((m) => m.slug === mk);
   const model = file.models.find((m) => m.slug === md);
-  if (!meta || !model) { live = true; cancelWatchdog(); root.innerHTML = `<p class="center-note">Model not found in the atlas yet.</p>`; return; }
+  if (!meta || !model) { live = true; cancelWatchdog(); root.innerHTML = `<p class="center-note">We do not have that car yet. <a href="index.html#atlas">Browse the atlas</a> or use the search above.</p>`; return; }
   document.title = `${formula(meta.name, model.name, model.years)} · Car Atlas`;
+  setCanonical(`model.html?make=${encodeURIComponent(mk)}&model=${encodeURIComponent(md)}`);
   const cls = buying.buyingClasses[model.buyingClass];
   const channels = (cls?.primaryChannels || [])
     .map((d) => buying.channels.find((c) => c.domain === d)).filter(Boolean);
@@ -891,6 +911,18 @@ const page = document.body.dataset.page;
 const boot = { home: initHome, make: initMake, model: initModel, clubs: initClubs, buy: initBuy }[page];
 if (boot) boot().catch((err) => {
   const el = $("#js-error");
+  /* Round 2 (extract, tested): a missing make or model file is a
+     missing page, not a load failure, and the file path is not
+     shown to the visitor. */
+  if (el && (page === "make" || page === "model") && /models\//.test(err.message)) {
+    el.innerHTML = 'We do not have that page. <a href="index.html#atlas">Browse the atlas</a> or use the search above.';
+    el.classList.remove("hidden");
+    document.querySelectorAll("main p").forEach((p) => {
+      if (/^Loading/.test(p.textContent)) p.remove();
+    });
+    console.error(err);
+    return;
+  }
   if (el) { el.textContent = `Something failed to load (${err.message}). The atlas data may still be syncing; reload in a moment.`; el.classList.remove("hidden"); }
   console.error(err);
 });
