@@ -1,0 +1,5 @@
+# TK2 (rotation 140): screenshots and docs stay out of the deploy.
+# lib/ and scripts/ are NOT ignored: the api/ functions bundle lib/
+# by file tracing, and the build command runs scripts/build.py.
+screenshots
+*.md

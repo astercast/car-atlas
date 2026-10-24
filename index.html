@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Car Atlas · Every car ever made. One atlas.</title>
 <meta name="description" content="The all-in-one car atlas: every make, model, and generation ever built, with specs, history, certified auction results, and the clubs that keep them running.">
-<meta name="theme-color" content="#fafaf8">
+<meta name="theme-color" content="#FAF8F4">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -21,74 +21,56 @@
 <meta name="twitter:title" content="Car Atlas · Every car ever made. One atlas.">
 <meta name="twitter:description" content="The all-in-one car atlas: every make, model, and generation ever built, with specs, history, certified auction results, and the clubs that keep them running.">
 <meta name="twitter:image" content="assets/og-card.png">
-<link rel="preload" href="assets/fonts/inter-latin-normal-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/schibsted-grotesk-latin-normal-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/libre-caslon-display-latin-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" fetchpriority="high" imagesrcset="assets/photos/ferrari-250-gto-cover-800.webp 800w, assets/photos/ferrari-250-gto-cover-1200.webp 1200w, assets/photos/ferrari-250-gto-cover.webp 1600w" imagesizes="100vw">
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/issue.css">
 </head>
 <body data-page="home">
-
-<header class="nav"><div class="wrap nav-in">
-  <a class="wordmark" href="index.html">CAR ATLAS<span class="dot">.</span></a>
-  <nav class="nav-links">
-    <a href="index.html#atlas">The Atlas</a><a href="index.html#price-watch">Price Watch</a><a href="index.html#journal">The Journal</a><a href="buy.html">Buy</a><a href="clubs.html">Clubs</a>
+<a class="skip-link" href="#main">Skip to the issue</a>
+<header class="issue-head">
+  <a class="nameplate" href="index.html">Car Atlas<span class="dot">.</span></a>
+  <nav class="nav-links" aria-label="Sections">
+    <a href="index.html#atlas">The Atlas</a>
+    <a href="index.html#price-watch">Price Watch</a>
+    <a href="index.html#journal">The Journal</a>
+    <a href="buy.html">Buy</a>
+    <a href="clubs.html">Clubs</a>
   </nav>
-  <div class="nav-search"><input type="search" class="nav-q" placeholder="Search cars…" aria-label="Search every make and model" autocomplete="off"><div class="results nav-results hidden" role="listbox"></div></div>
-</div></header>
-
-<main class="wrap">
-  <div class="masthead">
-    <p class="mast-word">CAR ATLAS<span class="dot">.</span></p>
-    <p class="mast-tag">Every car ever made. One atlas. An encyclopedia, a certified results record, and a journal, published as one issue.</p>
-    <p class="folio" id="folio"><span>The <b>October 2026</b> issue</span><span class="sep">·</span><span>Atlas data as of <b>15 October 2026</b></span><span class="sep">·</span><span><b>65</b> makes, <b>275</b> models, <b>508</b> generations</span><span class="sep">·</span><span>Price Watch: <b>165</b> certified auction results</span></p>
+  <div class="nav-search">
+    <input type="search" class="nav-q" placeholder="Search cars" aria-label="Search every make and model" autocomplete="off">
+    <div class="results nav-results hidden" role="listbox"></div>
   </div>
+</header>
 
-  <section class="cover" aria-label="Cover car">
-    <figure class="photo cover-photo">
-      <img src="assets/photos/ferrari-250-gto-cover.webp" alt="Ferrari 250 GTO">
-      <figcaption>Ferrari 250 GTO (Series I body), front 3/4 · Photo: Calreyn88, CC BY-SA 4.0, via Wikimedia Commons · <a href="https://commons.wikimedia.org/wiki/File:1964_Ferrari_250_GTO_1.jpg" target="_blank" rel="noopener">File page ↗</a></figcaption>
+<main id="main">
+  <p class="folio" id="folio"><!--FB:index-folio:BEGIN--><span>The <b>October 2026</b> issue</span><span class="sep">·</span><span>Atlas data as of <b>16 October 2026</b></span><span class="sep">·</span><span><b>65</b> makes, <b>275</b> models, <b>508</b> generations</span><span class="sep">·</span><span>Price Watch: <b>166</b> certified auction results</span><!--FB:index-folio:END--></p>
+
+  <section class="opener" aria-labelledby="cover-h">
+    <p class="opener-kick">On the cover · Sold at auction</p>
+    <h1 class="opener-title" id="cover-h">Ferrari 250 GTO <span class="opener-year">1962</span></h1>
+
+    <figure class="spread">
+      <img src="assets/photos/ferrari-250-gto-cover.webp" srcset="assets/photos/ferrari-250-gto-cover-800.webp 800w, assets/photos/ferrari-250-gto-cover-1200.webp 1200w, assets/photos/ferrari-250-gto-cover.webp 1600w" sizes="100vw" alt="A red Ferrari 250 GTO wearing race number 22, front three-quarter view on grass" width="1600" height="1080" fetchpriority="high" style="view-transition-name: car-ferrari-250-gto">
+      <figcaption class="credit">Ferrari 250 GTO (Series I body), front 3/4 · Photo: Calreyn88, CC BY-SA 4.0, via <a href="https://commons.wikimedia.org/wiki/File:1964_Ferrari_250_GTO_1.jpg" rel="noopener">Wikimedia Commons</a></figcaption>
     </figure>
-    <div class="cover-lines">
-      <div class="cover-main">
-        <p class="cover-state">Sold</p>
-        <h1 class="cover-title">Ferrari 250 GTO (1962)</h1>
-        <p class="cover-standfirst">Thirty-six were built, and the 250 GTO became the car the whole hobby measures itself against. This example, chassis 3413 GT, is the cover: the market still starts here.</p>
-      </div>
-      <div class="cover-side">
-        <p class="cover-price">$48,405,000</p>
-        <p class="cover-basis">Including buyer's premium (hammer $44,000,000)</p>
-        <p class="cover-date"><b>RM Sotheby's Monterey</b> · 25 August 2018<span id="cover-age"></span></p>
-        <p class="cover-src">Certified result, Price Watch. Source: <a href="https://rmsothebys.com/media-center/press-releases/the-most-valuable-car-ever-sold-at-auction-rm-sotheby-s-sells-1962-ferrari-250-gto-for-484-million/" target="_blank" rel="noopener">RM Sotheby's press release ↗</a></p>
-        <p><a class="btn" href="make.html?make=ferrari">Ferrari in the atlas →</a></p>
-      </div>
-    </div>
+
+    <div class="opener-band"><!--FB:index-cover-band:BEGIN--><p class="standfirst">Thirty-six were built, and the 250 GTO became the car the whole hobby measures itself against. This one, chassis 3413 GT, is the cover because the market still starts here.</p><div class="sale"><p class="sale-price">$48,405,000</p><p class="sale-basis">Including buyer&#x27;s premium (hammer $44,000,000).</p><p class="sale-where"><b>RM Sotheby&#x27;s Monterey</b>, 25 August 2018<span id="cover-age"></span></p><p class="sale-src">Certified result. <a href="https://rmsothebys.com/media-center/press-releases/the-most-valuable-car-ever-sold-at-auction-rm-sotheby-s-sells-1962-ferrari-250-gto-for-484-million/" rel="noopener">Source: RM Sotheby&#x27;s press release</a></p></div><dl class="spec"><div><dt>Engine</dt><dd>3.0L Colombo V12</dd></div><div><dt>Power</dt><dd>300 hp</dd></div><div><dt>Drive</dt><dd>RWD, 5-speed manual</dd></div><div><dt>Built</dt><dd>36 cars</dd></div></dl><p class="opener-go"><a href="model.html?make=ferrari&amp;model=250-gto">The 250 GTO in the atlas <span aria-hidden="true">→</span></a></p><!--FB:index-cover-band:END--></div>
   </section>
 
-  <div class="searchbox">
-    <input id="q" type="search" placeholder="Try “911”, “Miata”, “Countach”…" autocomplete="off" aria-label="Search every make and model">
-    <button class="go" aria-label="Search" onclick="document.getElementById('q').focus()">→</button>
-    <div id="q-results" class="results hidden" role="listbox"></div>
+  <div class="find">
+    <div class="searchbox">
+      <label class="find-label" for="q">Find a car</label>
+      <input id="q" type="search" placeholder="Try 911, Miata or Countach" autocomplete="off">
+      <div id="q-results" class="results hidden" role="listbox"></div>
+    </div>
+    <p id="js-error" class="note-box hidden" role="alert"></p>
   </div>
 
-  <p id="js-error" class="note-box hidden" role="alert"></p>
-
+  <div class="wrap">
   <section class="contents" aria-label="Contents">
-    <p class="contents-head">Contents</p>
-    <div class="doors">
-      <a class="door" href="#atlas">
-        <p class="d-name">The Atlas</p>
-        <p class="d-contract">Every make, model and generation in the atlas, by marque and by era.</p>
-        <p class="d-inside" id="door-atlas">65 makes · 275 models · 508 generations</p>
-      </a>
-      <a class="door" href="#price-watch">
-        <p class="d-name">The Price Watch</p>
-        <p class="d-contract">Certified auction results, each one tied to its published source.</p>
-        <p class="d-inside" id="door-pw">165 certified results · newest sales below, all of them on the Buy page</p>
-      </a>
-      <a class="door" href="#journal">
-        <p class="d-name">The Journal</p>
-        <p class="d-contract">Collector notes and marque histories, drawn from the records themselves.</p>
-        <p class="d-inside">Notes on 182 models · the river below</p>
-      </a>
-    </div>
+    <ul class="contents-line"><!--FB:index-contents:BEGIN--><li><a href="#atlas">The Atlas<span class="c-count" id="door-atlas">65 makes · 275 models · 508 generations</span></a></li><li><a href="#price-watch">The Price Watch<span class="c-count" id="door-pw">166 certified results · newest sales below, all of them on the Buy page</span></a></li><li><a href="#journal">The Journal<span class="c-count">Notes on 200 models · the river below</span></a></li><!--FB:index-contents:END--></ul>
   </section>
 
   <section class="dept" id="atlas">
@@ -114,7 +96,7 @@
     <div class="dept-head"><p class="dept-word">Department</p><h2>The Price Watch</h2><p class="dept-note">Completed auction results, each certified against a published source. A result is one car on one day: context, not a valuation.</p></div>
     <p class="rail-name">Certified results<span class="sort">newly sold first</span></p>
     <div class="listings" id="pw-rail"></div>
-    <p style="margin-top:18px"><a class="btn" href="buy.html">All 165 certified results, with filters →</a></p>
+    <p style="margin-top:18px"><a class="btn" href="buy.html">All <!--FB:index-pw-n:BEGIN-->166<!--FB:index-pw-n:END--> certified results, with filters →</a></p>
   </section>
   <div class="contour-slot" aria-hidden="true"></div>
 
@@ -166,6 +148,7 @@
     <h2 style="margin-top:44px">Find your people.</h2>
     <p>Car culture is local. The clubs registry covers marque clubs, motorsport bodies, and meet networks by region.</p>
     <a class="btn" href="clubs.html">All clubs →</a>
+  </div>
   </div>
 </main>
 

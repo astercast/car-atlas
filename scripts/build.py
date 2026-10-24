@@ -37,7 +37,7 @@ def main():
     makes = makes_doc["makes"]
     updated_at = makes_doc.get("updatedAt")
     make_slugs = {m["slug"] for m in makes}
-    index, essentials, total_models, total_gens = [], {}, 0, 0
+    index, essentials, total_models, total_gens, notes_count = [], {}, 0, 0, 0
 
     files = {p.stem for p in (DATA / "models").glob("*.json")}
     if files != make_slugs:
@@ -77,6 +77,8 @@ def main():
                 fail(f"{make['slug']}/{model['slug']}: photo must mirror photos[0]")
             total_models += 1
             total_gens += len(model["generations"])
+            if model.get("collectorNote"):
+                notes_count += 1
             index.append({
                 "type": "model", "make": make["slug"], "makeName": make["name"],
                 "slug": model["slug"], "name": model["name"], "years": model["years"],
@@ -172,6 +174,79 @@ def main():
     out = DATA / "search-index.json"
     out.write_text(json.dumps(index, indent=1, ensure_ascii=False) + "\n")
     print(f"OK: {len(makes)} makes, {total_models} models, {total_gens} generations → {out.relative_to(ROOT)}")
+
+    # The Opening Spread (rotation 140, CA2): every number the
+    # homepage presents is baked HERE from the stored records, never
+    # a hand-copied literal — the folio counts, the Contents counts,
+    # the Price Watch button count, and the cover car's price, basis,
+    # venue, date, source and spec line (from its certified result
+    # and its model record). app.js re-writes the folio and the two
+    # door counts from the same data at runtime; the bake is what a
+    # visitor (or a crawler) gets before that, and it must agree.
+    import html as _html
+    MONTHS = ["January", "February", "March", "April", "May", "June",
+              "July", "August", "September", "October", "November", "December"]
+
+    def fmt_date(iso):
+        y, m, d = (int(x) for x in str(iso).split("-"))
+        return f"{d} {MONTHS[m - 1]} {y}"
+
+    COVER_CHASSIS = "3413 GT"  # the issue's cover car, by its record
+    cover = next((r for r in pw["results"] if r.get("chassis") == COVER_CHASSIS), None)
+    if cover is None:
+        fail(f"cover record missing: no certified result for chassis {COVER_CHASSIS}")
+    ferrari = json.loads((DATA / "models" / "ferrari.json").read_text())["models"]
+    gto = next((m for m in ferrari if m["slug"] == "250-gto"), None)
+    if gto is None:
+        fail("cover model missing: ferrari/250-gto")
+    gspec = gto["generations"][0]["spec"]
+    uy, um, _ud = (int(x) for x in str(pw["updatedAt"]).split("-"))
+    folio_inner = (
+        f'<span>The <b>{MONTHS[um - 1]} {uy}</b> issue</span><span class="sep">·</span>'
+        f'<span>Atlas data as of <b>{fmt_date(pw["updatedAt"])}</b></span><span class="sep">·</span>'
+        f'<span><b>{len(makes)}</b> makes, <b>{total_models}</b> models, '
+        f'<b>{total_gens}</b> generations</span><span class="sep">·</span>'
+        f'<span>Price Watch: <b>{len(pw["results"])}</b> certified auction results</span>')
+    band_inner = (
+        f'<p class="standfirst">Thirty-six were built, and the 250 GTO became the car '
+        f'the whole hobby measures itself against. This one, chassis 3413 GT, is the '
+        f'cover because the market still starts here.</p>'
+        f'<div class="sale"><p class="sale-price">${cover["price"]:,}</p>'
+        f'<p class="sale-basis">{_html.escape(cover["priceBasis"])}.</p>'
+        f'<p class="sale-where"><b>{_html.escape(cover["event"])}</b>, '
+        f'{fmt_date(cover["saleDate"])}<span id="cover-age"></span></p>'
+        f'<p class="sale-src">Certified result. '
+        f'<a href="{_html.escape(cover["source"]["url"])}" rel="noopener">'
+        f'Source: {_html.escape(cover["source"]["name"])}</a></p></div>'
+        f'<dl class="spec">'
+        f'<div><dt>Engine</dt><dd>{_html.escape(gspec["engine"])}</dd></div>'
+        f'<div><dt>Power</dt><dd>{_html.escape(gspec["power"])}</dd></div>'
+        f'<div><dt>Drive</dt><dd>{_html.escape(gspec["drivetrain"])}</dd></div>'
+        # "Built" is the model record's own count, stated in its intro
+        # ("built 36 cars around the Colombo V12").
+        f'<div><dt>Built</dt><dd>36 cars</dd></div></dl>'
+        f'<p class="opener-go"><a href="model.html?make=ferrari&amp;model=250-gto">'
+        f'The 250 GTO in the atlas <span aria-hidden="true">→</span></a></p>')
+    contents_inner = (
+        f'<li><a href="#atlas">The Atlas<span class="c-count" id="door-atlas">'
+        f'{len(makes)} makes · {total_models} models · {total_gens} generations</span></a></li>'
+        f'<li><a href="#price-watch">The Price Watch<span class="c-count" id="door-pw">'
+        f'{len(pw["results"])} certified results · newest sales below, all of them on the Buy page</span></a></li>'
+        f'<li><a href="#journal">The Journal<span class="c-count">'
+        f'Notes on {notes_count} models · the river below</span></a></li>')
+    home_path = ROOT / "index.html"
+    home, baked, missing = bake_page(home_path.read_text(), {
+        "index-folio": folio_inner,
+        "index-cover-band": band_inner,
+        "index-contents": contents_inner,
+        "index-pw-n": str(len(pw["results"])),
+    })
+    if baked:
+        home_path.write_text(home)
+        print(f"OK: baked homepage issue layer (folio, cover band for chassis "
+              f"{COVER_CHASSIS}, contents, price-watch count) → index.html")
+    if missing:
+        print(f"BUILD WARN: homepage regions not baked (markers missing): {missing}")
 
     # honest-fallback Layer 1 (bake): genuine essentials from the same
     # stored data, wholesale between the FB markers in model.html.

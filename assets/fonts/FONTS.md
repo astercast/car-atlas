@@ -56,3 +56,31 @@ stylesheet asks for.
   at 2000 upm): size-adjust 852/918 = 92.81%; ascent override
   73.50/0.9281 = 79.19%; descent override 26.50/0.9281 = 28.55%.
   Newsreader is not preloaded: Inter carries first paint.
+
+## Rotation 140 addition: The Opening Spread faces (design consult, CA1)
+
+| file | family | style | weight | role here |
+|---|---|---|---|---|
+| libre-caslon-display-latin-normal.woff2 | Libre Caslon Display | normal | 400 (single weight) | the issue voice: opener titles and the price numeral on the homepage (assets/css/issue.css) |
+| schibsted-grotesk-latin-normal-var.woff2 | Schibsted Grotesk | normal | 400 to 900 variable (wght axis, one file) | the instrument voice on the homepage: folio, labels, specs, captions, interface |
+
+- Source files: the latin subset woff2 files served by the Google Fonts
+  css2 request the design draft pointed at
+  (family=Libre+Caslon+Display&family=Schibsted+Grotesk:wght@400..700),
+  fetched once at build time (rotation 140) and self-hosted here, so the
+  shipped site makes zero remote font requests. The css2 stylesheet
+  returns the Schibsted file across the full wght axis the file contains
+  (400 to 900); the @font-face in issue.css declares that full range.
+- Libre Caslon Display file: TuGOUUFxWphYQ6YI6q9Xp61FQzxDRKmzr1lWfxk.woff2
+  on the font CDN. SHA-256:
+  84267e937417f10dff37df818c5ef7f1e9f2e6a703e03c2dd286d3320af53269
+  Metrics (fontTools): units per em 1000, hhea ascent 970, descent -266.
+- Schibsted Grotesk file: Jqz55SSPQuCQF3t8uOwiUL-taUTtap9Gayo.woff2 on
+  the font CDN. SHA-256:
+  4c8b93f431d462c696e12b9d6a033feb3394d36e66e781357c496b95d8a75e05
+  Metrics (fontTools): units per em 2048, hhea ascent 2000,
+  descent -528, wght axis 400 to 900.
+- Licenses: SIL Open Font License 1.1 (both families are OFL).
+- Unicode range (both, latin subset): U+0000-00FF plus the punctuation
+  ranges in the css2 latin block, declared on the @font-face rules in
+  assets/css/issue.css.

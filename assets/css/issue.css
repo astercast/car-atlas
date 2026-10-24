@@ -1,0 +1,278 @@
+/* ================================================================
+   THE OPENING SPREAD — the homepage issue layer (rotation 140,
+   design consult "The Opening Spread", graded Round 368 CA1-CA3).
+   Loaded after style.css on index.html only; the departments below
+   the opener keep style.css. Fonts are self-hosted (see
+   assets/fonts/FONTS.md): zero remote font requests.
+   ================================================================ */
+@font-face {
+  font-family: "Libre Caslon Display";
+  src: url("../fonts/libre-caslon-display-latin-normal.woff2") format("woff2");
+  font-weight: 400; font-style: normal; font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Schibsted Grotesk";
+  src: url("../fonts/schibsted-grotesk-latin-normal-var.woff2") format("woff2-variations");
+  font-weight: 400 900; font-style: normal; font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* ============ 1. TOKENS: The Opening Spread ============ */
+:root {
+  color-scheme: light;
+
+  --paper: #FAF8F4;
+  --ink:   #121212;
+  --ink-2: #5A5853;
+  --rule:  #E3DED4;
+  --fog:   #EFEBE3;
+  --issue: #B21D1B;   /* this issue's spot colour, taken from the cover car */
+
+  --font-display: "Libre Caslon Display", Didot, "Bodoni 72", Georgia, serif;
+  --font-prose:   "Newsreader", "Newsreader Fallback", Georgia, serif;
+  --font-text:    "Schibsted Grotesk", -apple-system, "Helvetica Neue", Arial, sans-serif;
+
+  --fs-title: clamp(3rem, 1.2rem + 7.6vw, 9rem);
+  --fs-price: clamp(2.4rem, 1.4rem + 3.6vw, 4.75rem);
+  --fs-stand: clamp(1.1rem, 1rem + .5vw, 1.35rem);
+  --fs-body:  clamp(1rem, .97rem + .15vw, 1.1rem);
+  --fs-label: .74rem;
+
+  /* space: 8px unit */
+  --s-1: .5rem;
+  --s-2: 1rem;
+  --s-3: 1.5rem;
+  --s-4: 2rem;
+  --s-5: 3rem;
+  --s-6: 5rem;
+  --s-7: 8rem;
+  --gutter: clamp(1rem, .3rem + 3.2vw, 3rem);
+  --page: 80rem;
+
+  --ease-print: cubic-bezier(.2, .7, .1, 1);
+
+  /* old names, so make, model, buy and clubs follow */
+  --ink-3: var(--ink-2);
+  --line: var(--rule);
+  --accent: var(--issue); --accent-ink: var(--issue);
+  --font: var(--font-text);
+  --serif: var(--font-prose);
+  --maxw: var(--page);
+}
+
+/* ============ 2. BASE ============ */
+html, body { background: var(--paper); color: var(--ink); }
+body { margin: 0; font-family: var(--font-text); font-size: var(--fs-body); line-height: 1.55; }
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: .22em; text-decoration-color: var(--issue); }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+.skip-link { position: absolute; left: var(--gutter); top: -4rem; z-index: 50; background: var(--ink); color: var(--paper); padding: var(--s-1) var(--s-2); }
+.skip-link:focus { top: var(--s-1); }
+
+/* ============ 3. HEADER: a nameplate, not a billboard ============ */
+.issue-head {
+  display: flex; flex-wrap: wrap; align-items: center;
+  gap: var(--s-1) var(--s-5);
+  max-inline-size: var(--page);
+  margin-inline: auto;
+  padding: var(--s-3) var(--gutter) var(--s-2);
+}
+.nameplate {
+  font: 400 1.9rem/1 var(--font-display);
+  letter-spacing: -.005em;
+  text-decoration: none;
+}
+.nameplate .dot { color: var(--issue); }
+.issue-head .nav-links { display: flex; flex-wrap: wrap; gap: var(--s-1) var(--s-4); }
+.issue-head .nav-links a {
+  font: 500 .9rem/1 var(--font-text);
+  color: var(--ink-2);
+  text-decoration: none;
+  padding-block: .55rem;
+}
+.issue-head .nav-links a:hover { color: var(--ink); }
+.issue-head .nav-search { position: relative; margin-inline-start: auto; }
+.issue-head .nav-q {
+  inline-size: 13rem;
+  padding: .55rem 0;
+  font: 400 .9rem/1.2 var(--font-text);
+  color: var(--ink);
+  background: none;
+  border: 0; border-bottom: 1px solid var(--ink);
+  border-radius: 0;
+}
+
+/* ============ 4. FOLIO ============ */
+.folio {
+  max-inline-size: var(--page);
+  margin: 0 auto;
+  padding: .6rem var(--gutter);
+  display: flex; flex-wrap: wrap; gap: .25rem .6rem;
+  font: 500 var(--fs-label)/1.4 var(--font-text);
+  letter-spacing: .1em; text-transform: uppercase;
+  color: var(--ink-2);
+  border-block: 1px solid var(--rule);
+  box-sizing: border-box;
+}
+.folio b { color: var(--ink); font-weight: 650; }
+.folio .sep { color: var(--rule); }
+
+/* ============ 5. THE OPENER ============ */
+.opener {
+  display: grid;
+  grid-template-columns:
+    [full-start] minmax(var(--gutter), 1fr)
+    [page-start] minmax(0, var(--page)) [page-end]
+    minmax(var(--gutter), 1fr) [full-end];
+  padding-top: var(--s-5);
+}
+.opener > * { grid-column: page; }
+.opener-kick {
+  margin: 0;
+  font: 600 var(--fs-label)/1 var(--font-text);
+  letter-spacing: .14em; text-transform: uppercase;
+  color: var(--issue);
+}
+.opener-title {
+  margin: var(--s-2) 0 var(--s-4);
+  font: 400 var(--fs-title)/.92 var(--font-display);
+  letter-spacing: -.02em;
+  text-wrap: balance;
+}
+.opener-year {
+  font: 500 clamp(1rem, .8rem + .8vw, 1.5rem)/1 var(--font-text);
+  letter-spacing: .08em;
+  color: var(--ink-2);
+  vertical-align: .4em;
+  margin-inline-start: .2em;
+}
+
+/* the spread: edge to edge, cropped like a magazine picture */
+.spread { grid-column: full; margin: 0; overflow: hidden; }
+.spread img {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+  object-position: 50% 72%;
+}
+.credit {
+  max-inline-size: var(--page);
+  margin: var(--s-1) auto 0;
+  padding-inline: var(--gutter);
+  font: 400 .72rem/1.4 var(--font-text);
+  color: var(--ink-2);
+  text-align: end;
+}
+
+/* the caption band: three magazine columns under the picture */
+.opener-band {
+  container: band / inline-size;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: var(--s-4);
+  row-gap: var(--s-4);
+  margin-top: var(--s-4);
+  padding-top: var(--s-4);
+  border-top: 1px solid var(--ink);
+}
+.standfirst {
+  grid-column: 1 / span 5;
+  margin: 0;
+  font: 400 var(--fs-stand)/1.5 var(--font-prose);
+  max-inline-size: 38ch;
+}
+.sale { grid-column: 6 / span 4; }
+.sale p { margin: 0; }
+.sale-price {
+  font: 400 var(--fs-price)/1 var(--font-display);
+  letter-spacing: -.02em;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.sale-basis { margin-top: .5rem !important; font-size: .85rem; color: var(--ink-2); }
+.sale-where { margin-top: var(--s-2) !important; font-size: .9rem; }
+.sale-src { margin-top: .35rem !important; font-size: .8rem; color: var(--ink-2); }
+.spec { grid-column: 10 / span 3; margin: 0; }
+.spec div { display: grid; grid-template-columns: 4.5rem minmax(0, 1fr); gap: var(--s-1); padding-block: .45rem; border-bottom: 1px solid var(--rule); }
+.spec div:first-child { padding-top: 0; }
+.spec dt { font: 600 var(--fs-label)/1.6 var(--font-text); letter-spacing: .1em; text-transform: uppercase; color: var(--ink-2); }
+.spec dd { margin: 0; font-size: .92rem; }
+.opener-go { grid-column: 1 / -1; margin: 0; font: 600 .95rem/1.3 var(--font-text); }
+
+@container band (width < 52rem) {
+  .standfirst { grid-column: 1 / -1; }
+  .sale { grid-column: 1 / span 7; }
+  .spec { grid-column: 8 / -1; }
+}
+/* The band's own tracks and gaps cannot be set from its own
+   container query (a container never styles itself), so the
+   narrow-band track changes ride viewport media queries. At
+   phone widths the 12-track grid's gaps alone (11 x 2rem) are
+   wider than the screen, so the tracks themselves go away. */
+@media (width < 52rem) {
+  .opener-band { column-gap: var(--s-2); }
+}
+@media (width < 34rem) {
+  .opener-band { grid-template-columns: minmax(0, 1fr); }
+  .standfirst, .sale, .spec, .opener-go { grid-column: 1 / -1; }
+}
+@media (width < 40rem) {
+  .spread img { aspect-ratio: 4 / 3; }
+}
+
+/* ============ 6. FIND A CAR ============ */
+.find { max-inline-size: var(--page); margin: var(--s-6) auto 0; padding-inline: var(--gutter); box-sizing: border-box; }
+.find .searchbox { position: relative; display: grid; gap: .35rem; max-inline-size: 40rem; }
+.find-label { font: 600 var(--fs-label)/1 var(--font-text); letter-spacing: .12em; text-transform: uppercase; color: var(--ink-2); }
+.find #q {
+  padding: .6rem 0;
+  font: 400 clamp(1.4rem, 1.1rem + 1.2vw, 2rem)/1.2 var(--font-display);
+  color: var(--ink);
+  background: none;
+  border: 0; border-bottom: 1px solid var(--ink);
+  border-radius: 0;
+}
+.find #q::placeholder { color: var(--ink-2); }
+
+/* ============ 7. CONTENTS: one ruled line, not three cards ============ */
+.contents { margin-top: var(--s-6); }
+.contents-line {
+  display: flex; flex-wrap: wrap; gap: var(--s-2) var(--s-5);
+  margin: 0; padding: var(--s-3) 0;
+  border-block: 1px solid var(--ink);
+  list-style: none;
+}
+.contents-line a {
+  font: 600 1rem/1.3 var(--font-text);
+  text-decoration: none;
+}
+.contents-line a:hover { text-decoration: underline; text-decoration-color: var(--issue); }
+.contents-line .c-count {
+  display: block;
+  margin-top: .3rem;
+  font: 400 .82rem/1.45 var(--font-text);
+  color: var(--ink-2);
+}
+
+/* ============ 8. DEPARTMENTS: TK3 render economy ============ */
+.dept, .closing { content-visibility: auto; contain-intrinsic-size: auto 900px; }
+
+/* ============ 9. MOTION: one settle, one drift ============ */
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition { navigation: auto; }
+  ::view-transition-group(*) { animation-duration: 420ms; animation-timing-function: var(--ease-print); }
+
+  .spread img { animation: settle 1.4s var(--ease-print) both; }
+
+  @supports (animation-timeline: view()) {
+    .spread img {
+      animation: settle 1.4s var(--ease-print) both, drift linear both;
+      animation-timeline: auto, view();
+      animation-range: normal, exit 0% exit 100%;
+    }
+  }
+}
+@keyframes settle { from { scale: 1.04; } }
+@keyframes drift  { to { object-position: 50% 55%; } }

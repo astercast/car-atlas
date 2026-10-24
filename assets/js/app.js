@@ -297,7 +297,7 @@ async function initHome() {
     if (folio) folio.innerHTML = `<span>The <b>${MONTHS[d.getUTCMonth()]} ${d.getUTCFullYear()}</b> issue</span><span class="sep">·</span><span>Atlas data as of <b>${esc(fmtDate(pw.updatedAt))}</b></span><span class="sep">·</span><span><b>${makes.length}</b> makes, <b>${models.length}</b> models, <b>${genCount}</b> generations</span><span class="sep">·</span><span>Price Watch: <b>${pw.results.length}</b> certified auction results</span>`;
     const doorAtlas = $("#door-atlas"); if (doorAtlas) doorAtlas.textContent = `${makes.length} makes · ${models.length} models · ${genCount} generations`;
     const doorPw = $("#door-pw"); if (doorPw) doorPw.textContent = `${pw.results.length} certified results · newest sales below, all of them on the Buy page`;
-    const age = $("#cover-age"); if (age) age.textContent = ` · sold ${ageWords("2018-08-25")}`;
+    const age = $("#cover-age"); const coverRec = pw.results.find((r) => r.chassis === "3413 GT"); if (age && coverRec) age.textContent = ` · sold ${ageWords(coverRec.saleDate)}`;
     const rail = $("#pw-rail");
     const photoMap = photoMapFromIndex(idx);
     const lots = lotMapOf(pw.results);
@@ -650,6 +650,12 @@ async function initModel() {
       ...(model.photo ? { image: model.photo } : {}),
     }).replace(/</g, "\\u003c")}<\/script>`;
   live = true; cancelWatchdog();
+  /* The Opening Spread (rotation 140): the record's lead photo
+     carries this car's own transition name, the same name the
+     cover spread and the click handler use, so the photograph
+     carries into the record by name. */
+  const heroImg = root.querySelector(".photo-main img");
+  if (heroImg) heroImg.style.viewTransitionName = `car-${mk}-${md}`;
   if (location.hash === "#buy") { const b = $("#buy"); if (b) b.scrollIntoView(); }
   const fb = $("#follow-btn");
   if (fb) fb.addEventListener("click", () => {
@@ -878,7 +884,7 @@ document.addEventListener("click", (ev) => {
   const a = ev.target.closest('a[href*="model.html"]');
   if (!a) return;
   const img = a.querySelector("img") || a.closest(".listing, .journal-unit")?.querySelector("img");
-  if (img) img.style.viewTransitionName = "ca-record-hero";
+  if (img) { const u = new URL(a.href, location.href); const mk = u.searchParams.get("make"), md = u.searchParams.get("model"); img.style.viewTransitionName = mk && md ? `car-${mk}-${md}` : "ca-record-hero"; }
 });
 
 const page = document.body.dataset.page;
